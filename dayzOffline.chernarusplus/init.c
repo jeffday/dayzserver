@@ -58,10 +58,10 @@ class CustomMission: MissionServer
         string head[] = {"BaseballCap_CMMG_Black","BaseballCap_Camo","CowboyHat_darkBrown", "RadarCap_Black"};
         string torso[] = {"BomberJacket_Black","BomberJacket_Olive","BomberJacket_Maroon","BomberJacket_Blue"};
         string legs[] = {"Jeans_Black", "Jeans_Grey", "Jeans_BlueDark", "CargoPants_Black"};
-        string eyes[] = {"AviatorGlasses", "ClassicGlasses", "Round_Glasses", "AviatorGlasses"}
+        string eyes[] = {"AviatorGlasses", "ClassicGlasses", "Round_Glasses", "AviatorGlasses"};
         string feet[] = {"Sneakers_Black", "WorkingBoots_Green","MilitaryBoots_Redpunk", "MilitaryBoots_Bluerock"};
         
-        int rndIndex = Math.RandomInt( 0, 4 );
+        int rndIndex = Math.RandomInt(0, 4);
         
         itemEnt = SpawnWithRandomHealth(player, head[rndIndex]);
         itemEnt = SpawnWithRandomHealth(player, eyes[rndIndex]);
@@ -134,8 +134,9 @@ class CustomMission: MissionServer
         itemEnt = player.GetInventory().CreateInInventory("Hatchet");
         itemEnt = player.GetInventory().CreateInInventory("PurificationTablets");
         
-        if ( Class.CastTo( itemBs, itemEnt ) )
-			itemBs.SetQuantity(Math.RandomInt( 1, 10 ));
+        if (Class.CastTo(itemBs, itemEnt)) {
+			itemBs.SetQuantity(Math.RandomInt(1, 10));
+        }
     }
     
     void setHikerStartingItems(PlayerBase player)
@@ -185,14 +186,16 @@ class CustomMission: MissionServer
         string rifles[] = {"CZ527","Mosin9130","Winchester70","TTC_R700","TTC_kar98k","TTC_LeeEnfield", "TTC_M1903", "TTC_MAS36", "TTC_Winchester1873", "B95"};
         string ammoTypes[] = {"Mag_CZ527_5rnd", "Ammo_762x54", "Ammo_308Win", "Ammo_308Win", "TTC_Ammo_8mm", "TTC_Ammo_303", "TTC_Ammo_3006", "Ammo_762x54", "TTC_Ammo_4570", "Ammo_308Win"};
         string scopes[] = {"HuntingOptic", "PUScopeOptic", "HuntingOptic", "HuntingOptic", "HuntingOptic", "PUScopeOptic", "PUScopeOptic", "HuntingOptic", "HuntingOptic", "HuntingOptic"};
+
         rndIndex = Math.RandomInt( 0, 10 );
-        string rifle = rifle[rndIndex];
         
-         itemEnt = SpawnWithRandomHealth(player, rifles[rndIndex]);
-         itemEnt = player.GetInventory().CreateInInventory(scopes[rndIndex]);
-         itemEnt = player.GetInventory().CreateInInventory(ammoTypes[rndIndex]);
-         if ( Class.CastTo( itemBs, itemEnt ) )
+        itemEnt = SpawnWithRandomHealth(player, rifles[rndIndex]);
+        itemEnt = player.GetInventory().CreateInInventory(scopes[rndIndex]);
+        itemEnt = player.GetInventory().CreateInInventory(ammoTypes[rndIndex]);
+
+        if (Class.CastTo( itemBs, itemEnt )) {
 			itemBs.SetQuantity( 5 );
+        }
     }
     
     void setIndustrialStartingItems(PlayerBase player)
@@ -219,6 +222,7 @@ class CustomMission: MissionServer
         string tools[] = {"Wrench","PipeWrench","Hammer","Hacksaw","Handsaw","Shovel"}
         
         rndIndex = Math.RandomInt( 0, 6 );
+
         itemEnt = SpawnWithRandomHealth(player, tools[rndIndex]);
     }
     
@@ -241,8 +245,7 @@ class CustomMission: MissionServer
         itemEnt = SpawnWithRandomHealth(player, legs[rndIndex]);
         itemEnt = SpawnWithRandomHealth(player, "CombatBoots_Black");
         
-        if(rndIndex < 2) 
-        {            
+        if (rndIndex < 2) {            
             itemEnt = player.GetInventory().CreateInInventory("Battery9V");
         	itemEnt = player.GetInventory().CreateInInventory("Flashlight");
         } else {
@@ -264,8 +267,9 @@ class CustomMission: MissionServer
         itemEnt = SpawnWithRandomHealth(player, "Glock19");
         itemEnt = player.GetInventory().CreateInInventory("Mag_Glock_15Rnd");
             
-        if ( Class.CastTo( itemBs, itemEnt ) )
-			itemBs.SetQuantity( 15 );
+        if (Class.CastTo(itemBs, itemEnt)) {
+			itemBs.SetQuantity(15);
+        }
     }
     
     void setMedicStartingItems(PlayerBase player)
@@ -327,9 +331,9 @@ class CustomMission: MissionServer
 		rndIndex = Math.RandomInt( 0, 7 );
 		itemEnt = SpawnWithRandomHealth(player, shoesArray[rndIndex]);
 
-        itemEnt = player.GetInventory().CreateInInventory( "Battery9V" );
-        itemEnt = player.GetInventory().CreateInInventory( "Flashlight" );
-        itemEnt = player.GetInventory().CreateInInventory( "HuntingKnife" );
+        itemEnt = player.GetInventory().CreateInInventory("Battery9V");
+        itemEnt = player.GetInventory().CreateInInventory("Flashlight");
+        itemEnt = player.GetInventory().CreateInInventory("HuntingKnife");
     }
 
 	override PlayerBase CreateCharacter(PlayerIdentity identity, vector pos, ParamsReadContext ctx, string characterName)
@@ -379,12 +383,15 @@ class CustomMission: MissionServer
             else {
             	setOffDutyMilitaryStartingItems(player);
             }
+
+            // universal starting items that every type gets
             
             itemEnt = player.GetInventory().CreateInInventory( "BandageDressing" );
 			if ( Class.CastTo( itemBs, itemEnt ) )
 				itemBs.SetQuantity( 4 );
             
             string chemlightArray[] = { "Chemlight_White", "Chemlight_Yellow", "Chemlight_Green", "Chemlight_Red" };
+
 			rndIndex = Math.RandomInt( 0, 4 );
 			itemEnt = player.GetInventory().CreateInInventory( chemlightArray[rndIndex] );
             
@@ -392,6 +399,7 @@ class CustomMission: MissionServer
         	itemEnt = player.GetInventory().CreateInInventory( "SodaCan_Spite" );
 
 			rand = Math.RandomFloatInclusive( 0.0, 1.0 );
+            
 			if ( rand < 0.5 )
 				itemEnt = player.GetInventory().CreateInInventory( "ZagorkyChocolate" );
 			else
