@@ -50,6 +50,95 @@ class CustomMission: MissionServer
         
         return itemEnt;
     }
+
+    void setFirefighterStartingItems(PlayerBase player)
+    {
+        EntityAI itemEnt;
+        float rand;
+
+        string head[] = {"FirefightersHelmet_Red","FirefightersHelmet_White","FirefightersHelmet_Yellow"};
+
+        int rndIndex = Math.RandomInt(0, 3);
+
+        itemEnt = SpawnWithRandomHealth(player, head[rndIndex]);
+
+        string torso[] = {"FirefighterJacket_Beige", "FirefighterJacket_Black"};
+        string legs[] = {"FirefightersPants_Beige", "FirefightersPants_Black"};
+        string feet[] = {"Wellies_Brown", "Wellies_Black"};
+
+        rndIndex = Math.RandomInt(0, 2);
+        
+        itemEnt = SpawnWithRandomHealth(player, torso[rndIndex]);
+        itemEnt = SpawnWithRandomHealth(player, legs[rndIndex]);
+        itemEnt = SpawnWithRandomHealth(player, feet[rndIndex]);
+
+        rand = Math.RandomFloatInclusive( 0.0, 1.0 );
+        if ( rand < 0.25 )
+        {
+            itemEnt = SpawnWithRandomHealth(player, "AirborneMask");
+        }
+
+        rand = Math.RandomFloatInclusive( 0.0, 1.0 );
+        if ( rand < 0.5 )
+        {
+            itemEnt = SpawnWithRandomHealth(player, "FirefighterAxe");
+        }
+    }
+
+    void setDirtBikerStartingItems(PlayerBase player)
+    {
+        EntityAI itemEnt; 
+
+        string head[] = {"DirtBikeHelmet_Black","DirtBikeHelmet_Blue","DirtBikeHelmet_Chernarus", "DirtBikeHelmet_Green", "DirtBikeHelmet_Khaki", "DirtBikeHelmet_Police", "DirtBikeHelmet_Red"};
+        string legs[] = {"CargoPants_Black", "CargoPants_Blue", "CargoPants_Green", "CargoPants_Green", "BDUPants", "CargoPants_Grey", "CargoPants_Grey"};
+
+        int rndIndex = Math.RandomInt(0, 7);
+
+        itemEnt = SpawnWithRandomHealth(player, head[rndIndex]);
+        itemEnt = SpawnWithRandomHealth(player, "DirtBikeHelmet_Mouthguard");
+        itemEnt = SpawnWithRandomHealth(player, "DirtBikeHelmet_Visor");
+        itemEnt = SpawnWithRandomHealth(player, "RidersJacket_Black");
+        itemEnt = SpawnWithRandomHealth(player, legs[rndIndex]);
+        itemEnt = SpawnWithRandomHealth(player, "TTSKOBoots");
+
+        itemEnt = SpawnWithRandomHealth(player, "Wrench");
+        itemEnt = SpawnWithRandomHealth(player, "TireRepairKit");
+    }
+
+    void setSkateboarderStartingItems(PlayerBase player)
+    {
+        EntityAI itemEnt;
+
+        string head[] = {"SkateHelmet_Black","SkateHelmet_Blue","SkateHelmet_Gray", "SkateHelmet_Green", "SkateHelmet_Red"};
+        string torso[] = {"Hoodie_Black","Hoodie_Blue","Hoodie_Grey","Hoodie_Green", "Hoodie_Red"};
+        string legs[] = {"Jeans_Black", "Jeans_BlueDark", "Jeans_Grey", "Jeans_Green", "Jeans_Black"};
+        string feet[] = {"SK8_Sneakers_FullBlack", "SK8_Sneakers_Blue","High_Knee_Sneakers_Black", "High_Knee_Sneakers", "SK8_Sneakers_Black"};
+        string bag[] = { "Canvas_Backpack_Black", "Canvas_Backpack_Blue", "Canvas_Backpack_Base", "Canvas_Backpack_Base", "Canvas_Backpack_Red"};
+
+        int rndIndex = Math.RandomInt(0, 5);
+
+        itemEnt = SpawnWithRandomHealth(player, head[rndIndex]);
+        itemEnt = SpawnWithRandomHealth(player, torso[rndIndex]);
+        itemEnt = SpawnWithRandomHealth(player, legs[rndIndex]);
+        itemEnt = SpawnWithRandomHealth(player, feet[rndIndex]);
+        itemEnt = SpawnWithRandomHealth(player, bag[rndIndex]);
+    }
+
+    void setSerialKillerStartingItems(PlayerBase player)
+    {
+        EntityAI itemEnt;
+
+        itemEnt = SpawnWithRandomHealth(player, "HockeyMask");
+        itemEnt = SpawnWithRandomHealth(player, "PrisonUniformJacket");
+        itemEnt = SpawnWithRandomHealth(player, "PrisonUniformPants");
+        itemEnt = SpawnWithRandomHealth(player, "JoggingShoes_White");
+        itemEnt = SpawnWithRandomHealth(player, "LeatherSack_Beige");
+        itemEnt = SpawnWithRandomHealth(player, "Rope");
+        itemEnt = SpawnWithRandomHealth(player, "DuctTape");
+        itemEnt = SpawnWithRandomHealth(player, "KitchenKnife");
+
+        itemEnt = player.GetInventory().CreateInInventory("HumanSteakMeat");
+    }
     
     void setOffDutyMilitaryStartingItems(PlayerBase player)
     {
@@ -359,9 +448,9 @@ class CustomMission: MissionServer
 		{
 			player.RemoveAllItems();
             
-            string playerTypeArray[] = {"Townsperson","Paramedic","Police","Hunter","Industrial","Hiker","Backpacker", "Biker", "OffDutyMilitary"};
+            string playerTypeArray[] = {"Townsperson", "Paramedic", "Police", "Hunter", "Industrial", "Hiker", "Backpacker", "Biker", "OffDutyMilitary", "SerialKiller", "Skateboarder", "DirtBiker", "Firefighter"};
             
-            int rndIndex = Math.RandomInt( 0, 9 );
+            int rndIndex = Math.RandomInt( 0, 13 );
             
             if (rndIndex == 0) {
             	setTownspersonStartingItems(player);
@@ -379,9 +468,16 @@ class CustomMission: MissionServer
             	setBackpackerStartingItems(player);
             } else if (rndIndex == 7){
             	setBikerStartingItems(player);
-            }
-            else {
+            } else if (rndIndex == 8){
             	setOffDutyMilitaryStartingItems(player);
+            } else if (rndIndex == 9){
+                setSerialKillerStartingItems(player);
+            } else if (rndIndex == 10){
+                setSkateboarderStartingItems(player);
+            } else if (rndIndex == 11){
+                setDirtBikerStartingItems(player);
+            } else {
+                setFirefighterStartingItems(player);
             }
 
             // universal starting items that every type gets
@@ -399,7 +495,7 @@ class CustomMission: MissionServer
         	itemEnt = player.GetInventory().CreateInInventory( "SodaCan_Spite" );
 
 			rand = Math.RandomFloatInclusive( 0.0, 1.0 );
-            
+
 			if ( rand < 0.5 )
 				itemEnt = player.GetInventory().CreateInInventory( "ZagorkyChocolate" );
 			else
