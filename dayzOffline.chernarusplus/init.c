@@ -143,6 +143,7 @@ class CustomMission: MissionServer
     void setOffDutyMilitaryStartingItems(PlayerBase player)
     {
     	EntityAI itemEnt;
+	ItemBase itemBs;
         
         string head[] = {"BaseballCap_CMMG_Black","BaseballCap_Camo","CowboyHat_darkBrown", "RadarCap_Black"};
         string torso[] = {"BomberJacket_Black","BomberJacket_Olive","BomberJacket_Maroon","BomberJacket_Blue"};
@@ -161,7 +162,11 @@ class CustomMission: MissionServer
         itemEnt = SpawnWithRandomHealth(player, "MMG_assault_pack_black");
         
         itemEnt = SpawnWithRandomHealth(player, "TTC_M9");
-        itemEnt = player.GetInventory().CreateInInventory("Ammo_9x19");
+	itemEnt = player.GetInventory().CreateInInventory("TTC_Mag_M9_15Rnd");
+	
+	if (Class.CastTo(itemBs, itemEnt)) {
+		itemBs.SetQuantity(15);
+        }
     }
     
     void setBikerStartingItems(PlayerBase player)
@@ -189,10 +194,10 @@ class CustomMission: MissionServer
 			
         if ( rand < 0.25 )
         {
-			itemEnt = SpawnWithRandomHealth(player, "TTC_44Magnum_Black");
+	    itemEnt = SpawnWithRandomHealth(player, "TTC_44Magnum_Black");
             itemEnt = player.GetInventory().CreateInInventory("TTC_Ammo_44Mag");
         } else {
-        	itemEnt = SpawnWithRandomHealth(player, "Magnum");
+	    itemEnt = SpawnWithRandomHealth(player, "Magnum");
             itemEnt = player.GetInventory().CreateInInventory("Ammo_357");
         }
     }
