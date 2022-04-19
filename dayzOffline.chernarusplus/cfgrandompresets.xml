@@ -414,82 +414,94 @@
 		</attachments>
 
 		<!-- -------------------------  ARMY ATTACHMENTS  ------------------------- -->
-		<attachments chance="0.60" name="hatsArmy">
+		<attachments chance="0.80" name="hatsArmy">
 			<item name="TankerHelmet" chance="0.10" />
-			<item name="PilotkaCap" chance="0.10" />
+			<!--<item name="PilotkaCap" chance="0.05" />-->
 			<!-- <item name="GorkaHelmet" chance="0.10" /> Problem with animation of chin cover -->
-			<item name="MilitaryBeret_Red" chance="0.10" />
-			<item name="MilitaryBeret_UN" chance="0.10" />
-			<item name="MilitaryBeret_NZ" chance="0.10" />
-			<item name="MilitaryBeret_ChDKZ" chance="0.05" />
-			<item name="MilitaryBeret_CDF" chance="0.05" />
-			<item name="ZSh3PilotHelmet" chance="0.05" />
-			<item name="NVGHeadstrap" chance="0.01" />
+			<!--<item name="MilitaryBeret_Red" chance="0.05" />-->
+			<!--<item name="MilitaryBeret_UN" chance="0.05" />-->
+			<!--<item name="MilitaryBeret_NZ" chance="0.05" />-->
+			<!--<item name="MilitaryBeret_ChDKZ" chance="0.05" />-->
+			<!--<item name="MilitaryBeret_CDF" chance="0.05" />-->
+			<item name="ZSh3PilotHelmet" chance="0.1" />
+			<!--<item name="NVGHeadstrap" chance="0.01" />-->
+			<item name="MMG_tactical_helmet_black" chance="0.2" />
+            		<item name="MMG_tactical_helmet_erdl" chance="0.2" />
+            		<item name="MMG_tactical_helmet_green" chance="0.2" />
+            		<item name="MMG_tactical_helmet_multicamblack" chance="0.2" />
 		</attachments>
 		<attachments chance="0.00" name="glassesArmy"> <!--was chance="0.10"; removed coz of attachment slot is missing -->
 			<item name="TacticalGoggles" chance="0.10" />
 			<item name="AviatorGlasses" chance="0.25" />
 		</attachments>
-		<attachments chance="0.20" name="vestsArmy">
-			<item name="MMG_chestrig_black" chance="0.2" />
-			<item name="MMG_chestrig_erdl" chance="0.2" />
-			<item name="MMG_chestrig_green" chance="0.2" />
-			<item name="MMG_chestrig_multicamblack" chance="0.2" />
-          	<item name="MMG_JPC_Vest_black" chance="0.05" />
-			<item name="MMG_JPC_Vest_erdl" chance="0.05" />
-			<item name="MMG_JPC_Vest_green" chance="0.05" />
-			<item name="MMG_JPC_Vest_multicamblack" chance="0.05" />
+		<attachments chance="1.00" name="vestsArmy">
+			<item name="MMG_chestrig_black" chance="0.1" />
+			<item name="MMG_chestrig_erdl" chance="0.1" />
+			<item name="MMG_chestrig_green" chance="0.1" />
+			<item name="MMG_chestrig_multicamblack" chance="0.1" />
+          		<item name="MMG_JPC_Vest_black" chance="0.1" />
+			<item name="MMG_JPC_Vest_erdl" chance="0.1" />
+			<item name="MMG_JPC_Vest_green" chance="0.1" />
+			<item name="MMG_JPC_Vest_multicamblack" chance="0.1" />
+			<item name="MMG_tt_Vest_black" chance="0.05" />
+            		<item name="MMG_tt_Vest_erdl" chance="0.05" />
+            		<item name="MMG_tt_Vest_green" chance="0.05" />
+            		<item name="MMG_tt_Vest_multicamblack" chance="0.05" />
 		</attachments>
 		<attachments chance="0.15" name="bagsArmy">
 			<item name="MMG_assault_pack_black" chance="0.10" />
-            <item name="MMG_assault_pack_erdl" chance="0.10" />
-            <item name="MMG_assault_pack_green" chance="0.10" />
-            <item name="MMG_assault_pack_multicamblack" chance="0.10" />
+            		<item name="MMG_assault_pack_erdl" chance="0.10" />
+            		<item name="MMG_assault_pack_green" chance="0.10" />
+            		<item name="MMG_assault_pack_multicamblack" chance="0.10" />
 			<item name="MMG_carrier_backpack_black" chance="0.08" />
-            <item name="MMG_carrier_backpack_erdl" chance="0.08" />
-            <item name="MMG_carrier_backpack_green" chance="0.08" />
-            <item name="MMG_carrier_backpack_multicamblack" chance="0.08" />
+            		<item name="MMG_carrier_backpack_erdl" chance="0.08" />
+            		<item name="MMG_carrier_backpack_green" chance="0.08" />
+            		<item name="MMG_carrier_backpack_multicamblack" chance="0.08" />
 			<item name="MMG_camelback_black" chance="0.04" />
-            <item name="MMG_camelback_erdl" chance="0.04" />
-            <item name="MMG_camelback_green" chance="0.04" />
-            <item name="MMG_camelback_multicamblack" chance="0.04" />
+            		<item name="MMG_camelback_erdl" chance="0.04" />
+            		<item name="MMG_camelback_green" chance="0.04" />
+            		<item name="MMG_camelback_multicamblack" chance="0.04" />
 			<item name="MMG_supplybag_black" chance="0.03" />
 			<item name="MMG_supplybag_erdl" chance="0.03" />
-            <item name="MMG_supplybag_green" chance="0.03" />
-            <item name="MMG_supplybag_multicamblack" chance="0.03" />
+            		<item name="MMG_supplybag_green" chance="0.03" />
+            		<item name="MMG_supplybag_multicamblack" chance="0.03" />
 		</attachments>
 		<attachments chance="1.00" name="HeavyArmorArmy">
-			<item name="MMG_tt_Vest_black" chance="0.2" />
-            <item name="MMG_tt_Vest_erdl" chance="0.2" />
-            <item name="MMG_tt_Vest_green" chance="0.2" />
-            <item name="MMG_tt_Vest_multicamblack" chance="0.2" />
-            <item name="MMG_MK_III_Armor_black" chance="0.05" />
-            <item name="MMG_MK_III_Armor_erdl" chance="0.05" />
-            <item name="MMG_MK_III_Armor_green" chance="0.05" />
-            <item name="MMG_MK_III_Armor_multicamblack" chance="0.05" />
+			<item name="MMG_tt_Vest_black" chance="0.15" />
+            		<item name="MMG_tt_Vest_erdl" chance="0.15" />
+            		<item name="MMG_tt_Vest_green" chance="0.15" />
+            		<item name="MMG_tt_Vest_multicamblack" chance="0.15" />
+            		<item name="MMG_MK_III_Armor_black" chance="0.05" />
+            		<item name="MMG_MK_III_Armor_erdl" chance="0.05" />
+            		<item name="MMG_MK_III_Armor_green" chance="0.05" />
+            		<item name="MMG_MK_III_Armor_multicamblack" chance="0.05" />
+			<item name="MMG_MK_V_Armor_black" chance="0.05" />
+            		<item name="MMG_MK_V_Armor_erdl" chance="0.05" />
+            		<item name="MMG_MK_V_Armor_green" chance="0.05" />
+            		<item name="MMG_MK_V_Armor_multicamblack" chance="0.05" />
 		</attachments>
 		<attachments chance="1.00" name="HeavyHelmetArmy">
 			<item name="MMG_tactical_helmet_black" chance="0.125" />
-            <item name="MMG_tactical_helmet_erdl" chance="0.125" />
-            <item name="MMG_tactical_helmet_green" chance="0.125" />
-            <item name="MMG_tactical_helmet_multicamblack" chance="0.125" />
+            		<item name="MMG_tactical_helmet_erdl" chance="0.125" />
+            		<item name="MMG_tactical_helmet_green" chance="0.125" />
+            		<item name="MMG_tactical_helmet_multicamblack" chance="0.125" />
 			<item name="MMG_striker_helmet_black" chance="0.125" />
-            <item name="MMG_striker_helmet_erdl" chance="0.125" />
-            <item name="MMG_striker_helmet_green" chance="0.125" />
-            <item name="MMG_striker_helmet_multicamblack" chance="0.125" />
+            		<item name="MMG_striker_helmet_erdl" chance="0.125" />
+            		<item name="MMG_striker_helmet_green" chance="0.125" />
+            		<item name="MMG_striker_helmet_multicamblack" chance="0.125" />
 		</attachments>
 		<attachments chance="1.00" name="OfficerHatArmy">
 			<item name="OfficerHat" chance="1.00" />
 		</attachments>
 
 		<!-- -------------------------  POLICE ATTACHMENTS  ------------------------- -->
-		<attachments chance="0.20" name="hatsPolice">
-				<item name="PoliceCap" chance="0.8" />
-          		<item name="MMG_tactical_helmet_police" chance="0.2" />
+		<attachments chance="0.80" name="hatsPolice">
+			<item name="PoliceCap" chance="0.5" />
+          		<item name="MMG_tactical_helmet_police" chance="0.5" />
 		</attachments>
 		<attachments chance="1.00" name="vestsPolice">
-				<item name="PoliceVest" chance="0.75" />
-          		<item name="MMG_tt_Vest_police" chance="0.25" />
+			<item name="PoliceVest" chance="0.25" />
+          		<item name="MMG_tt_Vest_police" chance="0.75" />
 		</attachments>
 		
 		<!-- -------------------------  PRISONER ATTACHMENTS  ------------------------- -->
