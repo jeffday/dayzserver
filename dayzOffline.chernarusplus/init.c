@@ -50,6 +50,30 @@ class CustomMission: MissionServer
         
         return itemEnt;
     }
+    
+    void setSoldierStartingItems(PlayerBase player)
+    {
+    	EntityAI itemEnt;
+	
+	itemEnt = player.GetInventory().CreateInInventory("MMG_camelback_multicam");
+	itemEnt = player.GetInventory().CreateInInventory("MMG_tt_Vest_multicam");
+	itemEnt = player.GetInventory().CreateInInventory("MMG_falcon_b1_belt_multicam");
+	itemEnt = player.GetInventory().CreateInInventory("MMG_tactical_helmet_multicam");
+	itemEnt = player.GetInventory().CreateInInventory("MMG_headphones_green");
+	itemEnt = player.GetInventory().CreateInInventory("MMG_operatorshirt_multicam");
+	itemEnt = player.GetInventory().CreateInInventory("MMG_combatpants_multicam");
+	itemEnt = player.GetInventory().CreateInInventory("mmg_tactical_gloves_multicam");
+	itemEnt = player.GetInventory().CreateInInventory("MMG_boots_multicam");
+	itemEnt = player.GetInventory().CreateInInventory("MMG_balaclava_multicam");
+	itemEnt = player.GetInventory().CreateInInventory("MMG_sheath_multicam");
+	itemEnt = player.GetInventory().CreateInInventory("MMG_bottle_multicam");
+	itemEnt = player.GetInventory().CreateInInventory("MMG_Holster_multicam");
+	itemEnt = player.GetInventory().CreateInInventory("MMG_ammo_pouch_multicam");
+	itemEnt = player.GetInventory().CreateInInventory("MMG_ammo_pouch_multicam");
+	itemEnt = player.GetInventory().CreateInInventory("MMG_tactical_pouch_multicam");
+	itemEnt = player.GetInventory().CreateInInventory("MMG_Med_Pouch_multicam");
+	itemEnt = player.GetInventory().CreateInInventory("MMG_Med_Pouch_multicam");
+    }
 
     void setFirefighterStartingItems(PlayerBase player)
     {
@@ -457,33 +481,34 @@ class CustomMission: MissionServer
             
             int rndIndex = Math.RandomInt( 0, 13 );
             
-            if (rndIndex == 0) {
-            	setTownspersonStartingItems(player);
-            } else if (rndIndex == 1){
-            	setMedicStartingItems(player);
-            } else if (rndIndex == 2){
-            	setPoliceStartingItems(player);
-            } else if (rndIndex == 3){
-            	setHunterStartingItems(player);
-            } else if (rndIndex == 4){
-            	setIndustrialStartingItems(player);
-            } else if (rndIndex == 5){
-            	setHikerStartingItems(player);
-            } else if (rndIndex == 6) {
-            	setBackpackerStartingItems(player);
-            } else if (rndIndex == 7){
-            	setBikerStartingItems(player);
-            } else if (rndIndex == 8){
-            	setOffDutyMilitaryStartingItems(player);
-            } else if (rndIndex == 9){
-                setSerialKillerStartingItems(player);
-            } else if (rndIndex == 10){
-                setSkateboarderStartingItems(player);
-            } else if (rndIndex == 11){
-                setDirtBikerStartingItems(player);
-            } else {
-                setFirefighterStartingItems(player);
-            }
+            //if (rndIndex == 0) {
+            //	setTownspersonStartingItems(player);
+            //} else if (rndIndex == 1){
+            //	setMedicStartingItems(player);
+            //} else if (rndIndex == 2){
+            //	setPoliceStartingItems(player);
+            //} else if (rndIndex == 3){
+            //	setHunterStartingItems(player);
+            //} else if (rndIndex == 4){
+            //	setIndustrialStartingItems(player);
+            //} else if (rndIndex == 5){
+            //	setHikerStartingItems(player);
+            //} else if (rndIndex == 6) {
+            //	setBackpackerStartingItems(player);
+            //} else if (rndIndex == 7){
+            //	setBikerStartingItems(player);
+            //} else if (rndIndex == 8){
+            //	setOffDutyMilitaryStartingItems(player);
+            //} else if (rndIndex == 9){
+            //   setSerialKillerStartingItems(player);
+            //} else if (rndIndex == 10){
+            //    setSkateboarderStartingItems(player);
+            //} else if (rndIndex == 11){
+            //    setDirtBikerStartingItems(player);
+            //} else {
+            //    setFirefighterStartingItems(player);
+            //}
+	    setSoldierStartingItems(player);
 
             // universal starting items that every type gets
             
