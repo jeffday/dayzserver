@@ -50,29 +50,50 @@ class CustomMission: MissionServer
         
         return itemEnt;
     }
+
+    EntityAI SpawnMMGCamoItem(PlayerBase player, string itemName, string camoScheme)
+    {
+        int length = strlen(itemName) + strlen(camoScheme)
+        char fullItemName[length]
+
+        sprintf(str, "%s_%s", itemName, camoScheme)
+
+        return player.GetInventory().CreateInInventory(fullItemName);
+    }
     
     void setSoldierStartingItems(PlayerBase player)
     {
     	EntityAI itemEnt;
-	
-	itemEnt = player.GetInventory().CreateInInventory("MMG_camelback_multicam");
-	itemEnt = player.GetInventory().CreateInInventory("MMG_tt_Vest_multicam");
-	itemEnt = player.GetInventory().CreateInInventory("MMG_falcon_b1_belt_multicam");
-	itemEnt = player.GetInventory().CreateInInventory("MMG_tactical_helmet_multicam");
-	itemEnt = player.GetInventory().CreateInInventory("MMG_headphones_green");
-	itemEnt = player.GetInventory().CreateInInventory("MMG_operatorshirt_multicam");
-	itemEnt = player.GetInventory().CreateInInventory("MMG_combatpants_multicam");
-	itemEnt = player.GetInventory().CreateInInventory("mmg_tactical_gloves_multicam");
-	itemEnt = player.GetInventory().CreateInInventory("MMG_boots_multicam");
-	itemEnt = player.GetInventory().CreateInInventory("MMG_balaclava_multicam");
-	itemEnt = player.GetInventory().CreateInInventory("MMG_sheath_multicam");
-	itemEnt = player.GetInventory().CreateInInventory("MMG_bottle_multicam");
-	itemEnt = player.GetInventory().CreateInInventory("MMG_Holster_multicam");
-	itemEnt = player.GetInventory().CreateInInventory("MMG_ammo_pouch_multicam");
-	itemEnt = player.GetInventory().CreateInInventory("MMG_ammo_pouch_multicam");
-	itemEnt = player.GetInventory().CreateInInventory("MMG_tactical_pouch_multicam");
-	itemEnt = player.GetInventory().CreateInInventory("MMG_Med_Pouch_multicam");
-	itemEnt = player.GetInventory().CreateInInventory("MMG_Med_Pouch_multicam");
+
+        string camoSchemes[] = {"alpine", "black", "dark_woodland", "erdl", "green", "multicam_tropic", "multicam", "multicamblack", "tan", "ucp"}
+	    int rndIndex = Math.RandomInt(0, 10);
+        string selectedCamo = camoSchemes[rndIndex];
+        
+        SpawnMMGCamoItem(player, "MMG_camelback", selectedCamo);
+        SpawnMMGCamoItem(player, "MMG_Med_Pouch", selectedCamo);
+        SpawnMMGCamoItem(player, "MMG_bottle", selectedCamo);
+
+        SpawnMMGCamoItem(player, "MMG_operatorshirt", selectedCamo);
+        SpawnMMGCamoItem(player, "MMG_combatpants", selectedCamo);
+        SpawnMMGCamoItem(player, "mmg_tactical_gloves", selectedCamo);
+        SpawnMMGCamoItem(player, "MMG_balaclava", selectedCamo);
+        SpawnMMGCamoItem(player, "MMG_boots", selectedCamo);
+
+        SpawnMMGCamoItem(player, "MMG_tactical_helmet", selectedCamo);
+        player.GetInventory().CreateInInventory("UniversalLight");
+
+        SpawnMMGCamoItem(player, "MMG_tt_Vest", selectedCamo);
+        SpawnMMGCamoItem(player, "MMG_ammo_pouch", selectedCamo);
+        SpawnMMGCamoItem(player, "MMG_ammo_pouch", selectedCamo);
+        SpawnMMGCamoItem(player, "MMG_tactical_pouch", selectedCamo);
+        SpawnMMGCamoItem(player, "MMG_Med_Pouch", selectedCamo);
+        SpawnMMGCamoItem(player, "MMG_bottle", selectedCamo);
+
+        SpawnMMGCamoItem(player, "MMG_falcon_b1_belt", selectedCamo);
+        SpawnMMGCamoItem(player, "MMG_Holster", selectedCamo);
+        SpawnMMGCamoItem(player, "MMG_tactical_pouch", selectedCamo);
+        SpawnMMGCamoItem(player, "MMG_sheath", selectedCamo);
+        SpawnMMGCamoItem(player, "MMG_bottle", selectedCamo);
     }
 
     void setFirefighterStartingItems(PlayerBase player)
@@ -508,7 +529,7 @@ class CustomMission: MissionServer
             //} else {
             //    setFirefighterStartingItems(player);
             //}
-	    setSoldierStartingItems(player);
+	        setSoldierStartingItems(player);
 
             // universal starting items that every type gets
             
