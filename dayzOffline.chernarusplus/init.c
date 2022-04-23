@@ -56,23 +56,34 @@ class CustomMission: MissionServer
     	EntityAI itemEnt;
 	
 	itemEnt = player.GetInventory().CreateInInventory("MMG_camelback_multicam");
-	itemEnt = player.GetInventory().CreateInInventory("MMG_tt_Vest_multicam");
-	itemEnt = player.GetInventory().CreateInInventory("MMG_falcon_b1_belt_multicam");
-	itemEnt = player.GetInventory().CreateInInventory("MMG_tactical_helmet_multicam");
-	itemEnt = player.GetInventory().CreateInInventory("MMG_headphones_green");
+	itemEnt = player.GetInventory().CreateInInventory("MMG_Med_Pouch_multicam");
+	itemEnt = player.GetInventory().CreateInInventory("MMG_bottle_multicam");
+	
 	itemEnt = player.GetInventory().CreateInInventory("MMG_operatorshirt_multicam");
 	itemEnt = player.GetInventory().CreateInInventory("MMG_combatpants_multicam");
 	itemEnt = player.GetInventory().CreateInInventory("mmg_tactical_gloves_multicam");
 	itemEnt = player.GetInventory().CreateInInventory("MMG_boots_multicam");
-	itemEnt = player.GetInventory().CreateInInventory("MMG_balaclava_multicam");
-	itemEnt = player.GetInventory().CreateInInventory("MMG_sheath_multicam");
-	itemEnt = player.GetInventory().CreateInInventory("MMG_bottle_multicam");
-	itemEnt = player.GetInventory().CreateInInventory("MMG_Holster_multicam");
+	
+	itemEnt = player.GetInventory().CreateInInventory("MMG_tt_Vest_multicam");
 	itemEnt = player.GetInventory().CreateInInventory("MMG_ammo_pouch_multicam");
 	itemEnt = player.GetInventory().CreateInInventory("MMG_ammo_pouch_multicam");
 	itemEnt = player.GetInventory().CreateInInventory("MMG_tactical_pouch_multicam");
+	itemEnt = player.GetInventory().CreateInInventory("MMG_bottle_multicam");
+	
+	itemEnt = player.GetInventory().CreateInInventory("MMG_falcon_b1_belt_multicam");
+	itemEnt = player.GetInventory().CreateInInventory("MMG_tactical_pouch_multicam");
 	itemEnt = player.GetInventory().CreateInInventory("MMG_Med_Pouch_multicam");
-	itemEnt = player.GetInventory().CreateInInventory("MMG_Med_Pouch_multicam");
+	itemEnt = player.GetInventory().CreateInInventory("MMG_sheath_multicam");
+	itemEnt = player.GetInventory().CreateInInventory("MMG_bottle_multicam");
+	itemEnt = player.GetInventory().CreateInInventory("MMG_Holster_multicam");
+	
+	itemEnt = player.GetInventory().CreateInInventory("MMG_tactical_helmet_multicam");
+	itemEnt = player.GetInventory().CreateInInventory("MMG_headphones_green");
+	itemEnt = player.GetInventory().CreateInInventory("UniversalLight");
+	itemEnt = player.GetInventory().CreateInInventory("MMG_balaclava_multicam");
+	
+	itemEnt = player.GetInventory().CreateInInventory("CombatKnife");
+	itemEnt = player.GetInventory().CreateInInventory("MMG_carbine_grey");
     }
 
     void setFirefighterStartingItems(PlayerBase player)
