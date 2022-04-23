@@ -68,6 +68,7 @@ class CustomMission: MissionServer
 	itemEnt = player.GetInventory().CreateInInventory("MMG_ammo_pouch_multicam");
 	itemEnt = player.GetInventory().CreateInInventory("MMG_ammo_pouch_multicam");
 	itemEnt = player.GetInventory().CreateInInventory("MMG_tactical_pouch_multicam");
+	itemEnt = player.GetInventory().CreateInInventory("MMG_Med_Pouch_multicam");
 	itemEnt = player.GetInventory().CreateInInventory("MMG_bottle_multicam");
 	
 	itemEnt = player.GetInventory().CreateInInventory("MMG_falcon_b1_belt_multicam");
