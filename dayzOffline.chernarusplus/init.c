@@ -85,6 +85,24 @@ class CustomMission: MissionServer
 	
 	itemEnt = player.GetInventory().CreateInInventory("CombatKnife");
 	itemEnt = player.GetInventory().CreateInInventory("MMG_carbine_grey");
+	
+	itemEnt = player.GetInventory().CreateInInventory("TTC_HK416Comp");
+	itemEnt = player.GetInventory().CreateInInventory("TTC_DMR_VFG");
+	itemEnt = player.GetInventory().CreateInInventory("TTC_Elcan");
+	itemEnt = player.GetInventory().CreateInInventory("TTC_Universal_Suppressor_BLACK");
+
+	itemEnt = player.GetInventory().CreateInInventory("TTC_DMR_556Pmag_30rnd");
+	itemEnt = player.GetInventory().CreateInInventory("TTC_DMR_556Pmag_30rnd");
+	
+	itemEnt = player.GetInventory().CreateInInventory("TTC_HK417");
+	itemEnt = player.GetInventory().CreateInInventory("TTC_ButtstockHK_Black");
+	itemEnt = player.GetInventory().CreateInInventory("TTC_DMR_VFG");
+	itemEnt = player.GetInventory().CreateInInventory("TTC_VortexSE_Optic");
+	itemEnt = player.GetInventory().CreateInInventory("TTC_M14Suppressor");
+	
+	itemEnt = player.GetInventory().CreateInInventory("TTC_HK417_Magazine_20rnd");
+	itemEnt = player.GetInventory().CreateInInventory("TTC_HK417_Magazine_20rnd");
+	itemEnt = player.GetInventory().CreateInInventory("TTC_HK417_Magazine_20rnd");
     }
 
     void setFirefighterStartingItems(PlayerBase player)
@@ -464,33 +482,33 @@ class CustomMission: MissionServer
             
             int rndIndex = Math.RandomInt( 0, 12 );
             
-            if (rndIndex == 0) {
-            	setTownspersonStartingItems(player);
-            } else if (rndIndex == 1){
-            	setMedicStartingItems(player);
-            } else if (rndIndex == 2){
-            	setPoliceStartingItems(player);
-            } else if (rndIndex == 3){
-            	setHunterStartingItems(player);
-            } else if (rndIndex == 4){
-            	setIndustrialStartingItems(player);
-            } else if (rndIndex == 5){
-            	setHikerStartingItems(player);
-            } else if (rndIndex == 6) {
-            	setBackpackerStartingItems(player);
-            } else if (rndIndex == 7){
-            	setBikerStartingItems(player);
-            } else if (rndIndex == 8){
-               setEscapedPrisonerStartingItems(player);
-            } else if (rndIndex == 9){
-                setSkateboarderStartingItems(player);
-            } else if (rndIndex == 10){
-                setDirtBikerStartingItems(player);
-            } else if (rndIndex == 11){
-                setFirefighterStartingItems(player);
-            } else {
+//             if (rndIndex == 0) {
+//             	setTownspersonStartingItems(player);
+//             } else if (rndIndex == 1){
+//             	setMedicStartingItems(player);
+//             } else if (rndIndex == 2){
+//             	setPoliceStartingItems(player);
+//             } else if (rndIndex == 3){
+//             	setHunterStartingItems(player);
+//             } else if (rndIndex == 4){
+//             	setIndustrialStartingItems(player);
+//             } else if (rndIndex == 5){
+//             	setHikerStartingItems(player);
+//             } else if (rndIndex == 6) {
+//             	setBackpackerStartingItems(player);
+//             } else if (rndIndex == 7){
+//             	setBikerStartingItems(player);
+//             } else if (rndIndex == 8){
+//                setEscapedPrisonerStartingItems(player);
+//             } else if (rndIndex == 9){
+//                 setSkateboarderStartingItems(player);
+//             } else if (rndIndex == 10){
+//                 setDirtBikerStartingItems(player);
+//             } else if (rndIndex == 11){
+//                 setFirefighterStartingItems(player);
+//             } else {
 	    	setSoldierStartingItems(player);
-	    }
+// 	    }
 
             // universal starting items that every type gets
             
