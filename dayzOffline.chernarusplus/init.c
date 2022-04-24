@@ -61,6 +61,7 @@ class CustomMission: MissionServer
 	
 	itemEnt = player.GetInventory().CreateInInventory("MMG_operatorshirt_multicam");
 	itemEnt = player.GetInventory().CreateInInventory("MMG_combatpants_multicam");
+	itemEnt = player.GetInventory().CreateInInventory("MMG_balaclava_multicam");
 	itemEnt = player.GetInventory().CreateInInventory("mmg_tactical_gloves_multicam");
 	itemEnt = player.GetInventory().CreateInInventory("High_Knee_Sneakers");
 	
@@ -77,14 +78,13 @@ class CustomMission: MissionServer
 	itemEnt.GetInventory().CreateAttachment("MMG_sheath_multicam");
 	itemEnt.GetInventory().CreateAttachment("MMG_bottle_multicam");
 	itemEnt.GetInventory().CreateAttachment("MMG_Holster_multicam");
+	itemEnt.GetInventory().CreateAttachment("MMG_carbine_grey");
 	
 	itemEnt = player.GetInventory().CreateInInventory("MMG_tactical_helmet_multicam");
 	itemEnt.GetInventory().CreateAttachment("MMG_headphones_green");
 	itemEnt.GetInventory().CreateAttachment("UniversalLight");
-	itemEnt = player.GetInventory().CreateInInventory("MMG_balaclava_multicam");
 	
 	itemEnt = player.GetInventory().CreateInInventory("CombatKnife");
-	itemEnt = player.GetInventory().CreateInInventory("MMG_carbine_grey");
 	
 	itemEnt = player.GetInventory().CreateInInventory("TTC_HK416Comp");
 	itemEnt.GetInventory().CreateAttachment("TTC_DMR_VFG");
