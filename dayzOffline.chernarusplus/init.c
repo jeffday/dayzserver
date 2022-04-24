@@ -56,8 +56,8 @@ class CustomMission: MissionServer
     	EntityAI itemEnt;
 	
 	itemEnt = player.GetInventory().CreateInInventory("MMG_camelback_multicam");
-	itemEnt = player.GetInventory().CreateInInventory("MMG_Med_Pouch_multicam");
-	itemEnt = player.GetInventory().CreateInInventory("MMG_bottle_multicam");
+	itemEnt.GetInventory().CreateAttachment("MMG_Med_Pouch_multicam");
+	itemEnt.GetInventory().CreateAttachment("MMG_bottle_multicam");
 	
 	itemEnt = player.GetInventory().CreateInInventory("MMG_operatorshirt_multicam");
 	itemEnt = player.GetInventory().CreateInInventory("MMG_combatpants_multicam");
@@ -65,40 +65,40 @@ class CustomMission: MissionServer
 	itemEnt = player.GetInventory().CreateInInventory("High_Knee_Sneakers");
 	
 	itemEnt = player.GetInventory().CreateInInventory("MMG_tt_Vest_multicam");
-	itemEnt = player.GetInventory().CreateInInventory("MMG_ammo_pouch_multicam");
-	itemEnt = player.GetInventory().CreateInInventory("MMG_ammo_pouch_multicam");
-	itemEnt = player.GetInventory().CreateInInventory("MMG_tactical_pouch_multicam");
-	itemEnt = player.GetInventory().CreateInInventory("MMG_Med_Pouch_multicam");
-	itemEnt = player.GetInventory().CreateInInventory("MMG_bottle_multicam");
+	itemEnt.GetInventory().CreateAttachment("MMG_ammo_pouch_multicam");
+	itemEnt.GetInventory().CreateAttachment("MMG_ammo_pouch_multicam");
+	itemEnt.GetInventory().CreateAttachment("MMG_tactical_pouch_multicam");
+	itemEnt.GetInventory().CreateAttachment("MMG_Med_Pouch_multicam");
+	itemEnt.GetInventory().CreateAttachment("MMG_bottle_multicam");
 	
 	itemEnt = player.GetInventory().CreateInInventory("MMG_falcon_b1_belt_multicam");
-	itemEnt = player.GetInventory().CreateInInventory("MMG_tactical_pouch_multicam");
-	itemEnt = player.GetInventory().CreateInInventory("MMG_Med_Pouch_multicam");
-	itemEnt = player.GetInventory().CreateInInventory("MMG_sheath_multicam");
-	itemEnt = player.GetInventory().CreateInInventory("MMG_bottle_multicam");
-	itemEnt = player.GetInventory().CreateInInventory("MMG_Holster_multicam");
+	itemEnt.GetInventory().CreateAttachment("MMG_tactical_pouch_multicam");
+	itemEnt.GetInventory().CreateAttachment("MMG_Med_Pouch_multicam");
+	itemEnt.GetInventory().CreateAttachment("MMG_sheath_multicam");
+	itemEnt.GetInventory().CreateAttachment("MMG_bottle_multicam");
+	itemEnt.GetInventory().CreateAttachment("MMG_Holster_multicam");
 	
 	itemEnt = player.GetInventory().CreateInInventory("MMG_tactical_helmet_multicam");
-	itemEnt = player.GetInventory().CreateInInventory("MMG_headphones_green");
-	itemEnt = player.GetInventory().CreateInInventory("UniversalLight");
+	itemEnt.GetInventory().CreateAttachment("MMG_headphones_green");
+	itemEnt.GetInventory().CreateAttachment("UniversalLight");
 	itemEnt = player.GetInventory().CreateInInventory("MMG_balaclava_multicam");
 	
 	itemEnt = player.GetInventory().CreateInInventory("CombatKnife");
 	itemEnt = player.GetInventory().CreateInInventory("MMG_carbine_grey");
 	
 	itemEnt = player.GetInventory().CreateInInventory("TTC_HK416Comp");
-	itemEnt = player.GetInventory().CreateInInventory("TTC_DMR_VFG");
-	itemEnt = player.GetInventory().CreateInInventory("TTC_Elcan");
-	itemEnt = player.GetInventory().CreateInInventory("TTC_Universal_Suppressor_BLACK");
+	itemEnt.GetInventory().CreateAttachment("TTC_DMR_VFG");
+	itemEnt.GetInventory().CreateAttachment("TTC_Elcan");
+	itemEnt.GetInventory().CreateAttachment("TTC_Universal_Suppressor_BLACK");
 
 	itemEnt = player.GetInventory().CreateInInventory("TTC_DMR_556Pmag_30rnd");
 	itemEnt = player.GetInventory().CreateInInventory("TTC_DMR_556Pmag_30rnd");
 	
 	itemEnt = player.GetInventory().CreateInInventory("TTC_HK417");
-	itemEnt = player.GetInventory().CreateInInventory("TTC_ButtstockHK_Black");
-	itemEnt = player.GetInventory().CreateInInventory("TTC_DMR_VFG");
-	itemEnt = player.GetInventory().CreateInInventory("TTC_VortexSE_Optic");
-	itemEnt = player.GetInventory().CreateInInventory("TTC_M14Suppressor");
+	itemEnt.GetInventory().CreateAttachment("TTC_ButtstockHK_Black");
+	itemEnt.GetInventory().CreateAttachment("TTC_DMR_VFG");
+	itemEnt.GetInventory().CreateAttachment("TTC_VortexSE_Optic");
+	itemEnt.GetInventory().CreateAttachment("TTC_M14Suppressor");
 	
 	itemEnt = player.GetInventory().CreateInInventory("TTC_HK417_Magazine_20rnd");
 	itemEnt = player.GetInventory().CreateInInventory("TTC_HK417_Magazine_20rnd");
