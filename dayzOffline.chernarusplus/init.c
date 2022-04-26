@@ -85,24 +85,6 @@ class CustomMission: MissionServer
 	itemEnt.GetInventory().CreateAttachment("UniversalLight");
 	
 	itemEnt = player.GetInventory().CreateInInventory("CombatKnife");
-	
-	itemEnt = player.GetInventory().CreateInInventory("TTC_HK416Comp");
-	itemEnt.GetInventory().CreateAttachment("TTC_DMR_VFG");
-	itemEnt.GetInventory().CreateAttachment("TTC_Elcan");
-	itemEnt.GetInventory().CreateAttachment("TTC_Universal_Suppressor_BLACK");
-
-	itemEnt = player.GetInventory().CreateInInventory("TTC_DMR_556Pmag_30rnd");
-	itemEnt = player.GetInventory().CreateInInventory("TTC_DMR_556Pmag_30rnd");
-	
-	itemEnt = player.GetInventory().CreateInInventory("TTC_HK417");
-	itemEnt.GetInventory().CreateAttachment("TTC_ButtstockHK_Black");
-	itemEnt.GetInventory().CreateAttachment("TTC_DMR_VFG");
-	itemEnt.GetInventory().CreateAttachment("TTC_VortexSE_Optic");
-	itemEnt.GetInventory().CreateAttachment("TTC_M14Suppressor");
-	
-	itemEnt = player.GetInventory().CreateInInventory("TTC_HK417_Magazine_20rnd");
-	itemEnt = player.GetInventory().CreateInInventory("TTC_HK417_Magazine_20rnd");
-	itemEnt = player.GetInventory().CreateInInventory("TTC_HK417_Magazine_20rnd");
     }
 
     void setFirefighterStartingItems(PlayerBase player)
