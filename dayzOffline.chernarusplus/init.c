@@ -54,10 +54,15 @@ class CustomMission: MissionServer
     void setSoldierStartingItems(PlayerBase player)
     {
     	EntityAI itemEnt;
+	ItemBase itemBs;
 	
 	itemEnt = player.GetInventory().CreateInInventory("MMG_camelback_multicam");
 	itemEnt.GetInventory().CreateAttachment("MMG_Med_Pouch_multicam");
-	itemEnt.GetInventory().CreateAttachment("MMG_bottle_multicam");
+	itemEnt = itemEnt.GetInventory().CreateAttachment("MMG_bottle_multicam");
+	// empty bottle
+	if (Class.CastTo(itemBs, itemEnt)) {
+		itemBs.SetQuantity(0);
+        }
 	
 	itemEnt = player.GetInventory().CreateInInventory("MMG_operatorshirt_multicam");
 	itemEnt = player.GetInventory().CreateInInventory("MMG_combatpants_multicam");
@@ -70,19 +75,30 @@ class CustomMission: MissionServer
 	itemEnt.GetInventory().CreateAttachment("MMG_ammo_pouch_multicam");
 	itemEnt.GetInventory().CreateAttachment("MMG_tactical_pouch_multicam");
 	itemEnt.GetInventory().CreateAttachment("MMG_Med_Pouch_multicam");
-	itemEnt.GetInventory().CreateAttachment("MMG_bottle_multicam");
+	itemEnt = itemEnt.GetInventory().CreateAttachment("MMG_bottle_multicam");
+	
+	// empty bottle
+	if (Class.CastTo(itemBs, itemEnt)) {
+		itemBs.SetQuantity(0);
+        }
 	
 	itemEnt = player.GetInventory().CreateInInventory("MMG_falcon_b1_belt_multicam");
 	itemEnt.GetInventory().CreateAttachment("MMG_tactical_pouch_multicam");
 	itemEnt.GetInventory().CreateAttachment("MMG_Med_Pouch_multicam");
 	itemEnt.GetInventory().CreateAttachment("MMG_sheath_multicam");
-	itemEnt.GetInventory().CreateAttachment("MMG_bottle_multicam");
 	itemEnt.GetInventory().CreateAttachment("MMG_Holster_multicam");
 	itemEnt.GetInventory().CreateAttachment("MMG_carbine_grey");
+	itemEnt = itemEnt.GetInventory().CreateAttachment("MMG_bottle_multicam");
+	
+	// empty bottle
+	if (Class.CastTo(itemBs, itemEnt)) {
+		itemBs.SetQuantity(0);
+        }
 	
 	itemEnt = player.GetInventory().CreateInInventory("MMG_tactical_helmet_multicam");
 	itemEnt.GetInventory().CreateAttachment("MMG_headphones_green");
-	itemEnt.GetInventory().CreateAttachment("UniversalLight");
+	itemEnt = itemEnt.GetInventory().CreateAttachment("UniversalLight");
+	itemEnt.GetInventory().CreateAttachment("Battery9V");
 	
 	itemEnt = player.GetInventory().CreateInInventory("CombatKnife");
     }
