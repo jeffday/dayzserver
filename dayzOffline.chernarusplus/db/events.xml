@@ -495,23 +495,6 @@
             <child lootmax="5" lootmin="0" max="0" min="100" type="ZmbM_PrisonerSkinny"/>
         </children>
     </event>
-    <event name="InfectedKcKGhostGirl">
-        <nominal>1</nominal>
-        <min>0</min>
-        <max>1</max>
-        <lifetime>3</lifetime>
-        <restock>0</restock>
-        <saferadius>100</saferadius>
-        <distanceradius>50</distanceradius>
-        <cleanupradius>100</cleanupradius>
-        <flags deletable="0" init_random="0" remove_damaged="1"/>
-        <position>player</position>
-        <limit>custom</limit>
-        <active>1</active>
-        <children>
-            <child lootmax="5" lootmin="0" max="0" min="100" type="kck_ghost_girl"/>
-        </children>
-    </event>
     <event name="InfectedReligious">
         <nominal>50</nominal>
         <min>25</min>
