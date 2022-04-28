@@ -872,13 +872,6 @@
 		</attachments>
 	</type>
 	<!--START OF ZOMBIES  -->
-    <!-- -----------------------------Kck monsters------------------------------ -->
-  	<type name="kck_ghost_girl">
-		<cargo preset="Kck_Monster_Loot" />
-	</type>
-    <type name="kck_gromble">
-		<cargo preset="Kck_Monster_Loot" />
-	</type>
 	<!-- -----------------------------NBC------------------------------ -->
 	<type name="ZmbM_NBC_Grey">
 		<cargo preset="ContaminatedCargo" />
