@@ -51,13 +51,13 @@ class CustomMission: MissionServer
         return itemEnt;
     }
 
-    void spawnSoldierClothes(PlayerBase player, string[] clothes) {
+    void spawnSoldierClothes(PlayerBase player, TStringArray clothes) {
         for(int i = 0; i < clothes.Count(); i++) {
              player.GetInventory().CreateInInventory(clothes[i]);
         }
     }
 
-    void spawnItemWithAttachments(PlayerBase player, string parentItem, string[] attachments) {
+    void spawnItemWithAttachments(PlayerBase player, string parentItem, TStringArray attachments) {
         EntityAI itemEnt;
         
         itemEnt = player.GetInventory().CreateInInventory(parentItem);
