@@ -52,7 +52,7 @@ class CustomMission: MissionServer
     }
 
     void spawnSoldierClothes(PlayerBase player, string[] clothes) {
-        for(int i = 0; i < clothes.Count(); i++)
+        for(int i = 0; i < clothes.Count(); i++) {
              player.GetInventory().CreateInInventory(clothes[i]);
         }
     }
@@ -62,9 +62,9 @@ class CustomMission: MissionServer
         
         itemEnt = player.GetInventory().CreateInInventory(parentItem);
 
-        for(int i = 0; i < attachments.Count(); i++)
+        for(int i = 0; i < attachments.Count(); i++) {
             itemEnt.GetInventory().CreateAttachment(attachments[i]);
-        }
+        }   
     }
 
     void setSoldierStartingItems(PlayerBase player)
