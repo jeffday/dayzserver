@@ -51,7 +51,7 @@ class CustomMission: MissionServer
         return itemEnt;
     }
 
-    void spawnSoldierClothes(PlayerBase player, TStringArray clothes) {
+    void spawnItemsOnPlayer(PlayerBase player, TStringArray items) {
         for(int i = 0; i < clothes.Count(); i++) {
              player.GetInventory().CreateInInventory(clothes[i]);
         }
@@ -67,54 +67,175 @@ class CustomMission: MissionServer
         }   
     }
 
-    void setSoldierStartingItems(PlayerBase player)
+    void setInfantryStartingItems(PlayerBase player, string camoType)
     {
-        string camoSchemes[] = {"multicam","erdl","ucp","black","dark_woodland","green","multicam_tropic","multicamblack"};
+        string bag = "MMG_camelback_" + camoType;
+        string vest = "MMG_MK_III_Armor_" + camoType;
+        string belt = "MMG_falcon_b1_belt_" + camoType;
+        string helmet = "MMG_tactical_helmet_" + camoType;
 
-        int rndIndex = Math.RandomInt(0, 8);
-        string camoType = camoSchemes[rndIndex];
+        autoptr TStringArray clothes = {"MMG_operatorshirt_" + camoType, "MMG_combatpants_" + camoType, "mmg_tactical_gloves_" + camoType};
+        autoptr TStringArray bagAttachments = {"MMG_Med_Pouch_" + camoType, "MMG_bottle_" + camoType};
+        autoptr TStringArray vestAttachments = {"MMG_triple_magpouch" + camoType, "MMG_ammo_pouch_" + camoType, "MMG_tactical_pouch_" + camoType, "MMG_Med_Pouch_" + camoType};
+        autoptr TStringArray beltAttachments = {"MMG_tactical_pouch_" + camoType, "MMG_Med_Pouch_" + camoType, "MMG_sheath_" + camoType, "MMG_Holster_" + camoType, "MMG_bottle_" + camoType};
+        autoptr TStringArray helmetAttachments = {"UniversalLight"};   
 
+        spawnItemWithAttachments(player, bag, bagAttachments);
+        spawnItemsOnPlayer(player, clothes);
+        spawnItemWithAttachments(player, vest, vestAttachments);
+        spawnItemWithAttachments(player, belt, beltAttachments);
+        spawnItemWithAttachments(player, helmet, helmetAttachments);
+        spawnHeadphones(player, camoType);
+
+        player.GetInventory().CreateInInventory("ThickFramesGlasses");
+        player.GetInventory().CreateInInventory("NioshFaceMask");
+    }
+
+    void setSniperStartingItems(PlayerBase player, string camoType)
+    {
+        string vest = "MMG_chestrig_black" + camoType;
+        string belt = "MMG_falcon_b1_belt_" + camoType;
+
+        autoptr TStringArray clothes = {"MMG_carrier_backpack" + camoType, "MMG_combatshirt" + camoType, "MMG_combatpants_" + camoType, "mmg_tactical_gloves_" + camoType, "MMG_balaclava_" + camoType};
+        autoptr TStringArray vestAttachments = {"MMG_tactical_pouch_" + camoType, "MMG_Med_Pouch_" + camoType, "MMG_bottle_" + camoType, "MMG_sheath_" + camoType};
+        autoptr TStringArray beltAttachments = {"MMG_tactical_pouch_" + camoType, "MMG_Med_Pouch_" + camoType, "MMG_sheath_" + camoType, "MMG_Holster_" + camoType, "MMG_bottle_" + camoType};   
+
+        spawnItemsOnPlayer(player, clothes);
+        spawnItemWithAttachments(player, vest, vestAttachments);
+        spawnItemWithAttachments(player, belt, beltAttachments);
+
+        switch(camoType){
+            case: "black"
+                // black is the only camo scheme without its own sniper boonie
+                player.GetInventory().CreateInInventory("mmg_boonie_dark_woodland");
+                break;
+            default:
+                player.GetInventory().CreateInInventory("mmg_boonie_" + camoType);
+                break;
+        }
+    }
+
+    void setDesignatedMarksmanStartingItems(PlayerBase player, string camoType)
+    {
         string bag = "MMG_camelback_" + camoType;
         string vest = "MMG_tt_Vest_" + camoType;
         string belt = "MMG_falcon_b1_belt_" + camoType;
         string helmet = "MMG_tactical_helmet_" + camoType;
 
-        autoptr TStringArray clothes = {"MMG_operatorshirt_" + camoType, "MMG_combatpants_" + camoType, "mmg_tactical_gloves_" + camoType};
+        autoptr TStringArray clothes = {"MMG_tactical_shirt" + camoType, "MMG_combatpants_" + camoType, "mmg_tactical_gloves_" + camoType,  "MMG_balaclava_" + camoType};
         autoptr TStringArray bagAttachments = {"MMG_Med_Pouch_" + camoType, "MMG_bottle_" + camoType};
         autoptr TStringArray vestAttachments = {"MMG_ammo_pouch_" + camoType, "MMG_ammo_pouch_" + camoType, "MMG_tactical_pouch_" + camoType, "MMG_Med_Pouch_" + camoType, "MMG_bottle_" + camoType};
         autoptr TStringArray beltAttachments = {"MMG_tactical_pouch_" + camoType, "MMG_Med_Pouch_" + camoType, "MMG_sheath_" + camoType, "MMG_Holster_" + camoType, "MMG_bottle_" + camoType};
         autoptr TStringArray helmetAttachments = {"UniversalLight"};   
 
         spawnItemWithAttachments(player, bag, bagAttachments);
-        spawnSoldierClothes(player, clothes);
+        spawnItemsOnPlayer(player, clothes);
         spawnItemWithAttachments(player, vest, vestAttachments);
         spawnItemWithAttachments(player, belt, beltAttachments);
         spawnItemWithAttachments(player, helmet, helmetAttachments);
+        spawnHeadphones(player, camoType);
+
+        // probably doesn't make sense for a DM to need glasses but i just like them okay
+        player.GetInventory().CreateInInventory("ThickFramesGlasses");
+    }
+
+    void setHeavyGunnerStartingItems(PlayerBase player, string camoType)
+    {
+        string bag = "MMG_supplybag_" + camoType;
+        string vest = "MMG_MK_V_Armor_" + camoType;
+        string belt = "MMG_falcon_b1_belt_" + camoType;
+        string helmet = "MMG_striker_helmet_" + camoType;
+
+        autoptr TStringArray clothes = {"MMG_operatorshirt_" + camoType, "MMG_combatpants_" + camoType, "mmg_tactical_gloves_" + camoType};
+        autoptr TStringArray vestAttachments = {"MMG_ammo_pouch_" + camoType, "MMG_ammo_pouch_" + camoType, "MMG_mk5_utility_pouch_" + camoType, "MMG_mk5_grenade_pouch_" + camoType};
+        autoptr TStringArray beltAttachments = {"MMG_tactical_pouch_" + camoType, "MMG_Med_Pouch_" + camoType, "MMG_sheath_" + camoType, "MMG_Holster_" + camoType, "MMG_bottle_" + camoType};
+        autoptr TStringArray helmetAttachments = {"UniversalLight"};   
+
+        spawnItemWithAttachments(player, bag, bagAttachments);
+        spawnItemsOnPlayer(player, clothes);
+        spawnItemWithAttachments(player, vest, vestAttachments);
+        spawnItemWithAttachments(player, belt, beltAttachments);
+        spawnItemWithAttachments(player, helmet, helmetAttachments);
+    }
+
+    // yet another special case
+    void spawnHeadphones(PlayerBase player, string camoType)
+    {
+        switch(camoType) { 
+            case: "multicam":
+            case: "ucp":
+            case: "green":
+            case: "erdl":
+            case: "multicam_tropic":
+                player.GetInventory().CreateInInventory("MMG_headphones_green");
+                break;
+            case: "black":
+            case: "dark_woodland":
+            case: "multicamblack":
+                player.GetInventory().CreateInInventory("MMG_headphones_black");
+                break;
+        }
+    }
+
+    void setSoldierStartingItems(PlayerBase player)
+    {
+        string soldierTypes[] = {"sniper","designated marksman","infantry","heavy gunner"}
+        string camoSchemes[] = {"multicam","erdl","ucp","black","dark_woodland","green","multicam_tropic","multicamblack"};
+
+        int rndIndex = Math.RandomInt(0, 8);
+        string camoType = camoSchemes[rndIndex];
+
+        rndIndex = Math.RandomInt(0,4)
+        string soldierType = soldierTypes[rndIndex];
+
+        switch(soldierType)
+        {
+            case: "sniper":
+                setSniperStartingItems(player, camoType);
+                break;
+            case: "designated marksman":
+                setDesignatedMarksmanStartingItems(player, camoType);
+                break;
+            case: "infantry":
+                setInfantryStartingItems(player, camoType);
+                break;
+            case: "heavy gunner":
+                setHeavyGunnerStartingItems(player, camoType);
+                break;
+
+        }
 
         autoptr TStringArray specialCaseItems;
 
-        if(rndIndex == 0) { // multicam
-            specialCaseItems = {"High_Knee_Sneakers", "MMG_headphones_green",  "MMG_carbine_grey"};
-        } else if (rndIndex == 1) { // erdl
-            specialCaseItems = {"SK8_Sneakers_FullBlack", "MMG_headphones_green",  "MMG_carbine_black"};
-        } else if (rndIndex == 2) { // ucp
-            specialCaseItems = {"SK8_Sneakers_Black", "MMG_headphones_green",  "MMG_carbine_grey"};
-        } else if (rndIndex == 3) { // black
-            specialCaseItems = {"SK8_Sneakers_FullBlack", "MMG_headphones_black",  "MMG_carbine_black"};
-        } else if (rndIndex == 4) { // dark_woodland
-            specialCaseItems = {"SK8_Sneakers_FullBlack", "MMG_headphones_black",  "MMG_carbine_black"};
-        } else if (rndIndex == 5) { // green
-            specialCaseItems = {"SK8_Sneakers_Black", "MMG_headphones_green",  "MMG_carbine_green"};
-        } else if (rndIndex == 6) { // multicam_tropic
-            specialCaseItems = {"SK8_Sneakers_Black", "MMG_headphones_green",  "MMG_carbine_green"};
-        } else { // multicamblack
-            specialCaseItems = {"SK8_Sneakers_FullBlack", "MMG_headphones_black",  "MMG_carbine_black"};
+        switch(camoType) { 
+            case: "multicam":
+                specialCaseItems = {"High_Knee_Sneakers", "MMG_carbine_grey"};
+                break;
+            case: "erdl":
+                specialCaseItems = {"SK8_Sneakers_FullBlack", "MMG_carbine_black"};
+                break;
+            case: "ucp":
+                specialCaseItems = {"SK8_Sneakers_Black", "MMG_carbine_grey"};
+                break;
+            case: "black":
+                specialCaseItems = {"SK8_Sneakers_FullBlack", "MMG_carbine_black"};
+                break;
+            case: "dark_woodland":
+                specialCaseItems = {"SK8_Sneakers_FullBlack", "MMG_carbine_black"};
+                break;
+            case: "green":
+                specialCaseItems = {"SK8_Sneakers_Black", "MMG_carbine_green"};
+                break;
+            case: "multicam_tropic":
+                specialCaseItems = {"SK8_Sneakers_Black", "MMG_carbine_green"};
+                break;
+            case: "multicamblack":
+                specialCaseItems = {"SK8_Sneakers_FullBlack", "MMG_carbine_black"};
+                break;
         }
 
-        spawnSoldierClothes(player, specialCaseItems);
+        spawnItemsOnPlayer(player, specialCaseItems);
 
-        player.GetInventory().CreateInInventory("ThickFramesGlasses");
-        player.GetInventory().CreateInInventory("NioshFaceMask");
         player.GetInventory().CreateInInventory("Battery9V");
         player.GetInventory().CreateInInventory("CombatKnife");
     }
