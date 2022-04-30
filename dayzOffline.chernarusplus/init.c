@@ -69,13 +69,9 @@ class CustomMission: MissionServer
 
     void setSoldierStartingItems(PlayerBase player)
     {
-<<<<<<< Updated upstream
-        string[] camoSchemes ={"multicam","erdl"};
-=======
-        string camoSchemes[] = {"multicam","erdl","ucp"};
->>>>>>> Stashed changes
+        string camoSchemes[] = {"multicam","erdl","ucp","black","dark_woodland","green","multicam_tropic","multicamblack"};
 
-        int rndIndex = Math.RandomInt(0, 3);
+        int rndIndex = Math.RandomInt(0, 8);
         string camoType = camoSchemes[rndIndex];
 
         string bag = "MMG_camelback_" + camoType;
@@ -83,11 +79,11 @@ class CustomMission: MissionServer
         string belt = "MMG_falcon_b1_belt_" + camoType;
         string helmet = "MMG_tactical_helmet_" + camoType;
 
-        autoptr TStringArray clothes = {"MMG_operatorshirt_" + camoType, "MMG_combatpants_" + camoType, "ThickFramesGlasses", "NioshFaceMask", "mmg_tactical_gloves_" + camoType, "High_Knee_Sneakers"};
+        autoptr TStringArray clothes = {"MMG_operatorshirt_" + camoType, "MMG_combatpants_" + camoType, "mmg_tactical_gloves_" + camoType};
         autoptr TStringArray bagAttachments = {"MMG_Med_Pouch_" + camoType, "MMG_bottle_" + camoType};
         autoptr TStringArray vestAttachments = {"MMG_ammo_pouch_" + camoType, "MMG_ammo_pouch_" + camoType, "MMG_tactical_pouch_" + camoType, "MMG_Med_Pouch_" + camoType, "MMG_bottle_" + camoType};
-        autoptr TStringArray beltAttachments = {"MMG_tactical_pouch_" + camoType, "MMG_Med_Pouch_" + camoType, "MMG_sheath_" + camoType, "MMG_Holster_" + camoType, "MMG_carbine_black", "MMG_bottle_" + camoType};
-        autoptr TStringArray helmetAttachments = {"MMG_headphones_green", "UniversalLight"};   
+        autoptr TStringArray beltAttachments = {"MMG_tactical_pouch_" + camoType, "MMG_Med_Pouch_" + camoType, "MMG_sheath_" + camoType, "MMG_Holster_" + camoType, "MMG_bottle_" + camoType};
+        autoptr TStringArray helmetAttachments = {"UniversalLight"};   
 
         spawnItemWithAttachments(player, bag, bagAttachments);
         spawnSoldierClothes(player, clothes);
@@ -95,6 +91,30 @@ class CustomMission: MissionServer
         spawnItemWithAttachments(player, belt, beltAttachments);
         spawnItemWithAttachments(player, helmet, helmetAttachments);
 
+        autoptr TStringArray specialCaseItems;
+
+        if(rndIndex == 0) { // multicam
+            specialCaseItems = {"High_Knee_Sneakers", "MMG_headphones_green",  "MMG_carbine_grey"};
+        } else if (rndIndex == 1) { // erdl
+            specialCaseItems = {"SK8_Sneakers_FullBlack", "MMG_headphones_green",  "MMG_carbine_black"};
+        } else if (rndIndex == 2) { // ucp
+            specialCaseItems = {"SK8_Sneakers_Black", "MMG_headphones_green",  "MMG_carbine_grey"};
+        } else if (rndIndex == 3) { // black
+            specialCaseItems = {"SK8_Sneakers_FullBlack", "MMG_headphones_black",  "MMG_carbine_black"};
+        } else if (rndIndex == 4) { // dark_woodland
+            specialCaseItems = {"SK8_Sneakers_FullBlack", "MMG_headphones_black",  "MMG_carbine_black"};
+        } else if (rndIndex == 5) { // green
+            specialCaseItems = {"SK8_Sneakers_Black", "MMG_headphones_green",  "MMG_carbine_green"};
+        } else if (rndIndex == 6) { // multicam_tropic
+            specialCaseItems = {"SK8_Sneakers_Black", "MMG_headphones_green",  "MMG_carbine_green"};
+        } else { // multicamblack
+            specialCaseItems = {"SK8_Sneakers_FullBlack", "MMG_headphones_black",  "MMG_carbine_black"};
+        }
+
+        spawnSoldierClothes(player, specialCaseItems);
+
+        player.GetInventory().CreateInInventory("ThickFramesGlasses");
+        player.GetInventory().CreateInInventory("NioshFaceMask");
         player.GetInventory().CreateInInventory("Battery9V");
         player.GetInventory().CreateInInventory("CombatKnife");
     }
