@@ -92,7 +92,7 @@ class CustomMission: MissionServer
             helmet = "MMG_tactical_helmet_multicam";
 
             clothes = {"MMG_operatorshirt_multicam", "MMG_combatpants_multicam", "ThickFramesGlasses", "NioshFaceMask", "mmg_tactical_gloves_multicam", "High_Knee_Sneakers"};
-            bagAttachments = {"MMG_Med_Pouch_multicam", "MMG_bottle_multicam"}
+            bagAttachments = {"MMG_Med_Pouch_multicam", "MMG_bottle_multicam"};
             vestAttachments = {"MMG_ammo_pouch_multicam", "MMG_ammo_pouch_multicam", "MMG_tactical_pouch_multicam", "MMG_Med_Pouch_multicam", "MMG_bottle_multicam"};
             beltAttachments = {"MMG_tactical_pouch_multicam", "MMG_Med_Pouch_multicam", "MMG_sheath_multicam", "MMG_Holster_multicam", "MMG_carbine_grey", "MMG_bottle_multicam"};
             helmetAttachments = {"MMG_headphones_green", "UniversalLight"};   
@@ -103,7 +103,7 @@ class CustomMission: MissionServer
             helmet = "MMG_tactical_helmet_erdl";
 
             clothes = {"MMG_operatorshirt_erdl", "MMG_combatpants_erdl", "ThickFramesGlasses", "NioshFaceMask", "mmg_tactical_gloves_erdl", "SK8_Sneakers_Black"};
-            bagAttachments = {"MMG_Med_Pouch_erdl", "MMG_bottle_erdl"}
+            bagAttachments = {"MMG_Med_Pouch_erdl", "MMG_bottle_erdl"};
             vestAttachments = {"MMG_ammo_pouch_erdl", "MMG_ammo_pouch_erdl", "MMG_tactical_pouch_erdl", "MMG_Med_Pouch_erdl", "MMG_bottle_erdl"};
             beltAttachments = {"MMG_tactical_pouch_erdl", "MMG_Med_Poucherdl", "MMG_sheath_erdl", "MMG_Holster_erdl", "MMG_carbine_black", "MMG_bottle_erdl"};
             helmetAttachments = {"MMG_headphones_green", "UniversalLight"};   
