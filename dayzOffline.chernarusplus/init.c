@@ -72,9 +72,7 @@ class CustomMission: MissionServer
     {
         if (camoType == "green")
         {
-            if(prefix == "MMG_Mag_Pouch_" || prefix == "MMG_JPC_Vest_" || prefix == "MMG_ammo_pouch_" || prefix == "MMG_Med_Pouch_" || prefix == "MMG_carrier_backpack_" || 
-               prefix == "MMG_assault_pack_" || prefix == "MMG_falcon_b1_belt_" || prefix == "MMG_sheath_" || prefix == "MMG_bottle_" || prefix == "MMG_combatpants_" ||
-               prefix == "MMG_balaclava_") {
+            if(prefix == "MMG_Mag_Pouch_" || prefix == "MMG_JPC_Vest_" || prefix == "MMG_ammo_pouch_" || prefix == "MMG_Med_Pouch_" || prefix == "MMG_carrier_backpack_" || prefix == "MMG_assault_pack_" || prefix == "MMG_falcon_b1_belt_" || prefix == "MMG_sheath_" || prefix == "MMG_bottle_" || prefix == "MMG_combatpants_" || prefix == "MMG_balaclava_") {
                 return prefix + "olive";
             }
         }
@@ -156,12 +154,12 @@ class CustomMission: MissionServer
 
     void setHeavyGunnerStartingItems(PlayerBase player, string camoType)
     {
-        string vest = getItemNameForCamoType("MMG_MK_V_Armor_" + camoType;
-        string belt = getItemNameForCamoType("MMG_falcon_b1_belt_" + camoType;
-        string helmet = getItemNameForCamoType("MMG_striker_helmet_" + camoType;
+        string vest = getItemNameForCamoType("MMG_MK_V_Armor_", camoType);
+        string belt = getItemNameForCamoType("MMG_falcon_b1_belt_", camoType);
+        string helmet = getItemNameForCamoType("MMG_striker_helmet_", camoType);
 
         autoptr TStringArray clothes = {getItemNameForCamoType("MMG_supplybag_", camoType), getItemNameForCamoType("MMG_operatorshirt_", camoType), getItemNameForCamoType("MMG_combatpants_", camoType), getItemNameForCamoType("mmg_tactical_gloves_", camoType)};
-        autoptr TStringArray vestAttachments = {getItemNameForCamoType("MMG_ammo_pouch_", camoType), getItemNameForCamoType("MMG_ammo_pouch_", camoType), getItemNameForCamoType("MMG_mk5_utility_pouch_", camoType), getItemNameForCamoType("MMG_mk5_grenade_pouch_", camoType)};
+        autoptr TStringArray vestAttachments = {getItemNameForCamoType("MMG_Holster_", camoType), getItemNameForCamoType("MMG_ammo_pouch_", camoType), getItemNameForCamoType("MMG_ammo_pouch_", camoType), getItemNameForCamoType("MMG_mk5_utility_pouch_", camoType), getItemNameForCamoType("MMG_mk5_grenade_pouch_", camoType), getItemNameForCamoType("MMG_sheath_", camoType)};
         autoptr TStringArray beltAttachments = {getItemNameForCamoType("MMG_tactical_pouch_", camoType), getItemNameForCamoType("MMG_Med_Pouch_", camoType), getItemNameForCamoType("MMG_sheath_", camoType), getItemNameForCamoType("MMG_Holster_", camoType), getItemNameForCamoType("MMG_bottle_", camoType)};
         autoptr TStringArray helmetAttachments = {"UniversalLight"};   
 
