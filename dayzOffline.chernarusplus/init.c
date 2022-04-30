@@ -72,7 +72,7 @@ class CustomMission: MissionServer
         string bag = "MMG_camelback_multicam";
         autoptr TStringArray bagAttachments = {"MMG_Med_Pouch_multicam", "MMG_bottle_multicam"}
 
-        autoptr TStringArray clothes = {"MMG_operatorshirt_multicam", "MMG_combatpants_multicam", "MMG_balaclava_multicam", "mmg_tactical_gloves_multicam", "High_Knee_Sneakers"};
+        autoptr TStringArray clothes = {"MMG_operatorshirt_multicam", "MMG_combatpants_multicam", "ThickFramesGlasses", "NioshFaceMask", "mmg_tactical_gloves_multicam", "High_Knee_Sneakers"};
 
         string vest = "MMG_tt_Vest_multicam";
         autoptr TStringArray vestAttachments = {"MMG_ammo_pouch_multicam", "MMG_ammo_pouch_multicam", "MMG_tactical_pouch_multicam", "MMG_Med_Pouch_multicam", "MMG_bottle_multicam"};
@@ -81,7 +81,7 @@ class CustomMission: MissionServer
         autoptr TStringArray beltAttachments = {"MMG_tactical_pouch_multicam", "MMG_Med_Pouch_multicam", "MMG_sheath_multicam", "MMG_Holster_multicam", "MMG_carbine_grey", "MMG_bottle_multicam"};
 
         string helmet = "MMG_tactical_helmet_multicam";
-        autoptr TStringArray helmetAttachments = {"MMG_headphones_tan", "UniversalLight"};
+        autoptr TStringArray helmetAttachments = {"MMG_headphones_green", "UniversalLight"};
 
         spawnItemWithAttachments(player, bag, bagAttachments);
         spawnSoldierClothes(player, clothes);
