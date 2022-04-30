@@ -69,19 +69,45 @@ class CustomMission: MissionServer
 
     void setSoldierStartingItems(PlayerBase player)
     {
-        string bag = "MMG_camelback_multicam";
-        autoptr TStringArray bagAttachments = {"MMG_Med_Pouch_multicam", "MMG_bottle_multicam"}
+        string[] camoSchemes ={"multicam","erdl"};
 
-        autoptr TStringArray clothes = {"MMG_operatorshirt_multicam", "MMG_combatpants_multicam", "ThickFramesGlasses", "NioshFaceMask", "mmg_tactical_gloves_multicam", "High_Knee_Sneakers"};
+        int camoType = Math.RandomInt(0, 2);
 
-        string vest = "MMG_tt_Vest_multicam";
-        autoptr TStringArray vestAttachments = {"MMG_ammo_pouch_multicam", "MMG_ammo_pouch_multicam", "MMG_tactical_pouch_multicam", "MMG_Med_Pouch_multicam", "MMG_bottle_multicam"};
+        string bag;
+        string vest;
+        string belt;
+        string helmet;
 
-        string belt = "MMG_falcon_b1_belt_multicam";
-        autoptr TStringArray beltAttachments = {"MMG_tactical_pouch_multicam", "MMG_Med_Pouch_multicam", "MMG_sheath_multicam", "MMG_Holster_multicam", "MMG_carbine_grey", "MMG_bottle_multicam"};
+        autoptr TStringArray clothes;
+        autoptr TStringArray bagAttachments;
+        autoptr TStringArray vestAttachments;
+        autoptr TStringArray beltAttachments;
+        autoptr TStringArray helmetAttachments;
 
-        string helmet = "MMG_tactical_helmet_multicam";
-        autoptr TStringArray helmetAttachments = {"MMG_headphones_green", "UniversalLight"};
+        if (camoType == 1) {
+
+            bag = "MMG_camelback_multicam";
+            vest = "MMG_tt_Vest_multicam";
+            belt = "MMG_falcon_b1_belt_multicam";
+            helmet = "MMG_tactical_helmet_multicam";
+
+            clothes = {"MMG_operatorshirt_multicam", "MMG_combatpants_multicam", "ThickFramesGlasses", "NioshFaceMask", "mmg_tactical_gloves_multicam", "High_Knee_Sneakers"};
+            bagAttachments = {"MMG_Med_Pouch_multicam", "MMG_bottle_multicam"}
+            vestAttachments = {"MMG_ammo_pouch_multicam", "MMG_ammo_pouch_multicam", "MMG_tactical_pouch_multicam", "MMG_Med_Pouch_multicam", "MMG_bottle_multicam"};
+            beltAttachments = {"MMG_tactical_pouch_multicam", "MMG_Med_Pouch_multicam", "MMG_sheath_multicam", "MMG_Holster_multicam", "MMG_carbine_grey", "MMG_bottle_multicam"};
+            helmetAttachments = {"MMG_headphones_green", "UniversalLight"};   
+        } else {
+            bag = "MMG_camelback_erdl";
+            vest = "MMG_tt_Vest_erdl";
+            belt = "MMG_falcon_b1_belt_erdl";
+            helmet = "MMG_tactical_helmet_erdl";
+
+            clothes = {"MMG_operatorshirt_erdl", "MMG_combatpants_erdl", "ThickFramesGlasses", "NioshFaceMask", "mmg_tactical_gloves_erdl", "SK8_Sneakers_Black"};
+            bagAttachments = {"MMG_Med_Pouch_erdl", "MMG_bottle_erdl"}
+            vestAttachments = {"MMG_ammo_pouch_erdl", "MMG_ammo_pouch_erdl", "MMG_tactical_pouch_erdl", "MMG_Med_Pouch_erdl", "MMG_bottle_erdl"};
+            beltAttachments = {"MMG_tactical_pouch_erdl", "MMG_Med_Poucherdl", "MMG_sheath_erdl", "MMG_Holster_erdl", "MMG_carbine_black", "MMG_bottle_erdl"};
+            helmetAttachments = {"MMG_headphones_green", "UniversalLight"};   
+        }
 
         spawnItemWithAttachments(player, bag, bagAttachments);
         spawnSoldierClothes(player, clothes);
