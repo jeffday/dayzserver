@@ -50,57 +50,47 @@ class CustomMission: MissionServer
         
         return itemEnt;
     }
-    
+
+    void spawnSoldierClothes(PlayerBase player, string[] clothes) {
+        for(int i = 0; i < clothes.Count(); i++)
+             player.GetInventory().CreateInInventory(clothes[i]);
+        }
+    }
+
+    void spawnItemWithAttachments(PlayerBase player, string parentItem, string[] attachments) {
+        EntityAI itemEnt;
+        
+        itemEnt = player.GetInventory().CreateInInventory(parentItem);
+
+        for(int i = 0; i < attachments.Count(); i++)
+            itemEnt.GetInventory().CreateAttachment(attachments[i]);
+        }
+    }
+
     void setSoldierStartingItems(PlayerBase player)
     {
-    	EntityAI itemEnt;
-	ItemBase itemBs;
-	
-	itemEnt = player.GetInventory().CreateInInventory("MMG_camelback_multicam");
-	itemEnt.GetInventory().CreateAttachment("MMG_Med_Pouch_multicam");
-	itemEnt = itemEnt.GetInventory().CreateAttachment("MMG_bottle_multicam");
-	// empty bottle
-	if (Class.CastTo(itemBs, itemEnt)) {
-		itemBs.SetQuantity(0);
-        }
-	
-	itemEnt = player.GetInventory().CreateInInventory("MMG_operatorshirt_multicam");
-	itemEnt = player.GetInventory().CreateInInventory("MMG_combatpants_multicam");
-	itemEnt = player.GetInventory().CreateInInventory("MMG_balaclava_multicam");
-	itemEnt = player.GetInventory().CreateInInventory("mmg_tactical_gloves_multicam");
-	itemEnt = player.GetInventory().CreateInInventory("High_Knee_Sneakers");
-	
-	itemEnt = player.GetInventory().CreateInInventory("MMG_tt_Vest_multicam");
-	itemEnt.GetInventory().CreateAttachment("MMG_ammo_pouch_multicam");
-	itemEnt.GetInventory().CreateAttachment("MMG_ammo_pouch_multicam");
-	itemEnt.GetInventory().CreateAttachment("MMG_tactical_pouch_multicam");
-	itemEnt.GetInventory().CreateAttachment("MMG_Med_Pouch_multicam");
-	itemEnt = itemEnt.GetInventory().CreateAttachment("MMG_bottle_multicam");
-	
-	// empty bottle
-	if (Class.CastTo(itemBs, itemEnt)) {
-		itemBs.SetQuantity(0);
-        }
-	
-	itemEnt = player.GetInventory().CreateInInventory("MMG_falcon_b1_belt_multicam");
-	itemEnt.GetInventory().CreateAttachment("MMG_tactical_pouch_multicam");
-	itemEnt.GetInventory().CreateAttachment("MMG_Med_Pouch_multicam");
-	itemEnt.GetInventory().CreateAttachment("MMG_sheath_multicam");
-	itemEnt.GetInventory().CreateAttachment("MMG_Holster_multicam");
-	itemEnt.GetInventory().CreateAttachment("MMG_carbine_grey");
-	itemEnt = itemEnt.GetInventory().CreateAttachment("MMG_bottle_multicam");
-	
-	// empty bottle
-	if (Class.CastTo(itemBs, itemEnt)) {
-		itemBs.SetQuantity(0);
-        }
-	
-	itemEnt = player.GetInventory().CreateInInventory("MMG_tactical_helmet_multicam");
-	itemEnt.GetInventory().CreateAttachment("MMG_headphones_green");
-	itemEnt = itemEnt.GetInventory().CreateAttachment("UniversalLight");
-	itemEnt.GetInventory().CreateAttachment("Battery9V");
-	
-	itemEnt = player.GetInventory().CreateInInventory("CombatKnife");
+        string bag = "MMG_camelback_multicam";
+        string bagAttachments[] = {"MMG_Med_Pouch_multicam", "MMG_bottle_multicam"}
+
+        string clothes[] = {"MMG_operatorshirt_multicam", "MMG_combatpants_multicam", "MMG_balaclava_multicam", "mmg_tactical_gloves_multicam", "High_Knee_Sneakers"};
+
+        string vest = "MMG_tt_Vest_multicam";
+        string vestAttachments[] = {"MMG_ammo_pouch_multicam", "MMG_ammo_pouch_multicam", "MMG_tactical_pouch_multicam", "MMG_Med_Pouch_multicam", "MMG_bottle_multicam"};
+
+        string belt = "MMG_falcon_b1_belt_multicam";
+        string beltAttachments[] = {"MMG_tactical_pouch_multicam", "MMG_Med_Pouch_multicam", "MMG_sheath_multicam", "MMG_Holster_multicam", "MMG_carbine_grey", "MMG_bottle_multicam"};
+
+        string helmet = "MMG_tactical_helmet_multicam";
+        string helmetAttachments[] = {"MMG_headphones_tan", "UniversalLight"};
+
+        spawnItemWithAttachments(player, bag, bagAttachments);
+        spawnSoldierClothes(player, clothes);
+        spawnItemWithAttachments(player, vest, vestAttachments);
+        spawnItemWithAttachments(player, belt, beltAttachments);
+        spawnItemWithAttachments(player, helmet, helmetAttachments);
+
+        player.GetInventory().CreateInInventory("Battery9V");
+        player.GetInventory().CreateInInventory("CombatKnife");
     }
 
     void setFirefighterStartingItems(PlayerBase player)
