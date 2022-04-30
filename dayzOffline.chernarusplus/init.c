@@ -52,8 +52,8 @@ class CustomMission: MissionServer
     }
 
     void spawnItemsOnPlayer(PlayerBase player, TStringArray items) {
-        for(int i = 0; i < clothes.Count(); i++) {
-             player.GetInventory().CreateInInventory(clothes[i]);
+        for(int i = 0; i < items.Count(); i++) {
+             player.GetInventory().CreateInInventory(items[i]);
         }
     }
 
@@ -67,17 +67,32 @@ class CustomMission: MissionServer
         }   
     }
 
+    // god dammit moitzbert
+    string getItemNameForCamoType(string prefix, string camoType)
+    {
+        if (camoType == "green")
+        {
+            if(prefix == "MMG_Mag_Pouch_" || prefix == "MMG_JPC_Vest_" || prefix == "MMG_ammo_pouch_" || prefix == "MMG_Med_Pouch_" || prefix == "MMG_carrier_backpack_" || 
+               prefix == "MMG_assault_pack_" || prefix == "MMG_falcon_b1_belt_" || prefix == "MMG_sheath_" || prefix == "MMG_bottle_" || prefix == "MMG_combatpants_" ||
+               prefix == "MMG_balaclava_") {
+                return prefix + "olive";
+            }
+        }
+
+        return prefix + camoType;
+    }
+
     void setInfantryStartingItems(PlayerBase player, string camoType)
     {
-        string bag = "MMG_camelback_" + camoType;
-        string vest = "MMG_MK_III_Armor_" + camoType;
-        string belt = "MMG_falcon_b1_belt_" + camoType;
-        string helmet = "MMG_tactical_helmet_" + camoType;
+        string bag = getItemNameForCamoType("MMG_camelback_", camoType);
+        string vest = getItemNameForCamoType("MMG_MK_III_Armor_", camoType);
+        string belt = getItemNameForCamoType("MMG_falcon_b1_belt_", camoType);
+        string helmet = getItemNameForCamoType("MMG_tactical_helmet_", camoType);
 
-        autoptr TStringArray clothes = {"MMG_operatorshirt_" + camoType, "MMG_combatpants_" + camoType, "mmg_tactical_gloves_" + camoType};
-        autoptr TStringArray bagAttachments = {"MMG_Med_Pouch_" + camoType, "MMG_bottle_" + camoType};
-        autoptr TStringArray vestAttachments = {"MMG_triple_magpouch" + camoType, "MMG_ammo_pouch_" + camoType, "MMG_tactical_pouch_" + camoType, "MMG_Med_Pouch_" + camoType};
-        autoptr TStringArray beltAttachments = {"MMG_tactical_pouch_" + camoType, "MMG_Med_Pouch_" + camoType, "MMG_sheath_" + camoType, "MMG_Holster_" + camoType, "MMG_bottle_" + camoType};
+        autoptr TStringArray clothes = {getItemNameForCamoType("MMG_operatorshirt_", camoType), getItemNameForCamoType("MMG_combatpants_", camoType), getItemNameForCamoType("mmg_tactical_gloves_", camoType)};
+        autoptr TStringArray bagAttachments = {getItemNameForCamoType("MMG_Med_Pouch_", camoType), getItemNameForCamoType("MMG_bottle_", camoType)};
+        autoptr TStringArray vestAttachments = {getItemNameForCamoType("MMG_triple_magpouch_", camoType), getItemNameForCamoType("MMG_ammo_pouch_", camoType), getItemNameForCamoType("MMG_tactical_pouch_", camoType), getItemNameForCamoType("MMG_Med_Pouch_", camoType)};
+        autoptr TStringArray beltAttachments = {getItemNameForCamoType("MMG_tactical_pouch_", camoType), getItemNameForCamoType("MMG_Med_Pouch_", camoType), getItemNameForCamoType("MMG_sheath_", camoType), getItemNameForCamoType("MMG_Holster_", camoType), getItemNameForCamoType("MMG_bottle_", camoType)};
         autoptr TStringArray helmetAttachments = {"UniversalLight"};   
 
         spawnItemWithAttachments(player, bag, bagAttachments);
@@ -93,19 +108,19 @@ class CustomMission: MissionServer
 
     void setSniperStartingItems(PlayerBase player, string camoType)
     {
-        string vest = "MMG_chestrig_black" + camoType;
-        string belt = "MMG_falcon_b1_belt_" + camoType;
+        string vest = getItemNameForCamoType("MMG_chestrig_", camoType);
+        string belt = getItemNameForCamoType("MMG_falcon_b1_belt_", camoType);
 
-        autoptr TStringArray clothes = {"MMG_carrier_backpack" + camoType, "MMG_combatshirt" + camoType, "MMG_combatpants_" + camoType, "mmg_tactical_gloves_" + camoType, "MMG_balaclava_" + camoType};
-        autoptr TStringArray vestAttachments = {"MMG_tactical_pouch_" + camoType, "MMG_Med_Pouch_" + camoType, "MMG_bottle_" + camoType, "MMG_sheath_" + camoType};
-        autoptr TStringArray beltAttachments = {"MMG_tactical_pouch_" + camoType, "MMG_Med_Pouch_" + camoType, "MMG_sheath_" + camoType, "MMG_Holster_" + camoType, "MMG_bottle_" + camoType};   
+        autoptr TStringArray clothes = {getItemNameForCamoType("MMG_carrier_backpack_", camoType), getItemNameForCamoType("MMG_combatshirt_", camoType), getItemNameForCamoType("MMG_combatpants_", camoType), getItemNameForCamoType("mmg_tactical_gloves_", camoType), getItemNameForCamoType("MMG_balaclava_", camoType)};
+        autoptr TStringArray vestAttachments = {getItemNameForCamoType("MMG_tactical_pouch_", camoType), getItemNameForCamoType("MMG_Med_Pouch_", camoType), getItemNameForCamoType("MMG_bottle_", camoType), getItemNameForCamoType("MMG_sheath_", camoType)};
+        autoptr TStringArray beltAttachments = {getItemNameForCamoType("MMG_tactical_pouch_", camoType), getItemNameForCamoType("MMG_Med_Pouch_", camoType), getItemNameForCamoType("MMG_sheath_", camoType), getItemNameForCamoType("MMG_Holster_", camoType), getItemNameForCamoType("MMG_bottle_", camoType)};   
 
         spawnItemsOnPlayer(player, clothes);
         spawnItemWithAttachments(player, vest, vestAttachments);
         spawnItemWithAttachments(player, belt, beltAttachments);
 
         switch(camoType){
-            case: "black"
+            case "black":
                 // black is the only camo scheme without its own sniper boonie
                 player.GetInventory().CreateInInventory("mmg_boonie_dark_woodland");
                 break;
@@ -117,15 +132,15 @@ class CustomMission: MissionServer
 
     void setDesignatedMarksmanStartingItems(PlayerBase player, string camoType)
     {
-        string bag = "MMG_camelback_" + camoType;
-        string vest = "MMG_tt_Vest_" + camoType;
-        string belt = "MMG_falcon_b1_belt_" + camoType;
-        string helmet = "MMG_tactical_helmet_" + camoType;
+        string bag = getItemNameForCamoType("MMG_camelback_", camoType);
+        string vest = getItemNameForCamoType("MMG_tt_Vest_", camoType);
+        string belt = getItemNameForCamoType("MMG_falcon_b1_belt_", camoType);
+        string helmet = getItemNameForCamoType("MMG_tactical_helmet_", camoType);
 
-        autoptr TStringArray clothes = {"MMG_tactical_shirt" + camoType, "MMG_combatpants_" + camoType, "mmg_tactical_gloves_" + camoType,  "MMG_balaclava_" + camoType};
-        autoptr TStringArray bagAttachments = {"MMG_Med_Pouch_" + camoType, "MMG_bottle_" + camoType};
-        autoptr TStringArray vestAttachments = {"MMG_ammo_pouch_" + camoType, "MMG_ammo_pouch_" + camoType, "MMG_tactical_pouch_" + camoType, "MMG_Med_Pouch_" + camoType, "MMG_bottle_" + camoType};
-        autoptr TStringArray beltAttachments = {"MMG_tactical_pouch_" + camoType, "MMG_Med_Pouch_" + camoType, "MMG_sheath_" + camoType, "MMG_Holster_" + camoType, "MMG_bottle_" + camoType};
+        autoptr TStringArray clothes = {getItemNameForCamoType("MMG_tactical_shirt_", camoType), getItemNameForCamoType("MMG_combatpants_", camoType), getItemNameForCamoType("mmg_tactical_gloves_", camoType),  getItemNameForCamoType("MMG_balaclava_", camoType)};
+        autoptr TStringArray bagAttachments = {getItemNameForCamoType("MMG_Med_Pouch_", camoType), getItemNameForCamoType("MMG_bottle_", camoType)};
+        autoptr TStringArray vestAttachments = {getItemNameForCamoType("MMG_ammo_pouch_", camoType), getItemNameForCamoType("MMG_ammo_pouch_", camoType), getItemNameForCamoType("MMG_tactical_pouch_", camoType), getItemNameForCamoType("MMG_Med_Pouch_", camoType), getItemNameForCamoType("MMG_bottle_", camoType)};
+        autoptr TStringArray beltAttachments = {getItemNameForCamoType("MMG_tactical_pouch_", camoType), getItemNameForCamoType("MMG_Med_Pouch_", camoType), getItemNameForCamoType("MMG_sheath_", camoType), getItemNameForCamoType("MMG_Holster_", camoType), getItemNameForCamoType("MMG_bottle_", camoType)};
         autoptr TStringArray helmetAttachments = {"UniversalLight"};   
 
         spawnItemWithAttachments(player, bag, bagAttachments);
@@ -141,17 +156,15 @@ class CustomMission: MissionServer
 
     void setHeavyGunnerStartingItems(PlayerBase player, string camoType)
     {
-        string bag = "MMG_supplybag_" + camoType;
-        string vest = "MMG_MK_V_Armor_" + camoType;
-        string belt = "MMG_falcon_b1_belt_" + camoType;
-        string helmet = "MMG_striker_helmet_" + camoType;
+        string vest = getItemNameForCamoType("MMG_MK_V_Armor_" + camoType;
+        string belt = getItemNameForCamoType("MMG_falcon_b1_belt_" + camoType;
+        string helmet = getItemNameForCamoType("MMG_striker_helmet_" + camoType;
 
-        autoptr TStringArray clothes = {"MMG_operatorshirt_" + camoType, "MMG_combatpants_" + camoType, "mmg_tactical_gloves_" + camoType};
-        autoptr TStringArray vestAttachments = {"MMG_ammo_pouch_" + camoType, "MMG_ammo_pouch_" + camoType, "MMG_mk5_utility_pouch_" + camoType, "MMG_mk5_grenade_pouch_" + camoType};
-        autoptr TStringArray beltAttachments = {"MMG_tactical_pouch_" + camoType, "MMG_Med_Pouch_" + camoType, "MMG_sheath_" + camoType, "MMG_Holster_" + camoType, "MMG_bottle_" + camoType};
+        autoptr TStringArray clothes = {getItemNameForCamoType("MMG_supplybag_", camoType), getItemNameForCamoType("MMG_operatorshirt_", camoType), getItemNameForCamoType("MMG_combatpants_", camoType), getItemNameForCamoType("mmg_tactical_gloves_", camoType)};
+        autoptr TStringArray vestAttachments = {getItemNameForCamoType("MMG_ammo_pouch_", camoType), getItemNameForCamoType("MMG_ammo_pouch_", camoType), getItemNameForCamoType("MMG_mk5_utility_pouch_", camoType), getItemNameForCamoType("MMG_mk5_grenade_pouch_", camoType)};
+        autoptr TStringArray beltAttachments = {getItemNameForCamoType("MMG_tactical_pouch_", camoType), getItemNameForCamoType("MMG_Med_Pouch_", camoType), getItemNameForCamoType("MMG_sheath_", camoType), getItemNameForCamoType("MMG_Holster_", camoType), getItemNameForCamoType("MMG_bottle_", camoType)};
         autoptr TStringArray helmetAttachments = {"UniversalLight"};   
 
-        spawnItemWithAttachments(player, bag, bagAttachments);
         spawnItemsOnPlayer(player, clothes);
         spawnItemWithAttachments(player, vest, vestAttachments);
         spawnItemWithAttachments(player, belt, beltAttachments);
@@ -162,16 +175,16 @@ class CustomMission: MissionServer
     void spawnHeadphones(PlayerBase player, string camoType)
     {
         switch(camoType) { 
-            case: "multicam":
-            case: "ucp":
-            case: "green":
-            case: "erdl":
-            case: "multicam_tropic":
+            case "multicam":
+            case "ucp":
+            case "green":
+            case "erdl":
+            case "multicam_tropic":
                 player.GetInventory().CreateInInventory("MMG_headphones_green");
                 break;
-            case: "black":
-            case: "dark_woodland":
-            case: "multicamblack":
+            case "black":
+            case "dark_woodland":
+            case "multicamblack":
                 player.GetInventory().CreateInInventory("MMG_headphones_black");
                 break;
         }
@@ -190,16 +203,16 @@ class CustomMission: MissionServer
 
         switch(soldierType)
         {
-            case: "sniper":
+            case "sniper":
                 setSniperStartingItems(player, camoType);
                 break;
-            case: "designated marksman":
+            case "designated marksman":
                 setDesignatedMarksmanStartingItems(player, camoType);
                 break;
-            case: "infantry":
+            case "infantry":
                 setInfantryStartingItems(player, camoType);
                 break;
-            case: "heavy gunner":
+            case "heavy gunner":
                 setHeavyGunnerStartingItems(player, camoType);
                 break;
 
@@ -208,28 +221,28 @@ class CustomMission: MissionServer
         autoptr TStringArray specialCaseItems;
 
         switch(camoType) { 
-            case: "multicam":
+            case "multicam":
                 specialCaseItems = {"High_Knee_Sneakers", "MMG_carbine_grey"};
                 break;
-            case: "erdl":
+            case "erdl":
                 specialCaseItems = {"SK8_Sneakers_FullBlack", "MMG_carbine_black"};
                 break;
-            case: "ucp":
+            case "ucp":
                 specialCaseItems = {"SK8_Sneakers_Black", "MMG_carbine_grey"};
                 break;
-            case: "black":
+            case "black":
                 specialCaseItems = {"SK8_Sneakers_FullBlack", "MMG_carbine_black"};
                 break;
-            case: "dark_woodland":
+            case "dark_woodland":
                 specialCaseItems = {"SK8_Sneakers_FullBlack", "MMG_carbine_black"};
                 break;
-            case: "green":
+            case "green":
                 specialCaseItems = {"SK8_Sneakers_Black", "MMG_carbine_green"};
                 break;
-            case: "multicam_tropic":
+            case "multicam_tropic":
                 specialCaseItems = {"SK8_Sneakers_Black", "MMG_carbine_green"};
                 break;
-            case: "multicamblack":
+            case "multicamblack":
                 specialCaseItems = {"SK8_Sneakers_FullBlack", "MMG_carbine_black"};
                 break;
         }
