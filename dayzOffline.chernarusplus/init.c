@@ -7,7 +7,7 @@ void main()
 
 	//DATE RESET AFTER ECONOMY INIT-------------------------
 	int year, month, day, hour, minute;
-	int reset_month = 9, reset_day = 20;
+	int reset_month = 4, reset_day = 30;
 	GetGame().GetWorld().GetDate(year, month, day, hour, minute);
 
 	if ((month == reset_month) && (day < reset_day))
@@ -80,6 +80,20 @@ class CustomMission: MissionServer
         return prefix + camoType;
     }
 
+    void spawnSidearm(PlayerBase player) {
+        autoptr TStringArray pistols = {"TTC_M9", "TTC_P320", "TTC_Glock17"};
+        autoptr TStringArray pistolMags = {"TTC_Mag_M9_15Rnd", "TTC_P320_17Rnd","TTC_Mag_Glock_17Rnd"}
+        autoptr TStringArray pistolAttachments = {"TTC_Pistol_Light","TTC_Pistol_Optic"};
+
+        int rndIndex = Math.RandomInt(0, 3);
+
+        pistolAttachments.Insert(pistolMags[rndIndex]);
+
+        spawnItemWithAttachments(player, pistols[rndIndex], pistolAttachments);
+
+        player.GetInventory().CreateInInventory(pistolMags[rndIndex]);
+    }
+
     void setInfantryStartingItems(PlayerBase player, string camoType)
     {
         string bag = getItemNameForCamoType("MMG_camelback_", camoType);
@@ -100,6 +114,15 @@ class CustomMission: MissionServer
         spawnItemWithAttachments(player, helmet, helmetAttachments);
         spawnHeadphones(player, camoType);
 
+        autoptr TStringArray rifles = {"TTC_SCARLBlack", "TTC_M16A4", "TTC_L85"};
+        autoptr TStringArray rifleAttachments = {"TTC_Elcan", "UniversalLight", "Mag_STANAG_30Rnd"};
+
+        int rndIndex = Math.RandomInt(0, 3);
+
+        spawnItemWithAttachments(player, rifles[rndIndex], rifleAttachments);
+        spawnSidearm(player);
+        
+        player.GetInventory().CreateInInventory("Mag_STANAG_30Rnd");
         player.GetInventory().CreateInInventory("ThickFramesGlasses");
         player.GetInventory().CreateInInventory("NioshFaceMask");
     }
@@ -109,7 +132,7 @@ class CustomMission: MissionServer
         string vest = getItemNameForCamoType("MMG_chestrig_", camoType);
         string belt = getItemNameForCamoType("MMG_falcon_b1_belt_", camoType);
 
-        autoptr TStringArray clothes = {getItemNameForCamoType("MMG_carrier_backpack_", camoType), getItemNameForCamoType("MMG_combatshirt_", camoType), getItemNameForCamoType("MMG_combatpants_", camoType), getItemNameForCamoType("mmg_tactical_gloves_", camoType), getItemNameForCamoType("MMG_balaclava_", camoType)};
+        autoptr TStringArray clothes = {getItemNameForCamoType("MMG_carrier_backpack_", camoType), getItemNameForCamoType("MMG_combatshirt_", camoType), getItemNameForCamoType("MMG_combatpants_", camoType), getItemNameForCamoType("mmg_tactical_gloves_", camoType), getItemNameForCamoType("MMG_balaclava_", camoType), "NVGHeadstrap", "NVGoggles"};
         autoptr TStringArray vestAttachments = {getItemNameForCamoType("MMG_tactical_pouch_", camoType), getItemNameForCamoType("MMG_Med_Pouch_", camoType), getItemNameForCamoType("MMG_bottle_", camoType), getItemNameForCamoType("MMG_sheath_", camoType)};
         autoptr TStringArray beltAttachments = {getItemNameForCamoType("MMG_tactical_pouch_", camoType), getItemNameForCamoType("MMG_Med_Pouch_", camoType), getItemNameForCamoType("MMG_sheath_", camoType), getItemNameForCamoType("MMG_Holster_", camoType), getItemNameForCamoType("MMG_bottle_", camoType)};   
 
@@ -126,6 +149,34 @@ class CustomMission: MissionServer
                 player.GetInventory().CreateInInventory("mmg_boonie_" + camoType);
                 break;
         }
+
+        autoptr TStringArray rifles = {"TTC_XM2010", "CZ527", "CZ550", "TTC_R700_Black", "TTC_MAS36"};
+        autoptr TStringArray rifleMagazines = {"TTC_XM2010_10rnd", "Mag_CZ527_5rnd", "Mag_CZ550_10Rnd"};
+        autoptr TStringArray rifleScopes = {"TTC_VortexRHDAMG_Optic", "HuntingOptic", "HuntingOptic", "HuntingOptic", "HuntingOptic"};
+
+        int rndIndex = Math.RandomInt(0, 5);
+
+        autoptr TStringArray rifleAttachments = new TStringArray;
+        rifleAttachments.Insert(rifleScopes[rndIndex]);
+        rifleAttachments.Insert("TTC_M14Suppressor");
+
+        // spawn ammo box or extra mag
+        if (rndIndex < 3) {
+            // Remington 700 and MAS 36 have internal magazines
+            rifleAttachments.Insert(rifleMagazines[rndIndex]);
+            player.GetInventory().CreateInInventory(rifleMagazines[rndIndex]);
+        } else if (rndIndex == 3) {
+            // Remington 700
+            player.GetInventory().CreateInInventory("AmmoBox_308Win_20Rnd");
+        } else {
+            // MAS 36
+            player.GetInventory().CreateInInventory("AmmoBox_762x54_20Rnd");
+        }
+
+        // spawn rifle itself with expected accessories
+        spawnItemWithAttachments(player, rifles[rndIndex], rifleAttachments);
+        spawnSidearm(player);
+        player.GetInventory().CreateInInventory("TTC_PistolSuppressor");
     }
 
     void setDesignatedMarksmanStartingItems(PlayerBase player, string camoType)
@@ -148,6 +199,29 @@ class CustomMission: MissionServer
         spawnItemWithAttachments(player, helmet, helmetAttachments);
         spawnHeadphones(player, camoType);
 
+        autoptr TStringArray rifles = {"TTC_HK417", "TTC_HKG28_Black", "TTC_SCARHBlack", "TTC_M110_Black", "TTCSR25", "TTC_M4DMR"};
+        autoptr TStringArray rifleMagazines = {"TTC_HK417_Magazine_20rnd", "TTC_HK417_Magazine_20rnd", "TTC_SCARHMag", "TTC_308Stanag", "TTC_308Stanag", "TTC_308Stanag"};
+        autoptr TStringArray rifleAttachments = {"TTC_VortexSE_Optic"};
+
+        int rndIndex = Math.RandomInt(0, 6);
+
+        rifleAttachments.Insert(rifleMagazines[rndIndex]);
+        player.GetInventory().CreateInInventory(rifleMagazines[rndIndex]);
+
+        if (rndIndex < 2) {
+            // HK DMRs have their own buttstock
+            rifleAttachments.Insert("TTC_ButtstockHK_Black");
+            rifleAttachments.Insert("TTC_DMR_VFG");
+        } else if (rndIndex > 2 && rndIndex < 5) {
+            // ignore the SCAR-H, it doesn't have this slot, and the M4DMR does its own thing
+            rifleAttachments.Insert("TTC_DMR_VFG");
+        } else if (rndIndex == 5) {
+            // M4DMR has this weird handguard thing that only it uses
+            rifleAttachments.Insert("TTC_DMR_Hndguard");
+        }
+
+        spawnItemWithAttachments(player, rifles[rndIndex], rifleAttachments);
+        spawnSidearm(player);
         // probably doesn't make sense for a DM to need glasses but i just like them okay
         player.GetInventory().CreateInInventory("ThickFramesGlasses");
     }
@@ -158,7 +232,7 @@ class CustomMission: MissionServer
         string belt = getItemNameForCamoType("MMG_falcon_b1_belt_", camoType);
         string helmet = getItemNameForCamoType("MMG_striker_helmet_", camoType);
 
-        autoptr TStringArray clothes = {getItemNameForCamoType("MMG_supplybag_", camoType), getItemNameForCamoType("MMG_operatorshirt_", camoType), getItemNameForCamoType("MMG_combatpants_", camoType), getItemNameForCamoType("mmg_tactical_gloves_", camoType)};
+        autoptr TStringArray clothes = {getItemNameForCamoType("MMG_supplybag_", camoType), getItemNameForCamoType("MMG_operatorshirt_", camoType), getItemNameForCamoType("MMG_combatpants_", camoType), getItemNameForCamoType("mmg_tactical_gloves_", camoType), getItemNameForCamoType("MMG_balaclava_", camoType)};
         autoptr TStringArray vestAttachments = {getItemNameForCamoType("MMG_Holster_", camoType), getItemNameForCamoType("MMG_ammo_pouch_", camoType), getItemNameForCamoType("MMG_ammo_pouch_", camoType), getItemNameForCamoType("MMG_mk5_utility_pouch_", camoType), getItemNameForCamoType("MMG_mk5_grenade_pouch_", camoType), getItemNameForCamoType("MMG_sheath_", camoType)};
         autoptr TStringArray beltAttachments = {getItemNameForCamoType("MMG_tactical_pouch_", camoType), getItemNameForCamoType("MMG_Med_Pouch_", camoType), getItemNameForCamoType("MMG_sheath_", camoType), getItemNameForCamoType("MMG_Holster_", camoType), getItemNameForCamoType("MMG_bottle_", camoType)};
         autoptr TStringArray helmetAttachments = {"UniversalLight"};   
@@ -167,6 +241,21 @@ class CustomMission: MissionServer
         spawnItemWithAttachments(player, vest, vestAttachments);
         spawnItemWithAttachments(player, belt, beltAttachments);
         spawnItemWithAttachments(player, helmet, helmetAttachments);
+
+        // we don't have LMGs in dayz, or, at least not in the mods i use, so i guess give him a battle rifle
+        autoptr TStringArray rifles = {"TTC_AG3", "TTC_FAL", "TTC_G3"};
+        autoptr TStringArray rifleMagazines = {"TTC_AG3_Coupled_Magazine_40rnd", "TTC_Coupled_FAL_Magazine", "TTC_AG3_Coupled_Magazine_40rnd"};
+        autoptr TStringArray rifleScopes = {"TTC_VortexSE_Optic", "TTC_VortexSE_Optic", "TTC_G3_Optic"};
+
+        int rndIndex = Math.RandomInt(0, 3);
+
+        autoptr TStringArray rifleAttachments = new TStringArray;
+        rifleAttachments.Insert(rifleScopes[rndIndex]);
+        rifleAttachments.Insert(rifleMagazines[rndIndex]);
+        player.GetInventory().CreateInInventory(rifleMagazines[rndIndex]);
+
+        spawnItemWithAttachments(player, rifles[rndIndex], rifleAttachments);
+        spawnSidearm(player);
     }
 
     // yet another special case
@@ -199,22 +288,22 @@ class CustomMission: MissionServer
         rndIndex = Math.RandomInt(0,4)
         string soldierType = soldierTypes[rndIndex];
 
-        switch(soldierType)
-        {
-            case "sniper":
+        //switch(soldierType)
+        //{
+        //    case "sniper":
                 setSniperStartingItems(player, camoType);
-                break;
-            case "designated marksman":
-                setDesignatedMarksmanStartingItems(player, camoType);
-                break;
-            case "infantry":
-                setInfantryStartingItems(player, camoType);
-                break;
-            case "heavy gunner":
-                setHeavyGunnerStartingItems(player, camoType);
-                break;
+        //        break;
+        //    case "designated marksman":
+        //        setDesignatedMarksmanStartingItems(player, camoType);
+        //        break;
+        //    case "infantry":
+        //        setInfantryStartingItems(player, camoType);
+        //        break;
+        //    case "heavy gunner":
+        //        setHeavyGunnerStartingItems(player, camoType);
+        //        break;
 
-        }
+        //}
 
         autoptr TStringArray specialCaseItems;
 
@@ -247,6 +336,7 @@ class CustomMission: MissionServer
 
         spawnItemsOnPlayer(player, specialCaseItems);
 
+        player.GetInventory().CreateInInventory("Battery9V");
         player.GetInventory().CreateInInventory("Battery9V");
         player.GetInventory().CreateInInventory("CombatKnife");
     }
