@@ -27,11 +27,11 @@
         <value name="Tier3"/>
         <value name="Tier4"/>
     </type>
-    <type name="AK101">
-        <nominal>2</nominal>
+    <type name="AK101"> <!-- using weapon expansion version -->
+        <nominal>0</nominal>
         <lifetime>28800</lifetime>
         <restock>3600</restock>
-        <min>1</min>
+        <min>0</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -62,11 +62,11 @@
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="1" deloot="0"/>
         <category name="weapons"/>
     </type>
-    <type name="AK74">
-        <nominal>10</nominal>
+    <type name="AK74"> <!-- using weapon expansion version -->
+        <nominal>0</nominal>
         <lifetime>28800</lifetime>
         <restock>0</restock>
-        <min>8</min>
+        <min>9</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -122,11 +122,11 @@
         <category name="weapons"/>
         <usage name="Military"/>
     </type>
-    <type name="AKM">
-        <nominal>1</nominal>
+    <type name="AKM"> <!-- using weapon expansion version -->
+        <nominal>0</nominal>
         <lifetime>28800</lifetime>
         <restock>3600</restock>
-        <min>1</min>
+        <min>0</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -181,10 +181,10 @@
         <category name="weapons"/>
     </type>
     <type name="AK_Bayonet">
-        <nominal>10</nominal>
+        <nominal>0</nominal>
         <lifetime>28800</lifetime>
         <restock>0</restock>
-        <min>5</min>
+        <min>0</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -275,10 +275,10 @@
         <usage name="Military"/>
     </type>
     <type name="AK_RailHndgrd">
-        <nominal>5</nominal>
+        <nominal>0</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
-        <min>2</min>
+        <min>0</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -11387,11 +11387,11 @@
         <tag name="shelves"/>
         <usage name="Medic"/>
     </type>
-    <type name="Mosin9130">
-        <nominal>70</nominal>
+    <type name="Mosin9130"> <!-- using weapon expansion version -->
+        <nominal>0</nominal>
         <lifetime>28800</lifetime>
         <restock>0</restock>
-        <min>50</min>
+        <min>0</min>
         <quantmin>0</quantmin>
         <quantmax>80</quantmax>
         <cost>100</cost>
@@ -13617,11 +13617,11 @@
         <usage name="Village"/>
         <value name="Tier1"/>
     </type>
-    <type name="SKS">
-        <nominal>30</nominal>
+    <type name="SKS"> <!-- using weapon expansion version -->
+        <nominal>0</nominal>
         <lifetime>28800</lifetime>
         <restock>0</restock>
-        <min>20</min>
+        <min>0</min>
         <quantmin>0</quantmin>
         <quantmax>80</quantmax>
         <cost>100</cost>
@@ -13645,11 +13645,11 @@
         <value name="Tier2"/>
         <value name="Tier3"/>
     </type>
-    <type name="SVD">
-        <nominal>5</nominal>
+    <type name="SVD"> <!-- using weapon expansion version -->
+        <nominal>0</nominal>
         <lifetime>28800</lifetime>
         <restock>0</restock>
-        <min>2</min>
+        <min>0</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -16793,11 +16793,11 @@
         <category name="clothes"/>
         <usage name="Village"/>
     </type>
-    <type name="VSS">
-        <nominal>1</nominal>
+    <type name="VSS"> <!-- using weapon expansion version -->
+        <nominal>0</nominal>
         <lifetime>28800</lifetime>
         <restock>3600</restock>
-        <min>1</min>
+        <min>0</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>

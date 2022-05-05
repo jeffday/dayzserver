@@ -150,26 +150,22 @@ class CustomMission: MissionServer
                 break;
         }
 
-        autoptr TStringArray rifles = {"TTC_XM2010", "CZ527", "CZ550", "TTC_R700_Black", "TTC_MAS36"};
-        autoptr TStringArray rifleMagazines = {"TTC_XM2010_10rnd", "Mag_CZ527_5rnd", "Mag_CZ550_10Rnd"};
+        autoptr TStringArray rifles = {"TTC_XM2010", "WE_PSG1", "WE_M14", "WE_R700", "TTC_MAS36"};
+        autoptr TStringArray rifleMagazines = {"TTC_XM2010_10rnd", "WE_Mag_PSG1_10Rnd", "WE_Mag_M14_10Rnd", "WE_Mag_R700_10Rnd"};
         autoptr TStringArray rifleScopes = {"TTC_VortexRHDAMG_Optic", "HuntingOptic", "HuntingOptic", "HuntingOptic", "HuntingOptic"};
 
         int rndIndex = Math.RandomInt(0, 5);
 
         autoptr TStringArray rifleAttachments = new TStringArray;
         rifleAttachments.Insert(rifleScopes[rndIndex]);
-        rifleAttachments.Insert("TTC_M14Suppressor");
+        rifleAttachments.Insert("TTC_Universal_Suppressor_BLACK"); // i suspect this will work across weapons from diff mods moreso than the M14 suppressor
 
         // spawn ammo box or extra mag
-        if (rndIndex < 3) {
-            // Remington 700 and MAS 36 have internal magazines
+        if (rndIndex < 4) {
             rifleAttachments.Insert(rifleMagazines[rndIndex]);
             player.GetInventory().CreateInInventory(rifleMagazines[rndIndex]);
-        } else if (rndIndex == 3) {
-            // Remington 700
-            player.GetInventory().CreateInInventory("AmmoBox_308Win_20Rnd");
         } else {
-            // MAS 36
+            // MAS 36 has internal mag
             player.GetInventory().CreateInInventory("AmmoBox_762x54_20Rnd");
         }
 
