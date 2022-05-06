@@ -698,11 +698,11 @@
         <category name="weapons"/>
         <usage name="Military"/>
     </type>
-	<type name="WE_R700"> <!-- using the one from morty's -->
-        <nominal>0</nominal>
+	<type name="WE_R700">
+        <nominal>15</nominal>
         <lifetime>28800</lifetime>
         <restock>0</restock>
-        <min>0</min>
+        <min>5</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -982,10 +982,10 @@
         <value name="Tier4"/>
     </type>
     <type name="WE_Mag_R700_10Rnd">
-        <nominal>0</nominal>
+        <nominal>4</nominal>
         <lifetime>28800</lifetime>
         <restock>1800</restock>
-        <min>0</min>
+        <min>2</min>
         <quantmin>5</quantmin>
         <quantmax>50</quantmax>
         <cost>100</cost>

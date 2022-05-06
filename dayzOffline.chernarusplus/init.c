@@ -129,7 +129,14 @@ class CustomMission: MissionServer
 
     void setSniperStartingItems(PlayerBase player, string camoType)
     {
-        string vest = getItemNameForCamoType("MMG_chestrig_", camoType);
+        string vest;
+        
+        if (camoType == "sweden"){
+            // current version of MMG Country Camo is missing sweden camo chestrig
+            vest = getItemNameForCamoType("MMG_chestrig_", "green");
+        } else {
+            vest = getItemNameForCamoType("MMG_chestrig_", camoType);
+        }
         string belt = getItemNameForCamoType("MMG_falcon_b1_belt_", camoType);
 
         autoptr TStringArray clothes = {getItemNameForCamoType("MMG_carrier_backpack_", camoType), getItemNameForCamoType("MMG_combatshirt_", camoType), getItemNameForCamoType("MMG_combatpants_", camoType), getItemNameForCamoType("mmg_tactical_gloves_", camoType), getItemNameForCamoType("MMG_balaclava_", camoType), "NVGHeadstrap", "NVGoggles"};
