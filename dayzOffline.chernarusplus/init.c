@@ -160,12 +160,13 @@ class CustomMission: MissionServer
         autoptr TStringArray rifles = {"TTC_XM2010", "WE_PSG1", "WE_M14", "WE_R700", "TTC_MAS36"};
         autoptr TStringArray rifleMagazines = {"TTC_XM2010_10rnd", "WE_Mag_PSG1_10Rnd", "WE_Mag_M14_10Rnd", "WE_Mag_R700_10Rnd"};
         autoptr TStringArray rifleScopes = {"TTC_VortexRHDAMG_Optic", "HuntingOptic", "HuntingOptic", "HuntingOptic", "HuntingOptic"};
+        autoptr TStringArray rifleSuppressors = {"TTC_M14Suppressor", "WE_308Suppressor", "WE_308Suppressor", "WE_308Suppressor", "TTC_M14Suppressor"};
 
         int rndIndex = Math.RandomInt(0, 5);
 
         autoptr TStringArray rifleAttachments = new TStringArray;
         rifleAttachments.Insert(rifleScopes[rndIndex]);
-        rifleAttachments.Insert("TTC_Universal_Suppressor_BLACK"); // i suspect this will work across weapons from diff mods moreso than the M14 suppressor
+        rifleAttachments.Insert(rifleSuppressors[rndIndex]);
 
         // spawn ammo box or extra mag
         if (rndIndex < 4) {
