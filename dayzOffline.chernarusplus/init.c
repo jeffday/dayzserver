@@ -83,9 +83,10 @@ class CustomMission: MissionServer
         return prefix + camoType;
     }
 
+    // spawn sidearm with full accessories and an extra mag.
     void spawnSidearm(PlayerBase player) {
-        autoptr TStringArray pistols = {"TTC_M9", "TTC_P320", "TTC_Glock17"};
-        autoptr TStringArray pistolMags = {"TTC_Mag_M9_15Rnd", "TTC_P320_17Rnd","TTC_Mag_Glock_17Rnd"};
+        autoptr TStringArray pistols = {"TTC_P320", "TTC_Glock17", "TTC_Kimber"};
+        autoptr TStringArray pistolMags = {"TTC_P320_17Rnd","TTC_Mag_Glock_17Rnd","Mag_Kimber1911_10Rnd"};
         autoptr TStringArray pistolAttachments = {"TTC_Pistol_Light","TTC_Pistol_Optic"};
 
         int rndIndex = Math.RandomInt(0, 3);
@@ -292,7 +293,7 @@ class CustomMission: MissionServer
     void setSoldierStartingItems(PlayerBase player)
     {
         string soldierTypes[] = {"sniper","designated marksman","infantry","heavy gunner"};
-        string camoSchemes[] = {"multicam","erdl","ucp","black","dark_woodland","green","multicam_tropic","multicamblack","germany","norway","sweden","ukraine"};
+        string camoSchemes[] = {"multicam","erdl","ucp","black","tan","green","multicam_tropic","multicamblack","germany","norway","sweden","ukraine"};
 
         int rndIndex = Math.RandomInt(0, 12);
         string camoType = camoSchemes[rndIndex];
@@ -300,26 +301,26 @@ class CustomMission: MissionServer
         rndIndex = Math.RandomInt(0,4);
         string soldierType = soldierTypes[rndIndex];
 
-        //switch(soldierType)
-        //{
-        //    case "sniper":
+        switch(soldierType)
+        {
+            case "sniper":
                 setSniperStartingItems(player, camoType);
-        //        break;
-        //    case "designated marksman":
-        //        setDesignatedMarksmanStartingItems(player, camoType);
-        //        break;
-        //    case "infantry":
-        //        setInfantryStartingItems(player, camoType);
-        //        break;
-        //    case "heavy gunner":
-        //        setHeavyGunnerStartingItems(player, camoType);
-        //        break;
-
-        //}
+                break;
+            case "designated marksman":
+                setDesignatedMarksmanStartingItems(player, camoType);
+                break;
+            case "infantry":
+                setInfantryStartingItems(player, camoType);
+                break;
+            case "heavy gunner":
+                setHeavyGunnerStartingItems(player, camoType);
+                break;
+        }
 
         autoptr TStringArray specialCaseItems;
 
         switch(camoType) { 
+            case "tan":
             case "multicam":
                 specialCaseItems = {"High_Knee_Sneakers", "MMG_carbine_grey"};
                 break;
@@ -634,8 +635,8 @@ class CustomMission: MissionServer
             }
         }
         
-        itemEnt = SpawnWithRandomHealth(player, "Glock19");
-        itemEnt = player.GetInventory().CreateInInventory("Mag_Glock_15Rnd");
+        itemEnt = SpawnWithRandomHealth(player, "TTC_Glock17");
+        itemEnt = player.GetInventory().CreateInInventory("TTC_Mag_Glock_17Rnd");
             
         if (Class.CastTo(itemBs, itemEnt)) {
 			itemBs.SetQuantity(15);
