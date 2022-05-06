@@ -270,10 +270,10 @@ class CustomMission: MissionServer
             case "green":
             case "erdl":
             case "multicam_tropic":
-            case: "ukraine":
-            case: "germany":
-            case: "sweden":
-            case: "norway":
+            case "ukraine":
+            case "germany":
+            case "sweden":
+            case "norway":
                 player.GetInventory().CreateInInventory("MMG_headphones_green");
                 break;
             case "black":
@@ -289,7 +289,7 @@ class CustomMission: MissionServer
         string soldierTypes[] = {"sniper","designated marksman","infantry","heavy gunner"}
         string camoSchemes[] = {"multicam","erdl","ucp","black","dark_woodland","green","multicam_tropic","multicamblack","germany","norway","sweden","ukraine"};
 
-        int rndIndex = Math.RandomInt(0, 8);
+        int rndIndex = Math.RandomInt(0, 12);
         string camoType = camoSchemes[rndIndex];
 
         rndIndex = Math.RandomInt(0,4)
