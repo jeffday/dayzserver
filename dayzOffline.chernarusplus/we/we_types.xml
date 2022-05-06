@@ -801,10 +801,10 @@
     </type>
 <!-- Rifle Magazines -->
     <type name="WE_Mag_PMAG_30Rnd">
-        <nominal>5</nominal>
+        <nominal>0</nominal>
         <lifetime>28800</lifetime>
         <restock>1800</restock>
-        <min>3</min>
+        <min>0</min>
         <quantmin>10</quantmin>
         <quantmax>50</quantmax>
         <cost>100</cost>
@@ -815,10 +815,10 @@
         <value name="Tier4"/>
     </type>
     <type name="WE_Mag_Coupled_PMAG_30Rnd">
-        <nominal>5</nominal>
+        <nominal>0</nominal>
         <lifetime>28800</lifetime>
         <restock>0</restock>
-        <min>2</min>
+        <min>0</min>
         <quantmin>5</quantmin>
         <quantmax>40</quantmax>
         <cost>100</cost>
