@@ -4,4 +4,4 @@ random customizations i've made to my dayz server including:
 * windstride's clothing pack config
 * mmg gear and storage config
 * morty's weapons config
-* an aborted attempt to add kck_monsters as a spawnable zombie type
+* weapon expansion config
