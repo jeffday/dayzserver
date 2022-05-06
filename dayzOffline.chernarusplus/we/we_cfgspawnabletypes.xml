@@ -1,5 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+
 <!-- Start Weapon Expansion cfgspawnabletypes.xml -->
 <!-- Pistols -->
+<spawnabletypes>
     <type name="WE_DesertEagle">
 		<attachments chance="0.10">
 			<item name="WE_Mag_Deagle_7rnd" chance="1.00" />
@@ -455,4 +458,5 @@
 			<item name="PSO11Optic" chance="0.30" />
 		</attachments>
 	</type>
+</spawnabletypes>
 <!-- End WeaponExpansion cfgspawnabletypes.xml -->
