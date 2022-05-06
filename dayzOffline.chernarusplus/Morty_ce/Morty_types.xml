@@ -3016,10 +3016,10 @@
 		<usage name="Hunting"/>		
     </type>
     <type name="TTC_Glock17">
-        <nominal>15</nominal>
+        <nominal>30</nominal>
         <lifetime>7200</lifetime>
         <restock>0</restock>
-        <min>5</min>
+        <min>15</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
