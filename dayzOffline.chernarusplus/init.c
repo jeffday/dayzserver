@@ -73,16 +73,19 @@ class CustomMission: MissionServer
         if (camoType == "green")
         {
             if(prefix == "MMG_Mag_Pouch_" || prefix == "MMG_JPC_Vest_" || prefix == "MMG_ammo_pouch_" || prefix == "MMG_Med_Pouch_" || prefix == "MMG_carrier_backpack_" || prefix == "MMG_assault_pack_" || prefix == "MMG_falcon_b1_belt_" || prefix == "MMG_sheath_" || prefix == "MMG_bottle_" || prefix == "MMG_combatpants_" || prefix == "MMG_balaclava_") {
+                Debug.LogInfo("generated item name: " + prefix + camoType);
                 return prefix + "olive";
             }
         }
+
+        Debug.LogInfo("generated item name: " + prefix + camoType);
 
         return prefix + camoType;
     }
 
     void spawnSidearm(PlayerBase player) {
         autoptr TStringArray pistols = {"TTC_M9", "TTC_P320", "TTC_Glock17"};
-        autoptr TStringArray pistolMags = {"TTC_Mag_M9_15Rnd", "TTC_P320_17Rnd","TTC_Mag_Glock_17Rnd"}
+        autoptr TStringArray pistolMags = {"TTC_Mag_M9_15Rnd", "TTC_P320_17Rnd","TTC_Mag_Glock_17Rnd"};
         autoptr TStringArray pistolAttachments = {"TTC_Pistol_Light","TTC_Pistol_Optic"};
 
         int rndIndex = Math.RandomInt(0, 3);
@@ -129,14 +132,15 @@ class CustomMission: MissionServer
 
     void setSniperStartingItems(PlayerBase player, string camoType)
     {
-        string vest;
+        Debug.LogInfo("generating sniper for camo type: " + camoType);
+
+        string vest = getItemNameForCamoType("MMG_chestrig_", camoType);
         
         if (camoType == "sweden"){
             // current version of MMG Country Camo is missing sweden camo chestrig
             vest = getItemNameForCamoType("MMG_chestrig_", "green");
-        } else {
-            vest = getItemNameForCamoType("MMG_chestrig_", camoType);
-        }
+        } 
+
         string belt = getItemNameForCamoType("MMG_falcon_b1_belt_", camoType);
 
         autoptr TStringArray clothes = {getItemNameForCamoType("MMG_carrier_backpack_", camoType), getItemNameForCamoType("MMG_combatshirt_", camoType), getItemNameForCamoType("MMG_combatpants_", camoType), getItemNameForCamoType("mmg_tactical_gloves_", camoType), getItemNameForCamoType("MMG_balaclava_", camoType), "NVGHeadstrap", "NVGoggles"};
@@ -287,13 +291,13 @@ class CustomMission: MissionServer
 
     void setSoldierStartingItems(PlayerBase player)
     {
-        string soldierTypes[] = {"sniper","designated marksman","infantry","heavy gunner"}
+        string soldierTypes[] = {"sniper","designated marksman","infantry","heavy gunner"};
         string camoSchemes[] = {"multicam","erdl","ucp","black","dark_woodland","green","multicam_tropic","multicamblack","germany","norway","sweden","ukraine"};
 
         int rndIndex = Math.RandomInt(0, 12);
         string camoType = camoSchemes[rndIndex];
 
-        rndIndex = Math.RandomInt(0,4)
+        rndIndex = Math.RandomInt(0,4);
         string soldierType = soldierTypes[rndIndex];
 
         //switch(soldierType)
@@ -529,7 +533,7 @@ class CustomMission: MissionServer
     
     void setHunterStartingItems(PlayerBase player)
     {
-    	string head[] = {"Ushanka_Green", "Ushanka_Green", "Ushanka_Black", "Ushanka_Black"}
+    	string head[] = {"Ushanka_Green", "Ushanka_Green", "Ushanka_Black", "Ushanka_Black"};
         string jackets[] = {"HuntingJacket_Spring", "HuntingJacket_Summer", "HuntingJacket_Autumn", "HuntingJacket_Brown"};
         string pants[] = {"HunterPants_Spring", "HunterPants_Summer", "HunterPants_Autumn", "HunterPants_Brown"};
         string feet[] = {"CombatBoots_Green", "CombatBoots_Green", "CombatBoots_Brown", "CombatBoots_Brown"};
@@ -571,7 +575,7 @@ class CustomMission: MissionServer
     	string head[] = {"ConstructionHelmet_White","ConstructionHelmet_Lime","ConstructionHelmet_Yellow","ConstructionHelmet_Orange","ConstructionHelmet_Red","ConstructionHelmet_Blue"};
         string torso[] = {"JumpsuitJacket_Gray","JumpsuitJacket_Green","JumpsuitJacket_Gray","JumpsuitJacket_Gray","JumpsuitJacket_Red","JumpsuitJacket_Blue"};
         string legs[] = {"JumpsuitPants_Grey","JumpsuitPants_Green","JumpsuitPants_Grey","JumpsuitPants_Grey","JumpsuitPants_Red","JumpsuitPants_Blue"};
-        string bag[] = {"DryBag_Black","DryBag_Green","DryBag_Yellow","DryBag_Orange","DryBag_Red","DryBag_Blue"}
+        string bag[] = {"DryBag_Black","DryBag_Green","DryBag_Yellow","DryBag_Orange","DryBag_Red","DryBag_Blue"};
         
         int rndIndex = Math.RandomInt( 0, 6 );
         
@@ -585,7 +589,7 @@ class CustomMission: MissionServer
         itemEnt = SpawnWithRandomHealth(player, "WorkingBoots_Yellow");
         itemEnt = SpawnWithRandomHealth(player, "WorkingGloves_Beige");
         
-        string tools[] = {"Wrench","PipeWrench","Hammer","Hacksaw","Handsaw","Shovel"}
+        string tools[] = {"Wrench","PipeWrench","Hammer","Hacksaw","Handsaw","Shovel"};
         
         rndIndex = Math.RandomInt( 0, 6 );
 
@@ -658,7 +662,7 @@ class CustomMission: MissionServer
         
         itemEnt = SpawnWithRandomHealth(player, "Flaregun");
         
-        string flareColors[] = {"Ammo_Flare","Ammo_FlareBlue","Ammo_FlareGreen","Ammo_FlareRed"}
+        string flareColors[] = {"Ammo_Flare","Ammo_FlareBlue","Ammo_FlareGreen","Ammo_FlareRed"};
         rndIndex = Math.RandomInt( 0, 4 );
         
         itemEnt = player.GetInventory().CreateInInventory(flareColors[rndIndex]);
