@@ -544,8 +544,8 @@ class CustomMission: MissionServer
         
         int rndIndex = Math.RandomInt( 0, 4 );
         
-	itemEnt = SpawnWithRandomHealth(player, "HuntingBag");
-	itemEnt = SpawnWithRandomHealth(player, head[rndIndex]);
+	    itemEnt = SpawnWithRandomHealth(player, "HuntingBag");
+	    itemEnt = SpawnWithRandomHealth(player, head[rndIndex]);
         itemEnt = SpawnWithRandomHealth(player, jackets[rndIndex]);
         itemEnt = SpawnWithRandomHealth(player, pants[rndIndex]);
         itemEnt = SpawnWithRandomHealth(player, feet[rndIndex]);
@@ -561,7 +561,7 @@ class CustomMission: MissionServer
         rndIndex = Math.RandomInt( 0, 10 );
         
         itemEnt = SpawnWithRandomHealth(player, rifles[rndIndex]);
-        itemEnt = player.GetInventory().CreateInInventory(scopes[rndIndex]);
+        itemEnt.GetInventory().CreateAttachment(scopes[rndIndex]);
         itemEnt = player.GetInventory().CreateInInventory(ammoTypes[rndIndex]);
 
         if (Class.CastTo( itemBs, itemEnt )) {
@@ -635,12 +635,10 @@ class CustomMission: MissionServer
             }
         }
         
-        itemEnt = SpawnWithRandomHealth(player, "TTC_Glock17");
-        itemEnt = player.GetInventory().CreateInInventory("TTC_Mag_Glock_17Rnd");
-            
-        if (Class.CastTo(itemBs, itemEnt)) {
-			itemBs.SetQuantity(15);
-        }
+        string sideArm = "TTC_Glock17";
+        autoptr TStringArray sideArmAttachments = {"TTC_Mag_Glock_17Rnd", "TTC_Pistol_Light"};
+
+        spawnItemWithAttachments(player, sideArm, sideArmAttachments);
     }
     
     void setMedicStartingItems(PlayerBase player)
@@ -654,21 +652,21 @@ class CustomMission: MissionServer
      
         int rndIndex = Math.RandomInt( 0, 3 );
         
-        itemEnt = SpawnWithRandomHealth(player, head[rndIndex]);
-        itemEnt = SpawnWithRandomHealth(player, jackets[rndIndex]);
-        itemEnt = SpawnWithRandomHealth(player, pants[rndIndex]);
-        itemEnt = SpawnWithRandomHealth(player, gloves[rndIndex]);
+        SpawnWithRandomHealth(player, head[rndIndex]);
+        SpawnWithRandomHealth(player, jackets[rndIndex]);
+        SpawnWithRandomHealth(player, pants[rndIndex]);
+        SpawnWithRandomHealth(player, gloves[rndIndex]);
         
-        itemEnt = SpawnWithRandomHealth(player, "WorkingBoots_Brown");
+        SpawnWithRandomHealth(player, "WorkingBoots_Brown");
         
-        itemEnt = SpawnWithRandomHealth(player, "Flaregun");
+        SpawnWithRandomHealth(player, "Flaregun");
         
         string flareColors[] = {"Ammo_Flare","Ammo_FlareBlue","Ammo_FlareGreen","Ammo_FlareRed"};
         rndIndex = Math.RandomInt( 0, 4 );
         
-        itemEnt = player.GetInventory().CreateInInventory(flareColors[rndIndex]);
+        player.GetInventory().CreateInInventory(flareColors[rndIndex]);
         
-        itemEnt = SpawnWithRandomHealth(player, "SurgicalMask");
+        SpawnWithRandomHealth(player, "SurgicalMask");
         itemEnt = SpawnWithRandomHealth(player, "FirstAidKit");
         
         itemEnt = player.GetInventory().CreateInInventory("BandageDressing");
@@ -733,34 +731,52 @@ class CustomMission: MissionServer
             string playerTypeArray[] = {"Townsperson", "Paramedic", "Police", "Hunter", "Industrial", "Hiker", "Backpacker", "Biker", "EscapedPrisoner", "Skateboarder", "DirtBiker", "Firefighter","Soldier"};
             
             int rndIndex = Math.RandomInt( 0, 13 );
-            
-            if (rndIndex == 0) {
-            	setTownspersonStartingItems(player);
-            } else if (rndIndex == 1){
-            	setMedicStartingItems(player);
-            } else if (rndIndex == 2){
-            	setPoliceStartingItems(player);
-            } else if (rndIndex == 3){
-            	setHunterStartingItems(player);
-            } else if (rndIndex == 4){
-            	setIndustrialStartingItems(player);
-            } else if (rndIndex == 5){
-            	setHikerStartingItems(player);
-            } else if (rndIndex == 6) {
-            	setBackpackerStartingItems(player);
-            } else if (rndIndex == 7){
-            	setBikerStartingItems(player);
-            } else if (rndIndex == 8){
-               setEscapedPrisonerStartingItems(player);
-            } else if (rndIndex == 9){
-                setSkateboarderStartingItems(player);
-            } else if (rndIndex == 10){
-                setDirtBikerStartingItems(player);
-            } else if (rndIndex == 11){
-                setFirefighterStartingItems(player);
-            } else {
-	    	    setSoldierStartingItems(player);
-	        }
+            string playerType = playerTypeArray[rndIndex];
+
+            switch(playerType) {
+                case "Townsperson":
+                    setTownspersonStartingItems(player);
+                    break;
+                case "Paramedic":
+                    setMedicStartingItems(player);
+                    break;
+                case "Police":
+                    setPoliceStartingItems(player);
+                    break;
+                case "Hunter":
+                    setHunterStartingItems(player);
+                    break;
+                case "Industrial":
+                    setIndustrialStartingItems(player);
+                    break;
+                case "Hiker":
+                    setHikerStartingItems(player);
+                    break;
+                case "Backpacker":
+                    setBackpackerStartingItems(player);
+                    break;
+                case "Biker":
+                    setBikerStartingItems(player);
+                    break;
+                case "EscapedPrisoner":
+                    setEscapedPrisonerStartingItems(player);
+                    break;
+                case "Skateboarder":
+                    setSkateboarderStartingItems(player);
+                    break;
+                case "DirtBiker":
+                    setDirtBikerStartingItems(player);
+                    break;
+                case "Firefighter":
+                    setFirefighterStartingItems(player);
+                    break;
+                case "Soldier":
+                    setSoldierStartingItems(player);
+                    break;
+                default:
+                    setTownspersonStartingItems(player);
+                    break;
+            }
 
             // universal starting items that every type gets
             
