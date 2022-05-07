@@ -730,37 +730,37 @@ class CustomMission: MissionServer
 		{
 			player.RemoveAllItems();
             
-            string playerTypeArray[] = {"Townsperson", "Paramedic", "Police", "Hunter", "Industrial", "Hiker", "Backpacker", "Biker", "EscapedPrisoner", "Skateboarder", "DirtBiker", "Firefighter"};
+            string playerTypeArray[] = {"Townsperson", "Paramedic", "Police", "Hunter", "Industrial", "Hiker", "Backpacker", "Biker", "EscapedPrisoner", "Skateboarder", "DirtBiker", "Firefighter","Soldier"};
             
-            int rndIndex = Math.RandomInt( 0, 12 );
+            int rndIndex = Math.RandomInt( 0, 13 );
             
-//             if (rndIndex == 0) {
-//             	setTownspersonStartingItems(player);
-//             } else if (rndIndex == 1){
-//             	setMedicStartingItems(player);
-//             } else if (rndIndex == 2){
-//             	setPoliceStartingItems(player);
-//             } else if (rndIndex == 3){
-//             	setHunterStartingItems(player);
-//             } else if (rndIndex == 4){
-//             	setIndustrialStartingItems(player);
-//             } else if (rndIndex == 5){
-//             	setHikerStartingItems(player);
-//             } else if (rndIndex == 6) {
-//             	setBackpackerStartingItems(player);
-//             } else if (rndIndex == 7){
-//             	setBikerStartingItems(player);
-//             } else if (rndIndex == 8){
-//                setEscapedPrisonerStartingItems(player);
-//             } else if (rndIndex == 9){
-//                 setSkateboarderStartingItems(player);
-//             } else if (rndIndex == 10){
-//                 setDirtBikerStartingItems(player);
-//             } else if (rndIndex == 11){
-//                 setFirefighterStartingItems(player);
-//             } else {
-	    	setSoldierStartingItems(player);
-// 	    }
+            if (rndIndex == 0) {
+            	setTownspersonStartingItems(player);
+            } else if (rndIndex == 1){
+            	setMedicStartingItems(player);
+            } else if (rndIndex == 2){
+            	setPoliceStartingItems(player);
+            } else if (rndIndex == 3){
+            	setHunterStartingItems(player);
+            } else if (rndIndex == 4){
+            	setIndustrialStartingItems(player);
+            } else if (rndIndex == 5){
+            	setHikerStartingItems(player);
+            } else if (rndIndex == 6) {
+            	setBackpackerStartingItems(player);
+            } else if (rndIndex == 7){
+            	setBikerStartingItems(player);
+            } else if (rndIndex == 8){
+               setEscapedPrisonerStartingItems(player);
+            } else if (rndIndex == 9){
+                setSkateboarderStartingItems(player);
+            } else if (rndIndex == 10){
+                setDirtBikerStartingItems(player);
+            } else if (rndIndex == 11){
+                setFirefighterStartingItems(player);
+            } else {
+	    	    setSoldierStartingItems(player);
+	        }
 
             // universal starting items that every type gets
             
