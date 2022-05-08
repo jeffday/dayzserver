@@ -516,7 +516,7 @@ class CustomMission: MissionServer
         string torso[] = {"HikingJacket_Black","HikingJacket_Blue","HikingJacket_Green","HikingJacket_Red"};
         string legs[] = {"HunterPants_Spring", "HunterPants_Brown", "HunterPants_Spring", "HunterPants_Brown"};
         string feet[] = {"HikingBootsLow_Black", "HikingBootsLow_Blue", "HikingBootsLow_Grey","HikingBootsLow_Beige"};
-        string bag[] = {"TaloonBag_Green", "TaloonBag_Blue", "TaloonBag_Green", "TaloonBag_Orange"};
+        string bag[] = {"Spur_Treker_Black", "Spur_Treker_Blue", "Spur_Treker_Green", "Spur_Treker_Red"};
         
         int rndIndex = Math.RandomInt( 0, 4 );
         
@@ -552,21 +552,20 @@ class CustomMission: MissionServer
         
         itemEnt = player.GetInventory().CreateInInventory("Battery9V");
         itemEnt = player.GetInventory().CreateInInventory("Flashlight");
-        itemEnt = player.GetInventory().CreateInInventory("HuntingKnife");
+        itemEnt = player.GetInventory().CreateInInventory("NylonKnifeSheath");
+        itemEnt.GetInventory().CreateAttachment("HuntingKnife");
+        itemEnt = player.GetInventory().CreateInInventory("Machete");
+        itemEnt = player.GetInventory().CreateInInventory("Canteen");
         
-        string rifles[] = {"CZ527","Mosin9130","Winchester70","TTC_R700","TTC_kar98k","TTC_LeeEnfield", "TTC_M1903", "TTC_MAS36", "TTC_Winchester1873", "B95"};
-        string ammoTypes[] = {"Mag_CZ527_5rnd", "Ammo_762x54", "Ammo_308Win", "Ammo_308Win", "TTC_Ammo_8mm", "TTC_Ammo_303", "TTC_Ammo_3006", "Ammo_762x54", "TTC_Ammo_4570", "Ammo_308Win"};
-        string scopes[] = {"HuntingOptic", "PUScopeOptic", "HuntingOptic", "HuntingOptic", "HuntingOptic", "PUScopeOptic", "PUScopeOptic", "HuntingOptic", "HuntingOptic", "HuntingOptic"};
+        string rifles[] = {"CZ527","WE_Mosin9130","WE_SKS","Winchester70","TTC_R700","TTC_kar98k","TTC_LeeEnfield", "TTC_M1903", "TTC_MAS36", "TTC_Winchester1873", "B95"};
+        string ammoTypes[] = {"Mag_CZ527_5rnd", "Ammo_762x54", "Ammo_762x54". "Ammo_308Win", "Ammo_308Win", "TTC_Ammo_8mm", "TTC_Ammo_303", "TTC_Ammo_3006", "Ammo_762x54", "TTC_Ammo_4570", "Ammo_308Win"};
+        string scopes[] = {"HuntingOptic", "PUScopeOptic", "PUScopeOptic", "HuntingOptic", "HuntingOptic", "HuntingOptic", "PUScopeOptic", "PUScopeOptic", "HuntingOptic", "HuntingOptic", "HuntingOptic"};
 
-        rndIndex = Math.RandomInt( 0, 10 );
+        rndIndex = Math.RandomInt(0, 11);
         
         itemEnt = SpawnWithRandomHealth(player, rifles[rndIndex]);
         itemEnt.GetInventory().CreateAttachment(scopes[rndIndex]);
         itemEnt = player.GetInventory().CreateInInventory(ammoTypes[rndIndex]);
-
-        if (Class.CastTo( itemBs, itemEnt )) {
-		itemBs.SetQuantity( 5 );
-        }
     }
     
     void setIndustrialStartingItems(PlayerBase player)
@@ -590,7 +589,7 @@ class CustomMission: MissionServer
         itemEnt = SpawnWithRandomHealth(player, "WorkingBoots_Yellow");
         itemEnt = SpawnWithRandomHealth(player, "WorkingGloves_Beige");
         
-        string tools[] = {"Wrench","PipeWrench","Hammer","Hacksaw","Handsaw","Shovel"};
+        string tools[] = {"Pipe","PipeWrench","Crowbar","Pickaxe","Shovel"};
         
         rndIndex = Math.RandomInt( 0, 6 );
 
@@ -728,9 +727,9 @@ class CustomMission: MissionServer
 		{
 			player.RemoveAllItems();
             
-            string playerTypeArray[] = {"Townsperson", "Paramedic", "Police", "Hunter", "Industrial", "Hiker", "Backpacker", "Biker", "EscapedPrisoner", "Skateboarder", "DirtBiker", "Firefighter","Soldier"};
+            string playerTypeArray[] = {"Townsperson", "Paramedic", "Hunter", "Industrial", "Hiker", "Backpacker", "Skateboarder","Soldier"};
             
-            int rndIndex = Math.RandomInt( 0, 13 );
+            int rndIndex = Math.RandomInt( 0, 8 );
             string playerType = playerTypeArray[rndIndex];
 
             switch(playerType) {
