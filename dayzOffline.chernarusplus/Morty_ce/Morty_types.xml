@@ -2011,10 +2011,10 @@
     </type>
 	<!-- Update 1.11.1 -->
 	<type name="TTC_AK12">
-		<nominal>2</nominal>
+		<nominal>0</nominal>
 		<lifetime>10800</lifetime>
 		<restock>1800</restock>
-		<min>1</min>
+		<min>0</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
@@ -2026,10 +2026,10 @@
 		<usage name="Military" />
 	</type>
 	<type name="TTC_AK12_Worn">
-		<nominal>2</nominal>
+		<nominal>0</nominal>
 		<lifetime>10800</lifetime>
 		<restock>1800</restock>
-		<min>1</min>
+		<min>0</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
@@ -2041,10 +2041,10 @@
 		<usage name="Military" />
 	</type>
     <type name="TTC_Buttstock_AK12">
-        <nominal>5</nominal>
+        <nominal>0</nominal>
         <lifetime>14400</lifetime>
         <restock>7200</restock>
-        <min>2</min>
+        <min>0</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -2053,10 +2053,10 @@
         <usage name="Military"/>
     </type>
     <type name="TTC_AK12_Drum_90rnd">
-        <nominal>5</nominal>
+        <nominal>0</nominal>
         <lifetime>28800</lifetime>
         <restock>1800</restock>
-        <min>2</min>
+        <min>0</min>
         <quantmin>10</quantmin>
         <quantmax>60</quantmax>
         <cost>100</cost>
