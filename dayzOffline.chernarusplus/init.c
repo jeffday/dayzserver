@@ -558,7 +558,7 @@ class CustomMission: MissionServer
         itemEnt = player.GetInventory().CreateInInventory("Canteen");
         
         string rifles[] = {"CZ527","WE_Mosin9130","WE_SKS","Winchester70","TTC_R700","TTC_kar98k","TTC_LeeEnfield", "TTC_M1903", "TTC_MAS36", "TTC_Winchester1873", "B95"};
-        string ammoTypes[] = {"Mag_CZ527_5rnd", "Ammo_762x54", "Ammo_762x54". "Ammo_308Win", "Ammo_308Win", "TTC_Ammo_8mm", "TTC_Ammo_303", "TTC_Ammo_3006", "Ammo_762x54", "TTC_Ammo_4570", "Ammo_308Win"};
+        string ammoTypes[] = {"Mag_CZ527_5rnd", "Ammo_762x54", "Ammo_762x54", "Ammo_308Win", "Ammo_308Win", "TTC_Ammo_8mm", "TTC_Ammo_303", "TTC_Ammo_3006", "Ammo_762x54", "TTC_Ammo_4570", "Ammo_308Win"};
         string scopes[] = {"HuntingOptic", "PUScopeOptic", "PUScopeOptic", "HuntingOptic", "HuntingOptic", "HuntingOptic", "PUScopeOptic", "PUScopeOptic", "HuntingOptic", "HuntingOptic", "HuntingOptic"};
 
         rndIndex = Math.RandomInt(0, 11);
@@ -715,10 +715,10 @@ class CustomMission: MissionServer
 		return m_player;
 	}
 
-    override void SpawnJeffSetup(PlayerBase player) {
+    void SpawnJeffSetup(PlayerBase player) {
         string camoType = "black";
 
-        autoptr TStringArray clothes = {"BeanieHat_Black","ThickFramesGlasses","NioshFaceMask","Hoodie_Black",getItemNameForCamoType("mmg_tactical_gloves_"),"Jeans_BlueDark","SK8_Sneakers_Blue"};
+        autoptr TStringArray clothes = {"BeanieHat_Black","ThickFramesGlasses","NioshFaceMask","Hoodie_Black",getItemNameForCamoType("mmg_tactical_gloves_", camoType),"Jeans_BlueDark","SK8_Sneakers_Blue"};
 
         spawnItemsOnPlayer(player, clothes);
 
@@ -774,7 +774,7 @@ class CustomMission: MissionServer
 
             // string playerTypeArray[] = {"Townsperson", "Paramedic", "Hunter", "Industrial", "Hiker", "Backpacker", "Skateboarder"};
             
-            // int rndIndex = Math.RandomInt( 0, 7 );
+            int rndIndex = Math.RandomInt( 0, 7 );
             // string playerType = playerTypeArray[rndIndex];
 
             // switch(playerType) {
