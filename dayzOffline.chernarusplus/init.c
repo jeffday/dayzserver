@@ -727,9 +727,9 @@ class CustomMission: MissionServer
 		{
 			player.RemoveAllItems();
             
-            string playerTypeArray[] = {"Townsperson", "Paramedic", "Hunter", "Industrial", "Hiker", "Backpacker", "Skateboarder","Soldier"};
+            string playerTypeArray[] = {"Townsperson", "Paramedic", "Hunter", "Industrial", "Hiker", "Backpacker", "Skateboarder"};
             
-            int rndIndex = Math.RandomInt( 0, 8 );
+            int rndIndex = Math.RandomInt( 0, 7 );
             string playerType = playerTypeArray[rndIndex];
 
             switch(playerType) {
@@ -788,15 +788,11 @@ class CustomMission: MissionServer
 			rndIndex = Math.RandomInt( 0, 4 );
 			itemEnt = player.GetInventory().CreateInInventory( chemlightArray[rndIndex] );
             
+            itemEnt = player.GetInventory().CreateInInventory( "CanOpener" );
             itemEnt = player.GetInventory().CreateInInventory( "SodaCan_Cola" );
         	itemEnt = player.GetInventory().CreateInInventory( "SodaCan_Spite" );
-
-			rand = Math.RandomFloatInclusive( 0.0, 1.0 );
-
-			if ( rand < 0.5 )
-				itemEnt = player.GetInventory().CreateInInventory( "ZagorkyChocolate" );
-			else
-				itemEnt = player.GetInventory().CreateInInventory( "ZagorkyPeanuts" );
+            itemEnt = player.GetInventory().CreateInInventory( "BakedBeansCan" );
+            itemEnt = player.GetInventory().CreateInInventory( "SpaghettiCan" );
 		}
 	}
 };
