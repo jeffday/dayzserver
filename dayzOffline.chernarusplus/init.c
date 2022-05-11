@@ -89,6 +89,37 @@ class CustomMission: MissionServer
         return prefix + camoType;
     }
 
+    void spawnRifle(PlayerBase player, string rifle) {
+        autoptr TStringArray attachments;
+
+        switch(rifle) {
+            case "TTC_HK416Comp":
+                attachments = {"TTC_Elcan","TTC_Universal_Suppressor_BLACK","TTC_DMR_VFG"};
+                break;
+            case "TTC_HK416Black":
+                attachments = {"TTC_Elcan","TTC_Universal_Suppressor_BLACK","TTC_DMR_VFG","TTC_ButtstockHK_Black"};
+                break;
+            case "TTC_HK417":
+                attachments = {"WE_AMSOptic","TTC_M14Suppressor","TTC_DMR_AFG","TTC_ButtstockHK_Black"};
+                break;
+            case "WE_SKS":
+                player.GetInventory().CreateInInventory("WE_AMSOptic");
+                attachments = {"WE_MosinSKSMount","TTC_Universal_Suppressor_BLACK"};
+                break;
+            case "WE_PSG1":
+                attachments = {"WE_AMSOptic","WE_308Suppressor"};
+                break;
+            case "TTC_MAS36":
+            case "TTC_M1903":
+            case "TTC_kar98k":
+            case "TTC_R700":
+                attachments = {"HuntingOptic", "TTC_M14Suppressor"};
+                break;
+        }
+
+        spawnItemWithAttachments(player, rifle, attachments);
+    }
+
     // spawn sidearm with full accessories and an extra mag.
     void spawnSidearm(PlayerBase player) {
         autoptr TStringArray pistols = {"TTC_P320", "TTC_Glock17", "TTC_Kimber"};
@@ -722,10 +753,10 @@ class CustomMission: MissionServer
 	}
 
     void SpawnJeffSetup(PlayerBase player) {
-        string camoType = "green";
-        string spurgleCamo = "Green";
+        string camoType = "black";
+        string spurgleCamo = "Black";
 
-        autoptr TStringArray clothes = {"BeanieHat_Black","ThickFramesGlasses","NioshFaceMask","Hoodie_Black",getItemNameForCamoType("mmg_tactical_gloves_", camoType),"Jeans_Black","SK8_Sneakers_Black"};
+        autoptr TStringArray clothes = {"BeanieHat_Black","ThickFramesGlasses","NioshFaceMask","QuiltedJacket_Black",getItemNameForCamoType("mmg_tactical_gloves_", camoType),"Jeans_BlueDark","SK8_Sneakers_Black"};
 
         spawnItemsOnPlayer(player, clothes);
 
@@ -744,27 +775,16 @@ class CustomMission: MissionServer
 
         spawnItemWithAttachments(player, vest, vestAttachments);
 
-        // string sniperRifle = "WE_SKS";
-        // autoptr TStringArray sniperAttachments = {"WE_MosinSKSMount","TTC_Universal_Suppressor_BLACK"};
+        spawnRifle(player, "TTC_HK416Comp");
+        spawnItemNTimesOnPlayer(player, "TTC_DMR_556Pmag_40rnd", 3);
+        spawnItemNTimesOnPlayer(player, "AmmoBox_556x45_20Rnd", 12);
 
-        // spawnItemWithAttachments(player, sniperRifle, sniperAttachments);
+        spawnRifle(player, "WE_PSG1");
+        spawnItemNTimesOnPlayer(player, "WE_Mag_PSG1_10Rnd", 3);
+        spawnItemNTimesOnPlayer(player, "AmmoBox_308Win_20Rnd", 6);
 
-        // player.GetInventory().CreateInInventory("WE_AMSOptic");
-
-        string dmrRifle = "TTC_HK417";
-        autoptr TStringArray dmrAttachments = {"WE_AMSOptic","TTC_M14Suppressor","TTC_DMR_AFG","TTC_ButtstockHK_Black"};
-
-        spawnItemWithAttachments(player, dmrRifle, dmrAttachments);
-
-        player.GetInventory().CreateInInventory("TTC_HK417_Magazine_20rnd");
-        player.GetInventory().CreateInInventory("TTC_HK417_Magazine_20rnd");
-        player.GetInventory().CreateInInventory("TTC_HK417_Magazine_20rnd");
-
-        // string sniperAmmo = "AmmoBox_762x39_20Rnd";
-        string dmrAmmo = "AmmoBox_308Win_20Rnd";
-
-        // spawnItemNTimesOnPlayer(player, sniperAmmo, 10);
-        spawnItemNTimesOnPlayer(player, dmrAmmo, 16);
+        spawnRifle(player, "TTC_MAS36");
+        spawnItemNTimesOnPlayer(player, "AmmoBox_762x54_20Rnd", 12);
 
         spawnSidearm(player);
         player.GetInventory().CreateInInventory("TTC_PistolSuppressor");
