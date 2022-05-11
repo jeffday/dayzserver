@@ -106,9 +106,6 @@ class CustomMission: MissionServer
                 player.GetInventory().CreateInInventory("WE_AMSOptic");
                 attachments = {"WE_MosinSKSMount","TTC_Universal_Suppressor_BLACK"};
                 break;
-            case "WE_PSG1":
-                attachments = {"WE_AMSOptic","WE_308Suppressor"};
-                break;
             case "TTC_MAS36":
             case "TTC_M1903":
             case "TTC_kar98k":
@@ -199,19 +196,19 @@ class CustomMission: MissionServer
                 break;
         }
 
-        autoptr TStringArray rifles = {"TTC_XM2010", "WE_PSG1", "WE_M14", "WE_R700", "TTC_MAS36"};
-        autoptr TStringArray rifleMagazines = {"TTC_XM2010_10rnd", "WE_Mag_PSG1_10Rnd", "WE_Mag_M14_10Rnd", "WE_Mag_R700_10Rnd"};
-        autoptr TStringArray rifleScopes = {"TTC_VortexRHDAMG_Optic", "HuntingOptic", "HuntingOptic", "HuntingOptic", "HuntingOptic"};
-        autoptr TStringArray rifleSuppressors = {"TTC_M14Suppressor", "WE_308Suppressor", "WE_308Suppressor", "WE_308Suppressor", "TTC_M14Suppressor"};
+        autoptr TStringArray rifles = {"TTC_XM2010", "WE_M14", "WE_R700", "TTC_MAS36"};
+        autoptr TStringArray rifleMagazines = {"TTC_XM2010_10rnd", "WE_Mag_M14_10Rnd", "WE_Mag_R700_10Rnd"};
+        autoptr TStringArray rifleScopes = {"TTC_VortexRHDAMG_Optic", "WE_AMSOptic", "HuntingOptic", "HuntingOptic"};
+        autoptr TStringArray rifleSuppressors = {"TTC_M14Suppressor", "WE_308Suppressor", "WE_308Suppressor", "TTC_M14Suppressor"};
 
-        int rndIndex = Math.RandomInt(0, 5);
+        int rndIndex = Math.RandomInt(0, 4);
 
         autoptr TStringArray rifleAttachments = new TStringArray;
         rifleAttachments.Insert(rifleScopes[rndIndex]);
         rifleAttachments.Insert(rifleSuppressors[rndIndex]);
 
         // spawn ammo box or extra mag
-        if (rndIndex < 4) {
+        if (rndIndex < 3) {
             rifleAttachments.Insert(rifleMagazines[rndIndex]);
             player.GetInventory().CreateInInventory(rifleMagazines[rndIndex]);
         } else {
@@ -778,10 +775,6 @@ class CustomMission: MissionServer
         spawnRifle(player, "TTC_HK416Comp");
         spawnItemNTimesOnPlayer(player, "TTC_DMR_556Pmag_40rnd", 3);
         spawnItemNTimesOnPlayer(player, "AmmoBox_556x45_20Rnd", 12);
-
-        spawnRifle(player, "WE_PSG1");
-        spawnItemNTimesOnPlayer(player, "WE_Mag_PSG1_10Rnd", 3);
-        spawnItemNTimesOnPlayer(player, "AmmoBox_308Win_20Rnd", 6);
 
         spawnRifle(player, "TTC_MAS36");
         spawnItemNTimesOnPlayer(player, "AmmoBox_762x54_20Rnd", 12);
