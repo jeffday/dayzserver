@@ -51,6 +51,12 @@ class CustomMission: MissionServer
         return itemEnt;
     }
 
+    void spawnItemNTimesOnPlayer(PlayerBase player, string item, int n) {
+        for(int i = 0; i < n; i++) {
+            player.GetInventory().CreateInInventory(item);
+        }
+    }
+
     void spawnItemsOnPlayer(PlayerBase player, TStringArray items) {
         for(int i = 0; i < items.Count(); i++) {
              player.GetInventory().CreateInInventory(items[i]);
@@ -716,14 +722,15 @@ class CustomMission: MissionServer
 	}
 
     void SpawnJeffSetup(PlayerBase player) {
-        string camoType = "black";
+        string camoType = "green";
+        string spurgleCamo = "Green";
 
-        autoptr TStringArray clothes = {"BeanieHat_Black","ThickFramesGlasses","NioshFaceMask","Hoodie_Black",getItemNameForCamoType("mmg_tactical_gloves_", camoType),"Jeans_BlueDark","SK8_Sneakers_Blue"};
+        autoptr TStringArray clothes = {"BeanieHat_Black","ThickFramesGlasses","NioshFaceMask","Hoodie_Black",getItemNameForCamoType("mmg_tactical_gloves_", camoType),"Jeans_Black","SK8_Sneakers_Black"};
 
         spawnItemsOnPlayer(player, clothes);
 
-        string bag = "Spur_CamelBag_Black";
-        autoptr TStringArray bagAttachments = {"SmershBag_Spur_Black","PlateCarrierHolster_Spur_Black","Spur_KnifeSheath_Black","PersonalRadio"};
+        string bag = "Spur_CamelBag_" + spurgleCamo;
+        autoptr TStringArray bagAttachments = {"SmershBag_Spur_" + spurgleCamo,"PlateCarrierHolster_Spur_" + spurgleCamo,"Spur_KnifeSheath_" + spurgleCamo,"PersonalRadio"};
 
         spawnItemWithAttachments(player, bag, bagAttachments);
 
@@ -737,12 +744,12 @@ class CustomMission: MissionServer
 
         spawnItemWithAttachments(player, vest, vestAttachments);
 
-        string sniperRifle = "WE_SKS";
-        autoptr TStringArray sniperAttachments = {"WE_MosinSKSMount","TTC_Universal_Suppressor_BLACK"};
+        // string sniperRifle = "WE_SKS";
+        // autoptr TStringArray sniperAttachments = {"WE_MosinSKSMount","TTC_Universal_Suppressor_BLACK"};
 
-        spawnItemWithAttachments(player, sniperRifle, sniperAttachments);
+        // spawnItemWithAttachments(player, sniperRifle, sniperAttachments);
 
-        player.GetInventory().CreateInInventory("WE_AMSOptic");
+        // player.GetInventory().CreateInInventory("WE_AMSOptic");
 
         string dmrRifle = "TTC_HK417";
         autoptr TStringArray dmrAttachments = {"WE_AMSOptic","TTC_M14Suppressor","TTC_DMR_AFG","TTC_ButtstockHK_Black"};
@@ -751,14 +758,16 @@ class CustomMission: MissionServer
 
         player.GetInventory().CreateInInventory("TTC_HK417_Magazine_20rnd");
         player.GetInventory().CreateInInventory("TTC_HK417_Magazine_20rnd");
+        player.GetInventory().CreateInInventory("TTC_HK417_Magazine_20rnd");
 
-        autoptr TStringArray sniperAmmo = {"AmmoBox_762x39_20Rnd","AmmoBox_762x39_20Rnd","AmmoBox_762x39_20Rnd","AmmoBox_762x39_20Rnd","AmmoBox_762x39_20Rnd","AmmoBox_762x39_20Rnd","AmmoBox_762x39_20Rnd","AmmoBox_762x39_20Rnd","AmmoBox_762x39_20Rnd","AmmoBox_762x39_20Rnd"};
-        autoptr TStringArray dmrAmmo = {"AmmoBox_308Win_20Rnd","AmmoBox_308Win_20Rnd","AmmoBox_308Win_20Rnd","AmmoBox_308Win_20Rnd","AmmoBox_308Win_20Rnd","AmmoBox_308Win_20Rnd","AmmoBox_308Win_20Rnd","AmmoBox_308Win_20Rnd","AmmoBox_308Win_20Rnd","AmmoBox_308Win_20Rnd"};
+        // string sniperAmmo = "AmmoBox_762x39_20Rnd";
+        string dmrAmmo = "AmmoBox_308Win_20Rnd";
 
-        spawnItemsOnPlayer(player, sniperAmmo);
-        spawnItemsOnPlayer(player, dmrAmmo);
+        // spawnItemNTimesOnPlayer(player, sniperAmmo, 10);
+        spawnItemNTimesOnPlayer(player, dmrAmmo, 16);
 
         spawnSidearm(player);
+        player.GetInventory().CreateInInventory("TTC_PistolSuppressor");
 
         player.GetInventory().CreateInInventory("CombatKnife");
     }
