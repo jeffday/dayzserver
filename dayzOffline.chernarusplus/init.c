@@ -742,12 +742,15 @@ class CustomMission: MissionServer
 
         spawnItemWithAttachments(player, sniperRifle, sniperAttachments);
 
-        player.GetInventory().CreateInInventory( "WE_AMSOptic" );
+        player.GetInventory().CreateInInventory("WE_AMSOptic");
 
         string dmrRifle = "TTC_HK417";
-        autoptr TStringArray dmrAttachments = {"WE_AMSOptic","TTC_M14Suppressor","TTC_DMR_AFG","TTC_ButtstockHK_Black","TTC_HK417_Magazine_20rnd"};
+        autoptr TStringArray dmrAttachments = {"WE_AMSOptic","TTC_M14Suppressor","TTC_DMR_AFG","TTC_ButtstockHK_Black"};
 
         spawnItemWithAttachments(player, dmrRifle, dmrAttachments);
+
+        player.GetInventory().CreateInInventory("TTC_HK417_Magazine_20rnd");
+        player.GetInventory().CreateInInventory("TTC_HK417_Magazine_20rnd");
 
         autoptr TStringArray sniperAmmo = {"AmmoBox_762x39_20Rnd","AmmoBox_762x39_20Rnd","AmmoBox_762x39_20Rnd","AmmoBox_762x39_20Rnd","AmmoBox_762x39_20Rnd","AmmoBox_762x39_20Rnd","AmmoBox_762x39_20Rnd","AmmoBox_762x39_20Rnd","AmmoBox_762x39_20Rnd","AmmoBox_762x39_20Rnd"};
         autoptr TStringArray dmrAmmo = {"AmmoBox_308Win_20Rnd","AmmoBox_308Win_20Rnd","AmmoBox_308Win_20Rnd","AmmoBox_308Win_20Rnd","AmmoBox_308Win_20Rnd","AmmoBox_308Win_20Rnd","AmmoBox_308Win_20Rnd","AmmoBox_308Win_20Rnd","AmmoBox_308Win_20Rnd","AmmoBox_308Win_20Rnd"};
