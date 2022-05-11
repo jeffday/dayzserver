@@ -2242,10 +2242,10 @@
     </type>
 	<!-- Update 1.11.3 -->
     <type name="TTC_M9">
-        <nominal>10</nominal>
+        <nominal>0</nominal>
         <lifetime>14400</lifetime>
         <restock>7200</restock>
-        <min>4</min>
+        <min>0</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -2256,10 +2256,10 @@
         <usage name="Village"/>
     </type>
     <type name="TTC_Mag_M9_15Rnd">
-        <nominal>10</nominal>
+        <nominal>0</nominal>
         <lifetime>14400</lifetime>
         <restock>7200</restock>
-        <min>5</min>
+        <min>0</min>
         <quantmin>10</quantmin>
         <quantmax>100</quantmax>
         <cost>100</cost>
