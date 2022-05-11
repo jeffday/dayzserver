@@ -3285,10 +3285,10 @@
 		<usage name="Village" />
     </type>
     <type name="TTC_MP7A1">
-        <nominal>8</nominal>
+        <nominal>0</nominal>
         <lifetime>28800</lifetime>
         <restock>1800</restock>
-        <min>4</min>
+        <min>0</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -3300,10 +3300,10 @@
         <value name="Tier3"/>
     </type>
     <type name="TTC_MP7A1_Mag_40rnd">
-        <nominal>8</nominal>
+        <nominal>0</nominal>
         <lifetime>28800</lifetime>
         <restock>1800</restock>
-        <min>3</min>
+        <min>0</min>
         <quantmin>10</quantmin>
         <quantmax>50</quantmax>
         <cost>100</cost>
@@ -3315,10 +3315,10 @@
         <value name="Tier3"/>
     </type>
 	<type name="TTC_Ammo_4630">
-        <nominal>40</nominal>
+        <nominal>0</nominal>
         <lifetime>7200</lifetime>
         <restock>800</restock>
-        <min>30</min>
+        <min>0</min>
         <quantmin>10</quantmin>
         <quantmax>80</quantmax>
         <cost>100</cost>
@@ -3329,10 +3329,10 @@
         <value name="Tier2"/>	
     </type>
 	<type name="TTC_AmmoBox_4630_20Rnd">
-        <nominal>30</nominal>
+        <nominal>0</nominal>
         <lifetime>7200</lifetime>
         <restock>800</restock>
-        <min>20</min>
+        <min>0</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
