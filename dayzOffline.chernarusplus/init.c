@@ -125,11 +125,16 @@ class CustomMission: MissionServer
 
         int rndIndex = Math.RandomInt(0, 3);
 
-        pistolAttachments.Insert(pistolMags[rndIndex]);
-
         spawnItemWithAttachments(player, pistols[rndIndex], pistolAttachments);
 
         player.GetInventory().CreateInInventory(pistolMags[rndIndex]);
+        player.GetInventory().CreateInInventory(pistolMags[rndIndex]);
+
+        if (rndIndex > 1) { // Kimber is .45
+            spawnItemNTimesOnPlayer(player, "AmmoBox_45ACP_25rnd", 4);
+        } else {
+            spawnItemNTimesOnPlayer(player, "AmmoBox_9x19_25rnd", 4);
+        }
     }
 
     void setInfantryStartingItems(PlayerBase player, string camoType)
@@ -752,15 +757,15 @@ class CustomMission: MissionServer
 	}
 
     void SpawnJeffSetup(PlayerBase player) {
-        string camoType = "black";
-        string spurgleCamo = "Black";
+        string camoType = "green";
+        string spurgleCamo = "WoodlandCamo";
 
-        autoptr TStringArray clothes = {"BeanieHat_Black","ThickFramesGlasses","NioshFaceMask","QuiltedJacket_Black",getItemNameForCamoType("mmg_tactical_gloves_", camoType),"Jeans_BlueDark","SK8_Sneakers_Black"};
+        autoptr TStringArray clothes = {"BeanieHat_Black","ThickFramesGlasses","NioshFaceMask","QuiltedJacket_Green",getItemNameForCamoType("mmg_tactical_gloves_", camoType),"Jeans_Black","SK8_Sneakers_Black"};
 
         spawnItemsOnPlayer(player, clothes);
 
         string bag = "Spur_CamelBag_" + spurgleCamo;
-        autoptr TStringArray bagAttachments = {"SmershBag_Spur_" + spurgleCamo,"PlateCarrierHolster_Spur_" + spurgleCamo,"Spur_KnifeSheath_" + spurgleCamo,"PersonalRadio"};
+        autoptr TStringArray bagAttachments = {"SmershBag_Spur_" + spurgleCamo,"PlateCarrierHolster_Spur_" + spurgleCamo,"Spur_KnifeSheath_Green","PersonalRadio"};
 
         spawnItemWithAttachments(player, bag, bagAttachments);
 
@@ -785,6 +790,7 @@ class CustomMission: MissionServer
         player.GetInventory().CreateInInventory("TTC_PistolSuppressor");
 
         player.GetInventory().CreateInInventory("CombatKnife");
+        player.GetInventory().CreateInInventory("HuntingKnife");
         player.GetInventory().CreateInInventory("Rangefinder");
     }
 
