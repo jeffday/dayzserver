@@ -79,12 +79,9 @@ class CustomMission: MissionServer
         if (camoType == "green")
         {
             if(prefix == "MMG_Mag_Pouch_" || prefix == "MMG_JPC_Vest_" || prefix == "MMG_ammo_pouch_" || prefix == "MMG_Med_Pouch_" || prefix == "MMG_carrier_backpack_" || prefix == "MMG_assault_pack_" || prefix == "MMG_falcon_b1_belt_" || prefix == "MMG_sheath_" || prefix == "MMG_bottle_" || prefix == "MMG_combatpants_" || prefix == "MMG_balaclava_") {
-                Debug.LogInfo("generated item name: " + prefix + camoType);
                 return prefix + "olive";
             }
         }
-
-        Debug.LogInfo("generated item name: " + prefix + camoType);
 
         return prefix + camoType;
     }
