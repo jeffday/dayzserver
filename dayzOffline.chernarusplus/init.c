@@ -220,6 +220,7 @@ class CustomMission: MissionServer
         spawnItemWithAttachments(player, rifles[rndIndex], rifleAttachments);
         spawnSidearm(player);
         player.GetInventory().CreateInInventory("TTC_PistolSuppressor");
+        player.GetInventory().CreateInInventory("Rangefinder");
     }
 
     void setDesignatedMarksmanStartingItems(PlayerBase player, string camoType)
@@ -267,6 +268,7 @@ class CustomMission: MissionServer
         spawnSidearm(player);
         // probably doesn't make sense for a DM to need glasses but i just like them okay
         player.GetInventory().CreateInInventory("ThickFramesGlasses");
+        player.GetInventory().CreateInInventory("Rangefinder");
     }
 
     void setHeavyGunnerStartingItems(PlayerBase player, string camoType)
@@ -783,6 +785,7 @@ class CustomMission: MissionServer
         player.GetInventory().CreateInInventory("TTC_PistolSuppressor");
 
         player.GetInventory().CreateInInventory("CombatKnife");
+        player.GetInventory().CreateInInventory("Rangefinder");
     }
 
 	override void StartingEquipSetup(PlayerBase player, bool clothesChosen)
