@@ -2,7 +2,7 @@
 
 <spawnabletypes>
 	<type name="TTC_R700">
-		<attachments chance="1.00">
+		<attachments chance="0.25">
 			<item name="HuntingOptic" chance="1.00" />
 		</attachments>
 	</type>
@@ -487,7 +487,7 @@
 	</type>
 	<!-- Update 1.12 -->
 	<type name="TTC_R700_Black">
-		<attachments chance="1.00">
+		<attachments chance="0.25">
 			<item name="HuntingOptic" chance="1.00" />
 		</attachments>
 	</type>
@@ -963,6 +963,36 @@
   	<type name="TTC_M9">
 		<attachments chance="0.30">
 			<item name="TTC_Mag_M9_15Rnd" chance="1.00" />
+		</attachments>
+	</type>
+	<type name="TTC_LeeEnfield">
+		<attachments chance="0.25">
+			<item name="PUScopeOptic" chance="1.00" />
+		</attachments>
+	</type>
+	<type name="TTC_M1Garand">
+		<attachments chance="0.25">
+			<item name="PUScopeOptic" chance="1.00" />
+		</attachments>
+	</type>
+	<type name="TTC_kar98k">
+		<attachments chance="0.25">
+			<item name="HuntingOptic" chance="1.00" />
+		</attachments>
+	</type>
+	<type name="TTC_M1903">
+		<attachments chance="0.25">
+			<item name="HuntingOptic" chance="1.00" />
+		</attachments>
+	</type>
+	<type name="TTC_MAS36">
+		<attachments chance="0.25">
+			<item name="HuntingOptic" chance="1.00" />
+		</attachments>
+	</type>
+	<type name="TTC_Winchester1873">
+		<attachments chance="0.25">
+			<item name="HuntingOptic" chance="1.00" />
 		</attachments>
 	</type>
     <!-- optics -->

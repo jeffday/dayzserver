@@ -728,7 +728,7 @@
         <children/>
     </event>
     <event name="StaticHeliCrash">
-        <nominal>3</nominal>
+        <nominal>6</nominal>
         <min>0</min>
         <max>0</max>
         <lifetime>2100</lifetime>
@@ -747,7 +747,7 @@
         </children>
     </event>
     <event name="StaticPoliceCar">
-        <nominal>10</nominal>
+        <nominal>20</nominal>
         <min>0</min>
         <max>0</max>
         <lifetime>2500</lifetime>

@@ -103,9 +103,6 @@ class CustomMission: MissionServer
                 player.GetInventory().CreateInInventory("WE_AMSOptic");
                 attachments = {"WE_MosinSKSMount","TTC_Universal_Suppressor_BLACK"};
                 break;
-            case "WE_PSG1":
-                attachments = {"WE_AMSOptic","WE_308Suppressor"};
-                break;
             case "TTC_MAS36":
             case "TTC_M1903":
             case "TTC_kar98k":
@@ -125,11 +122,16 @@ class CustomMission: MissionServer
 
         int rndIndex = Math.RandomInt(0, 3);
 
-        pistolAttachments.Insert(pistolMags[rndIndex]);
-
         spawnItemWithAttachments(player, pistols[rndIndex], pistolAttachments);
 
         player.GetInventory().CreateInInventory(pistolMags[rndIndex]);
+        player.GetInventory().CreateInInventory(pistolMags[rndIndex]);
+
+        if (rndIndex > 1) { // Kimber is .45
+            spawnItemNTimesOnPlayer(player, "AmmoBox_45ACP_25rnd", 4);
+        } else {
+            spawnItemNTimesOnPlayer(player, "AmmoBox_9x19_25rnd", 4);
+        }
     }
 
     void setInfantryStartingItems(PlayerBase player, string camoType)
@@ -196,19 +198,19 @@ class CustomMission: MissionServer
                 break;
         }
 
-        autoptr TStringArray rifles = {"TTC_XM2010", "WE_PSG1", "WE_M14", "WE_R700", "TTC_MAS36"};
-        autoptr TStringArray rifleMagazines = {"TTC_XM2010_10rnd", "WE_Mag_PSG1_10Rnd", "WE_Mag_M14_10Rnd", "WE_Mag_R700_10Rnd"};
-        autoptr TStringArray rifleScopes = {"TTC_VortexRHDAMG_Optic", "HuntingOptic", "HuntingOptic", "HuntingOptic", "HuntingOptic"};
-        autoptr TStringArray rifleSuppressors = {"TTC_M14Suppressor", "WE_308Suppressor", "WE_308Suppressor", "WE_308Suppressor", "TTC_M14Suppressor"};
+        autoptr TStringArray rifles = {"TTC_XM2010", "WE_M14", "WE_R700", "TTC_MAS36"};
+        autoptr TStringArray rifleMagazines = {"TTC_XM2010_10rnd", "WE_Mag_M14_10Rnd", "WE_Mag_R700_10Rnd"};
+        autoptr TStringArray rifleScopes = {"TTC_VortexRHDAMG_Optic", "WE_AMSOptic", "HuntingOptic", "HuntingOptic"};
+        autoptr TStringArray rifleSuppressors = {"TTC_M14Suppressor", "WE_308Suppressor", "WE_308Suppressor", "TTC_M14Suppressor"};
 
-        int rndIndex = Math.RandomInt(0, 5);
+        int rndIndex = Math.RandomInt(0, 4);
 
         autoptr TStringArray rifleAttachments = new TStringArray;
         rifleAttachments.Insert(rifleScopes[rndIndex]);
         rifleAttachments.Insert(rifleSuppressors[rndIndex]);
 
         // spawn ammo box or extra mag
-        if (rndIndex < 4) {
+        if (rndIndex < 3) {
             rifleAttachments.Insert(rifleMagazines[rndIndex]);
             player.GetInventory().CreateInInventory(rifleMagazines[rndIndex]);
         } else {
@@ -220,6 +222,7 @@ class CustomMission: MissionServer
         spawnItemWithAttachments(player, rifles[rndIndex], rifleAttachments);
         spawnSidearm(player);
         player.GetInventory().CreateInInventory("TTC_PistolSuppressor");
+        player.GetInventory().CreateInInventory("Rangefinder");
     }
 
     void setDesignatedMarksmanStartingItems(PlayerBase player, string camoType)
@@ -267,6 +270,7 @@ class CustomMission: MissionServer
         spawnSidearm(player);
         // probably doesn't make sense for a DM to need glasses but i just like them okay
         player.GetInventory().CreateInInventory("ThickFramesGlasses");
+        player.GetInventory().CreateInInventory("Rangefinder");
     }
 
     void setHeavyGunnerStartingItems(PlayerBase player, string camoType)
@@ -750,15 +754,15 @@ class CustomMission: MissionServer
 	}
 
     void SpawnJeffSetup(PlayerBase player) {
-        string camoType = "black";
-        string spurgleCamo = "Black";
+        string camoType = "green";
+        string spurgleCamo = "WoodlandCamo";
 
-        autoptr TStringArray clothes = {"BeanieHat_Black","ThickFramesGlasses","NioshFaceMask","QuiltedJacket_Black",getItemNameForCamoType("mmg_tactical_gloves_", camoType),"Jeans_BlueDark","SK8_Sneakers_Black"};
+        autoptr TStringArray clothes = {"BeanieHat_Black","ThickFramesGlasses","NioshFaceMask","QuiltedJacket_Green",getItemNameForCamoType("mmg_tactical_gloves_", camoType),"Jeans_Black","SK8_Sneakers_Black"};
 
         spawnItemsOnPlayer(player, clothes);
 
         string bag = "Spur_CamelBag_" + spurgleCamo;
-        autoptr TStringArray bagAttachments = {"SmershBag_Spur_" + spurgleCamo,"PlateCarrierHolster_Spur_" + spurgleCamo,"Spur_KnifeSheath_" + spurgleCamo,"PersonalRadio"};
+        autoptr TStringArray bagAttachments = {"SmershBag_Spur_" + spurgleCamo,"PlateCarrierHolster_Spur_" + spurgleCamo,"Spur_KnifeSheath_Green","PersonalRadio"};
 
         spawnItemWithAttachments(player, bag, bagAttachments);
 
@@ -776,10 +780,6 @@ class CustomMission: MissionServer
         spawnItemNTimesOnPlayer(player, "TTC_DMR_556Pmag_40rnd", 3);
         spawnItemNTimesOnPlayer(player, "AmmoBox_556x45_20Rnd", 12);
 
-        spawnRifle(player, "WE_PSG1");
-        spawnItemNTimesOnPlayer(player, "WE_Mag_PSG1_10Rnd", 3);
-        spawnItemNTimesOnPlayer(player, "AmmoBox_308Win_20Rnd", 6);
-
         spawnRifle(player, "TTC_MAS36");
         spawnItemNTimesOnPlayer(player, "AmmoBox_762x54_20Rnd", 12);
 
@@ -787,6 +787,8 @@ class CustomMission: MissionServer
         player.GetInventory().CreateInInventory("TTC_PistolSuppressor");
 
         player.GetInventory().CreateInInventory("CombatKnife");
+        player.GetInventory().CreateInInventory("HuntingKnife");
+        player.GetInventory().CreateInInventory("Rangefinder");
     }
 
 	override void StartingEquipSetup(PlayerBase player, bool clothesChosen)
