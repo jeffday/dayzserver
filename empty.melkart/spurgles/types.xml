@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <types>
     <type name="Spur_LW_Bag_Black">
-        <nominal>15</nominal>
+        <nominal>6</nominal>
         <lifetime>28800</lifetime>
         <restock>0</restock>
-        <min>10</min>
+        <min>2</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -17,10 +17,10 @@
         <value name="Tier4"/>
     </type>
     <type name="Spur_LW_Bag_Blue">
-        <nominal>15</nominal>
+        <nominal>6</nominal>
         <lifetime>28800</lifetime>
         <restock>0</restock>
-        <min>10</min>
+        <min>2</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -33,10 +33,10 @@
         <value name="Tier4"/>
     </type>
     <type name="Spur_LW_Bag_Brown">
-        <nominal>15</nominal>
+        <nominal>6</nominal>
         <lifetime>28800</lifetime>
         <restock>0</restock>
-        <min>10</min>
+        <min>2</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -49,10 +49,10 @@
         <value name="Tier4"/>
     </type>
     <type name="Spur_LW_Bag_Green">
-        <nominal>15</nominal>
+        <nominal>6</nominal>
         <lifetime>28800</lifetime>
         <restock>0</restock>
-        <min>10</min>
+        <min>2</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -65,10 +65,10 @@
         <value name="Tier4"/>
     </type>
     <type name="Spur_LW_Bag_Grey">
-        <nominal>15</nominal>
+        <nominal>6</nominal>
         <lifetime>28800</lifetime>
         <restock>0</restock>
-        <min>10</min>
+        <min>2</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -81,10 +81,10 @@
         <value name="Tier4"/>
     </type>
     <type name="Spur_LW_Bag_Orange">
-        <nominal>15</nominal>
+        <nominal>6</nominal>
         <lifetime>28800</lifetime>
         <restock>0</restock>
-        <min>10</min>
+        <min>2</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -97,10 +97,10 @@
         <value name="Tier4"/>
     </type>
     <type name="Spur_LW_Bag_Purple">
-        <nominal>15</nominal>
+        <nominal>6</nominal>
         <lifetime>28800</lifetime>
         <restock>0</restock>
-        <min>10</min>
+        <min>2</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -113,10 +113,10 @@
         <value name="Tier4"/>
     </type>
     <type name="Spur_LW_Bag_Red">
-        <nominal>15</nominal>
+        <nominal>6</nominal>
         <lifetime>28800</lifetime>
         <restock>0</restock>
-        <min>10</min>
+        <min>2</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -129,7 +129,7 @@
         <value name="Tier4"/>
     </type>
     <type name="Spur_MilBag_Black">
-        <nominal>5</nominal>
+        <nominal>2</nominal>
         <lifetime>28800</lifetime>
         <restock>1800</restock>
         <min>2</min>
@@ -141,7 +141,7 @@
         <usage name="Military"/>
     </type>
     <type name="Spur_MilBag_Green">
-        <nominal>5</nominal>
+        <nominal>2</nominal>
         <lifetime>28800</lifetime>
         <restock>1800</restock>
         <min>2</min>
@@ -153,7 +153,7 @@
         <usage name="Military"/>
     </type>
     <type name="Spur_MilBag_Tan">
-        <nominal>5</nominal>
+        <nominal>2</nominal>
         <lifetime>28800</lifetime>
         <restock>1800</restock>
         <min>2</min>
@@ -165,7 +165,7 @@
         <usage name="Military"/>
     </type>
     <type name="Spur_MilBag_WoodlandCamo">
-        <nominal>5</nominal>
+        <nominal>2</nominal>
         <lifetime>28800</lifetime>
         <restock>1800</restock>
         <min>2</min>
@@ -177,7 +177,7 @@
         <usage name="Military"/>
     </type>
     <type name="Spur_MilBag_MultiCamo">
-        <nominal>5</nominal>
+        <nominal>2</nominal>
         <lifetime>28800</lifetime>
         <restock>1800</restock>
         <min>2</min>
@@ -201,10 +201,10 @@
         <usage name="Military"/>
     </type>
     <type name="Spur_Treker_Yellow">
-        <nominal>15</nominal>
+        <nominal>6</nominal>
         <lifetime>28800</lifetime>
         <restock>0</restock>
-        <min>10</min>
+        <min>2</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -217,10 +217,10 @@
         <value name="Tier4"/>
     </type>
     <type name="Spur_Treker_Green">
-        <nominal>15</nominal>
+        <nominal>6</nominal>
         <lifetime>28800</lifetime>
         <restock>0</restock>
-        <min>10</min>
+        <min>2</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -233,10 +233,10 @@
         <value name="Tier4"/>
     </type>
     <type name="Spur_Treker_Red">
-        <nominal>15</nominal>
+        <nominal>6</nominal>
         <lifetime>28800</lifetime>
         <restock>0</restock>
-        <min>10</min>
+        <min>2</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -249,10 +249,10 @@
         <value name="Tier4"/>
     </type>
     <type name="Spur_Treker_Black">
-        <nominal>15</nominal>
+        <nominal>6</nominal>
         <lifetime>28800</lifetime>
         <restock>0</restock>
-        <min>10</min>
+        <min>2</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -265,10 +265,10 @@
         <value name="Tier4"/>
     </type>
     <type name="Spur_Treker_Blue">
-        <nominal>15</nominal>
+        <nominal>6</nominal>
         <lifetime>28800</lifetime>
         <restock>0</restock>
-        <min>10</min>
+        <min>2</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -281,7 +281,7 @@
         <value name="Tier4"/>
     </type>
     <type name="Spur_CamelBag_Black">
-        <nominal>5</nominal>
+        <nominal>2</nominal>
         <lifetime>28800</lifetime>
         <restock>1800</restock>
         <min>2</min>
@@ -293,7 +293,7 @@
         <usage name="Military"/>
     </type>
     <type name="Spur_CamelBag_Green">
-        <nominal>5</nominal>
+        <nominal>2</nominal>
         <lifetime>28800</lifetime>
         <restock>1800</restock>
         <min>2</min>
@@ -305,7 +305,7 @@
         <usage name="Military"/>
     </type>
     <type name="Spur_CamelBag_Tan">
-        <nominal>5</nominal>
+        <nominal>2</nominal>
         <lifetime>28800</lifetime>
         <restock>1800</restock>
         <min>2</min>
@@ -317,7 +317,7 @@
         <usage name="Military"/>
     </type>
     <type name="Spur_CamelBag_WoodlandCamo">
-        <nominal>5</nominal>
+        <nominal>2</nominal>
         <lifetime>28800</lifetime>
         <restock>1800</restock>
         <min>2</min>
@@ -329,7 +329,7 @@
         <usage name="Military"/>
     </type>
     <type name="Spur_CamelBag_MultiCamo">
-        <nominal>5</nominal>
+        <nominal>2</nominal>
         <lifetime>28800</lifetime>
         <restock>1800</restock>
         <min>2</min>
@@ -353,10 +353,10 @@
         <usage name="Military"/>
     </type>
     <type name="Spur_KnifeSheath_Black">
-        <nominal>10</nominal>
+        <nominal>5</nominal>
         <lifetime>28800</lifetime>
         <restock>0</restock>
-        <min>15</min>
+        <min>2</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -366,10 +366,10 @@
         <usage name="Hunting"/>
     </type>
     <type name="Spur_KnifeSheath_Green">
-        <nominal>10</nominal>
+        <nominal>5</nominal>
         <lifetime>28800</lifetime>
         <restock>0</restock>
-        <min>15</min>
+        <min>2</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -379,10 +379,10 @@
         <usage name="Hunting"/>
     </type>
     <type name="Spur_KnifeSheath_Tan">
-        <nominal>10</nominal>
+        <nominal>5</nominal>
         <lifetime>28800</lifetime>
         <restock>0</restock>
-        <min>15</min>
+        <min>2</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -392,7 +392,7 @@
         <usage name="Hunting"/>
     </type>
     <type name="Canteen_Spur_Green">
-        <nominal>5</nominal>
+        <nominal>2</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
         <min>2</min>
@@ -405,7 +405,7 @@
         <usage name="Hunting"/>
     </type>
     <type name="Canteen_Spur_Black">
-        <nominal>5</nominal>
+        <nominal>2</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
         <min>2</min>
@@ -418,7 +418,7 @@
         <usage name="Hunting"/>
     </type>
     <type name="Canteen_Spur_Tan">
-        <nominal>5</nominal>
+        <nominal>2</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
         <min>2</min>
@@ -431,7 +431,7 @@
         <usage name="Hunting"/>
     </type>
     <type name="Canteen_Spur_WoodlandCamo">
-        <nominal>5</nominal>
+        <nominal>2</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
         <min>2</min>
@@ -444,7 +444,7 @@
         <usage name="Hunting"/>
     </type>
     <type name="Canteen_Spur_MultiCamo">
-        <nominal>5</nominal>
+        <nominal>2</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
         <min>2</min>
@@ -470,7 +470,7 @@
         <usage name="Hunting"/>
     </type>
     <type name="SmershBag_Spur_Green">
-        <nominal>5</nominal>
+        <nominal>2</nominal>
         <lifetime>28800</lifetime>
         <restock>0</restock>
         <min>2</min>
@@ -482,7 +482,7 @@
         <usage name="Military"/>
     </type>
     <type name="SmershBag_Spur_Black">
-        <nominal>5</nominal>
+        <nominal>2</nominal>
         <lifetime>28800</lifetime>
         <restock>0</restock>
         <min>2</min>
@@ -494,7 +494,7 @@
         <usage name="Military"/>
     </type>
     <type name="SmershBag_Spur_Tan">
-        <nominal>5</nominal>
+        <nominal>2</nominal>
         <lifetime>28800</lifetime>
         <restock>0</restock>
         <min>2</min>
@@ -506,7 +506,7 @@
         <usage name="Military"/>
     </type>
     <type name="SmershBag_Spur_WoodlandCamo">
-        <nominal>5</nominal>
+        <nominal>2</nominal>
         <lifetime>28800</lifetime>
         <restock>0</restock>
         <min>2</min>
@@ -518,7 +518,7 @@
         <usage name="Military"/>
     </type>
     <type name="SmershBag_Spur_MultiCamo">
-        <nominal>5</nominal>
+        <nominal>2</nominal>
         <lifetime>28800</lifetime>
         <restock>0</restock>
         <min>2</min>
@@ -542,7 +542,7 @@
         <usage name="Military"/>
     </type>
     <type name="PlateCarrierHolster_Spur_Green">
-        <nominal>5</nominal>
+        <nominal>2</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
         <min>2</min>
@@ -555,7 +555,7 @@
         <usage name="Military"/>
     </type>
     <type name="PlateCarrierHolster_Spur_Black">
-        <nominal>5</nominal>
+        <nominal>2</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
         <min>2</min>
@@ -568,7 +568,7 @@
         <usage name="Military"/>
     </type>
     <type name="PlateCarrierHolster_Spur_Tan">
-        <nominal>5</nominal>
+        <nominal>2</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
         <min>2</min>
@@ -581,7 +581,7 @@
         <usage name="Military"/>
     </type>
     <type name="PlateCarrierHolster_Spur_WoodlandCamo">
-        <nominal>5</nominal>
+        <nominal>2</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
         <min>2</min>
@@ -594,7 +594,7 @@
         <usage name="Military"/>
     </type>
     <type name="PlateCarrierHolster_Spur_MultiCamo">
-        <nominal>5</nominal>
+        <nominal>2</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
         <min>2</min>
