@@ -4,7 +4,7 @@
 
 <types>
     <type name="MMG_nbc_pouch">
-        <nominal>5</nominal>
+        <nominal>2</nominal>
         <lifetime>7200</lifetime>
         <restock>7200</restock>
         <min>1</min>
@@ -23,7 +23,7 @@
 <!--GP-NVG-->
 
     <type name="mmg_gp_nvg_black">
-        <nominal>5</nominal>
+        <nominal>2</nominal>
         <lifetime>7200</lifetime>
         <restock>7200</restock>
         <min>1</min>
@@ -37,7 +37,7 @@
         <value name="Tier4"/>
     </type>
     <type name="mmg_gp_nvg_tan">
-        <nominal>0</nominal>
+        <nominal>2</nominal>
         <lifetime>7200</lifetime>
         <restock>7200</restock>
         <min>0</min>
@@ -51,7 +51,7 @@
         <value name="Tier4"/>
     </type>
     <type name="mmg_gp_nvg_green">
-        <nominal>5</nominal>
+        <nominal>2</nominal>
         <lifetime>7200</lifetime>
         <restock>7200</restock>
         <min>1</min>
@@ -65,7 +65,7 @@
         <value name="Tier4"/>
     </type>
     <type name="mmg_gp_nvg_grey">
-        <nominal>5</nominal>
+        <nominal>2</nominal>
         <lifetime>7200</lifetime>
         <restock>7200</restock>
         <min>1</min>
