@@ -420,6 +420,14 @@
 		</attachments>
 	</type>
 	<!-- Update 1.11 -->
+	<type name="TTC_AEK973">
+		<attachments chance="0.5">
+			<item name="ACOGOptic" chance="1.00" />
+		</attachments>
+		<attachments chance="0.30">
+			<item name="Mag_AKM_30Rnd" chance="1.00" />
+		</attachments>
+	</type>
 	<type name="TTC_AK12">
 		<attachments chance="1.00">
 			<item name="TTC_Buttstock_AK12" chance="1.00" />
