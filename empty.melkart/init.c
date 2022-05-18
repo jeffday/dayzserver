@@ -181,16 +181,16 @@ class CustomMission: MissionServer
 		itemClothing = player.FindAttachmentBySlotName( "Body" );
 		if ( itemClothing )
 		{
-			player.RemoveAllItems();
+			// player.RemoveAllItems();
             
-            SpawnJeffSetup(player);
+            // SpawnJeffSetup(player);
 
 			itemEnt = player.GetInventory().CreateInInventory( "BandageDressing" );
-            itemEnt = player.GetInventory().CreateInInventory( "CanOpener" );
-            itemEnt = player.GetInventory().CreateInInventory( "SodaCan_Cola" );
-        	itemEnt = player.GetInventory().CreateInInventory( "SodaCan_Spite" );
-            itemEnt = player.GetInventory().CreateInInventory( "BakedBeansCan" );
-            itemEnt = player.GetInventory().CreateInInventory( "SpaghettiCan" );
+            // itemEnt = player.GetInventory().CreateInInventory( "CanOpener" );
+            // itemEnt = player.GetInventory().CreateInInventory( "SodaCan_Cola" );
+        	// itemEnt = player.GetInventory().CreateInInventory( "SodaCan_Spite" );
+            // itemEnt = player.GetInventory().CreateInInventory( "BakedBeansCan" );
+            // itemEnt = player.GetInventory().CreateInInventory( "SpaghettiCan" );
 		}
 	}
 };
