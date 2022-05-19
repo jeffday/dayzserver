@@ -32,7 +32,7 @@
         <value name="Tier4"/>
     </type>
     <type name="WE_AKRailMount">
-        <nominal>3</nominal>
+        <nominal>5</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
         <min>2</min>
@@ -103,7 +103,7 @@
         <value name="Tier4"/>
     </type>
     <type name="WE_MosinSKSMount">
-        <nominal>3</nominal>
+        <nominal>5</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
         <min>2</min>
@@ -138,7 +138,7 @@
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
-        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="1"/>
         <category name="weapons"/>
         <tag name="shelves"/>
         <usage name="Military"/>
@@ -620,8 +620,8 @@
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="weapons"/>
         <usage name="Military"/>
+        <value name="Tier1"/>
         <value name="Tier2"/>
-        <value name="Tier3"/>
     </type>
 <!-- Snipers -->
     <type name="WE_M1Garand"> <!-- using the one from morty's -->
