@@ -26,6 +26,9 @@
 		<category name="weapons" />
 		<usage name="Village" />
 		<usage name="Hunting" />
+        <value name="Tier2" />
+		<value name="Tier3" />
+        <value name="Tier4" />
 	</type>
 	<type name="TTC_Winchester1873">
 		<nominal>5</nominal>
@@ -39,6 +42,9 @@
 		<category name="weapons" />
 		<usage name="Farm" />
 		<usage name="Village" />
+        <value name="Tier2" />
+		<value name="Tier3" />
+        <value name="Tier4" />
 	</type>
 	<type name="TTC_kar98k">
 		<nominal>5</nominal>
@@ -64,6 +70,9 @@
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="weapons"/>
         <usage name="Hunting"/>
+        <value name="Tier2" />
+		<value name="Tier3" />
+        <value name="Tier4" />
     </type>
 	<type name="TTCSR25">
 		<nominal>2</nominal>
@@ -295,6 +304,9 @@
         <category name="weapons"/>
         <tag name="shelves"/>
         <usage name="Military"/>
+        <value name="Tier2" />
+		<value name="Tier3" />
+        <value name="Tier4" />
     </type>
     <type name="TTC_Universal_Suppressor_CAMO">
         <nominal>0</nominal>
@@ -334,7 +346,10 @@
         <category name="weapons"/>
         <usage name="Town"/>
         <usage name="Village"/>
-	<usage name="Hunting"/>	
+	    <usage name="Hunting"/>	
+        <value name="Tier2" />
+		<value name="Tier3" />
+        <value name="Tier4" />
     </type>
 	<type name="TTC_AmmoBox_8mm_20Rnd">
         <nominal>10</nominal>
@@ -348,7 +363,10 @@
         <category name="weapons"/>
         <usage name="Town"/>
         <usage name="Village"/>
-	<usage name="Hunting"/>
+	    <usage name="Hunting"/>
+        <value name="Tier2" />
+		<value name="Tier3" />
+        <value name="Tier4" />
     </type>
     <type name="TTC_Buttstock2">
         <nominal>0</nominal>
@@ -980,6 +998,9 @@
         <category name="weapons"/>
         <tag name="shelves"/>
         <usage name="Military"/>
+        <value name="Tier2" />
+		<value name="Tier3" />
+        <value name="Tier4" />
     </type>
 	<type name="TTC_M82">
 		<nominal>1</nominal>
@@ -1749,6 +1770,9 @@
 		<category name="weapons" />
 		<usage name="Village" />
 		<usage name="Hunting" />
+        <value name="Tier2" />
+		<value name="Tier3" />
+        <value name="Tier4" />
 	</type>
 	<type name="TTC_M1Garand">
 		<nominal>0</nominal>
@@ -1882,7 +1906,10 @@
         <category name="weapons"/>
         <usage name="Town"/>
         <usage name="Village"/>
-	<usage name="Hunting"/>
+	    <usage name="Hunting"/>
+        <value name="Tier2" />
+		<value name="Tier3" />
+        <value name="Tier4" />
     </type>
     <type name="TTC_Ammo_303">
         <nominal>15</nominal>
@@ -1896,7 +1923,10 @@
         <category name="weapons"/>
         <usage name="Town"/>
         <usage name="Village"/>
-	<usage name="Hunting"/>
+	    <usage name="Hunting"/>
+        <value name="Tier2" />
+		<value name="Tier3" />
+        <value name="Tier4" />
     </type>
     <type name="TTC_AmmoBox_3006_20Rnd">
         <nominal>15</nominal>
@@ -1910,7 +1940,10 @@
         <category name="weapons"/>
         <usage name="Town"/>
         <usage name="Village"/>
-	<usage name="Hunting"/>
+	    <usage name="Hunting"/>
+        <value name="Tier2" />
+		<value name="Tier3" />
+        <value name="Tier4" />
     </type>
     <type name="TTC_Ammo_3006">
         <nominal>10</nominal>
@@ -1924,13 +1957,16 @@
         <category name="weapons"/>
         <usage name="Town"/>
         <usage name="Village"/>
-	<usage name="Hunting"/>
+	    <usage name="Hunting"/>
+        <value name="Tier2" />
+		<value name="Tier3" />
+        <value name="Tier4" />
     </type>
     <type name="TTC_AmmoBox_4570_20Rnd">
-        <nominal>15</nominal>
+        <nominal>0</nominal>
         <lifetime>7200</lifetime>
         <restock>7200</restock>
-        <min>10</min>
+        <min>0</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -1938,13 +1974,16 @@
         <category name="weapons"/>
         <usage name="Town"/>
         <usage name="Village"/>
-	<usage name="Hunting"/>
+	    <usage name="Hunting"/>
+        <value name="Tier2" />
+		<value name="Tier3" />
+        <value name="Tier4" />
     </type>
     <type name="TTC_Ammo_4570">
-        <nominal>10</nominal>
+        <nominal>0</nominal>
         <lifetime>7200</lifetime>
         <restock>7200</restock>
-        <min>5</min>
+        <min>0</min>
         <quantmin>10</quantmin>
         <quantmax>80</quantmax>
         <cost>100</cost>
@@ -1952,7 +1991,10 @@
         <category name="weapons"/>
         <usage name="Town"/>
         <usage name="Village"/>
-	<usage name="Hunting"/>
+	    <usage name="Hunting"/>
+        <value name="Tier2" />
+		<value name="Tier3" />
+        <value name="Tier4" />
     </type>
 	<!-- Update 1.11.1 -->
 	<type name="TTC_AK12">
@@ -2162,6 +2204,9 @@
         <category name="weapons"/>
         <tag name="shelves"/>
         <usage name="Military"/>
+        <value name="Tier2" />
+		<value name="Tier3" />
+        <value name="Tier4" />
     </type>
     <type name="TTC_Holo">
         <nominal>3</nominal>
@@ -2825,6 +2870,9 @@
         <category name="weapons"/>
         <usage name="Hunting"/>
         <usage name="Military" />
+        <value name="Tier2" />
+		<value name="Tier3" />
+        <value name="Tier4" />
     </type>
 	<type name="TTC_MCX">
 		<nominal>4</nominal>
@@ -2904,6 +2952,8 @@
 		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
         <category name="weapons"/>
         <usage name="Hunting"/>
+		<value name="Tier3" />
+        <value name="Tier4" />
 	</type>
     <type name="TTC_Deagle">
         <nominal>3</nominal>
