@@ -118,8 +118,8 @@ class CustomMission: MissionServer
 
         spawnItemsOnPlayer(player, playerItems, true);
 
-        bag.GetInventory().CreateInInventory("ZagorkyChocolate");
-        bag.GetInventory().CreateInInventory("WaterBottle");
+        player.GetInventory().CreateInInventory("ZagorkyChocolate");
+        player.GetInventory().CreateInInventory("WaterBottle");
     }
 
     // void spawnRural(PlayerBase player) {
