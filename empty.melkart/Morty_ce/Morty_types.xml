@@ -2997,10 +2997,10 @@
 		<usage name="Hunting"/>		
     </type>
     <type name="TTC_Glock17">
-        <nominal>5</nominal>
+        <nominal>10</nominal>
         <lifetime>7200</lifetime>
         <restock>0</restock>
-        <min>2</min>
+        <min>4</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -3010,10 +3010,10 @@
         <usage name="Police"/>
     </type>
     <type name="TTC_Mag_Glock_17Rnd">
-        <nominal>7</nominal>
+        <nominal>12</nominal>
         <lifetime>7200</lifetime>
         <restock>180</restock>
-        <min>3</min>
+        <min>5</min>
         <quantmin>10</quantmin>
         <quantmax>100</quantmax>
         <cost>100</cost>
