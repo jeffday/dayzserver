@@ -30,9 +30,34 @@ void main()
 	}
 }
 
+const string TOURIST = "tourist";
+const string RURAL = "rural";
+const string VILLAGER = "villager";
+const string TOWNSPERSON = "townsperson";
+const string CITYPERSON = "cityperson";
+
+const string[] PLAYER_CLASSES = {TOURIST, RURAL, VILLAGER, TOWNSPERSON, CITYPERSON};
+
+// HEAD CLOTHING OPTIONS:
+const string[] FLAT_CAPS = {"FlatCap_Black", "FlatCap_BlackCheck", "FlatCap_Blue", "FlatCap_Brown", "FlatCap_BrownCheck", "FlatCap_Grey", "FlatCap_GreyCheck", "FlatCap_Red"};
+
+// TORSO CLOTHING OPTIONS:
+const string[] TSHIRTS = {"TShirt_Beige", "TShirt_Black", "TShirt_Blue", "TShirt_Green", "TShirt_Grey", "TShirt_OrangeWhiteStripes", "TShirt_Red", "TShirt_RedBlackStripes", "TShirt_White"};
+const string[] RAGLAN_SHIRTS = {"Medium_Sleeves_Shirt", "Medium_Sleeves_Shirt_Red", "Medium_Sleeves_Shirt_Blue"}; // WINDSTRIDE
+const string[] LAYERED_SHIRTS = {"Layered_Shirt_Base", "Layered_Shirt_White", "Layered_Shirt_Cheburashka", "Layered_Shirt_Courage", "Layered_Shirt_Lily"}; // WINDSTRIDE
+
+// LEGS CLOTHING OPTIONS:
+const string[] TRACK_PANTS = {"TrackSuitPants_Black", "TrackSuitPants_Blue", "TrackSuitPants_Green", "TrackSuitPants_LightBlue", "TrackSuitPants_Red"};
+
+// FEET CLOTHING OPTIONS:
+const string[] RUNNING_SHOES = {"JoggingShoes_Black", "JoggingShoes_Blue", "JoggingShoes_Red", "JoggingShoes_Violet", "JoggingShoes_White"};
+
+// BAG OPTIONS:
+const string[] CANVAS_BACKPACKS = {"Canvas_Backpack_Base", "Canvas_Backpack_Black", "Canvas_Backpack_White", "Canvas_Backpack_Red", "Canvas_Backpack_Blue", "Canvas_Backpack_Purple"}; // WINDSTRIDE
+
 class CustomMission: MissionServer
 {
-	void SetRandomHealth(EntityAI itemEnt)
+	void setRandomHealth(EntityAI itemEnt)
 	{
 		if ( itemEnt )
 		{
@@ -47,9 +72,13 @@ class CustomMission: MissionServer
         }
     }
 
-    void spawnItemsOnPlayer(PlayerBase player, TStringArray items) {
+    void spawnItemsOnPlayer(PlayerBase player, TStringArray items, bool withDamage) {
         for(int i = 0; i < items.Count(); i++) {
-             player.GetInventory().CreateInInventory(items[i]);
+             EntityAI itemEnt = player.GetInventory().CreateInInventory(items[i]);
+
+            if(withDamage) {
+                setRandomHealth(itemEnt);
+            }
         }
     }
 
@@ -63,103 +92,52 @@ class CustomMission: MissionServer
         }   
     }
 
-    // god dammit moitzbert
-    string getItemNameForCamoType(string prefix, string camoType)
-    {
-        if (camoType == "green")
-        {
-            if(prefix == "MMG_Mag_Pouch_" || prefix == "MMG_JPC_Vest_" || prefix == "MMG_ammo_pouch_" || prefix == "MMG_Med_Pouch_" || prefix == "MMG_carrier_backpack_" || prefix == "MMG_assault_pack_" || prefix == "MMG_falcon_b1_belt_" || prefix == "MMG_sheath_" || prefix == "MMG_bottle_" || prefix == "MMG_combatpants_" || prefix == "MMG_balaclava_") {
-                Debug.LogInfo("generated item name: " + prefix + camoType);
-                return prefix + "olive";
-            }
-        }
+    string pickPlayerClass() {
+        int i = Math.RandomInt(0, PLAYER_CLASSES.Count());
 
-        Debug.LogInfo("generated item name: " + prefix + camoType);
-
-        return prefix + camoType;
+        return PLAYER_CLASSES[i];
     }
 
-    void spawnRifle(PlayerBase player, string rifle) {
-        autoptr TStringArray attachments;
+    void spawnTourist(PlayerBase player) {
+        int i = Math.RandomInt(0, TSHIRTS.Count());
+        string torso = TSHIRTS[i];
 
-        switch(rifle) {
-            case "TTC_HK416Comp":
-                attachments = {"TTC_Elcan","TTC_Universal_Suppressor_BLACK","TTC_DMR_VFG"};
-                break;
-            case "TTC_HK416Black":
-                attachments = {"TTC_Elcan","TTC_Universal_Suppressor_BLACK","TTC_DMR_VFG","TTC_ButtstockHK_Black"};
-                break;
-            case "TTC_HK417":
-                attachments = {"WE_AMSOptic","TTC_M14Suppressor","TTC_DMR_AFG","TTC_ButtstockHK_Black"};
-                break;
-            case "WE_SKS":
-                player.GetInventory().CreateInInventory("WE_AMSOptic");
-                attachments = {"WE_MosinSKSMount","TTC_Universal_Suppressor_BLACK"};
-                break;
-            case "TTC_MAS36":
-            case "TTC_M1903":
-            case "TTC_kar98k":
-            case "TTC_R700":
-                attachments = {"HuntingOptic", "TTC_M14Suppressor"};
-                break;
-        }
+        i = Math.RandomInt(0, TRACK_PANTS.Count());
+        string legs = TRACK_PANTS[i];
 
-        spawnItemWithAttachments(player, rifle, attachments);
+        i = Math.RandomInt(0, FLAT_CAPS.Count());
+        string head = FLAT_CAPS[i];
+
+        i = Math.RandomInt(0, RUNNING_SHOES.Count());
+        string feet = RUNNING_SHOES[i];
+
+        i = Math.RandomInt(0, CANVAS_BACKPACKS.Count());
+        string bag = CANVAS_BACKPACKS[i];
+
+        autoptr TStringArray playerItems = {head, torso, legs, feet, bag};
+
+        spawnItemsOnPlayer(player, playerItems, true);
+
+        bag.GetInventory().CreateInInventory("ZagorkyChocolate");
+        bag.GetInventory().CreateInInventory("WaterBottle");
     }
 
-    // spawn sidearm with full accessories and an extra mag.
-    void spawnSidearm(PlayerBase player) {
-        autoptr TStringArray pistols = {"TTC_P320", "TTC_Glock17", "TTC_Kimber"};
-        autoptr TStringArray pistolMags = {"TTC_P320_17Rnd","TTC_Mag_Glock_17Rnd","Mag_Kimber1911_10Rnd"};
-        autoptr TStringArray pistolAttachments = {"TTC_Pistol_Light","TTC_Pistol_Optic"};
+    // void spawnRural(PlayerBase player) {
 
-        int rndIndex = Math.RandomInt(0, 3);
+    // }
 
-        spawnItemWithAttachments(player, pistols[rndIndex], pistolAttachments);
+    // void spawnVillager(PlayerBase player) {
 
-        player.GetInventory().CreateInInventory(pistolMags[rndIndex]);
-        player.GetInventory().CreateInInventory(pistolMags[rndIndex]);
+    // }
 
-        if (rndIndex > 1) { // Kimber is .45
-            spawnItemNTimesOnPlayer(player, "AmmoBox_45ACP_25rnd", 4);
-        } else {
-            spawnItemNTimesOnPlayer(player, "AmmoBox_9x19_25rnd", 4);
-        }
-    }
+    // void spawnTownsperson(PlayerBase player) {
 
-	void SpawnJeffSetup(PlayerBase player) {
-        string camoType = "norway";
-        string spurgleCamo = "Green";
+    // }
 
-        autoptr TStringArray clothes = {getItemNameForCamoType("MMG_tactical_helmet_", camoType),"ThickFramesGlasses","NioshFaceMask",getItemNameForCamoType("MMG_combatshirt_", camoType),getItemNameForCamoType("mmg_tactical_gloves_", camoType),getItemNameForCamoType("MMG_combatpants_", camoType),"SK8_Sneakers_Black"};
+    // void spawnCityperson(PlayerBase player) {
 
-        spawnItemsOnPlayer(player, clothes);
+    // }
 
-        string bag = "Spur_CamelBag_" + spurgleCamo;
-        autoptr TStringArray bagAttachments = {"SmershBag_Spur_" + spurgleCamo,"PlateCarrierHolster_Spur_" + spurgleCamo,"Spur_KnifeSheath_" + spurgleCamo,"PersonalRadio"};
-
-        spawnItemWithAttachments(player, bag, bagAttachments);
-
-        string belt = getItemNameForCamoType("MMG_falcon_b1_belt_", camoType);
-        autoptr TStringArray beltAttachments = {getItemNameForCamoType("MMG_tactical_pouch_", camoType), getItemNameForCamoType("MMG_Med_Pouch_", camoType), getItemNameForCamoType("MMG_sheath_", camoType), getItemNameForCamoType("MMG_Holster_", camoType), getItemNameForCamoType("MMG_bottle_", camoType)};
-
-        spawnItemWithAttachments(player, belt, beltAttachments);
-
-        string vest = getItemNameForCamoType("MMG_tt_Vest_", camoType);
-        autoptr TStringArray vestAttachments = {getItemNameForCamoType("MMG_ammo_pouch_", camoType), getItemNameForCamoType("MMG_ammo_pouch_", camoType), getItemNameForCamoType("MMG_tactical_pouch_", camoType), getItemNameForCamoType("MMG_Med_Pouch_", camoType), getItemNameForCamoType("MMG_bottle_", camoType)};
-
-        spawnItemWithAttachments(player, vest, vestAttachments);
-
-        spawnRifle(player, "TTC_MAS36");
-        spawnItemNTimesOnPlayer(player, "AmmoBox_762x54_20Rnd", 12);
-
-        spawnSidearm(player);
-        player.GetInventory().CreateInInventory("TTC_PistolSuppressor");
-
-        player.GetInventory().CreateInInventory("CombatKnife");
-        player.GetInventory().CreateInInventory("HuntingKnife");
-        player.GetInventory().CreateInInventory("Rangefinder");
-    }
 	override PlayerBase CreateCharacter(PlayerIdentity identity, vector pos, ParamsReadContext ctx, string characterName)
 	{
 		Entity playerEnt;
@@ -179,18 +157,36 @@ class CustomMission: MissionServer
 		float rand;
 
 		itemClothing = player.FindAttachmentBySlotName( "Body" );
+
 		if ( itemClothing )
 		{
-			// player.RemoveAllItems();
+			player.RemoveAllItems();
             
-            // SpawnJeffSetup(player);
+            string playerClass = pickPlayerClass();
+
+            spawnTourist(player);
+
+            // switch(playerClass){
+            //     case TOURIST:
+            //         spawnTourist(player);
+            //         break;
+            //     case RURAL:
+            //         spawnRural(player);
+            //         break;
+            //     case VILLAGER:
+            //         spawnVillager(player);
+            //         break;
+            //     case spawnTownsperson:
+            //         spawnTourist(player);
+            //         break;
+            //     case spawnCityperson:
+            //         spawnTourist(player);
+            //         break;
+            // }
+
+            // Universal items
 
 			itemEnt = player.GetInventory().CreateInInventory( "BandageDressing" );
-            // itemEnt = player.GetInventory().CreateInInventory( "CanOpener" );
-            // itemEnt = player.GetInventory().CreateInInventory( "SodaCan_Cola" );
-        	// itemEnt = player.GetInventory().CreateInInventory( "SodaCan_Spite" );
-            // itemEnt = player.GetInventory().CreateInInventory( "BakedBeansCan" );
-            // itemEnt = player.GetInventory().CreateInInventory( "SpaghettiCan" );
 		}
 	}
 };
