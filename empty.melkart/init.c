@@ -93,25 +93,25 @@ class CustomMission: MissionServer
     }
 
     string pickPlayerClass() {
-        int i = Math.RandomInt(0, PLAYER_CLASSES.Count());
+        int i = Math.RandomInt(0, 5);
 
         return PLAYER_CLASSES[i];
     }
 
     void spawnTourist(PlayerBase player) {
-        int i = Math.RandomInt(0, TSHIRTS.Count());
+        int i = Math.RandomInt(0, 9);
         string torso = TSHIRTS[i];
 
-        i = Math.RandomInt(0, TRACK_PANTS.Count());
+        i = Math.RandomInt(0, 5);
         string legs = TRACK_PANTS[i];
 
-        i = Math.RandomInt(0, FLAT_CAPS.Count());
+        i = Math.RandomInt(0, 8);
         string head = FLAT_CAPS[i];
 
-        i = Math.RandomInt(0, RUNNING_SHOES.Count());
+        i = Math.RandomInt(0, 5);
         string feet = RUNNING_SHOES[i];
 
-        i = Math.RandomInt(0, CANVAS_BACKPACKS.Count());
+        i = Math.RandomInt(0, 6);
         string bag = CANVAS_BACKPACKS[i];
 
         autoptr TStringArray playerItems = {head, torso, legs, feet, bag};
