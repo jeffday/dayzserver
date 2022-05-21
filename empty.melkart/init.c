@@ -36,7 +36,7 @@ const string VILLAGER = "villager";
 const string TOWNSPERSON = "townsperson";
 const string CITYPERSON = "cityperson";
 
-const string[] PLAYER_CLASSES = {TOURIST, RURAL, VILLAGER, TOWNSPERSON, CITYPERSON};
+autoptr TStringArray playerClasses = {TOURIST, RURAL, VILLAGER, TOWNSPERSON, CITYPERSON};
 
 // HEAD CLOTHING OPTIONS:
 const string[] FLAT_CAPS = {"FlatCap_Black", "FlatCap_BlackCheck", "FlatCap_Blue", "FlatCap_Brown", "FlatCap_BrownCheck", "FlatCap_Grey", "FlatCap_GreyCheck", "FlatCap_Red"};
@@ -93,9 +93,9 @@ class CustomMission: MissionServer
     }
 
     string pickPlayerClass() {
-        int i = Math.RandomInt(0, 5);
+        int i = Math.RandomInt(0, playerClasses.Count());
 
-        return PLAYER_CLASSES[i];
+        return playerClasses[i];
     }
 
     void spawnTourist(PlayerBase player) {
