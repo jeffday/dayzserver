@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
 
 <spawnabletypes>
+	<damage min="0.2" max="0.6" />
 	<type name="TTC_R700">
 		<attachments chance="0.25">
 			<item name="HuntingOptic" chance="1.00" />
