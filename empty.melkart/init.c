@@ -36,24 +36,24 @@ const string VILLAGER = "villager";
 const string TOWNSPERSON = "townsperson";
 const string CITYPERSON = "cityperson";
 
-autoptr TStringArray playerClasses = {TOURIST, RURAL, VILLAGER, TOWNSPERSON, CITYPERSON};
+const string PLAYER_CLASSES[] = {TOURIST, RURAL, VILLAGER, TOWNSPERSON, CITYPERSON};
 
 // HEAD CLOTHING OPTIONS:
-const string[] FLAT_CAPS = {"FlatCap_Black", "FlatCap_BlackCheck", "FlatCap_Blue", "FlatCap_Brown", "FlatCap_BrownCheck", "FlatCap_Grey", "FlatCap_GreyCheck", "FlatCap_Red"};
+const string FLAT_CAPS[] = {"FlatCap_Black", "FlatCap_BlackCheck", "FlatCap_Blue", "FlatCap_Brown", "FlatCap_BrownCheck", "FlatCap_Grey", "FlatCap_GreyCheck", "FlatCap_Red"};
 
 // TORSO CLOTHING OPTIONS:
-const string[] TSHIRTS = {"TShirt_Beige", "TShirt_Black", "TShirt_Blue", "TShirt_Green", "TShirt_Grey", "TShirt_OrangeWhiteStripes", "TShirt_Red", "TShirt_RedBlackStripes", "TShirt_White"};
-const string[] RAGLAN_SHIRTS = {"Medium_Sleeves_Shirt", "Medium_Sleeves_Shirt_Red", "Medium_Sleeves_Shirt_Blue"}; // WINDSTRIDE
-const string[] LAYERED_SHIRTS = {"Layered_Shirt_Base", "Layered_Shirt_White", "Layered_Shirt_Cheburashka", "Layered_Shirt_Courage", "Layered_Shirt_Lily"}; // WINDSTRIDE
+const string TSHIRTS[] = {"TShirt_Beige", "TShirt_Black", "TShirt_Blue", "TShirt_Green", "TShirt_Grey", "TShirt_OrangeWhiteStripes", "TShirt_Red", "TShirt_RedBlackStripes", "TShirt_White"};
+const string RAGLAN_SHIRTS[] = {"Medium_Sleeves_Shirt", "Medium_Sleeves_Shirt_Red", "Medium_Sleeves_Shirt_Blue"}; // WINDSTRIDE
+const string LAYERED_SHIRTS[] = {"Layered_Shirt_Base", "Layered_Shirt_White", "Layered_Shirt_Cheburashka", "Layered_Shirt_Courage", "Layered_Shirt_Lily"}; // WINDSTRIDE
 
 // LEGS CLOTHING OPTIONS:
-const string[] TRACK_PANTS = {"TrackSuitPants_Black", "TrackSuitPants_Blue", "TrackSuitPants_Green", "TrackSuitPants_LightBlue", "TrackSuitPants_Red"};
+const string TRACK_PANTS[] = {"TrackSuitPants_Black", "TrackSuitPants_Blue", "TrackSuitPants_Green", "TrackSuitPants_LightBlue", "TrackSuitPants_Red"};
 
 // FEET CLOTHING OPTIONS:
-const string[] RUNNING_SHOES = {"JoggingShoes_Black", "JoggingShoes_Blue", "JoggingShoes_Red", "JoggingShoes_Violet", "JoggingShoes_White"};
+const string RUNNING_SHOES[] = {"JoggingShoes_Black", "JoggingShoes_Blue", "JoggingShoes_Red", "JoggingShoes_Violet", "JoggingShoes_White"};
 
 // BAG OPTIONS:
-const string[] CANVAS_BACKPACKS = {"Canvas_Backpack_Base", "Canvas_Backpack_Black", "Canvas_Backpack_White", "Canvas_Backpack_Red", "Canvas_Backpack_Blue", "Canvas_Backpack_Purple"}; // WINDSTRIDE
+const string CANVAS_BACKPACKS[] = {"Canvas_Backpack_Base", "Canvas_Backpack_Black", "Canvas_Backpack_White", "Canvas_Backpack_Red", "Canvas_Backpack_Blue", "Canvas_Backpack_Purple"}; // WINDSTRIDE
 
 class CustomMission: MissionServer
 {
@@ -93,7 +93,7 @@ class CustomMission: MissionServer
     }
 
     string pickPlayerClass() {
-        int i = Math.RandomInt(0, playerClasses.Count());
+        int i = Math.RandomInt(0, 5);
 
         return playerClasses[i];
     }
