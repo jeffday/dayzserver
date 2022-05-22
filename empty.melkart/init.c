@@ -197,8 +197,6 @@ class CustomMission: MissionServer
             
             string playerClass = pickPlayerClass();
 
-            spawnTourist(player);
-
             switch(playerClass){
                 case TOURIST:
                     spawnTourist(player);
