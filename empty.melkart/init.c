@@ -45,12 +45,18 @@ const string FLAT_CAPS[] = {"FlatCap_Black", "FlatCap_BlackCheck", "FlatCap_Blue
 const string TSHIRTS[] = {"TShirt_Beige", "TShirt_Black", "TShirt_Blue", "TShirt_Green", "TShirt_Grey", "TShirt_OrangeWhiteStripes", "TShirt_Red", "TShirt_RedBlackStripes", "TShirt_White"};
 const string RAGLAN_SHIRTS[] = {"Medium_Sleeves_Shirt", "Medium_Sleeves_Shirt_Red", "Medium_Sleeves_Shirt_Blue"}; // WINDSTRIDE
 const string LAYERED_SHIRTS[] = {"Layered_Shirt_Base", "Layered_Shirt_White", "Layered_Shirt_Cheburashka", "Layered_Shirt_Courage", "Layered_Shirt_Lily"}; // WINDSTRIDE
+const string QUILTED_JACKETS[] = {"QuiltedJacket_Black", "QuiltedJacket_Blue", "QuiltedJacket_Green", "QuiltedJacket_Grey", "QuiltedJacket_Orange", "QuiltedJacket_Red", "QuiltedJacket_Violet", "QuiltedJacket_Yellow"};
+const string TRACK_JACKETS[] = {"TrackSuitJacket_Black","TrackSuitJacket_Blue","TrackSuitJacket_Green","TrackSuitJacket_LightBlue","TrackSuitJacket_Red"};
 
 // LEGS CLOTHING OPTIONS:
 const string TRACK_PANTS[] = {"TrackSuitPants_Black", "TrackSuitPants_Blue", "TrackSuitPants_Green", "TrackSuitPants_LightBlue", "TrackSuitPants_Red"};
+const string HIKING_PANTS[] = {"CanvasPants_Beige", "CanvasPants_Blue", "CanvasPants_Grey", "CanvasPants_Red", "CanvasPants_Violet"};
+const string JEANS[] = {"Jeans_Black","Jeans_Blue","Jeans_BlueDark","Jeans_Brown","Jeans_Green","Jeans_Grey"};
 
 // FEET CLOTHING OPTIONS:
 const string RUNNING_SHOES[] = {"JoggingShoes_Black", "JoggingShoes_Blue", "JoggingShoes_Red", "JoggingShoes_Violet", "JoggingShoes_White"};
+const string WELLIES[] = {"Wellies_Black", "Wellies_Brown", "Wellies_Green", "Wellies_Grey"};
+const string FLIP_FLOPS = "FlipFlops_Colorbase";
 
 // BAG OPTIONS:
 const string CANVAS_BACKPACKS[] = {"Canvas_Backpack_Base", "Canvas_Backpack_Black", "Canvas_Backpack_White", "Canvas_Backpack_Red", "Canvas_Backpack_Blue", "Canvas_Backpack_Purple"}; // WINDSTRIDE
@@ -95,18 +101,15 @@ class CustomMission: MissionServer
     string pickPlayerClass() {
         int i = Math.RandomInt(0, 5);
 
-        return playerClasses[i];
+        return PLAYER_CLASSES[i];
     }
 
     void spawnTourist(PlayerBase player) {
         int i = Math.RandomInt(0, 9);
         string torso = TSHIRTS[i];
 
-        i = Math.RandomInt(0, 5);
-        string legs = TRACK_PANTS[i];
-
-        i = Math.RandomInt(0, 8);
-        string head = FLAT_CAPS[i];
+        i = Math.RandomInt(0, 6);
+        string legs = JEANS[i];
 
         i = Math.RandomInt(0, 5);
         string feet = RUNNING_SHOES[i];
@@ -114,7 +117,7 @@ class CustomMission: MissionServer
         i = Math.RandomInt(0, 6);
         string bag = CANVAS_BACKPACKS[i];
 
-        autoptr TStringArray playerItems = {head, torso, legs, feet, bag};
+        autoptr TStringArray playerItems = {torso, legs, feet, bag};
 
         spawnItemsOnPlayer(player, playerItems, true);
 
@@ -122,13 +125,43 @@ class CustomMission: MissionServer
         player.GetInventory().CreateInInventory("WaterBottle");
     }
 
-    // void spawnRural(PlayerBase player) {
+    void spawnRural(PlayerBase player) {
+        string bladedTools[] = {"CrudeMachete", "Machete", "Hatchet"};
 
-    // }
+        int i = Math.RandomInt(0, 8);
+        string torso = QUILTED_JACKETS[i];
 
-    // void spawnVillager(PlayerBase player) {
+        i = Math.RandomInt(0, 5);
+        string legs = HIKING_PANTS[i];
 
-    // }
+        i = Math.RandomInt(0, 4);
+        string feet = WELLIES[i];
+
+        i = Math.RandomInt(0, 3);
+        string tool = bladedTools[i];
+
+        autoptr TStringArray playerItems = {torso, legs, feet, tool};
+
+        spawnItemsOnPlayer(player, playerItems, true);
+    }
+
+    void spawnVillager(PlayerBase player) {
+        int i = Math.RandomInt(0, 5);
+        string torso = TRACK_JACKETS[i];
+        // use same index for track pants so they match
+        string legs = TRACK_PANTS[i];
+
+        i = Math.RandomInt(0, 8);
+        string head = FLAT_CAPS[i];
+        string feet = FLIP_FLOPS;
+
+        autoptr TStringArray playerItems = {torso, legs, feet, head};
+
+        spawnItemsOnPlayer(player, playerItems, true);
+
+        player.GetInventory().CreateInInventory("PetrolLighter");
+        player.GetInventory().CreateInInventory("SodaCan_Kvass");
+    }
 
     // void spawnTownsperson(PlayerBase player) {
 
@@ -166,23 +199,23 @@ class CustomMission: MissionServer
 
             spawnTourist(player);
 
-            // switch(playerClass){
-            //     case TOURIST:
-            //         spawnTourist(player);
-            //         break;
-            //     case RURAL:
-            //         spawnRural(player);
-            //         break;
-            //     case VILLAGER:
-            //         spawnVillager(player);
-            //         break;
-            //     case spawnTownsperson:
-            //         spawnTourist(player);
-            //         break;
-            //     case spawnCityperson:
-            //         spawnTourist(player);
-            //         break;
-            // }
+            switch(playerClass){
+                case TOURIST:
+                    spawnTourist(player);
+                    break;
+                case RURAL:
+                    spawnRural(player);
+                    break;
+                case VILLAGER:
+                    spawnVillager(player);
+                    break;
+                case TOWNSPERSON:
+                    spawnRural(player);
+                    break;
+                case CITYPERSON:
+                    spawnVillager(player);
+                    break;
+            }
 
             // Universal items
 
