@@ -39,30 +39,39 @@ const string CITYPERSON = "cityperson";
 const string PLAYER_CLASSES[] = {TOURIST, RURAL, VILLAGER, TOWNSPERSON, CITYPERSON};
 
 // HEAD CLOTHING OPTIONS:
-const string FLAT_CAPS[] = {"FlatCap_Black", "FlatCap_BlackCheck", "FlatCap_Blue", "FlatCap_Brown", "FlatCap_BrownCheck", "FlatCap_Grey", "FlatCap_GreyCheck", "FlatCap_Red"};
+autoptr TStringArray FLAT_CAPS = {"FlatCap_Black", "FlatCap_BlackCheck", "FlatCap_Blue", "FlatCap_Brown", "FlatCap_BrownCheck", "FlatCap_Grey", "FlatCap_GreyCheck", "FlatCap_Red"};
+autoptr TStringArray RADAR_CAPS = {"RadarCap_Black", "RadarCap_Blue", "RadarCap_Brown", "RadarCap_Green", "RadarCap_Red"};
 
 // TORSO CLOTHING OPTIONS:
-const string TSHIRTS[] = {"TShirt_Beige", "TShirt_Black", "TShirt_Blue", "TShirt_Green", "TShirt_Grey", "TShirt_OrangeWhiteStripes", "TShirt_Red", "TShirt_RedBlackStripes", "TShirt_White"};
-const string RAGLAN_SHIRTS[] = {"Medium_Sleeves_Shirt", "Medium_Sleeves_Shirt_Red", "Medium_Sleeves_Shirt_Blue"}; // WINDSTRIDE
-const string LAYERED_SHIRTS[] = {"Layered_Shirt_Base", "Layered_Shirt_White", "Layered_Shirt_Cheburashka", "Layered_Shirt_Courage", "Layered_Shirt_Lily"}; // WINDSTRIDE
-const string QUILTED_JACKETS[] = {"QuiltedJacket_Black", "QuiltedJacket_Blue", "QuiltedJacket_Green", "QuiltedJacket_Grey", "QuiltedJacket_Orange", "QuiltedJacket_Red", "QuiltedJacket_Violet", "QuiltedJacket_Yellow"};
-const string TRACK_JACKETS[] = {"TrackSuitJacket_Black","TrackSuitJacket_Blue","TrackSuitJacket_Green","TrackSuitJacket_LightBlue","TrackSuitJacket_Red"};
+autoptr TStringArray TSHIRTS = {"TShirt_Beige", "TShirt_Black", "TShirt_Blue", "TShirt_Green", "TShirt_Grey", "TShirt_OrangeWhiteStripes", "TShirt_Red", "TShirt_RedBlackStripes", "TShirt_White"};
+autoptr TStringArray RAGLAN_SHIRTS = {"Medium_Sleeves_Shirt", "Medium_Sleeves_Shirt_Red", "Medium_Sleeves_Shirt_Blue"}; // WINDSTRIDE
+autoptr TStringArray LAYERED_SHIRTS = {"Layered_Shirt_Base", "Layered_Shirt_White", "Layered_Shirt_Cheburashka", "Layered_Shirt_Courage", "Layered_Shirt_Lily"}; // WINDSTRIDE
+autoptr TStringArray QUILTED_JACKETS = {"QuiltedJacket_Black", "QuiltedJacket_Blue", "QuiltedJacket_Green", "QuiltedJacket_Grey", "QuiltedJacket_Orange", "QuiltedJacket_Red", "QuiltedJacket_Violet", "QuiltedJacket_Yellow"};
+autoptr TStringArray TRACK_JACKETS = {"TrackSuitJacket_Black","TrackSuitJacket_Blue","TrackSuitJacket_Green","TrackSuitJacket_LightBlue","TrackSuitJacket_Red"};
 
 // LEGS CLOTHING OPTIONS:
-const string TRACK_PANTS[] = {"TrackSuitPants_Black", "TrackSuitPants_Blue", "TrackSuitPants_Green", "TrackSuitPants_LightBlue", "TrackSuitPants_Red"};
-const string HIKING_PANTS[] = {"CanvasPants_Beige", "CanvasPants_Blue", "CanvasPants_Grey", "CanvasPants_Red", "CanvasPants_Violet"};
-const string JEANS[] = {"Jeans_Black","Jeans_Blue","Jeans_BlueDark","Jeans_Brown","Jeans_Green","Jeans_Grey"};
+autoptr TStringArray TRACK_PANTS = {"TrackSuitPants_Black", "TrackSuitPants_Blue", "TrackSuitPants_Green", "TrackSuitPants_LightBlue", "TrackSuitPants_Red"};
+autoptr TStringArray HIKING_PANTS = {"CanvasPants_Beige", "CanvasPants_Blue", "CanvasPants_Grey", "CanvasPants_Red", "CanvasPants_Violet"};
+autoptr TStringArray JEANS = {"Jeans_Black","Jeans_Blue","Jeans_BlueDark","Jeans_Brown","Jeans_Green","Jeans_Grey"};
 
 // FEET CLOTHING OPTIONS:
-const string RUNNING_SHOES[] = {"JoggingShoes_Black", "JoggingShoes_Blue", "JoggingShoes_Red", "JoggingShoes_Violet", "JoggingShoes_White"};
-const string WELLIES[] = {"Wellies_Black", "Wellies_Brown", "Wellies_Green", "Wellies_Grey"};
+autoptr TStringArray RUNNING_SHOES = {"JoggingShoes_Black", "JoggingShoes_Blue", "JoggingShoes_Red", "JoggingShoes_Violet", "JoggingShoes_White"};
+autoptr TStringArray SKATE_SHOES = {"SK8_Sneakers_Black", "SK8_Sneakers_FullBlack", "SK8_Sneakers_Blue"}; // WINDSTRIDE
+autoptr TStringArray WELLIES = {"Wellies_Black", "Wellies_Brown", "Wellies_Green", "Wellies_Grey"};
 const string FLIP_FLOPS = "FlipFlops_Colorbase";
 
 // BAG OPTIONS:
-const string CANVAS_BACKPACKS[] = {"Canvas_Backpack_Base", "Canvas_Backpack_Black", "Canvas_Backpack_White", "Canvas_Backpack_Red", "Canvas_Backpack_Blue", "Canvas_Backpack_Purple"}; // WINDSTRIDE
+autoptr TStringArray CANVAS_BACKPACKS = {"Canvas_Backpack_Base", "Canvas_Backpack_Black", "Canvas_Backpack_White", "Canvas_Backpack_Red", "Canvas_Backpack_Blue", "Canvas_Backpack_Purple"}; // WINDSTRIDE
+autoptr TStringArray LONE_WANDERER_BACKPACKS = {"Spur_LW_Bag_Black", "Spur_LW_Bag_Blue", "Spur_LW_Bag_Brown", "Spur_LW_Bag_Green", "Spur_LW_Bag_Grey", "Spur_LW_Bag_Orange", "Spur_LW_Bag_Purple", "Spur_LW_Bag_Red"}; // SPURGLES
 
 class CustomMission: MissionServer
 {
+    string randomElement(TStringArray arr) {
+        int i = Math.RandomInt(0, arr.Count());
+
+        return arr[i];
+    }
+
 	void setRandomHealth(EntityAI itemEnt)
 	{
 		if ( itemEnt )
@@ -104,18 +113,13 @@ class CustomMission: MissionServer
         return PLAYER_CLASSES[i];
     }
 
+    // spawns with some food and a bag but bad clothes
     void spawnTourist(PlayerBase player) {
-        int i = Math.RandomInt(0, 9);
-        string torso = TSHIRTS[i];
 
-        i = Math.RandomInt(0, 6);
-        string legs = JEANS[i];
-
-        i = Math.RandomInt(0, 5);
-        string feet = RUNNING_SHOES[i];
-
-        i = Math.RandomInt(0, 6);
-        string bag = CANVAS_BACKPACKS[i];
+        string torso = randomElement(TSHIRTS);
+        string legs = randomElement(JEANS);
+        string feet = randomElement(RUNNING_SHOES);
+        string bag = randomElement(CANVAS_BACKPACKS);
 
         autoptr TStringArray playerItems = {torso, legs, feet, bag};
 
@@ -125,34 +129,28 @@ class CustomMission: MissionServer
         player.GetInventory().CreateInInventory("WaterBottle");
     }
 
+    // spawns with warm clothes and a bladed weapon
     void spawnRural(PlayerBase player) {
-        string bladedTools[] = {"CrudeMachete", "Machete", "Hatchet"};
+        autoptr TStringArray bladedTools = {"CrudeMachete", "Machete", "Hatchet"};
 
-        int i = Math.RandomInt(0, 8);
-        string torso = QUILTED_JACKETS[i];
-
-        i = Math.RandomInt(0, 5);
-        string legs = HIKING_PANTS[i];
-
-        i = Math.RandomInt(0, 4);
-        string feet = WELLIES[i];
-
-        i = Math.RandomInt(0, 3);
-        string tool = bladedTools[i];
+        string torso = randomElement(QUILTED_JACKETS);
+        string legs = randomElement(HIKING_PANTS);
+        string feet = randomElement(WELLIES);
+        string tool = randomElement(bladedTools);
 
         autoptr TStringArray playerItems = {torso, legs, feet, tool};
 
         spawnItemsOnPlayer(player, playerItems, true);
     }
 
+    // spawns with crappy clothes but a lighter and a knife
     void spawnVillager(PlayerBase player) {
+        // explicit random selection here so we can make track suit consistent
         int i = Math.RandomInt(0, 5);
         string torso = TRACK_JACKETS[i];
-        // use same index for track pants so they match
         string legs = TRACK_PANTS[i];
 
-        i = Math.RandomInt(0, 8);
-        string head = FLAT_CAPS[i];
+        string head = randomElement(FLAT_CAPS);
         string feet = FLIP_FLOPS;
 
         autoptr TStringArray playerItems = {torso, legs, feet, head};
@@ -160,12 +158,23 @@ class CustomMission: MissionServer
         spawnItemsOnPlayer(player, playerItems, true);
 
         player.GetInventory().CreateInInventory("PetrolLighter");
+        player.GetInventory().CreateInInventory("HuntingKnife");
         player.GetInventory().CreateInInventory("SodaCan_Kvass");
     }
 
-    // void spawnTownsperson(PlayerBase player) {
+    // spawns with mediocre clothes and no food but with a very good bag
+    void spawnTownsperson(PlayerBase player) {
+        string torso = randomElement(LAYERED_SHIRTS);
+        string legs = randomElement(JEANS);
+        string head = randomElement(RADAR_CAPS);
+        string feet = randomElement(SKATE_SHOES);
 
-    // }
+        string bag = randomElement(LONE_WANDERER_BACKPACKS);
+
+        autoptr TStringArray playerItems = {torso, legs, head, feet, bag};
+
+        spawnItemsOnPlayer(player, playerItems, true);
+    }
 
     // void spawnCityperson(PlayerBase player) {
 
@@ -208,7 +217,7 @@ class CustomMission: MissionServer
                     spawnVillager(player);
                     break;
                 case TOWNSPERSON:
-                    spawnRural(player);
+                    spawnTownsperson(player);
                     break;
                 case CITYPERSON:
                     spawnVillager(player);
