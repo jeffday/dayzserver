@@ -41,9 +41,7 @@
 				<item name="MMG_bottle_multicam" chance="0.06" />
 			 	<item name="MMG_bottle_multicam_tropic" chance="0.06" />
 				<item name="MMG_bottle_norway" chance="0.06" />
-				<item name="MMG_bottle_sweden" chance="0.06" />
 				<item name="MMG_bottle_ucp" chance="0.06" />
-				<item name="MMG_bottle_ukraine" chance="0.06" />
 		</cargo>
 		<cargo chance="0.15" name="toolsHermit">
 				<item name="Matchbox" chance="0.15" />
@@ -241,9 +239,7 @@
 				<item name="MMG_bottle_multicam" chance="0.02" />
 			 	<item name="MMG_bottle_multicam_tropic" chance="0.02" />
 				<item name="MMG_bottle_norway" chance="0.02" />
-				<item name="MMG_bottle_sweden" chance="0.02" />
 				<item name="MMG_bottle_ucp" chance="0.02" />
-				<item name="MMG_bottle_ukraine" chance="0.02" />
 				<item name="Ammo_45ACP" chance="0.2" />
 				<item name="AmmoBox_45ACP_25Rnd" chance="0.05" />
 				<item name="Ammo_762x39" chance="0.2" />
@@ -436,9 +432,7 @@
 			<item name="MMG_tactical_helmet_multicam_tropic" chance="0.2" />
 			<item name="MMG_tactical_helmet_multicam" chance="0.2" />
 			<item name="MMG_tactical_helmet_norway" chance="0.2" />
-			<item name="MMG_tactical_helmet_sweden" chance="0.2" />
 			<item name="MMG_tactical_helmet_ucp" chance="0.2" />
-			<item name="MMG_tactical_helmet_ukraine" chance="0.2" />
 		</attachments>
 		<attachments chance="0.00" name="glassesArmy"> <!--was chance="0.10"; removed coz of attachment slot is missing -->
 			<item name="TacticalGoggles" chance="0.10" />
@@ -451,27 +445,21 @@
 			<item name="MMG_chestrig_multicam_tropic" chance="0.05" />
 			<item name="MMG_chestrig_multicam" chance="0.05" />
 			<item name="MMG_chestrig_norway" chance="0.05" />
-			<item name="MMG_chestrig_sweden" chance="0.00" /> <!-- this currently doesn't exist -->
 			<item name="MMG_chestrig_ucp" chance="0.05" />
-			<item name="MMG_chestrig_ukraine" chance="0.05" />
 			<item name="MMG_JPC_Vest_black" chance="0.05" />
 			<item name="MMG_JPC_Vest_germany" chance="0.05" />
 			<item name="MMG_JPC_Vest_green" chance="0.05" />
 			<item name="MMG_JPC_Vest_multicam_tropic" chance="0.05" />
 			<item name="MMG_JPC_Vest_multicam" chance="0.05" />
 			<item name="MMG_JPC_Vest_norway" chance="0.05" />
-			<item name="MMG_JPC_Vest_sweden" chance="0.05" />
 			<item name="MMG_JPC_Vest_ucp" chance="0.05" />
-			<item name="MMG_JPC_Vest_ukraine" chance="0.05" />
 			<item name="MMG_tt_Vest_black" chance="0.05" />
 			<item name="MMG_tt_Vest_germany" chance="0.05" />
 			<item name="MMG_tt_Vest_green" chance="0.05" />
 			<item name="MMG_tt_Vest_multicam_tropic" chance="0.05" />
 			<item name="MMG_tt_Vest_multicam" chance="0.05" />
 			<item name="MMG_tt_Vest_norway" chance="0.05" />
-			<item name="MMG_tt_Vest_sweden" chance="0.05" />
 			<item name="MMG_tt_Vest_ucp" chance="0.05" />
-			<item name="MMG_tt_Vest_ukraine" chance="0.05" />
 		</attachments>
 		<attachments chance="0.15" name="bagsArmy">
 			<item name="MMG_assault_pack_black" chance="0.07" />
@@ -480,36 +468,28 @@
 			<item name="MMG_assault_pack_multicam_tropic" chance="0.06" />
 			<item name="MMG_assault_pack_multicam" chance="0.07" />
 			<item name="MMG_assault_pack_norway" chance="0.06" />
-			<item name="MMG_assault_pack_sweden" chance="0.06" />
 			<item name="MMG_assault_pack_ucp" chance="0.06" />
-			<item name="MMG_assault_pack_ukraine" chance="0.06" />
 			<item name="MMG_carrier_backpack_black" chance="0.05" />
 			<item name="MMG_carrier_backpack_germany" chance="0.05" />
 			<item name="MMG_carrier_backpack_green" chance="0.05" />
 			<item name="MMG_carrier_backpack_multicam_tropic" chance="0.05" />
 			<item name="MMG_carrier_backpack_multicam" chance="0.05" />
 			<item name="MMG_carrier_backpack_norway" chance="0.05" />
-			<item name="MMG_carrier_backpack_sweden" chance="0.05" />
 			<item name="MMG_carrier_backpack_ucp" chance="0.05" />
-			<item name="MMG_carrier_backpack_ukraine" chance="0.05" />
 			<item name="MMG_camelback_black" chance="0.03" />
 			<item name="MMG_camelback_germany" chance="0.03" />
 			<item name="MMG_camelback_green" chance="0.03" />
 			<item name="MMG_camelback_multicam_tropic" chance="0.03" />
 			<item name="MMG_camelback_multicam" chance="0.03" />
 			<item name="MMG_camelback_norway" chance="0.03" />
-			<item name="MMG_camelback_sweden" chance="0.03" />
 			<item name="MMG_camelback_ucp" chance="0.03" />
-			<item name="MMG_camelback_ukraine" chance="0.03" />
 			<item name="MMG_supplybag_black" chance="0.02" />
 			<item name="MMG_supplybag_germany" chance="0.02" />
 			<item name="MMG_supplybag_green" chance="0.02" />
 			<item name="MMG_supplybag_multicam_tropic" chance="0.02" />
 			<item name="MMG_supplybag_multicam" chance="0.02" />
 			<item name="MMG_supplybag_norway" chance="0.02" />
-			<item name="MMG_supplybag_sweden" chance="0.02" />
 			<item name="MMG_supplybag_ucp" chance="0.02" />
-			<item name="MMG_supplybag_ukraine" chance="0.02" />
 		</attachments>
 		<attachments chance="1.00" name="HeavyArmorArmy">
 			<item name="MMG_tt_Vest_black" chance="0.09" />
@@ -518,27 +498,21 @@
 			<item name="MMG_tt_Vest_multicam_tropic" chance="0.08" />
 			<item name="MMG_tt_Vest_multicam" chance="0.08" />
 			<item name="MMG_tt_Vest_norway" chance="0.08" />
-			<item name="MMG_tt_Vest_sweden" chance="0.08" />
 			<item name="MMG_tt_Vest_ucp" chance="0.08" />
-			<item name="MMG_tt_Vest_ukraine" chance="0.08" />
 			<item name="MMG_MK_III_Armor_black" chance="0.05" />
 			<item name="MMG_MK_III_Armor_germany" chance="0.05" />
 			<item name="MMG_MK_III_Armor_green" chance="0.05" />
 			<item name="MMG_MK_III_Armor_multicam_tropic" chance="0.05" />
 			<item name="MMG_MK_III_Armor_multicam" chance="0.05" />
 			<item name="MMG_MK_III_Armor_norway" chance="0.05" />
-			<item name="MMG_MK_III_Armor_sweden" chance="0.05" />
 			<item name="MMG_MK_III_Armor_ucp" chance="0.05" />
-			<item name="MMG_MK_III_Armor_ukraine" chance="0.05" />
 			<item name="MMG_MK_V_Armor_black" chance="0.04" />
 			<item name="MMG_MK_V_Armor_germany" chance="0.04" />
 			<item name="MMG_MK_V_Armor_green" chance="0.04" />
 			<item name="MMG_MK_V_Armor_multicam_tropic" chance="0.03" />
 			<item name="MMG_MK_V_Armor_multicam" chance="0.03" />
 			<item name="MMG_MK_V_Armor_norway" chance="0.03" />
-			<item name="MMG_MK_V_Armor_sweden" chance="0.03" />
 			<item name="MMG_MK_V_Armor_ucp" chance="0.03" />
-			<item name="MMG_MK_V_Armor_ukraine" chance="0.03" />
 		</attachments>
 		<attachments chance="1.00" name="HeavyHelmetArmy">
 			<item name="MMG_striker_helmet_black" chance="0.12" />
@@ -547,9 +521,7 @@
 			<item name="MMG_striker_helmet_multicam_tropic" chance="0.11" />
 			<item name="MMG_striker_helmet_multicam" chance="0.12" />
 			<item name="MMG_striker_helmet_norway" chance="0.11" />
-			<item name="MMG_striker_helmet_sweden" chance="0.11" />
 			<item name="MMG_striker_helmet_ucp" chance="0.11" />
-			<item name="MMG_striker_helmet_ukraine" chance="0.11" />
 			<item name="mmg_armored_helmet_black" chance="0.10" />
 			<item name="mmg_armored_helmet_green" chance="0.10" />
 		</attachments>
