@@ -74,10 +74,10 @@
         <value name="Tier3"/>
     </type>
     <type name="WE_HAMROptic"> <!-- morty's already has this -->
-        <nominal>0</nominal>
+        <nominal>3</nominal>
         <lifetime>14400</lifetime>
         <restock>1800</restock>
-        <min>0</min>
+        <min>2</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -388,10 +388,10 @@
         <value name="Tier3"/>
     </type>
     <type name="WE_AK5C">
-        <nominal>1</nominal>
+        <nominal>0</nominal>
         <lifetime>28800</lifetime>
         <restock>3600</restock>
-        <min>1</min>
+        <min>0</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -506,7 +506,7 @@
         <value name="Tier4"/>
     </type>
     <type name="WE_RK95">
-        <nominal>1</nominal>
+        <nominal>0</nominal>
         <lifetime>28800</lifetime>
         <restock>3600</restock>
         <min>0</min>
@@ -627,13 +627,13 @@
         <value name="Tier2"/>
     </type>
 <!-- Snipers -->
-    <type name="WE_M1Garand"> <!-- using the one from morty's -->
-        <nominal>0</nominal>
+    <type name="WE_M1Garand"> 
+        <nominal>2</nominal>
         <lifetime>28800</lifetime>
         <restock>0</restock>
-        <min>0</min>
-        <quantmin>-1</quantmin>
-        <quantmax>-1</quantmax>
+        <min>1</min>
+        <quantmin>10</quantmin>
+        <quantmax>80</quantmax>
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="weapons"/>
