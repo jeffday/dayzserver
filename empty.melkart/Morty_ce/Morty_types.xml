@@ -60,7 +60,7 @@
 		<usage name="Hunting" />
 	</type>
     <type name="TTC_R700">
-        <nominal>5</nominal>
+        <nominal>3</nominal>
         <lifetime>7200</lifetime>
         <restock>7200</restock>
         <min>2</min>
@@ -1764,6 +1764,9 @@
         <category name="weapons"/>
         <tag name="shelves"/>
         <usage name="Military"/>
+        <value name="Tier2" />
+		<value name="Tier3" />
+        <value name="Tier4" />
     </type>
 	<type name="TTC_LeeEnfield">
 		<nominal>3</nominal>
@@ -2159,12 +2162,12 @@
         <usage name="Village"/>
     </type>
     <type name="TTC_Mossberg">
-        <nominal>2</nominal>
+        <nominal>3</nominal>
         <lifetime>7200</lifetime>
         <restock>7200</restock>
-        <min>1</min>
-        <quantmin>-1</quantmin>
-        <quantmax>-1</quantmax>
+        <min>2</min>
+        <quantmin>20</quantmin>
+        <quantmax>60</quantmax>
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="weapons"/>
@@ -2211,7 +2214,6 @@
         <category name="weapons"/>
         <tag name="shelves"/>
         <usage name="Military"/>
-        <value name="Tier2" />
 		<value name="Tier3" />
         <value name="Tier4" />
     </type>
@@ -2347,16 +2349,19 @@
 		<usage name="Hunting"/>
     </type>
     <type name="TTC_R700_Black">
-        <nominal>0</nominal>
+        <nominal>2</nominal>
         <lifetime>14400</lifetime>
         <restock>7200</restock>
-        <min>0</min>
+        <min>1</min>
         <quantmin>0</quantmin>
         <quantmax>80</quantmax>
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="weapons"/>
         <usage name="Hunting"/>
+        <value name="Tier2" />
+		<value name="Tier3" />
+        <value name="Tier4" />
     </type>
 	<type name="TTC_AKMod_RifleFrame">
 		<nominal>2</nominal>
@@ -2411,6 +2416,8 @@
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="weapons"/>
         <usage name="Military"/>
+        <value name="Tier3" />
+		<value name="Tier4" />
     </type>
     <type name="TTC_AKMod_Gold_bttstk">
         <nominal>0</nominal>
@@ -2508,6 +2515,8 @@
         <category name="weapons"/>
         <tag name="shelves"/>
         <usage name="Military"/>
+        <value name="Tier3" />
+		<value name="Tier4" />
     </type>
     <type name="TTC_AKMod_Suppressor">
         <nominal>2</nominal>
@@ -2521,6 +2530,8 @@
         <category name="weapons"/>
         <tag name="shelves"/>
         <usage name="Military"/>
+        <value name="Tier3" />
+		<value name="Tier4" />
     </type>
 	<type name="TTC_AKMod_Hndguard">
         <nominal>2</nominal>
@@ -2533,6 +2544,8 @@
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="weapons"/>
         <usage name="Military"/>
+        <value name="Tier3" />
+		<value name="Tier4" />
     </type>
 	<type name="TTC_AKMod_Gold_Hndguard">
         <nominal>0</nominal>
@@ -2672,7 +2685,6 @@
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="1"/>
         <category name="weapons"/>
         <usage name="Military"/>
-        <value name="Tier3"/>
         <value name="Tier4"/>
     </type>
 	<type name="TTC_FAL_RIS_Hndgrd">
@@ -2864,6 +2876,9 @@
 		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
 		<category name="weapons" />
 		<usage name="Military" />
+        <value name="Tier2" />
+		<value name="Tier3" />
+        <value name="Tier4" />
 	</type>
     <type name="TTC_M1903">
         <nominal>5</nominal>
@@ -2920,6 +2935,8 @@
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="weapons"/>
         <tag name="shelves"/>
+        <value name="Tier2" />
+		<value name="Tier3" />
         <usage name="Military"/>
     </type>
     <type name="TTC_MPXMCX1_Bttstck2">
@@ -2933,6 +2950,8 @@
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="weapons"/>
         <tag name="shelves"/>
+        <value name="Tier2" />
+		<value name="Tier3" />
         <usage name="Military"/>
     </type>
     <type name="TTC_MPXMCX2_Bttstck">
