@@ -433,11 +433,11 @@
 		<usage name="Military" />
 		<value name="Tier3" />
 	</type>
-    <type name="TTC_DMR_Hndguard">
-        <nominal>3</nominal>
+    <type name="TTC_DMR_Hndguard"> <!-- always spawns by default on the MK216-->
+        <nominal>0</nominal>
         <lifetime>7200</lifetime>
         <restock>14400</restock>
-        <min>2</min>
+        <min>0</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -665,11 +665,11 @@
         <tag name="shelves"/>
         <usage name="Military"/>
     </type>
-    <type name="TTC_Honey_Suppressor">
-        <nominal>2</nominal>
+    <type name="TTC_Honey_Suppressor"><!-- always spawns with weapon -->
+        <nominal>0</nominal>
         <lifetime>7200</lifetime>
         <restock>14400</restock>
-        <min>1</min>
+        <min>0</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -846,7 +846,7 @@
 	</type>
 	<!-- 50 Beowulf -->
 	<type name="TTC_Beowulf">
-		<nominal>1</nominal>
+		<nominal>0</nominal>
 		<lifetime>10800</lifetime>
 		<restock>1800</restock>
 		<min>0</min>
@@ -860,10 +860,10 @@
 		<usage name="Military" />
 	</type>
     <type name="TTC_50Beo_mag">
-        <nominal>3</nominal>
+        <nominal>0</nominal>
         <lifetime>7200</lifetime>
         <restock>1800</restock>
-        <min>2</min>
+        <min>0</min>
         <quantmin>40</quantmin>
         <quantmax>80</quantmax>
         <cost>100</cost>
@@ -874,10 +874,10 @@
         <value name="Tier4"/>
     </type>
     <type name="TTC_AmmoBox_50Beo_20rnd">
-        <nominal>5</nominal>
+        <nominal>0</nominal>
         <lifetime>7200</lifetime>
         <restock>7200</restock>
-        <min>1</min>
+        <min>0</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -888,10 +888,10 @@
         <value name="Tier4"/>
     </type>
     <type name="TTC_Ammo_50Beo">
-        <nominal>5</nominal>
+        <nominal>0</nominal>
         <lifetime>7200</lifetime>
         <restock>7200</restock>
-        <min>2</min>
+        <min>0</min>
         <quantmin>10</quantmin>
         <quantmax>60</quantmax>
         <cost>100</cost>
@@ -998,7 +998,6 @@
         <category name="weapons"/>
         <tag name="shelves"/>
         <usage name="Military"/>
-        <value name="Tier2" />
 		<value name="Tier3" />
         <value name="Tier4" />
     </type>
@@ -1505,6 +1504,8 @@
         <category name="weapons"/>
         <tag name="shelves"/>
         <usage name="Military"/>
+        <value name="Tier3"/>
+        <value name="Tier4"/>
     </type>
     <type name="TTC_DMR_AFG">
         <nominal>3</nominal>
@@ -1518,6 +1519,9 @@
         <category name="weapons"/>
         <tag name="shelves"/>
         <usage name="Military"/>
+        <value name="Tier2"/>
+        <value name="Tier3"/>
+        <value name="Tier4"/>
     </type>
     <type name="TTC_DMR_AFG_Green">
         <nominal>0</nominal>
@@ -1557,6 +1561,9 @@
         <category name="weapons"/>
         <tag name="shelves"/>
         <usage name="Military"/>
+        <value name="Tier2"/>
+        <value name="Tier3"/>
+        <value name="Tier4"/>
     </type>
     <type name="TTC_DMR_VFG_Green">
         <nominal>0</nominal>
