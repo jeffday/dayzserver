@@ -2162,6 +2162,7 @@
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="weapons"/>
+        <usage name="Military"/>
         <usage name="Town"/>
         <usage name="Village"/>
     </type>
@@ -4003,7 +4004,7 @@
         <usage name="Village"/>
     </type>
     <type name="TTC_P320">
-        <nominal>2</nominal>
+        <nominal>3</nominal>
         <lifetime>28800</lifetime>
         <restock>3600</restock>
         <min>1</min>
