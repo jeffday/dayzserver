@@ -334,10 +334,10 @@
         <value name="Tier4"/>
     </type>
     <type name="WE_FiveseveN">
-        <nominal>0</nominal>
+        <nominal>3</nominal>
         <lifetime>28800</lifetime>
         <restock>0</restock>
-        <min>0</min>
+        <min>1</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -789,10 +789,10 @@
         <value name="Tier3"/>
     </type>
     <type name="WE_Mag_FiveseveN_20Rnd">
-        <nominal>0</nominal>
+        <nominal>6</nominal>
         <lifetime>28800</lifetime>
         <restock>0</restock>
-        <min>0</min>
+        <min>2</min>
         <quantmin>10</quantmin>
         <quantmax>100</quantmax>
         <cost>100</cost>
@@ -1018,10 +1018,10 @@
 <!-- Start AmmunitionExpansion Types.xml -->
 <!-- Ammo Boxes -->
     <type name="AE_AmmoBox_57x28_30Rnd">
-        <nominal>0</nominal>
+        <nominal>5</nominal>
         <lifetime>28800</lifetime>
         <restock>0</restock>
-        <min>0</min>
+        <min>2</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -1093,10 +1093,10 @@
     </type>
 <!-- Ammo Piles -->
     <type name="Ammo_AE57x28">
-        <nominal>0</nominal>
+        <nominal>7</nominal>
         <lifetime>14400</lifetime>
         <restock>180</restock>
-        <min>0</min>
+        <min>3</min>
         <quantmin>10</quantmin>
         <quantmax>40</quantmax>
         <cost>100</cost>
