@@ -802,10 +802,10 @@
 		<usage name="Military" />
 	</type>
 	<type name="TTC_SCARLBlack">
-		<nominal>2</nominal>
+		<nominal>3</nominal>
 		<lifetime>10800</lifetime>
 		<restock>1800</restock>
-		<min>2</min>
+		<min>1</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
@@ -831,10 +831,10 @@
 	</type>
 	<!-- M16A4 -->
 	<type name="TTC_M16A4">
-		<nominal>5</nominal>
+		<nominal>3</nominal>
 		<lifetime>10800</lifetime>
 		<restock>1800</restock>
-		<min>2</min>
+		<min>1</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
@@ -3657,10 +3657,10 @@
         <value name="Tier4"/>
     </type>
 	<type name="TTC_L85">
-		<nominal>2</nominal>
+		<nominal>3</nominal>
 		<lifetime>10800</lifetime>
 		<restock>7200</restock>
-		<min>0</min>
+		<min>1</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
