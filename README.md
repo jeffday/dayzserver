@@ -1,5 +1,6 @@
 **DISCLAIMER**: if anyone besides me ever tries to use these, be forewarned: all this shit is highly tuned for singleplayer PvE.
-cfgrandompresets.xml in particular - nearly all military and police zombies spawn with armor and helmets
+cfgrandompresets.xml in particular - nearly all military and police zombies spawn with armor and helmets. heavy military zombies can
+spawn with MMG MK V armor and armored helmets.
 
 random customizations i've made to my dayz server including:
 
