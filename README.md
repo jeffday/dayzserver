@@ -1,6 +1,9 @@
 random customizations i've made to my dayz server including:
 
-* heavily modified init.c which spawns the player with a set of gear
+DISCLAIMER: if anyone besides me ever tries to use these, be forewarned: all this shit is highly tuned for singleplayer PvE.
+cfgrandompresets.xml in particular - nearly all military and police zombies spawn with armor and helmets
+
+* heavily modified init.c which sets up a few "types" of survivor and picks one at random
 * windstride's clothing pack config
 * spurgle's bags config
 * mmg gear and storage config
