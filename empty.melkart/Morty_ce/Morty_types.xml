@@ -785,10 +785,10 @@
 		<value name="Tier4" />
 	</type>
     <type name="TTC_SCARHMag">
-        <nominal>8</nominal>
+        <nominal>6</nominal>
         <lifetime>7200</lifetime>
         <restock>1800</restock>
-        <min>4</min>
+        <min>2</min>
         <quantmin>40</quantmin>
         <quantmax>80</quantmax>
         <cost>100</cost>
@@ -1002,7 +1002,7 @@
         <nominal>3</nominal>
         <lifetime>7200</lifetime>
         <restock>14400</restock>
-        <min>2</min>
+        <min>1</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -1233,7 +1233,7 @@
         <nominal>3</nominal>
         <lifetime>7200</lifetime>
         <restock>1800</restock>
-        <min>2</min>
+        <min>1</min>
         <quantmin>40</quantmin>
         <quantmax>80</quantmax>
         <cost>100</cost>
@@ -1368,7 +1368,7 @@
         <nominal>3</nominal>
         <lifetime>7200</lifetime>
         <restock>1800</restock>
-        <min>2</min>
+        <min>1</min>
         <quantmin>40</quantmin>
         <quantmax>80</quantmax>
         <cost>100</cost>
@@ -2914,10 +2914,10 @@
         <value name="Tier4" />
     </type>
 	<type name="TTC_MCX">
-		<nominal>4</nominal>
+		<nominal>3</nominal>
 		<lifetime>7200</lifetime>
 		<restock>1800</restock>
-		<min>2</min>
+		<min>1</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
@@ -3013,10 +3013,10 @@
         <usage name="Village"/>
     </type>
     <type name="TTC_Deagle_Magazine_7rnd">
-        <nominal>6</nominal>
+        <nominal>7</nominal>
         <lifetime>14400</lifetime>
         <restock>7200</restock>
-        <min>2</min>
+        <min>3</min>
         <quantmin>10</quantmin>
         <quantmax>100</quantmax>
         <cost>100</cost>
@@ -3156,8 +3156,8 @@
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
 		<category name="weapons" />
-		<value name="Tier2" />
 		<value name="Tier3" />
+		<value name="Tier4" />
 		<usage name="Military" />
     </type>
     <type name="TTC_MCX_Tan_300blk">
@@ -3237,7 +3237,6 @@
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="weapons"/>
         <usage name="Military"/>
-        <value name="Tier3"/>
         <value name="Tier4"/>
     </type>
 	<type name="TTC_M4Tac_Black">
@@ -3714,7 +3713,7 @@
         <nominal>3</nominal>
         <lifetime>7200</lifetime>
         <restock>7200</restock>
-        <min>0</min>
+        <min>1</min>
         <quantmin>40</quantmin>
         <quantmax>80</quantmax>
         <cost>100</cost>
