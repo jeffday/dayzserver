@@ -489,6 +489,9 @@
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="weapons"/>
         <usage name="Military"/>
+        <value name="Tier2" />
+		<value name="Tier3" />
+        <value name="Tier4" />
     </type>
 	<!-- New items update 1.10 -->
 	<!-- F&D Defence .338 -->
@@ -572,6 +575,8 @@
 		<flags count_in_cargo="1" count_in_hoarder="1" count_in_map="1" count_in_player="1" crafted="0" deloot="0" />
 		<category name="weapons" />
 		<usage name="Military" />
+        <value name="Tier3" />
+        <value name="Tier4" />
 	</type>
 	<!-- Honey Badger comes in two variants. This is standard .300blk variant-->
 	<type name="TTC_AACHoney_300blk">
@@ -599,8 +604,8 @@
 		<flags count_in_cargo="1" count_in_hoarder="1" count_in_map="1" count_in_player="1" crafted="0" deloot="0" />
 		<category name="weapons" />
 		<usage name="Military" />
-		<value name="Tier2" />
-		<value name="Tier3" />
+        <value name="Tier3" />
+        <value name="Tier4" />
 	</type>
     <type name="TTC_300Stanag">
         <nominal>3</nominal>
@@ -613,8 +618,8 @@
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="weapons"/>
         <usage name="Military"/>
-        <value name="Tier2"/>
-        <value name="Tier3"/>
+        <value name="Tier3" />
+        <value name="Tier4" />
     </type>
     <type name="TTC_300Cmag">
         <nominal>3</nominal>
@@ -627,8 +632,8 @@
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="weapons"/>
         <usage name="Military"/>
-        <value name="Tier2"/>
-        <value name="Tier3"/>
+        <value name="Tier3" />
+        <value name="Tier4" />
     </type>
     <type name="TTC_AmmoBox_300blk_20rnd">
         <nominal>15</nominal>
@@ -641,6 +646,8 @@
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="weapons"/>
         <usage name="Military"/>
+        <value name="Tier3" />
+        <value name="Tier4" />
     </type>
     <type name="TTC_Ammo_300blk">
         <nominal>10</nominal>
@@ -654,6 +661,8 @@
         <category name="weapons"/>
         <tag name="shelves"/>
         <usage name="Military"/>
+        <value name="Tier3" />
+        <value name="Tier4" />
     </type>
     <type name="TTC_Buttstock_Honey">
         <nominal>0</nominal>
