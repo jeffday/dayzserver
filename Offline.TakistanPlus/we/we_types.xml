@@ -45,7 +45,7 @@
         <usage name="Military"/>
     </type>
     <type name="WE_AMSOptic">
-        <nominal>3</nominal>
+        <nominal>5</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
         <min>2</min>
@@ -59,10 +59,10 @@
         <value name="Tier4"/>
     </type>
     <type name="WE_CoyoteOptic">
-        <nominal>5</nominal>
+        <nominal>10</nominal>
         <lifetime>28800</lifetime>
         <restock>0</restock>
-        <min>2</min>
+        <min>5</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -74,7 +74,7 @@
         <value name="Tier3"/>
     </type>
     <type name="WE_HAMROptic"> <!-- morty's already has this -->
-        <nominal>3</nominal>
+        <nominal>5</nominal>
         <lifetime>14400</lifetime>
         <restock>1800</restock>
         <min>2</min>
@@ -88,7 +88,7 @@
         <value name="Tier4"/>
     </type>
     <type name="WE_HMOptic">
-        <nominal>3</nominal>
+        <nominal>5</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
         <min>2</min>
@@ -115,10 +115,10 @@
         <usage name="Military"/>
     </type>
     <type name="WE_OKP7Optic">
-        <nominal>5</nominal>
+        <nominal>10</nominal>
         <lifetime>28800</lifetime>
         <restock>0</restock>
-        <min>2</min>
+        <min>5</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -144,7 +144,7 @@
         <value name="Tier4"/>
     </type>
     <type name="WE_AngledForegrip">
-        <nominal>3</nominal>
+        <nominal>5</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
         <min>2</min>
@@ -158,7 +158,7 @@
         <value name="Tier4"/>
     </type>
     <type name="WE_VerticalForegrip">
-        <nominal>3</nominal>
+        <nominal>5</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
         <min>2</min>
@@ -175,7 +175,7 @@
 <!-- Weapons -->
 <!-- Melee  -->
     <type name="WE_Katana">
-        <nominal>3</nominal>
+        <nominal>5</nominal>
         <lifetime>7200</lifetime>
         <restock>0</restock>
         <min>2</min>
@@ -262,10 +262,10 @@
         <usage name="ContaminatedArea"/>
     </type>
     <type name="WE_Tomahawk">
-        <nominal>10</nominal>
+        <nominal>0</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
-        <min>5</min>
+        <min>0</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -333,18 +333,18 @@
         <value name="Tier4"/>
     </type>
     <type name="WE_FiveSeveN">
-        <nominal>3</nominal>
+        <nominal>10</nominal>
         <lifetime>28800</lifetime>
         <restock>0</restock>
-        <min>1</min>
+        <min>5</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="weapons"/>
         <usage name="Military"/>
-        <value name="Tier2"/>
         <value name="Tier3"/>
+        <value name="Tier4"/>
     </type>
     <type name="WE_M9">
         <nominal>0</nominal>
@@ -417,7 +417,7 @@
         <nominal>10</nominal>
         <lifetime>28800</lifetime>
         <restock>1800</restock>
-        <min>9</min>
+        <min>5</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -431,7 +431,7 @@
         <nominal>10</nominal>
         <lifetime>28800</lifetime>
         <restock>1800</restock>
-        <min>10</min>
+        <min>5</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -455,7 +455,7 @@
         <value name="Tier4"/>
     </type>
     <type name="WE_AN94">
-        <nominal>2</nominal>
+        <nominal>4</nominal>
         <lifetime>28800</lifetime>
         <restock>0</restock>
         <min>1</min>
@@ -571,7 +571,7 @@
         <value name="Tier4"/>
     </type>
     <type name="WE_Mossberg500">
-        <nominal>2</nominal>
+        <nominal>4</nominal>
         <lifetime>7200</lifetime>
         <restock>1800</restock>
         <min>1</min>
@@ -612,10 +612,10 @@
         <usage name="Police"/>
     </type>
     <type name="WE_MP5A1">
-        <nominal>3</nominal>
+        <nominal>10</nominal>
         <lifetime>28800</lifetime>
         <restock>1800</restock>
-        <min>2</min>
+        <min>6</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -626,10 +626,10 @@
         <value name="Tier2"/>
     </type>
     <type name="WE_MP5SD"> 
-        <nominal>3</nominal>
+        <nominal>5</nominal>
         <lifetime>28800</lifetime>
         <restock>1800</restock>
-        <min>1</min>
+        <min>2</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -662,7 +662,7 @@
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
-        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="1" crafted="0" deloot="0"/>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="1" crafted="0" deloot="1"/>
         <category name="weapons"/>
         <usage name="Military"/>
         <value name="Tier4"/>
@@ -746,8 +746,8 @@
         <lifetime>28800</lifetime>
         <restock>0</restock>
         <min>10</min>
-        <quantmin>-1</quantmin>
-        <quantmax>-1</quantmax>
+        <quantmin>0</quantmin>
+        <quantmax>60</quantmax>
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
         <category name="weapons" />
@@ -760,8 +760,8 @@
         <lifetime>28800</lifetime>
         <restock>0</restock>
         <min>25</min>
-        <quantmin>-1</quantmin>
-        <quantmax>-1</quantmax>
+        <quantmin>0</quantmin>
+        <quantmax>80</quantmax>
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
         <category name="weapons" />
@@ -800,18 +800,18 @@
         <value name="Tier3"/>
     </type>
     <type name="WE_Mag_FiveseveN_20Rnd">
-        <nominal>6</nominal>
+        <nominal>20</nominal>
         <lifetime>28800</lifetime>
         <restock>0</restock>
-        <min>2</min>
+        <min>10</min>
         <quantmin>10</quantmin>
         <quantmax>100</quantmax>
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="weapons"/>
         <usage name="Military"/>
-        <value name="Tier2"/>
         <value name="Tier3"/>
+        <value name="Tier4"/>
     </type>
     <type name="WE_Mag_M9_15Rnd">
         <nominal>0</nominal>
@@ -1029,10 +1029,10 @@
 <!-- Start AmmunitionExpansion Types.xml -->
 <!-- Ammo Boxes -->
     <type name="AE_AmmoBox_57x28_30Rnd">
-        <nominal>5</nominal>
+        <nominal>8</nominal>
         <lifetime>28800</lifetime>
         <restock>0</restock>
-        <min>2</min>
+        <min>4</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -1104,10 +1104,10 @@
     </type>
 <!-- Ammo Piles -->
     <type name="Ammo_AE57x28">
-        <nominal>7</nominal>
+        <nominal>10</nominal>
         <lifetime>14400</lifetime>
         <restock>180</restock>
-        <min>3</min>
+        <min>5</min>
         <quantmin>10</quantmin>
         <quantmax>40</quantmax>
         <cost>100</cost>

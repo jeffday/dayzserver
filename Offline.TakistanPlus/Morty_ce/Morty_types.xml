@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <types>
 	<type name="TTC_KAC">
-		<nominal>2</nominal>
+		<nominal>6</nominal>
 		<lifetime>10800</lifetime>
 		<restock>1800</restock>
-		<min>1</min>
+		<min>4</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
@@ -15,10 +15,10 @@
 		<value name="Tier3" />
 	</type>
 	<type name="TTC_MAS36">
-		<nominal>5</nominal>
+		<nominal>15</nominal>
 		<lifetime>7200</lifetime>
 		<restock>0</restock>
-		<min>2</min>
+		<min>10</min>
 		<quantmin>0</quantmin>
 		<quantmax>80</quantmax>
 		<cost>100</cost>
@@ -47,10 +47,10 @@
         <value name="Tier4" />
 	</type>
 	<type name="TTC_kar98k">
-		<nominal>5</nominal>
+		<nominal>15</nominal>
 		<lifetime>7200</lifetime>
 		<restock>0</restock>
-		<min>2</min>
+		<min>10</min>
 		<quantmin>0</quantmin>
 		<quantmax>80</quantmax>
 		<cost>100</cost>
@@ -63,10 +63,10 @@
         <value name="Tier4" />
 	</type>
     <type name="TTC_R700">
-        <nominal>3</nominal>
+        <nominal>14</nominal>
         <lifetime>7200</lifetime>
         <restock>7200</restock>
-        <min>2</min>
+        <min>4</min>
         <quantmin>0</quantmin>
         <quantmax>80</quantmax>
         <cost>100</cost>
@@ -92,10 +92,10 @@
 		<value name="Tier4" />
 	</type>
 	<type name="TTCSR25_Desert">
-		<nominal>2</nominal>
+		<nominal>6</nominal>
 		<lifetime>10800</lifetime>
 		<restock>1800</restock>
-		<min>1</min>
+		<min>4</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
@@ -270,10 +270,10 @@
         <usage name="Military"/>
     </type>
 	<type name="TTC_M16">
-		<nominal>2</nominal>
+		<nominal>6</nominal>
 		<lifetime>10800</lifetime>
 		<restock>1800</restock>
-		<min>1</min>
+		<min>4</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
@@ -326,10 +326,10 @@
         <usage name="Military"/>
     </type>
     <type name="TTC_Buttstock">
-        <nominal>0</nominal>
+        <nominal>5</nominal>
         <lifetime>7200</lifetime>
         <restock>14400</restock>
-        <min>0</min>
+        <min>2</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -339,10 +339,10 @@
         <usage name="Military"/>
     </type>
 	<type name="TTC_Ammo_8mm">
-        <nominal>15</nominal>
+        <nominal>40</nominal>
         <lifetime>7200</lifetime>
         <restock>800</restock>
-        <min>10</min>
+        <min>30</min>
         <quantmin>10</quantmin>
         <quantmax>80</quantmax>
         <cost>100</cost>
@@ -356,10 +356,10 @@
         <value name="Tier4" />
     </type>
 	<type name="TTC_AmmoBox_8mm_20Rnd">
-        <nominal>10</nominal>
+        <nominal>30</nominal>
         <lifetime>7200</lifetime>
         <restock>800</restock>
-        <min>5</min>
+        <min>20</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -386,7 +386,7 @@
         <usage name="Military"/>
     </type>
     <type name="TTC_Buttstock3">
-        <nominal>3</nominal>
+        <nominal>5</nominal>
         <lifetime>7200</lifetime>
         <restock>14400</restock>
         <min>2</min>
@@ -425,7 +425,7 @@
 		<value name="Tier3" />
 	</type>
 	<type name="TTC_M4DMRDesert">
-		<nominal>2</nominal>
+		<nominal>4</nominal>
 		<lifetime>10800</lifetime>
 		<restock>1800</restock>
 		<min>1</min>
@@ -480,17 +480,16 @@
         <value name="Tier3"/>
     </type>
     <type name="TTC_308Stanag">
-        <nominal>8</nominal>
+        <nominal>25</nominal>
         <lifetime>10800</lifetime>
         <restock>1800</restock>
-        <min>4</min>
+        <min>10</min>
         <quantmin>40</quantmin>
         <quantmax>80</quantmax>
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="weapons"/>
         <usage name="Military"/>
-        <value name="Tier2" />
 		<value name="Tier3" />
         <value name="Tier4" />
     </type>
@@ -524,10 +523,10 @@
         <value name="Tier4" />
     </type>
     <type name="TTC_AmmoBox_338mm_10Rnd">
-        <nominal>10</nominal>
+        <nominal>20</nominal>
         <lifetime>7200</lifetime>
         <restock>7200</restock>
-        <min>5</min>
+        <min>10</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -538,10 +537,10 @@
         <value name="Tier4" />
     </type>
     <type name="TTC_Ammo_338">
-        <nominal>10</nominal>
+        <nominal>15</nominal>
         <lifetime>7200</lifetime>
         <restock>7200</restock>
-        <min>5</min>
+        <min>10</min>
         <quantmin>10</quantmin>
         <quantmax>50</quantmax>
         <cost>100</cost>
@@ -554,7 +553,7 @@
     </type>
 	<!-- Honey Badger comes in two variants. This is standard 5.56 variant-->
 	<type name="TTC_AACHoney">
-		<nominal>2</nominal>
+		<nominal>4</nominal>
 		<lifetime>10800</lifetime>
 		<restock>1800</restock>
 		<min>1</min>
@@ -583,7 +582,7 @@
 	</type>
 	<!-- Honey Badger comes in two variants. This is standard .300blk variant-->
 	<type name="TTC_AACHoney_300blk">
-		<nominal>2</nominal>
+		<nominal>4</nominal>
 		<lifetime>10800</lifetime>
 		<restock>1800</restock>
 		<min>1</min>
@@ -611,7 +610,7 @@
         <value name="Tier4" />
 	</type>
     <type name="TTC_300Stanag">
-        <nominal>3</nominal>
+        <nominal>5</nominal>
         <lifetime>7200</lifetime>
         <restock>1800</restock>
         <min>2</min>
@@ -625,7 +624,7 @@
         <value name="Tier4" />
     </type>
     <type name="TTC_300Cmag">
-        <nominal>3</nominal>
+        <nominal>5</nominal>
         <lifetime>7200</lifetime>
         <restock>1800</restock>
         <min>2</min>
@@ -639,10 +638,10 @@
         <value name="Tier4" />
     </type>
     <type name="TTC_AmmoBox_300blk_20rnd">
-        <nominal>15</nominal>
+        <nominal>40</nominal>
         <lifetime>7200</lifetime>
         <restock>7200</restock>
-        <min>10</min>
+        <min>20</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -653,10 +652,10 @@
         <value name="Tier4" />
     </type>
     <type name="TTC_Ammo_300blk">
-        <nominal>10</nominal>
+        <nominal>30</nominal>
         <lifetime>7200</lifetime>
         <restock>7200</restock>
-        <min>5</min>
+        <min>10</min>
         <quantmin>10</quantmin>
         <quantmax>50</quantmax>
         <cost>100</cost>
@@ -762,10 +761,10 @@
     </type>
 	<!-- SCAR-H Updated -->
 	<type name="TTC_SCARH">
-		<nominal>2</nominal>
+		<nominal>4</nominal>
 		<lifetime>10800</lifetime>
 		<restock>1800</restock>
-		<min>1</min>
+		<min>2</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
@@ -788,10 +787,10 @@
 		<value name="Tier4" />
 	</type>
     <type name="TTC_SCARHMag">
-        <nominal>6</nominal>
+        <nominal>20</nominal>
         <lifetime>7200</lifetime>
         <restock>1800</restock>
-        <min>2</min>
+        <min>8</min>
         <quantmin>40</quantmin>
         <quantmax>80</quantmax>
         <cost>100</cost>
@@ -803,10 +802,10 @@
     </type>
 	<!-- SCAR-L Updated -->
 	<type name="TTC_SCARL">
-		<nominal>3</nominal>
+		<nominal>6</nominal>
 		<lifetime>10800</lifetime>
 		<restock>1800</restock>
-		<min>1</min>
+		<min>4</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
@@ -846,10 +845,10 @@
 	</type>
 	<!-- M16A4 -->
 	<type name="TTC_M16A4">
-		<nominal>3</nominal>
+		<nominal>10</nominal>
 		<lifetime>10800</lifetime>
 		<restock>1800</restock>
-		<min>1</min>
+		<min>4</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
@@ -919,10 +918,10 @@
     </type>
 	<!-- New universal suppressor colors -->
     <type name="TTC_Universal_Suppressor_Tan">
-        <nominal>10</nominal>
+        <nominal>25</nominal>
         <lifetime>7200</lifetime>
         <restock>14400</restock>
-        <min>4</min>
+        <min>10</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -1005,10 +1004,10 @@
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="1" deloot="0"/>
     </type>
     <type name="TTC_DMR_Suppressor">
-        <nominal>3</nominal>
+        <nominal>5</nominal>
         <lifetime>7200</lifetime>
         <restock>14400</restock>
-        <min>1</min>
+        <min>2</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -1033,7 +1032,7 @@
 		<usage name="Military" />
 	</type>
 	<type name="TTC_M82_Tan">
-		<nominal>1</nominal>
+		<nominal>2</nominal>
 		<lifetime>10800</lifetime>
 		<restock>1800</restock>
 		<min>0</min>
@@ -1046,10 +1045,10 @@
 		<usage name="Military" />
 	</type>
     <type name="TTC_M82_5rnd_Mag">
-        <nominal>1</nominal>
+        <nominal>2</nominal>
         <lifetime>7200</lifetime>
         <restock>1800</restock>
-        <min>0</min>
+        <min>1</min>
         <quantmin>40</quantmin>
         <quantmax>80</quantmax>
         <cost>100</cost>
@@ -1278,7 +1277,7 @@
         <value name="Tier3"/>
     </type>
     <type name="TTC_DMR_556Pmag_40rnd_Tan">
-        <nominal>3</nominal>
+        <nominal>4</nominal>
         <lifetime>7200</lifetime>
         <restock>1800</restock>
         <min>1</min>
@@ -1413,10 +1412,10 @@
         <value name="Tier3"/>
     </type>
     <type name="TTC_DMR_762Stanag_20rnd_Tan">
-        <nominal>3</nominal>
+        <nominal>10</nominal>
         <lifetime>7200</lifetime>
         <restock>1800</restock>
-        <min>1</min>
+        <min>5</min>
         <quantmin>40</quantmin>
         <quantmax>80</quantmax>
         <cost>100</cost>
@@ -1483,10 +1482,10 @@
         <value name="Tier3"/>
     </type>
     <type name="TTC_DMR_762Stanag_10rnd_Tan">
-        <nominal>5</nominal>
+        <nominal>10</nominal>
         <lifetime>7200</lifetime>
         <restock>1800</restock>
-        <min>2</min>
+        <min>5</min>
         <quantmin>40</quantmin>
         <quantmax>80</quantmax>
         <cost>100</cost>
@@ -1555,10 +1554,10 @@
         <usage name="Military"/>
     </type>
     <type name="TTC_DMR_AFG_Tan">
-        <nominal>3</nominal>
+        <nominal>6</nominal>
         <lifetime>7200</lifetime>
         <restock>14400</restock>
-        <min>1</min>
+        <min>3</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -1600,10 +1599,10 @@
         <usage name="Military"/>
     </type>
     <type name="TTC_DMR_VFG_Tan">
-        <nominal>3</nominal>
+        <nominal>6</nominal>
         <lifetime>7200</lifetime>
         <restock>14400</restock>
-        <min>1</min>
+        <min>3</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -1616,10 +1615,10 @@
         <value name="Tier4"/>
     </type>
     <type name="TTC_Ammobox_50BMG_10rnd">
-        <nominal>3</nominal>
+        <nominal>10</nominal>
         <lifetime>7200</lifetime>
         <restock>7200</restock>
-        <min>2</min>
+        <min>5</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -1629,10 +1628,10 @@
         <value name="Tier4"/>
     </type>
     <type name="TTC_Ammo_50BMG">
-        <nominal>5</nominal>
+        <nominal>10</nominal>
         <lifetime>7200</lifetime>
         <restock>7200</restock>
-        <min>2</min>
+        <min>5</min>
         <quantmin>10</quantmin>
         <quantmax>50</quantmax>
         <cost>100</cost>
@@ -1669,7 +1668,7 @@
         <usage name="Military"/>
     </type>
     <type name="TTC_Buttstock_Tan">
-        <nominal>3</nominal>
+        <nominal>5</nominal>
         <lifetime>7200</lifetime>
         <restock>14400</restock>
         <min>2</min>
@@ -1695,7 +1694,7 @@
         <usage name="Military"/>
     </type>
 	<type name="TTC_DMR_RifleFrame">
-		<nominal>2</nominal>
+		<nominal>4</nominal>
 		<lifetime>7200</lifetime>
 		<restock>1800</restock>
 		<min>1</min>
@@ -1709,7 +1708,7 @@
 		<value name="Tier4" />
 	</type>
 	<type name="TTC_DMR_Barrel_762">
-		<nominal>2</nominal>
+		<nominal>4</nominal>
 		<lifetime>7200</lifetime>
 		<restock>1800</restock>
 		<min>1</min>
@@ -1723,7 +1722,7 @@
 		<value name="Tier4" />
 	</type>
 	<type name="TTC_DMR_Barrel_556">
-		<nominal>2</nominal>
+		<nominal>4</nominal>
 		<lifetime>7200</lifetime>
 		<restock>1800</restock>
 		<min>1</min>
@@ -1738,10 +1737,10 @@
 	</type>
 	<!-- Update 1.11 -->
 	<type name="TTC_HKG28">
-		<nominal>2</nominal>
+		<nominal>4</nominal>
 		<lifetime>10800</lifetime>
 		<restock>1800</restock>
-		<min>1</min>
+		<min>2</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
@@ -1764,7 +1763,7 @@
 		<usage name="Military" />
 	</type>
     <type name="TTC_ButtstockHK">
-        <nominal>3</nominal>
+        <nominal>5</nominal>
         <lifetime>7200</lifetime>
         <restock>14400</restock>
         <min>2</min>
@@ -1796,7 +1795,7 @@
         <value name="Tier4" />
     </type>
 	<type name="TTC_LeeEnfield">
-		<nominal>3</nominal>
+		<nominal>5</nominal>
 		<lifetime>7200</lifetime>
 		<restock>0</restock>
 		<min>2</min>
@@ -1812,10 +1811,10 @@
         <value name="Tier4" />
 	</type>
 	<type name="TTC_M1Garand">
-		<nominal>2</nominal>
+		<nominal>5</nominal>
 		<lifetime>7200</lifetime>
 		<restock>0</restock>
-		<min>1</min>
+		<min>2</min>
 		<quantmin>10</quantmin>
 		<quantmax>60</quantmax>
 		<cost>100</cost>
@@ -1855,7 +1854,7 @@
         <usage name="Military"/>
     </type>
 	<type name="TTC_M14">
-		<nominal>2</nominal>
+		<nominal>4</nominal>
 		<lifetime>10800</lifetime>
 		<restock>1800</restock>
 		<min>1</min>
@@ -1868,7 +1867,7 @@
 		<value name="Tier4" />
 	</type>
     <type name="TTC_M14_Mag_20rnd">
-        <nominal>3</nominal>
+        <nominal>5</nominal>
         <lifetime>7200</lifetime>
         <restock>1800</restock>
         <min>2</min>
@@ -1882,10 +1881,10 @@
         <value name="Tier4"/>
     </type>
 	<type name="TTC_MRAD">
-		<nominal>1</nominal>
+		<nominal>4</nominal>
 		<lifetime>10800</lifetime>
 		<restock>1800</restock>
-		<min>0</min>
+		<min>1</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
@@ -1895,7 +1894,7 @@
 		<value name="Tier4" />
 	</type>
     <type name="TTC_338mag_5rnd">
-        <nominal>3</nominal>
+        <nominal>5</nominal>
         <lifetime>7200</lifetime>
         <restock>1800</restock>
         <min>2</min>
@@ -1909,7 +1908,7 @@
         <value name="Tier4"/>
     </type>
 	<type name="TTC_XM2010">
-		<nominal>2</nominal>
+		<nominal>4</nominal>
 		<lifetime>10800</lifetime>
 		<restock>1800</restock>
 		<min>1</min>
@@ -1922,7 +1921,7 @@
 		<value name="Tier4" />
 	</type>
     <type name="TTC_XM2010_10rnd">
-        <nominal>3</nominal>
+        <nominal>5</nominal>
         <lifetime>7200</lifetime>
         <restock>1800</restock>
         <min>2</min>
@@ -1936,10 +1935,10 @@
         <value name="Tier4"/>
     </type>
     <type name="TTC_AmmoBox_303_20Rnd">
-        <nominal>15</nominal>
+        <nominal>20</nominal>
         <lifetime>7200</lifetime>
         <restock>7200</restock>
-        <min>8</min>
+        <min>10</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -1956,7 +1955,7 @@
         <nominal>15</nominal>
         <lifetime>7200</lifetime>
         <restock>7200</restock>
-        <min>5</min>
+        <min>10</min>
         <quantmin>10</quantmin>
         <quantmax>80</quantmax>
         <cost>100</cost>
@@ -1970,10 +1969,10 @@
         <value name="Tier4" />
     </type>
     <type name="TTC_AmmoBox_3006_20Rnd">
-        <nominal>15</nominal>
+        <nominal>40</nominal>
         <lifetime>7200</lifetime>
         <restock>7200</restock>
-        <min>10</min>
+        <min>20</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -1987,10 +1986,10 @@
         <value name="Tier4" />
     </type>
     <type name="TTC_Ammo_3006">
-        <nominal>10</nominal>
+        <nominal>30</nominal>
         <lifetime>7200</lifetime>
         <restock>7200</restock>
-        <min>5</min>
+        <min>10</min>
         <quantmin>10</quantmin>
         <quantmax>80</quantmax>
         <cost>100</cost>
@@ -2166,7 +2165,7 @@
 	</type>
 	<!-- Update 1.11.2 -->
     <type name="TTC_Kimber">
-        <nominal>4</nominal>
+        <nominal>5</nominal>
         <lifetime>14400</lifetime>
         <restock>7200</restock>
         <min>2</min>
@@ -2180,10 +2179,10 @@
         <usage name="Village"/>
     </type>
     <type name="Mag_Kimber1911_10Rnd">
-        <nominal>6</nominal>
+        <nominal>10</nominal>
         <lifetime>14400</lifetime>
         <restock>7200</restock>
-        <min>2</min>
+        <min>5</min>
         <quantmin>10</quantmin>
         <quantmax>100</quantmax>
         <cost>100</cost>
@@ -2194,7 +2193,7 @@
         <usage name="Village"/>
     </type>
     <type name="TTC_Mossberg">
-        <nominal>3</nominal>
+        <nominal>5</nominal>
         <lifetime>7200</lifetime>
         <restock>7200</restock>
         <min>2</min>
@@ -2221,10 +2220,10 @@
 		<value name="Tier4" />
 	</type>
     <type name="TTC_HK417_Magazine_20rnd">
-        <nominal>5</nominal>
+        <nominal>10</nominal>
         <lifetime>10800</lifetime>
         <restock>7200</restock>
-        <min>2</min>
+        <min>5</min>
         <quantmin>40</quantmin>
         <quantmax>80</quantmax>
         <cost>100</cost>
@@ -2235,10 +2234,10 @@
         <value name="Tier4"/>
     </type>
     <type name="TTC_M14Suppressor">
-        <nominal>18</nominal>
+        <nominal>5</nominal>
         <lifetime>14400</lifetime>
         <restock>14400</restock>
-        <min>12</min>
+        <min>2</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -2249,10 +2248,10 @@
         <value name="Tier4" />
     </type>
     <type name="TTC_Holo">
-        <nominal>3</nominal>
+        <nominal>5</nominal>
         <lifetime>28800</lifetime>
         <restock>1800</restock>
-        <min>2</min>
+        <min>3</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -2340,10 +2339,10 @@
 		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="0" count_in_player="0" crafted="0" deloot="0" />
 	</type>
 	<type name="TTC_M110">
-		<nominal>2</nominal>
+		<nominal>4</nominal>
 		<lifetime>10800</lifetime>
 		<restock>14400</restock>
-		<min>1</min>
+		<min>2</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
@@ -2395,7 +2394,7 @@
         <value name="Tier4" />
     </type>
 	<type name="TTC_AKMod_RifleFrame">
-		<nominal>2</nominal>
+		<nominal>4</nominal>
 		<lifetime>7200</lifetime>
 		<restock>1800</restock>
 		<min>1</min>
@@ -2409,7 +2408,7 @@
 		<value name="Tier4" />
 	</type>
 	<type name="TTC_AKMod_Barrel_76239">
-		<nominal>2</nominal>
+		<nominal>4</nominal>
 		<lifetime>7200</lifetime>
 		<restock>1800</restock>
 		<min>1</min>
@@ -2423,7 +2422,7 @@
 		<value name="Tier4" />
 	</type>
 	<type name="TTC_AKMod_Barrel_76254">
-		<nominal>2</nominal>
+		<nominal>4</nominal>
 		<lifetime>7200</lifetime>
 		<restock>1800</restock>
 		<min>1</min>
@@ -2513,7 +2512,7 @@
 		<value name="Tier4" />
     </type>
     <type name="TTC_AKMod_762x54_30rnd">
-        <nominal>3</nominal>
+        <nominal>5</nominal>
         <lifetime>28800</lifetime>
         <restock>1800</restock>
         <min>2</min>
@@ -2525,7 +2524,7 @@
         <usage name="Military"/>
     </type>
     <type name="TTC_AKMod_762x54_65rnd">
-        <nominal>3</nominal>
+        <nominal>5</nominal>
         <lifetime>28800</lifetime>
         <restock>1800</restock>
         <min>2</min>
@@ -2552,7 +2551,7 @@
 		<value name="Tier4" />
     </type>
     <type name="TTC_AKMod_Suppressor">
-        <nominal>2</nominal>
+        <nominal>4</nominal>
         <lifetime>7200</lifetime>
         <restock>14400</restock>
         <min>1</min>
@@ -2646,7 +2645,7 @@
         <nominal>5</nominal>
         <lifetime>28800</lifetime>
         <restock>1800</restock>
-        <min>2</min>
+        <min>3</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -2698,7 +2697,7 @@
 		<value name="Tier4" />
 	</type>
     <type name="TTC_FAL_Magazine">
-        <nominal>4</nominal>
+        <nominal>8</nominal>
         <lifetime>7200</lifetime>
         <restock>1800</restock>
         <min>1</min>
@@ -2807,10 +2806,10 @@
     </type>
 	<!-- 1.13-->
 	<type name="TTC_M24_NEW_Wood">
-		<nominal>0</nominal>
+		<nominal>2</nominal>
 		<lifetime>10800</lifetime>
 		<restock>1800</restock>
-		<min>0</min>
+		<min>1</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
@@ -2820,7 +2819,7 @@
 		<value name="Tier3" />
 	</type>
 	<type name="TTC_M24_NEW_Black">
-		<nominal>1</nominal>
+		<nominal>2</nominal>
 		<lifetime>10800</lifetime>
 		<restock>1800</restock>
 		<min>0</min>
@@ -2859,7 +2858,7 @@
 		<value name="Tier3" />
 	</type>
     <type name="TTC_M24New_mag_5rnd">
-        <nominal>3</nominal>
+        <nominal>5</nominal>
         <lifetime>7200</lifetime>
         <restock>1800</restock>
         <min>2</min>
@@ -2873,7 +2872,7 @@
         <value name="Tier4"/>
     </type>
     <type name="TTC_AVS36">
-        <nominal>3</nominal>
+        <nominal>5</nominal>
         <lifetime>14400</lifetime>
         <restock>7200</restock>
         <min>2</min>
@@ -2887,7 +2886,7 @@
         <value name="Tier4"/>
     </type>
     <type name="TTC_AVS36_Mag_10rnd">
-        <nominal>3</nominal>
+        <nominal>5</nominal>
         <lifetime>7200</lifetime>
         <restock>1800</restock>
         <min>2</min>
@@ -2901,10 +2900,10 @@
         <value name="Tier4"/>
     </type>
 	<type name="TTC_CAR15">
-		<nominal>3</nominal>
+		<nominal>6</nominal>
 		<lifetime>7200</lifetime>
 		<restock>1800</restock>
-		<min>2</min>
+		<min>4</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
@@ -2916,10 +2915,10 @@
         <value name="Tier4" />
 	</type>
     <type name="TTC_M1903">
-        <nominal>5</nominal>
+        <nominal>10</nominal>
         <lifetime>14400</lifetime>
         <restock>7200</restock>
-        <min>2</min>
+        <min>4</min>
         <quantmin>0</quantmin>
         <quantmax>80</quantmax>
         <cost>100</cost>
@@ -2946,10 +2945,10 @@
 		<usage name="Military" />
 	</type>
 	<type name="TTC_MCX_Tan">
-		<nominal>3</nominal>
+		<nominal>8</nominal>
 		<lifetime>7200</lifetime>
 		<restock>1800</restock>
-		<min>1</min>
+		<min>4</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
@@ -2960,10 +2959,10 @@
 		<usage name="Military" />
 	</type>
     <type name="TTC_MPXMCX1_Bttstck">
-        <nominal>1</nominal>
+        <nominal>3</nominal>
         <lifetime>7200</lifetime>
         <restock>14400</restock>
-        <min>1</min>
+        <min>2</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -2975,10 +2974,10 @@
         <usage name="Military"/>
     </type>
     <type name="TTC_MPXMCX1_Bttstck2">
-        <nominal>1</nominal>
+        <nominal>3</nominal>
         <lifetime>7200</lifetime>
         <restock>14400</restock>
-        <min>1</min>
+        <min>2</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -3017,7 +3016,7 @@
         <value name="Tier4" />
 	</type>
     <type name="TTC_Deagle">
-        <nominal>3</nominal>
+        <nominal>5</nominal>
         <lifetime>14400</lifetime>
         <restock>7200</restock>
         <min>2</min>
@@ -3031,10 +3030,10 @@
         <usage name="Village"/>
     </type>
     <type name="TTC_Deagle_Magazine_7rnd">
-        <nominal>7</nominal>
+        <nominal>10</nominal>
         <lifetime>14400</lifetime>
         <restock>7200</restock>
-        <min>3</min>
+        <min>5</min>
         <quantmin>10</quantmin>
         <quantmax>100</quantmax>
         <cost>100</cost>
@@ -3044,10 +3043,10 @@
         <usage name="Village"/>
     </type>
 	<type name="TTC_Ammo_50AE">
-        <nominal>10</nominal>
+        <nominal>40</nominal>
         <lifetime>7200</lifetime>
         <restock>800</restock>
-        <min>5</min>
+        <min>30</min>
         <quantmin>10</quantmin>
         <quantmax>80</quantmax>
         <cost>100</cost>
@@ -3129,10 +3128,10 @@
         <value name="Tier2"/>
     </type>
     <type name="TTC_MPX">
-        <nominal>2</nominal>
+        <nominal>4</nominal>
         <lifetime>28800</lifetime>
         <restock>1800</restock>
-        <min>1</min>
+        <min>2</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -3143,10 +3142,10 @@
         <value name="Tier2"/>
     </type>
     <type name="TTC_MPX_Mag_60rnd">
-        <nominal>2</nominal>
+        <nominal>4</nominal>
         <lifetime>28800</lifetime>
         <restock>1800</restock>
-        <min>1</min>
+        <min>2</min>
         <quantmin>10</quantmin>
         <quantmax>50</quantmax>
         <cost>100</cost>
@@ -3157,10 +3156,10 @@
         <value name="Tier2"/>
     </type>
     <type name="TTC_MPX_Mag_30rnd">
-        <nominal>4</nominal>
+        <nominal>10</nominal>
         <lifetime>28800</lifetime>
         <restock>1800</restock>
-        <min>1</min>
+        <min>3</min>
         <quantmin>10</quantmin>
         <quantmax>50</quantmax>
         <cost>100</cost>
@@ -3185,10 +3184,10 @@
 		<usage name="Military" />
     </type>
     <type name="TTC_MCX_Tan_300blk">
-        <nominal>2</nominal>
+        <nominal>4</nominal>
         <lifetime>7200</lifetime>
         <restock>1800</restock>
-        <min>1</min>
+        <min>2</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -3223,10 +3222,10 @@
         <usage name="Police"/>
     </type>
     <type name="TTC_UZI">
-        <nominal>3</nominal>
+        <nominal>8</nominal>
         <lifetime>28800</lifetime>
         <restock>1800</restock>
-        <min>2</min>
+        <min>4</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -3237,10 +3236,10 @@
         <value name="Tier2"/>
     </type>
     <type name="TTC_UZI_Mag_30rnd">
-        <nominal>4</nominal>
+        <nominal>8</nominal>
         <lifetime>28800</lifetime>
         <restock>1800</restock>
-        <min>1</min>
+        <min>3</min>
         <quantmin>10</quantmin>
         <quantmax>50</quantmax>
         <cost>100</cost>
@@ -3251,10 +3250,10 @@
         <value name="Tier2"/>
     </type>
     <type name="TTC_300Cmag_60rnd">
-        <nominal>2</nominal>
+        <nominal>5</nominal>
         <lifetime>7200</lifetime>
         <restock>1800</restock>
-        <min>1</min>
+        <min>2</min>
         <quantmin>40</quantmin>
         <quantmax>80</quantmax>
         <cost>100</cost>
@@ -3278,10 +3277,10 @@
 	</type>
 	<!-- 1.13.2-->
 	<type name="TTC_SVT40">
-		<nominal>3</nominal>
+		<nominal>10</nominal>
 		<lifetime>7200</lifetime>
 		<restock>7200</restock>
-		<min>2</min>
+		<min>5</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
@@ -3294,10 +3293,10 @@
         <value name="Tier4"/>
 	</type>
     <type name="TTC_Mag_SVT40_10rnd">
-        <nominal>8</nominal>
+        <nominal>20</nominal>
         <lifetime>7200</lifetime>
         <restock>180</restock>
-        <min>4</min>
+        <min>10</min>
         <quantmin>10</quantmin>
         <quantmax>50</quantmax>
         <cost>100</cost>
@@ -3310,10 +3309,10 @@
         <value name="Tier4"/>
     </type>
 	<type name="TTC_SVT40_Bayonet">
-		<nominal>3</nominal>
+		<nominal>10</nominal>
 		<lifetime>7200</lifetime>
 		<restock>7200</restock>
-		<min>2</min>
+		<min>5</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
@@ -3326,10 +3325,10 @@
         <value name="Tier4"/>
 	</type>
     <type name="TTC_SVT40_Optic">
-        <nominal>3</nominal>
+        <nominal>10</nominal>
         <lifetime>7200</lifetime>
         <restock>1800</restock>
-        <min>2</min>
+        <min>3</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -3424,10 +3423,10 @@
         <usage name="Police" />
     </type>
     <type name="TTC_Razor">
-        <nominal>3</nominal>
+        <nominal>5</nominal>
         <lifetime>7200</lifetime>
         <restock>1800</restock>
-        <min>2</min>
+        <min>3</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -3438,10 +3437,10 @@
         <value name="Tier3"/>
     </type>
     <type name="TTC_Buttstock_CAR15">
-        <nominal>2</nominal>
+        <nominal>4</nominal>
         <lifetime>7200</lifetime>
         <restock>1800</restock>
-        <min>1</min>
+        <min>2</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -3468,10 +3467,10 @@
         <value name="Tier4"/>
     </type>
     <type name="TTC_Aimpoint2000">
-        <nominal>3</nominal>
+        <nominal>10</nominal>
         <lifetime>28800</lifetime>
         <restock>1800</restock>
-        <min>1</min>
+        <min>3</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -3508,10 +3507,10 @@
         <value name="Tier3"/>
     </type>
 	<type name="TTC_STG44">
-		<nominal>5</nominal>
+		<nominal>10</nominal>
 		<lifetime>7200</lifetime>
 		<restock>7200</restock>
-		<min>2</min>
+		<min>5</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
@@ -3524,10 +3523,10 @@
         <value name="Tier4"/>
 	</type>
     <type name="TTC_STG44_Magazine_30rnd">
-        <nominal>7</nominal>
+        <nominal>20</nominal>
         <lifetime>7200</lifetime>
         <restock>180</restock>
-        <min>3</min>
+        <min>10</min>
         <quantmin>10</quantmin>
         <quantmax>50</quantmax>
         <cost>100</cost>
@@ -3540,10 +3539,10 @@
         <value name="Tier4"/>
     </type>
 	<type name="TTC_Ammo_792x33">
-        <nominal>15</nominal>
+        <nominal>40</nominal>
         <lifetime>7200</lifetime>
         <restock>800</restock>
-        <min>10</min>
+        <min>30</min>
         <quantmin>10</quantmin>
         <quantmax>80</quantmax>
         <cost>100</cost>
@@ -3556,10 +3555,10 @@
         <value name="Tier4"/>
     </type>
 	<type name="TTC_AmmoBox_792x33_20Rnd">
-        <nominal>10</nominal>
+        <nominal>30</nominal>
         <lifetime>7200</lifetime>
         <restock>800</restock>
-        <min>5</min>
+        <min>20</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -3572,7 +3571,7 @@
         <value name="Tier4"/>
     </type>
 	<type name="TTC_BAR">
-		<nominal>3</nominal>
+		<nominal>5</nominal>
 		<lifetime>7200</lifetime>
 		<restock>7200</restock>
 		<min>2</min>
@@ -3585,10 +3584,10 @@
 		<usage name="Village" />
 	</type>
     <type name="TTC_BAR_Magazine_20rnd">
-        <nominal>5</nominal>
+        <nominal>10</nominal>
         <lifetime>7200</lifetime>
         <restock>180</restock>
-        <min>2</min>
+        <min>5</min>
         <quantmin>10</quantmin>
         <quantmax>50</quantmax>
         <cost>100</cost>
@@ -3598,10 +3597,10 @@
 		<usage name="Village" />
     </type>
 	<type name="TTC_AWM">
-		<nominal>1</nominal>
+		<nominal>2</nominal>
 		<lifetime>10800</lifetime>
 		<restock>1800</restock>
-		<min>0</min>
+		<min>1</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
@@ -3611,7 +3610,7 @@
         <value name="Tier4"/>
 	</type>
     <type name="TTC_AWM_Magazine_5rnd">
-        <nominal>3</nominal>
+        <nominal>5</nominal>
         <lifetime>7200</lifetime>
         <restock>1800</restock>
         <min>2</min>
@@ -3652,10 +3651,10 @@
 		<value name="Tier3" />
 	</type>
 	<type name="TTC_GEVAR43_Tan">
-		<nominal>1</nominal>
+		<nominal>2</nominal>
 		<lifetime>10800</lifetime>
 		<restock>7200</restock>
-		<min>0</min>
+		<min>1</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
@@ -3678,7 +3677,7 @@
 		<value name="Tier3" />
 	</type>
     <type name="TTC_GEVAR43_Magazine_10rnd">
-        <nominal>1</nominal>
+        <nominal>2</nominal>
         <lifetime>7200</lifetime>
         <restock>7200</restock>
         <min>0</min>
@@ -3692,10 +3691,10 @@
         <value name="Tier4"/>
     </type>
 	<type name="TTC_L85">
-		<nominal>3</nominal>
+		<nominal>4</nominal>
 		<lifetime>10800</lifetime>
 		<restock>7200</restock>
-		<min>1</min>
+		<min>0</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
@@ -3706,7 +3705,7 @@
 		<value name="Tier3" />
 	</type>
 	<type name="TTC_TAVOR">
-		<nominal>1</nominal>
+		<nominal>2</nominal>
 		<lifetime>10800</lifetime>
 		<restock>7200</restock>
 		<min>0</min>
@@ -3720,7 +3719,7 @@
         <value name="Tier4"/>
 	</type>
 	<type name="TTC_TAVOR_DMR">
-		<nominal>1</nominal>
+		<nominal>2</nominal>
 		<lifetime>10800</lifetime>
 		<restock>7200</restock>
 		<min>0</min>
@@ -3734,10 +3733,10 @@
         <value name="Tier4"/>
 	</type>
     <type name="TTC_TAVOR_Magazine_30rnd">
-        <nominal>3</nominal>
+        <nominal>5</nominal>
         <lifetime>7200</lifetime>
         <restock>7200</restock>
-        <min>1</min>
+        <min>0</min>
         <quantmin>40</quantmin>
         <quantmax>80</quantmax>
         <cost>100</cost>
@@ -3748,7 +3747,7 @@
         <value name="Tier4"/>
     </type>
     <type name="TTC_TAVOR_Magazine_60rnd">
-        <nominal>1</nominal>
+        <nominal>2</nominal>
         <lifetime>7200</lifetime>
         <restock>7200</restock>
         <min>0</min>
@@ -3761,10 +3760,10 @@
         <value name="Tier4"/>
     </type>
     <type name="TTC_VortexSE_Optic">
-        <nominal>3</nominal>
+        <nominal>5</nominal>
         <lifetime>7200</lifetime>
         <restock>7200</restock>
-        <min>1</min>
+        <min>0</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -3775,7 +3774,7 @@
         <value name="Tier3"/>
     </type>
     <type name="TTC_VortexRHDAMG_Optic">
-        <nominal>1</nominal>
+        <nominal>2</nominal>
         <lifetime>7200</lifetime>
         <restock>7200</restock>
         <min>0</min>
@@ -3789,10 +3788,10 @@
         <value name="Tier4"/>
     </type>
     <type name="TTC_Elcan">
-        <nominal>4</nominal>
+        <nominal>5</nominal>
         <lifetime>7200</lifetime>
         <restock>7200</restock>
-        <min>2</min>
+        <min>0</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -3803,7 +3802,7 @@
         <value name="Tier4"/>
     </type>
 	<type name="TTC_AmmoBox_50AE">
-        <nominal>6</nominal>
+        <nominal>20</nominal>
         <lifetime>7200</lifetime>
         <restock>800</restock>
         <min>2</min>
@@ -3832,10 +3831,10 @@
 		<value name="Tier4" />
 	</type>
 	<type name="TTC_MCX_Spear">
-		<nominal>2</nominal>
+		<nominal>4</nominal>
 		<lifetime>10800</lifetime>
 		<restock>1800</restock>
-		<min>1</min>
+		<min>2</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
@@ -3858,10 +3857,10 @@
         <value name="Tier4"/>
 	</type>
     <type name="TTC_MCX_Spear_Magazine_20rnd">
-        <nominal>3</nominal>
+        <nominal>4</nominal>
         <lifetime>10800</lifetime>
         <restock>1800</restock>
-        <min>2</min>
+        <min>1</min>
         <quantmin>40</quantmin>
         <quantmax>80</quantmax>
         <cost>100</cost>
@@ -3872,7 +3871,7 @@
         <value name="Tier4"/>
     </type>
     <type name="TTC_AmmoBox_277_20Rnd">
-        <nominal>5</nominal>
+        <nominal>10</nominal>
         <lifetime>7200</lifetime>
         <restock>7200</restock>
         <min>2</min>
@@ -3886,10 +3885,10 @@
         <value name="Tier4"/>
     </type>
     <type name="TTC_Ammo_277">
-        <nominal>8</nominal>
+        <nominal>10</nominal>
         <lifetime>7200</lifetime>
         <restock>7200</restock>
-        <min>3</min>
+        <min>2</min>
         <quantmin>10</quantmin>
         <quantmax>50</quantmax>
         <cost>100</cost>
@@ -3914,10 +3913,10 @@
         <usage name="Military"/>
     </type>
     <type name="TTC_MCX_Spear_Suppressor">
-        <nominal>1</nominal>
+        <nominal>4</nominal>
         <lifetime>7200</lifetime>
         <restock>14400</restock>
-        <min>1</min>
+        <min>2</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -3929,10 +3928,10 @@
         <value name="Tier4"/>
     </type>
 	<type name="TTC_MK18">
-		<nominal>1</nominal>
+		<nominal>2</nominal>
 		<lifetime>10800</lifetime>
 		<restock>1800</restock>
-		<min>0</min>
+		<min>1</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
@@ -3958,10 +3957,10 @@
         <value name="Tier4"/>
     </type>
     <type name="TTC_Universal_Suppressor_TAVOR_Tan">
-        <nominal>2</nominal>
+        <nominal>4</nominal>
         <lifetime>7200</lifetime>
         <restock>14400</restock>
-        <min>1</min>
+        <min>2</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -3989,10 +3988,10 @@
 	</type>
 	<!-- Update 1.15.5 -->
     <type name="TTC_44Magnum">
-        <nominal>1</nominal>
+        <nominal>2</nominal>
         <lifetime>28800</lifetime>
         <restock>14400</restock>
-        <min>0</min>
+        <min>1</min>
         <quantmin>0</quantmin>
         <quantmax>80</quantmax>
         <cost>100</cost>
@@ -4001,10 +4000,10 @@
         <usage name="Town"/>
     </type>
     <type name="TTC_44Magnum_Black">
-        <nominal>1</nominal>
+        <nominal>2</nominal>
         <lifetime>28800</lifetime>
         <restock>14400</restock>
-        <min>0</min>
+        <min>1</min>
         <quantmin>0</quantmin>
         <quantmax>80</quantmax>
         <cost>100</cost>
@@ -4013,7 +4012,7 @@
         <usage name="Town"/>
     </type>
    <type name="TTC_AmmoBox_44Mag">
-        <nominal>3</nominal>
+        <nominal>7</nominal>
         <lifetime>28800</lifetime>
         <restock>3600</restock>
         <min>1</min>
@@ -4025,7 +4024,7 @@
         <usage name="Town"/>
     </type>
     <type name="TTC_Ammo_44Mag">
-        <nominal>4</nominal>
+        <nominal>9</nominal>
         <lifetime>28800</lifetime>
         <restock>3600</restock>
         <min>1</min>
@@ -4039,10 +4038,10 @@
         <usage name="Village"/>
     </type>
     <type name="TTC_P320">
-        <nominal>3</nominal>
+        <nominal>10</nominal>
         <lifetime>28800</lifetime>
         <restock>3600</restock>
-        <min>1</min>
+        <min>5</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -4051,10 +4050,10 @@
         <usage name="Military"/>
     </type>
     <type name="TTC_P320_17Rnd">
-        <nominal>5</nominal>
+        <nominal>20</nominal>
         <lifetime>28800</lifetime>
         <restock>3600</restock>
-        <min>2</min>
+        <min>12</min>
         <quantmin>10</quantmin>
         <quantmax>100</quantmax>
         <cost>100</cost>
@@ -4089,6 +4088,7 @@
         <category name="weapons"/>
         <usage name="Military"/>
         <value name="Tier4"/>
+        <usage name="ContaminatedArea"/>
     </type>
     <type name="TTC_M1A_Black">
         <nominal>0</nominal>

@@ -66,7 +66,6 @@
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="weapons"/>
-        <usage name="Military"/>
         <usage name="Village"/>
         <value name="Tier2"/>
         <value name="Tier3"/>
@@ -95,7 +94,6 @@
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="weapons"/>
-        <usage name="Military"/>
         <usage name="Village"/>
         <value name="Tier2"/>
         <value name="Tier3"/>
@@ -4262,10 +4260,9 @@
     <cost>100</cost>
     <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
     <category name="weapons" />
-    <usage name="Military" />
-    <usage name="Police" />
-    <value name="Tier2"/>
+    <usage name="Village"/>
     <value name="Tier3"/>
+    <value name="Tier4"/>
   </type>
   <type name="CableReel">
     <nominal>25</nominal>
@@ -10603,8 +10600,9 @@
     <cost>100</cost>
     <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
     <category name="weapons" />
-    <usage name="Police" />
-    <usage name="Military" />
+    <usage name="Village"/>
+    <value name="Tier3" />
+    <value name="Tier4" />
   </type>
   <type name="Mag_Deagle_9rnd">
     <nominal>20</nominal>
