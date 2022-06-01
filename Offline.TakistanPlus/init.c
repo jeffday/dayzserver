@@ -41,6 +41,9 @@ void main()
 	}
 }
 
+// shemagh options
+autoptr TStringArray SHEMAGHS = {"Shemagh_Brown", "Shemagh_Green", "Shemagh_Red", "Shemagh_White"};
+
 class CustomMission: MissionServer
 {
 	void SetRandomHealth(EntityAI itemEnt)
@@ -81,37 +84,15 @@ class CustomMission: MissionServer
 	{
 		EntityAI itemClothing;
 		EntityAI itemEnt;
-		ItemBase itemBs;
-		float rand;
 
-		itemClothing = player.FindAttachmentBySlotName( "Body" );
-		{
-			itemEnt = player.GetInventory().CreateInInventory("Compass");
-
-            itemEnt = player.GetInventory().CreateInInventory("SodaCan_Pipsi");
-
-            itemEnt = player.GetInventory().CreateInInventory("BandageDressing");
-
-            itemEnt = player.GetInventory().CreateInInventory("TunaCan");
-			
-			itemEnt = player.GetInventory().CreateInInventory("Chemlight_White");			
-			
-		};
-		if ( itemClothing )
-		{
-			SetRandomHealth( itemClothing );
-			
-			itemEnt = itemClothing.GetInventory().CreateInInventory( "TunaCan" );
-						if ( Class.CastTo( itemBs, itemEnt ) )
-				itemBs.SetQuantity( 4 );
-
-			SetRandomHealth( itemEnt );
-
-			string chemlightArray[] = { "Chemlight_White", "Chemlight_Yellow", "Chemlight_Green", "Chemlight_Red" };
-			int rndIndex = Math.RandomInt( 0, 4 );
-			itemEnt = itemClothing.GetInventory().CreateInInventory( chemlightArray[rndIndex] );
-			SetRandomHealth( itemEnt );
-		}
+		int rndIndex = Math.RandomInt( 0, SHEMAGHS.Count(); );
+		
+		itemEnt = player.GetInventory().CreateInInventory(SHEMAGHS[rndIndex]);
+		itemEnt = player.GetInventory().CreateInInventory("SodaCan_Pipsi");
+		itemEnt = player.GetInventory().CreateInInventory("BandageDressing");
+		itemEnt = player.GetInventory().CreateInInventory("TunaCan");
+		itemEnt = player.GetInventory().CreateInInventory("TunaCan");
+		itemEnt = player.GetInventory().CreateInInventory("Chemlight_White");		
 		
 		itemClothing = player.FindAttachmentBySlotName( "Legs" );
 		if ( itemClothing )
