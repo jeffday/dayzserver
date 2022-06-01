@@ -26,9 +26,6 @@
 		<category name="weapons" />
 		<usage name="Village" />
 		<usage name="Hunting" />
-        <value name="Tier2" />
-		<value name="Tier3" />
-        <value name="Tier4" />
 	</type>
 	<type name="TTC_Winchester1873">
 		<nominal>0</nominal>
@@ -42,9 +39,6 @@
 		<category name="weapons" />
 		<usage name="Farm" />
 		<usage name="Village" />
-        <value name="Tier2" />
-		<value name="Tier3" />
-        <value name="Tier4" />
 	</type>
 	<type name="TTC_kar98k">
 		<nominal>15</nominal>
@@ -58,9 +52,6 @@
 		<category name="weapons" />
 		<usage name="Village" />
 		<usage name="Hunting" />
-        <value name="Tier2" />
-		<value name="Tier3" />
-        <value name="Tier4" />
 	</type>
     <type name="TTC_R700">
         <nominal>14</nominal>
@@ -73,9 +64,6 @@
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="weapons"/>
         <usage name="Hunting"/>
-        <value name="Tier2" />
-		<value name="Tier3" />
-        <value name="Tier4" />
     </type>
 	<type name="TTCSR25">
 		<nominal>0</nominal>
@@ -297,10 +285,10 @@
 		<value name="Tier4" />
 	</type>
     <type name="TTC_Universal_Suppressor_BLACK">
-        <nominal>0</nominal>
+        <nominal>10</nominal>
         <lifetime>7200</lifetime>
         <restock>14400</restock>
-        <min>0</min>
+        <min>5</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -351,9 +339,6 @@
         <usage name="Town"/>
         <usage name="Village"/>
 	    <usage name="Hunting"/>	
-        <value name="Tier2" />
-		<value name="Tier3" />
-        <value name="Tier4" />
     </type>
 	<type name="TTC_AmmoBox_8mm_20Rnd">
         <nominal>30</nominal>
@@ -368,9 +353,6 @@
         <usage name="Town"/>
         <usage name="Village"/>
 	    <usage name="Hunting"/>
-        <value name="Tier2" />
-		<value name="Tier3" />
-        <value name="Tier4" />
     </type>
     <type name="TTC_Buttstock2">
         <nominal>0</nominal>
@@ -918,10 +900,10 @@
     </type>
 	<!-- New universal suppressor colors -->
     <type name="TTC_Universal_Suppressor_Tan">
-        <nominal>25</nominal>
+        <nominal>15</nominal>
         <lifetime>7200</lifetime>
         <restock>14400</restock>
-        <min>10</min>
+        <min>5</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -1525,10 +1507,10 @@
         <value name="Tier4"/>
     </type>
     <type name="TTC_DMR_AFG">
-        <nominal>0</nominal>
+        <nominal>2</nominal>
         <lifetime>7200</lifetime>
         <restock>14400</restock>
-        <min>0</min>
+        <min>1</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -1554,10 +1536,10 @@
         <usage name="Military"/>
     </type>
     <type name="TTC_DMR_AFG_Tan">
-        <nominal>6</nominal>
+        <nominal>4</nominal>
         <lifetime>7200</lifetime>
         <restock>14400</restock>
-        <min>3</min>
+        <min>2</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -1570,10 +1552,10 @@
         <value name="Tier4"/>
     </type>
     <type name="TTC_DMR_VFG">
-        <nominal>0</nominal>
+        <nominal>2</nominal>
         <lifetime>7200</lifetime>
         <restock>14400</restock>
-        <min>0</min>
+        <min>1</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -1599,10 +1581,10 @@
         <usage name="Military"/>
     </type>
     <type name="TTC_DMR_VFG_Tan">
-        <nominal>6</nominal>
+        <nominal>4</nominal>
         <lifetime>7200</lifetime>
         <restock>14400</restock>
-        <min>3</min>
+        <min>2</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -1763,10 +1745,10 @@
 		<usage name="Military" />
 	</type>
     <type name="TTC_ButtstockHK">
-        <nominal>5</nominal>
+        <nominal>3</nominal>
         <lifetime>7200</lifetime>
         <restock>14400</restock>
-        <min>2</min>
+        <min>1</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -1779,10 +1761,10 @@
         <value name="Tier4" />
     </type>
     <type name="TTC_ButtstockHK_Black">
-        <nominal>0</nominal>
+        <nominal>2</nominal>
         <lifetime>7200</lifetime>
         <restock>14400</restock>
-        <min>0</min>
+        <min>1</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -1806,9 +1788,6 @@
 		<category name="weapons" />
 		<usage name="Village" />
 		<usage name="Hunting" />
-        <value name="Tier2" />
-		<value name="Tier3" />
-        <value name="Tier4" />
 	</type>
 	<type name="TTC_M1Garand">
 		<nominal>5</nominal>
@@ -1881,7 +1860,7 @@
         <value name="Tier4"/>
     </type>
 	<type name="TTC_MRAD">
-		<nominal>4</nominal>
+		<nominal>2</nominal>
 		<lifetime>10800</lifetime>
 		<restock>1800</restock>
 		<min>1</min>
@@ -1947,9 +1926,6 @@
         <usage name="Town"/>
         <usage name="Village"/>
 	    <usage name="Hunting"/>
-        <value name="Tier2" />
-		<value name="Tier3" />
-        <value name="Tier4" />
     </type>
     <type name="TTC_Ammo_303">
         <nominal>15</nominal>
@@ -1964,9 +1940,6 @@
         <usage name="Town"/>
         <usage name="Village"/>
 	    <usage name="Hunting"/>
-        <value name="Tier2" />
-		<value name="Tier3" />
-        <value name="Tier4" />
     </type>
     <type name="TTC_AmmoBox_3006_20Rnd">
         <nominal>40</nominal>
@@ -1981,9 +1954,6 @@
         <usage name="Town"/>
         <usage name="Village"/>
 	    <usage name="Hunting"/>
-        <value name="Tier2" />
-		<value name="Tier3" />
-        <value name="Tier4" />
     </type>
     <type name="TTC_Ammo_3006">
         <nominal>30</nominal>
@@ -1998,9 +1968,6 @@
         <usage name="Town"/>
         <usage name="Village"/>
 	    <usage name="Hunting"/>
-        <value name="Tier2" />
-		<value name="Tier3" />
-        <value name="Tier4" />
     </type>
     <type name="TTC_AmmoBox_4570_20Rnd">
         <nominal>0</nominal>
@@ -2015,9 +1982,6 @@
         <usage name="Town"/>
         <usage name="Village"/>
 	    <usage name="Hunting"/>
-        <value name="Tier2" />
-		<value name="Tier3" />
-        <value name="Tier4" />
     </type>
     <type name="TTC_Ammo_4570">
         <nominal>0</nominal>
@@ -2032,9 +1996,6 @@
         <usage name="Town"/>
         <usage name="Village"/>
 	    <usage name="Hunting"/>
-        <value name="Tier2" />
-		<value name="Tier3" />
-        <value name="Tier4" />
     </type>
 	<!-- Update 1.11.1 -->
 	<type name="TTC_AK12">
@@ -2389,9 +2350,6 @@
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="weapons"/>
         <usage name="Hunting"/>
-        <value name="Tier2" />
-		<value name="Tier3" />
-        <value name="Tier4" />
     </type>
 	<type name="TTC_AKMod_RifleFrame">
 		<nominal>4</nominal>
@@ -2436,10 +2394,10 @@
 		<value name="Tier4" />
 	</type>
     <type name="TTC_AKMod_bttstk">
-        <nominal>0</nominal>
+        <nominal>1</nominal>
         <lifetime>14400</lifetime>
         <restock>1800</restock>
-        <min>0</min>
+        <min>1</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -2498,7 +2456,7 @@
         <usage name="Military"/>
     </type>
 	<type name="TTC_AKMod_Tan_bttstk">
-        <nominal>2</nominal>
+        <nominal>1</nominal>
         <lifetime>14400</lifetime>
         <restock>1800</restock>
         <min>1</min>
@@ -2566,10 +2524,10 @@
 		<value name="Tier4" />
     </type>
 	<type name="TTC_AKMod_Hndguard">
-        <nominal>0</nominal>
+        <nominal>1</nominal>
         <lifetime>14400</lifetime>
         <restock>7200</restock>
-        <min>0</min>
+        <min>1</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -2628,7 +2586,7 @@
         <usage name="Military"/>
     </type>
 	<type name="TTC_AKMod_Tan_Hndguard">
-        <nominal>2</nominal>
+        <nominal>1</nominal>
         <lifetime>14400</lifetime>
         <restock>7200</restock>
         <min>1</min>
@@ -2806,20 +2764,20 @@
     </type>
 	<!-- 1.13-->
 	<type name="TTC_M24_NEW_Wood">
-		<nominal>2</nominal>
+		<nominal>1</nominal>
 		<lifetime>10800</lifetime>
 		<restock>1800</restock>
-		<min>1</min>
+		<min>0</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
 		<flags count_in_cargo="1" count_in_hoarder="1" count_in_map="1" count_in_player="1" crafted="0" deloot="0" />
 		<category name="weapons" />
 		<usage name="Military" />
-		<value name="Tier3" />
+		<value name="Tier4" />
 	</type>
 	<type name="TTC_M24_NEW_Black">
-		<nominal>2</nominal>
+		<nominal>1</nominal>
 		<lifetime>10800</lifetime>
 		<restock>1800</restock>
 		<min>0</min>
@@ -3068,9 +3026,6 @@
         <category name="weapons" />
         <usage name="Police" />
         <usage name="Military" />
-        <value name="Tier2" />
-        <value name="Tier3" />
-        <value name="Tier4" />
     </type>
     <type name="TTC_Mag_Glock_17Rnd">
         <nominal>20</nominal>
@@ -3084,8 +3039,6 @@
         <category name="weapons" />
         <usage name="Police" />
         <usage name="Military" />
-        <value name="Tier2"/>
-        <value name="Tier3"/>
     </type>
     <type name="TTC_M9_Custom">
         <nominal>0</nominal>
@@ -3550,9 +3503,6 @@
         <category name="weapons"/>
 		<usage name="Farm" />
 		<usage name="Village" />
-        <value name="Tier2"/>
-        <value name="Tier3"/>
-        <value name="Tier4"/>
     </type>
 	<type name="TTC_AmmoBox_792x33_20Rnd">
         <nominal>30</nominal>
@@ -3566,9 +3516,6 @@
         <category name="weapons"/>
 		<usage name="Farm" />
 		<usage name="Village" />
-        <value name="Tier2"/>
-        <value name="Tier3"/>
-        <value name="Tier4"/>
     </type>
 	<type name="TTC_BAR">
 		<nominal>5</nominal>
@@ -4062,10 +4009,10 @@
         <usage name="Military"/>
     </type>
     <type name="TTC_Pistol_Optic">
-        <nominal>2</nominal>
+        <nominal>5</nominal>
         <lifetime>14400</lifetime>
         <restock>3600</restock>
-        <min>1</min>
+        <min>2</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
