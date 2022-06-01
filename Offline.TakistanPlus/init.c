@@ -85,8 +85,8 @@ class CustomMission: MissionServer
 		EntityAI itemClothing;
 		EntityAI itemEnt;
 
-		int rndIndex = Math.RandomInt( 0, SHEMAGHS.Count(); );
-		
+		int rndIndex = Math.RandomInt(0, SHEMAGHS.Count());
+
 		itemEnt = player.GetInventory().CreateInInventory(SHEMAGHS[rndIndex]);
 		itemEnt = player.GetInventory().CreateInInventory("SodaCan_Pipsi");
 		itemEnt = player.GetInventory().CreateInInventory("BandageDressing");
