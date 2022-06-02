@@ -3430,8 +3430,8 @@
     <lifetime>14400</lifetime>
     <restock>0</restock>
     <min>30</min>
-    <quantmin>-1</quantmin>
-    <quantmax>-1</quantmax>
+    <quantmin>50</quantmin>
+    <quantmax>100</quantmax>
     <cost>100</cost>
     <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
     <category name="tools" />
@@ -3630,10 +3630,10 @@
     <usage name="Village" />
   </type>
   <type name="Binoculars">
-    <nominal>25</nominal>
+    <nominal>20</nominal>
     <lifetime>14400</lifetime>
     <restock>0</restock>
-    <min>20</min>
+    <min>10</min>
     <quantmin>-1</quantmin>
     <quantmax>-1</quantmax>
     <cost>100</cost>
@@ -4238,9 +4238,7 @@
     <cost>100</cost>
     <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
     <category name="weapons" />
-	<usage name="Military" />
     <usage name="Police" />
-    <value name="Tier3"/>
   </type>
   <type name="CZ75">
     <nominal>15</nominal>
@@ -4565,8 +4563,8 @@
     <lifetime>28800</lifetime>
     <restock>0</restock>
     <min>12</min>
-    <quantmin>20</quantmin>
-    <quantmax>100</quantmax>
+    <quantmin>10</quantmin>
+    <quantmax>60</quantmax>
     <cost>100</cost>
     <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
     <category name="tools" />
@@ -9357,7 +9355,7 @@
     <value name="Tier4" />
   </type>
   <type name="KashtanOptic">
-    <nominal>15</nominal>
+    <nominal>12</nominal>
     <lifetime>28800</lifetime>
     <restock>1800</restock>
     <min>8</min>
@@ -9395,7 +9393,7 @@
     <usage name="Town" />
   </type>
   <type name="KobraOptic">
-    <nominal>15</nominal>
+    <nominal>12</nominal>
     <lifetime>14400</lifetime>
     <restock>1800</restock>
     <min>8</min>
@@ -9821,6 +9819,7 @@
     <category name="tools" />
     <usage name="Industrial" />
     <usage name="Village" />
+    <usage name="Town" />
   </type>
   <type name="LeatherShirt_Natural">
     <nominal>0</nominal>
@@ -10423,7 +10422,7 @@
     <nominal>20</nominal>
     <lifetime>14400</lifetime>
     <restock>0</restock>
-    <min>15</min>
+    <min>10</min>
     <quantmin>10</quantmin>
     <quantmax>100</quantmax>
     <cost>100</cost>
@@ -10580,7 +10579,6 @@
     <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
     <category name="weapons" />
     <usage name="Police" />
-	<usage name="Military" />
   </type>
   <type name="Mag_CZ75_15Rnd">
     <nominal>20</nominal>
@@ -10722,17 +10720,16 @@
 	<usage name="Town"/>
   </type>
   <type name="Mag_STANAGCoupled_30Rnd">
-    <nominal>12</nominal>
+    <nominal>2</nominal>
     <lifetime>28800</lifetime>
     <restock>2700</restock>
-    <min>10</min>
+    <min>1</min>
     <quantmin>10</quantmin>
     <quantmax>80</quantmax>
     <cost>100</cost>
     <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
     <category name="weapons" />
     <usage name="Military" />
-    <value name="Tier3" />
     <value name="Tier4" />
   </type>
   <type name="Mag_STANAG_30Rnd">
@@ -10750,10 +10747,10 @@
     <value name="Tier4" />
   </type>
   <type name="Mag_SVD_10Rnd">
-    <nominal>15</nominal>
+    <nominal>10</nominal>
     <lifetime>28800</lifetime>
     <restock>1800</restock>
-    <min>10</min>
+    <min>5</min>
     <quantmin>20</quantmin>
     <quantmax>90</quantmax>
     <cost>100</cost>
@@ -10799,7 +10796,7 @@
     <quantmin>15</quantmin>
     <quantmax>90</quantmax>
     <cost>100</cost>
-    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="1" />
     <category name="weapons" />
     <usage name="Military" />
     <value name="Tier3" />
@@ -10848,10 +10845,10 @@
     <value name="Tier4" />
   </type>
   <type name="Mag_VSS_10Rnd">
-    <nominal>15</nominal>
+    <nominal>10</nominal>
     <lifetime>28800</lifetime>
     <restock>3600</restock>
-    <min>10</min>
+    <min>5</min>
     <quantmin>10</quantmin>
     <quantmax>60</quantmax>
     <cost>100</cost>
@@ -11171,10 +11168,10 @@
     <usage name="Village" />
   </type>
   <type name="Megaphone">
-    <nominal>15</nominal>
+    <nominal>10</nominal>
     <lifetime>14400</lifetime>
     <restock>0</restock>
-    <min>10</min>
+    <min>5</min>
     <quantmin>-1</quantmin>
     <quantmax>-1</quantmax>
     <cost>100</cost>
@@ -11184,10 +11181,10 @@
     <usage name="Police" />
   </type>
   <type name="MetalPlate">
-    <nominal>40</nominal>
+    <nominal>30</nominal>
     <lifetime>14400</lifetime>
     <restock>0</restock>
-    <min>30</min>
+    <min>20</min>
     <quantmin>10</quantmin>
     <quantmax>60</quantmax>
     <cost>100</cost>
@@ -11196,10 +11193,10 @@
     <usage name="Industrial" />
   </type>
   <type name="MetalWire">
-    <nominal>50</nominal>
+    <nominal>30</nominal>
     <lifetime>14400</lifetime>
     <restock>0</restock>
-    <min>40</min>
+    <min>20</min>
     <quantmin>-1</quantmin>
     <quantmax>-1</quantmax>
     <cost>100</cost>
@@ -11223,10 +11220,10 @@
     <value name="Tier4" />
   </type>
   <type name="MilitaryBelt">
-    <nominal>20</nominal>
+    <nominal>15</nominal>
     <lifetime>28800</lifetime>
     <restock>1800</restock>
-    <min>12</min>
+    <min>10</min>
     <quantmin>-1</quantmin>
     <quantmax>-1</quantmax>
     <cost>100</cost>
@@ -11518,10 +11515,10 @@
     <category name="weapons" />
   </type>
   <type name="Mosin_Bayonet">
-    <nominal>20</nominal>
+    <nominal>15</nominal>
     <lifetime>28800</lifetime>
     <restock>0</restock>
-    <min>15</min>
+    <min>10</min>
     <quantmin>-1</quantmin>
     <quantmax>-1</quantmax>
     <cost>100</cost>
@@ -11532,10 +11529,10 @@
     <usage name="Village" />
   </type>
   <type name="Mosin_Compensator">
-    <nominal>20</nominal>
+    <nominal>15</nominal>
     <lifetime>14400</lifetime>
     <restock>0</restock>
-    <min>15</min>
+    <min>10</min>
     <quantmin>-1</quantmin>
     <quantmax>-1</quantmax>
     <cost>100</cost>
@@ -11785,10 +11782,10 @@
     <usage name="Medic" />
   </type>
   <type name="NVGHeadstrap">
-    <nominal>20</nominal>
+    <nominal>10</nominal>
     <lifetime>28800</lifetime>
     <restock>3600</restock>
-    <min>15</min>
+    <min>5</min>
     <quantmin>-1</quantmin>
     <quantmax>-1</quantmax>
     <cost>100</cost>
@@ -11799,10 +11796,10 @@
     <value name="Tier4" />
   </type>
   <type name="NVGoggles">
-    <nominal>10</nominal>
+    <nominal>2</nominal>
     <lifetime>28800</lifetime>
     <restock>3600</restock>
-    <min>8</min>
+    <min>1</min>
     <quantmin>-1</quantmin>
     <quantmax>-1</quantmax>
     <cost>100</cost>
@@ -12005,10 +12002,10 @@
     <category name="tools" />
   </type>
   <type name="PSO11Optic">
-    <nominal>15</nominal>
+    <nominal>10</nominal>
     <lifetime>28800</lifetime>
     <restock>1800</restock>
-    <min>10</min>
+    <min>5</min>
     <quantmin>-1</quantmin>
     <quantmax>-1</quantmax>
     <cost>100</cost>
@@ -12017,10 +12014,10 @@
     <usage name="Military" />
   </type>
   <type name="PSO1Optic">
-    <nominal>15</nominal>
+    <nominal>10</nominal>
     <lifetime>14400</lifetime>
     <restock>1800</restock>
-    <min>10</min>
+    <min>5</min>
     <quantmin>-1</quantmin>
     <quantmax>-1</quantmax>
     <cost>100</cost>
@@ -12046,8 +12043,8 @@
     <lifetime>28800</lifetime>
     <restock>0</restock>
     <min>20</min>
-    <quantmin>20</quantmin>
-    <quantmax>100</quantmax>
+    <quantmin>10</quantmin>
+    <quantmax>60</quantmax>
     <cost>100</cost>
     <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
     <category name="tools" />
@@ -15425,8 +15422,8 @@
     <lifetime>14400</lifetime>
     <restock>0</restock>
     <min>12</min>
-    <quantmin>20</quantmin>
-    <quantmax>100</quantmax>
+    <quantmin>10</quantmin>
+    <quantmax>60</quantmax>
     <cost>100</cost>
     <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
     <category name="tools" />
