@@ -6739,10 +6739,10 @@
     <usage name="Town" />
   </type>
   <type name="Flaregun">
-    <nominal>20</nominal>
+    <nominal>10</nominal>
     <lifetime>14400</lifetime>
     <restock>0</restock>
-    <min>10</min>
+    <min>5</min>
     <quantmin>-1</quantmin>
     <quantmax>-1</quantmax>
     <cost>100</cost>
@@ -7585,7 +7585,7 @@
     <usage name="Prison" />
   </type>
   <type name="Handcuffs">
-    <nominal>20</nominal>
+    <nominal>15</nominal>
     <lifetime>14400</lifetime>
     <restock>0</restock>
     <min>10</min>
@@ -11956,7 +11956,6 @@
     <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
     <category name="clothes" />
     <usage name="Military" />
-	<usage name="Police" />
   </type>
   <type name="OffroadHatchback">
     <nominal>0</nominal>
@@ -12418,10 +12417,10 @@
     <usage name="Farm" />
   </type>
   <type name="PistolOptic">
-    <nominal>15</nominal>
+    <nominal>10</nominal>
     <lifetime>28800</lifetime>
     <restock>1800</restock>
-    <min>10</min>
+    <min>5</min>
     <quantmin>-1</quantmin>
     <quantmax>-1</quantmax>
     <cost>100</cost>
@@ -12632,7 +12631,7 @@
     <usage name="Police" />
   </type>
   <type name="PolicePantsOrel">
-    <nominal>15</nominal>
+    <nominal>10</nominal>
     <lifetime>7200</lifetime>
     <restock>0</restock>
     <min>5</min>
@@ -12732,10 +12731,10 @@
     <usage name="Industrial" />
   </type>
   <type name="PressVest_Blue">
-    <nominal>10</nominal>
+    <nominal>8</nominal>
     <lifetime>14400</lifetime>
     <restock>0</restock>
-    <min>5</min>
+    <min>4</min>
     <quantmin>-1</quantmin>
     <quantmax>-1</quantmax>
     <cost>100</cost>
@@ -12744,10 +12743,10 @@
     <usage name="Police" />
   </type>
   <type name="PressVest_LightBlue">
-    <nominal>10</nominal>
+    <nominal>8</nominal>
     <lifetime>14400</lifetime>
     <restock>0</restock>
-    <min>5</min>
+    <min>4</min>
     <quantmin>-1</quantmin>
     <quantmax>-1</quantmax>
     <cost>100</cost>
