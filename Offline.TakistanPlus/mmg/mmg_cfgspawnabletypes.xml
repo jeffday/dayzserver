@@ -132,6 +132,16 @@
 			<item name="MMG_nbc_pouch" 			chance="0.05" />
 		</attachments>
 	</type>
+	<type name="MMG_JPC_Vest_atacs">
+		<attachments chance="1.00">
+			<item name="MMG_Mag_Pouch_atacs" 		chance="0.20" />
+			<item name="MMG_Med_Pouch_atacs" 		chance="0.20" />
+			<item name="MMG_ammo_pouch_atacs"		chance="0.20" />
+			<item name="MMG_bottle_atacs" 			chance="0.20" />
+			<item name="MMG_sheath_atacs" 			chance="0.20" />
+			<item name="MMG_nbc_pouch" 				chance="0.05" />
+		</attachments>
+	</type>
 <!-- TT-VEST --> 
 	<type name="MMG_tt_vest_black">
 		<attachments chance="1.00">
@@ -263,6 +273,16 @@
 			<item name="MMG_nbc_pouch" 				chance="0.05" />
 		</attachments>
 	</type>
+	<type name="MMG_tt_vest_atacs">
+		<attachments chance="1.00">
+			<item name="MMG_double_magpouch_atacs" 	chance="0.20" />
+			<item name="MMG_double_magpouch_atacs" 	chance="0.20" />
+			<item name="MMG_Med_Pouch_atacs" 		chance="0.20" />
+			<item name="MMG_ammo_Pouch_atacs" 		chance="0.20" />
+			<item name="MMG_bottle_atacs" 			chance="0.20" />
+			<item name="MMG_nbc_pouch" 				chance="0.05" />
+		</attachments>
+	</type>
 <!-- CHESTRIG --> 
 	<type name="MMG_chestrig_black">
 		<attachments chance="1.00">
@@ -381,6 +401,15 @@
 			<item name="MMG_nbc_pouch" 			chance="0.05" />
 		</attachments>
 	</type>
+	<type name="mmg_chestrig_atacs">
+		<attachments chance="1.00">
+			<item name="MMG_Med_Pouch_atacs" 		chance="0.20" />
+			<item name="MMG_ammo_pouch_atacs"		chance="0.20" />
+			<item name="MMG_bottle_atacs" 			chance="0.20" />
+			<item name="MMG_sheath_atacs" 			chance="0.20" />
+			<item name="MMG_nbc_pouch" 				chance="0.05" />
+		</attachments>
+	</type>
 <!-- MK III VEST -->
 	<type name="MMG_MK_III_Armor_black">
 		<attachments chance="1.00">
@@ -497,6 +526,15 @@
 			<item name="MMG_Med_Pouch_ukraine" 			chance="0.20" />
 			<item name="MMG_tactical_pouch_ukraine" 	chance="0.20" />
 			<item name="MMG_nbc_pouch" 				chance="0.05" />
+		</attachments>
+	</type>
+	<type name="MMG_MK_III_Armor_atacs">
+		<attachments chance="1.00">
+			<item name="MMG_single_magpouch_atacs" 		chance="0.20" />
+			<item name="MMG_double_magpouch_atacs" 		chance="0.20" />
+			<item name="MMG_Med_Pouch_atacs" 			chance="0.20" />
+			<item name="MMG_tactical_pouch_atacs" 		chance="0.20" />
+			<item name="MMG_nbc_pouch" 					chance="0.05" />
 		</attachments>
 	</type>
 <!-- MK-V VEST -->
@@ -628,6 +666,16 @@
 			<item name="MMG_mk5_utility_pouch_ukraine" 		chance="0.20" />
 			<item name="MMG_mk5_grenade_pouch_ukraine" 	chance="0.20" />
 			<item name="MMG_sheath_ukraine" 				chance="0.20" />
+		</attachments>
+	</type>
+	<type name="MMG_MK_V_Armor_atacs">
+		<attachments chance="1.00">
+			<item name="MMG_Holster_atacs" 				chance="0.20" />
+			<item name="MMG_double_magpouch_atacs" 		chance="0.20" />
+			<item name="MMG_double_magpouch_atacs" 		chance="0.20" />
+			<item name="MMG_mk5_utility_pouch_atacs" 	chance="0.20" />
+			<item name="MMG_mk5_grenade_pouch_atacs" 	chance="0.20" />
+			<item name="MMG_sheath_atacs" 				chance="0.20" />
 		</attachments>
 	</type>
 <!-- BELT -->
@@ -853,6 +901,23 @@
 			<item name="MMG_nbc_pouch" 					chance="0.05" />	
 		</attachments>
 	</type>
+	<type name="MMG_falcon_b1_belt_atacs">
+		<attachments chance="1.00">
+			<item name="MMG_Med_Pouch_atacs" 			chance="0.20" />
+			<item name="MMG_tactical_pouch_atacs" 		chance="0.20" />
+			<item name="MMG_Holster_atacs" 				chance="0.20" />
+			<item name="MMG_carbine_red" 				chance="0.05" />
+			<item name="MMG_carbine_blue" 				chance="0.05" />
+			<item name="MMG_carbine_green" 				chance="0.05" />
+			<item name="MMG_carbine_black" 				chance="0.05" />
+			<item name="MMG_carbine_grey" 				chance="0.05" />
+		    <item name="MMG_carbine_orange" 			chance="0.05" />
+			<item name="Epinephrine" 					chance="0.10" />
+			<item name="Morphine" 						chance="0.10" />
+			<item name="MMG_sheath_atacs" 				chance="0.20" />
+			<item name="MMG_nbc_pouch" 					chance="0.05" />	
+		</attachments>
+	</type>
 <!-- MMG CARRIER PACK -->
 	<type name="MMG_carrier_backpack_black">
 		<attachments chance="1.00">
@@ -1023,6 +1088,19 @@
 		<cargo preset="mixArmy" />
 		<cargo preset="foodVillage" />
 	</type>
+	<type name="MMG_carrier_backpack_atacs">
+		<attachments chance="1.00">
+			<item name="PersonalRadio" 		chance="0.33" />
+			<item name="Chemlight_Blue" 	chance="0.05" />
+			<item name="Chemlight_Green" 	chance="0.05" />
+			<item name="Chemlight_Red" 		chance="0.05" />
+			<item name="Chemlight_White" 	chance="0.05" />
+			<item name="Chemlight_yellow" 	chance="0.05" />
+		</attachments>
+		<cargo preset="mixArmy" />
+		<cargo preset="mixArmy" />
+		<cargo preset="foodVillage" />
+	</type>
 <!-- MMG SUPPLYBAG -->
 	<type name="MMG_supplybag_black">
 		<attachments chance="1.00">
@@ -1168,6 +1246,19 @@
 		<cargo preset="foodVillage" />
 	</type>
 	<type name="MMG_supplybag_ukraine">
+		<attachments chance="1.00">
+			<item name="PersonalRadio" 		chance="0.33" />
+			<item name="Chemlight_Blue" 	chance="0.05" />
+			<item name="Chemlight_Green" 	chance="0.05" />
+			<item name="Chemlight_Red" 		chance="0.05" />
+			<item name="Chemlight_White" 	chance="0.05" />
+			<item name="Chemlight_yellow" 	chance="0.05" />
+		</attachments>
+		<cargo preset="mixArmy" />
+		<cargo preset="mixArmy" />
+		<cargo preset="foodVillage" />
+	</type>
+	<type name="MMG_supplybag_atacs">
 		<attachments chance="1.00">
 			<item name="PersonalRadio" 		chance="0.33" />
 			<item name="Chemlight_Blue" 	chance="0.05" />
@@ -1338,6 +1429,19 @@
 		<cargo preset="foodVillage" />
 	</type>
 	<type name="MMG_assault_pack_ukraine">
+		<attachments chance="1.00">
+			<item name="PersonalRadio" 		chance="0.33" />
+			<item name="Chemlight_Blue" 	chance="0.05" />
+			<item name="Chemlight_Green" 	hance="0.05" />
+			<item name="Chemlight_Red" 		chance="0.05" />
+			<item name="Chemlight_White" 	chance="0.05" />
+			<item name="Chemlight_yellow" 	chance="0.05" />
+		</attachments>
+		<cargo preset="mixArmy" />
+		<cargo preset="mixArmy" />
+		<cargo preset="foodVillage" />
+	</type>
+	<type name="MMG_assault_pack_atacs">
 		<attachments chance="1.00">
 			<item name="PersonalRadio" 		chance="0.33" />
 			<item name="Chemlight_Blue" 	chance="0.05" />
@@ -1559,6 +1663,22 @@
 		<cargo preset="mixArmy" />
 		<cargo preset="foodVillage" />
 	</type>
+	<type name="MMG_camelback_atacs">
+		<attachments chance="1.00">
+			<item name="PersonalRadio" 		chance="0.33" />
+			<item name="Chemlight_Blue" 	chance="0.05" />
+			<item name="Chemlight_Green" 	chance="0.05" />
+			<item name="Chemlight_Red" 		chance="0.05" />
+			<item name="Chemlight_White" 	chance="0.05" />
+			<item name="Chemlight_yellow" 	chance="0.05" />
+			<item name="MMG_Med_Pouch_atacs" 	chance="0.20" />
+			<item name="MMG_bottle_atacs" 	chance="0.20" />
+			<item name="MMG_nbc_pouch" 		chance="0.05" />
+		</attachments>
+		<cargo preset="mixArmy" />
+		<cargo preset="mixArmy" />
+		<cargo preset="foodVillage" />
+	</type>
 <!-- POUCHES -->
 <!-- MMG MAG POUCH -->
 	<type name="MMG_Mag_Pouch_Black">
@@ -1598,6 +1718,9 @@
 		<cargo preset="mixArmy" />
 	</type>
 	<type name="MMG_mag_pouch_ukraine">
+		<cargo preset="mixArmy" />
+	</type>
+	<type name="MMG_mag_pouch_atacs">
 		<cargo preset="mixArmy" />
 	</type>
 	
@@ -1836,6 +1959,24 @@
 			<item name="BloodTestKit" />
 		</cargo>
 	</type>
+	<type name="MMG_Med_Pouch_atacs">
+		<tag name="shelves" />
+		<cargo chance="1">
+			<item name="BandageDressing" />
+		</cargo>
+		<cargo chance="0.8">
+			<item name="Thermometer" />
+		</cargo>
+		<cargo chance="0.8">
+			<item name="StartKitIV" />
+		</cargo>
+		<cargo chance="0.8">
+			<item name="BloodBagEmpty" />
+		</cargo>
+		<cargo chance="0.8">
+			<item name="BloodTestKit" />
+		</cargo>
+	</type>
 	
 <!-- MMG AMMO POUCH -->
 	<type name="MMG_ammo_pouch_black">
@@ -1875,6 +2016,9 @@
 		<cargo preset="mixArmy" />
 	</type>
 	<type name="MMG_ammo_pouch_ukraine">
+		<cargo preset="mixArmy" />
+	</type>
+	<type name="MMG_ammo_pouch_atacs">
 		<cargo preset="mixArmy" />
 	</type>
 	
@@ -1918,6 +2062,9 @@
 	<type name="MMG_tactical_pouch_ukraine">
 		<cargo preset="mixArmy" />
 	</type>
+	<type name="MMG_tactical_pouch_atacs">
+		<cargo preset="mixArmy" />
+	</type>
 	
 <!-- MMG MK-V UTILITY POUCH -->
 	<type name="MMG_mk5_utility_pouch_black">
@@ -1957,6 +2104,9 @@
 		<cargo preset="mixArmy" />
 	</type>
 	<type name="MMG_mk5_utility_pouch_ukraine">
+		<cargo preset="mixArmy" />
+	</type>
+	<type name="MMG_mk5_utility_pouch_atacs">
 		<cargo preset="mixArmy" />
 	</type>
 
@@ -2066,6 +2216,14 @@
 			<item name="UniversalLight" 				chance="0.15" />
 		</attachments>
 	</type>
+	<type name="MMG_tactical_helmet_atacs">
+		<attachments chance="1.00">
+			<item name="MMG_headphones_green" 			chance="0.20" />
+			<item name="mmg_gp_nvg_green" 				chance="0.05" />
+			<item name="NVGoggles" 						chance="0.05" />
+			<item name="UniversalLight" 				chance="0.15" />
+		</attachments>
+	</type>
 	
 <!-- MMG STRIKER HELMET -->
 	<type name="MMG_striker_helmet_black">
@@ -2155,6 +2313,13 @@
 	<type name="MMG_striker_helmet_ukraine">
 		<attachments chance="1.00">
 			<item name="mmg_gp_nvg_green" 				chance="0.05" />
+			<item name="NVGoggles" 						chance="0.05" />
+			<item name="UniversalLight" 				chance="0.15" />
+		</attachments>
+	</type>
+	<type name="MMG_striker_helmet_atacs">
+		<attachments chance="1.00">
+			<item name="mmg_gp_nvg_black" 				chance="0.05" />
 			<item name="NVGoggles" 						chance="0.05" />
 			<item name="UniversalLight" 				chance="0.15" />
 		</attachments>
