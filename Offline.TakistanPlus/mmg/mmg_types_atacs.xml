@@ -3,11 +3,11 @@
 <!--VESTS-->
 
 <types>
-    <type name="MMG_JPC_Vest_ucp">
-        <nominal>5</nominal>
+    <type name="MMG_JPC_Vest_atacs">
+        <nominal>0</nominal>
         <lifetime>7200</lifetime>
         <restock>7200</restock>
-        <min>1</min>
+        <min>0</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -17,11 +17,11 @@
         <value name="Tier3"/>
         <value name="Tier4"/>
     </type>
-    <type name="MMG_tt_Vest_ucp">
-        <nominal>5</nominal>
+    <type name="MMG_tt_Vest_atacs">
+        <nominal>0</nominal>
         <lifetime>7200</lifetime>
         <restock>7200</restock>
-        <min>1</min>
+        <min>0</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -31,11 +31,11 @@
         <value name="Tier3"/>
         <value name="Tier4"/>
     </type>
-	<type name="MMG_chestrig_ucp">
-        <nominal>5</nominal>
+	<type name="MMG_chestrig_atacs">
+        <nominal>0</nominal>
         <lifetime>7200</lifetime>
         <restock>7200</restock>
-        <min>1</min>
+        <min>0</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -46,11 +46,11 @@
         <value name="Tier3"/>
         <value name="Tier4"/>
     </type>
-    <type name="MMG_MK_III_Armor_ucp">
-        <nominal>5</nominal>
+    <type name="MMG_MK_III_Armor_atacs">
+        <nominal>0</nominal>
         <lifetime>7200</lifetime>
         <restock>7200</restock>
-        <min>1</min>
+        <min>0</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -60,11 +60,11 @@
         <value name="Tier3"/>
         <value name="Tier4"/>
     </type>
-    <type name="MMG_MK_V_Armor_ucp">
-        <nominal>5</nominal>
+    <type name="MMG_MK_V_Armor_atacs">
+        <nominal>0</nominal>
         <lifetime>7200</lifetime>
         <restock>7200</restock>
-        <min>1</min>
+        <min>0</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -76,11 +76,11 @@
 
 <!--POUCHES-->
 
-    <type name="MMG_Mag_Pouch_ucp">
-        <nominal>5</nominal>
+    <type name="MMG_Mag_Pouch_atacs">
+        <nominal>0</nominal>
         <lifetime>7200</lifetime>
         <restock>7200</restock>
-        <min>1</min>
+        <min>0</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -90,11 +90,11 @@
         <value name="Tier3"/>
         <value name="Tier4"/>
     </type>
-    <type name="MMG_triple_magpouch_ucp">
-        <nominal>5</nominal>
+    <type name="MMG_triple_magpouch_atacs">
+        <nominal>0</nominal>
         <lifetime>7200</lifetime>
         <restock>7200</restock>
-        <min>1</min>
+        <min>0</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -104,11 +104,11 @@
         <value name="Tier3"/>
         <value name="Tier4"/>
     </type>
-    <type name="MMG_double_magpouch_ucp">
-        <nominal>5</nominal>
+    <type name="MMG_double_magpouch_atacs">
+        <nominal>0</nominal>
         <lifetime>7200</lifetime>
         <restock>7200</restock>
-        <min>1</min>
+        <min>0</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -118,11 +118,11 @@
         <value name="Tier3"/>
         <value name="Tier4"/>
     </type>
-    <type name="MMG_Med_Pouch_ucp">
-        <nominal>5</nominal>
+    <type name="MMG_Med_Pouch_atacs">
+        <nominal>0</nominal>
         <lifetime>7200</lifetime>
         <restock>7200</restock>
-        <min>1</min>
+        <min>0</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -132,11 +132,11 @@
         <value name="Tier3"/>
         <value name="Tier4"/>
     </type>
-    <type name="MMG_ammo_pouch_ucp">
-        <nominal>5</nominal>
+    <type name="MMG_ammo_pouch_atacs">
+        <nominal>0</nominal>
         <lifetime>7200</lifetime>
         <restock>7200</restock>
-        <min>1</min>
+        <min>0</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -146,11 +146,11 @@
         <value name="Tier3"/>
         <value name="Tier4"/>
     </type>
-    <type name="MMG_tactical_pouch_ucp">
-        <nominal>5</nominal>
+    <type name="MMG_tactical_pouch_atacs">
+        <nominal>0</nominal>
         <lifetime>7200</lifetime>
         <restock>7200</restock>
-        <min>1</min>
+        <min>0</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -160,11 +160,11 @@
         <value name="Tier3"/>
         <value name="Tier4"/>
     </type>
-    <type name="MMG_mk5_utility_pouch_ucp">
-        <nominal>5</nominal>
+    <type name="MMG_mk5_utility_pouch_atacs">
+        <nominal>0</nominal>
         <lifetime>7200</lifetime>
         <restock>7200</restock>
-        <min>1</min>
+        <min>0</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -174,11 +174,11 @@
         <value name="Tier3"/>
         <value name="Tier4"/>
     </type>
-    <type name="MMG_mk5_grenade_pouch_ucp">
-        <nominal>5</nominal>
+    <type name="MMG_mk5_grenade_pouch_atacs">
+        <nominal>0</nominal>
         <lifetime>7200</lifetime>
         <restock>7200</restock>
-        <min>1</min>
+        <min>0</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -191,11 +191,11 @@
 
 <!--BACKPACKS-->
 
-    <type name="MMG_carrier_backpack_ucp">
-        <nominal>5</nominal>
+    <type name="MMG_carrier_backpack_atacs">
+        <nominal>0</nominal>
         <lifetime>7200</lifetime>
         <restock>7200</restock>
-        <min>1</min>
+        <min>0</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -205,11 +205,11 @@
         <value name="Tier3"/>
         <value name="Tier4"/>
     </type>
-    <type name="MMG_supplybag_ucp">
-        <nominal>5</nominal>
+    <type name="MMG_supplybag_atacs">
+        <nominal>0</nominal>
         <lifetime>7200</lifetime>
         <restock>7200</restock>
-        <min>1</min>
+        <min>0</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -219,11 +219,11 @@
         <value name="Tier3"/>
         <value name="Tier4"/>
     </type>
-    <type name="MMG_assault_pack_ucp">
-        <nominal>5</nominal>
+    <type name="MMG_assault_pack_atacs">
+        <nominal>0</nominal>
         <lifetime>7200</lifetime>
         <restock>7200</restock>
-        <min>1</min>
+        <min>0</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -233,11 +233,11 @@
         <value name="Tier3"/>
         <value name="Tier4"/>
     </type>
-    <type name="MMG_camelback_ucp">
-        <nominal>5</nominal>
+    <type name="MMG_camelback_atacs">
+        <nominal>0</nominal>
         <lifetime>7200</lifetime>
         <restock>7200</restock>
-        <min>1</min>
+        <min>0</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -250,11 +250,11 @@
 
 <!--BELTS-->
 
-    <type name="MMG_falcon_b1_belt_ucp">
-        <nominal>5</nominal>
+    <type name="MMG_falcon_b1_belt_atacs">
+        <nominal>0</nominal>
         <lifetime>7200</lifetime>
         <restock>7200</restock>
-        <min>1</min>
+        <min>0</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -267,11 +267,11 @@
 
 <!--HELMETS-->
 
-    <type name="MMG_tactical_helmet_ucp">
-        <nominal>5</nominal>
+    <type name="MMG_tactical_helmet_atacs">
+        <nominal>0</nominal>
         <lifetime>7200</lifetime>
         <restock>7200</restock>
-        <min>1</min>
+        <min>0</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -281,25 +281,11 @@
         <value name="Tier3"/>
         <value name="Tier4"/>
     </type>
-    <type name="MMG_striker_helmet_ucp">
-        <nominal>5</nominal>
+    <type name="MMG_striker_helmet_atacs">
+        <nominal>0</nominal>
         <lifetime>7200</lifetime>
         <restock>7200</restock>
-        <min>1</min>
-        <quantmin>-1</quantmin>
-        <quantmax>-1</quantmax>
-        <cost>100</cost>
-        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-        <category name="clothes"/>
-        <usage name="Military"/>
-        <value name="Tier3"/>
-        <value name="Tier4"/>
-    </type>
-    <type name="MMG_headphones_ucp">
-        <nominal>5</nominal>
-        <lifetime>7200</lifetime>
-        <restock>7200</restock>
-        <min>1</min>
+        <min>0</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -312,11 +298,11 @@
 
 <!--ITEMS-->
 
-    <type name="MMG_sheath_ucp">
-        <nominal>5</nominal>
+    <type name="MMG_sheath_atacs">
+        <nominal>0</nominal>
         <lifetime>7200</lifetime>
         <restock>7200</restock>
-        <min>1</min>
+        <min>0</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -326,11 +312,11 @@
         <value name="Tier3"/>
         <value name="Tier4"/>
     </type>
-    <type name="MMG_bottle_ucp">
-        <nominal>5</nominal>
+    <type name="MMG_bottle_atacs">
+        <nominal>0</nominal>
         <lifetime>7200</lifetime>
         <restock>7200</restock>
-        <min>1</min>
+        <min>0</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -340,11 +326,11 @@
         <value name="Tier3"/>
         <value name="Tier4"/>
     </type>
-     <type name="MMG_Holster_ucp">
-        <nominal>5</nominal>
+    <type name="MMG_Holster_atacs">
+        <nominal>0</nominal>
         <lifetime>7200</lifetime>
         <restock>7200</restock>
-        <min>1</min>
+        <min>0</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -357,11 +343,11 @@
 
 <!--CLOTHING-->
 
-    <type name="MMG_operatorshirt_ucp">
-        <nominal>5</nominal>
+    <type name="MMG_operatorshirt_atacs">
+        <nominal>0</nominal>
         <lifetime>7200</lifetime>
         <restock>7200</restock>
-        <min>1</min>
+        <min>0</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -371,11 +357,11 @@
         <value name="Tier3"/>
         <value name="Tier4"/>
     </type>
-    <type name="MMG_tactical_shirt_ucp">
-        <nominal>5</nominal>
+    <type name="MMG_tactical_shirt_atacs">
+        <nominal>0</nominal>
         <lifetime>7200</lifetime>
         <restock>7200</restock>
-        <min>1</min>
+        <min>0</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -385,11 +371,11 @@
         <value name="Tier3"/>
         <value name="Tier4"/>
     </type>
-    <type name="MMG_combatshirt_ucp">
-        <nominal>5</nominal>
+    <type name="MMG_combatshirt_atacs">
+        <nominal>0</nominal>
         <lifetime>7200</lifetime>
         <restock>7200</restock>
-        <min>1</min>
+        <min>0</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -399,11 +385,11 @@
         <value name="Tier3"/>
         <value name="Tier4"/>
     </type>
-    <type name="MMG_combatpants_ucp">
-        <nominal>5</nominal>
+    <type name="MMG_combatpants_atacs">
+        <nominal>0</nominal>
         <lifetime>7200</lifetime>
         <restock>7200</restock>
-        <min>1</min>
+        <min>0</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -413,11 +399,11 @@
         <value name="Tier3"/>
         <value name="Tier4"/>
     </type>
-    <type name="mmg_tactical_pants_ucp">
-        <nominal>5</nominal>
+	 <type name="MMG_tactical_pants_atacs">
+        <nominal>0</nominal>
         <lifetime>7200</lifetime>
         <restock>7200</restock>
-        <min>1</min>
+        <min>0</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -427,11 +413,11 @@
         <value name="Tier3"/>
         <value name="Tier4"/>
     </type>
-    <type name="mmg_tactical_gloves_ucp">
-        <nominal>5</nominal>
+    <type name="mmg_tactical_gloves_atacs">
+        <nominal>0</nominal>
         <lifetime>7200</lifetime>
         <restock>7200</restock>
-        <min>1</min>
+        <min>0</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -441,11 +427,11 @@
         <value name="Tier3"/>
         <value name="Tier4"/>
     </type>
-    <type name="MMG_boots_ucp">
-        <nominal>5</nominal>
+    <type name="MMG_boots_atacs">
+        <nominal>0</nominal>
         <lifetime>7200</lifetime>
         <restock>7200</restock>
-        <min>1</min>
+        <min>0</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -455,11 +441,11 @@
         <value name="Tier3"/>
         <value name="Tier4"/>
     </type>
-    <type name="MMG_facemask_ucp">
-        <nominal>5</nominal>
+    <type name="MMG_facemask_atacs">
+        <nominal>0</nominal>
         <lifetime>7200</lifetime>
         <restock>7200</restock>
-        <min>1</min>
+        <min>0</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -469,11 +455,11 @@
         <value name="Tier3"/>
         <value name="Tier4"/>
     </type>
-    <type name="MMG_balaclava_ucp">
-        <nominal>5</nominal>
+    <type name="MMG_balaclava_atacs">
+        <nominal>0</nominal>
         <lifetime>7200</lifetime>
         <restock>7200</restock>
-        <min>1</min>
+        <min>0</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -483,11 +469,11 @@
         <value name="Tier3"/>
         <value name="Tier4"/>
     </type>
-    <type name="mmg_boonie_ucp">
-        <nominal>5</nominal>
+	<type name="mmg_boonie_atacs">
+        <nominal>0</nominal>
         <lifetime>7200</lifetime>
         <restock>7200</restock>
-        <min>1</min>
+        <min>0</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
