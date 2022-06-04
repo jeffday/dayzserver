@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <types>
     <type name="Spur_LW_Bag_Black">
-        <nominal>6</nominal>
+        <nominal>4</nominal>
         <lifetime>28800</lifetime>
         <restock>0</restock>
         <min>2</min>
@@ -17,7 +17,7 @@
         <value name="Tier4"/>
     </type>
     <type name="Spur_LW_Bag_Blue">
-        <nominal>6</nominal>
+        <nominal>4</nominal>
         <lifetime>28800</lifetime>
         <restock>0</restock>
         <min>2</min>
@@ -33,7 +33,7 @@
         <value name="Tier4"/>
     </type>
     <type name="Spur_LW_Bag_Brown">
-        <nominal>6</nominal>
+        <nominal>4</nominal>
         <lifetime>28800</lifetime>
         <restock>0</restock>
         <min>2</min>
@@ -49,7 +49,7 @@
         <value name="Tier4"/>
     </type>
     <type name="Spur_LW_Bag_Green">
-        <nominal>6</nominal>
+        <nominal>4</nominal>
         <lifetime>28800</lifetime>
         <restock>0</restock>
         <min>2</min>
@@ -65,7 +65,7 @@
         <value name="Tier4"/>
     </type>
     <type name="Spur_LW_Bag_Grey">
-        <nominal>6</nominal>
+        <nominal>4</nominal>
         <lifetime>28800</lifetime>
         <restock>0</restock>
         <min>2</min>
@@ -81,7 +81,7 @@
         <value name="Tier4"/>
     </type>
     <type name="Spur_LW_Bag_Orange">
-        <nominal>6</nominal>
+        <nominal>4</nominal>
         <lifetime>28800</lifetime>
         <restock>0</restock>
         <min>2</min>
@@ -97,7 +97,7 @@
         <value name="Tier4"/>
     </type>
     <type name="Spur_LW_Bag_Purple">
-        <nominal>6</nominal>
+        <nominal>4</nominal>
         <lifetime>28800</lifetime>
         <restock>0</restock>
         <min>2</min>
@@ -113,7 +113,7 @@
         <value name="Tier4"/>
     </type>
     <type name="Spur_LW_Bag_Red">
-        <nominal>6</nominal>
+        <nominal>4</nominal>
         <lifetime>28800</lifetime>
         <restock>0</restock>
         <min>2</min>
@@ -201,7 +201,7 @@
         <usage name="Military"/>
     </type>
     <type name="Spur_Treker_Yellow">
-        <nominal>6</nominal>
+        <nominal>4</nominal>
         <lifetime>28800</lifetime>
         <restock>0</restock>
         <min>2</min>
@@ -217,7 +217,7 @@
         <value name="Tier4"/>
     </type>
     <type name="Spur_Treker_Green">
-        <nominal>6</nominal>
+        <nominal>4</nominal>
         <lifetime>28800</lifetime>
         <restock>0</restock>
         <min>2</min>
@@ -233,7 +233,7 @@
         <value name="Tier4"/>
     </type>
     <type name="Spur_Treker_Red">
-        <nominal>6</nominal>
+        <nominal>4</nominal>
         <lifetime>28800</lifetime>
         <restock>0</restock>
         <min>2</min>
@@ -249,7 +249,7 @@
         <value name="Tier4"/>
     </type>
     <type name="Spur_Treker_Black">
-        <nominal>6</nominal>
+        <nominal>4</nominal>
         <lifetime>28800</lifetime>
         <restock>0</restock>
         <min>2</min>
@@ -265,7 +265,7 @@
         <value name="Tier4"/>
     </type>
     <type name="Spur_Treker_Blue">
-        <nominal>6</nominal>
+        <nominal>4</nominal>
         <lifetime>28800</lifetime>
         <restock>0</restock>
         <min>2</min>
@@ -422,7 +422,7 @@
         <nominal>8</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
-        <min>8</min>
+        <min>4</min>
         <quantmin>10</quantmin>
         <quantmax>90</quantmax>
         <cost>100</cost>
@@ -448,7 +448,7 @@
         <nominal>2</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
-        <min>2</min>
+        <min>1</min>
         <quantmin>10</quantmin>
         <quantmax>90</quantmax>
         <cost>100</cost>
