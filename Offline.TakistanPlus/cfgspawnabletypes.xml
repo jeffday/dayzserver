@@ -2227,16 +2227,19 @@
 			<item name="Mag_Deagle_9rnd" chance="1.00" />
 		</attachments>
 	</type>
-		<type name="Scout">
+	<type name="Scout">
 		<attachments chance="0.75">
 			<item name="Mag_Scout_5Rnd" chance="1.00" />
 		</attachments>
 		<attachments chance="0.25">
-			<item name="M4_T3NRDSOptic" chance="0.25" />
-			<item name="M68Optic" chance="0.25" />
-			<item name="ACOGOptic" chance="0.25" />
+			<item name="WE_HMOptic" chance="0.05" />
+			<item name="WE_AMSOptic" chance="0.05" />
+			<item name="ACOGOptic" chance="0.50" />
 			<item name="ACOGOptic_6x" chance="0.25" />
-			<item name="TTC_M14Suppressor" chance="0.25" />
+			<item name="TTC_VortexSE_Optic" chance="0.15"/>
+		</attachments>
+		<attachments chance="0.15">
+			<item name="TTC_M14Suppressor" chance="1.00" />
 		</attachments>
 	</type>
 	<type name="Scout_Chernarus">
