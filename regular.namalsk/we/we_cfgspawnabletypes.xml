@@ -1,0 +1,478 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+
+<!-- Start Weapon Expansion cfgspawnabletypes.xml -->
+<!-- Pistols -->
+<spawnabletypes>
+	<damage min="0.2" max="0.6" />
+    <type name="WE_DesertEagle">
+		<attachments chance="0.10">
+			<item name="WE_Mag_Deagle_7rnd" chance="1.00" />
+		</attachments>
+	</type>
+    <type name="WE_DesertEagle_Cobalt">
+		<attachments chance="0.10">
+			<item name="WE_Mag_Deagle_7rnd" chance="1.00" />
+		</attachments>
+	</type>
+    <type name="WE_DesertEagle_Gold">
+		<attachments chance="0.10">
+			<item name="WE_Mag_Deagle_7rnd" chance="1.00" />
+		</attachments>
+	</type>
+    <type name="WE_DesertEagle_Rocket">
+		<attachments chance="0.10">
+			<item name="WE_Mag_Deagle_7rnd" chance="1.00" />
+		</attachments>
+	</type>
+    <type name="WE_FiveseveN">
+		<attachments chance="0.10">
+			<item name="WE_Mag_FiveseveN_20Rnd" chance="1.00" />
+		</attachments>
+		<attachments chance="0.05">
+			<item name="TTC_PistolSuppressor" chance="1.00" />
+		</attachments>
+		<attachments chance="0.10">
+			<item name="TTC_Pistol_Light" chance="1.00" />
+		</attachments>
+		<attachments chance="0.15">
+			<item name="TTC_Pistol_Optic" chance="1.00" />
+		</attachments>
+	</type>
+	<type name="WE_FiveSeven_Black">
+		<attachments chance="0.10">
+			<item name="WE_Mag_FiveseveN_20Rnd" chance="1.00" />
+		</attachments>
+		<attachments chance="0.05">
+			<item name="TTC_PistolSuppressor" chance="1.00" />
+		</attachments>
+		<attachments chance="0.10">
+			<item name="TTC_Pistol_Light" chance="1.00" />
+		</attachments>
+		<attachments chance="0.15">
+			<item name="TTC_Pistol_Optic" chance="1.00" />
+		</attachments>
+	</type>
+    <type name="WE_M9">
+		<attachments chance="0.05">
+			<item name="TTC_PistolSuppressor" chance="1.00" />
+		</attachments>
+		<attachments chance="0.15">
+			<item name="WE_Mag_M9_15Rnd" chance="1.00" />
+		</attachments>
+	</type>
+<!-- Rifles -->
+    <type name="WE_ACR">
+		<attachments chance="0.30">
+            <item name="WE_HAMROptic" chance="0.30" />
+            <item name="ACOGOptic" chance="0.40" />
+            <item name="M4_T3NRDSOptic" chance="0.50" />
+            <item name="M68Optic" chance="0.60" />
+            <item name="WE_OKP7Optic" chance="0.70" />
+            <item name="WE_CoyoteOptic" chance="0.90" />
+            <item name="ReflexOptic" chance="1.00" />
+		</attachments>
+		<attachments chance="0.30">
+			<item name="WE_Mag_PMAG_30Rnd" chance="1.00" />
+		</attachments>
+        <attachments chance="0.10">
+			<item name="TTC_M14Suppressor" chance="1.00" />
+		</attachments>
+	</type>
+    <type name="WE_AEK971">
+		<attachments chance="0.30">
+			<item name="KashtanOptic" chance="0.50" />
+			<item name="PSO11Optic" chance="0.30" />
+            <item name="KobraOptic" chance="0.40" />
+		</attachments>
+		<attachments chance="0.30">
+			<item name="Mag_AK74_45Rnd" chance="0.10" />
+			<item name="Mag_AK74_30Rnd" chance="0.90" />
+		</attachments>
+	</type>
+    <type name="WE_AK5C">
+		<attachments chance="0.30">
+            <item name="WE_HAMROptic" chance="0.30" />
+            <item name="ACOGOptic" chance="0.40" />
+            <item name="M4_T3NRDSOptic" chance="0.50" />
+            <item name="M68Optic" chance="0.60" />
+            <item name="WE_OKP7Optic" chance="0.70" />
+            <item name="WE_CoyoteOptic" chance="0.90" />
+            <item name="ReflexOptic" chance="1.00" />
+		</attachments>
+		<attachments chance="0.30">
+			<item name="Mag_CMAG_40Rnd" chance="0.15" />
+			<item name="Mag_CMAG_10Rnd" chance="0.50" />
+			<item name="Mag_CMAG_20Rnd" chance="0.70" />
+            <item name="Mag_STANAG_30Rnd" chance="0.90" />
+			<item name="Mag_CMAG_30Rnd" chance="1.00" />
+		</attachments>
+        <attachments chance="0.10">
+			<item name="TTC_M14Suppressor" chance="1.00" />
+		</attachments>
+        <attachments chance="0.30">
+			<item name="WE_VerticalForegrip" chance="0.15" />
+            <item name="WE_AngledForegrip" chance="0.30" />
+		</attachments>
+	</type>
+    <type name="WE_AK12">
+		<attachments chance="1.00">
+			<item name="AK_PlasticBttstck" chance="1.00" />
+		</attachments>
+		<attachments chance="0.30">
+            <item name="WE_HAMROptic" chance="0.10" />
+			<item name="TTC_Elcan" chance="0.10" />
+            <item name="ACOGOptic" chance="0.40" />
+            <item name="WE_OKP7Optic" chance="0.40" />
+            <item name="WE_CoyoteOptic" chance="0.20" />
+		</attachments>
+		<attachments chance="0.30">
+			<item name="Mag_AK74_45Rnd" chance="0.15" />
+			<item name="Mag_AK74_30Rnd" chance="1.00" />
+		</attachments>
+	</type>
+    <type name="WE_AK74">
+		<attachments chance="1.00">
+			<item name="AK74_WoodBttstck" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="AK74_Hndgrd" chance="1.00" />
+		</attachments>
+		<attachments chance="0.30">
+			<item name="KashtanOptic" chance="0.50" />
+			<item name="PSO11Optic" chance="0.30" />
+            <item name="KobraOptic" chance="0.40" />
+		</attachments>
+		<attachments chance="0.30">
+			<item name="Mag_AK74_45Rnd" chance="0.15" />
+			<item name="Mag_AK74_30Rnd" chance="1.00" />
+		</attachments>
+	</type>
+    <type name="WE_AK101">
+		<attachments chance="1.00">
+			<item name="AK_PlasticBttstck" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="AK_PlasticHndgrd" chance="1.00" />
+		</attachments>
+		<attachments chance="0.30">
+			<item name="KashtanOptic" chance="0.50" />
+			<item name="PSO11Optic" chance="0.30" />
+            <item name="KobraOptic" chance="0.40" />
+		</attachments>
+		<attachments chance="0.30">
+			<item name="Mag_AK101_30Rnd" chance="1.00" />
+		</attachments>
+        <attachments chance="0.30">
+			<item name="WE_VerticalForegrip" chance="0.15" />
+            <item name="WE_AngledForegrip" chance="0.30" />
+		</attachments>
+	</type>
+    <type name="WE_AKM">
+		<attachments chance="1.00">
+			<item name="AK_PlasticBttstck" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="AK_PlasticHndgrd" chance="1.00" />
+		</attachments>
+		<attachments chance="0.50">
+			<item name="KashtanOptic" chance="0.30" />
+			<item name="PSO11Optic" chance="0.20" />
+            <item name="KobraOptic" chance="0.40" />
+		</attachments>
+		<attachments chance="0.10">
+			<item name="TTC_AKMod_Suppressor" chance="1.00" />
+		</attachments>
+		<attachments chance="0.30">
+			<item name="Mag_AKM_30Rnd" chance="1.00" />
+		</attachments>
+	</type>
+    <type name="WE_AN94">
+		<attachments chance="0.30">
+			<item name="KashtanOptic" chance="0.50" />
+			<item name="PSO11Optic" chance="0.30" />
+            <item name="KobraOptic" chance="0.40" />
+		</attachments>
+		<attachments chance="0.30">
+			<item name="Mag_AK74_45Rnd" chance="0.15" />
+			<item name="Mag_AK74_30Rnd" chance="1.00" />
+		</attachments>
+	</type>
+    <type name="WE_AR15">
+		<attachments chance="0.30">
+            <item name="WE_HAMROptic" chance="0.30" />
+            <item name="ACOGOptic" chance="0.40" />
+            <item name="M4_T3NRDSOptic" chance="0.50" />
+            <item name="M68Optic" chance="0.60" />
+            <item name="WE_OKP7Optic" chance="0.70" />
+            <item name="WE_CoyoteOptic" chance="0.90" />
+            <item name="ReflexOptic" chance="1.00" />
+		</attachments>
+		<attachments chance="0.30">
+			<item name="Mag_CMAG_40Rnd" chance="0.15" />
+			<item name="Mag_CMAG_10Rnd" chance="0.50" />
+			<item name="Mag_CMAG_20Rnd" chance="0.70" />
+            <item name="Mag_STANAG_30Rnd" chance="0.90" />
+			<item name="Mag_CMAG_30Rnd" chance="1.00" />
+		</attachments>
+	</type>
+    <type name="WE_AUGA3">
+		<attachments chance="0.30">
+            <item name="WE_HAMROptic" chance="0.30" />
+            <item name="ACOGOptic" chance="0.40" />
+            <item name="M4_T3NRDSOptic" chance="0.50" />
+            <item name="M68Optic" chance="0.60" />
+            <item name="WE_OKP7Optic" chance="0.70" />
+            <item name="WE_CoyoteOptic" chance="0.90" />
+            <item name="ReflexOptic" chance="1.00" />
+		</attachments>
+		<attachments chance="0.30">
+			<item name="Mag_Aug_30Rnd" chance="1.00" />
+		</attachments>
+        <attachments chance="0.30">
+			<item name="WE_VerticalForegrip" chance="0.15" />
+            <item name="WE_AngledForegrip" chance="0.30" />
+		</attachments>
+	</type>
+    <type name="WE_HoneyBadger">
+		<attachments chance="0.30">
+            <item name="WE_HAMROptic" chance="0.30" />
+            <item name="ACOGOptic" chance="0.40" />
+            <item name="M4_T3NRDSOptic" chance="0.50" />
+            <item name="M68Optic" chance="0.60" />
+            <item name="WE_OKP7Optic" chance="0.70" />
+            <item name="WE_CoyoteOptic" chance="0.90" />
+            <item name="ReflexOptic" chance="1.00" />
+		</attachments>
+		<attachments chance="0.30">
+			<item name="WE_Mag_PMAG_30Rnd" chance="1.00" />
+		</attachments>
+        <attachments chance="0.30">
+			<item name="WE_VerticalForegrip" chance="0.15" />
+            <item name="WE_AngledForegrip" chance="0.30" />
+		</attachments>
+	</type>
+    <type name="WE_M16A3">
+		<attachments chance="1.00">
+			<item name="BUISOptic" chance="0.50" />
+			<item name="M4_CarryHandleOptic" chance="1.00" />
+		</attachments>
+		<attachments chance="0.30">
+			<item name="Mag_CMAG_40Rnd" chance="0.15" />
+			<item name="Mag_CMAG_10Rnd" chance="0.50" />
+			<item name="Mag_CMAG_20Rnd" chance="0.70" />
+            <item name="Mag_STANAG_30Rnd" chance="0.90" />
+			<item name="Mag_CMAG_30Rnd" chance="1.00" />
+		</attachments>
+	</type>
+    <type name="WE_RK95">
+		<attachments chance="0.50">
+			<item name="KashtanOptic" chance="0.30" />
+			<item name="PSO11Optic" chance="0.20" />
+            <item name="KobraOptic" chance="0.40" />
+		</attachments>
+		<attachments chance="0.10">
+			<item name="TTC_AKMod_Suppressor" chance="1.00" />
+		</attachments>
+		<attachments chance="0.30">
+			<item name="Mag_AKM_30Rnd" chance="1.00" />
+		</attachments>
+	</type>
+    <type name="WE_SCARH">
+		<attachments chance="0.30">
+            <item name="WE_HAMROptic" chance="0.30" />
+            <item name="ACOGOptic" chance="0.40" />
+            <item name="M4_T3NRDSOptic" chance="0.50" />
+            <item name="M68Optic" chance="0.60" />
+            <item name="WE_OKP7Optic" chance="0.70" />
+            <item name="WE_CoyoteOptic" chance="0.90" />
+            <item name="ReflexOptic" chance="1.00" />
+		</attachments>
+		<attachments chance="0.30">
+			<item name="WE_Mag_SCARH_20Rnd" chance="1.00" />
+            <item name="WE_Mag_SCARH_30Rnd" chance="0.50" />
+		</attachments>
+        <attachments chance="0.10">
+			<item name="WE_308Suppressor" chance="1.00" />
+		</attachments>
+        <attachments chance="0.30">
+			<item name="WE_VerticalForegrip" chance="0.15" />
+            <item name="WE_AngledForegrip" chance="0.30" />
+		</attachments>
+	</type>
+    <type name="WE_VSS">
+		<attachments chance="0.25">
+			<item name="KashtanOptic" chance="0.40" />
+			<item name="PSO1Optic" chance="0.40" />
+            <item name="PSO11Optic" chance="0.40" />
+            <item name="KobraOptic" chance="0.40" />
+		</attachments>
+		<attachments chance="0.10">
+			<item name="Mag_VSS_10Rnd" chance="1.00" />
+		</attachments>
+	</type>
+<!-- SMGs -->
+    <type name="WE_AUGPara">
+		<attachments chance="0.20">
+			<item name="WE_Mag_AUGPara_25Rnd" chance="1.00" />
+		</attachments>
+		<attachments chance="0.30">
+            <item name="M4_T3NRDSOptic" chance="0.50" />
+            <item name="M68Optic" chance="0.60" />
+            <item name="WE_OKP7Optic" chance="0.70" />
+            <item name="WE_CoyoteOptic" chance="0.90" />
+            <item name="ReflexOptic" chance="1.00" />
+		</attachments>
+		<attachments chance="0.05">
+			<item name="TTC_PistolSuppressor" chance="1.00" />
+		</attachments>
+	</type>
+    <type name="WE_MAT49">
+		<attachments chance="0.10">
+			<item name="TTC_PistolSuppressor" chance="1.00" />
+		</attachments>
+		<attachments chance="0.50">
+			<item name="WE_Mag_MAT49_20Rnd" chance="1.00" />
+		</attachments>
+	</type>
+    <type name="WE_MP5A1">
+		<attachments chance="0.30">
+			<item name="Mag_MP5_15Rnd" chance="0.5" />
+			<item name="Mag_MP5_30Rnd" chance="0.5" />
+		</attachments>
+		<attachments chance="0.30">
+            <item name="M4_T3NRDSOptic" chance="0.50" />
+            <item name="M68Optic" chance="0.60" />
+            <item name="WE_OKP7Optic" chance="0.70" />
+            <item name="WE_CoyoteOptic" chance="0.90" />
+            <item name="ReflexOptic" chance="1.00" />
+		</attachments>
+		<attachments chance="0.10">
+			<item name="MP5_Compensator" chance="1.00" />
+		</attachments>
+		<attachments chance="0.05">
+			<item name="TTC_PistolSuppressor" chance="1.00" />
+		</attachments>
+	</type>
+    <type name="WE_MP5SD">
+		<attachments chance="0.30">
+			<item name="Mag_MP5_15Rnd" chance="0.5" />
+			<item name="Mag_MP5_30Rnd" chance="0.5" />
+		</attachments>
+		<attachments chance="0.30">
+            <item name="M4_T3NRDSOptic" chance="0.50" />
+            <item name="M68Optic" chance="0.60" />
+            <item name="WE_OKP7Optic" chance="0.70" />
+            <item name="WE_CoyoteOptic" chance="0.90" />
+            <item name="ReflexOptic" chance="1.00" />
+		</attachments>
+	</type>
+<!-- Snipers -->
+    <type name="WE_M1Garand">
+		<attachments chance="0.10">
+			<item name="PUScopeOptic" chance="1.00" />
+		</attachments>
+        <attachments chance="0.10">
+			<item name="WE_308Suppressor" chance="1.00" />
+		</attachments>
+	</type>
+    <type name="WE_M14">
+		<attachments chance="0.10">
+			<item name="WE_Mag_M14_10Rnd" chance="1.00" />
+            <item name="WE_Mag_M14_20Rnd" chance="0.50" />
+		</attachments>
+		<attachments chance="0.30">
+            <item name="HuntingOptic" chance="0.20" />
+            <item name="WE_HAMROptic" chance="0.30" />
+            <item name="ACOGOptic" chance="0.40" />
+            <item name="M4_T3NRDSOptic" chance="0.50" />
+            <item name="M68Optic" chance="0.60" />
+            <item name="WE_OKP7Optic" chance="0.70" />
+            <item name="WE_CoyoteOptic" chance="0.90" />
+            <item name="ReflexOptic" chance="1.00" />
+		</attachments>
+        <attachments chance="0.10">
+			<item name="WE_308Suppressor" chance="1.00" />
+		</attachments>
+	</type>
+    <type name="WE_M24A3">
+		<attachments chance="0.10">
+			<item name="HuntingOptic" chance="1.00" />
+		</attachments>
+		<attachments chance="0.30">
+			<item name="WE_Mag_M24A3_5Rnd" chance="1.00" />
+		</attachments>
+	</type>
+    <type name="WE_M82">
+		<attachments chance="0.10">
+			<item name="HuntingOptic" chance="1.00" />
+		</attachments>
+		<attachments chance="0.30">
+			<item name="WE_Mag_M82_10Rnd" chance="1.00" />
+		</attachments>
+	</type>
+    <type name="WE_M98B">
+		<attachments chance="0.10">
+			<item name="HuntingOptic" chance="1.00" />
+		</attachments>
+		<attachments chance="0.30">
+			<item name="WE_Mag_M98B_10Rnd" chance="1.00" />
+		</attachments>
+	</type>
+    <type name="WE_M200">
+		<attachments chance="0.10">
+			<item name="HuntingOptic" chance="1.00" />
+		</attachments>
+		<attachments chance="0.30">
+			<item name="WE_Mag_M200_7Rnd" chance="1.00" />
+		</attachments>
+	</type>
+    <type name="WE_Mosin9130">
+		<attachments chance="0.10">
+			<item name="Mosin_Compensator" chance="1.00" />
+		</attachments>
+		<attachments chance="0.05">
+			<item name="PUScopeOptic" chance="1.00" />
+		</attachments>
+	</type>
+    <type name="WE_PSG1">
+		<attachments chance="0.10">
+			<item name="WE_Mag_PSG1_10Rnd" chance="1.00" />
+		</attachments>
+		<attachments chance="0.30">
+            <item name="HuntingOptic" chance="0.20" />
+            <item name="WE_HAMROptic" chance="0.30" />
+            <item name="ACOGOptic" chance="0.40" />
+            <item name="M4_T3NRDSOptic" chance="0.50" />
+            <item name="M68Optic" chance="0.60" />
+            <item name="WE_OKP7Optic" chance="0.70" />
+            <item name="WE_CoyoteOptic" chance="0.90" />
+            <item name="ReflexOptic" chance="1.00" />
+		</attachments>
+        <attachments chance="0.10">
+			<item name="WE_308Suppressor" chance="1.00" />
+		</attachments>
+	</type>
+    <type name="WE_R700">
+		<attachments chance="0.10">
+			<item name="HuntingOptic" chance="1.00" />
+		</attachments>
+		<attachments chance="0.30">
+			<item name="WE_Mag_R700_10Rnd" chance="1.00" />
+		</attachments>
+	</type>
+    <type name="WE_SKS">
+		<attachments chance="0.10">
+			<item name="PUScopeOptic" chance="1.00" />
+		</attachments>
+	</type>
+    <type name="WE_SVD">
+		<attachments chance="0.10">
+			<item name="Mag_SVD_10Rnd" chance="1.00" />
+		</attachments>
+		<attachments chance="0.50">
+			<item name="KashtanOptic" chance="0.50" />
+			<item name="PSO11Optic" chance="0.30" />
+		</attachments>
+	</type>
+</spawnabletypes>
+<!-- End WeaponExpansion cfgspawnabletypes.xml -->
