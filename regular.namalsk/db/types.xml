@@ -761,8 +761,8 @@
     <tag name="police" />
   </type>
   <type name="LandMineTrap">
-    <nominal>10</nominal>
-    <min>8</min>
+    <nominal>0</nominal>
+    <min>0</min>
     <lifetime>1209600</lifetime>
     <restock>900</restock>
     <quantmin>-1</quantmin>
@@ -4879,8 +4879,8 @@
     <tag name="industrial" />
   </type>
   <type name="BearTrap">
-    <nominal>20</nominal>
-    <min>15</min>
+    <nominal>0</nominal>
+    <min>0</min>
     <lifetime>1209600</lifetime>
     <restock>300</restock>
     <quantmin>-1</quantmin>
