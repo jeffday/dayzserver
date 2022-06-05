@@ -13089,10 +13089,10 @@
     <category name="tools" />
   </type>
   <type name="Raincoat_Black">
-    <nominal>15</nominal>
+    <nominal>10</nominal>
     <lifetime>14400</lifetime>
     <restock>0</restock>
-    <min>10</min>
+    <min>5</min>
     <quantmin>-1</quantmin>
     <quantmax>-1</quantmax>
     <cost>100</cost>
@@ -13103,10 +13103,10 @@
     <usage name="Village" />
   </type>
   <type name="Raincoat_Blue">
-    <nominal>15</nominal>
+    <nominal>10</nominal>
     <lifetime>14400</lifetime>
     <restock>0</restock>
-    <min>10</min>
+    <min>5</min>
     <quantmin>-1</quantmin>
     <quantmax>-1</quantmax>
     <cost>100</cost>
@@ -13117,10 +13117,10 @@
     <usage name="Village" />
   </type>
   <type name="Raincoat_Green">
-    <nominal>15</nominal>
+    <nominal>10</nominal>
     <lifetime>14400</lifetime>
     <restock>0</restock>
-    <min>10</min>
+    <min>5</min>
     <quantmin>-1</quantmin>
     <quantmax>-1</quantmax>
     <cost>100</cost>
@@ -13131,10 +13131,10 @@
     <usage name="Village" />
   </type>
   <type name="Raincoat_Orange">
-    <nominal>15</nominal>
+    <nominal>10</nominal>
     <lifetime>14400</lifetime>
     <restock>0</restock>
-    <min>10</min>
+    <min>5</min>
     <quantmin>-1</quantmin>
     <quantmax>-1</quantmax>
     <cost>100</cost>
@@ -13145,10 +13145,10 @@
     <usage name="Village" />
   </type>
   <type name="Raincoat_Pink">
-    <nominal>15</nominal>
+    <nominal>10</nominal>
     <lifetime>14400</lifetime>
     <restock>0</restock>
-    <min>10</min>
+    <min>5</min>
     <quantmin>-1</quantmin>
     <quantmax>-1</quantmax>
     <cost>100</cost>
@@ -13159,10 +13159,10 @@
     <usage name="Village" />
   </type>
   <type name="Raincoat_Red">
-    <nominal>15</nominal>
+    <nominal>10</nominal>
     <lifetime>14400</lifetime>
     <restock>0</restock>
-    <min>10</min>
+    <min>5</min>
     <quantmin>-1</quantmin>
     <quantmax>-1</quantmax>
     <cost>100</cost>
@@ -13173,10 +13173,10 @@
     <usage name="Village" />
   </type>
   <type name="Raincoat_Yellow">
-    <nominal>15</nominal>
+    <nominal>10</nominal>
     <lifetime>14400</lifetime>
     <restock>0</restock>
-    <min>10</min>
+    <min>5</min>
     <quantmin>-1</quantmin>
     <quantmax>-1</quantmax>
     <cost>100</cost>
@@ -13187,7 +13187,7 @@
     <usage name="Village" />
   </type>
   <type name="Rangefinder">
-    <nominal>20</nominal>
+    <nominal>15</nominal>
     <lifetime>28800</lifetime>
     <restock>0</restock>
     <min>10</min>
@@ -13198,7 +13198,7 @@
     <category name="tools" />
     <usage name="Military" />
     <usage name="Police" />
-	<value name="Tier3" />
+	  <value name="Tier3" />
     <value name="Tier4" />
   </type>
   <type name="ReflexOptic">
@@ -13226,10 +13226,10 @@
     <usage name="Industrial" />
   </type>
   <type name="Repeater">
-    <nominal>30</nominal>
+    <nominal>15</nominal>
     <lifetime>14400</lifetime>
     <restock>0</restock>
-    <min>15</min>
+    <min>10</min>
     <quantmin>-1</quantmin>
     <quantmax>-1</quantmax>
     <cost>100</cost>
@@ -13237,8 +13237,9 @@
     <category name="weapons" />
     <usage name="Farm" />
     <usage name="Hunting" />
-	<usage name="Town"/>
     <usage name="Village"/>
+    <value name="Tier1" />
+    <value name="Tier2" />
   </type>
   <type name="Rice">
     <nominal>20</nominal>
@@ -16289,10 +16290,10 @@
     <usage name="Village" />
   </type>
   <type name="WaterproofBag_Green">
-    <nominal>15</nominal>
+    <nominal>0</nominal>
     <lifetime>28800</lifetime>
     <restock>0</restock>
-    <min>10</min>
+    <min>0</min>
     <quantmin>-1</quantmin>
     <quantmax>-1</quantmax>
     <cost>100</cost>
@@ -16302,10 +16303,10 @@
     <usage name="Farm" />
   </type>
   <type name="WaterproofBag_Orange">
-    <nominal>15</nominal>
+    <nominal>0</nominal>
     <lifetime>28800</lifetime>
     <restock>0</restock>
-    <min>10</min>
+    <min>0</min>
     <quantmin>-1</quantmin>
     <quantmax>-1</quantmax>
     <cost>100</cost>
@@ -16315,10 +16316,10 @@
     <usage name="Farm" />
   </type>
   <type name="WaterproofBag_Yellow">
-    <nominal>15</nominal>
+    <nominal>0</nominal>
     <lifetime>28800</lifetime>
     <restock>0</restock>
-    <min>10</min>
+    <min>0</min>
     <quantmin>-1</quantmin>
     <quantmax>-1</quantmax>
     <cost>100</cost>
