@@ -35,7 +35,7 @@
 			<item name="TTC_Pistol_Light" chance="1.00" />
 		</attachments>
 		<attachments chance="0.15">
-			<item name="FNP45_MRDSOptic" chance="1.00" />
+			<item name="TTC_Pistol_Optic" chance="1.00" />
 		</attachments>
 	</type>
 	<type name="WE_FiveSeven_Black">
@@ -49,7 +49,7 @@
 			<item name="TTC_Pistol_Light" chance="1.00" />
 		</attachments>
 		<attachments chance="0.15">
-			<item name="FNP45_MRDSOptic" chance="1.00" />
+			<item name="TTC_Pistol_Optic" chance="1.00" />
 		</attachments>
 	</type>
     <type name="WE_M9">
@@ -85,8 +85,8 @@
             <item name="KobraOptic" chance="0.40" />
 		</attachments>
 		<attachments chance="0.30">
-			<item name="Mag_AK74_45Rnd" chance="0.15" />
-			<item name="Mag_AK74_30Rnd" chance="1.00" />
+			<item name="Mag_AK74_45Rnd" chance="0.10" />
+			<item name="Mag_AK74_30Rnd" chance="0.90" />
 		</attachments>
 	</type>
     <type name="WE_AK5C">
@@ -119,13 +119,11 @@
 			<item name="AK_PlasticBttstck" chance="1.00" />
 		</attachments>
 		<attachments chance="0.30">
-            <item name="WE_HAMROptic" chance="0.30" />
+            <item name="WE_HAMROptic" chance="0.10" />
+			<item name="TTC_Elcan" chance="0.10" />
             <item name="ACOGOptic" chance="0.40" />
-            <item name="M4_T3NRDSOptic" chance="0.50" />
-            <item name="M68Optic" chance="0.60" />
-            <item name="WE_OKP7Optic" chance="0.70" />
-            <item name="WE_CoyoteOptic" chance="0.90" />
-            <item name="ReflexOptic" chance="1.00" />
+            <item name="WE_OKP7Optic" chance="0.40" />
+            <item name="WE_CoyoteOptic" chance="0.20" />
 		</attachments>
 		<attachments chance="0.30">
 			<item name="Mag_AK74_45Rnd" chance="0.15" />

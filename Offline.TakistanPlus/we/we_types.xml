@@ -428,10 +428,10 @@
         <value name="Tier4" />
     </type>
     <type name="WE_AK101">
-        <nominal>10</nominal>
+        <nominal>3</nominal>
         <lifetime>28800</lifetime>
         <restock>1800</restock>
-        <min>5</min>
+        <min>1</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -455,7 +455,7 @@
         <value name="Tier4"/>
     </type>
     <type name="WE_AN94">
-        <nominal>4</nominal>
+        <nominal>3</nominal>
         <lifetime>28800</lifetime>
         <restock>0</restock>
         <min>1</min>
@@ -800,10 +800,10 @@
         <value name="Tier3"/>
     </type>
     <type name="WE_Mag_FiveseveN_20Rnd">
-        <nominal>15</nominal>
+        <nominal>10</nominal>
         <lifetime>28800</lifetime>
         <restock>0</restock>
-        <min>10</min>
+        <min>5</min>
         <quantmin>10</quantmin>
         <quantmax>100</quantmax>
         <cost>100</cost>
@@ -1039,6 +1039,8 @@
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="weapons"/>
         <usage name="Military"/>
+        <value name="Tier3"/>
+        <value name="Tier4"/>
     </type>
     <type name="AE_AmmoBox_127x99_10Rnd">
         <nominal>0</nominal>
@@ -1101,6 +1103,7 @@
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="1"/>
         <category name="weapons"/>
         <usage name="Military"/>
+        <value name="Tier4"/>
     </type>
 <!-- Ammo Piles -->
     <type name="Ammo_AE57x28">
@@ -1115,6 +1118,8 @@
         <category name="weapons"/>
         <tag name="shelves"/>
         <usage name="Military"/>
+        <value name="Tier3"/>
+        <value name="Tier4"/>
     </type>
     <type name="Ammo_AE127x99">
         <nominal>0</nominal>
@@ -1169,17 +1174,18 @@
         <category name="weapons"/>
         <usage name="Military"/>
     </type>
-    <type name="Ammo_AE408"> <!-- only using cheytac ammo from Ammo Expansion for now -->
-        <nominal>5</nominal>
+    <type name="Ammo_AE408">
+        <nominal>3</nominal>
         <lifetime>28800</lifetime>
         <restock>0</restock>
-        <min>2</min>
+        <min>1</min>
         <quantmin>10</quantmin>
         <quantmax>40</quantmax>
         <cost>100</cost>
-        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="1"/>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="weapons"/>
         <usage name="Military"/>
+        <value name="Tier4"/>
     </type>
  </types>
 <!-- End AmmunitionExpansion Types.xml -->
