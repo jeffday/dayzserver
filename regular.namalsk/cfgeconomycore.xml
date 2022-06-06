@@ -54,4 +54,10 @@ Do not forget to add attribute act="car", if root class represents moveable vehi
 		<file name="mmg_types_ukraine.xml" type="types" />
 		<file name="mmg_cfgspawnabletypes.xml" type="spawnabletypes" />
 	</ce>
+
+	<!-- Spurgle's BagZ -->
+	<ce folder="spurgles">
+		<file name="types.xml" type="types" />
+		<file name="cfgspawnabletypes.xml" type="spawnabletypes" />
+	</ce>
 </economycore>
