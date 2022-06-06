@@ -3708,8 +3708,8 @@
     <tag name="farm" />
   </type>
   <type name="MediumTent">
-    <nominal>5</nominal>
-    <min>4</min>
+    <nominal>1</nominal>
+    <min>0</min>
     <lifetime>1209600</lifetime>
     <restock>10800</restock>
     <quantmin>-1</quantmin>
@@ -3722,8 +3722,8 @@
     <tag name="civilian" />
   </type>
   <type name="MediumTent_Orange">
-    <nominal>5</nominal>
-    <min>4</min>
+    <nominal>1</nominal>
+    <min>0</min>
     <lifetime>1209600</lifetime>
     <restock>10800</restock>
     <quantmin>-1</quantmin>
@@ -3736,8 +3736,8 @@
     <tag name="civilian" />
   </type>
   <type name="MediumTent_Green">
-    <nominal>5</nominal>
-    <min>4</min>
+    <nominal>1</nominal>
+    <min>0</min>
     <lifetime>1209600</lifetime>
     <restock>10800</restock>
     <quantmin>-1</quantmin>
@@ -3750,8 +3750,8 @@
     <tag name="civilian" />
   </type>
   <type name="LargeTent">
-    <nominal>6</nominal>
-    <min>5</min>
+    <nominal>2</nominal>
+    <min>1</min>
     <lifetime>1209600</lifetime>
     <restock>10800</restock>
     <quantmin>-1</quantmin>
@@ -3764,8 +3764,8 @@
     <tag name="military" />
   </type>
   <type name="CarTent">
-    <nominal>4</nominal>
-    <min>3</min>
+    <nominal>2</nominal>
+    <min>1</min>
     <lifetime>1209600</lifetime>
     <restock>10800</restock>
     <quantmin>-1</quantmin>
@@ -3778,8 +3778,8 @@
     <tag name="industrial" />
   </type>
   <type name="PartyTent">
-    <nominal>5</nominal>
-    <min>4</min>
+    <nominal>0</nominal>
+    <min>0</min>
     <lifetime>1209600</lifetime>
     <restock>10800</restock>
     <quantmin>-1</quantmin>
@@ -3792,8 +3792,8 @@
     <tag name="civilian" />
   </type>
   <type name="PartyTent_Blue">
-    <nominal>5</nominal>
-    <min>4</min>
+    <nominal>0</nominal>
+    <min>0</min>
     <lifetime>1209600</lifetime>
     <restock>10800</restock>
     <quantmin>-1</quantmin>
@@ -3806,8 +3806,8 @@
     <tag name="civilian" />
   </type>
   <type name="PartyTent_Brown">
-    <nominal>5</nominal>
-    <min>4</min>
+    <nominal>0</nominal>
+    <min>0</min>
     <lifetime>1209600</lifetime>
     <restock>10800</restock>
     <quantmin>-1</quantmin>
@@ -3876,8 +3876,8 @@
     <tag name="industrial" />
   </type>
   <type name="SeaChest">
-    <nominal>6</nominal>
-    <min>4</min>
+    <nominal>0</nominal>
+    <min>0</min>
     <lifetime>1209600</lifetime>
     <restock>10800</restock>
     <quantmin>-1</quantmin>
