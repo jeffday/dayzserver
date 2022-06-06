@@ -88,10 +88,10 @@
     <tag name="military" />
   </type>
   <type name="PP19">
-    <nominal>6</nominal>
+    <nominal>0</nominal>
     <lifetime>3600</lifetime>
     <restock>200</restock>
-    <min>4</min>
+    <min>0</min>
     <quantmin>-1</quantmin>
     <quantmax>-1</quantmax>
     <cost>100</cost>
@@ -244,10 +244,10 @@
     <tag name="hunting" />
   </type>
   <type name="MP5K">
-    <nominal>8</nominal>
+    <nominal>0</nominal>
     <lifetime>3600</lifetime>
     <restock>300</restock>
-    <min>6</min>
+    <min>0</min>
     <quantmin>-1</quantmin>
     <quantmax>-1</quantmax>
     <cost>100</cost>
@@ -1805,8 +1805,8 @@
     <tag name="military" />
   </type>
   <type name="Mag_PP19_64Rnd">
-    <nominal>5</nominal>
-    <min>4</min>
+    <nominal>0</nominal>
+    <min>0</min>
     <lifetime>2700</lifetime>
     <restock>500</restock>
     <quantmin>25</quantmin>
@@ -2861,8 +2861,8 @@
     <tag name="military" />
   </type>
   <type name="MP5_RailHndgrd">
-    <nominal>5</nominal>
-    <min>2</min>
+    <nominal>0</nominal>
+    <min>0</min>
     <lifetime>2700</lifetime>
     <restock>0</restock>
     <quantmin>-1</quantmin>
