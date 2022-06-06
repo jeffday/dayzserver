@@ -3359,10 +3359,10 @@
     <tag name="industrial" />
   </type>
   <type name="CableReel">
-    <nominal>20</nominal>
+    <nominal>5</nominal>
     <lifetime>604800</lifetime>
     <restock>0</restock>
-    <min>17</min>
+    <min>1</min>
     <quantmin>-1</quantmin>
     <quantmax>-1</quantmax>
     <cost>100</cost>
@@ -3371,10 +3371,10 @@
     <tag name="industrial" />
   </type>
   <type name="BatteryCharger">
-    <nominal>12</nominal>
+    <nominal>5</nominal>
     <lifetime>604800</lifetime>
     <restock>0</restock>
-    <min>10</min>
+    <min>1</min>
     <quantmin>-1</quantmin>
     <quantmax>-1</quantmax>
     <cost>100</cost>
@@ -3383,10 +3383,10 @@
     <tag name="industrial" />
   </type>
   <type name="PowerGenerator">
-    <nominal>10</nominal>
+    <nominal>2</nominal>
     <lifetime>604800</lifetime>
     <restock>0</restock>
-    <min>7</min>
+    <min>1</min>
     <quantmin>-1</quantmin>
     <quantmax>-1</quantmax>
     <cost>100</cost>
@@ -3395,10 +3395,10 @@
     <tag name="industrial" />
   </type>
   <type name="Spotlight">
-    <nominal>20</nominal>
+    <nominal>5</nominal>
     <lifetime>604800</lifetime>
     <restock>0</restock>
-    <min>16</min>
+    <min>1</min>
     <quantmin>-1</quantmin>
     <quantmax>-1</quantmax>
     <cost>100</cost>
@@ -3482,8 +3482,8 @@
     <tag name="industrial" />
   </type>
   <type name="MetalPlate">
-    <nominal>80</nominal>
-    <min>75</min>
+    <nominal>5</nominal>
+    <min>1</min>
     <lifetime>2700</lifetime>
     <restock>0</restock>
     <quantmin>10</quantmin>
@@ -3497,10 +3497,10 @@
     <tag name="industrial" />
   </type>
   <type name="Fabric">
-    <nominal>35</nominal>
+    <nominal>5</nominal>
     <lifetime>2700</lifetime>
     <restock>0</restock>
-    <min>30</min>
+    <min>1</min>
     <quantmin>30</quantmin>
     <quantmax>100</quantmax>
     <cost>100</cost>
@@ -3510,8 +3510,8 @@
     <tag name="industrial" />
   </type>
   <type name="WoodenPlank">
-    <nominal>80</nominal>
-    <min>75</min>
+    <nominal>5</nominal>
+    <min>1</min>
     <lifetime>2700</lifetime>
     <restock>0</restock>
     <quantmin>10</quantmin>
@@ -3525,8 +3525,8 @@
     <tag name="industrial" />
   </type>
   <type name="Camonet">
-    <nominal>40</nominal>
-    <min>35</min>
+    <nominal>0</nominal>
+    <min>0</min>
     <lifetime>2700</lifetime>
     <restock>0</restock>
     <quantmin>-1</quantmin>
