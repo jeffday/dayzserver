@@ -2,10 +2,10 @@
 <types>
   <!-- NAMALSK - WEAPONS - RIFLES -->
   <type name="AK74">
-    <nominal>3</nominal>
+    <nominal>0</nominal>
     <lifetime>3600</lifetime>
     <restock>1800</restock>
-    <min>2</min>
+    <min>0</min>
     <quantmin>-1</quantmin>
     <quantmax>-1</quantmax>
     <cost>100</cost>
@@ -30,10 +30,10 @@
     <tag name="military" />
   </type>
   <type name="AK101">
-    <nominal>2</nominal>
+    <nominal>0</nominal>
     <lifetime>3600</lifetime>
     <restock>3600</restock>
-    <min>1</min>
+    <min>0</min>
     <quantmin>-1</quantmin>
     <quantmax>-1</quantmax>
     <cost>100</cost>
@@ -44,10 +44,10 @@
     <tag name="military" />
   </type>
   <type name="AKM">
-    <nominal>4</nominal>
+    <nominal>0</nominal>
     <lifetime>3600</lifetime>
     <restock>1800</restock>
-    <min>3</min>
+    <min>0</min>
     <quantmin>-1</quantmin>
     <quantmax>-1</quantmax>
     <cost>100</cost>
@@ -173,10 +173,10 @@
     <tag name="military" />
   </type>
   <type name="M16A2">
-    <nominal>3</nominal>
+    <nominal>0</nominal>
     <lifetime>3600</lifetime>
     <restock>1800</restock>
-    <min>2</min>
+    <min>0</min>
     <quantmin>-1</quantmin>
     <quantmax>-1</quantmax>
     <cost>100</cost>
@@ -201,10 +201,10 @@
     <tag name="military" />
   </type>
   <type name="AugShort">
-    <nominal>3</nominal>
+    <nominal>0</nominal>
     <lifetime>3600</lifetime>
     <restock>1800</restock>
-    <min>2</min>
+    <min>0</min>
     <quantmin>-1</quantmin>
     <quantmax>-1</quantmax>
     <cost>100</cost>
@@ -534,10 +534,10 @@
     <tag name="military" />
   </type>
   <type name="Glock19">
-    <nominal>8</nominal>
+    <nominal>0</nominal>
     <lifetime>3600</lifetime>
     <restock>200</restock>
-    <min>6</min>
+    <min>0</min>
     <quantmin>-1</quantmin>
     <quantmax>-1</quantmax>
     <cost>100</cost>
@@ -1704,8 +1704,8 @@
     <tag name="police" />
   </type>
   <type name="Mag_Glock_15Rnd">
-    <nominal>6</nominal>
-    <min>5</min>
+    <nominal>0</nominal>
+    <min>0</min>
     <lifetime>2700</lifetime>
     <restock>300</restock>
     <quantmin>20</quantmin>
