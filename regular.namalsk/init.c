@@ -80,13 +80,11 @@ class CustomMission: MissionServer
 				itemBs.SetQuantity( 4 );
 				itemBs.SetCleanness( 1 );
 			}
-			player.SetQuickBarEntityShortcut( itemEnt, 0 );
 			
 			itemEnt = itemClothing.GetInventory().CreateInInventory( "RoadFlare" );
 			SetRandomHealth( itemEnt );
 			itemEnt = itemClothing.GetInventory().CreateInInventory( "RoadFlare" );
 			SetRandomHealth( itemEnt );
-			player.SetQuickBarEntityShortcut( itemEnt, 1 );
 		}
 
 		// pants
@@ -103,7 +101,6 @@ class CustomMission: MissionServer
 				itemEnt = itemClothing.GetInventory().CreateInInventory( "dzn_tool_watch" );
 			else
 				itemEnt = itemClothing.GetInventory().CreateInInventory( "dzn_tool_watch2" );
-			player.SetQuickBarEntityShortcut( itemEnt, 2 );
 		}
 
 		// shoes
