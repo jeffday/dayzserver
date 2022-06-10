@@ -46,7 +46,7 @@
         <tag name="military"/>
     </type>
     <type name="MMG_MK_III_Armor_alpine">
-        <nominal>10</nominal>
+        <nominal>5</nominal>
         <lifetime>7200</lifetime>
         <restock>7200</restock>
         <min>1</min>
@@ -60,7 +60,7 @@
         <tag name="military"/>
     </type>
     <type name="MMG_MK_V_Armor_alpine">
-        <nominal>10</nominal>
+        <nominal>2</nominal>
         <lifetime>7200</lifetime>
         <restock>7200</restock>
         <min>1</min>
@@ -69,6 +69,7 @@
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="clothes"/>
+        <value name="Tier5"/>
         <usage />
         <tag name="military"/>
     </type>

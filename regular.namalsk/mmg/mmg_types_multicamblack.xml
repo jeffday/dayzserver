@@ -60,7 +60,7 @@
         <tag name="military"/>
     </type>
     <type name="MMG_MK_V_Armor_multicamblack">
-        <nominal>5</nominal>
+        <nominal>2</nominal>
         <lifetime>7200</lifetime>
         <restock>7200</restock>
         <min>1</min>
@@ -70,6 +70,7 @@
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="clothes"/>
         <usage />
+        <value name="Tier5"/>
         <tag name="military"/>
     </type>
 
