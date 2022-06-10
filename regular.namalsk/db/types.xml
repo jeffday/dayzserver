@@ -159,10 +159,10 @@
     <tag name="hunting" />
   </type>
   <type name="M4A1">
-    <nominal>2</nominal>
+    <nominal>0</nominal>
     <lifetime>3600</lifetime>
     <restock>1800</restock>
-    <min>1</min>
+    <min>0</min>
     <quantmin>-1</quantmin>
     <quantmax>-1</quantmax>
     <cost>100</cost>
@@ -187,10 +187,10 @@
     <tag name="military" />
   </type>
   <type name="FAMAS">
-    <nominal>3</nominal>
+    <nominal>0</nominal>
     <lifetime>3600</lifetime>
     <restock>1800</restock>
-    <min>2</min>
+    <min>0</min>
     <quantmin>-1</quantmin>
     <quantmax>-1</quantmax>
     <cost>100</cost>
@@ -215,10 +215,10 @@
     <tag name="military" />
   </type>
   <type name="Aug">
-    <nominal>1</nominal>
+    <nominal>0</nominal>
     <lifetime>3600</lifetime>
     <restock>1800</restock>
-    <min>1</min>
+    <min>0</min>
     <quantmin>-1</quantmin>
     <quantmax>-1</quantmax>
     <cost>100</cost>
@@ -2394,8 +2394,8 @@
     <tag name="military" />
   </type>
   <type name="M68Optic">
-    <nominal>6</nominal>
-    <min>3</min>
+    <nominal>0</nominal>
+    <min>0</min>
     <lifetime>2700</lifetime>
     <restock>0</restock>
     <quantmin>-1</quantmin>
@@ -2408,8 +2408,8 @@
     <tag name="military" />
   </type>
   <type name="M4_T3NRDSOptic">
-    <nominal>3</nominal>
-    <min>2</min>
+    <nominal>0</nominal>
+    <min>0</min>
     <lifetime>2700</lifetime>
     <restock>0</restock>
     <quantmin>-1</quantmin>
@@ -2437,8 +2437,8 @@
     <tag name="police" />
   </type>
   <type name="ReflexOptic">
-    <nominal>10</nominal>
-    <min>7</min>
+    <nominal>0</nominal>
+    <min>0</min>
     <lifetime>2700</lifetime>
     <restock>0</restock>
     <quantmin>-1</quantmin>
@@ -2451,8 +2451,8 @@
     <tag name="military" />
   </type>
   <type name="ACOGOptic">
-    <nominal>6</nominal>
-    <min>4</min>
+    <nominal>0</nominal>
+    <min>0</min>
     <lifetime>2700</lifetime>
     <restock>300</restock>
     <quantmin>-1</quantmin>

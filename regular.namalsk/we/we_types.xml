@@ -818,7 +818,7 @@
         <cost>100</cost>
         <flags count_in_map="1" count_in_hoarder="0" count_in_cargo="0" count_in_player="0" crafted="0" deloot="0" />
         <usage />
-        <value user="Tier4" />
+        <value user="Tier5" />
         <category name="rifles" />
         <tag name="military" />
     </type>
@@ -1085,10 +1085,10 @@
 <!-- Start AmmunitionExpansion Types.xml -->
 <!-- Ammo Boxes -->
     <type name="AE_AmmoBox_57x28_30Rnd">
-        <nominal>10</nominal>
+        <nominal>8</nominal>
         <lifetime>28800</lifetime>
         <restock>0</restock>
-        <min>5</min>
+        <min>4</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -1154,10 +1154,10 @@
         <usage/>
     </type>
     <type name="AE_AmmoBox_408_20Rnd">
-        <nominal>3</nominal>
+        <nominal>0</nominal>
         <lifetime>28800</lifetime>
         <restock>0</restock>
-        <min>1</min>
+        <min>0</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -1239,10 +1239,10 @@
         <value/>
     </type>
     <type name="Ammo_AE408">
-        <nominal>3</nominal>
+        <nominal>0</nominal>
         <lifetime>28800</lifetime>
         <restock>0</restock>
-        <min>1</min>
+        <min>0</min>
         <quantmin>10</quantmin>
         <quantmax>40</quantmax>
         <cost>100</cost>
