@@ -2006,8 +2006,8 @@
     <tag name="military" />
   </type>
   <type name="Mag_CMAG_40Rnd">
-    <nominal>3</nominal>
-    <min>2</min>
+    <nominal>1</nominal>
+    <min>1</min>
     <lifetime>2700</lifetime>
     <restock>1800</restock>
     <quantmin>25</quantmin>
@@ -2015,13 +2015,13 @@
     <cost>100</cost>
     <flags count_in_map="1" count_in_hoarder="0" count_in_cargo="0" count_in_player="0" crafted="0" deloot="0" />
     <usage />
-    <value user="Tier45" />
+    <value user="Tier5" />
     <category name="weapons" />
     <tag name="military" />
   </type>
   <type name="Mag_FAMAS_25Rnd">
-    <nominal>3</nominal>
-    <min>2</min>
+    <nominal>0</nominal>
+    <min>0</min>
     <lifetime>2700</lifetime>
     <restock>1800</restock>
     <quantmin>25</quantmin>
@@ -2034,8 +2034,8 @@
     <tag name="military" />
   </type>
   <type name="Mag_Aug_30Rnd">
-    <nominal>3</nominal>
-    <min>2</min>
+    <nominal>0</nominal>
+    <min>0</min>
     <lifetime>5400</lifetime>
     <restock>1800</restock>
     <quantmin>25</quantmin>
@@ -2904,8 +2904,8 @@
     <tag name="seaice" />
   </type>
   <type name="StarlightOptic">
-    <nominal>3</nominal>
-    <min>2</min>
+    <nominal>1</nominal>
+    <min>1</min>
     <lifetime>2700</lifetime>
     <restock>0</restock>
     <quantmin>-1</quantmin>
