@@ -14,7 +14,7 @@
         <category name="weapons"/>
         <tag name="military" />
         <usage/>
-        <value name="Tier45"/>
+        <value user="Tier45"/>
     </type>
     <type name="WE_408Suppressor">
         <nominal>0</nominal>
@@ -28,7 +28,7 @@
         <category name="weapons"/>
         <tag name="military" />
         <usage/>
-        <value name="Tier5"/>
+        <value user="Tier5"/>
     </type>
     <type name="WE_AKRailMount">
         <nominal>5</nominal>
@@ -56,7 +56,7 @@
         <category name="weapons"/>
         <tag name="military" />
         <usage/>
-        <value name="Tier45"/>
+        <value user="Tier45"/>
     </type>
     <type name="WE_CoyoteOptic">
         <nominal>10</nominal>
@@ -70,7 +70,7 @@
         <category name="weapons"/>
         <tag name="military" />
         <usage/>
-        <value name="Tier123"/>
+        <value user="Tier123"/>
     </type>
     <type name="WE_HAMROptic"> <!-- morty's already has this -->
         <nominal>5</nominal>
@@ -84,7 +84,7 @@
         <category name="weapons"/>
         <tag name="military" />
         <usage/>
-        <value name="Tier45"/>
+        <value user="Tier45"/>
     </type>
     <type name="WE_HMOptic">
         <nominal>5</nominal>
@@ -98,7 +98,7 @@
         <category name="weapons"/>
         <tag name="military" />
         <usage/>
-        <value name="Tier45"/>
+        <value user="Tier45"/>
     </type>
     <type name="WE_MosinSKSMount">
         <nominal>5</nominal>
@@ -125,7 +125,7 @@
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="weapons"/>
         <tag name="military" />
-        <value name="Tier23"/>
+        <value user="Tier23"/>
         <usage/>
     </type>
     <type name="WE_PN23Optic">
@@ -139,7 +139,7 @@
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="weapons"/>
         <tag name="military" />
-        <value name="Tier5"/>
+        <value user="Tier5"/>
         <usage/>
     </type>
     <type name="WE_AngledForegrip">
@@ -153,7 +153,7 @@
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="weapons"/>
         <tag name="military" />
-        <value name="Tier345"/>
+        <value user="Tier345"/>
         <usage/>
     </type>
     <type name="WE_VerticalForegrip">
@@ -167,7 +167,7 @@
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="weapons"/>
         <tag name="military" />
-        <value name="Tier345"/>
+        <value user="Tier345"/>
         <usage/>
     </type>
 <!-- End Attachments -->
@@ -293,7 +293,7 @@
         <category name="pistols"/>
         <tag name="military" />
         <usage/>
-        <value name="Tier34"/>
+        <value user="Tier34"/>
     </type>
     <type name="WE_DesertEagle_Cobalt">
         <nominal>0</nominal>
@@ -307,7 +307,7 @@
         <category name="pistols"/>
         <tag name="military" />
         <usage/>
-        <value name="Tier34"/>
+        <value user="Tier34"/>
     </type>
     <type name="WE_DesertEagle_Gold">
         <nominal>0</nominal>
@@ -321,7 +321,7 @@
         <category name="pistols"/>
         <tag name="military" />
         <usage/><usage/>
-        <value name="Tier34"/>
+        <value user="Tier34"/>
     </type>
     <type name="WE_DesertEagle_Rocket">
         <nominal>0</nominal>
@@ -335,7 +335,7 @@
         <category name="pistols"/>
         <tag name="military" />
         <usage/>
-        <value name="Tier34"/>
+        <value user="Tier34"/>
     </type>
     <type name="WE_FiveSeveN">
         <nominal>10</nominal>
@@ -349,7 +349,7 @@
         <category name="pistols"/>
         <tag name="military" />
         <usage/>
-        <value name="Tier34"/>
+        <value user="Tier34"/>
     </type>
     <type name="WE_M9">
         <nominal>0</nominal>
@@ -379,7 +379,7 @@
         <category name="rifles"/>
         <usage/>
         <tag name="military" />
-        <value name="Tier5"/>
+        <value user="Tier5"/>
     </type>
     <type name="WE_AEK971">
         <nominal>4</nominal>
@@ -393,7 +393,7 @@
         <category name="rifles"/>
         <tag name="military" />
         <usage/>
-        <value name="Tier34"/>
+        <value user="Tier34"/>
     </type>
     <type name="WE_AK5C">
         <nominal>0</nominal>
@@ -407,7 +407,7 @@
         <category name="rifles"/>
         <tag name="military" />
         <usage/>
-        <value name="Tier5"/>
+        <value user="Tier5"/>
     </type>
     <type name="WE_AK12">
         <nominal>2</nominal>
@@ -421,7 +421,7 @@
         <category name="rifles"/>
         <tag name="military" />
         <usage/>
-        <value name="Tier45"/>
+        <value user="Tier45"/>
     </type>
     <type name="WE_AK74">
         <nominal>3</nominal>
@@ -477,7 +477,7 @@
         <category name="rifles"/>
         <tag name="military" />
         <usage/>
-        <value name="Tier45"/>
+        <value user="Tier45"/>
     </type>
     <type name="WE_AR15">
         <nominal>0</nominal>
@@ -491,7 +491,7 @@
         <category name="rifles"/>
         <tag name="military" />
         <usage/>
-        <value name="Tier4"/>
+        <value user="Tier4"/>
     </type>
     <type name="WE_AUGA3">
         <nominal>3</nominal>
@@ -546,7 +546,7 @@
         <category name="rifles"/>
         <tag name="military" />
         <usage/>
-        <value name="Tier5"/>
+        <value user="Tier5"/>
     </type>
     <type name="WE_SCARH">
         <nominal>0</nominal>
@@ -560,7 +560,7 @@
         <category name="rifles"/>
         <tag name="military" />
         <usage/>
-        <value name="Tier5"/>
+        <value user="Tier5"/>
     </type>
     <type name="WE_VSS">
         <nominal>2</nominal>
@@ -618,7 +618,7 @@
         <category name="rifles"/>
         <tag name="military" />
         <usage/>
-        <value name="Tier23"/>
+        <value user="Tier23"/>
     </type>
     <type name="WE_MAT49">
         <nominal>0</nominal>
@@ -677,7 +677,7 @@
         <category name="rifles"/>
         <tag name="military" />
         <usage/>
-        <value name="Tier23"/>
+        <value user="Tier23"/>
     </type>
     <type name="WE_M14">
         <nominal>0</nominal>
@@ -691,7 +691,7 @@
         <category name="rifles"/>
         <tag name="military" />
         <usage/>
-        <value name="Tier4"/>
+        <value user="Tier4"/>
     </type>
 	<type name="WE_M24A3"> <!-- using the one from morty's -->
         <nominal>0</nominal>
@@ -776,8 +776,8 @@
         <tag name="military" />
         <usage />
         <value />
-        <value name="Tier3"/>
-        <value name="Tier4"/>
+        <value user="Tier3"/>
+        <value user="Tier4"/>
     </type>
     <type name="WE_SKS">
         <nominal>12</nominal>
@@ -837,7 +837,7 @@
         <category name="weapons"/>
         <tag name="military" />
         <usage/>
-        <value name="Tier23"/>
+        <value user="Tier23"/>
     </type>
     <type name="WE_Mag_FiveseveN_20Rnd">
         <nominal>10</nominal>
@@ -851,7 +851,7 @@
         <category name="weapons"/>
         <tag name="military" />
         <usage/>
-        <value name="Tier34"/>
+        <value user="Tier34"/>
     </type>
     <type name="WE_Mag_M9_15Rnd">
         <nominal>0</nominal>
@@ -880,7 +880,7 @@
         <category name="weapons"/>
         <tag name="military" />
         <usage/>
-        <value name="Tier34"/>
+        <value user="Tier34"/>
     </type>
     <type name="WE_Mag_Coupled_PMAG_30Rnd">
         <nominal>0</nominal>
@@ -907,7 +907,7 @@
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="weapons"/>
         <tag name="military" />
-        <value name="Tier4"/>
+        <value user="Tier4"/>
         <usage/>
     </type>
     <type name="WE_Mag_SCARH_30Rnd">
@@ -921,7 +921,7 @@
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="weapons"/>
         <tag name="military" />
-        <value name="Tier5"/>
+        <value user="Tier5"/>
         <usage/>
     </type>
     <type name="WE_Mag_Coupled_SCARH_40Rnd">
@@ -936,7 +936,7 @@
         <category name="weapons"/>
         <tag name="military" />
         <usage/>
-        <value name="Tier5"/>
+        <value user="Tier5"/>
     </type>
 <!-- SMG Magazines -->
     <type name="WE_Mag_AUGPara_25Rnd">
@@ -950,7 +950,7 @@
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="weapons"/>
         <tag name="military" />
-        <value name="Tier23"/>
+        <value user="Tier23"/>
         <usage/>
     </type>
     <type name="WE_Mag_MAT49_20Rnd">
@@ -979,7 +979,7 @@
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="weapons"/>
         <tag name="military" />
-        <value name="Tier4"/>
+        <value user="Tier4"/>
         <usage/>
     </type>
     <type name="WE_Mag_M14_20Rnd">
@@ -993,7 +993,7 @@
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="weapons"/>
         <tag name="military" />
-        <value name="Tier4"/>
+        <value user="Tier4"/>
         <usage/>
     </type>
     <type name="WE_Mag_M24A3_5Rnd">
@@ -1007,7 +1007,7 @@
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="weapons"/>
         <tag name="military" />
-        <value name="Tier4"/>
+        <value user="Tier4"/>
         <usage/>
     </type>
     <type name="WE_Mag_M82_10Rnd">
@@ -1021,7 +1021,7 @@
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="weapons"/>
         <tag name="military" />
-        <value name="Tier4"/>
+        <value user="Tier4"/>
         <usage/>
     </type>
     <type name="WE_Mag_M98B_10Rnd">
@@ -1035,7 +1035,7 @@
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="weapons"/>
         <tag name="military" />
-        <value name="Tier4"/>
+        <value user="Tier4"/>
         <usage/>
     </type>
     <type name="WE_Mag_M200_7Rnd">
@@ -1049,7 +1049,7 @@
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="weapons"/>
         <tag name="military" />
-        <value name="Tier4"/>
+        <value user="Tier4"/>
         <usage/>
     </type>
     <type name="WE_Mag_PSG1_10Rnd"> <!-- removing until this is fixed -->
@@ -1063,7 +1063,7 @@
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="weapons"/>
         <tag name="military" />
-        <value name="Tier4"/>
+        <value user="Tier4"/>
         <usage/>
     </type>
     <type name="WE_Mag_R700_10Rnd">
@@ -1077,7 +1077,7 @@
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="weapons"/>
         <tag name="military" />
-        <value name="Tier234"/>
+        <value user="Tier234"/>
         <usage/>
     </type>
 <!-- End Magazines -->
@@ -1095,7 +1095,7 @@
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="weapons"/>
         <tag name="military" />
-        <value name="Tier34"/>
+        <value user="Tier34"/>
         <usage/>
     </type>
     <type name="AE_AmmoBox_127x99_10Rnd">
@@ -1137,7 +1137,7 @@
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="weapons"/>
         <tag name="military" />
-        <value name="Tier34"/>
+        <value user="Tier34"/>
         <usage/>
     </type>
     <type name="AE_AmmoBox_338_20Rnd">
@@ -1164,7 +1164,7 @@
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="weapons"/>
         <tag name="military" />
-        <value name="Tier5"/>
+        <value user="Tier5"/>
         <usage/>
     </type>
 <!-- Ammo Piles -->
@@ -1180,7 +1180,7 @@
         <category name="weapons"/>
         <usage/>
         <tag name="military" />
-        <value name="Tier34"/>
+        <value user="Tier34"/>
     </type>
     <type name="Ammo_AE127x99">
         <nominal>0</nominal>
@@ -1222,7 +1222,7 @@
         <category name="weapons"/>
         <usage/>
         <tag name="military" />
-        <value name="Tier234"/>
+        <value user="Tier234"/>
     </type>
     <type name="Ammo_AE338">
         <nominal>0</nominal>
@@ -1249,7 +1249,7 @@
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="weapons"/>
         <tag name="military" />
-        <value name="Tier4"/>
+        <value user="Tier4"/>
         <usage/>
     </type>
  </types>
