@@ -229,10 +229,10 @@
     <tag name="military" />
   </type>
   <type name="Mosin9130">
-    <nominal>10</nominal>
+    <nominal>0</nominal>
     <lifetime>3600</lifetime>
     <restock>300</restock>
-    <min>8</min>
+    <min>0</min>
     <quantmin>0</quantmin>
     <quantmax>80</quantmax>
     <cost>100</cost>
@@ -288,10 +288,10 @@
     <tag name="hunting" />
   </type>
   <type name="SKS">
-    <nominal>12</nominal>
+    <nominal>0</nominal>
     <lifetime>3600</lifetime>
     <restock>300</restock>
-    <min>10</min>
+    <min>0</min>
     <quantmin>0</quantmin>
     <quantmax>80</quantmax>
     <cost>100</cost>
@@ -1878,8 +1878,8 @@
     <tag name="military" />
   </type>
   <type name="Mag_AKM_Drum75Rnd">
-    <nominal>3</nominal>
-    <min>2</min>
+    <nominal>2</nominal>
+    <min>1</min>
     <lifetime>2700</lifetime>
     <restock>1800</restock>
     <quantmin>20</quantmin>
@@ -1887,7 +1887,7 @@
     <cost>100</cost>
     <flags count_in_map="1" count_in_hoarder="0" count_in_cargo="0" count_in_player="0" crafted="0" deloot="0" />
     <usage />
-    <value user="Tier4" />
+    <value user="Tier5" />
     <category name="weapons" />
     <tag name="military" />
   </type>
