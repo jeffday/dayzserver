@@ -42,7 +42,7 @@ void main()
 }
 
 // shemagh options
-autoptr TStringArray SHEMAGHS = {"Shemagh_Brown", "Shemagh_Green", "Shemagh_Red", "Shemagh_White"};
+autoptr TStringArray SHEMAGHS = {"Shemagh_Brown", "Shemagh_Green", "Shemagh_White"};
 
 class CustomMission: MissionServer
 {
