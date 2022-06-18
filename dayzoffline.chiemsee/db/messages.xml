@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<messages>
+
+<!-- Restart message -->
+<message>
+<repeat>180</repeat>
+<deadline>180</deadline>
+<shutdown>1</shutdown>
+<text>WARNING! #name will shutdown in #tmin minutes.</text>
+</message>
+
+<!-- Welcome message -->
+<message>
+<delay>0</delay>
+<repeat>0</repeat>
+<onConnect>1</onConnect>
+<text>Welcome to #name, have fun!</text>
+</message>
+
+<!-- Repeating message #1 -->
+<message>
+<delay>0</delay>
+<repeat>0</repeat>
+<onConnect>1</onConnect>
+<text>Please read and follow our server rules!</text>
+</message>
+
+<!-- Repeating message #2 -->
+<message>
+<delay>0</delay>
+<repeat>0</repeat>
+<onConnect>1</onConnect>
+<text>Have fun playing on our server.</text>
+</message>
+
+<!-- Repeating message #3 -->
+<message>
+<delay>0</delay>
+<repeat>0</repeat>
+<onConnect>1</onConnect>
+<text>Be sure to join our discord!</text>
+</message>
+
+</messages>
