@@ -41,9 +41,6 @@ void main()
 	}
 }
 
-// shemagh options
-autoptr TStringArray SHEMAGHS = {"Shemagh_Brown", "Shemagh_Green", "Shemagh_White"};
-
 class CustomMission: MissionServer
 {
 	void SetRandomHealth(EntityAI itemEnt)
@@ -85,15 +82,21 @@ class CustomMission: MissionServer
 		EntityAI itemClothing;
 		EntityAI itemEnt;
 
-		int rndIndex = Math.RandomInt(0, SHEMAGHS.Count());
-
-		itemEnt = player.GetInventory().CreateInInventory(SHEMAGHS[rndIndex]);
+		itemEnt = player.GetInventory().CreateInInventory("SodaCan_Pipsi");
 		itemEnt = player.GetInventory().CreateInInventory("SodaCan_Pipsi");
 		itemEnt = player.GetInventory().CreateInInventory("BandageDressing");
 		itemEnt = player.GetInventory().CreateInInventory("TunaCan");
-		itemEnt = player.GetInventory().CreateInInventory("TunaCan");
-		itemEnt = player.GetInventory().CreateInInventory("Chemlight_White");		
+		itemEnt = player.GetInventory().CreateInInventory("TunaCan");	
 		
+		itemEnt = player.GetInventory().CreateInInventory("MMG_nbc_pouch");
+		itemEnt.GetInventory().CreateAttachment("GP5GasMask");
+		itemEnt.GetInventory().CreateAttachment("GasMask_Filter");
+		itemEnt.GetInventory().CreateAttachment("NBCBootsGray");
+		itemEnt.GetInventory().CreateAttachment("NBCGlovesGray");
+		itemEnt.GetInventory().CreateAttachment("NBCHoodGray");
+		itemEnt.GetInventory().CreateAttachment("NBCJacketGray");
+		itemEnt.GetInventory().CreateAttachment("NBCPantsGray");
+
 		itemClothing = player.FindAttachmentBySlotName( "Legs" );
 		if ( itemClothing )
 			SetRandomHealth( itemClothing );
