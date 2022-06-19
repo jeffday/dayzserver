@@ -122,10 +122,10 @@
 		<value name="Tier4" />
 	</type>
 	<type name="AK101">
-		<nominal>3</nominal>
+		<nominal>0</nominal>
 		<restock>3600</restock>
 		<lifetime>28800</lifetime>
-		<min>1</min>
+		<min>0</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
@@ -135,10 +135,10 @@
 		<value name="Tier4" />
 	</type>
 	<type name="AK101_Black">
-		<nominal>1</nominal>
+		<nominal>0</nominal>
 		<restock>0</restock>
 		<lifetime>28800</lifetime>
-		<min>1</min>
+		<min>0</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
@@ -149,10 +149,10 @@
 		<value name="Tier4" />
 	</type>
 	<type name="AK101_Green">
-		<nominal>2</nominal>
+		<nominal>0</nominal>
 		<restock>0</restock>
 		<lifetime>28800</lifetime>
-		<min>1</min>
+		<min>0</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
@@ -162,10 +162,10 @@
 		<value name="" />
 	</type>
 	<type name="AK74">
-		<nominal>2</nominal>
+		<nominal>0</nominal>
 		<restock>0</restock>
 		<lifetime>28800</lifetime>
-		<min>1</min>
+		<min>0</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
@@ -175,10 +175,10 @@
 		<value name="Tier4" />
 	</type>
 	<type name="AK74_Black">
-		<nominal>3</nominal>
+		<nominal>0</nominal>
 		<restock>0</restock>
 		<lifetime>28800</lifetime>
-		<min>1</min>
+		<min>0</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
@@ -188,10 +188,10 @@
 		<value name="" />
 	</type>
 	<type name="AK74_Green">
-		<nominal>3</nominal>
+		<nominal>0</nominal>
 		<restock>0</restock>
 		<lifetime>28800</lifetime>
-		<min>1</min>
+		<min>0</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
@@ -201,10 +201,10 @@
 		<value name="" />
 	</type>
 	<type name="AK74_Hndgrd">
-		<nominal>1</nominal>
+		<nominal>0</nominal>
 		<restock>0</restock>
 		<lifetime>14400</lifetime>
-		<min>1</min>
+		<min>0</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
@@ -214,10 +214,10 @@
 		<value name="" />
 	</type>
 	<type name="AK74_WoodBttstck">
-		<nominal>1</nominal>
+		<nominal>0</nominal>
 		<restock>0</restock>
 		<lifetime>14400</lifetime>
-		<min>1</min>
+		<min>0</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
@@ -10449,10 +10449,10 @@
 		<value name="" />
 	</type>
 	<type name="M16A2">
-		<nominal>1</nominal>
+		<nominal>0</nominal>
 		<restock>0</restock>
 		<lifetime>28800</lifetime>
-		<min>1</min>
+		<min>0</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
@@ -10858,10 +10858,10 @@
 		<value name="Tier4" />
 	</type>
 	<type name="MP5_PlasticHndgrd">
-		<nominal>1</nominal>
+		<nominal>0</nominal>
 		<restock>0</restock>
 		<lifetime>14400</lifetime>
-		<min>1</min>
+		<min>0</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
@@ -10873,10 +10873,10 @@
 		<value name="" />
 	</type>
 	<type name="MP5_RailHndgrd">
-		<nominal>1</nominal>
+		<nominal>0</nominal>
 		<restock>0</restock>
 		<lifetime>14400</lifetime>
-		<min>1</min>
+		<min>0</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
@@ -10888,10 +10888,10 @@
 		<value name="" />
 	</type>
 	<type name="MP5k_StockBttstck">
-		<nominal>1</nominal>
+		<nominal>0</nominal>
 		<restock>0</restock>
 		<lifetime>14400</lifetime>
-		<min>1</min>
+		<min>0</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
@@ -12147,7 +12147,7 @@
 		<value name="" />
 	</type>
 	<type name="Mosin9130">
-		<nominal>53</nominal>
+		<nominal>10</nominal>
 		<restock>0</restock>
 		<lifetime>28800</lifetime>
 		<min>5</min>
@@ -12163,10 +12163,10 @@
 		<value name="Tier3" />
 	</type>
 	<type name="Mosin9130_Black">
-		<nominal>10</nominal>
+		<nominal>0</nominal>
 		<restock>3600</restock>
 		<lifetime>28800</lifetime>
-		<min>2</min>
+		<min>0</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
@@ -12191,10 +12191,10 @@
 		<value name="" />
 	</type>
 	<type name="Mosin9130_Green">
-		<nominal>10</nominal>
+		<nominal>0</nominal>
 		<restock>0</restock>
 		<lifetime>28800</lifetime>
-		<min>2</min>
+		<min>0</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
