@@ -72,4 +72,9 @@ Do not forget to add attribute act="car", if root class represents moveable vehi
 		<file name="mmg_types_ukraine.xml" type="types" />
 		<file name="mmg_cfgspawnabletypes.xml" type="spawnabletypes" />
 	</ce>
+	<!-- Morty Weapons -->
+	<ce folder="Morty_ce">
+		<file name="Morty_types.xml" type="types" />
+		<file name="Morty_cfgspawnabletypes.xml" type="spawnabletypes" />
+	</ce>
 </economycore>

@@ -438,10 +438,10 @@
 		<value name="" />
 	</type>
 	<type name="AK_Suppressor">
-		<nominal>1</nominal>
+		<nominal>0</nominal>
 		<restock>3600</restock>
 		<lifetime>14400</lifetime>
-		<min>1</min>
+		<min>0</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
@@ -6023,10 +6023,10 @@
 		<value name="Tier4" />
 	</type>
 	<type name="FAMAS">
-		<nominal>1</nominal>
+		<nominal>0</nominal>
 		<restock>0</restock>
 		<lifetime>28800</lifetime>
-		<min>1</min>
+		<min>0</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
@@ -7429,10 +7429,10 @@
 		<value name="" />
 	</type>
 	<type name="Glock19">
-		<nominal>19</nominal>
+		<nominal>0</nominal>
 		<restock>0</restock>
 		<lifetime>7200</lifetime>
-		<min>2</min>
+		<min>0</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
@@ -10690,10 +10690,10 @@
 		<value name="" />
 	</type>
 	<type name="M4_Suppressor">
-		<nominal>1</nominal>
+		<nominal>0</nominal>
 		<restock>3600</restock>
 		<lifetime>14400</lifetime>
-		<min>1</min>
+		<min>0</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
@@ -11186,10 +11186,10 @@
 		<value name="Tier4" />
 	</type>
 	<type name="Mag_FAMAS_25Rnd">
-		<nominal>1</nominal>
+		<nominal>0</nominal>
 		<restock>1800</restock>
 		<lifetime>28800</lifetime>
-		<min>1</min>
+		<min>0</min>
 		<quantmin>10</quantmin>
 		<quantmax>50</quantmax>
 		<cost>100</cost>
@@ -11214,10 +11214,10 @@
 		<value name="Tier3" />
 	</type>
 	<type name="Mag_Glock_15Rnd">
-		<nominal>8</nominal>
+		<nominal>0</nominal>
 		<restock>0</restock>
 		<lifetime>7200</lifetime>
-		<min>2</min>
+		<min>0</min>
 		<quantmin>10</quantmin>
 		<quantmax>100</quantmax>
 		<cost>100</cost>
@@ -16461,7 +16461,7 @@
 		<value name="" />
 	</type>
 	<type name="TLRLight">
-		<nominal>27</nominal>
+		<nominal>8</nominal>
 		<restock>0</restock>
 		<lifetime>14400</lifetime>
 		<min>4</min>
