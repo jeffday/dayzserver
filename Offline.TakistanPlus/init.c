@@ -87,15 +87,6 @@ class CustomMission: MissionServer
 		itemEnt = player.GetInventory().CreateInInventory("BandageDressing");
 		itemEnt = player.GetInventory().CreateInInventory("TunaCan");
 		itemEnt = player.GetInventory().CreateInInventory("TunaCan");	
-		
-		itemEnt = player.GetInventory().CreateInInventory("MMG_nbc_pouch");
-		itemEnt.GetInventory().CreateAttachment("GP5GasMask");
-		itemEnt.GetInventory().CreateAttachment("GasMask_Filter");
-		itemEnt.GetInventory().CreateAttachment("NBCBootsGray");
-		itemEnt.GetInventory().CreateAttachment("NBCGlovesGray");
-		itemEnt.GetInventory().CreateAttachment("NBCHoodGray");
-		itemEnt.GetInventory().CreateAttachment("NBCJacketGray");
-		itemEnt.GetInventory().CreateAttachment("NBCPantsGray");
 
 		itemClothing = player.FindAttachmentBySlotName( "Legs" );
 		if ( itemClothing )
