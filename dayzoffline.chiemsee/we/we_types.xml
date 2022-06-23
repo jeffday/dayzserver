@@ -433,6 +433,7 @@
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="weapons"/>
         <usage name="Military"/>
+        <value name="Tier3"/>
         <value name="Tier4"/>
     </type>
     <type name="WE_AK101">
@@ -523,7 +524,9 @@
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="weapons"/>
-		<usage name="Lugge_Bunker_area2" />
+		<usage name="Lugge_Bunker_area1" />
+        <usage name="Lugge_Bunker_area2" />
+        <value name="Tier3" />
 		<value name="Tier4" />
     </type>
     <type name="WE_RK95">
@@ -631,7 +634,8 @@
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="weapons"/>
 		<usage name="Military" />
-		<value name="Tier4" />
+        <value name="Tier2" />
+        <value name="Tier3" />
     </type>
     <type name="WE_MP5SD"> 
         <nominal>2</nominal>
@@ -644,6 +648,7 @@
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="weapons"/>
 		<usage name="Military" />
+        <value name="Tier3" />
 		<value name="Tier4" />
     </type>
 <!-- Snipers -->

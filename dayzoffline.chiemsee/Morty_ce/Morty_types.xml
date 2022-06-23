@@ -1,17 +1,16 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <types>
 	<type name="TTC_KAC">
-		<nominal>0</nominal>
+		<nominal>1</nominal>
 		<lifetime>10800</lifetime>
 		<restock>1800</restock>
-		<min>0</min>
+		<min>1</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
 		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
 		<category name="weapons" />
 		<usage name="Military" />
-		<value name="Tier2" />
 		<value name="Tier3" />
 	</type>
 	<type name="TTC_MAS36">
@@ -271,10 +270,10 @@
         <usage name="Military"/>
     </type>
 	<type name="TTC_M16">
-		<nominal>0</nominal>
+		<nominal>1</nominal>
 		<lifetime>10800</lifetime>
 		<restock>1800</restock>
-		<min>0</min>
+		<min>1</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
@@ -560,10 +559,10 @@
 		<usage name="Military" />
 	</type>
 	<type name="TTC_AACHoney_B">
-		<nominal>0</nominal>
+		<nominal>1</nominal>
 		<lifetime>10800</lifetime>
 		<restock>1800</restock>
-		<min>0</min>
+		<min>1</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
@@ -806,7 +805,7 @@
 		<usage name="Military" />
 	</type>
 	<type name="TTC_SCARLBlack">
-		<nominal>1</nominal>
+		<nominal>2</nominal>
 		<lifetime>10800</lifetime>
 		<restock>1800</restock>
 		<min>1</min>
@@ -836,7 +835,7 @@
 	</type>
 	<!-- M16A4 -->
 	<type name="TTC_M16A4">
-		<nominal>1</nominal>
+		<nominal>2</nominal>
 		<lifetime>10800</lifetime>
 		<restock>1800</restock>
 		<min>1</min>
@@ -2125,10 +2124,10 @@
 	</type>
 	<!-- Update 1.11.2 -->
     <type name="TTC_Kimber">
-        <nominal>4</nominal>
+        <nominal>8</nominal>
         <lifetime>14400</lifetime>
         <restock>7200</restock>
-        <min>2</min>
+        <min>4</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -2137,6 +2136,8 @@
         <usage name="Military"/>
         <usage name="Town"/>
         <usage name="Village"/>
+        <value name="Tier2" />
+        <value name="Tier3" />
     </type>
     <type name="Mag_Kimber1911_10Rnd">
         <nominal>6</nominal>
@@ -2884,10 +2885,10 @@
         <value name="Tier4" />
     </type>
 	<type name="TTC_MCX">
-		<nominal>0</nominal>
+		<nominal>2</nominal>
 		<lifetime>7200</lifetime>
 		<restock>1800</restock>
-		<min>0</min>
+		<min>2</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
@@ -3209,16 +3210,16 @@
         <value name="Tier4"/>
     </type>
 	<type name="TTC_M4Tac_Black">
-		<nominal>0</nominal>
+		<nominal>1</nominal>
 		<lifetime>10800</lifetime>
 		<restock>1800</restock>
-		<min>0</min>
+		<min>1</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
 		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
 		<category name="weapons" />
-		<value name="Tier3" />
+		<value name="Tier4" />
 		<usage name="Military" />
 	</type>
 	<!-- 1.13.2-->
@@ -3643,7 +3644,7 @@
         <value name="Tier4"/>
     </type>
 	<type name="TTC_L85">
-		<nominal>1</nominal>
+		<nominal>2</nominal>
 		<lifetime>10800</lifetime>
 		<restock>7200</restock>
 		<min>1</min>
@@ -3778,7 +3779,6 @@
 		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
 		<category name="weapons" />
 		<usage name="Military" />
-		<value name="Tier3" />
 		<value name="Tier4" />
         <usage name="Lugge_Bunker_area1" />
 	</type>
