@@ -27,10 +27,10 @@
 		<value name="Tier4" />
 	</type>
 	<type name="Mag_Aug_30Rnd">
-		<nominal>10</nominal>
+		<nominal>0</nominal>
 		<restock>1800</restock>
 		<lifetime>28800</lifetime>
-		<min>3</min>
+		<min>0</min>
 		<quantmin>10</quantmin>
 		<quantmax>50</quantmax>
 		<cost>100</cost>
@@ -11069,7 +11069,7 @@
 		<value name="Tier3" />
 	</type>
 	<type name="Mag_CMAG_20Rnd">
-		<nominal>2</nominal>
+		<nominal>3</nominal>
 		<restock>0</restock>
 		<lifetime>28800</lifetime>
 		<min>1</min>
@@ -11083,7 +11083,7 @@
 		<value name="Tier4" />
 	</type>
 	<type name="Mag_CMAG_30Rnd">
-		<nominal>1</nominal>
+		<nominal>2</nominal>
 		<restock>0</restock>
 		<lifetime>28800</lifetime>
 		<min>1</min>
@@ -11144,13 +11144,12 @@
 		<nominal>30</nominal>
 		<restock>0</restock>
 		<lifetime>28800</lifetime>
-		<min>6</min>
+		<min>12</min>
 		<quantmin>10</quantmin>
 		<quantmax>100</quantmax>
 		<cost>100</cost>
 		<flags count_in_hoarder="0" count_in_player="0" count_in_map="1" count_in_cargo="0" crafted="0" deloot="0" />
 		<category name="weapons" />
-		<usage name="Police" />
 		<usage name="Town" />
 		<usage name="Village" />
 		<value name="Tier1" />
@@ -11331,10 +11330,10 @@
 		<value name="Tier4" />
 	</type>
 	<type name="Mag_STANAG_30Rnd">
-		<nominal>1</nominal>
+		<nominal>5</nominal>
 		<restock>0</restock>
 		<lifetime>28800</lifetime>
-		<min>1</min>
+		<min>2</min>
 		<quantmin>5</quantmin>
 		<quantmax>50</quantmax>
 		<cost>100</cost>
@@ -11376,7 +11375,7 @@
 		<nominal>5</nominal>
 		<restock>0</restock>
 		<lifetime>14400</lifetime>
-		<min>1</min>
+		<min>2</min>
 		<quantmin>20</quantmin>
 		<quantmax>100</quantmax>
 		<cost>100</cost>
@@ -11388,7 +11387,7 @@
 		<value name="Tier4" />
 	</type>
 	<type name="Mag_Saiga_8Rnd">
-		<nominal>1</nominal>
+		<nominal>4</nominal>
 		<restock>0</restock>
 		<lifetime>14400</lifetime>
 		<min>1</min>
@@ -11483,16 +11482,15 @@
 		<flags count_in_hoarder="0" count_in_player="0" count_in_map="1" count_in_cargo="0" crafted="0" deloot="0" />
 		<category name="weapons" />
 		<usage name="Town" />
-		<usage name="Lugge_Bunker_area1" />
 		<value name="Tier2" />
 		<value name="Tier3" />
 		<value name="Tier4" />
 	</type>
 	<type name="MakarovIJ70">
-		<nominal>48</nominal>
+		<nominal>40</nominal>
 		<restock>0</restock>
 		<lifetime>28800</lifetime>
-		<min>6</min>
+		<min>10</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
@@ -11622,7 +11620,7 @@
 		<value name="Tier2" />
 	</type>
 	<type name="Matchbox">
-		<nominal>50</nominal>
+		<nominal>40</nominal>
 		<restock>0</restock>
 		<lifetime>14400</lifetime>
 		<min>5</min>
@@ -12136,10 +12134,10 @@
 		<value name="" />
 	</type>
 	<type name="Morphine">
-		<nominal>4</nominal>
+		<nominal>6</nominal>
 		<restock>0</restock>
 		<lifetime>28800</lifetime>
-		<min>1</min>
+		<min>2</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
@@ -12828,7 +12826,7 @@
 		<value name="" />
 	</type>
 	<type name="PSO11Optic">
-		<nominal>1</nominal>
+		<nominal>2</nominal>
 		<restock>1800</restock>
 		<lifetime>28800</lifetime>
 		<min>1</min>
@@ -12855,7 +12853,7 @@
 		<value name="" />
 	</type>
 	<type name="PUScopeOptic">
-		<nominal>4</nominal>
+		<nominal>6</nominal>
 		<restock>1800</restock>
 		<lifetime>14400</lifetime>
 		<min>1</min>
@@ -12869,10 +12867,10 @@
 		<value name="" />
 	</type>
 	<type name="PainkillerTablets">
-		<nominal>7</nominal>
+		<nominal>10</nominal>
 		<restock>0</restock>
 		<lifetime>28800</lifetime>
-		<min>2</min>
+		<min>3</min>
 		<quantmin>10</quantmin>
 		<quantmax>50</quantmax>
 		<cost>100</cost>
@@ -12924,7 +12922,7 @@
 		<value name="" />
 	</type>
 	<type name="ParamedicJacket_Blue">
-		<nominal>1</nominal>
+		<nominal>3</nominal>
 		<restock>0</restock>
 		<lifetime>14400</lifetime>
 		<min>1</min>
@@ -12937,7 +12935,7 @@
 		<value name="" />
 	</type>
 	<type name="ParamedicJacket_Crimson">
-		<nominal>1</nominal>
+		<nominal>3</nominal>
 		<restock>0</restock>
 		<lifetime>14400</lifetime>
 		<min>1</min>
@@ -12950,7 +12948,7 @@
 		<value name="" />
 	</type>
 	<type name="ParamedicJacket_Green">
-		<nominal>1</nominal>
+		<nominal>3</nominal>
 		<restock>0</restock>
 		<lifetime>14400</lifetime>
 		<min>1</min>
@@ -12963,7 +12961,7 @@
 		<value name="" />
 	</type>
 	<type name="ParamedicPants_Blue">
-		<nominal>1</nominal>
+		<nominal>3</nominal>
 		<restock>0</restock>
 		<lifetime>14400</lifetime>
 		<min>1</min>
@@ -12976,7 +12974,7 @@
 		<value name="" />
 	</type>
 	<type name="ParamedicPants_Crimson">
-		<nominal>1</nominal>
+		<nominal>3</nominal>
 		<restock>0</restock>
 		<lifetime>14400</lifetime>
 		<min>1</min>
@@ -12989,7 +12987,7 @@
 		<value name="" />
 	</type>
 	<type name="ParamedicPants_Green">
-		<nominal>1</nominal>
+		<nominal>3</nominal>
 		<restock>0</restock>
 		<lifetime>14400</lifetime>
 		<min>1</min>
