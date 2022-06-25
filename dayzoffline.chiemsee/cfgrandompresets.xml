@@ -265,10 +265,18 @@
 				<item name="Shovel" chance="0.8" />
 		</attachments>
 		<attachments chance="0.15" name="bagsVillage">
-				<item name="MountainBag_Red" chance="0.10" />
-				<item name="MountainBag_Blue" chance="0.10" />
-				<item name="MountainBag_Orange" chance="0.10" />
-				<item name="MountainBag_Green" chance="0.10" />
+			<item name="MountainBag_Red" chance="0.10" />
+			<item name="MountainBag_Blue" chance="0.10" />
+			<item name="MountainBag_Orange" chance="0.10" />
+			<item name="MountainBag_Green" chance="0.10" />
+			<item name="Spur_LW_Bag_Black" chance="0.08" />
+			<item name="Spur_LW_Bag_Blue" chance="0.07" />
+			<item name="Spur_LW_Bag_Brown" chance="0.08" />
+			<item name="Spur_LW_Bag_Green" chance="0.08" />
+			<item name="Spur_LW_Bag_Grey" chance="0.08" />
+			<item name="Spur_LW_Bag_Orange" chance="0.07" />
+			<item name="Spur_LW_Bag_Purple" chance="0.07" />
+			<item name="Spur_LW_Bag_Red" chance="0.07" />
 		</attachments>
 		<attachments chance="0.00" name="glassesVillage"> <!--was chance="0.30"; removed coz of attachment slot is missing -->
 			<item name="ThickFramesGlasses" chance="0.10" />
@@ -306,10 +314,21 @@
 			<item name="SportGlasses_Orange" chance="0.10" />
 		</attachments>
 		<attachments chance="0.15" name="bagsCity">
-			<item name="TaloonBag_Orange" chance="0.25" />
-			<item name="TaloonBag_Blue" chance="0.25" />
-			<item name="TaloonBag_Violet" chance="0.25" />
-			<item name="TaloonBag_Green" chance="0.25" />
+			<item name="TaloonBag_Orange" chance="0.1" />
+			<item name="TaloonBag_Blue" chance="0.1" />
+			<item name="TaloonBag_Violet" chance="0.1" />
+			<item name="TaloonBag_Green" chance="0.1" />
+			<item name="Canvas_Backpack_Base" chance="0.06" />
+			<item name="Canvas_Backpack_Black" chance="0.06" />
+			<item name="Canvas_Backpack_White" chance="0.06" />
+			<item name="Canvas_Backpack_Red" chance="0.06" />
+			<item name="Canvas_Backpack_Blue" chance="0.06" />
+			<item name="Canvas_Backpack_Purple" chance="0.06" />
+			<item name="Spur_Treker_Yellow" chance="0.05" />
+			<item name="Spur_Treker_Green" chance="0.05" />
+			<item name="Spur_Treker_Red" chance="0.05" />
+			<item name="Spur_Treker_Black" chance="0.04" />
+			<item name="Spur_Treker_Blue" chance="0.05" />
 		</attachments>
 		<attachments chance="0.30" name="hatsCitySkate">
 				<item name="SkateHelmet_Blue" chance="0.20" />
