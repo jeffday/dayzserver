@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+
+<spawnabletypes>
+    <damage min="0.2" max="0.6" />
+    <type name="Canvas_Backpack_Base">
+        <cargo preset="foodVillage" />
+        <cargo preset="mixVillage" />
+        <attachments chance="0.5">
+            <item name="Golden_Winged_Pin" chance="0.25" />
+            <item name="Button_Pin_Radioactive" chance="0.25" />
+            <item name="Button_Pin_Daisy" chance="0.25" />
+            <item name="Sheriff_Badge" chance="0.25" />
+        </attachments>
+    </type>
+    <type name="Canvas_Backpack_Black">
+        <cargo preset="foodVillage" />
+        <cargo preset="mixVillage" />
+        <attachments chance="0.5">
+            <item name="Golden_Winged_Pin" chance="0.25" />
+            <item name="Button_Pin_Radioactive" chance="0.25" />
+            <item name="Button_Pin_Daisy" chance="0.25" />
+            <item name="Sheriff_Badge" chance="0.25" />
+        </attachments>
+    </type>
+    <type name="Canvas_Backpack_White">
+        <cargo preset="foodVillage" />
+        <cargo preset="mixVillage" />
+        <attachments chance="0.5">
+            <item name="Golden_Winged_Pin" chance="0.25" />
+            <item name="Button_Pin_Radioactive" chance="0.25" />
+            <item name="Button_Pin_Daisy" chance="0.25" />
+            <item name="Sheriff_Badge" chance="0.25" />
+        </attachments>
+    </type>
+    <type name="Canvas_Backpack_Red">
+        <cargo preset="foodVillage" />
+        <cargo preset="mixVillage" />
+        <attachments chance="0.5">
+            <item name="Golden_Winged_Pin" chance="0.25" />
+            <item name="Button_Pin_Radioactive" chance="0.25" />
+            <item name="Button_Pin_Daisy" chance="0.25" />
+            <item name="Sheriff_Badge" chance="0.25" />
+        </attachments>
+    </type>
+    <type name="Canvas_Backpack_Blue">
+        <cargo preset="foodVillage" />
+        <cargo preset="mixVillage" />
+        <attachments chance="0.5">
+            <item name="Golden_Winged_Pin" chance="0.25" />
+            <item name="Button_Pin_Radioactive" chance="0.25" />
+            <item name="Button_Pin_Daisy" chance="0.25" />
+            <item name="Sheriff_Badge" chance="0.25" />
+        </attachments>
+    </type>
+    <type name="Canvas_Backpack_Purple">
+        <cargo preset="foodVillage" />
+        <cargo preset="mixVillage" />
+        <attachments chance="0.5">
+            <item name="Golden_Winged_Pin" chance="0.25" />
+            <item name="Button_Pin_Radioactive" chance="0.25" />
+            <item name="Button_Pin_Daisy" chance="0.25" />
+            <item name="Sheriff_Badge" chance="0.25" />
+        </attachments>
+    </type>
+</spawnabletypes>
