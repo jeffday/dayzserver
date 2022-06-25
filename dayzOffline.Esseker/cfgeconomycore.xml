@@ -71,4 +71,10 @@ Do not forget to add attribute act="car", if root class represents moveable vehi
 		<file name="mmg_types_ukraine.xml" type="types" />
 		<file name="mmg_cfgspawnabletypes.xml" type="spawnabletypes" />
 	</ce>
+
+	<!-- Windstride's Clothing Pack -->
+	<ce folder="windstride">
+		<file name="windstride_types.xml" type="types" />
+		<file name="windstride_cfgspawnabletypes.xml" type="spawnabletypes" />
+	</ce>
 </economycore>
