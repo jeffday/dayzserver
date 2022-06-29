@@ -9,8 +9,8 @@ void main()
 	
 	//DATE RESET AFTER ECONOMY INIT-------------------------
 	
-	GetCEApi().ExportProxyData("7500 0 7500", 20000);	// standard map groups (buildings) export, terrain center and radius needs to be specified
-	GetCEApi().ExportClusterData();					// cluster-type map groups export (fruit trees etc.)
+	//GetCEApi().ExportProxyData("7500 0 7500", 20000);	// standard map groups (buildings) export, terrain center and radius needs to be specified
+	//GetCEApi().ExportClusterData();					// cluster-type map groups export (fruit trees etc.)
 	
 	int year, month, day, hour, minute;
 	int reset_month = 9, reset_day = 20;
@@ -18,19 +18,19 @@ void main()
 
 	if ((month == reset_month) && (day < reset_day))
 	{
-		GetGame().GetWorld().SetDate(year, reset_month, reset_day, hour, minute);
+		GetGame().GetWorld().SetDate(year, reset_month, reset_day, 8, 0);
 	}
 	else
 	{
 		if ((month == reset_month + 1) && (day > reset_day))
 		{
-			GetGame().GetWorld().SetDate(year, reset_month, reset_day, hour, minute);
+			GetGame().GetWorld().SetDate(year, reset_month, reset_day, 8, 0);
 		}
 		else
 		{
 			if ((month < reset_month) || (month > reset_month + 1))
 			{
-				GetGame().GetWorld().SetDate(year, reset_month, reset_day, hour, minute);
+				GetGame().GetWorld().SetDate(year, reset_month, reset_day, 8, 0);
 			}
 		}
 	}
