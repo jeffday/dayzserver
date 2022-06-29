@@ -2,11 +2,11 @@
 
 chernarus and melkart in particular have highly armored military and police zombies.
 
-these are my server configs for the following maps: chernarus (both regular and winter versions), livonia, melkart, takistan, namalsk, chiemsee, and esseker
+these are my server configs for the following maps: chernarus (both regular and winter versions), livonia, melkart, takistan, namalsk, chiemsee, esseker, banov, and eden.
 
 i run the following mods on most of these maps:
 * MMG gear (with country camo expansion, diff camo types spawn based on the map season/environment)
 * spurglez bags (same as MMG, relevant camo types for the environment spawn only)
 * windstride clothing
 * morty's weapons (assault rifles, DMRs, sniper rifles, civilian rifles, pistols)
-* weapon expansion (usually for the cheytac and their AK-system replacements)
+* weapon expansion (usually for the cheytac and their MP5 and AK-system replacements)
