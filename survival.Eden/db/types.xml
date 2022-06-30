@@ -10772,7 +10772,7 @@
         <value name="Tier4"/>
     </type>
     <type name="Mag_AK74_30Rnd">
-        <nominal>20</nominal>
+        <nominal>15</nominal>
         <lifetime>28800</lifetime>
         <restock>0</restock>
         <min>5</min>
@@ -10796,13 +10796,13 @@
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="weapons"/>
         <usage name="Military"/>
-		<value name="Tier2"/>
+		<value name="Tier4"/>
     </type>
     <type name="Mag_AKM_30Rnd">
-        <nominal>20</nominal>
+        <nominal>15</nominal>
         <lifetime>28800</lifetime>
         <restock>0</restock>
-        <min>10</min>
+        <min>5</min>
         <quantmin>5</quantmin>
         <quantmax>50</quantmax>
         <cost>100</cost>
@@ -10826,10 +10826,10 @@
 		<value name="Tier4"/>
     </type>
     <type name="Mag_AKM_Palm30Rnd">
-        <nominal>2</nominal>
+        <nominal>5</nominal>
         <lifetime>28800</lifetime>
         <restock>0</restock>
-        <min>1</min>
+        <min>5</min>
         <quantmin>5</quantmin>
         <quantmax>50</quantmax>
         <cost>100</cost>
@@ -10869,10 +10869,10 @@
         <value name="Tier3"/>
     </type>
     <type name="Mag_CMAG_20Rnd">
-        <nominal>8</nominal>
+        <nominal>4</nominal>
         <lifetime>28800</lifetime>
         <restock>0</restock>
-        <min>5</min>
+        <min>2</min>
         <quantmin>5</quantmin>
         <quantmax>50</quantmax>
         <cost>100</cost>
@@ -10883,7 +10883,7 @@
         <value name="Tier3"/>
     </type>
     <type name="Mag_CMAG_30Rnd">
-        <nominal>8</nominal>
+        <nominal>5</nominal>
         <lifetime>28800</lifetime>
         <restock>0</restock>
         <min>2</min>
