@@ -146,6 +146,7 @@
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="weapons"/>
+        <value name="Tier1"/>
 		<value name="Tier2"/>
 		<value name="Tier3"/>
         <usage name="Military"/>
@@ -672,7 +673,7 @@
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="weapons"/>
         <usage name="Military"/>
-		<value name="Tier1"/>
+		<value name="Tier2"/>
         <value name="Tier3"/>
         <value name="Tier4"/>
     </type>
@@ -1081,6 +1082,7 @@
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="weapons"/>
         <tag name="shelves"/>
+        <usage name="Military"/>
         <usage name="Farm"/>
         <usage name="Village"/>
         <usage name="Hunting"/>
@@ -4891,7 +4893,7 @@
         <usage name="Village"/>
     </type>
     <type name="Colt1911">
-        <nominal>5</nominal>
+        <nominal>3</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
         <min>2</min>
@@ -10742,10 +10744,10 @@
         <category name="food"/>
     </type>
     <type name="Mag_1911_7Rnd">
-        <nominal>10</nominal>
+        <nominal>5</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
-        <min>5</min>
+        <min>3</min>
         <quantmin>20</quantmin>
         <quantmax>100</quantmax>
         <cost>100</cost>
@@ -10862,6 +10864,7 @@
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="weapons"/>
         <usage name="Military"/>
+        <value name="Tier1"/>
         <value name="Tier2"/>
         <value name="Tier3"/>
     </type>
@@ -11083,8 +11086,6 @@
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="weapons"/>
         <usage name="Military"/>
-		<value name="Tier1"/>
-		<value name="Tier2"/>
     </type>
     <type name="Mag_P1_8Rnd">
         <nominal>5</nominal>
@@ -11195,9 +11196,7 @@
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="weapons"/>
-        <usage name="Military"/>
-		<value name="Tier1"/>
-        <value name="Tier2"/>        
+        <usage name="Military"/>    
     </type>
     <type name="Mag_Saiga_8Rnd">
         <nominal>5</nominal>
@@ -11210,8 +11209,6 @@
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="weapons"/>
         <usage name="Military"/>
-        <value name="Tier1"/>
-        <value name="Tier2"/>
     </type>
     <type name="Mag_Saiga_Drum20Rnd">
         <nominal>5</nominal>
@@ -11253,8 +11250,6 @@
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="weapons"/>
         <usage name="Military"/>
-		<value name="Tier1"/>
-		<value name="Tier2"/>
     </type>
     <type name="Mag_VAL_20Rnd">
         <nominal>3</nominal>
@@ -17263,7 +17258,7 @@
         <usage name="Military"/>
     </type>
     <type name="UMP45">
-        <nominal>8</nominal>
+        <nominal>4</nominal>
         <lifetime>28800</lifetime>
         <restock>0</restock>
         <min>2</min>
@@ -17275,6 +17270,7 @@
         <usage name="Military"/>
 		<value name="Tier1"/>
 		<value name="Tier2"/>
+        <value name="Tier3"/>
     </type>
     <type name="USMCJacket_Desert">
         <nominal>0</nominal>

@@ -111,6 +111,8 @@
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="weapons"/>
         <usage name="Military"/>
+        <value name="Tier1"/>
+        <value name="Tier2"/>
     </type>
     <type name="WE_OKP7Optic">
         <nominal>4</nominal>
@@ -326,16 +328,17 @@
         <value name="Tier4"/>
     </type>
     <type name="WE_FiveSeven_Black">
-        <nominal>0</nominal>
+        <nominal>3</nominal>
         <lifetime>28800</lifetime>
         <restock>0</restock>
-        <min>0</min>
+        <min>2</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="weapons"/>
         <usage name="Military"/>
+        <value name="Tier1"/>
         <value name="Tier2"/>
         <value name="Tier3"/>
     </type>
@@ -565,16 +568,17 @@
         <category name="weapons"/>
     </type>
     <type name="WE_Mossberg500">
-        <nominal>2</nominal>
+        <nominal>4</nominal>
         <lifetime>7200</lifetime>
         <restock>0</restock>
-        <min>1</min>
+        <min>2</min>
         <quantmin>0</quantmin>
         <quantmax>80</quantmax>
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="weapons"/>
         <usage name="Police"/>
+        <usage name="Military"/>
     </type>
 <!-- SMGs -->
     <type name="WE_AUGPara">
@@ -604,10 +608,10 @@
         <usage name="Police"/>
     </type>
     <type name="WE_MP5A1">
-        <nominal>8</nominal>
+        <nominal>6</nominal>
         <lifetime>28800</lifetime>
         <restock>1800</restock>
-        <min>4</min>
+        <min>2</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -621,7 +625,7 @@
         <nominal>2</nominal>
         <lifetime>28800</lifetime>
         <restock>1800</restock>
-        <min>2</min>
+        <min>1</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -793,16 +797,17 @@
         <value name="Tier3"/>
     </type>
     <type name="WE_Mag_FiveseveN_20Rnd">
-        <nominal>0</nominal>
+        <nominal>5</nominal>
         <lifetime>28800</lifetime>
         <restock>0</restock>
-        <min>0</min>
+        <min>2</min>
         <quantmin>10</quantmin>
         <quantmax>100</quantmax>
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="weapons"/>
         <usage name="Military"/>
+        <value name="Tier1"/>
         <value name="Tier2"/>
         <value name="Tier3"/>
     </type>
@@ -1022,10 +1027,10 @@
 <!-- Start AmmunitionExpansion Types.xml -->
 <!-- Ammo Boxes -->
     <type name="AE_AmmoBox_57x28_30Rnd">
-        <nominal>0</nominal>
+        <nominal>3</nominal>
         <lifetime>28800</lifetime>
         <restock>0</restock>
-        <min>0</min>
+        <min>2</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -1097,16 +1102,15 @@
     </type>
 <!-- Ammo Piles -->
     <type name="Ammo_AE57x28">
-        <nominal>0</nominal>
-        <lifetime>14400</lifetime>
-        <restock>180</restock>
-        <min>0</min>
-        <quantmin>10</quantmin>
-        <quantmax>40</quantmax>
+        <nominal>5</nominal>
+        <lifetime>28800</lifetime>
+        <restock>0</restock>
+        <min>3</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="weapons"/>
-        <tag name="shelves"/>
         <usage name="Military"/>
     </type>
     <type name="Ammo_AE127x99">
