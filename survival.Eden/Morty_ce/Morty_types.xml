@@ -2149,8 +2149,10 @@
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="weapons"/>
         <usage name="Military"/>
+        <usage name="Town"/>
         <value name="Tier1"/>
         <value name="Tier2"/>
+        <value name="Tier3"/>
     </type>
     <type name="Mag_Kimber1911_10Rnd">
         <nominal>3</nominal>
@@ -2163,8 +2165,10 @@
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="weapons"/>
         <usage name="Military"/>
+        <usage name="Town"/>
         <value name="Tier1"/>
         <value name="Tier2"/>
+        <value name="Tier3"/>
     </type>
     <type name="TTC_Mossberg">
         <nominal>2</nominal>

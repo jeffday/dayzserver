@@ -4903,6 +4903,7 @@
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="weapons"/>
         <usage name="Military"/>
+        <usage name="Town"/>
         <value name="Tier1"/>
         <value name="Tier2"/>
     </type>
@@ -5976,6 +5977,7 @@
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="weapons"/>
         <usage name="Military"/>
+        <usage name="Town"/>
     </type>
     <type name="Epinephrine">
         <nominal>10</nominal>
@@ -10754,6 +10756,7 @@
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="weapons"/>
         <usage name="Military"/>
+        <usage name="Town"/>
         <value name="Tier1"/>
         <value name="Tier2"/>
     </type>
@@ -10784,6 +10787,7 @@
         <usage name="Military"/>
         <value name="Tier2"/>
         <value name="Tier3"/>
+        <value name="Tier4"/>
     </type>
     <type name="Mag_AK74_45Rnd">
         <nominal>2</nominal>
@@ -10793,7 +10797,7 @@
         <quantmin>10</quantmin>
         <quantmax>50</quantmax>
         <cost>100</cost>
-        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="1"/>
         <category name="weapons"/>
         <usage name="Military"/>
 		<value name="Tier4"/>
@@ -10826,7 +10830,7 @@
 		<value name="Tier4"/>
     </type>
     <type name="Mag_AKM_Palm30Rnd">
-        <nominal>5</nominal>
+        <nominal>3</nominal>
         <lifetime>28800</lifetime>
         <restock>0</restock>
         <min>2</min>
@@ -11221,8 +11225,6 @@
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="1" crafted="0" deloot="1"/>
         <category name="weapons"/>
         <usage name="Military"/>
-		<value name="Tier1"/>
-        <value name="Tier2"/>
     </type>
     <type name="Mag_Scout_5Rnd">
         <nominal>8</nominal>
