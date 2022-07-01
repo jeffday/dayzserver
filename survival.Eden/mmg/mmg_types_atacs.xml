@@ -4,10 +4,10 @@
 
 <types>
     <type name="MMG_JPC_Vest_atacs">
-        <nominal>5</nominal>
+        <nominal>3</nominal>
         <lifetime>7200</lifetime>
         <restock>7200</restock>
-        <min>3</min>
+        <min>2</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -33,10 +33,10 @@
         <value name="Tier4"/>
     </type>
 	<type name="MMG_chestrig_atacs">
-        <nominal>5</nominal>
+        <nominal>3</nominal>
         <lifetime>7200</lifetime>
         <restock>7200</restock>
-        <min>3</min>
+        <min>2</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -179,7 +179,7 @@
 <!--BACKPACKS-->
 
     <type name="MMG_carrier_backpack_atacs">
-        <nominal>5</nominal>
+        <nominal>3</nominal>
         <lifetime>28800</lifetime>
         <restock>0</restock>
         <min>2</min>
@@ -191,7 +191,7 @@
         <usage name="Military"/>
     </type>
     <type name="MMG_supplybag_atacs">
-        <nominal>5</nominal>
+        <nominal>2</nominal>
         <lifetime>28800</lifetime>
         <restock>0</restock>
         <min>1</min>
@@ -203,7 +203,7 @@
         <usage name="Military"/>
     </type>
     <type name="MMG_assault_pack_atacs">
-        <nominal>5</nominal>
+        <nominal>3</nominal>
         <lifetime>28800</lifetime>
         <restock>0</restock>
         <min>2</min>
@@ -215,7 +215,7 @@
         <usage name="Military"/>
     </type>
     <type name="MMG_camelback_atacs">
-        <nominal>5</nominal>
+        <nominal>2</nominal>
         <lifetime>28800</lifetime>
         <restock>0</restock>
         <min>1</min>
@@ -275,7 +275,7 @@
 <!--ITEMS-->
 
     <type name="MMG_sheath_atacs">
-        <nominal>10</nominal>
+        <nominal>5</nominal>
         <lifetime>7200</lifetime>
         <restock>7200</restock>
         <min>2</min>
@@ -299,7 +299,7 @@
         <usage name="Military"/>
     </type>
     <type name="MMG_Holster_atacs">
-        <nominal>10</nominal>
+        <nominal>5</nominal>
         <lifetime>7200</lifetime>
         <restock>7200</restock>
         <min>2</min>
@@ -314,10 +314,10 @@
 <!--CLOTHING-->
 
     <type name="MMG_operatorshirt_atacs">
-        <nominal>2</nominal>
+        <nominal>0</nominal>
         <lifetime>7200</lifetime>
         <restock>7200</restock>
-        <min>1</min>
+        <min>0</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -364,10 +364,10 @@
         <usage name="Military"/>
     </type>
 	 <type name="MMG_tactical_pants_atacs">
-        <nominal>2</nominal>
+        <nominal>0</nominal>
         <lifetime>7200</lifetime>
         <restock>7200</restock>
-        <min>1</min>
+        <min>0</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -390,30 +390,6 @@
         <usage name="Military"/>
     </type>
     <type name="MMG_boots_atacs">
-        <nominal>5</nominal>
-        <lifetime>7200</lifetime>
-        <restock>7200</restock>
-        <min>3</min>
-        <quantmin>-1</quantmin>
-        <quantmax>-1</quantmax>
-        <cost>100</cost>
-        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-        <category name="clothes"/>
-        <usage name="Military"/>
-    </type>
-    <type name="MMG_facemask_atacs">
-        <nominal>5</nominal>
-        <lifetime>7200</lifetime>
-        <restock>7200</restock>
-        <min>3</min>
-        <quantmin>-1</quantmin>
-        <quantmax>-1</quantmax>
-        <cost>100</cost>
-        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-        <category name="clothes"/>
-        <usage name="Military"/>
-    </type>
-    <type name="MMG_balaclava_atacs">
         <nominal>3</nominal>
         <lifetime>7200</lifetime>
         <restock>7200</restock>
@@ -425,11 +401,35 @@
         <category name="clothes"/>
         <usage name="Military"/>
     </type>
-	<type name="mmg_boonie_atacs">
+    <type name="MMG_facemask_atacs">
         <nominal>2</nominal>
         <lifetime>7200</lifetime>
         <restock>7200</restock>
-        <min>2</min>
+        <min>1</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="clothes"/>
+        <usage name="Military"/>
+    </type>
+    <type name="MMG_balaclava_atacs">
+        <nominal>2</nominal>
+        <lifetime>7200</lifetime>
+        <restock>7200</restock>
+        <min>1</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="clothes"/>
+        <usage name="Military"/>
+    </type>
+	<type name="mmg_boonie_atacs">
+        <nominal>0</nominal>
+        <lifetime>7200</lifetime>
+        <restock>7200</restock>
+        <min>0</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
