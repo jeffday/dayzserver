@@ -197,6 +197,7 @@
 	</group>
 	
 	<group name="land_church_large01" lootmax="4">
+		<usage name="City" />
 		<container name="lootFloor" lootmax="4">
 			<category name="tools" />
 			<category name="food" />
@@ -214,6 +215,7 @@
 	</group>
 	<group name="land_city_building01" lootmax="5">
 		<usage name="Village" />
+		<usage name="City" />
 		<container name="lootShelves" lootmax="5">
 			<category name="tools" />
 			<category name="food" />
@@ -234,6 +236,7 @@
 		</container>
 	</group>
 	<group name="land_city_building02" lootmax="10">
+		<usage name="City" />
 		<container name="lootFloor" lootmax="10">
 			<category name="tools" />
 			<category name="food" />
@@ -257,6 +260,7 @@
 		</container>
 	</group>
 	<group name="land_pub01" lootmax="5">
+		<usage name="City" />
 		<usage name="Town"/>
 		<container name="lootShelves" lootmax="5">
 			<category name="tools" />
@@ -280,6 +284,7 @@
 	</group>
 	<group name="land_shop_closed01" lootmax="4">
 		<usage name="Town"/>
+		<usage name="City" />
 		<container name="lootShelves" lootmax="3">
 			<category name="tools" />
 			<category name="food" />
@@ -305,6 +310,7 @@
 	</group>
 	<group name="land_shop_blue" lootmax="4">
 		<usage name="Town"/>
+		<usage name="City" />
 		<container name="lootShelves" lootmax="4">
 			<category name="tools" />
 			<category name="food" />
