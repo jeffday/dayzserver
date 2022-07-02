@@ -270,6 +270,11 @@
 				<item name="MountainBag_Blue" chance="0.10" />
 				<item name="MountainBag_Orange" chance="0.10" />
 				<item name="MountainBag_Green" chance="0.10" />
+				<item name="MountainBag_Summer" chance="0.10" />
+				<item name="MountainBag_Autumn" chance="0.10" />
+				<item name="MountainBag_Grey" chance="0.10" />
+				<item name="MountainBag_Brown" chance="0.10" />
+				<item name="MountainBag_FLT" chance="0.10" />
 		</attachments>
 		<attachments chance="0.00" name="glassesVillage"> <!--was chance="0.30"; removed coz of attachment slot is missing -->
 			<item name="ThickFramesGlasses" chance="0.10" />
@@ -307,10 +312,21 @@
 			<item name="SportGlasses_Orange" chance="0.10" />
 		</attachments>
 		<attachments chance="0.15" name="bagsCity">
-			<item name="TaloonBag_Orange" chance="0.25" />
-			<item name="TaloonBag_Blue" chance="0.25" />
-			<item name="TaloonBag_Violet" chance="0.25" />
-			<item name="TaloonBag_Green" chance="0.25" />
+			<item name="TaloonBag_Orange" chance="0.10" />
+			<item name="TaloonBag_Blue" chance="0.10" />
+			<item name="TaloonBag_Violet" chance="0.10" />
+			<item name="TaloonBag_Green" chance="0.10" />
+			<item name="TaloonBag_Black" chance="0.10" />
+			<item name="TaloonBag_Red" chance="0.10" />
+			<item name="TaloonBag_Yellow" chance="0.10" />
+			<item name="TaloonBag_Woodland" chance="0.10" />
+			<item name="TaloonBag_Navy" chance="0.10" />
+			<item name="Canvas_Backpack_Base" chance="0.10" />
+			<item name="Canvas_Backpack_Black" chance="0.10" />
+			<item name="Canvas_Backpack_White" chance="0.10" />
+			<item name="Canvas_Backpack_Red" chance="0.10" />
+			<item name="Canvas_Backpack_Blue" chance="0.10" />
+			<item name="Canvas_Backpack_Purple" chance="0.10" />
 		</attachments>
 		<attachments chance="0.30" name="hatsCitySkate">
 				<item name="SkateHelmet_Blue" chance="0.20" />
