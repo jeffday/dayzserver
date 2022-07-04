@@ -2081,16 +2081,18 @@
 		<value name="Tier4" />
 	</type>
     <type name="TTC_G3_Magazine_20rnd">
-        <nominal>0</nominal>
+        <nominal>4</nominal>
         <lifetime>28800</lifetime>
         <restock>1800</restock>
-        <min>0</min>
+        <min>2</min>
         <quantmin>10</quantmin>
         <quantmax>80</quantmax>
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="weapons"/>
         <usage name="Military"/>
+        <value name="Tier3" />
+		<value name="Tier4" />
     </type>
     <type name="TTC_G3_Optic"><!-- 100% chance of appearing in spawnable_types.xml-->
         <nominal>0</nominal>
@@ -2631,10 +2633,10 @@
     </type>
 	<!-- Update 1.12.1-->
 	<type name="TTC_AG3">
-		<nominal>0</nominal>
+		<nominal>1</nominal>
 		<lifetime>10800</lifetime>
 		<restock>14400</restock>
-		<min>0</min>
+		<min>1</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
@@ -2644,10 +2646,10 @@
 		<value name="Tier4" />
 	</type>
     <type name="TTC_AG3_Coupled_Magazine_40rnd">
-        <nominal>0</nominal>
+        <nominal>1</nominal>
         <lifetime>7200</lifetime>
         <restock>7200</restock>
-        <min>0</min>
+        <min>1</min>
         <quantmin>10</quantmin>
         <quantmax>60</quantmax>
         <cost>100</cost>
