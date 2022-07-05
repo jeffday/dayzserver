@@ -1521,10 +1521,10 @@
 		<usage name="Military" />
     </type>
     <type name="Ammo_BO_3006">
-        <nominal>80</nominal>
+        <nominal>0</nominal>
         <lifetime>10800</lifetime>
         <restock>4800</restock>
-        <min>50</min>
+        <min>0</min>
         <quantmin>100</quantmin>
         <quantmax>100</quantmax>
         <cost>100</cost>
@@ -1533,10 +1533,10 @@
         <usage name="Military"/>
     </type>
     <type name="Ammo_BO_3006_AP">
-        <nominal>30</nominal>
+        <nominal>0</nominal>
         <lifetime>10800</lifetime>
         <restock>4800</restock>
-        <min>10</min>
+        <min>0</min>
         <quantmin>100</quantmin>
         <quantmax>100</quantmax>
         <cost>100</cost>
@@ -1545,10 +1545,10 @@
         <usage name="Military"/>
     </type>
     <type name="Ammo_BO_40mm_HE">
-        <nominal>3</nominal>
+        <nominal>0</nominal>
         <lifetime>7200</lifetime>
         <restock>300</restock>
-        <min>3</min>
+        <min>0</min>
         <quantmin>100</quantmin>
         <quantmax>100</quantmax>
         <cost>100</cost>
