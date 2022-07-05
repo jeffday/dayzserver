@@ -2582,10 +2582,10 @@
     
 <!-- Added 2.1 -->
     <type name="BO_M60">
-        <nominal>3</nominal>
+        <nominal>0</nominal>
         <lifetime>7200</lifetime>
         <restock>300</restock>
-        <min>3</min>
+        <min>0</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -2594,10 +2594,10 @@
         <usage name="Military"/>
     </type>
     <type name="BO_Mag_M60_100rnd">
-        <nominal>3</nominal>
+        <nominal>0</nominal>
         <lifetime>7200</lifetime>
         <restock>300</restock>
-        <min>3</min>
+        <min>0</min>
         <quantmin>100</quantmin>
         <quantmax>100</quantmax>
         <cost>100</cost>
@@ -2606,10 +2606,10 @@
         <usage name="Military"/>
     </type>
     <type name="BO_M240B">
-        <nominal>3</nominal>
+        <nominal>0</nominal>
         <lifetime>7200</lifetime>
         <restock>300</restock>
-        <min>3</min>
+        <min>0</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -2618,10 +2618,10 @@
         <usage name="Military"/>
     </type>
     <type name="BO_Mag_M240B_50rnd">
-        <nominal>3</nominal>
+        <nominal>0</nominal>
         <lifetime>7200</lifetime>
         <restock>300</restock>
-        <min>3</min>
+        <min>0</min>
         <quantmin>100</quantmin>
         <quantmax>100</quantmax>
         <cost>100</cost>
@@ -2630,10 +2630,10 @@
         <usage name="Military"/>
     </type>
     <type name="BO_MG42">
-        <nominal>3</nominal>
+        <nominal>0</nominal>
         <lifetime>7200</lifetime>
         <restock>300</restock>
-        <min>3</min>
+        <min>0</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -2642,10 +2642,10 @@
         <usage name="Military"/>
     </type>
     <type name="BO_Mag_MG42_50rnd">
-        <nominal>3</nominal>
+        <nominal>0</nominal>
         <lifetime>7200</lifetime>
         <restock>300</restock>
-        <min>3</min>
+        <min>0</min>
         <quantmin>100</quantmin>
         <quantmax>100</quantmax>
         <cost>100</cost>
@@ -2690,10 +2690,10 @@
         <usage name="Military"/>
     </type>
     <type name="BO_FG42M">
-        <nominal>3</nominal>
+        <nominal>0</nominal>
         <lifetime>7200</lifetime>
         <restock>300</restock>
-        <min>3</min>
+        <min>0</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
