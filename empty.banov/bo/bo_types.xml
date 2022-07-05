@@ -1577,10 +1577,10 @@
         <usage name="ContaminatedArea"/>
     </type>
     <type name="BO_VR80">
-        <nominal>3</nominal>
+        <nominal>0</nominal>
         <lifetime>7200</lifetime>
         <restock>300</restock>
-        <min>3</min>
+        <min>0</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -1589,10 +1589,10 @@
         <usage name="Military"/>
     </type>
     <type name="BO_Mag_VR80_10rnd">
-        <nominal>3</nominal>
+        <nominal>0</nominal>
         <lifetime>7200</lifetime>
         <restock>300</restock>
-        <min>3</min>
+        <min>0</min>
         <quantmin>100</quantmin>
         <quantmax>100</quantmax>
         <cost>100</cost>
