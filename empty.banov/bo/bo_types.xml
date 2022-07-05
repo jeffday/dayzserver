@@ -2891,10 +2891,10 @@
         <usage name="Military"/>
     </type>
     <type name="BO_Vector">
-        <nominal>3</nominal>
+        <nominal>4</nominal>
         <lifetime>7200</lifetime>
         <restock>300</restock>
-        <min>3</min>
+        <min>2</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -2903,10 +2903,10 @@
         <usage name="Military"/>
     </type>
     <type name="BO_Mag_Vector_32rnd">
-        <nominal>3</nominal>
+        <nominal>5</nominal>
         <lifetime>7200</lifetime>
         <restock>300</restock>
-        <min>3</min>
+        <min>2</min>
         <quantmin>100</quantmin>
         <quantmax>100</quantmax>
         <cost>100</cost>
