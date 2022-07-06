@@ -674,17 +674,13 @@
 		</attachments>
 	</type>
 	<type name="TTC_Glock17">
+		<attachments preset="pistol_optics" />
+		<attachments preset="pistol_suppressors" />
 		<attachments chance="0.05">
-			<item name="TTC_PistolSuppressor" chance="1.00" />
-		</attachments>
-		<attachments chance="0.05">
-			<item name="TLRLight" chance="1.00" />
+			<item name="TTC_Pistol_Light" chance="1.00" />
 		</attachments>
 		<attachments chance="0.15">
 			<item name="TTC_Mag_Glock_17Rnd" chance="1.00" />
-		</attachments>
-      	<attachments chance="0.15">
-			<item name="TTC_Pistol_Optic" chance="1.00" />
 		</attachments>
 	</type>
 	<type name="TTC_M9_Custom">
@@ -909,14 +905,10 @@
 		<attachments chance="0.10">
 			<item name="TTC_P320_17Rnd" chance="1.00" />
 		</attachments>
-		<attachments chance="0.05">
-			<item name="TTC_PistolSuppressor" chance="1.00" />
-		</attachments>
+		<attachments preset="pistol_optics" />
+		<attachments preset="pistol_suppressors" />
 		<attachments chance="0.10">
-			<item name="TLRLight" chance="1.00" />
-		</attachments>
-		<attachments chance="0.15">
-			<item name="TTC_Pistol_Optic" chance="1.00" />
+			<item name="TTC_Pistol_Light" chance="1.00" />
 		</attachments>
 	</type>
 	<type name="TTC_Mk47">

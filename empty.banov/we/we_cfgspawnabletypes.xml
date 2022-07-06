@@ -28,28 +28,20 @@
 		<attachments chance="0.10">
 			<item name="WE_Mag_FiveseveN_20Rnd" chance="1.00" />
 		</attachments>
-		<attachments chance="0.05">
-			<item name="TTC_PistolSuppressor" chance="1.00" />
-		</attachments>
+		<attachments preset="pistol_optics" />
+		<attachments preset="pistol_suppressors" />
 		<attachments chance="0.10">
 			<item name="TTC_Pistol_Light" chance="1.00" />
-		</attachments>
-		<attachments chance="0.15">
-			<item name="FNP45_MRDSOptic" chance="1.00" />
 		</attachments>
 	</type>
 	<type name="WE_FiveSeven_Black">
 		<attachments chance="0.10">
 			<item name="WE_Mag_FiveseveN_20Rnd" chance="1.00" />
 		</attachments>
-		<attachments chance="0.05">
-			<item name="TTC_PistolSuppressor" chance="1.00" />
-		</attachments>
+		<attachments preset="pistol_optics" />
+		<attachments preset="pistol_suppressors" />
 		<attachments chance="0.10">
 			<item name="TTC_Pistol_Light" chance="1.00" />
-		</attachments>
-		<attachments chance="0.15">
-			<item name="FNP45_MRDSOptic" chance="1.00" />
 		</attachments>
 	</type>
     <type name="WE_M9">

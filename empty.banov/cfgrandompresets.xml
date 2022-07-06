@@ -213,24 +213,43 @@
 				<item name="RDG2SmokeGrenade_Black" chance="0.25" />
 				<item name="RGD5Grenade" chance="0.25" />
 		</cargo>
-		<attachments chance="0.60" name="optics">
+		<attachments chance="0.15" name="pistol_optics">
+				<item name="TTC_Pistol_Optic" chance="1.00" />
+		</attachments>
+		<attachments chance="0.60" name="close_range_optics">
+				<item name="BO_Holosun_HS510C_Optic" chance="0.50" />
+				<item name="BO_VortexAMG_UH1_Optic" chance="0.50" />
+		</attachments>
+		<attachments chance="0.60" name="ar_optics">
 				<item name="BO_ACOGOptic_Crosshair_Red" chance="0.20" />
+				<item name="BO_ACOGOptic_Chevron_Green" chance="0.20" />
 				<item name="BO_HAMROptic" chance="0.20" />
-				<item name="BO_LeupoldHoloDEVO" chance="0.20" />
-				<item name="BO_Holosun_HS510C_Optic" chance="0.20" />
-		</attachments>
-		<attachments chance="0.60" name="scopes">
-				<item name="BO_ACOGOptic_Crosshair_Red" chance="0.20" />
 				<item name="BO_SpecterDROptic" chance="0.20" />
-				<item name="BO_HMOptic" chance="0.20" />
+				<item name="BO_LeupoldHoloDEVO" chance="0.20" />
 		</attachments>
-		<attachments chance="0.60" name="pistol">
+		<attachments chance="0.60" name="dmr_optics">
+				<item name="BO_ACOGOptic_Crosshair_Red" chance="0.30" />
+				<item name="TTC_VortexSE_Optic" chance="0.20" />
+				<item name="BO_SpecterDROptic" chance="0.20" />
+				<item name="BO_HAMROptic" chance="0.20" />
+				<item name="WE_AMSOptic" chance="0.10" />
+		</attachments>
+		<attachments chance="0.60" name="long_range_scopes">
+				<item name="HuntingOptic" chance="0.50" />
+				<item name="TTC_VortexRHDAMG_Optic" chance="0.125" />
+				<item name="WE_AMSOptic" chance="0.125" />
+				<item name="WE_HMOptic" chance="0.125" />
+				<item name="BO_HMOptic" chance="0.125" />
+		</attachments>
+		<attachments chance="0.05" name="pistol_suppressors">
+				<item name="TTC_PistolSuppressor" chance="0.50" />
 				<item name="BO_OspreySuppressor" chance="0.50" />
 		</attachments>
-		<attachments chance="0.60" name="ak">
+		<attachments chance="0.20" name="ak">
+				<item name="TTC_AKMod_Suppressor" chance="0.50" />
 				<item name="BO_TacticalSuppressor" chance="0.50" />
 		</attachments>
-		<attachments chance="0.60" name="m4">
+		<attachments chance="0.20" name="m4">
 				<item name="BO_LegionSuppressor_Tan" chance="0.33" />
 				<item name="BO_LegionSuppressor_Black" chance="0.33" />
 		</attachments>
