@@ -47,6 +47,15 @@
 			<item name="BO_Mag_M14_20rnd" chance="0.20" />
 		</attachments>
 	</type>
+	<type name="BO_MK12">
+		<attachments chance="0.50">
+			<item name="BO_Mag_MK12_20rnd" chance="1.00" />
+		</attachments>
+		<attachments chance="0.05">
+			<item name="BO_MK12Suppressor" chance="1.00" />
+		</attachments>
+		<attachments preset="dmr_optics" />
+	</type>
 	<type name="BO_Mk14">
 		<attachments chance="0.60">
 			<item name="BO_Mag_M14_10rnd" chance="0.80" />
@@ -278,6 +287,9 @@
 
 	<!-- Added 1.03 -->
 	<type name="BO_AKS74U">
+		<attachments chance="1.00">
+			<item name="AKS74U_Bttstck" chance="1.00" />
+		</attachments>
 		<attachments preset="ak" />
 		<attachments chance="0.60">
 			<item name="BO_AK74_30rnd" chance="0.95" />
