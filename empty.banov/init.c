@@ -85,11 +85,6 @@ class CustomMission: MissionServer
 
 			SetRandomHealth(itemEnt);
 
-			string chemlightArray[] = { "Chemlight_White", "Chemlight_Yellow", "Chemlight_Green", "Chemlight_Red" };
-			int rndIndex = Math.RandomInt(0, 4);
-			itemEnt = itemTop.GetInventory().CreateInInventory(chemlightArray[rndIndex]);
-			SetRandomHealth(itemEnt);
-
 			rand = Math.RandomFloatInclusive(0.0, 1.0);
 			if ( rand < 0.35 )
 				itemEnt = player.GetInventory().CreateInInventory("Apple");
