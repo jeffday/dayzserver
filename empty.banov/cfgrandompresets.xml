@@ -241,6 +241,10 @@
 				<item name="WE_HMOptic" chance="0.125" />
 				<item name="BO_HMOptic" chance="0.125" />
 		</attachments>
+		<attachments chance="0.60" name="hunting_scopes">
+			<item name="HuntingOptic" chance="0.75" />
+			<item name="BO_HMOptic" chance="0.25" />
+		</attachments>
 		<attachments chance="0.05" name="pistol_suppressors">
 				<item name="TTC_PistolSuppressor" chance="0.50" />
 				<item name="BO_OspreySuppressor" chance="0.50" />

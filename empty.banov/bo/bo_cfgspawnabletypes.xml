@@ -252,7 +252,7 @@
 		</attachments>
 	</type>
 	<type name="BO_M82A1">
-		<attachments preset="long_range_scopes" />
+		<attachments preset="hunting_scopes" />
 		<attachments chance="0.60">
 			<item name="BO_Mag_M82A1_10rnd" chance="1.00" />
 		</attachments>
@@ -584,21 +584,21 @@
 		</attachments>
 	</type>
 	<type name="BO_M96">
-		<attachments preset="long_range_scopes" />
+		<attachments preset="hunting_scopes" />
 		<attachments preset="338" />
 		<attachments chance="0.60">
 			<item name="BO_Mag_M96_5rnd" chance="1.00" />
 		</attachments>
 	</type>
 	<type name="BO_Ruger">
-		<attachments preset="long_range_scopes" />
+		<attachments preset="hunting_scopes" />
 		<attachments preset="338" />
 		<attachments chance="0.60">
 			<item name="BO_Mag_Ruger_5rnd" chance="1.00" />
 		</attachments>
 	</type>
 	<type name="BO_SRSA2">
-		<attachments preset="long_range_scopes" />
+		<attachments preset="hunting_scopes" />
 		<attachments chance="0.60">
 			<item name="BO_Mag_SRSA2_10rnd" chance="1.00" />
 		</attachments>
@@ -611,7 +611,7 @@
 		</attachments>
 	</type>
 	<type name="BO_Tac21">
-		<attachments preset="long_range_scopes" />
+		<attachments preset="hunting_scopes" />
 		<attachments chance="0.60">
 			<item name="BO_Mag_Tac21_5rnd" chance="1.00" />
 		</attachments>
