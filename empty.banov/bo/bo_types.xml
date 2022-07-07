@@ -1051,16 +1051,18 @@
         <usage name="Military"/>
     </type>
     <type name="BO_SCARL">
-        <nominal>0</nominal>
-        <lifetime>7200</lifetime>
-        <restock>300</restock>
-        <min>0</min>
-        <quantmin>-1</quantmin>
-        <quantmax>-1</quantmax>
-        <cost>100</cost>
-        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-        <category name="weapons"/>
-        <usage name="Military"/>
+		<nominal>1</nominal>
+		<lifetime>10800</lifetime>
+		<restock>1800</restock>
+		<min>1</min>
+		<quantmin>-1</quantmin>
+		<quantmax>-1</quantmax>
+		<cost>100</cost>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+		<category name="weapons" />
+		<value name="Tier2" />
+		<value name="Tier3" />
+		<usage name="Military" />
     </type>
     <type name="BO_SCARL_Tan">
         <nominal>0</nominal>
@@ -1075,16 +1077,17 @@
         <usage name="Military"/>
     </type>
     <type name="BO_SCARH">
-        <nominal>0</nominal>
-        <lifetime>7200</lifetime>
-        <restock>300</restock>
-        <min>0</min>
-        <quantmin>-1</quantmin>
-        <quantmax>-1</quantmax>
-        <cost>100</cost>
-        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-        <category name="weapons"/>
-        <usage name="Military"/>
+		<nominal>1</nominal>
+		<lifetime>10800</lifetime>
+		<restock>1800</restock>
+		<min>1</min>
+		<quantmin>-1</quantmin>
+		<quantmax>-1</quantmax>
+		<cost>100</cost>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+		<category name="weapons" />
+		<usage name="Military" />
+		<value name="Tier4" />
     </type>
     <type name="BO_SCARH_Tan">
         <nominal>0</nominal>
@@ -1099,16 +1102,17 @@
         <usage name="Military"/>
     </type>
     <type name="BO_Mag_SCARH_20rnd">
-        <nominal>0</nominal>
+        <nominal>4</nominal>
         <lifetime>7200</lifetime>
-        <restock>300</restock>
-        <min>0</min>
-        <quantmin>10</quantmin>
-        <quantmax>60</quantmax>
+        <restock>1800</restock>
+        <min>2</min>
+        <quantmin>40</quantmin>
+        <quantmax>80</quantmax>
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="weapons"/>
         <usage name="Military"/>
+        <value name="Tier4"/>
     </type>
     <type name="BO_Mag_SCARH_Tan_20rnd">
         <nominal>0</nominal>

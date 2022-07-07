@@ -770,10 +770,10 @@
 		<value name="Tier3" />
 	</type>
 	<type name="TTC_SCARHBlack">
-		<nominal>1</nominal>
+		<nominal>0</nominal>
 		<lifetime>10800</lifetime>
 		<restock>1800</restock>
-		<min>1</min>
+		<min>0</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
@@ -783,10 +783,10 @@
 		<value name="Tier4" />
 	</type>
     <type name="TTC_SCARHMag">
-        <nominal>4</nominal>
+        <nominal>0</nominal>
         <lifetime>7200</lifetime>
         <restock>1800</restock>
-        <min>2</min>
+        <min>0</min>
         <quantmin>40</quantmin>
         <quantmax>80</quantmax>
         <cost>100</cost>
@@ -811,10 +811,10 @@
 		<usage name="Military" />
 	</type>
 	<type name="TTC_SCARLBlack">
-		<nominal>1</nominal>
+		<nominal>0</nominal>
 		<lifetime>10800</lifetime>
 		<restock>1800</restock>
-		<min>1</min>
+		<min>0</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
