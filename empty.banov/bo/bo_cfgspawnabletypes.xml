@@ -707,6 +707,9 @@
 		</attachments>
 	</type>
 	<type name="BO_Vector">
+		<attachments chance="1.00">
+			<item name="BO_SOPMODBttstck" chance="1.00" />
+		</attachments>
 		<attachments preset="close_range_optics" />
 		<attachments preset="pistol_suppressors" />
 		<attachments chance="0.60">
