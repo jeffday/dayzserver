@@ -105,13 +105,13 @@
 	</type>
 	<type name="BO_ACR_Tan">
 		<attachments chance="0.50">
-			<item name="BO_Mag_PMAG_30rnd" chance="1.00" />
+			<item name="BO_Mag_PMAG_Tan_30rnd" chance="1.00" />
 		</attachments>
 		<attachments preset="m4" />
 	</type>
 	<type name="BO_ACR_ODGreen">
 		<attachments chance="0.50">
-			<item name="BO_Mag_PMAG_30rnd" chance="1.00" />
+			<item name="BO_Mag_PMAG_Green_30rnd" chance="1.00" />
 		</attachments>
 		<attachments preset="m4" />
 	</type>
@@ -646,7 +646,7 @@
 		<attachments preset="ar_optics" />
 		<attachments preset="m4" />
 		<attachments chance="0.50">
-			<item name="BO_Mag_PMAG_30rnd" chance="1.00" />
+			<item name="BO_Mag_PMAG_Tan_30rnd" chance="1.00" />
 		</attachments>
 	</type>
 	<type name="BO_G3A3">
