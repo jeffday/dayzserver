@@ -1623,28 +1623,32 @@
         <usage name="ContaminatedArea"/>
     </type>
     <type name="BO_VR80">
-        <nominal>0</nominal>
+        <nominal>2</nominal>
         <lifetime>7200</lifetime>
         <restock>300</restock>
-        <min>0</min>
+        <min>1</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="weapons"/>
         <usage name="Military"/>
+        <value name="Tier3"/>
+        <value name="Tier4"/>
     </type>
     <type name="BO_Mag_VR80_10rnd">
-        <nominal>0</nominal>
+        <nominal>4</nominal>
         <lifetime>7200</lifetime>
         <restock>300</restock>
-        <min>0</min>
+        <min>2</min>
         <quantmin>10</quantmin>
         <quantmax>80</quantmax>
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="weapons"/>
         <usage name="Military"/>
+        <value name="Tier3"/>
+        <value name="Tier4"/>
     </type>
     <type name="BO_AK5C">
 		<nominal>1</nominal>
@@ -1689,6 +1693,20 @@
 		<usage name="Military" />
 		<value name="Tier2" />
 		<value name="Tier3" />
+    </type>
+    <type name="BO_L85_RIS">
+		<nominal>1</nominal>
+		<lifetime>10800</lifetime>
+		<restock>7200</restock>
+		<min>1</min>
+		<quantmin>-1</quantmin>
+		<quantmax>-1</quantmax>
+		<cost>100</cost>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+		<category name="weapons" />
+		<usage name="Military" />
+		<value name="Tier3" />
+		<value name="Tier4" />
     </type>
     <type name="BO_Stoner63A">
         <nominal>0</nominal>
@@ -1806,10 +1824,10 @@
         <value name="Tier4"/>
     </type>
     <type name="BO_GrozaOptic">
-        <nominal>3</nominal>
+        <nominal>0</nominal>
         <lifetime>7200</lifetime>
         <restock>300</restock>
-        <min>2</min>
+        <min>0</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -1848,7 +1866,7 @@
         <nominal>3</nominal>
         <lifetime>7200</lifetime>
         <restock>300</restock>
-        <min>3</min>
+        <min>2</min>
         <quantmin>0</quantmin>
         <quantmax>100</quantmax>
         <cost>100</cost>
@@ -1860,7 +1878,7 @@
         <nominal>3</nominal>
         <lifetime>7200</lifetime>
         <restock>300</restock>
-        <min>3</min>
+        <min>2</min>
         <quantmin>0</quantmin>
         <quantmax>100</quantmax>
         <cost>100</cost>
@@ -1977,10 +1995,10 @@
         <usage name="Military"/>
     </type>
     <type name="BO_FiveSeven">
-        <nominal>0</nominal>
+        <nominal>3</nominal>
         <lifetime>7200</lifetime>
         <restock>300</restock>
-        <min>0</min>
+        <min>1</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -1989,10 +2007,10 @@
         <usage name="Military"/>
     </type>
     <type name="BO_Mag_FiveSeven_20rnd">
-        <nominal>0</nominal>
+        <nominal>5</nominal>
         <lifetime>7200</lifetime>
         <restock>300</restock>
-        <min>0</min>
+        <min>2</min>
         <quantmin>10</quantmin>
         <quantmax>60</quantmax>
         <cost>100</cost>
@@ -2081,28 +2099,33 @@
         <value name="Tier3"/>
     </type>
     <type name="BO_Makarov">
-        <nominal>3</nominal>
-        <lifetime>7200</lifetime>
-        <restock>300</restock>
-        <min>3</min>
+        <nominal>80</nominal>
+        <lifetime>28800</lifetime>
+        <restock>0</restock>
+        <min>60</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="weapons"/>
-        <usage name="Military"/>
+        <tag name="shelves"/>
+        <usage name="Town"/>
+        <usage name="Village"/>
+        <value name="Tier1"/>
     </type>
     <type name="BO_Mag_Makarov_12rnd">
-        <nominal>3</nominal>
-        <lifetime>7200</lifetime>
-        <restock>300</restock>
-        <min>3</min>
+        <nominal>70</nominal>
+        <lifetime>28800</lifetime>
+        <restock>0</restock>
+        <min>50</min>
         <quantmin>10</quantmin>
-        <quantmax>80</quantmax>
+        <quantmax>100</quantmax>
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="weapons"/>
-        <usage name="Military"/>
+        <usage name="Town"/>
+        <usage name="Village"/>
+        <value name="Tier1"/>
     </type>
     <type name="BO_EVO3A1">
         <nominal>3</nominal>
