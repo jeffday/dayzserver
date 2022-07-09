@@ -72,7 +72,9 @@
 			<item name="BO_Mag_SA58_20rnd" chance="1.00" />
 		</attachments>
 		<attachments preset="dmr_optics" />
-		<attachments preset="fal" />
+		<attachments chance="0.20">
+			<item name="BO_CorduraSuppressor_Black" chance="1.00" />
+		</attachments>
 		<attachments chance="1.00">
 			<item name="BO_SA58_Buttstock" chance="1.00" />
 		</attachments>
@@ -147,7 +149,9 @@
 		</attachments>
 	</type>
 	<type name="BO_FNFAL">
-		<attachments preset="fal" />
+		<attachments chance="0.20">
+			<item name="BO_CorduraSuppressor_Black" chance="1.00" />
+		</attachments>
 		<attachments preset="dmr_optics" />
 		<attachments chance="0.60">
 			<item name="Mag_FAL_20Rnd" chance="0.90" />
@@ -155,7 +159,9 @@
 		</attachments>
 	</type>
 	<type name="BO_M110_Tan">
-		<attachments preset="fal" />
+		<attachments chance="0.20">
+			<item name="BO_CorduraSuppressor" chance="1.00" />
+		</attachments>
 		<attachments preset="dmr_optics" />
 		<attachments chance="0.60">
 			<item name="BO_Mag_M110_20rnd" chance="1.00" />
@@ -208,14 +214,18 @@
 		</attachments>
 	</type>
 	<type name="BO_SCARH">
-		<attachments preset="fal" />
+		<attachments chance="0.20">
+			<item name="BO_CorduraSuppressor_Black" chance="1.00" />
+		</attachments>
 		<attachments preset="dmr_optics" />
 		<attachments chance="0.60">
 			<item name="BO_Mag_SCARH_20rnd" chance="1.00" />
 		</attachments>
 	</type>
 	<type name="BO_SCARH_Tan">
-		<attachments preset="fal" />
+		<attachments chance="0.20">
+			<item name="BO_CorduraSuppressor" chance="1.00" />
+		</attachments>
 		<attachments preset="dmr_optics" />
 		<attachments chance="0.60">
 			<item name="BO_Mag_SCARH_Tan_20rnd" chance="1.00" />
@@ -623,7 +633,9 @@
 	</type>
 	<type name="BO_L96">
 		<attachments preset="long_range_scopes" />
-		<attachments preset="fal" />
+		<attachments chance="0.20">
+			<item name="BO_CorduraSuppressor_Green" chance="1.00" />
+		</attachments>
 		<attachments chance="0.60">
 			<item name="BO_Mag_L96_5rnd" chance="1.00" />
 		</attachments>
@@ -669,13 +681,17 @@
 		</attachments>
 	</type>
 	<type name="BO_M60">
-		<attachments preset="fal" />
+		<attachments chance="0.20">
+			<item name="BO_CorduraSuppressor_Black" chance="1.00" />
+		</attachments>
 		<attachments chance="0.60">
 			<item name="BO_Mag_M60_100rnd" chance="1.00" />
 		</attachments>
 	</type>
 	<type name="BO_M240B">
-		<attachments preset="fal" />
+		<attachments chance="0.20">
+			<item name="BO_CorduraSuppressor_Black" chance="1.00" />
+		</attachments>
 		<attachments chance="0.60">
 			<item name="BO_Mag_M240B_50rnd" chance="1.00" />
 		</attachments>
@@ -703,14 +719,18 @@
 		</attachments>
 	</type>
 	<type name="BO_G3A3">
-		<attachments preset="fal" />
+		<attachments chance="0.20">
+			<item name="BO_CorduraSuppressor_Black" chance="1.00" />
+		</attachments>
 		<attachments chance="0.60">
 			<item name="BO_Mag_G3A3_20rnd" chance="1.00" />
 		</attachments>
 	</type>
 	<type name="BO_HKG28">
 		<attachments preset="dmr_optics" />
-		<attachments preset="fal" />
+		<attachments chance="0.20">
+			<item name="BO_CorduraSuppressor" chance="1.00" />
+		</attachments>
 		<attachments chance="0.60">
 			<item name="BO_Mag_HKG28_20rnd" chance="1.00" />
 		</attachments>
