@@ -119,8 +119,7 @@
 		<attachments preset="ak" />
 		<attachments preset="ar_optics" />
 		<attachments chance="0.60">
-			<item name="BO_AK74_30rnd" chance="0.95" />
-			<item name="Mag_AK74_45Rnd" chance="0.05" />
+			<item name="BO_AK74_30rnd" chance="1.00" />
 		</attachments>
 	</type>
 	<type name="BO_AR15">
@@ -171,8 +170,7 @@
 		<attachments preset="ak" />
 		<attachments preset="ar_optics" />
 		<attachments chance="0.60">
-			<item name="BO_AK74_30rnd" chance="0.95" />
-			<item name="Mag_AK74_45Rnd" chance="0.05" />
+			<item name="Mag_AK74_30Rnd_Black" chance="1.00" />
 		</attachments>
 	</type>
 	<type name="BO_SCARL">
@@ -292,8 +290,7 @@
 		</attachments>
 		<attachments preset="ak" />
 		<attachments chance="0.60">
-			<item name="BO_AK74_30rnd" chance="0.95" />
-			<item name="Mag_AK74_45Rnd" chance="0.05" />
+			<item name="BO_AK74_30rnd" chance="1.00" />
 		</attachments>
 	</type>
 	<type name="BO_VR80">
@@ -539,8 +536,7 @@
 		<attachments preset="ar_optics" />
 		<attachments preset="ak" />
 		<attachments chance="0.60">
-			<item name="BO_AK74_30rnd" chance="0.95" />
-			<item name="Mag_AK74_45Rnd" chance="0.05" />
+			<item name="BO_AK74_30rnd" chance="1.00" />
 		</attachments>
 	</type>
 	<type name="BO_AKM">
