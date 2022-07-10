@@ -1995,10 +1995,10 @@
         <usage name="Military"/>
     </type>
     <type name="BO_FiveSeven">
-        <nominal>3</nominal>
+        <nominal>0</nominal>
         <lifetime>7200</lifetime>
         <restock>300</restock>
-        <min>1</min>
+        <min>0</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -2007,10 +2007,10 @@
         <usage name="Military"/>
     </type>
     <type name="BO_Mag_FiveSeven_20rnd">
-        <nominal>5</nominal>
+        <nominal>0</nominal>
         <lifetime>7200</lifetime>
         <restock>300</restock>
-        <min>2</min>
+        <min>0</min>
         <quantmin>10</quantmin>
         <quantmax>60</quantmax>
         <cost>100</cost>
@@ -2903,10 +2903,10 @@
         <value name="Tier4" />
     </type>
     <type name="BO_MKGS">
-        <nominal>2</nominal>
+        <nominal>0</nominal>
         <lifetime>7200</lifetime>
         <restock>300</restock>
-        <min>1</min>
+        <min>0</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -2915,10 +2915,10 @@
         <usage name="Military"/>
     </type>
     <type name="BO_Mag_MKGS_32rnd">
-        <nominal>3</nominal>
+        <nominal>0</nominal>
         <lifetime>7200</lifetime>
         <restock>300</restock>
-        <min>1</min>
+        <min>0</min>
         <quantmin>10</quantmin>
         <quantmax>60</quantmax>
         <cost>100</cost>
