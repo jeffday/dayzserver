@@ -231,13 +231,10 @@
 				<item name="BO_ACOGOptic_Crosshair_Red" chance="0.30" />
 				<item name="BO_SpecterDROptic" chance="0.30" />
 				<item name="BO_HAMROptic" chance="0.30" />
-				<item name="WE_AMSOptic" chance="0.10" />
 		</attachments>
 		<attachments chance="0.60" name="long_range_scopes">
-				<item name="HuntingOptic" chance="0.50" />
-				<item name="WE_AMSOptic" chance="0.25" />
-				<item name="WE_HMOptic" chance="0.125" />
-				<item name="BO_HMOptic" chance="0.125" />
+				<item name="HuntingOptic" chance="0.75" />
+				<item name="BO_HMOptic" chance="0.25" />
 		</attachments>
 		<attachments chance="0.60" name="hunting_scopes">
 				<item name="HuntingOptic" chance="0.75" />
