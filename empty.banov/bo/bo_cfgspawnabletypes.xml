@@ -191,8 +191,8 @@
 	<type name="BO_RPK16">
 		<attachments preset="ak" />
 		<attachments preset="ar_optics" />
-		<attachments chance="0.60">
-			<item name="Mag_AK74_30Rnd_Black" chance="1.00" />
+		<attachments chance="0.25">
+			<item name="BO_Mag_RPK16_96rnd" chance="1.00" />
 		</attachments>
 	</type>
 	<type name="BO_SCARL">
