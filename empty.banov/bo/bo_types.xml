@@ -1021,7 +1021,7 @@
         <value name="Tier4"/>
     </type>
     <type name="BO_RPK16">
-        <nominal>1</nominal>
+        <nominal>0</nominal>
         <lifetime>28800</lifetime>
         <restock>3600</restock>
         <min>0</min>
@@ -1033,10 +1033,10 @@
         <usage name="ContaminatedArea"/>
     </type>
     <type name="BO_Mag_RPK16_96rnd">
-        <nominal>1</nominal>
+        <nominal>0</nominal>
         <lifetime>7200</lifetime>
         <restock>300</restock>
-        <min>1</min>
+        <min>0</min>
         <quantmin>10</quantmin>
         <quantmax>60</quantmax>
         <cost>100</cost>
