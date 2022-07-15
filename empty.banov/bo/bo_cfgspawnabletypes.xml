@@ -79,6 +79,11 @@
 			<item name="BO_SA58_Buttstock" chance="1.00" />
 		</attachments>
 	</type>
+	<type name="BO_Mosin">
+		<attachments chance="0.10">
+			<item name="Mosin_Compensator" chance="1.00" />
+		</attachments>
+	</type>
 	<type name="BO_SKS_Tactical">
 		<attachments chance="0.30">
 			<item name="Mag_AKM_Palm30Rnd" chance="0.50" />
