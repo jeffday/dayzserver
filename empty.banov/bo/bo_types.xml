@@ -867,10 +867,10 @@
         <usage name="Military"/>
     </type>
     <type name="BO_ACR_Black">
-		<nominal>1</nominal>
+		<nominal>0</nominal>
 		<lifetime>10800</lifetime>
 		<restock>1800</restock>
-		<min>1</min>
+		<min>0</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
@@ -881,10 +881,10 @@
 		<usage name="Military" />
     </type>
     <type name="BO_ACR_ODGreen">
-		<nominal>1</nominal>
+		<nominal>0</nominal>
 		<lifetime>10800</lifetime>
 		<restock>1800</restock>
-		<min>1</min>
+		<min>0</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
@@ -1643,10 +1643,10 @@
         <value name="Tier4"/>
     </type>
     <type name="BO_AK5C">
-		<nominal>3</nominal>
+		<nominal>0</nominal>
 		<lifetime>10800</lifetime>
 		<restock>7200</restock>
-		<min>1</min>
+		<min>0</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
