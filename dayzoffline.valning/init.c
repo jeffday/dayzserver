@@ -17,7 +17,7 @@ void main()
 	//DATE RESET AFTER ECONOMY INIT-------------------------
 	int year, month, day, hour, minute;
 	int reset_month = 9, reset_day = 20;
-	GetGame().GetWorld().GetDate(year, month, day, 8, 0);
+	GetGame().GetWorld().GetDate(year, month, day, hour, minute);
 
 	if ((month == reset_month) && (day < reset_day))
 	{
