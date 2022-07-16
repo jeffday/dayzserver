@@ -17,23 +17,23 @@ void main()
 	//DATE RESET AFTER ECONOMY INIT-------------------------
 	int year, month, day, hour, minute;
 	int reset_month = 9, reset_day = 20;
-	GetGame().GetWorld().GetDate(year, month, day, hour, minute);
+	GetGame().GetWorld().GetDate(year, month, day, 8, 0);
 
 	if ((month == reset_month) && (day < reset_day))
 	{
-		GetGame().GetWorld().SetDate(year, reset_month, reset_day, hour, minute);
+		GetGame().GetWorld().SetDate(year, reset_month, reset_day, 8, 0);
 	}
 	else
 	{
 		if ((month == reset_month + 1) && (day > reset_day))
 		{
-			GetGame().GetWorld().SetDate(year, reset_month, reset_day, hour, minute);
+			GetGame().GetWorld().SetDate(year, reset_month, reset_day, 8, 0);
 		}
 		else
 		{
 			if ((month < reset_month) || (month > reset_month + 1))
 			{
-				GetGame().GetWorld().SetDate(year, reset_month, reset_day, hour, minute);
+				GetGame().GetWorld().SetDate(year, reset_month, reset_day, 8, 0);
 			}
 		}
 	}
@@ -75,10 +75,12 @@ class CustomMission: MissionServer
 		if ( itemTop )
 		{
 			itemEnt = itemTop.GetInventory().CreateInInventory("Rag");
-			if ( Class.CastTo(itemBs, itemEnt ) )
-				itemBs.SetQuantity(4);
-
-			SetRandomHealth(itemEnt);
+			if ( Class.CastTo( itemBs, itemEnt ) )
+			{
+				SetRandomHealth( itemEnt );
+				itemBs.SetQuantity( 4 );
+				itemBs.SetCleanness( 1 );
+			}
 
 			string chemlightArray[] = { "Chemlight_White", "Chemlight_Yellow", "Chemlight_Green", "Chemlight_Red" };
 			int rndIndex = Math.RandomInt(0, 4);
