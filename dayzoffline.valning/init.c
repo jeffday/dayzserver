@@ -37,8 +37,8 @@ void main()
 			}
 		}
 	}
-//GetCEApi().ExportProxyData( "7500 0 7500", 15000 );  //Center of map, radius of how far to go out and find buildings.
-//GetCEApi().ExportClusterData();
+// GetCEApi().ExportProxyData( "7500 0 7500", 15000 );  //Center of map, radius of how far to go out and find buildings.
+// GetCEApi().ExportClusterData();
 }
 
 class CustomMission: MissionServer
