@@ -40,4 +40,10 @@ Do not forget to add attribute act="car", if root class represents moveable vehi
 		<file name="windstride_types.xml" type="types" />
 		<file name="windstride_cfgspawnabletypes.xml" type="spawnabletypes" />
 	</ce>
+
+	<!-- Uncuepas Civilian Clothing Pack -->
+	<ce folder="uncuepas">
+		<file name="types.xml" type="types" />
+		<file name="cfgspawnabletypes.xml" type="spawnabletypes" />
+	</ce>
 </economycore>
