@@ -1,76 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <types>
-	<type name="PistolOptic">
-        <nominal>5</nominal>
-        <lifetime>7200</lifetime>
-        <restock>1800</restock>
-        <min>3</min>
-        <quantmin>-1</quantmin>
-        <quantmax>-1</quantmax>
-        <cost>100</cost>
-        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-        <category name="weapons"/>
-        <usage name="Military"/>
-		<usage name="Hunting"/>
-    </type>
-	<type name="Mag_P1_8Rnd">
-        <nominal>10</nominal>
-        <lifetime>7200</lifetime>
-        <restock>0</restock>
-        <min>5</min>
-        <quantmin>40</quantmin>
-        <quantmax>100</quantmax>
-        <cost>100</cost>
-        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-        <category name="weapons"/>
-        <tag name="shelves"/>
-        <usage name="Town"/>
-        <usage name="Village"/>
-    </type>
-	<type name="Mag_Ruger1022_10Rnd">
-        <nominal>10</nominal>
-        <lifetime>7200</lifetime>
-        <restock>800</restock>
-        <min>5</min>
-        <quantmin>40</quantmin>
-        <quantmax>100</quantmax>
-        <cost>100</cost>
-        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-        <category name="weapons"/>
-        <tag name="shelves"/>
-        <usage name="Town"/>
-        <usage name="Village"/>
-    </type>
-	<type name="Mag_Ruger1022_30Rnd">
-        <nominal>5</nominal>
-        <lifetime>7200</lifetime>
-        <restock>800</restock>
-        <min>2</min>
-        <quantmin>40</quantmin>
-        <quantmax>100</quantmax>
-        <cost>100</cost>
-        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-        <category name="weapons"/>
-        <tag name="shelves"/>
-        <usage name="Town"/>
-        <usage name="Village"/>
-    </type>
-	<type name="Mag_Scout_5Rnd">
-        <nominal>5</nominal>
-        <lifetime>7200</lifetime>
-        <restock>1800</restock>
-        <min>2</min>
-        <quantmin>20</quantmin>
-        <quantmax>100</quantmax>
-        <cost>0</cost>
-        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-        <category name="weapons"/>
-        <usage name="Hunting"/>
-		<usage name="Military"/>
-        <value name="Tier2"/>
-        <value name="Tier3"/>
-        <value name="Tier4"/>
-    </type>
 	<type name="ACOGOptic">
         <nominal>3</nominal>
         <lifetime>7200</lifetime>
@@ -8675,6 +8604,64 @@
         <value name="Tier1"/>
         <value name="Tier2"/>
     </type>
+    <type name="Mag_P1_8Rnd">
+        <nominal>10</nominal>
+        <lifetime>7200</lifetime>
+        <restock>0</restock>
+        <min>5</min>
+        <quantmin>40</quantmin>
+        <quantmax>100</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="weapons"/>
+        <tag name="shelves"/>
+        <usage name="Town"/>
+        <usage name="Village"/>
+    </type>
+	<type name="Mag_Ruger1022_10Rnd">
+        <nominal>10</nominal>
+        <lifetime>7200</lifetime>
+        <restock>800</restock>
+        <min>5</min>
+        <quantmin>40</quantmin>
+        <quantmax>100</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="weapons"/>
+        <tag name="shelves"/>
+        <usage name="Town"/>
+        <usage name="Village"/>
+    </type>
+	<type name="Mag_Ruger1022_30Rnd">
+        <nominal>5</nominal>
+        <lifetime>7200</lifetime>
+        <restock>800</restock>
+        <min>2</min>
+        <quantmin>40</quantmin>
+        <quantmax>100</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="weapons"/>
+        <tag name="shelves"/>
+        <usage name="Town"/>
+        <usage name="Village"/>
+    </type>
+	<type name="Mag_Scout_5Rnd">
+        <nominal>5</nominal>
+        <lifetime>7200</lifetime>
+        <restock>1800</restock>
+        <min>2</min>
+        <quantmin>20</quantmin>
+        <quantmax>100</quantmax>
+        <cost>0</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="weapons"/>
+        <usage name="Hunting"/>
+		<usage name="Military"/>
+        <value name="Tier2"/>
+        <value name="Tier3"/>
+        <value name="Tier4"/>
+    </type>
     <type name="Mag_STANAGCoupled_30Rnd">
         <nominal>1</nominal>
         <lifetime>10800</lifetime>
@@ -10290,6 +10277,19 @@
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="tools"/>
         <usage name="Industrial"/>
+    </type>
+    <type name="PistolOptic">
+        <nominal>5</nominal>
+        <lifetime>7200</lifetime>
+        <restock>1800</restock>
+        <min>3</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="weapons"/>
+        <usage name="Military"/>
+		<usage name="Hunting"/>
     </type>
     <type name="PistolSuppressor">
         <nominal>2</nominal>
