@@ -814,4 +814,30 @@
 			<item name="BO_Mag_SCAR20S_5rnd" chance="1.00" />
 		</attachments>
 	</type>
+	<!-- Added on 2.2 -->
+	<type name="BO_MK23">
+		<attachments preset="pistol_suppressors" />
+		<attachments chance="0.40">
+			<item name="BO_MK23_LAM" chance="1.00" />
+		</attachments>
+		<attachments chance="0.10">
+			<item name="BO_Mag_MK23_12rnd" chance="1.00" />
+		</attachments>
+	</type>
+	<type name="BO_SVD">
+		<attachments chance="0.10">
+			<item name="Mag_SVD_10Rnd" chance="1.00" />
+		</attachments>
+	</type>
+	<type name="BO_TKB0146">
+		<attachments chance="0.60">
+			<item name="BO_AK74_30rnd" chance="1.00" />
+		</attachments>
+	</type>
+	<type name="BO_USAS12">
+		<attachments chance="0.30">
+			<item name="BO_Mag_USAS12_10rnd" chance="0.8" />
+			<item name="BO_Mag_USAS12_20rnd" chance="0.2" />
+		</attachments>
+	</type>
 </spawnabletypes>

@@ -243,8 +243,9 @@
 				<item name="BO_HMOptic" chance="0.25" />
 		</attachments>
 		<attachments chance="0.05" name="pistol_suppressors">
-				<item name="BO_OspreySuppressor" chance="1.00" />
-		</attachments>
+			<item name="BO_OspreySuppressor" chance="0.5" />
+			<item name="BO_MK23_Suppressor" chance="0.5" />
+	</attachments>
 		<attachments chance="0.20" name="ak">
 				<item name="BO_TacticalSuppressor" chance="1.00" />
 		</attachments>
