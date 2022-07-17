@@ -69,4 +69,29 @@ Do not forget to add attribute act="car", if root class represents moveable vehi
 		<file name="types.xml" type="types" />
 		<file name="cfgspawnabletypes.xml" type="spawnabletypes" />
 	</ce>
+
+	<!-- Mightys Military Gear -->
+	<ce folder="mmg">
+		<file name="mmg_types_ADMINGEAR.xml" type="types" />
+        <file name="mmg_types_alpine.xml" type="types" />
+		<file name="mmg_types_atacs.xml" type="types" />
+        <file name="mmg_types_black.xml" type="types" />
+        <file name="mmg_types_carbines.xml" type="types" />
+        <file name="mmg_types_dark_woodland.xml" type="types" />
+        <file name="mmg_types_erdl.xml" type="types" />
+        <file name="mmg_types_green.xml" type="types" />
+		<file name="mmg_types_masks.xml" type="types" />
+        <file name="mmg_types_multicam.xml" type="types" />
+        <file name="mmg_types_multicam_tropic.xml" type="types" />
+        <file name="mmg_types_multicamblack.xml" type="types" />
+        <file name="mmg_types_NBC_NVG.xml" type="types" />
+        <file name="mmg_types_police.xml" type="types" />
+        <file name="mmg_types_tan.xml" type="types" />
+        <file name="mmg_types_ucp.xml" type="types" />
+		<file name="mmg_types_germany.xml" type="types" />
+		<file name="mmg_types_norway.xml" type="types" />
+		<file name="mmg_types_sweden.xml" type="types" />
+		<file name="mmg_types_ukraine.xml" type="types" />
+		<file name="mmg_cfgspawnabletypes.xml" type="spawnabletypes" />
+	</ce>
 </economycore>
