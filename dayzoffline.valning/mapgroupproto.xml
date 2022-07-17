@@ -13937,6 +13937,10 @@
 				</dispatch>
 		</group>
 		<group name="Land_Wreck_hb01_aban1_green" lootmax="2">
+				<usage name="Village" />
+				<usage name="Hunting" />
+				<usage name="Farm" />
+				<usage name="School" />
 				<container name="lootFloor" lootmax="2">
 						<category name="vehicleparts" />
 						<category name="tools" />
@@ -13960,6 +13964,10 @@
 				</dispatch>
 		</group>
 		<group name="Land_Wreck_hb01_aban1_white" lootmax="2">
+				<usage name="Village" />
+				<usage name="Hunting" />
+				<usage name="Farm" />
+				<usage name="School" />
 				<container name="lootFloor" lootmax="2">
 						<category name="vehicleparts" />
 						<category name="tools" />
@@ -13983,6 +13991,10 @@
 				</dispatch>
 		</group>
 		<group name="Land_Wreck_hb01_aban2_blue" lootmax="2">
+				<usage name="Village" />
+				<usage name="Hunting" />
+				<usage name="Farm" />
+				<usage name="School" />
 				<container name="lootFloor" lootmax="2">
 						<category name="vehicleparts" />
 						<category name="tools" />
@@ -14002,6 +14014,10 @@
 				</dispatch>
 		</group>
 		<group name="Land_Wreck_hb01_aban2_green" lootmax="2">
+				<usage name="Village" />
+				<usage name="Hunting" />
+				<usage name="Farm" />
+				<usage name="School" />
 				<container name="lootFloor" lootmax="2">
 						<category name="vehicleparts" />
 						<category name="tools" />
@@ -14021,6 +14037,8 @@
 				</dispatch>
 		</group>
 		<group name="Land_Wreck_hb01_aban2_white" lootmax="2">
+				<usage name="Village" />
+				<usage name="Industrial" />
 				<container name="lootFloor" lootmax="2">
 						<category name="vehicleparts" />
 						<category name="tools" />
