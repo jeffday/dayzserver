@@ -48,9 +48,6 @@
     <event name="StaticPoliceCar">
 		<pos x="1846.316407" z="11492.649414" a="336.442993" />
     </event>
-    <event name="VehicleV3S">
-		<pos x="7735.35498" z="14834.541016" a="275.906708" />
-    </event>
 	<event name="VehicleTruck01">
         <pos x="3022" z="8372" a="27" />
         <pos x="4260" z="8600" a="32" />
@@ -91,10 +88,6 @@
 		<pos x="6471" z="8134" a="0" />
 		<pos x="6116" z="9953" a="0" />
     </event>
-    <event name="VehicleV3SChassis" >
-		<pos x="7735.35498" z="14834.541016" a="275.906708" />
-	</event>
-	<event name="VehicleV3SCargo" />
     <event name="InfectedVillage" />
     <event name="InfectedSolitude" />
     <event name="InfectedArmy" />
