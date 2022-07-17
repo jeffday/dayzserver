@@ -34,4 +34,10 @@ Do not forget to add attribute act="car", if root class represents moveable vehi
 		<default name="save_events_startup" value="true"/>
 		<default name="save_types_startup" value="true"/>
 	</defaults>
+
+	<!-- Windstride's Clothing Pack -->
+	<ce folder="windstride">
+		<file name="windstride_types.xml" type="types" />
+		<file name="windstride_cfgspawnabletypes.xml" type="spawnabletypes" />
+	</ce>
 </economycore>
