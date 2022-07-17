@@ -2035,10 +2035,10 @@
         <usage name="School"/>
     </type>
     <type name="Aug">
-        <nominal>1</nominal>
+        <nominal>0</nominal>
         <lifetime>28800</lifetime>
         <restock>0</restock>
-        <min>1</min>
+        <min>0</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -10192,20 +10192,19 @@
         <category name="tools"/>
     </type>
     <type name="Longhorn">
-        <nominal>5</nominal>
-        <lifetime>7200</lifetime>
+        <nominal>15</nominal>
+        <lifetime>28800</lifetime>
         <restock>0</restock>
-        <min>2</min>
+        <min>10</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="weapons"/>
-        <usage name="Town"/>
-        <usage name="Village"/>
         <usage name="Hunting"/>
-        <value name="Tier1"/>
         <value name="Tier2"/>
+        <value name="Tier3"/>
+        <value name="Tier4"/>
     </type>
     <type name="LugWrench">
         <nominal>60</nominal>
@@ -12578,10 +12577,10 @@
         <category name="tools"/>
     </type>
     <type name="P1">
-        <nominal>8</nominal>
-        <lifetime>10800</lifetime>
+        <nominal>40</nominal>
+        <lifetime>28800</lifetime>
         <restock>0</restock>
-        <min>4</min>
+        <min>30</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -12589,8 +12588,8 @@
         <category name="weapons"/>
         <usage name="Town"/>
         <usage name="Village"/>
-        <value name="Tier1"/>
         <value name="Tier2"/>
+        <value name="Tier3"/>
     </type>
     <type name="PP19">
         <nominal>0</nominal>
@@ -14169,10 +14168,10 @@
         <category name="clothes"/>
     </type>
     <type name="Ruger1022">
-        <nominal>10</nominal>
+        <nominal>35</nominal>
         <lifetime>28800</lifetime>
         <restock>0</restock>
-        <min>5</min>
+        <min>25</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -14180,7 +14179,7 @@
         <category name="weapons"/>
         <usage name="Town"/>
         <usage name="Village"/>
-        <usage name="Hunting"/>
+        <value name="Tier1"/>
     </type>
     <type name="SKS"> <!-- using weapon expansion version -->
         <nominal>0</nominal>
@@ -14469,22 +14468,22 @@
         <category name="weapons"/>
     </type>
     <type name="Scout">
-        <nominal>4</nominal>
-        <lifetime>7200</lifetime>
+        <nominal>1</nominal>
+        <lifetime>28800</lifetime>
         <restock>0</restock>
-        <min>2</min>
+        <min>1</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
-        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="1"/>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="weapons"/>
-        <usage name="Police"/>
+        <usage name="Prison"/>
     </type>
     <type name="Scout_Chernarus">
-        <nominal>0</nominal>
+        <nominal>5</nominal>
         <lifetime>28800</lifetime>
         <restock>0</restock>
-        <min>0</min>
+        <min>3</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
