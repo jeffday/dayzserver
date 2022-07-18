@@ -10605,10 +10605,10 @@
         <usage name="Village"/>
     </type>
     <type name="MP5K">
-        <nominal>5</nominal>
+        <nominal>0</nominal>
         <lifetime>10800</lifetime>
         <restock>1800</restock>
-        <min>3</min>
+        <min>0</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -10635,7 +10635,7 @@
         <value name="Tier4"/>
     </type>
     <type name="MP5_PlasticHndgrd">
-        <nominal>1</nominal>
+        <nominal>0</nominal>
         <lifetime>1800</lifetime>
         <restock>0</restock>
         <min>0</min>
@@ -10648,7 +10648,7 @@
         <usage name="Police"/>
     </type>
     <type name="MP5_RailHndgrd">
-        <nominal>1</nominal>
+        <nominal>0</nominal>
         <lifetime>7200</lifetime>
         <restock>0</restock>
         <min>0</min>
@@ -10661,7 +10661,7 @@
         <usage name="Police"/>
     </type>
     <type name="MP5k_StockBttstck">
-        <nominal>1</nominal>
+        <nominal>0</nominal>
         <lifetime>7200</lifetime>
         <restock>0</restock>
         <min>0</min>
