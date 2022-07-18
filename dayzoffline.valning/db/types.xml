@@ -2110,10 +2110,10 @@
         <value name="Tier3"/>
     </type>
     <type name="BDUJacket">
-        <nominal>2</nominal>
+        <nominal>0</nominal>
         <lifetime>7200</lifetime>
         <restock>600</restock>
-        <min>1</min>
+        <min>0</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -2122,10 +2122,10 @@
         <usage name="Military"/>
     </type>
     <type name="BDUPants">
-        <nominal>2</nominal>
+        <nominal>0</nominal>
         <lifetime>7200</lifetime>
         <restock>600</restock>
-        <min>1</min>
+        <min>0</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -2134,10 +2134,10 @@
         <usage name="Military"/>
     </type>
     <type name="BUISOptic">
-        <nominal>2</nominal>
+        <nominal>0</nominal>
         <lifetime>10800</lifetime>
         <restock>0</restock>
-        <min>1</min>
+        <min>0</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -14268,7 +14268,7 @@
         <value name="Tier4"/>
     </type>
     <type name="Saiga_Bttstck">
-        <nominal>1</nominal>
+        <nominal>0</nominal>
         <lifetime>7200</lifetime>
         <restock>0</restock>
         <min>0</min>
@@ -14551,10 +14551,10 @@
         <usage name="Village"/>
     </type>
     <type name="SeaChest">
-        <nominal>5</nominal>
+        <nominal>1</nominal>
         <lifetime>3888000</lifetime>
         <restock>0</restock>
-        <min>2</min>
+        <min>1</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -14984,10 +14984,10 @@
         <usage name="Industrial"/>
     </type>
     <type name="Sedan_02_Trunk_Grey">
-        <nominal>2</nominal>
+        <nominal>0</nominal>
         <lifetime>10800</lifetime>
         <restock>0</restock>
-        <min>1</min>
+        <min>0</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -16736,7 +16736,7 @@
         <category name="clothes"/>
     </type>
     <type name="TortillaBag">
-        <nominal>2</nominal>
+        <nominal>0</nominal>
         <lifetime>21600</lifetime>
         <restock>1800</restock>
         <min>0</min>
