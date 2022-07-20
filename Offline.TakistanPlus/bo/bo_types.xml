@@ -1041,9 +1041,8 @@
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
-        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="1"/>
         <category name="weapons"/>
-        <usage name="ContaminatedArea"/>
     </type>
     <type name="BO_Mag_RPK16_96rnd">
         <nominal>1</nominal>
@@ -2067,9 +2066,8 @@
         <quantmin>5</quantmin>
         <quantmax>40</quantmax>
         <cost>100</cost>
-        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="1"/>
         <category name="weapons"/>
-        <usage name="ContaminatedArea"/>
     </type>
     <type name="BO_Glock26">
         <nominal>5</nominal>
@@ -2354,7 +2352,6 @@
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="weapons"/>
-        <usage name="ContaminatedArea"/>
     </type>
     <type name="BO_Mag_ASVAL_30Rnd">
         <nominal>0</nominal>
@@ -3071,16 +3068,15 @@
         <value name="Tier4"/>
     </type>
     <type name="BO_ChinaLake">
-        <nominal>0</nominal>
+        <nominal>1</nominal>
         <lifetime>7200</lifetime>
         <restock>300</restock>
         <min>0</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
-        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="1"/>
         <category name="weapons"/>
-        <usage name="ContaminatedArea"/>
     </type>
     <type name="BO_M32_Tan">
         <nominal>1</nominal>
@@ -3090,9 +3086,8 @@
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
-        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="1"/>
         <category name="weapons"/>
-        <usage name="ContaminatedArea"/>
     </type>
     <type name="BO_M32_Black">
         <nominal>0</nominal>
@@ -3104,7 +3099,6 @@
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="weapons"/>
-        <usage name="ContaminatedArea"/>
     </type>
     <!-- Added 2.2 -->
     <type name="BO_MK23">
