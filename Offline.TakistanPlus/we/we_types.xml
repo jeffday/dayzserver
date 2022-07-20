@@ -18,7 +18,7 @@
         <value name="Tier4"/>
     </type>
     <type name="WE_408Suppressor">
-        <nominal>1</nominal>
+        <nominal>0</nominal>
         <lifetime>14400</lifetime>
         <restock>3600</restock>
         <min>0</min>
@@ -32,7 +32,7 @@
         <value name="Tier4"/>
     </type>
     <type name="WE_AKRailMount">
-        <nominal>5</nominal>
+        <nominal>3</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
         <min>2</min>
@@ -45,7 +45,7 @@
         <usage name="Military"/>
     </type>
     <type name="WE_AMSOptic">
-        <nominal>5</nominal>
+        <nominal>3</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
         <min>2</min>
@@ -59,10 +59,10 @@
         <value name="Tier4"/>
     </type>
     <type name="WE_CoyoteOptic">
-        <nominal>8</nominal>
+        <nominal>5</nominal>
         <lifetime>28800</lifetime>
         <restock>0</restock>
-        <min>4</min>
+        <min>2</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -88,7 +88,7 @@
         <value name="Tier4"/>
     </type>
     <type name="WE_HMOptic">
-        <nominal>5</nominal>
+        <nominal>3</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
         <min>2</min>
@@ -102,7 +102,7 @@
         <value name="Tier4"/>
     </type>
     <type name="WE_MosinSKSMount">
-        <nominal>5</nominal>
+        <nominal>3</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
         <min>2</min>
@@ -115,10 +115,10 @@
         <usage name="Military"/>
     </type>
     <type name="WE_OKP7Optic">
-        <nominal>8</nominal>
+        <nominal>5</nominal>
         <lifetime>28800</lifetime>
         <restock>0</restock>
-        <min>4</min>
+        <min>2</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -144,10 +144,10 @@
         <value name="Tier4"/>
     </type>
     <type name="WE_AngledForegrip">
-        <nominal>3</nominal>
+        <nominal>0</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
-        <min>1</min>
+        <min>0</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -158,10 +158,10 @@
         <value name="Tier4"/>
     </type>
     <type name="WE_VerticalForegrip">
-        <nominal>3</nominal>
+        <nominal>0</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
-        <min>1</min>
+        <min>0</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -373,10 +373,10 @@
         <usage name="ContaminatedArea"/>
     </type>
     <type name="WE_AEK971">
-        <nominal>4</nominal>
+        <nominal>0</nominal>
         <lifetime>28800</lifetime>
         <restock>0</restock>
-        <min>2</min>
+        <min>0</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -400,10 +400,10 @@
         <value name="Tier4"/>
     </type>
     <type name="WE_AK12">
-        <nominal>4</nominal>
+        <nominal>0</nominal>
         <lifetime>28800</lifetime>
         <restock>0</restock>
-        <min>2</min>
+        <min>0</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -414,10 +414,10 @@
         <value name="Tier4"/>
     </type>
     <type name="WE_AK74">
-        <nominal>10</nominal>
+        <nominal>0</nominal>
         <lifetime>28800</lifetime>
         <restock>1800</restock>
-        <min>5</min>
+        <min>0</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -442,7 +442,7 @@
         <value name="Tier4" />
     </type>
     <type name="WE_AKM">
-        <nominal>1</nominal>
+        <nominal>0</nominal>
         <lifetime>28800</lifetime>
         <restock>3600</restock>
         <min>0</min>
@@ -455,10 +455,10 @@
         <value name="Tier4"/>
     </type>
     <type name="WE_AN94">
-        <nominal>2</nominal>
+        <nominal>0</nominal>
         <lifetime>28800</lifetime>
         <restock>0</restock>
-        <min>1</min>
+        <min>0</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -545,10 +545,10 @@
         <usage name="Military"/>
     </type>
     <type name="WE_VSS">
-        <nominal>1</nominal>
+        <nominal>0</nominal>
         <lifetime>28800</lifetime>
         <restock>7200</restock>
-        <min>1</min>
+        <min>0</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -558,7 +558,7 @@
     </type>
 <!-- Shotguns -->
     <type name="WE_KSG">
-        <nominal>1</nominal>
+        <nominal>0</nominal>
         <lifetime>7200</lifetime>
         <restock>1800</restock>
         <min>0</min>
@@ -612,10 +612,10 @@
         <usage name="Police"/>
     </type>
     <type name="WE_MP5A1">
-        <nominal>10</nominal>
+        <nominal>0</nominal>
         <lifetime>28800</lifetime>
         <restock>1800</restock>
-        <min>6</min>
+        <min>0</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -626,10 +626,10 @@
         <value name="Tier2"/>
     </type>
     <type name="WE_MP5SD"> 
-        <nominal>5</nominal>
+        <nominal>0</nominal>
         <lifetime>28800</lifetime>
         <restock>1800</restock>
-        <min>2</min>
+        <min>0</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -704,7 +704,7 @@
         <usage name="Military"/>
     </type>
     <type name="WE_M200">
-        <nominal>1</nominal>
+        <nominal>0</nominal>
         <lifetime>28800</lifetime>
         <restock>0</restock>
         <min>0</min>
@@ -756,10 +756,10 @@
         <value name="Tier4" />
     </type>
     <type name="WE_Mosin9130">
-        <nominal>30</nominal>
+        <nominal>20</nominal>
         <lifetime>28800</lifetime>
         <restock>0</restock>
-        <min>15</min>
+        <min>10</min>
         <quantmin>0</quantmin>
         <quantmax>80</quantmax>
         <cost>100</cost>
@@ -770,10 +770,10 @@
         <usage name="Village"/>
     </type>
     <type name="WE_SVD">
-        <nominal>2</nominal>
+        <nominal>0</nominal>
         <lifetime>28800</lifetime>
         <restock>0</restock>
-        <min>1</min>
+        <min>0</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -984,10 +984,10 @@
         <value name="Tier4"/>
     </type>
     <type name="WE_Mag_M200_7Rnd">
-        <nominal>2</nominal>
+        <nominal>0</nominal>
         <lifetime>28800</lifetime>
         <restock>3600</restock>
-        <min>1</min>
+        <min>0</min>
         <quantmin>10</quantmin>
         <quantmax>100</quantmax>
         <cost>1000</cost>
@@ -1026,166 +1026,4 @@
     </type>
 <!-- End Magazines -->
 <!-- End Weapon Expansion Types.xml -->
-<!-- Start AmmunitionExpansion Types.xml -->
-<!-- Ammo Boxes -->
-    <type name="AE_AmmoBox_57x28_30Rnd">
-        <nominal>10</nominal>
-        <lifetime>28800</lifetime>
-        <restock>0</restock>
-        <min>5</min>
-        <quantmin>-1</quantmin>
-        <quantmax>-1</quantmax>
-        <cost>100</cost>
-        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-        <category name="weapons"/>
-        <usage name="Military"/>
-        <value name="Tier3"/>
-        <value name="Tier4"/>
-    </type>
-    <type name="AE_AmmoBox_127x99_10Rnd">
-        <nominal>0</nominal>
-        <lifetime>28800</lifetime>
-        <restock>0</restock>
-        <min>0</min>
-        <quantmin>-1</quantmin>
-        <quantmax>-1</quantmax>
-        <cost>100</cost>
-        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="1"/>
-        <category name="weapons"/>
-        <usage name="Military"/>
-    </type>
-    <type name="AE_AmmoBox_50AE_20Rnd">
-        <nominal>0</nominal>
-        <lifetime>28800</lifetime>
-        <restock>0</restock>
-        <min>0</min>
-        <quantmin>-1</quantmin>
-        <quantmax>-1</quantmax>
-        <cost>100</cost>
-        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-        <category name="weapons"/>
-        <usage name="Military"/>
-    </type>
-    <type name="AE_AmmoBox_300_20Rnd">
-        <nominal>0</nominal>
-        <lifetime>28800</lifetime>
-        <restock>0</restock>
-        <min>0</min>
-        <quantmin>-1</quantmin>
-        <quantmax>-1</quantmax>
-        <cost>100</cost>
-        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-        <category name="weapons"/>
-        <usage name="Military"/>
-        <value name="Tier3"/>
-        <value name="Tier4"/>
-    </type>
-    <type name="AE_AmmoBox_338_20Rnd">
-        <nominal>0</nominal>
-        <lifetime>28800</lifetime>
-        <restock>0</restock>
-        <min>0</min>
-        <quantmin>-1</quantmin>
-        <quantmax>-1</quantmax>
-        <cost>100</cost>
-        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="1"/>
-        <category name="weapons"/>
-        <usage name="Military"/>
-    </type>
-    <type name="AE_AmmoBox_408_20Rnd">
-        <nominal>2</nominal>
-        <lifetime>28800</lifetime>
-        <restock>0</restock>
-        <min>1</min>
-        <quantmin>-1</quantmin>
-        <quantmax>-1</quantmax>
-        <cost>100</cost>
-        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-        <category name="weapons"/>
-        <usage name="Military"/>
-        <value name="Tier4"/>
-    </type>
-<!-- Ammo Piles -->
-    <type name="Ammo_AE57x28">
-        <nominal>10</nominal>
-        <lifetime>14400</lifetime>
-        <restock>180</restock>
-        <min>5</min>
-        <quantmin>10</quantmin>
-        <quantmax>40</quantmax>
-        <cost>100</cost>
-        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-        <category name="weapons"/>
-        <tag name="shelves"/>
-        <usage name="Military"/>
-        <value name="Tier3"/>
-        <value name="Tier4"/>
-    </type>
-    <type name="Ammo_AE127x99">
-        <nominal>0</nominal>
-        <lifetime>28800</lifetime>
-        <restock>0</restock>
-        <min>0</min>
-        <quantmin>10</quantmin>
-        <quantmax>40</quantmax>
-        <cost>100</cost>
-        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="1"/>
-        <category name="weapons"/>
-        <usage name="Military"/>
-    </type>
-    <type name="Ammo_AE50AE">
-        <nominal>0</nominal>
-        <lifetime>14400</lifetime>
-        <restock>180</restock>
-        <min>0</min>
-        <quantmin>10</quantmin>
-        <quantmax>40</quantmax>
-        <cost>100</cost>
-        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-        <category name="weapons"/>
-        <tag name="shelves"/>
-        <usage name="Military"/>
-    </type>
-    <type name="Ammo_AE300">
-        <nominal>0</nominal>
-        <lifetime>14400</lifetime>
-        <restock>0</restock>
-        <min>0</min>
-        <quantmin>10</quantmin>
-        <quantmax>40</quantmax>
-        <cost>100</cost>
-        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-        <category name="weapons"/>
-        <tag name="shelves"/>
-        <usage name="Military"/>
-        <value name="Tier2"/>
-        <value name="Tier3"/>
-        <value name="Tier4"/>
-    </type>
-    <type name="Ammo_AE338">
-        <nominal>0</nominal>
-        <lifetime>28800</lifetime>
-        <restock>0</restock>
-        <min>0</min>
-        <quantmin>10</quantmin>
-        <quantmax>40</quantmax>
-        <cost>100</cost>
-        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="1"/>
-        <category name="weapons"/>
-        <usage name="Military"/>
-    </type>
-    <type name="Ammo_AE408">
-        <nominal>2</nominal>
-        <lifetime>28800</lifetime>
-        <restock>0</restock>
-        <min>1</min>
-        <quantmin>10</quantmin>
-        <quantmax>40</quantmax>
-        <cost>100</cost>
-        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-        <category name="weapons"/>
-        <usage name="Military"/>
-        <value name="Tier4"/>
-    </type>
  </types>
-<!-- End AmmunitionExpansion Types.xml -->

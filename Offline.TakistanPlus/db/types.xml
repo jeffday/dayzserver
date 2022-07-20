@@ -1039,10 +1039,10 @@
         <value name="Tier4" />
     </type>
     <type name="Mag_AK74_45Rnd">
-        <nominal>1</nominal>
+        <nominal>0</nominal>
         <lifetime>28800</lifetime>
         <restock>1800</restock>
-        <min>1</min>
+        <min>0</min>
         <quantmin>10</quantmin>
         <quantmax>50</quantmax>
         <cost>100</cost>
@@ -1567,10 +1567,10 @@
     <usage name="ContaminatedArea"/>
   </type>
   <type name="AKS74U">
-    <nominal>10</nominal>
+    <nominal>0</nominal>
     <lifetime>28800</lifetime>
     <restock>1800</restock>
-    <min>8</min>
+    <min>0</min>
     <quantmin>-1</quantmin>
     <quantmax>-1</quantmax>
     <cost>100</cost>
@@ -6402,10 +6402,10 @@
     <usage name="Military" />
   </type>
   <type name="FNX45">
-    <nominal>8</nominal>
+    <nominal>0</nominal>
     <lifetime>28800</lifetime>
     <restock>1800</restock>
-    <min>4</min>
+    <min>0</min>
     <quantmin>-1</quantmin>
     <quantmax>-1</quantmax>
     <cost>100</cost>
@@ -7554,10 +7554,10 @@
     <usage name="Village" />
   </type>
   <type name="Glock19">
-    <nominal>0</nominal>
+    <nominal>12</nominal>
     <lifetime>7200</lifetime>
     <restock>0</restock>
-    <min>0</min>
+    <min>8</min>
     <quantmin>-1</quantmin>
     <quantmax>-1</quantmax>
     <cost>100</cost>
@@ -7565,9 +7565,6 @@
     <category name="weapons" />
     <usage name="Police" />
     <usage name="Military" />
-    <value name="Tier2" />
-	<value name="Tier3" />
-    <value name="Tier4" />
   </type>
   <type name="GoatPelt">
     <nominal>0</nominal>
@@ -10693,10 +10690,10 @@
     <value name="Tier4" />
   </type>
   <type name="Mag_AK74_30Rnd">
-    <nominal>12</nominal>
+    <nominal>0</nominal>
     <lifetime>28800</lifetime>
     <restock>1800</restock>
-    <min>8</min>
+    <min>0</min>
     <quantmin>5</quantmin>
     <quantmax>50</quantmax>
     <cost>100</cost>
@@ -10721,7 +10718,7 @@
     <value name="Tier4" />
   </type>
   <type name="Mag_AKM_Drum75Rnd">
-    <nominal>3</nominal>
+    <nominal>1</nominal>
     <lifetime>28800</lifetime>
     <restock>1800</restock>
     <min>1</min>
@@ -10733,10 +10730,10 @@
     <usage name="ContaminatedArea"/>
   </type>
   <type name="Mag_AKM_Palm30Rnd">
-    <nominal>8</nominal>
+    <nominal>0</nominal>
     <lifetime>28800</lifetime>
     <restock>2700</restock>
-    <min>4</min>
+    <min>0</min>
     <quantmin>10</quantmin>
     <quantmax>60</quantmax>
     <cost>100</cost>
@@ -10871,10 +10868,10 @@
     <value name="Tier4" />
   </type>
   <type name="Mag_FNX45_15Rnd">
-    <nominal>12</nominal>
+    <nominal>0</nominal>
     <lifetime>28800</lifetime>
     <restock>1800</restock>
-    <min>6</min>
+    <min>0</min>
     <quantmin>10</quantmin>
     <quantmax>60</quantmax>
     <cost>100</cost>
@@ -10885,10 +10882,10 @@
     <value name="Tier3"/>
   </type>
   <type name="Mag_Glock_15Rnd">
-    <nominal>0</nominal>
+    <nominal>16</nominal>
     <lifetime>7200</lifetime>
     <restock>180</restock>
-    <min>0</min>
+    <min>12</min>
     <quantmin>20</quantmin>
     <quantmax>90</quantmax>
     <cost>100</cost>
@@ -10896,8 +10893,6 @@
     <category name="weapons" />
     <usage name="Police" />
     <usage name="Military" />
-    <value name="Tier2"/>
-    <value name="Tier3"/>
   </type>
   <type name="Mag_IJ70_8Rnd">
     <nominal>20</nominal>
@@ -10930,10 +10925,10 @@
     <value name="Tier2"/>
   </type>
   <type name="Mag_MP5_30Rnd">
-    <nominal>12</nominal>
+    <nominal>0</nominal>
     <lifetime>28800</lifetime>
     <restock>1800</restock>
-    <min>8</min>
+    <min>0</min>
     <quantmin>10</quantmin>
     <quantmax>60</quantmax>
     <cost>100</cost>

@@ -126,14 +126,6 @@
 				<item name="AmmoBox_762x39_20Rnd" chance="0.02" />
 				<item name="Ammo_762x54" chance="0.10" />
 				<item name="AmmoBox_762x54_20Rnd" chance="0.02" />
-				<item name="TTC_Ammo_8mm" chance="0.04" />
-				<item name="TTC_AmmoBox_8mm_20Rnd" chance="0.02" />
-				<item name="TTC_Ammo_303" chance="0.03" />
-				<item name="TTC_AmmoBox_303_20Rnd" chance="0.02" />
-				<item name="TTC_Ammo_3006" chance="0.03" />
-				<item name="TTC_AmmoBox_3006_20Rnd" chance="0.02" />
-				<item name="TTC_Ammo_792x33" chance="0.03" />
-				<item name="TTC_AmmoBox_792x33_20Rnd" chance="0.02" />
 		</cargo>
 		<cargo chance="0.3" name="ammoPolice">
 				<item name="Ammo_9x19" chance="0.3" />
@@ -148,10 +140,8 @@
 				<item name="AmmoBox_762x39_20Rnd" chance="0.05" />
 				<item name="Ammo_762x54" chance="0.2" />
 				<item name="AmmoBox_762x54_20Rnd" chance="0.05" />
-				<item name="TTC_Ammo_300blk" chance="0.1" />
-				<item name="TTC_AmmoBox_300blk_20rnd" chance="0.03" />
-				<item name="TTC_Ammo_277" chance="0.1" />
-				<item name="TTC_AmmoBox_277_20Rnd" chance="0.02" />
+				<item name="Ammo_AE57x28" chance="0.1" />
+				<item name="AE_AmmoBox_57x28_30rnd" chance="0.03" />
 		</cargo>
 		<cargo chance="0.1" name="mixVillage">
 				<item name="DuctTape" chance="0.07" />
@@ -171,14 +161,6 @@
 				<item name="AmmoBox_762x39_20Rnd" chance="0.02" />
 				<item name="Ammo_762x54" chance="0.08" />
 				<item name="AmmoBox_762x54_20Rnd" chance="0.02" />
-				<item name="TTC_Ammo_8mm" chance="0.08" />
-				<item name="TTC_AmmoBox_8mm_20Rnd" chance="0.02" />
-				<item name="TTC_Ammo_303" chance="0.08" />
-				<item name="TTC_AmmoBox_303_20Rnd" chance="0.02" />
-				<item name="TTC_Ammo_3006" chance="0.08" />
-				<item name="TTC_AmmoBox_3006_20Rnd" chance="0.02" />
-				<item name="TTC_Ammo_792x33" chance="0.08" />
-				<item name="TTC_AmmoBox_792x33_20Rnd" chance="0.02" />
 				<item name="SodaCan_Cola" chance="0.09" />
 				<item name="SodaCan_Pipsi" chance="0.09" />
 				<item name="SodaCan_Spite" chance="0.09" />
@@ -204,14 +186,6 @@
 				<item name="AmmoBox_762x39_20Rnd" chance="0.02" />
 				<item name="Ammo_762x54" chance="0.08" />
 				<item name="AmmoBox_762x54_20Rnd" chance="0.02" />
-				<item name="TTC_Ammo_8mm" chance="0.08" />
-				<item name="TTC_AmmoBox_8mm_20Rnd" chance="0.02" />
-				<item name="TTC_Ammo_303" chance="0.08" />
-				<item name="TTC_AmmoBox_303_20Rnd" chance="0.02" />
-				<item name="TTC_Ammo_3006" chance="0.08" />
-				<item name="TTC_AmmoBox_3006_20Rnd" chance="0.02" />
-				<item name="TTC_Ammo_792x33" chance="0.08" />
-				<item name="TTC_AmmoBox_792x33_20Rnd" chance="0.02" />
 				<item name="SodaCan_Cola" chance="0.09" />
 				<item name="SodaCan_Pipsi" chance="0.09" />
 				<item name="SodaCan_Spite" chance="0.08" />
@@ -250,11 +224,45 @@
 				<item name="RDG2SmokeGrenade_Black" chance="0.25" />
 				<item name="RDG5Grenade" chance="0.25" />
 		</cargo>
-		<attachments chance="0.10" name="optics">
-				<item name="TTC_Elcan" chance="0.20" />
-				<item name="TTC_HAMR" chance="0.20" />
-				<item name="TTC_Aimpoint2000" chance="0.20" />
-				<item name="TTC_Holo" chance="0.20" />
+
+		<attachments chance="0.15" name="pistol_optics">
+				<item name="FNP45_MRDSOptic" chance="1.00" />
+		</attachments>
+		<attachments chance="0.60" name="close_range_optics">
+				<item name="BO_Holosun_HS510C_Optic" chance="0.50" />
+				<item name="BO_VortexAMG_UH1_Optic" chance="0.50" />
+		</attachments>
+		<attachments chance="0.60" name="ar_optics">
+				<item name="BO_ACOGOptic_Crosshair_Red" chance="0.20" />
+				<item name="BO_ACOGOptic_Chevron_Green" chance="0.20" />
+				<item name="BO_HAMROptic" chance="0.20" />
+				<item name="BO_SpecterDROptic" chance="0.20" />
+				<item name="BO_LeupoldHoloDEVO" chance="0.20" />
+		</attachments>
+		<attachments chance="0.60" name="dmr_optics">
+				<item name="BO_ACOGOptic_Crosshair_Red" chance="0.33" />
+				<item name="BO_SpecterDROptic" chance="0.33" />
+				<item name="BO_HAMROptic" chance="0.34S" />
+		</attachments>
+		<attachments chance="0.60" name="long_range_scopes">
+				<item name="HuntingOptic" chance="0.50" />
+				<item name="WE_AMSOptic" chance="0.25" />
+				<item name="WE_HMOptic" chance="0.125" />
+				<item name="BO_HMOptic" chance="0.125" />
+		</attachments>
+		<attachments chance="0.60" name="hunting_scopes">
+				<item name="HuntingOptic" chance="0.75" />
+				<item name="BO_HMOptic" chance="0.25" />
+		</attachments>
+		<attachments chance="0.05" name="pistol_suppressors">
+				<item name="BO_OspreySuppressor" chance="0.5" />
+				<item name="BO_MK23_Suppressor" chance="0.5" />
+		</attachments>
+		<attachments chance="0.20" name="ak">
+				<item name="BO_TacticalSuppressor" chance="1.00" />
+		</attachments>
+		<attachments chance="0.60" name="338">
+				<item name="BO_HarvesterSuppressor" chance="1.00" />
 		</attachments>
 
 		<!--   NBC Cargo   -->
