@@ -293,7 +293,9 @@
 		</attachments>
 	</type>
 	<type name="BO_R700">
-		<attachments preset="long_range_scopes" />
+		<attachments chance="0.30">
+			<item name="HuntingOptic" chance="1.00" />
+		</attachments>
 		<attachments chance="0.60">
 			<item name="BO_Mag_R700_5rnd" chance="1.00" />
 		</attachments>
