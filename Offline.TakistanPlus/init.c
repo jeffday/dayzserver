@@ -37,7 +37,7 @@ void main()
         month = 7;
         day = 1;
 		
-		GetGame().GetWorld().SetDate( year, month, day, hour, minute );
+		GetGame().GetWorld().SetDate( year, month, day, 5, 0 );
 	}
 }
 

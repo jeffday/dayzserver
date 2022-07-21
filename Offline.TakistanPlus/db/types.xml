@@ -2140,10 +2140,10 @@
     <category name="weapons" />
   </type>
   <type name="AmmoBox_9x39AP_20Rnd">
-    <nominal>5</nominal>
+    <nominal>0</nominal>
     <lifetime>28800</lifetime>
     <restock>0</restock>
-    <min>2</min>
+    <min>0</min>
     <quantmin>-1</quantmin>
     <quantmax>-1</quantmax>
     <cost>100</cost>
@@ -2154,10 +2154,10 @@
 	  <value name="Tier4" />
   </type>
   <type name="AmmoBox_9x39_20Rnd">
-    <nominal>5</nominal>
+    <nominal>0</nominal>
     <lifetime>28800</lifetime>
     <restock>0</restock>
-    <min>2</min>
+    <min>0</min>
     <quantmin>-1</quantmin>
     <quantmax>-1</quantmax>
     <cost>100</cost>
@@ -2396,10 +2396,10 @@
     <category name="weapons" />
   </type>
   <type name="Ammo_9x39">
-    <nominal>10</nominal>
+    <nominal>0</nominal>
     <lifetime>28800</lifetime>
     <restock>0</restock>
-    <min>5</min>
+    <min>0</min>
     <quantmin>10</quantmin>
     <quantmax>60</quantmax>
     <cost>100</cost>
@@ -2410,10 +2410,10 @@
 	  <value name="Tier4" />
   </type>
   <type name="Ammo_9x39AP">
-    <nominal>10</nominal>
+    <nominal>0</nominal>
     <lifetime>28800</lifetime>
     <restock>0</restock>
-    <min>5</min>
+    <min>0</min>
     <quantmin>10</quantmin>
     <quantmax>60</quantmax>
     <cost>100</cost>
@@ -10982,10 +10982,10 @@
     <value name="Tier4" />
   </type>
   <type name="Mag_VAL_20Rnd">
-    <nominal>5</nominal>
+    <nominal>0</nominal>
     <lifetime>28800</lifetime>
     <restock>3600</restock>
-    <min>3</min>
+    <min>0</min>
     <quantmin>10</quantmin>
     <quantmax>60</quantmax>
     <cost>100</cost>
@@ -10996,10 +10996,10 @@
     <value name="Tier4" />
   </type>
   <type name="Mag_VSS_10Rnd">
-    <nominal>8</nominal>
+    <nominal>0</nominal>
     <lifetime>28800</lifetime>
     <restock>3600</restock>
-    <min>4</min>
+    <min>0</min>
     <quantmin>10</quantmin>
     <quantmax>60</quantmax>
     <cost>100</cost>
