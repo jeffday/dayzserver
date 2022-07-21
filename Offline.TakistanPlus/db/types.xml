@@ -10250,10 +10250,10 @@
 	<value name="Tier4" />
   </type>
   <type name="M4_MPHndgrd">
-    <nominal>2</nominal>
+    <nominal>0</nominal>
     <lifetime>14400</lifetime>
     <restock>0</restock>
-    <min>1</min>
+    <min>0</min>
     <quantmin>-1</quantmin>
     <quantmax>-1</quantmax>
     <cost>100</cost>
@@ -10292,10 +10292,10 @@
 	<value name="Tier4" />
   </type>
   <type name="M4_RISHndgrd">
-    <nominal>2</nominal>
+    <nominal>0</nominal>
     <lifetime>14400</lifetime>
     <restock>0</restock>
-    <min>1</min>
+    <min>0</min>
     <quantmin>-1</quantmin>
     <quantmax>-1</quantmax>
     <cost>100</cost>
@@ -10608,10 +10608,10 @@
     <value name="Tier4" />
   </type>
   <type name="Mag_AKM_30Rnd">
-    <nominal>8</nominal>
+    <nominal>3</nominal>
     <lifetime>28800</lifetime>
     <restock>1800</restock>
-    <min>4</min>
+    <min>2</min>
     <quantmin>10</quantmin>
     <quantmax>60</quantmax>
     <cost>100</cost>
@@ -10799,10 +10799,10 @@
     <usage name="Military" />
   </type>
   <type name="Mag_IJ70_8Rnd">
-    <nominal>20</nominal>
+    <nominal>0</nominal>
     <lifetime>28800</lifetime>
     <restock>1800</restock>
-    <min>15</min>
+    <min>0</min>
     <quantmin>30</quantmin>
     <quantmax>70</quantmax>
     <cost>100</cost>
@@ -11025,10 +11025,10 @@
     <value name="Tier4" />
   </type>
   <type name="MakarovIJ70">
-    <nominal>25</nominal>
+    <nominal>0</nominal>
     <lifetime>28800</lifetime>
     <restock>0</restock>
-    <min>10</min>
+    <min>0</min>
     <quantmin>-1</quantmin>
     <quantmax>-1</quantmax>
     <cost>100</cost>
