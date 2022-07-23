@@ -635,10 +635,10 @@
         <value name="Tier3"/>
     </type>
     <type name="WE_M14">
-        <nominal>5</nominal>
+        <nominal>0</nominal>
         <lifetime>28800</lifetime>
         <restock>0</restock>
-        <min>2</min>
+        <min>0</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -670,7 +670,7 @@
         <category name="weapons"/>
         <usage name="Military"/>
     </type>
-    <type name="WE_M98B"> <!-- using the one from morty's -->
+    <type name="WE_M98B"> 
         <nominal>0</nominal>
         <lifetime>28800</lifetime>
         <restock>0</restock>
@@ -683,10 +683,10 @@
         <usage name="Military"/>
     </type>
     <type name="WE_M200">
-        <nominal>2</nominal>
+        <nominal>0</nominal>
         <lifetime>28800</lifetime>
         <restock>0</restock>
-        <min>1</min>
+        <min>0</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -695,10 +695,10 @@
         <usage name="Military"/>
     </type>
     <type name="WE_PSG1">
-        <nominal>5</nominal>
+        <nominal>0</nominal>
         <lifetime>28800</lifetime>
         <restock>0</restock>
-        <min>2</min>
+        <min>0</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -707,10 +707,10 @@
         <usage name="Military"/>
     </type>
 	<type name="WE_R700">
-        <nominal>15</nominal>
+        <nominal>0</nominal>
         <lifetime>28800</lifetime>
         <restock>0</restock>
-        <min>5</min>
+        <min>0</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
