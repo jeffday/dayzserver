@@ -1,0 +1,98 @@
+{
+    "Areas": [
+		{ 	"AreaName": "C4", 
+			"Type": "ContaminatedArea_Static", 
+			"TriggerType": "ContaminatedTrigger",
+			"Data": { 
+				"Pos": [ 4588, 61, 5811 ],
+				"Radius": 80,
+				"PosHeight": 50,
+				"NegHeight": 60,
+				"InnerRingCount": 1,
+				"InnerPartDist": 50,
+				"OuterRingToggle": 1, 
+				"OuterPartDist": 100, 
+				"OuterOffset": 0, 
+				"VerticalLayers": 0,
+				"VerticalOffset": 0,
+				"ParticleName": "graphics/particles/contaminated_area_gas_bigass"
+				},
+			"PlayerData": {
+				"AroundPartName": "graphics/particles/contaminated_area_gas_around",
+				"TinyPartName": "graphics/particles/contaminated_area_gas_around_tiny",
+				"PPERequesterType": "PPERequester_ContaminatedAreaTint"
+			}
+		},
+		{ 	"AreaName": "C4", 
+			"Type": "ContaminatedArea_Static", 
+			"TriggerType": "ContaminatedTrigger",
+			"Data": { 
+				"Pos": [ 4704.098145, 61, 5825.997070 ],
+				"Radius": 70,
+				"PosHeight": 50,
+				"NegHeight": 30,
+				"InnerRingCount": 1,
+				"InnerPartDist": 50,
+				"OuterRingToggle": 1, 
+				"OuterPartDist": 100, 
+				"OuterOffset": 0, 
+				"VerticalLayers": 0,
+				"VerticalOffset": 0,
+				"ParticleName": "graphics/particles/contaminated_area_gas_bigass"
+				},
+			"PlayerData": {
+				"AroundPartName": "graphics/particles/contaminated_area_gas_around",
+				"TinyPartName": "graphics/particles/contaminated_area_gas_around_tiny",
+				"PPERequesterType": "PPERequester_ContaminatedAreaTint"
+			}
+		}
+    ],
+
+	"SafePositions":[
+		[4312, 5897],
+		[4221, 6127],
+		[4258, 6230],
+		[4313, 6300],
+		[4156, 5382],
+		[4374, 5137],
+		[4579, 5109],
+		[4754, 5591],
+		[4723, 5625],
+		[4866, 5956],
+		[4767, 6003],
+		[4627, 6142],
+		[4805, 6246],
+		[4464, 6211],
+		[4543, 6410],
+		[4532, 6315],
+		[2826, 6246],
+		[2986, 6309],
+		[1149, 4052],
+		[1273, 4367],
+		[1371, 6810],
+		[1531, 6050],
+		[4862, 4143],
+		[5282, 4349],
+		[5178, 4009],
+		[6373, 5243],
+		[6416, 4910],
+		[5308, 4934],
+		[5584, 5454],
+		[2398, 4268],
+		[2632, 3703],
+		[3059, 2692],
+		[2871, 2687],
+		[3601, 3691],
+		[3738, 3812],
+		[5488, 6882],
+		[5790, 6689],
+		[6909, 6438],
+		[4618, 2637],
+		[4914, 2946],
+		[1450, 7042],
+		[6260, 4052],
+		[6252, 3890],
+		[5110, 3509],
+		[5075, 3271]
+	]
+}
