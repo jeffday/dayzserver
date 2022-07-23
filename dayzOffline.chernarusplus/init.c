@@ -754,41 +754,41 @@ class CustomMission: MissionServer
 	}
 
     void SpawnJeffSetup(PlayerBase player) {
-        string camoType = "green";
-        string spurgleCamo = "WoodlandCamo";
+        // string camoType = "green";
+        // string spurgleCamo = "WoodlandCamo";
 
-        autoptr TStringArray clothes = {"BeanieHat_Black","ThickFramesGlasses","NioshFaceMask","QuiltedJacket_Green",getItemNameForCamoType("mmg_tactical_gloves_", camoType),"Jeans_Black","SK8_Sneakers_Black"};
+        autoptr TStringArray clothes = {"beanie_blackred","ThickFramesGlasses","Hoodie_Sport1","SlacksPants_Khaki","SK8_Sneakers_Black"};
 
         spawnItemsOnPlayer(player, clothes);
 
-        string bag = "Spur_CamelBag_" + spurgleCamo;
-        autoptr TStringArray bagAttachments = {"SmershBag_Spur_" + spurgleCamo,"PlateCarrierHolster_Spur_" + spurgleCamo,"Spur_KnifeSheath_Green","PersonalRadio"};
+        // string bag = "Spur_CamelBag_" + spurgleCamo;
+        // autoptr TStringArray bagAttachments = {"SmershBag_Spur_" + spurgleCamo,"PlateCarrierHolster_Spur_" + spurgleCamo,"Spur_KnifeSheath_Green","PersonalRadio"};
 
-        spawnItemWithAttachments(player, bag, bagAttachments);
+        // spawnItemWithAttachments(player, bag, bagAttachments);
 
-        string belt = getItemNameForCamoType("MMG_falcon_b1_belt_", camoType);
-        autoptr TStringArray beltAttachments = {getItemNameForCamoType("MMG_tactical_pouch_", camoType), getItemNameForCamoType("MMG_Med_Pouch_", camoType), getItemNameForCamoType("MMG_sheath_", camoType), getItemNameForCamoType("MMG_Holster_", camoType), getItemNameForCamoType("MMG_bottle_", camoType)};
+        // string belt = getItemNameForCamoType("MMG_falcon_b1_belt_", camoType);
+        // autoptr TStringArray beltAttachments = {getItemNameForCamoType("MMG_tactical_pouch_", camoType), getItemNameForCamoType("MMG_Med_Pouch_", camoType), getItemNameForCamoType("MMG_sheath_", camoType), getItemNameForCamoType("MMG_Holster_", camoType), getItemNameForCamoType("MMG_bottle_", camoType)};
 
-        spawnItemWithAttachments(player, belt, beltAttachments);
+        // spawnItemWithAttachments(player, belt, beltAttachments);
 
-        string vest = getItemNameForCamoType("MMG_tt_Vest_", camoType);
-        autoptr TStringArray vestAttachments = {getItemNameForCamoType("MMG_ammo_pouch_", camoType), getItemNameForCamoType("MMG_ammo_pouch_", camoType), getItemNameForCamoType("MMG_tactical_pouch_", camoType), getItemNameForCamoType("MMG_Med_Pouch_", camoType), getItemNameForCamoType("MMG_bottle_", camoType)};
+        // string vest = getItemNameForCamoType("MMG_tt_Vest_", camoType);
+        // autoptr TStringArray vestAttachments = {getItemNameForCamoType("MMG_ammo_pouch_", camoType), getItemNameForCamoType("MMG_ammo_pouch_", camoType), getItemNameForCamoType("MMG_tactical_pouch_", camoType), getItemNameForCamoType("MMG_Med_Pouch_", camoType), getItemNameForCamoType("MMG_bottle_", camoType)};
 
-        spawnItemWithAttachments(player, vest, vestAttachments);
+        // spawnItemWithAttachments(player, vest, vestAttachments);
 
-        spawnRifle(player, "TTC_HK416Comp");
-        spawnItemNTimesOnPlayer(player, "TTC_DMR_556Pmag_40rnd", 3);
-        spawnItemNTimesOnPlayer(player, "AmmoBox_556x45_20Rnd", 12);
+        // spawnRifle(player, "TTC_HK416Comp");
+        // spawnItemNTimesOnPlayer(player, "TTC_DMR_556Pmag_40rnd", 3);
+        // spawnItemNTimesOnPlayer(player, "AmmoBox_556x45_20Rnd", 12);
 
-        spawnRifle(player, "TTC_MAS36");
-        spawnItemNTimesOnPlayer(player, "AmmoBox_762x54_20Rnd", 12);
+        // spawnRifle(player, "TTC_MAS36");
+        // spawnItemNTimesOnPlayer(player, "AmmoBox_762x54_20Rnd", 12);
 
-        spawnSidearm(player);
-        player.GetInventory().CreateInInventory("TTC_PistolSuppressor");
+        // spawnSidearm(player);
+        // player.GetInventory().CreateInInventory("TTC_PistolSuppressor");
 
-        player.GetInventory().CreateInInventory("CombatKnife");
-        player.GetInventory().CreateInInventory("HuntingKnife");
-        player.GetInventory().CreateInInventory("Rangefinder");
+        // player.GetInventory().CreateInInventory("CombatKnife");
+        // player.GetInventory().CreateInInventory("HuntingKnife");
+        // player.GetInventory().CreateInInventory("Rangefinder");
     }
 
 	override void StartingEquipSetup(PlayerBase player, bool clothesChosen)
