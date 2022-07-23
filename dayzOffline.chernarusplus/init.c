@@ -754,41 +754,9 @@ class CustomMission: MissionServer
 	}
 
     void SpawnJeffSetup(PlayerBase player) {
-        // string camoType = "green";
-        // string spurgleCamo = "WoodlandCamo";
-
         autoptr TStringArray clothes = {"beanie_blackred","ThickFramesGlasses","Hoodie_Sport1","SlacksPants_Khaki","SK8_Sneakers_Black"};
 
         spawnItemsOnPlayer(player, clothes);
-
-        // string bag = "Spur_CamelBag_" + spurgleCamo;
-        // autoptr TStringArray bagAttachments = {"SmershBag_Spur_" + spurgleCamo,"PlateCarrierHolster_Spur_" + spurgleCamo,"Spur_KnifeSheath_Green","PersonalRadio"};
-
-        // spawnItemWithAttachments(player, bag, bagAttachments);
-
-        // string belt = getItemNameForCamoType("MMG_falcon_b1_belt_", camoType);
-        // autoptr TStringArray beltAttachments = {getItemNameForCamoType("MMG_tactical_pouch_", camoType), getItemNameForCamoType("MMG_Med_Pouch_", camoType), getItemNameForCamoType("MMG_sheath_", camoType), getItemNameForCamoType("MMG_Holster_", camoType), getItemNameForCamoType("MMG_bottle_", camoType)};
-
-        // spawnItemWithAttachments(player, belt, beltAttachments);
-
-        // string vest = getItemNameForCamoType("MMG_tt_Vest_", camoType);
-        // autoptr TStringArray vestAttachments = {getItemNameForCamoType("MMG_ammo_pouch_", camoType), getItemNameForCamoType("MMG_ammo_pouch_", camoType), getItemNameForCamoType("MMG_tactical_pouch_", camoType), getItemNameForCamoType("MMG_Med_Pouch_", camoType), getItemNameForCamoType("MMG_bottle_", camoType)};
-
-        // spawnItemWithAttachments(player, vest, vestAttachments);
-
-        // spawnRifle(player, "TTC_HK416Comp");
-        // spawnItemNTimesOnPlayer(player, "TTC_DMR_556Pmag_40rnd", 3);
-        // spawnItemNTimesOnPlayer(player, "AmmoBox_556x45_20Rnd", 12);
-
-        // spawnRifle(player, "TTC_MAS36");
-        // spawnItemNTimesOnPlayer(player, "AmmoBox_762x54_20Rnd", 12);
-
-        // spawnSidearm(player);
-        // player.GetInventory().CreateInInventory("TTC_PistolSuppressor");
-
-        // player.GetInventory().CreateInInventory("CombatKnife");
-        // player.GetInventory().CreateInInventory("HuntingKnife");
-        // player.GetInventory().CreateInInventory("Rangefinder");
     }
 
 	override void StartingEquipSetup(PlayerBase player, bool clothesChosen)
@@ -804,67 +772,9 @@ class CustomMission: MissionServer
 			player.RemoveAllItems();
             
             SpawnJeffSetup(player);
-
-            // string playerTypeArray[] = {"Townsperson", "Paramedic", "Hunter", "Industrial", "Hiker", "Backpacker", "Skateboarder"};
-            
-            int rndIndex = Math.RandomInt( 0, 7 );
-            // string playerType = playerTypeArray[rndIndex];
-
-            // switch(playerType) {
-            //     case "Townsperson":
-            //         setTownspersonStartingItems(player);
-            //         break;
-            //     case "Paramedic":
-            //         setMedicStartingItems(player);
-            //         break;
-            //     case "Police":
-            //         setPoliceStartingItems(player);
-            //         break;
-            //     case "Hunter":
-            //         setHunterStartingItems(player);
-            //         break;
-            //     case "Industrial":
-            //         setIndustrialStartingItems(player);
-            //         break;
-            //     case "Hiker":
-            //         setHikerStartingItems(player);
-            //         break;
-            //     case "Backpacker":
-            //         setBackpackerStartingItems(player);
-            //         break;
-            //     case "Biker":
-            //         setBikerStartingItems(player);
-            //         break;
-            //     case "EscapedPrisoner":
-            //         setEscapedPrisonerStartingItems(player);
-            //         break;
-            //     case "Skateboarder":
-            //         setSkateboarderStartingItems(player);
-            //         break;
-            //     case "DirtBiker":
-            //         setDirtBikerStartingItems(player);
-            //         break;
-            //     case "Firefighter":
-            //         setFirefighterStartingItems(player);
-            //         break;
-            //     case "Soldier":
-            //         setSoldierStartingItems(player);
-            //         break;
-            //     default:
-            //         setTownspersonStartingItems(player);
-            //         break;
-            // }
-
-            // universal starting items that every type gets
             
             itemEnt = player.GetInventory().CreateInInventory( "BandageDressing" );
-			if ( Class.CastTo( itemBs, itemEnt ) )
-				itemBs.SetQuantity( 4 );
-            
-            string chemlightArray[] = { "Chemlight_White", "Chemlight_Yellow", "Chemlight_Green", "Chemlight_Red" };
-
-			rndIndex = Math.RandomInt( 0, 4 );
-			itemEnt = player.GetInventory().CreateInInventory( chemlightArray[rndIndex] );
+			itemEnt = player.GetInventory().CreateInInventory( "Chemlight_White" );
             
             itemEnt = player.GetInventory().CreateInInventory( "CanOpener" );
             itemEnt = player.GetInventory().CreateInInventory( "SodaCan_Cola" );
