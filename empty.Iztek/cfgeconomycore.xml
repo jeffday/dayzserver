@@ -39,4 +39,21 @@ Do not forget to add attribute act="car", if root class represents moveable vehi
 	<file name="Izco_types.xml" type="types" />
 	<file name="IRC_types.xml" type="types" />
 	</ce>
+
+	<!-- Windstride's Clothing Pack -->
+	<ce folder="windstride">
+		<file name="windstride_types.xml" type="types" />
+	</ce>
+
+	<!-- Uncuepas Civilian Clothing Pack -->
+	<ce folder="uncuepas">
+		<file name="types.xml" type="types" />
+		<file name="cfgspawnabletypes.xml" type="spawnabletypes" />
+	</ce>
+
+	<!-- Spurgle's BagZ -->
+	<ce folder="spurgles">
+		<file name="types.xml" type="types" />
+		<file name="cfgspawnabletypes.xml" type="spawnabletypes" />
+	</ce>
 </economycore>
