@@ -1,8 +1,8 @@
 **DISCLAIMER**: if anyone besides me ever tries to use these, be forewarned: all this shit is highly tuned for singleplayer PvE.
 
-chernarus and melkart in particular have highly armored military and police zombies.
+chernarus, melkart, and takistan in particular have highly armored military and police zombies.
 
-these are my server configs for the following maps: chernarus (both regular and winter versions), livonia, melkart, takistan, namalsk, chiemsee, esseker, banov, eden, and valning.
+these are my server configs for the following maps: chernarus (both regular and winter versions), livonia, melkart, takistan, namalsk, chiemsee, esseker, banov, eden, valning, and iztek.
 
 i run the following mods on most of these maps:
 * MMG gear (with country camo expansion, diff camo types spawn based on the map season/environment)
