@@ -20,13 +20,13 @@ void main()
 	{
 		if ((month == reset_month + 1) && (day > reset_day))
 		{
-			GetGame().GetWorld().SetDate(year, reset_month, reset_day, hour, minute);
+			GetGame().GetWorld().SetDate(year, reset_month, reset_day, 8, 0);
 		}
 		else
 		{
 			if ((month < reset_month) || (month > reset_month + 1))
 			{
-				GetGame().GetWorld().SetDate(year, reset_month, reset_day, hour, minute);
+				GetGame().GetWorld().SetDate(year, reset_month, reset_day, 8, 0);
 			}
 		}
 	}
