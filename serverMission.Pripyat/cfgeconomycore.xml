@@ -98,4 +98,10 @@ Do not forget to add attribute act="car", if root class represents moveable vehi
 		<file name="types.xml" type="types" />
 		<file name="cfgspawnabletypes.xml" type="spawnabletypes" />
 	</ce>
+
+	<!-- SimpleRadiation -->
+	<ce folder="sr">
+		<file name="types.xml" type="types" />
+		<file name="cfgspawnabletypes.xml" type="spawnabletypes" />
+	</ce>
 </economycore>
