@@ -1,5 +1,22 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
 <eventposdef>
+<!-- configured for pripyat -->
+	 <event name="StaticContaminatedArea">
+		<zone smin="0" smax="0" dmin="5" dmax="8" r="75" />
+		<!-- Duga -->
+		<pos x="4252.50" z="5687.50" /> 
+		<pos x="4802.50" z="6050.00" />
+		<!-- Reactor -->
+		<pos x="8460.00" z="13550.00" />
+		<pos x="6250.00" z="15430.00" />
+		<pos x="5685.00" z="16480.00" />
+		<!-- Duga Airfield -->
+		<pos x="15672.50" z="11382.50" />
+		<pos x="16865.00" z="11640.00" />
+		<!-- Mt Base -->
+		<pos x="19132.69" z="18350.32" />
+    </event>
+
 	<event name="VehicleCivilianSedan">
 		<pos x="14545.4" y="9.29465" z="1164.34" a="50.0009"/>
 		<pos x="14276.6" y="11.7524" z="1948.82" a="50.0009"/>
