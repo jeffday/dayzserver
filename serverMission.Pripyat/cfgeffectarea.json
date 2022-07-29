@@ -68,7 +68,30 @@
 				"TinyPartName": "",
 				"PPERequesterType": "PPERequester_RadiationContaminated"
 			}
-		}
+		},
+		{ 	"AreaName": "Liquidation-Vehicles-Anomaly", 
+			"Type": "SR_RadiationContaminatedArea_Static", 
+			"TriggerType": "SR_RadiationContaminatedTrigger",
+			"Data": { 
+				"Pos": [ 8009.89, 2.93548, 12715.4 ],
+				"Radius": 100,
+				"PosHeight": 45,
+				"NegHeight": 2,
+				"InnerRingCount": 1,
+				"InnerPartDist": 50,
+				"OuterRingToggle": 1, 
+				"OuterPartDist": 60, 
+				"OuterOffset": 0, 
+				"VerticalLayers": 0,
+				"VerticalOffset": 0,
+				"ParticleName": ""
+				},
+			"PlayerData": {
+				"AroundPartName": "",
+				"TinyPartName": "",
+				"PPERequesterType": "PPERequester_RadiationContaminated"
+			}
+	}
     ],
 
 	"SafePositions":[
