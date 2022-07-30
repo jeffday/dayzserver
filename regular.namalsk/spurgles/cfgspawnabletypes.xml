@@ -3,36 +3,36 @@
 <spawnabletypes>
 	<damage min="0.2" max="0.6" />
 	<type name="Spur_LW_Bag_Black">
-        <cargo preset="toolsgeneral" />
-        <cargo preset="ammocivil" />
+		<cargo preset="foodVillage" />
+		<cargo preset="mixVillage" />
 	</type>
 	<type name="Spur_LW_Bag_Blue">
-        <cargo preset="toolsgeneral" />
-        <cargo preset="ammocivil" />
+		<cargo preset="foodVillage" />
+		<cargo preset="mixVillage" />
 	</type>
 	<type name="Spur_LW_Bag_Brown">
-        <cargo preset="toolsgeneral" />
-        <cargo preset="ammocivil" />
+		<cargo preset="foodVillage" />
+		<cargo preset="mixVillage" />
 	</type>
 	<type name="Spur_LW_Bag_Green">
-        <cargo preset="toolsgeneral" />
-        <cargo preset="ammocivil" />
+		<cargo preset="foodVillage" />
+		<cargo preset="mixVillage" />
 	</type>
 	<type name="Spur_LW_Bag_Grey">
-        <cargo preset="toolsgeneral" />
-        <cargo preset="ammocivil" />
+		<cargo preset="foodVillage" />
+		<cargo preset="mixVillage" />
 	</type>
 	<type name="Spur_LW_Bag_Orange">
-        <cargo preset="toolsgeneral" />
-        <cargo preset="ammocivil" />
+		<cargo preset="foodVillage" />
+		<cargo preset="mixVillage" />
 	</type>
 	<type name="Spur_LW_Bag_Purple">
-        <cargo preset="toolsgeneral" />
-        <cargo preset="ammocivil" />
+		<cargo preset="foodVillage" />
+		<cargo preset="mixVillage" />
 	</type>
 	<type name="Spur_LW_Bag_Red">
-        <cargo preset="toolsgeneral" />
-        <cargo preset="ammocivil" />
+		<cargo preset="foodVillage" />
+		<cargo preset="mixVillage" />
 	</type>
 	<type name="Spur_MilBag_Black">
 		<attachments chance="1.00">
@@ -43,11 +43,10 @@
 			<item name="Chemlight_White" 	chance="0.05" />
 			<item name="Chemlight_yellow" 	chance="0.05" />
 			<item name="Canteen_Spur_Black" 	chance="0.15" />
-			<item name="Spur_KnifeSheath_Black" 	chance="0.10" />
 			<item name="PlateCarrierHolster_Spur_Black" 	chance="0.10" />
 		</attachments>
-        <cargo preset="toolsmilitary" />
-        <cargo preset="ammomilitary" />
+		<cargo preset="foodArmy" />
+		<cargo preset="mixArmy" />
 	</type>
 	<type name="Spur_MilBag_Green">
 		<attachments chance="1.00">
@@ -58,11 +57,10 @@
 			<item name="Chemlight_White" 	chance="0.05" />
 			<item name="Chemlight_yellow" 	chance="0.05" />
 			<item name="Canteen_Spur_Green" 	chance="0.15" />
-			<item name="Spur_KnifeSheath_Green" 	chance="0.10" />
 			<item name="PlateCarrierHolster_Spur_Green" 	chance="0.10" />
 		</attachments>
-        <cargo preset="toolsmilitary" />
-        <cargo preset="ammomilitary" />
+		<cargo preset="foodArmy" />
+		<cargo preset="mixArmy" />
 	</type>
 	<type name="Spur_MilBag_Tan">
 		<attachments chance="1.00">
@@ -73,11 +71,10 @@
 			<item name="Chemlight_White" 	chance="0.05" />
 			<item name="Chemlight_yellow" 	chance="0.05" />
 			<item name="Canteen_Spur_Tan" 	chance="0.15" />
-			<item name="Spur_KnifeSheath_Tan" 	chance="0.10" />
 			<item name="PlateCarrierHolster_Spur_Tan" 	chance="0.10" />
 		</attachments>
-        <cargo preset="toolsmilitary" />
-        <cargo preset="ammomilitary" />
+		<cargo preset="foodArmy" />
+		<cargo preset="mixArmy" />
 	</type>
 	<type name="Spur_MilBag_WoodlandCamo">
 		<attachments chance="1.00">
@@ -88,11 +85,10 @@
 			<item name="Chemlight_White" 	chance="0.05" />
 			<item name="Chemlight_yellow" 	chance="0.05" />
 			<item name="Canteen_Spur_WoodlandCamo" 	chance="0.15" />
-			<item name="Spur_KnifeSheath_Green" 	chance="0.10" />
 			<item name="PlateCarrierHolster_Spur_WoodlandCamo" 	chance="0.10" />
 		</attachments>
-        <cargo preset="toolsmilitary" />
-        <cargo preset="ammomilitary" />
+		<cargo preset="foodArmy" />
+		<cargo preset="mixArmy" />
 	</type>
 	<type name="Spur_MilBag_MultiCamo">
 		<attachments chance="1.00">
@@ -103,11 +99,10 @@
 			<item name="Chemlight_White" 	chance="0.05" />
 			<item name="Chemlight_yellow" 	chance="0.05" />
 			<item name="Canteen_Spur_MultiCamo" 	chance="0.15" />
-			<item name="Spur_KnifeSheath_Green" 	chance="0.10" />
 			<item name="PlateCarrierHolster_Spur_MultiCamo" 	chance="0.10" />
 		</attachments>
-        <cargo preset="toolsmilitary" />
-        <cargo preset="ammomilitary" />
+		<cargo preset="foodArmy" />
+		<cargo preset="mixArmy" />
 	</type>
 	<type name="Spur_MilBag_WinterCamo">
 		<attachments chance="1.00">
@@ -118,31 +113,30 @@
 			<item name="Chemlight_White" 	chance="0.05" />
 			<item name="Chemlight_yellow" 	chance="0.05" />
 			<item name="Canteen_Spur_WinterCamo" 	chance="0.15" />
-			<item name="Spur_KnifeSheath_Green" 	chance="0.10" />
 			<item name="PlateCarrierHolster_Spur_WinterCamo" 	chance="0.10" />
 		</attachments>
-        <cargo preset="toolsmilitary" />
-        <cargo preset="ammomilitary" />
+		<cargo preset="foodArmy" />
+		<cargo preset="mixArmy" />
 	</type>
 	<type name="Spur_Treker_Yellow">
-        <cargo preset="toolsgeneral" />
-        <cargo preset="ammocivil" />
+		<cargo preset="foodVillage" />
+		<cargo preset="mixVillage" />
 	</type>
 	<type name="Spur_Treker_Green">
-        <cargo preset="toolsgeneral" />
-        <cargo preset="ammocivil" />
+		<cargo preset="foodVillage" />
+		<cargo preset="mixVillage" />
 	</type>
 	<type name="Spur_Treker_Red">
-        <cargo preset="toolsgeneral" />
-        <cargo preset="ammocivil" />
+		<cargo preset="foodVillage" />
+		<cargo preset="mixVillage" />
 	</type>
 	<type name="Spur_Treker_Black">
-        <cargo preset="toolsgeneral" />
-        <cargo preset="ammocivil" />
+		<cargo preset="foodVillage" />
+		<cargo preset="mixVillage" />
 	</type>
 	<type name="Spur_Treker_Blue">
-        <cargo preset="toolsgeneral" />
-        <cargo preset="ammocivil" />
+		<cargo preset="foodVillage" />
+		<cargo preset="mixVillage" />
 	</type>
 	<type name="Spur_CamelBag_Black">
 		<attachments chance="1.00">
@@ -155,8 +149,8 @@
 			<item name="Spur_KnifeSheath_Black" 	chance="0.15" />
 			<item name="PlateCarrierHolster_Spur_Black" 	chance="0.20" />
 		</attachments>
-        <cargo preset="toolsmilitary" />
-        <cargo preset="ammomilitary" />
+		<cargo preset="foodArmy" />
+		<cargo preset="mixArmy" />
 	</type>
 	<type name="Spur_CamelBag_Green">
 		<attachments chance="1.00">
@@ -169,8 +163,8 @@
 			<item name="Spur_KnifeSheath_Green" 	chance="0.15" />
 			<item name="PlateCarrierHolster_Spur_Green" 	chance="0.20" />
 		</attachments>
-        <cargo preset="toolsmilitary" />
-        <cargo preset="ammomilitary" />
+		<cargo preset="foodArmy" />
+		<cargo preset="mixArmy" />
 	</type>
 	<type name="Spur_CamelBag_Tan">
 		<attachments chance="1.00">
@@ -183,8 +177,8 @@
 			<item name="Spur_KnifeSheath_Tan" 	chance="0.15" />
 			<item name="PlateCarrierHolster_Spur_Tan" 	chance="0.20" />
 		</attachments>
-        <cargo preset="toolsmilitary" />
-        <cargo preset="ammomilitary" />
+		<cargo preset="foodArmy" />
+		<cargo preset="mixArmy" />
 	</type>
 	<type name="Spur_CamelBag_WoodlandCamo">
 		<attachments chance="1.00">
@@ -197,8 +191,8 @@
 			<item name="Spur_KnifeSheath_Green" 	chance="0.15" />
 			<item name="PlateCarrierHolster_Spur_WoodlandCamo" 	chance="0.20" />
 		</attachments>
-        <cargo preset="toolsmilitary" />
-        <cargo preset="ammomilitary" />
+		<cargo preset="foodArmy" />
+		<cargo preset="mixArmy" />
 	</type>
 	<type name="Spur_CamelBag_MultiCamo">
 		<attachments chance="1.00">
@@ -211,8 +205,8 @@
 			<item name="Spur_KnifeSheath_Green" 	chance="0.15" />
 			<item name="PlateCarrierHolster_Spur_MultiCamo" 	chance="0.20" />
 		</attachments>
-        <cargo preset="toolsmilitary" />
-        <cargo preset="ammomilitary" />
+		<cargo preset="foodArmy" />
+		<cargo preset="mixArmy" />
 	</type>
 	<type name="Spur_CamelBag_WinterCamo">
 		<attachments chance="1.00">
@@ -225,25 +219,25 @@
 			<item name="Spur_KnifeSheath_Green" 	chance="0.15" />
 			<item name="PlateCarrierHolster_Spur_WinterCamo" 	chance="0.20" />
 		</attachments>
-        <cargo preset="toolsmilitary" />
-        <cargo preset="ammomilitary" />
+		<cargo preset="foodArmy" />
+		<cargo preset="mixArmy" />
 	</type>
 	<type name="SmershBag_Spur_Green">
-		<cargo preset="toolsmilitary" />
+		<cargo preset="mixArmy" />
 	</type>
 	<type name="SmershBag_Spur_Black">
-		<cargo preset="toolsmilitary" />
+		<cargo preset="mixArmy" />
 	</type>
 	<type name="SmershBag_Spur_Tan">
-		<cargo preset="toolsmilitary" />
+		<cargo preset="mixArmy" />
 	</type>
 	<type name="SmershBag_Spur_WoodlandCamo">
-		<cargo preset="toolsmilitary" />
+		<cargo preset="mixArmy" />
 	</type>
 	<type name="SmershBag_Spur_MultiCamo">
-		<cargo preset="toolsmilitary" />
+		<cargo preset="mixArmy" />
 	</type>
 	<type name="SmershBag_Spur_WinterCamo">
-		<cargo preset="toolsmilitary" />
+		<cargo preset="mixArmy" />
 	</type>
 </spawnabletypes>

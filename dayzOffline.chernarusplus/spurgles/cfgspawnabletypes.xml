@@ -43,7 +43,6 @@
 			<item name="Chemlight_White" 	chance="0.05" />
 			<item name="Chemlight_yellow" 	chance="0.05" />
 			<item name="Canteen_Spur_Black" 	chance="0.15" />
-			<item name="Spur_KnifeSheath_Black" 	chance="0.10" />
 			<item name="PlateCarrierHolster_Spur_Black" 	chance="0.10" />
 		</attachments>
 		<cargo preset="foodArmy" />
@@ -58,7 +57,6 @@
 			<item name="Chemlight_White" 	chance="0.05" />
 			<item name="Chemlight_yellow" 	chance="0.05" />
 			<item name="Canteen_Spur_Green" 	chance="0.15" />
-			<item name="Spur_KnifeSheath_Green" 	chance="0.10" />
 			<item name="PlateCarrierHolster_Spur_Green" 	chance="0.10" />
 		</attachments>
 		<cargo preset="foodArmy" />
@@ -73,7 +71,6 @@
 			<item name="Chemlight_White" 	chance="0.05" />
 			<item name="Chemlight_yellow" 	chance="0.05" />
 			<item name="Canteen_Spur_Tan" 	chance="0.15" />
-			<item name="Spur_KnifeSheath_Tan" 	chance="0.10" />
 			<item name="PlateCarrierHolster_Spur_Tan" 	chance="0.10" />
 		</attachments>
 		<cargo preset="foodArmy" />
@@ -88,7 +85,6 @@
 			<item name="Chemlight_White" 	chance="0.05" />
 			<item name="Chemlight_yellow" 	chance="0.05" />
 			<item name="Canteen_Spur_WoodlandCamo" 	chance="0.15" />
-			<item name="Spur_KnifeSheath_Green" 	chance="0.10" />
 			<item name="PlateCarrierHolster_Spur_WoodlandCamo" 	chance="0.10" />
 		</attachments>
 		<cargo preset="foodArmy" />
@@ -103,7 +99,6 @@
 			<item name="Chemlight_White" 	chance="0.05" />
 			<item name="Chemlight_yellow" 	chance="0.05" />
 			<item name="Canteen_Spur_MultiCamo" 	chance="0.15" />
-			<item name="Spur_KnifeSheath_Green" 	chance="0.10" />
 			<item name="PlateCarrierHolster_Spur_MultiCamo" 	chance="0.10" />
 		</attachments>
 		<cargo preset="foodArmy" />
@@ -118,7 +113,6 @@
 			<item name="Chemlight_White" 	chance="0.05" />
 			<item name="Chemlight_yellow" 	chance="0.05" />
 			<item name="Canteen_Spur_WinterCamo" 	chance="0.15" />
-			<item name="Spur_KnifeSheath_Green" 	chance="0.10" />
 			<item name="PlateCarrierHolster_Spur_WinterCamo" 	chance="0.10" />
 		</attachments>
 		<cargo preset="foodArmy" />
@@ -226,6 +220,24 @@
 			<item name="PlateCarrierHolster_Spur_WinterCamo" 	chance="0.20" />
 		</attachments>
 		<cargo preset="foodArmy" />
+		<cargo preset="mixArmy" />
+	</type>
+	<type name="SmershBag_Spur_Green">
+		<cargo preset="mixArmy" />
+	</type>
+	<type name="SmershBag_Spur_Black">
+		<cargo preset="mixArmy" />
+	</type>
+	<type name="SmershBag_Spur_Tan">
+		<cargo preset="mixArmy" />
+	</type>
+	<type name="SmershBag_Spur_WoodlandCamo">
+		<cargo preset="mixArmy" />
+	</type>
+	<type name="SmershBag_Spur_MultiCamo">
+		<cargo preset="mixArmy" />
+	</type>
+	<type name="SmershBag_Spur_WinterCamo">
 		<cargo preset="mixArmy" />
 	</type>
 </spawnabletypes>
