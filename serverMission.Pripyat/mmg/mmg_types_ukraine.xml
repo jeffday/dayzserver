@@ -4,10 +4,10 @@
 
 <types>
     <type name="MMG_JPC_Vest_ukraine">
-        <nominal>5</nominal>
+        <nominal>8</nominal>
         <lifetime>7200</lifetime>
         <restock>7200</restock>
-        <min>1</min>
+        <min>3</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -18,10 +18,10 @@
         <value name="Tier4"/>
     </type>
     <type name="MMG_tt_Vest_ukraine">
-        <nominal>5</nominal>
+        <nominal>6</nominal>
         <lifetime>7200</lifetime>
         <restock>7200</restock>
-        <min>1</min>
+        <min>2</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -32,10 +32,10 @@
         <value name="Tier4"/>
     </type>
 	<type name="MMG_chestrig_ukraine">
-        <nominal>5</nominal>
+        <nominal>10</nominal>
         <lifetime>7200</lifetime>
         <restock>7200</restock>
-        <min>1</min>
+        <min>4</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -47,7 +47,7 @@
         <value name="Tier4"/>
     </type>
     <type name="MMG_MK_III_Armor_ukraine">
-        <nominal>5</nominal>
+        <nominal>4</nominal>
         <lifetime>7200</lifetime>
         <restock>7200</restock>
         <min>1</min>
@@ -77,10 +77,10 @@
 <!--POUCHES-->
 
     <type name="MMG_Mag_Pouch_ukraine">
-        <nominal>5</nominal>
+        <nominal>8</nominal>
         <lifetime>7200</lifetime>
         <restock>7200</restock>
-        <min>1</min>
+        <min>2</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -91,10 +91,10 @@
         <value name="Tier4"/>
     </type>
 	 <type name="MMG_triple_magpouch_ukraine">
-        <nominal>5</nominal>
+        <nominal>8</nominal>
         <lifetime>7200</lifetime>
         <restock>7200</restock>
-        <min>1</min>
+        <min>2</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -105,10 +105,10 @@
         <value name="Tier4"/>
     </type>
     <type name="MMG_double_magpouch_ukraine">
-        <nominal>5</nominal>
+        <nominal>8</nominal>
         <lifetime>7200</lifetime>
         <restock>7200</restock>
-        <min>1</min>
+        <min>2</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -119,10 +119,10 @@
         <value name="Tier4"/>
     </type>
     <type name="MMG_Med_Pouch_ukraine">
-        <nominal>5</nominal>
+        <nominal>10</nominal>
         <lifetime>7200</lifetime>
         <restock>7200</restock>
-        <min>1</min>
+        <min>4</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -133,10 +133,10 @@
         <value name="Tier4"/>
     </type>
     <type name="MMG_ammo_pouch_ukraine">
-        <nominal>5</nominal>
+        <nominal>8</nominal>
         <lifetime>7200</lifetime>
         <restock>7200</restock>
-        <min>1</min>
+        <min>2</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -147,10 +147,10 @@
         <value name="Tier4"/>
     </type>
     <type name="MMG_tactical_pouch_ukraine">
-        <nominal>5</nominal>
+        <nominal>8</nominal>
         <lifetime>7200</lifetime>
         <restock>7200</restock>
-        <min>1</min>
+        <min>2</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -245,10 +245,10 @@
 <!--BELTS-->
 
     <type name="MMG_falcon_b1_belt_ukraine">
-        <nominal>5</nominal>
+        <nominal>6</nominal>
         <lifetime>7200</lifetime>
         <restock>7200</restock>
-        <min>1</min>
+        <min>2</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -293,10 +293,10 @@
 <!--ITEMS-->
 
     <type name="MMG_sheath_ukraine">
-        <nominal>5</nominal>
+        <nominal>8</nominal>
         <lifetime>7200</lifetime>
         <restock>7200</restock>
-        <min>1</min>
+        <min>2</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -305,10 +305,10 @@
         <usage name="Military"/>
     </type>
     <type name="MMG_bottle_ukraine">
-        <nominal>5</nominal>
+        <nominal>8</nominal>
         <lifetime>7200</lifetime>
         <restock>7200</restock>
-        <min>1</min>
+        <min>2</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -317,10 +317,10 @@
         <usage name="Military"/>
     </type>
      <type name="MMG_Holster_ukraine">
-        <nominal>5</nominal>
+        <nominal>8</nominal>
         <lifetime>7200</lifetime>
         <restock>7200</restock>
-        <min>1</min>
+        <min>2</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -332,10 +332,10 @@
 <!--CLOTHING-->
 
     <type name="MMG_operatorshirt_ukraine">
-        <nominal>2</nominal>
+        <nominal>3</nominal>
         <lifetime>7200</lifetime>
         <restock>7200</restock>
-        <min>1</min>
+        <min>2</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -346,10 +346,10 @@
         <value name="Tier4"/>
     </type>
     <type name="MMG_tactical_shirt_ukraine">
-        <nominal>5</nominal>
+        <nominal>8</nominal>
         <lifetime>7200</lifetime>
         <restock>7200</restock>
-        <min>1</min>
+        <min>2</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -360,10 +360,10 @@
         <value name="Tier4"/>
     </type>
     <type name="MMG_combatshirt_ukraine">
-        <nominal>5</nominal>
+        <nominal>8</nominal>
         <lifetime>7200</lifetime>
         <restock>7200</restock>
-        <min>1</min>
+        <min>2</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -374,10 +374,10 @@
         <value name="Tier4"/>
     </type>
     <type name="MMG_combatpants_ukraine">
-        <nominal>5</nominal>
+        <nominal>8</nominal>
         <lifetime>7200</lifetime>
         <restock>7200</restock>
-        <min>1</min>
+        <min>2</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -388,10 +388,10 @@
         <value name="Tier4"/>
     </type>
     <type name="mmg_tactical_gloves_ukraine">
-        <nominal>5</nominal>
+        <nominal>8</nominal>
         <lifetime>7200</lifetime>
         <restock>7200</restock>
-        <min>1</min>
+        <min>3</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -403,7 +403,7 @@
         <nominal>5</nominal>
         <lifetime>7200</lifetime>
         <restock>7200</restock>
-        <min>1</min>
+        <min>2</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -415,7 +415,7 @@
         <nominal>5</nominal>
         <lifetime>7200</lifetime>
         <restock>7200</restock>
-        <min>1</min>
+        <min>2</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -427,7 +427,7 @@
         <nominal>5</nominal>
         <lifetime>7200</lifetime>
         <restock>7200</restock>
-        <min>1</min>
+        <min>2</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -436,7 +436,7 @@
         <usage name="Military"/>
     </type>
 	<type name="mmg_boonie_ukraine">
-        <nominal>5</nominal>
+        <nominal>4</nominal>
         <lifetime>7200</lifetime>
         <restock>7200</restock>
         <min>1</min>
