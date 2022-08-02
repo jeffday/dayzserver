@@ -31,7 +31,8 @@
         <value name="Tier3"/>
         <value name="Tier4"/>
     </type>
-	<type name="MMG_chestrig_sweden">
+    <!-- this doesn't exist so comment it out to avoid log noise -->
+	<!-- <type name="MMG_chestrig_sweden">
         <nominal>0</nominal>
         <lifetime>7200</lifetime>
         <restock>7200</restock>
@@ -45,7 +46,7 @@
 		<value name="Tier2"/>
         <value name="Tier3"/>
         <value name="Tier4"/>
-    </type>
+    </type> -->
     <type name="MMG_MK_III_Armor_sweden">
         <nominal>0</nominal>
         <lifetime>7200</lifetime>
@@ -266,8 +267,8 @@
     </type>
 
 <!--HELMETS-->
-
-    <type name="MMG_tactical_helmet_sweden">
+    <!-- this doesn't exist so comment it out to avoid log noise -->
+    <!-- <type name="MMG_tactical_helmet_sweden">
         <nominal>0</nominal>
         <lifetime>7200</lifetime>
         <restock>7200</restock>
@@ -280,7 +281,7 @@
         <usage name="Military"/>
         <value name="Tier3"/>
         <value name="Tier4"/>
-    </type>
+    </type> -->
     <type name="MMG_striker_helmet_sweden">
         <nominal>0</nominal>
         <lifetime>7200</lifetime>
