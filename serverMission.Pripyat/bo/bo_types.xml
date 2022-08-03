@@ -387,7 +387,7 @@
         <value name="Tier4" />
     </type>
     <type name="BO_BarrettM82Suppressor">
-        <nominal>0</nominal>
+        <nominal>1</nominal>
         <lifetime>7200</lifetime>
         <restock>300</restock>
         <min>0</min>
@@ -1303,7 +1303,7 @@
         <value name="Tier4"/>
     </type>
     <type name="BO_M82A1">
-		<nominal>0</nominal>
+		<nominal>1</nominal>
 		<lifetime>10800</lifetime>
 		<restock>1800</restock>
 		<min>0</min>
@@ -1316,10 +1316,10 @@
         <value name="Tier4"/>
     </type>
     <type name="BO_Mag_M82A1_10rnd">
-        <nominal>0</nominal>
+        <nominal>2</nominal>
         <lifetime>7200</lifetime>
         <restock>1800</restock>
-        <min>0</min>
+        <min>1</min>
         <quantmin>10</quantmin>
         <quantmax>80</quantmax>
         <cost>100</cost>
@@ -1381,10 +1381,10 @@
         <value name="Tier4"/>
     </type>
     <type name="BO_Kar98K">
-        <nominal>30</nominal>
+        <nominal>20</nominal>
         <lifetime>28800</lifetime>
         <restock>0</restock>
-        <min>20</min>
+        <min>10</min>
         <quantmin>0</quantmin>
         <quantmax>80</quantmax>
         <cost>100</cost>
@@ -1685,10 +1685,10 @@
 
 <!-- Added 1.05 -->
     <type name="BO_F2000">
-		<nominal>1</nominal>
+		<nominal>3</nominal>
 		<lifetime>10800</lifetime>
 		<restock>7200</restock>
-		<min>1</min>
+		<min>2</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
@@ -1699,7 +1699,7 @@
 		<value name="Tier3" />
     </type>
     <type name="BO_L85">
-		<nominal>1</nominal>
+		<nominal>2</nominal>
 		<lifetime>10800</lifetime>
 		<restock>7200</restock>
 		<min>1</min>
@@ -1751,31 +1751,29 @@
         <usage name="Military"/>
     </type>
     <type name="BO_Groza_9x39">
-        <nominal>0</nominal>
-        <lifetime>7200</lifetime>
-        <restock>300</restock>
-        <min>0</min>
+        <nominal>1</nominal>
+        <lifetime>28800</lifetime>
+        <restock>3600</restock>
+        <min>1</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="weapons"/>
-        <usage name="Military"/>
-        <value name="Tier4" />
+        <usage name="ContaminatedArea"/>
     </type>
     <type name="BO_Mag_Groza_20rnd">
-        <nominal>0</nominal>
-        <lifetime>7200</lifetime>
-        <restock>300</restock>
-        <min>0</min>
-        <quantmin>5</quantmin>
-        <quantmax>50</quantmax>
+        <nominal>3</nominal>
+        <lifetime>28800</lifetime>
+        <restock>3600</restock>
+        <min>2</min>
+        <quantmin>10</quantmin>
+        <quantmax>100</quantmax>
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="weapons"/>
         <usage name="Military"/>
-        <value name="Tier3" />
-        <value name="Tier4" />
+        <value name="Tier4"/>
     </type>
     <type name="BO_Groza_762">
         <nominal>1</nominal>
@@ -2141,28 +2139,32 @@
         <value name="Tier1"/>
     </type>
     <type name="BO_EVO3A1">
-        <nominal>2</nominal>
+        <nominal>5</nominal>
         <lifetime>7200</lifetime>
         <restock>300</restock>
-        <min>1</min>
+        <min>2</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="weapons"/>
         <usage name="Military"/>
+        <value name="Tier1"/>
+        <value name="Tier2"/>
     </type>
     <type name="BO_Mag_EVO_30rnd">
-        <nominal>3</nominal>
+        <nominal>6</nominal>
         <lifetime>7200</lifetime>
         <restock>300</restock>
-        <min>2</min>
+        <min>3</min>
         <quantmin>5</quantmin>
         <quantmax>50</quantmax>
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="weapons"/>
         <usage name="Military"/>
+        <value name="Tier1"/>
+        <value name="Tier2"/>
     </type>
     <type name="BO_MP5SDA2">
         <nominal>3</nominal>
