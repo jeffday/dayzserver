@@ -34,6 +34,12 @@ void main()
 
 class CustomMission: MissionServer
 {
+    void spawnItemsOnPlayer(PlayerBase player, TStringArray items) {
+        for(int i = 0; i < items.Count(); i++) {
+             player.GetInventory().CreateInInventory(items[i]);
+        }
+    }
+
 	void SetRandomHealth(EntityAI itemEnt)
 	{
 		if ( itemEnt )
@@ -54,6 +60,12 @@ class CustomMission: MissionServer
 		return m_player;
 	}
 
+    void SpawnJeffSetup(PlayerBase player) {
+        autoptr TStringArray clothes = {"beanie_blackred","ThickFramesGlasses","Hoodie_Sport1","SlacksPants_Khaki","SK8_Sneakers_Black"};
+
+        spawnItemsOnPlayer(player, clothes);
+    }
+
 	override void StartingEquipSetup(PlayerBase player, bool clothesChosen)
 	{
 		EntityAI itemClothing;
@@ -64,33 +76,13 @@ class CustomMission: MissionServer
 		itemClothing = player.FindAttachmentBySlotName( "Body" );
 		if ( itemClothing )
 		{
-			SetRandomHealth( itemClothing );
+			player.RemoveAllItems();
+            
+            SpawnJeffSetup(player);
 			
-			itemEnt = itemClothing.GetInventory().CreateInInventory( "BandageDressing" );
-			if ( Class.CastTo( itemBs, itemEnt ) )
-				itemBs.SetQuantity( 2 );
-
-			string chemlightArray[] = { "Chemlight_White", "Chemlight_Yellow", "Chemlight_Green", "Chemlight_Red" };
-			int rndIndex = Math.RandomInt( 0, 4 );
-			itemEnt = itemClothing.GetInventory().CreateInInventory( chemlightArray[rndIndex] );
-			SetRandomHealth( itemEnt );
-
-			rand = Math.RandomFloatInclusive( 0.0, 1.0 );
-			if ( rand < 0.35 )
-				itemEnt = player.GetInventory().CreateInInventory( "Apple" );
-			else if ( rand > 0.65 )
-				itemEnt = player.GetInventory().CreateInInventory( "Pear" );
-			else
-				itemEnt = player.GetInventory().CreateInInventory( "Plum" );
-
-			SetRandomHealth( itemEnt );
+            itemEnt = player.GetInventory().CreateInInventory( "BandageDressing" );
+            itemEnt = player.GetInventory().CreateInInventory( "TunaCan" );
 		}
-		
-		itemClothing = player.FindAttachmentBySlotName( "Legs" );
-		if ( itemClothing )
-			SetRandomHealth( itemClothing );
-		
-		itemClothing = player.FindAttachmentBySlotName( "Feet" );
 	}
 };
 
