@@ -3,6 +3,7 @@
 <!-- Start Weapon Expansion cfgspawnabletypes.xml -->
 <!-- Pistols -->
 <spawnabletypes>
+	<damage min="0.2" max="0.6" />
     <type name="WE_DesertEagle">
 		<attachments chance="0.10">
 			<item name="WE_Mag_Deagle_7rnd" chance="1.00" />
