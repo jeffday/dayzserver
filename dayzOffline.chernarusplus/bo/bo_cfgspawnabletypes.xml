@@ -842,4 +842,15 @@
 			<item name="BO_Mag_USAS12_20rnd" chance="0.2" />
 		</attachments>
 	</type>
+	<!-- stuff that was missing -->
+	<type name="BO_Springfield1903">
+		<attachments chance="0.30">
+			<item name="M1903Optic" chance="1.00" />
+		</attachments>
+	</type>
+	<type name="BO_Kar98K">
+		<attachments chance="0.30">
+			<item name="HuntingOptic" chance="1.00" />
+		</attachments>
+	</type>
 </spawnabletypes>
