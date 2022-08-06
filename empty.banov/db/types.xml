@@ -491,10 +491,10 @@
         <category name="weapons"/>
     </type>
     <type name="ASVAL">
-        <nominal>0</nominal>
+        <nominal>1</nominal>
         <lifetime>28800</lifetime>
         <restock>3600</restock>
-        <min>0</min>
+        <min>1</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -9308,10 +9308,10 @@
         <value name="Tier1"/>
     </type>
     <type name="Izh43Shotgun">
-        <nominal>50</nominal>
+        <nominal>25</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
-        <min>40</min>
+        <min>20</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -11081,10 +11081,10 @@
         <usage name="Police"/>
     </type>
     <type name="Mag_IJ70_8Rnd">
-        <nominal>0</nominal>
+        <nominal>70</nominal>
         <lifetime>28800</lifetime>
         <restock>0</restock>
-        <min>0</min>
+        <min>50</min>
         <quantmin>10</quantmin>
         <quantmax>100</quantmax>
         <cost>100</cost>
@@ -11336,10 +11336,10 @@
         <usage name="Town"/>
     </type>
     <type name="MakarovIJ70">
-        <nominal>0</nominal>
+        <nominal>80</nominal>
         <lifetime>28800</lifetime>
         <restock>0</restock>
-        <min>0</min>
+        <min>60</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>

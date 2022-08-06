@@ -828,6 +828,10 @@
 		<attachments chance="0.10">
 			<item name="Mag_SVD_10Rnd" chance="1.00" />
 		</attachments>
+		<attachments chance="0.50">
+			<item name="KashtanOptic" chance="0.50" />
+			<item name="PSO11Optic" chance="0.30" />
+		</attachments>
 	</type>
 	<type name="BO_TKB0146">
 		<attachments chance="0.60">
@@ -838,6 +842,17 @@
 		<attachments chance="0.30">
 			<item name="BO_Mag_USAS12_10rnd" chance="0.8" />
 			<item name="BO_Mag_USAS12_20rnd" chance="0.2" />
+		</attachments>
+	</type>
+	<!-- stuff that was missing -->
+	<type name="BO_Springfield1903">
+		<attachments chance="0.30">
+			<item name="M1903Optic" chance="1.00" />
+		</attachments>
+	</type>
+	<type name="BO_Kar98K">
+		<attachments chance="0.30">
+			<item name="HuntingOptic" chance="1.00" />
 		</attachments>
 	</type>
 </spawnabletypes>

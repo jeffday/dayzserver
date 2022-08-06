@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<spawnabletypes>
+    <damage min="0.3" max="0.7" />
+ 	<type name="FirstAidKit_Toxic">
+		<attachments>
+			<item name="GasMask_Filter" />
+		</attachments>
+		<attachments>
+			<item name="AirborneMask" />
+		</attachments>
+	</type>
+</spawnabletypes>
