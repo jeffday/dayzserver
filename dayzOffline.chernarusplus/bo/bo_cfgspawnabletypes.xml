@@ -112,6 +112,7 @@
 		<attachments chance="0.50">
 			<item name="BO_Mag_PMAG_30rnd" chance="1.00" />
 		</attachments>
+		<attachments preset="ar_optics" />
 		<attachments chance="0.20">
 			<item name="BO_LegionSuppressor_Black" chance="1.00" />
 		</attachments>
@@ -120,6 +121,7 @@
 		<attachments chance="0.50">
 			<item name="BO_Mag_PMAG_Tan_30rnd" chance="1.00" />
 		</attachments>
+		<attachments preset="ar_optics" />
 		<attachments chance="0.20">
 			<item name="BO_LegionSuppressor_Tan" chance="1.00" />
 		</attachments>
@@ -128,6 +130,7 @@
 		<attachments chance="0.50">
 			<item name="BO_Mag_PMAG_Green_30rnd" chance="1.00" />
 		</attachments>
+		<attachments preset="ar_optics" />
 		<attachments chance="0.20">
 			<item name="BO_LegionSuppressor" chance="1.00" />
 		</attachments>
@@ -830,6 +833,10 @@
 		<attachments chance="0.10">
 			<item name="Mag_SVD_10Rnd" chance="1.00" />
 		</attachments>
+		<attachments chance="0.50">
+			<item name="KashtanOptic" chance="0.50" />
+			<item name="PSO11Optic" chance="0.30" />
+		</attachments>
 	</type>
 	<type name="BO_TKB0146">
 		<attachments chance="0.60">
@@ -837,6 +844,7 @@
 		</attachments>
 	</type>
 	<type name="BO_USAS12">
+		<attachments preset="close_range_optics" />
 		<attachments chance="0.30">
 			<item name="BO_Mag_USAS12_10rnd" chance="0.8" />
 			<item name="BO_Mag_USAS12_20rnd" chance="0.2" />
@@ -851,6 +859,15 @@
 	<type name="BO_Kar98K">
 		<attachments chance="0.30">
 			<item name="HuntingOptic" chance="1.00" />
+		</attachments>
+	</type>
+	<type name="BO_PDWR_556">
+		<attachments chance="0.50">
+			<item name="BO_Mag_PMAG_30rnd" chance="1.00" />
+		</attachments>
+		<attachments preset="ar_optics" />
+		<attachments chance="0.20">
+			<item name="BO_LegionSuppressor_Black" chance="1.00" />
 		</attachments>
 	</type>
 </spawnabletypes>
