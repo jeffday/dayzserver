@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
 <spawnabletypes>
-    <damage min="0.3" max="0.7" />
 
     <type name="AMS_FirstAidKit">
         <tag name="shelves" />
@@ -77,5 +76,18 @@
     <type name="AMS_POX">
     </type>
     <type name="AMS_GasMaskGP21">
+        <attachement chance="0.2">
+            <item name="AMS_GasMaskGP21_Filter" />
+        </attachement>
+    </type>
+    <type name="AMS_GasMaskGP21_Filter">
+    </type>
+        <type name="AMS_GasMaskGP7B">
+        <attachement chance="0.2">
+            <item name="AMS_GasMaskGP7B_Filter" />
+        </attachement>
+    </type>
+    <type name="AMS_GasMaskGP7B_Filter">
+    </type>
     </type>
 </spawnabletypes>
