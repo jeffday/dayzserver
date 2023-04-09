@@ -647,7 +647,7 @@
         <usage name="Military"/>
     </type>
 	<type name="WE_M24A3"> <!-- using the one from morty's -->
-        <nominal>1</nominal>
+        <nominal>0</nominal>
         <lifetime>28800</lifetime>
         <restock>0</restock>
         <min>0</min>
@@ -926,10 +926,10 @@
         <value name="Tier4"/>
     </type>
     <type name="WE_Mag_M24A3_5Rnd">
-        <nominal>3</nominal>
+        <nominal>0</nominal>
         <lifetime>28800</lifetime>
         <restock>3600</restock>
-        <min>2</min>
+        <min>0</min>
         <quantmin>10</quantmin>
         <quantmax>100</quantmax>
         <cost>1000</cost>
