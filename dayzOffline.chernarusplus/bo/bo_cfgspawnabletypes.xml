@@ -13,7 +13,7 @@
 		<attachments chance="0.50">
 			<item name="BO_Mag_PMAG_30rnd" chance="1.00" />
 		</attachments>
-		<attachments chance="0.20">
+		<attachments chance="0.10">
 			<item name="BO_LegionSuppressor_Black" chance="1.00" />
 		</attachments>
 		<attachments chance="0.60">
@@ -24,7 +24,7 @@
 		<attachments chance="0.50">
 			<item name="BO_Mag_PMAG_30rnd" chance="1.00" />
 		</attachments>
-		<attachments chance="0.20">
+		<attachments chance="0.10">
 			<item name="BO_LegionSuppressor_Black" chance="1.00" />
 		</attachments>
 		<attachments chance="0.60">
@@ -71,7 +71,7 @@
 			<item name="BO_Mag_SA58_20rnd" chance="1.00" />
 		</attachments>
 		<attachments preset="dmr_optics" />
-		<attachments chance="0.20">
+		<attachments chance="0.10">
 			<item name="BO_CorduraSuppressor_Black" chance="1.00" />
 		</attachments>
 		<attachments chance="1.00">
@@ -112,7 +112,7 @@
 			<item name="BO_Mag_PMAG_30rnd" chance="1.00" />
 		</attachments>
 		<attachments preset="ar_optics" />
-		<attachments chance="0.20">
+		<attachments chance="0.10">
 			<item name="BO_LegionSuppressor_Black" chance="1.00" />
 		</attachments>
 	</type>
@@ -121,7 +121,7 @@
 			<item name="BO_Mag_PMAG_Tan_30rnd" chance="1.00" />
 		</attachments>
 		<attachments preset="ar_optics" />
-		<attachments chance="0.20">
+		<attachments chance="0.10">
 			<item name="BO_LegionSuppressor_Tan" chance="1.00" />
 		</attachments>
 	</type>
@@ -130,7 +130,7 @@
 			<item name="BO_Mag_PMAG_Green_30rnd" chance="1.00" />
 		</attachments>
 		<attachments preset="ar_optics" />
-		<attachments chance="0.20">
+		<attachments chance="0.10">
 			<item name="BO_LegionSuppressor" chance="1.00" />
 		</attachments>
 	</type>
@@ -142,7 +142,7 @@
 		</attachments>
 	</type>
 	<type name="BO_AR15">
-		<attachments chance="0.20">
+		<attachments chance="0.10">
 			<item name="BO_LegionSuppressor_Black" chance="1.00" />
 		</attachments>
 		<attachments preset="ar_optics" />
@@ -156,7 +156,7 @@
 		</attachments>
 	</type>
 	<type name="BO_FNFAL">
-		<attachments chance="0.20">
+		<attachments chance="0.10">
 			<item name="BO_CorduraSuppressor_Black" chance="1.00" />
 		</attachments>
 		<attachments preset="dmr_optics" />
@@ -166,7 +166,7 @@
 		</attachments>
 	</type>
 	<type name="BO_M110_Tan">
-		<attachments chance="0.20">
+		<attachments chance="0.10">
 			<item name="BO_CorduraSuppressor" chance="1.00" />
 		</attachments>
 		<attachments preset="dmr_optics" />
@@ -175,7 +175,7 @@
 		</attachments>
 	</type>
 	<type name="BO_HK416">
-		<attachments chance="0.20">
+		<attachments chance="0.10">
 			<item name="BO_LegionSuppressor_Black" chance="1.00" />
 		</attachments>
 		<attachments preset="ar_optics" />
@@ -185,7 +185,7 @@
 	</type>
 	<type name="BO_MK18">
 		<attachments preset="ar_optics" />
-		<attachments chance="0.20">
+		<attachments chance="0.10">
 			<item name="BO_LegionSuppressor_Black" chance="1.00" />
 		</attachments>
 		<attachments chance="0.50">
@@ -204,7 +204,7 @@
 	</type>
 	<type name="BO_SCARL_Black">
 		<attachments preset="ar_optics" />
-		<attachments chance="0.20">
+		<attachments chance="0.10">
 			<item name="BO_LegionSuppressor_Black" chance="1.00" />
 		</attachments>
 		<attachments chance="0.50">
@@ -213,7 +213,7 @@
 	</type>
 	<type name="BO_SCARL_Tan">
 		<attachments preset="ar_optics" />
-		<attachments chance="0.20">
+		<attachments chance="0.10">
 			<item name="BO_LegionSuppressor_Tan" chance="1.00" />
 		</attachments>
 		<attachments chance="0.50">
@@ -221,7 +221,7 @@
 		</attachments>
 	</type>
 	<type name="BO_SCARH">
-		<attachments chance="0.20">
+		<attachments chance="0.10">
 			<item name="BO_CorduraSuppressor_Black" chance="1.00" />
 		</attachments>
 		<attachments preset="dmr_optics" />
@@ -230,7 +230,7 @@
 		</attachments>
 	</type>
 	<type name="BO_SCARH_Tan">
-		<attachments chance="0.20">
+		<attachments chance="0.10">
 			<item name="BO_CorduraSuppressor" chance="1.00" />
 		</attachments>
 		<attachments preset="dmr_optics" />
@@ -240,7 +240,7 @@
 	</type>
 	<type name="BO_SIG552">
 		<attachments preset="ar_optics" />
-		<attachments chance="0.20">
+		<attachments chance="0.10">
 			<item name="BO_LegionSuppressor_Black" chance="1.00" />
 		</attachments>
 		<attachments chance="0.60">
@@ -351,7 +351,7 @@
 	<!-- Added on 1.05 -->
 	<type name="BO_F2000">
 		<attachments preset="ar_optics" />
-		<attachments chance="0.20">
+		<attachments chance="0.10">
 			<item name="BO_LegionSuppressor_Black" chance="1.00" />
 		</attachments>
 		<attachments chance="0.50">
@@ -360,7 +360,7 @@
 	</type>
 	<type name="BO_L85">
 		<attachments preset="ar_optics" />
-		<attachments chance="0.20">
+		<attachments chance="0.10">
 			<item name="BO_LegionSuppressor_Black" chance="1.00" />
 		</attachments>
 		<attachments chance="0.50">
@@ -369,7 +369,7 @@
 	</type>
 	<type name="BO_L85_RIS">
 		<attachments preset="ar_optics" />
-		<attachments chance="0.20">
+		<attachments chance="0.10">
 			<item name="BO_LegionSuppressor_Black" chance="1.00" />
 		</attachments>
 		<attachments chance="0.50">
@@ -377,7 +377,7 @@
 		</attachments>
 	</type>
 	<type name="BO_Stoner63A">
-		<attachments chance="0.20">
+		<attachments chance="0.10">
 			<item name="BO_LegionSuppressor_Black" chance="1.00" />
 		</attachments>
 		<attachments chance="0.50">
@@ -542,7 +542,7 @@
 	</type>
 	<type name="BO_M4_15G">
 		<attachments preset="ar_optics" />
-		<attachments chance="0.20">
+		<attachments chance="0.10">
 			<item name="BO_LegionSuppressor_Black" chance="1.00" />
 		</attachments>
 		<attachments chance="0.50">
@@ -551,7 +551,7 @@
 	</type>
 	<type name="BO_M4_15G_FDE">
 		<attachments preset="ar_optics" />
-		<attachments chance="0.20">
+		<attachments chance="0.10">
 			<item name="BO_LegionSuppressor_Black" chance="1.00" />
 		</attachments>
 		<attachments chance="0.50">
@@ -560,7 +560,7 @@
 	</type>
 	<type name="BO_M4_15G_NoSling">
 		<attachments preset="ar_optics" />
-		<attachments chance="0.20">
+		<attachments chance="0.10">
 			<item name="BO_LegionSuppressor_Black" chance="1.00" />
 		</attachments>
 		<attachments chance="0.50">
@@ -569,7 +569,7 @@
 	</type>
 	<type name="BO_M4_15G_FDE_NoSling">
 		<attachments preset="ar_optics" />
-		<attachments chance="0.20">
+		<attachments chance="0.10">
 			<item name="BO_LegionSuppressor_Black" chance="1.00" />
 		</attachments>
 		<attachments chance="0.50">
@@ -578,7 +578,7 @@
 	</type>
 	<type name="BO_M4A1_CQB">
 		<attachments preset="ar_optics" />
-		<attachments chance="0.20">
+		<attachments chance="0.10">
 			<item name="BO_LegionSuppressor_Black" chance="1.00" />
 		</attachments>
 		<attachments chance="0.50">
@@ -587,7 +587,7 @@
 	</type>
 	<type name="BO_FAMAS">
 		<attachments preset="ar_optics" />
-		<attachments chance="0.20">
+		<attachments chance="0.10">
 			<item name="BO_LegionSuppressor_Black" chance="1.00" />
 		</attachments>
 		<attachments chance="0.60">
@@ -642,7 +642,7 @@
 	</type>
 	<type name="BO_L96">
 		<attachments preset="long_range_scopes" />
-		<attachments chance="0.20">
+		<attachments chance="0.10">
 			<item name="BO_CorduraSuppressor_Green" chance="1.00" />
 		</attachments>
 		<attachments chance="0.60">
@@ -690,7 +690,7 @@
 		</attachments>
 	</type>
 	<type name="BO_M60">
-		<attachments chance="0.20">
+		<attachments chance="0.10">
 			<item name="BO_CorduraSuppressor_Black" chance="1.00" />
 		</attachments>
 		<attachments chance="0.60">
@@ -698,7 +698,7 @@
 		</attachments>
 	</type>
 	<type name="BO_M240B">
-		<attachments chance="0.20">
+		<attachments chance="0.10">
 			<item name="BO_CorduraSuppressor_Black" chance="1.00" />
 		</attachments>
 		<attachments chance="0.60">
@@ -706,7 +706,7 @@
 		</attachments>
 	</type>
 	<type name="BO_U100">
-		<attachments chance="0.20">
+		<attachments chance="0.10">
 			<item name="BO_LegionSuppressor_Black" chance="1.00" />
 		</attachments>
 		<attachments chance="0.60">
@@ -720,7 +720,7 @@
 	</type>
 	<type name="BO_ARX160">
 		<attachments preset="ar_optics" />
-		<attachments chance="0.20">
+		<attachments chance="0.10">
 			<item name="BO_LegionSuppressor_Tan" chance="1.00" />
 		</attachments>
 		<attachments chance="0.50">
@@ -728,7 +728,7 @@
 		</attachments>
 	</type>
 	<type name="BO_G3A3">
-		<attachments chance="0.20">
+		<attachments chance="0.10">
 			<item name="BO_CorduraSuppressor_Black" chance="1.00" />
 		</attachments>
 		<attachments chance="0.60">
@@ -737,7 +737,7 @@
 	</type>
 	<type name="BO_HKG28">
 		<attachments preset="dmr_optics" />
-		<attachments chance="0.20">
+		<attachments chance="0.10">
 			<item name="BO_CorduraSuppressor" chance="1.00" />
 		</attachments>
 		<attachments chance="0.60">
@@ -752,7 +752,7 @@
 	</type>
 	<type name="BO_M16A4">
 		<attachments preset="ar_optics" />
-		<attachments chance="0.20">
+		<attachments chance="0.10">
 			<item name="BO_LegionSuppressor_Black" chance="1.00" />
 		</attachments>
 		<attachments chance="0.50">
@@ -761,7 +761,7 @@
 	</type>
 	<type name="BO_TAR21">
 		<attachments preset="ar_optics" />
-		<attachments chance="0.20">
+		<attachments chance="0.10">
 			<item name="BO_LegionSuppressor_Black" chance="1.00" />
 		</attachments>
 		<attachments chance="0.50">
@@ -861,7 +861,7 @@
 			<item name="BO_Mag_PMAG_30rnd" chance="1.00" />
 		</attachments>
 		<attachments preset="ar_optics" />
-		<attachments chance="0.20">
+		<attachments chance="0.10">
 			<item name="BO_LegionSuppressor_Black" chance="1.00" />
 		</attachments>
 	</type>
@@ -1038,7 +1038,7 @@
 	</type>
 	<type name="BO_TheFix">
 		<attachments preset="long_range_scopes" />
-		<attachments chance="0.20">
+		<attachments chance="0.10">
 			<item name="BO_TheFix_Suppressor" chance="1.00" />
 		</attachments>
 		<attachments chance="0.60">
@@ -1047,7 +1047,7 @@
 	</type>
 	<type name="BO_TheFix_BlueTiger">
 		<attachments preset="long_range_scopes" />
-		<attachments chance="0.20">
+		<attachments chance="0.10">
 			<item name="BO_TheFix_Suppressor" chance="1.00" />
 		</attachments>
 		<attachments chance="0.60">
@@ -1056,7 +1056,7 @@
 	</type>
 	<type name="BO_TheFix_RedTiger">
 		<attachments preset="long_range_scopes" />
-		<attachments chance="0.20">
+		<attachments chance="0.10">
 			<item name="BO_TheFix_Suppressor" chance="1.00" />
 		</attachments>
 		<attachments chance="0.60">
@@ -1065,7 +1065,7 @@
 	</type>
 	<type name="BO_TheFix_Multicam">
 		<attachments preset="long_range_scopes" />
-		<attachments chance="0.20">
+		<attachments chance="0.10">
 			<item name="BO_TheFix_Suppressor" chance="1.00" />
 		</attachments>
 		<attachments chance="0.60">
@@ -1222,7 +1222,7 @@
 	</type>
 	<type name="BO_CS5">
 		<attachments preset="long_range_scopes" />
-		<attachments chance="0.20">
+		<attachments chance="0.10">
 			<item name="BO_CS5_Suppressor" chance="1.00" />
 		</attachments>
 		<attachments chance="0.60">

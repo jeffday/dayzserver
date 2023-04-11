@@ -252,10 +252,13 @@
 				<item name="BO_RMR_FDE" chance="0.25" />
 		</attachments>
 		<attachments chance="0.60" name="close_range_optics">
-				<item name="BO_Holosun_HS510C_Optic" chance="0.25" />
-				<item name="BO_VortexAMG_UH1_Optic" chance="0.25" />
-				<item name="BO_RMR_Black" chance="0.25" />
-				<item name="BO_RMR_FDE" chance="0.25" />
+				<item name="BO_Holosun_HS510C_Optic" chance="0.125" />
+				<item name="BO_VortexAMG_UH1_Optic" chance="0.125" />
+				<item name="BO_RMR_Black" chance="0.125" />
+				<item name="BO_RMR_FDE" chance="0.125" />
+				<item name="BO_DeltaPoint" chance="0.125" />
+				<item name="BO_Eotech552" chance="0.125" />
+				<item name="BO_LeupoldCarbineOptics" chance="0.125" />
 		</attachments>
 		<attachments chance="0.60" name="ar_optics">
 				<item name="BO_ACOGOptic_Crosshair_Red" chance="0.125" />
@@ -294,10 +297,10 @@
 				<item name="BO_OspreySuppressor" chance="0.5" />
 				<item name="BO_MK23_Suppressor" chance="0.5" />
 		</attachments>
-		<attachments chance="0.20" name="ak_suppressors">
+		<attachments chance="0.10" name="ak_suppressors">
 				<item name="BO_TacticalSuppressor" chance="1.00" />
 		</attachments>
-		<attachments chance="0.20" name="338">
+		<attachments chance="0.10" name="338">
 				<item name="BO_HarvesterSuppressor" chance="1.00" />
 		</attachments>
 		<attachments chance="1.00" name="bttsttck">
@@ -306,15 +309,15 @@
 				<item name="BO_MK18Bttstck" chance="0.25" />
 				<item name="BO_MK18Bttstck_FDE" chance="0.25" />
 		</attachments>
-		<attachments chance="0.60" name="fal">
+		<attachments chance="0.10" name="fal">
 				<item name="BO_CorduraSuppressor" chance="0.33" />
 				<item name="BO_CorduraSuppressor_Black" chance="0.33" />
 				<item name="BO_MCXSpear_Suppressor" chance="0.33" />
 		</attachments>
-		<attachments chance="0.60" name="408">
+		<attachments chance="0.10" name="408">
 				<item name="BO_M200_Suppressor" chance="1.00" />
 		</attachments>
-		<attachments chance="0.60" name="50bmg">
+		<attachments chance="0.10" name="50bmg">
 				<item name="BO_BarrettM82Suppressor" chance="1.00" />
 		</attachments>
 		<attachments chance="1.00" name="bttsttckMCX">
