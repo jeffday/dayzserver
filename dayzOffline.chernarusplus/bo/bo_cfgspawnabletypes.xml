@@ -109,20 +109,20 @@
 	</type>
 	<type name="BO_ACR_Tan">
 		<attachments chance="0.50">
-			<item name="BO_Mag_PMAG_30rnd" chance="1.00" />
-		</attachments>
-		<attachments preset="ar_optics" />
-		<attachments chance="0.10">
-			<item name="BO_LegionSuppressor_Black" chance="1.00" />
-		</attachments>
-	</type>
-	<type name="BO_ACR_Black">
-		<attachments chance="0.50">
 			<item name="BO_Mag_PMAG_Tan_30rnd" chance="1.00" />
 		</attachments>
 		<attachments preset="ar_optics" />
 		<attachments chance="0.10">
 			<item name="BO_LegionSuppressor_Tan" chance="1.00" />
+		</attachments>
+	</type>
+	<type name="BO_ACR_Black">
+		<attachments chance="0.50">
+			<item name="BO_Mag_PMAG_30rnd" chance="1.00" />
+		</attachments>
+		<attachments preset="ar_optics" />
+		<attachments chance="0.10">
+			<item name="BO_LegionSuppressor_Black" chance="1.00" />
 		</attachments>
 	</type>
 	<type name="BO_ACR_ODGreen">
