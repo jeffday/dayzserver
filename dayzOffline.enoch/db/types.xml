@@ -13,10 +13,10 @@
         <usage name="Military"/>
     </type>
     <type name="ACOGOptic_6x">
-        <nominal>4</nominal>
+        <nominal>0</nominal>
         <lifetime>14400</lifetime>
         <restock>1800</restock>
-        <min>2</min>
+        <min>0</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -27,11 +27,11 @@
         <value name="Tier2"/>
         <value name="Tier3"/>
     </type>
-    <type name="AK101"> <!-- using weapon expansion version -->
-        <nominal>0</nominal>
+    <type name="AK101">
+        <nominal>2</nominal>
         <lifetime>28800</lifetime>
         <restock>3600</restock>
-        <min>0</min>
+        <min>1</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -62,7 +62,7 @@
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="1" deloot="0"/>
         <category name="weapons"/>
     </type>
-    <type name="AK74"> <!-- using weapon expansion version -->
+    <type name="AK74"> <!-- using blackout version -->
         <nominal>0</nominal>
         <lifetime>28800</lifetime>
         <restock>0</restock>
@@ -122,7 +122,7 @@
         <category name="weapons"/>
         <usage name="Military"/>
     </type>
-    <type name="AKM"> <!-- using weapon expansion version -->
+    <type name="AKM"> <!-- using blackout version -->
         <nominal>0</nominal>
         <lifetime>28800</lifetime>
         <restock>3600</restock>
@@ -134,11 +134,11 @@
         <category name="weapons"/>
         <usage name="ContaminatedArea"/>
     </type>
-    <type name="AKS74U">
-        <nominal>15</nominal>
+    <type name="AKS74U"> <!-- using blackout version -->
+        <nominal>0</nominal>
         <lifetime>28800</lifetime>
         <restock>0</restock>
-        <min>10</min>
+        <min>0</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -1992,7 +1992,7 @@
         <category name="clothes"/>
         <usage name="Village"/>
     </type>
-    <type name="Aug">
+    <type name="Aug"> <!-- using blackout version -->
         <nominal>0</nominal>
         <lifetime>28800</lifetime>
         <restock>3600</restock>
@@ -2005,7 +2005,7 @@
         <usage name="Underground"/>
         <value name="Tier3"/>
     </type>
-    <type name="AugShort">
+    <type name="AugShort"> <!-- using blackout version -->
         <nominal>0</nominal>
         <lifetime>28800</lifetime>
         <restock>3600</restock>
@@ -5924,11 +5924,11 @@
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="1" deloot="0"/>
         <category name="clothes"/>
     </type>
-    <type name="FAL">
-        <nominal>5</nominal>
+    <type name="FAL"> <!-- using blackout version -->
+        <nominal>0</nominal>
         <lifetime>28800</lifetime>
         <restock>0</restock>
-        <min>2</min>
+        <min>0</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -5936,7 +5936,7 @@
         <category name="weapons"/>
         <usage name="Military"/>
     </type>
-    <type name="FAMAS">
+    <type name="FAMAS"> <!-- using blackout version -->
         <nominal>0</nominal>
         <lifetime>28800</lifetime>
         <restock>0</restock>
@@ -10661,10 +10661,10 @@
         <value name="Tier3"/>
     </type>
     <type name="Mag_AK74_30Rnd">
-        <nominal>8</nominal>
+        <nominal>0</nominal>
         <lifetime>28800</lifetime>
         <restock>0</restock>
-        <min>4</min>
+        <min>0</min>
         <quantmin>5</quantmin>
         <quantmax>50</quantmax>
         <cost>100</cost>
@@ -10674,10 +10674,10 @@
         <value name="Tier3"/>
     </type>
     <type name="Mag_AK74_45Rnd">
-        <nominal>1</nominal>
+        <nominal>0</nominal>
         <lifetime>28800</lifetime>
         <restock>3600</restock>
-        <min>1</min>
+        <min>0</min>
         <quantmin>10</quantmin>
         <quantmax>50</quantmax>
         <cost>100</cost>
@@ -10686,10 +10686,10 @@
         <usage name="ContaminatedArea"/>
     </type>
     <type name="Mag_AKM_30Rnd">
-        <nominal>4</nominal>
+        <nominal>0</nominal>
         <lifetime>28800</lifetime>
         <restock>0</restock>
-        <min>2</min>
+        <min>0</min>
         <quantmin>5</quantmin>
         <quantmax>50</quantmax>
         <cost>100</cost>
@@ -10711,10 +10711,10 @@
         <usage name="Military"/>
     </type>
     <type name="Mag_AKM_Palm30Rnd">
-        <nominal>4</nominal>
+        <nominal>0</nominal>
         <lifetime>28800</lifetime>
         <restock>0</restock>
-        <min>2</min>
+        <min>0</min>
         <quantmin>5</quantmin>
         <quantmax>50</quantmax>
         <cost>100</cost>
@@ -10776,10 +10776,10 @@
         <value name="Tier3"/>
     </type>
     <type name="Mag_CMAG_40Rnd">
-        <nominal>1</nominal>
+        <nominal>0</nominal>
         <lifetime>28800</lifetime>
         <restock>3600</restock>
-        <min>1</min>
+        <min>0</min>
         <quantmin>5</quantmin>
         <quantmax>50</quantmax>
         <cost>100</cost>
@@ -10933,10 +10933,10 @@
         <usage name="Village"/>
     </type>
     <type name="Mag_MP5_15Rnd">
-        <nominal>10</nominal>
+        <nominal>0</nominal>
         <lifetime>28800</lifetime>
         <restock>0</restock>
-        <min>7</min>
+        <min>0</min>
         <quantmin>10</quantmin>
         <quantmax>50</quantmax>
         <cost>100</cost>
@@ -10945,10 +10945,10 @@
         <usage name="Military"/>
     </type>
     <type name="Mag_MP5_30Rnd">
-        <nominal>7</nominal>
+        <nominal>0</nominal>
         <lifetime>28800</lifetime>
         <restock>0</restock>
-        <min>5</min>
+        <min>0</min>
         <quantmin>5</quantmin>
         <quantmax>50</quantmax>
         <cost>100</cost>
