@@ -15,9 +15,8 @@
         <usage name="Military"/>
         <usage name="Hunting"/>
         <usage name="Industrial"/>
-        <value name="Tier2"/>
+        <usage name="Underground"/>
         <value name="Tier3"/>
-        <value name="Tier4"/>
     </type>
 
 <!--GP-NVG-->
@@ -33,8 +32,9 @@
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <usage name="Military"/>
         <usage name="Hunting"/>
+        <usage name="Underground"/>
+        <value name="Tier2"/>
         <value name="Tier3"/>
-        <value name="Tier4"/>
     </type>
     <type name="mmg_gp_nvg_tan">
         <nominal>0</nominal>
@@ -47,8 +47,9 @@
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <usage name="Military"/>
         <usage name="Hunting"/>
+        <usage name="Underground"/>
+        <value name="Tier2"/>
         <value name="Tier3"/>
-        <value name="Tier4"/>
     </type>
     <type name="mmg_gp_nvg_green">
         <nominal>5</nominal>
@@ -61,8 +62,9 @@
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <usage name="Military"/>
         <usage name="Hunting"/>
+        <usage name="Underground"/>
+        <value name="Tier2"/>
         <value name="Tier3"/>
-        <value name="Tier4"/>
     </type>
     <type name="mmg_gp_nvg_grey">
         <nominal>5</nominal>
@@ -75,7 +77,8 @@
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <usage name="Military"/>
         <usage name="Hunting"/>
+        <usage name="Underground"/>
+        <value name="Tier2"/>
         <value name="Tier3"/>
-        <value name="Tier4"/>
     </type>
 </types>
