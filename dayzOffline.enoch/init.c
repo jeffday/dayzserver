@@ -111,7 +111,7 @@ class CustomMission: MissionServer
 	}
 
     void SpawnJeffSetup(PlayerBase player) {
-        autoptr TStringArray clothes = {"BeanieHat_Black","ThickFramesGlasses","Hoodie_Black","SlacksPants_Khaki","Sneakers_Black"};
+        autoptr TStringArray clothes = {"beanie_blackred","ThickFramesGlasses","Hoodie_Sport1","SlacksPants_Khaki","SK8_Sneakers_Black"};
 
         spawnItemsOnPlayer(player, clothes);
     }
