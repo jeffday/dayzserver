@@ -184,8 +184,8 @@
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="weapons"/>
         <usage name="Military"/>
+        <value name="Tier2" />
         <value name="Tier3" />
-        <value name="Tier4" />
     </type>
     <type name="BO_OspreySuppressor_FDE">
         <nominal>1</nominal>
@@ -198,8 +198,8 @@
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="weapons"/>
         <usage name="Military"/>
+        <value name="Tier2" />
         <value name="Tier3" />
-        <value name="Tier4" />
     </type>
     <type name="BO_CorduraSuppressor">
         <nominal>1</nominal>
@@ -226,8 +226,8 @@
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="weapons"/>
         <usage name="Military"/>
+        <value name="Tier2" />
         <value name="Tier3" />
-        <value name="Tier4" />
     </type>
     <type name="BO_CorduraSuppressor_Green">
         <nominal>0</nominal>
@@ -240,8 +240,8 @@
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="weapons"/>
         <usage name="Military"/>
+        <value name="Tier2" />
         <value name="Tier3" />
-        <value name="Tier4" />
     </type>
     <type name="BO_LegionSuppressor">
         <nominal>0</nominal>
@@ -254,8 +254,8 @@
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="weapons"/>
         <usage name="Military"/>
+        <value name="Tier2" />
         <value name="Tier3" />
-        <value name="Tier4" />
     </type>
     <type name="BO_LegionSuppressor_Black">
         <nominal>1</nominal>
@@ -268,8 +268,8 @@
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="weapons"/>
         <usage name="Military"/>
+        <value name="Tier2" />
         <value name="Tier3" />
-        <value name="Tier4" />
     </type>
     <type name="BO_LegionSuppressor_Tan">
         <nominal>1</nominal>
@@ -282,8 +282,8 @@
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="weapons"/>
         <usage name="Military"/>
+        <value name="Tier2" />
         <value name="Tier3" />
-        <value name="Tier4" />
     </type>
     <type name="BO_SpecterDROptic">
         <nominal>3</nominal>
@@ -327,8 +327,8 @@
         <category name="weapons"/>
         <tag name="shelves"/>
         <usage name="Military"/>
+        <value name="Tier2" />
         <value name="Tier3" />
-		<value name="Tier4" />
     </type>
     <type name="BO_VortexAMG_UH1_Optic">
         <nominal>3</nominal>
@@ -356,8 +356,8 @@
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="weapons"/>
         <usage name="Military"/>
+        <value name="Tier2" />
         <value name="Tier3" />
-        <value name="Tier4" />
     </type>
     <type name="BO_SA58_Buttstock">
         <nominal>0</nominal>
@@ -370,8 +370,8 @@
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="weapons"/>
         <usage name="Military"/>
+        <value name="Tier2" />
         <value name="Tier3" />
-        <value name="Tier4" />
     </type>
     <type name="BO_M200_Suppressor">
         <nominal>1</nominal>
@@ -483,8 +483,8 @@
 		<cost>100</cost>
 		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
 		<category name="weapons" />
+		<value name="Tier2" />
 		<value name="Tier3" />
-		<value name="Tier4" />
 		<usage name="Military" />
     </type>
     <type name="BO_G36A1">
@@ -497,8 +497,8 @@
 		<cost>100</cost>
 		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
 		<category name="weapons" />
+		<value name="Tier2" />
 		<value name="Tier3" />
-		<value name="Tier4" />
 		<usage name="Military" />
     </type>
     <type name="BO_Mag_PMAG_30rnd">
@@ -624,7 +624,7 @@
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="weapons"/>
         <usage name="Military"/>
-        <value name="Tier4" />
+        <value name="Tier3" />
     </type>
     <type name="BO_Mk14">
         <nominal>1</nominal>
@@ -634,10 +634,9 @@
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
-        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="1"/>
         <category name="weapons"/>
         <usage name="Military"/>
-        <value name="Tier4" />
     </type>
     <type name="BO_Mag_M14_10rnd">
         <nominal>5</nominal>
@@ -650,8 +649,8 @@
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="weapons"/>
         <usage name="Military"/>
+        <value name="Tier2" />
         <value name="Tier3" />
-        <value name="Tier4" />
     </type>
     <type name="BO_Mag_M14_20rnd">
         <nominal>2</nominal>
@@ -664,7 +663,7 @@
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="weapons"/>
         <usage name="Military"/>
-        <value name="Tier4" />
+        <value name="Tier3" />
     </type>
     <type name="BO_Mosin">
         <nominal>10</nominal>
@@ -693,7 +692,7 @@
 		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
 		<category name="weapons" />
 		<usage name="Military" />
-		<value name="Tier4" />
+		<value name="Tier3" />
     </type>
     <type name="BO_Mag_SA58_20rnd">
         <nominal>0</nominal>
@@ -706,8 +705,8 @@
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="weapons"/>
         <usage name="Military"/>
+        <value name="Tier2" />
         <value name="Tier3" />
-        <value name="Tier4" />
     </type>
     <type name="BO_Mag_SA58_50rnd">
         <nominal>0</nominal>
@@ -833,7 +832,7 @@
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="weapons"/>
-        <value name="Tier4" />
+        <value name="Tier3" />
         <usage name="Military"/>
     </type>
     <type name="BO_Springfield1903">
@@ -889,8 +888,8 @@
 		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
 		<category name="weapons" />
 		<usage name="Military" />
+		<value name="Tier2" />
 		<value name="Tier3" />
-		<value name="Tier4" />
     </type>
     <type name="BO_ACR_Black">
 		<nominal>3</nominal>
@@ -903,8 +902,8 @@
 		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
 		<category name="weapons" />
 		<usage name="Military" />
+		<value name="Tier2" />
 		<value name="Tier3" />
-		<value name="Tier4" />
     </type>
     <type name="BO_ACR_ODGreen">
 		<nominal>1</nominal>
@@ -917,8 +916,8 @@
 		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
 		<category name="weapons" />
 		<usage name="Military" />
+		<value name="Tier2" />
 		<value name="Tier3" />
-		<value name="Tier4" />
     </type>
     <type name="BO_AR15">
         <nominal>0</nominal>
@@ -967,7 +966,7 @@
 		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
 		<category name="weapons" />
 		<usage name="Military" />
-		<value name="Tier4" />
+		<value name="Tier3" />
     </type>
     <type name="BO_Mag_FNFAL_30rnd">
         <nominal>3</nominal>
@@ -980,8 +979,8 @@
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="weapons"/>
 		<usage name="Military" />
+		<value name="Tier2" />
 		<value name="Tier3" />
-		<value name="Tier4" />
     </type>
     <type name="BO_Mag_FNFAL_40rnd">
         <nominal>1</nominal>
@@ -1020,7 +1019,7 @@
 		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
 		<category name="weapons" />
 		<usage name="Military" />
-		<value name="Tier4" />
+		<value name="Tier3" />
     </type>
     <type name="BO_Mag_M110_20rnd">
         <nominal>0</nominal>
@@ -1081,8 +1080,8 @@
 		<cost>100</cost>
 		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
 		<category name="weapons" />
+		<value name="Tier2" />
 		<value name="Tier3" />
-		<value name="Tier4" />
 		<usage name="Military" />
     </type>
     <type name="BO_SCARL_Tan">
@@ -1095,8 +1094,8 @@
 		<cost>100</cost>
 		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
 		<category name="weapons" />
+		<value name="Tier2" />
 		<value name="Tier3" />
-		<value name="Tier4" />
 		<usage name="Military" />
     </type>
     <type name="BO_SCARH_Black">
@@ -1110,7 +1109,7 @@
 		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
 		<category name="weapons" />
 		<usage name="Military" />
-		<value name="Tier4" />
+		<value name="Tier3" />
     </type>
     <type name="BO_SCARH_Tan">
 		<nominal>0</nominal>
@@ -1123,7 +1122,7 @@
 		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
 		<category name="weapons" />
 		<usage name="Military" />
-		<value name="Tier4" />
+		<value name="Tier3" />
     </type>
     <type name="BO_Mag_SCARH_20rnd">
         <nominal>3</nominal>
@@ -1553,8 +1552,8 @@
 		<cost>100</cost>
 		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
 		<category name="weapons" />
+		<value name="Tier2" />
 		<value name="Tier3" />
-		<value name="Tier4" />
 		<usage name="Military" />
     </type>
     <type name="BO_Mag_WA2000_6rnd">
@@ -1567,8 +1566,8 @@
 		<cost>100</cost>
 		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
 		<category name="weapons" />
+		<value name="Tier2" />
 		<value name="Tier3" />
-		<value name="Tier4" />
 		<usage name="Military" />
     </type>
     <type name="Ammo_BO_3006">
@@ -1632,8 +1631,8 @@
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="weapons"/>
         <usage name="Military"/>
+        <value name="Tier2" />
         <value name="Tier3" />
-		<value name="Tier4" />
     </type>
     <type name="BO_KSG">
         <nominal>1</nominal>
@@ -1730,8 +1729,8 @@
 		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
 		<category name="weapons" />
 		<usage name="Military" />
+		<value name="Tier2" />
 		<value name="Tier3" />
-		<value name="Tier4" />
     </type>
     <type name="BO_Stoner63A">
         <nominal>0</nominal>
@@ -1768,7 +1767,7 @@
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="weapons"/>
         <usage name="Military"/>
-        <value name="Tier4" />
+        <value name="Tier3" />
     </type>
     <type name="BO_Mag_Groza_20rnd">
         <nominal>3</nominal>
@@ -1793,8 +1792,7 @@
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="weapons"/>
-        <usage name="Military"/>
-        <value name="Tier4" />
+        <usage name="ContaminatedArea"/>
     </type>
     <type name="BO_AlligatorSniper">
         <nominal>1</nominal>
@@ -2295,8 +2293,8 @@
 		<cost>100</cost>
 		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
 		<category name="weapons" />
+		<value name="Tier2" />
 		<value name="Tier3" />
-		<value name="Tier4" />
 		<usage name="Military" />
     </type>
     <type name="BO_M4_15G_FDE">
@@ -2309,8 +2307,8 @@
 		<cost>100</cost>
 		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
 		<category name="weapons" />
+		<value name="Tier2" />
 		<value name="Tier3" />
-		<value name="Tier4" />
 		<usage name="Military" />
     </type>
     <type name="BO_M4_15G_NoSling">
@@ -2323,8 +2321,8 @@
 		<cost>100</cost>
 		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
 		<category name="weapons" />
+		<value name="Tier2" />
 		<value name="Tier3" />
-		<value name="Tier4" />
 		<usage name="Military" />
     </type>
     <type name="BO_M4_15G_FDE_NoSling">
@@ -2337,8 +2335,8 @@
 		<cost>100</cost>
 		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
 		<category name="weapons" />
+		<value name="Tier2" />
 		<value name="Tier3" />
-		<value name="Tier4" />
 		<usage name="Military" />
     </type>
     <type name="BO_M4A1_CQB">
@@ -2351,8 +2349,8 @@
 		<cost>100</cost>
 		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
 		<category name="weapons" />
+		<value name="Tier2" />
 		<value name="Tier3" />
-		<value name="Tier4" />
 		<usage name="Military" />
     </type>
     <type name="BO_FAMAS">
@@ -2365,8 +2363,8 @@
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="weapons"/>
+        <value name="Tier2" />
         <value name="Tier3" />
-		<value name="Tier4" />
         <usage name="Military"/>
     </type>
     <type name="BO_ASVAL">
@@ -2379,6 +2377,7 @@
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="weapons"/>
+        <usage name="ContaminatedArea"/>
     </type>
     <type name="BO_Mag_ASVAL_30Rnd">
         <nominal>0</nominal>
@@ -2391,7 +2390,7 @@
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="weapons"/>
         <usage name="Military"/>
-        <value name="Tier4" />
+        <value name="Tier3" />
     </type>
     <type name="BO_AK74">
         <nominal>8</nominal>
@@ -2554,8 +2553,8 @@
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="weapons"/>
         <usage name="Military"/>
+        <value name="Tier2" />
         <value name="Tier3" />
-        <value name="Tier4" />
     </type>
     <type name="BO_Mag_L96_5rnd">
         <nominal>4</nominal>
@@ -2568,8 +2567,8 @@
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="weapons"/>
         <usage name="Military"/>
+        <value name="Tier2" />
         <value name="Tier3" />
-        <value name="Tier4" />
     </type>
     <type name="BO_M96">
         <nominal>1</nominal>
@@ -2870,7 +2869,7 @@
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="weapons"/>
         <usage name="Military"/>
-        <value name="Tier4" />
+        <value name="Tier3" />
     </type>
     <type name="BO_Mag_HKG28_20rnd">
         <nominal>3</nominal>
@@ -2883,8 +2882,8 @@
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="weapons"/>
         <usage name="Military"/>
+        <value name="Tier2" />
         <value name="Tier3" />
-        <value name="Tier4" />
     </type>
     <type name="BO_HoneyBadger">
 		<nominal>0</nominal>
@@ -2897,8 +2896,8 @@
 		<flags count_in_cargo="1" count_in_hoarder="1" count_in_map="1" count_in_player="1" crafted="0" deloot="0" />
 		<category name="weapons" />
 		<usage name="Military" />
+        <value name="Tier2" />
         <value name="Tier3" />
-        <value name="Tier4" />
     </type>
     <type name="BO_M16A4">
         <nominal>5</nominal>
@@ -2913,7 +2912,6 @@
         <usage name="Military"/>
         <value name="Tier2"/>
         <value name="Tier3"/>
-        <value name="Tier4" />
     </type>
     <type name="BO_TAR21">
         <nominal>2</nominal>
@@ -2940,7 +2938,7 @@
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="weapons"/>
         <usage name="Military"/>
-        <value name="Tier4" />
+        <value name="Tier3" />
     </type>
     <type name="BO_Mag_AA12_20rnd">
         <nominal>1</nominal>
@@ -2953,7 +2951,7 @@
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="1"/>
         <category name="weapons"/>
         <usage name="Military"/>
-        <value name="Tier4" />
+        <value name="Tier3" />
     </type>
     <type name="BO_MKGS">
         <nominal>5</nominal>
@@ -3230,8 +3228,8 @@
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="weapons"/>
         <usage name="Military"/>
+        <value name="Tier2" />
         <value name="Tier3" />
-		<value name="Tier4" />
     </type>
     <type name="BO_Mag_USAS12_10rnd">
         <nominal>3</nominal>
@@ -3244,8 +3242,8 @@
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="weapons"/>
         <usage name="Military"/>
+        <value name="Tier2" />
         <value name="Tier3" />
-		<value name="Tier4" />
     </type>
     <type name="BO_Mag_USAS12_20rnd">
         <nominal>1</nominal>
@@ -3270,8 +3268,8 @@
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="weapons"/>
         <usage name="Military"/>
+        <value name="Tier2" />
         <value name="Tier3" />
-		<value name="Tier4" />
     </type>
     <type name="BO_SPAS12_Pump">
         <nominal>5</nominal>
@@ -3284,8 +3282,8 @@
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="weapons"/>
         <usage name="Military"/>
+        <value name="Tier2" />
         <value name="Tier3" />
-		<value name="Tier4" />
     </type>
     <type name="BO_SPAS12_Suppressor">
         <nominal>1</nominal>
@@ -3339,8 +3337,8 @@
         <category name="weapons"/>
         <usage name="Military"/>
         <usage name="Police"/>
+        <value name="Tier2" />
         <value name="Tier3" />
-		<value name="Tier4" />
     </type>
     <type name="BO_Trenchgun">
         <nominal>3</nominal>
