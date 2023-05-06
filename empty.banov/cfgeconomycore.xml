@@ -89,17 +89,6 @@ Do not forget to add attribute act="car", if root class represents moveable vehi
 		<file name="AE_Ammo.xml" type="types" />
 	</ce>
 
-	<!-- Mightys Military Gear Storage-->
-	<ce folder="mmg_storage">
-		<file name="mmg_storage.xml" type="types" />
-	</ce>
-
-	<!-- Weapon Expansion -->
-	<ce folder="we">
-		<file name="we_types.xml" type="types" />
-		<file name="we_cfgspawnabletypes.xml" type="spawnabletypes" />
-	</ce>
-
 	<!-- AdvancedMedicalSupplies -->
 	<ce folder="ams">
 		<file name="types_AMS.xml" type="types" />
