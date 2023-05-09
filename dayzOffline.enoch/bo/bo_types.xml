@@ -230,7 +230,7 @@
         <value name="Tier3" />
     </type>
     <type name="BO_CorduraSuppressor_Green">
-        <nominal>0</nominal>
+        <nominal>1</nominal>
         <lifetime>7200</lifetime>
         <restock>300</restock>
         <min>0</min>
@@ -244,7 +244,7 @@
         <value name="Tier3" />
     </type>
     <type name="BO_LegionSuppressor">
-        <nominal>0</nominal>
+        <nominal>1</nominal>
         <lifetime>7200</lifetime>
         <restock>300</restock>
         <min>0</min>
@@ -1163,10 +1163,10 @@
         <usage name="Military"/>
     </type>
     <type name="BO_SIG552">
-		<nominal>1</nominal>
+		<nominal>2</nominal>
         <lifetime>7200</lifetime>
         <restock>300</restock>
-		<min>0</min>
+		<min>1</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
@@ -1362,10 +1362,10 @@
         <usage name="Military"/>
     </type>
     <type name="BO_G43">
-        <nominal>5</nominal>
+        <nominal>0</nominal>
         <lifetime>28800</lifetime>
         <restock>0</restock>
-        <min>2</min>
+        <min>0</min>
         <quantmin>0</quantmin>
         <quantmax>80</quantmax>
         <cost>100</cost>
@@ -1376,10 +1376,10 @@
         <value name="Tier3"/>
     </type>
     <type name="BO_Mag_G43_10rnd">
-        <nominal>5</nominal>
+        <nominal>0</nominal>
         <lifetime>28800</lifetime>
         <restock>0</restock>
-        <min>2</min>
+        <min>0</min>
         <quantmin>0</quantmin>
         <quantmax>80</quantmax>
         <cost>100</cost>
