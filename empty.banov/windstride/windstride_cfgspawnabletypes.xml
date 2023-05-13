@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 
 <spawnabletypes>
-    <damage min="0.2" max="0.6" />
     <type name="Canvas_Backpack_Base">
         <cargo preset="foodVillage" />
         <cargo preset="mixVillage" />
@@ -75,6 +74,9 @@
 		<cargo preset="mixVillage" />
 	</type>
     <type name="Purple_Leggings">
+		<cargo preset="mixVillage" />
+	</type>
+    <type name="Fleece_Grey_Leggings">
 		<cargo preset="mixVillage" />
 	</type>
     <type name="Latex_White_Leggings">
