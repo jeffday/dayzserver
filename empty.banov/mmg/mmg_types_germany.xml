@@ -14,7 +14,8 @@
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="clothes"/>
         <usage name="Military"/>
-        <value name=""/>
+        <value name="Tier3"/>
+        <value name="Tier4"/>
     </type>
     <type name="MMG_tt_Vest_germany">
         <nominal>0</nominal>
@@ -27,7 +28,8 @@
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="clothes"/>
         <usage name="Military"/>
-        <value name=""/>
+        <value name="Tier3"/>
+        <value name="Tier4"/>
     </type>
 	<type name="MMG_chestrig_germany">
         <nominal>0</nominal>
@@ -40,7 +42,9 @@
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="clothes"/>
         <usage name="Military"/>
-        <value name=""/>
+		<value name="Tier2"/>
+        <value name="Tier3"/>
+        <value name="Tier4"/>
     </type>
     <type name="MMG_MK_III_Armor_germany">
         <nominal>0</nominal>
@@ -83,7 +87,8 @@
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="clothes"/>
         <usage name="Military"/>
-        <value name=""/>
+        <value name="Tier3"/>
+        <value name="Tier4"/>
     </type>
 	 <type name="MMG_triple_magpouch_germany">
         <nominal>0</nominal>
@@ -96,7 +101,8 @@
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="clothes"/>
         <usage name="Military"/>
-        <value name=""/>
+        <value name="Tier3"/>
+        <value name="Tier4"/>
     </type>
     <type name="MMG_double_magpouch_germany">
         <nominal>0</nominal>
@@ -109,7 +115,8 @@
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="clothes"/>
         <usage name="Military"/>
-        <value name=""/>
+        <value name="Tier3"/>
+        <value name="Tier4"/>
     </type>
     <type name="MMG_Med_Pouch_germany">
         <nominal>0</nominal>
@@ -122,7 +129,8 @@
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="clothes"/>
         <usage name="Military"/>
-        <value name=""/>
+        <value name="Tier3"/>
+        <value name="Tier4"/>
     </type>
     <type name="MMG_ammo_pouch_germany">
         <nominal>0</nominal>
@@ -135,7 +143,8 @@
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="clothes"/>
         <usage name="Military"/>
-        <value name=""/>
+        <value name="Tier3"/>
+        <value name="Tier4"/>
     </type>
     <type name="MMG_tactical_pouch_germany">
         <nominal>0</nominal>
@@ -148,7 +157,8 @@
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="clothes"/>
         <usage name="Military"/>
-        <value name=""/>
+        <value name="Tier3"/>
+        <value name="Tier4"/>
     </type>
     <type name="MMG_mk5_utility_pouch_germany">
         <nominal>0</nominal>
@@ -161,7 +171,8 @@
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="clothes"/>
         <usage name="Military"/>
-        <value name=""/>
+        <value name="Tier3"/>
+        <value name="Tier4"/>
     </type>
     <type name="MMG_mk_V_grenade_pouch_germany">
         <nominal>0</nominal>
@@ -174,7 +185,8 @@
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="clothes"/>
         <usage name="Military"/>
-        <value name=""/>
+        <value name="Tier3"/>
+        <value name="Tier4"/>
     </type>
 
 <!--BACKPACKS-->
@@ -187,10 +199,11 @@
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
-		<flags count_in_hoarder="0" count_in_player="0" count_in_map="1" count_in_cargo="0" crafted="0" deloot="0" />
-		<category name="containers" />
-		<usage name="Military" />
-		<value name="" />
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="clothes"/>
+        <usage name="Military"/>
+        <value name="Tier3"/>
+        <value name="Tier4"/>
     </type>
     <type name="MMG_supplybag_germany">
 		<nominal>0</nominal>
@@ -200,10 +213,11 @@
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
-		<flags count_in_hoarder="0" count_in_player="0" count_in_map="1" count_in_cargo="0" crafted="0" deloot="0" />
-		<category name="containers" />
-		<usage name="Military" />
-		<value name="" />
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="clothes"/>
+        <usage name="Military"/>
+        <value name="Tier3"/>
+        <value name="Tier4"/>
     </type>
     <type name="MMG_assault_pack_germany">
 		<nominal>0</nominal>
@@ -213,10 +227,11 @@
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
-		<flags count_in_hoarder="0" count_in_player="0" count_in_map="1" count_in_cargo="0" crafted="0" deloot="0" />
-		<category name="containers" />
-		<usage name="Military" />
-		<value name="" />
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="clothes"/>
+        <usage name="Military"/>
+        <value name="Tier3"/>
+        <value name="Tier4"/>
     </type>
     <type name="MMG_camelback_germany">
 		<nominal>0</nominal>
@@ -226,10 +241,11 @@
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
-		<flags count_in_hoarder="0" count_in_player="0" count_in_map="1" count_in_cargo="0" crafted="0" deloot="0" />
-		<category name="containers" />
-		<usage name="Military" />
-		<value name="" />
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="clothes"/>
+        <usage name="Military"/>
+        <value name="Tier3"/>
+        <value name="Tier4"/>
     </type>
 
 <!--BELTS-->
@@ -245,7 +261,8 @@
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="clothes"/>
         <usage name="Military"/>
-        <value name=""/>
+        <value name="Tier3"/>
+        <value name="Tier4"/>
     </type>
 
 <!--HELMETS-->
@@ -261,7 +278,8 @@
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="clothes"/>
         <usage name="Military"/>
-        <value name=""/>
+        <value name="Tier3"/>
+        <value name="Tier4"/>
     </type>
     <type name="MMG_striker_helmet_germany">
         <nominal>0</nominal>
@@ -274,7 +292,8 @@
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="clothes"/>
         <usage name="Military"/>
-        <value name=""/>
+        <value name="Tier3"/>
+        <value name="Tier4"/>
     </type>
     <type name="MMG_headphones_germany">
         <nominal>0</nominal>
@@ -287,7 +306,8 @@
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="clothes"/>
         <usage name="Military"/>
-        <value name=""/>
+        <value name="Tier3"/>
+        <value name="Tier4"/>
     </type>
 
 <!--ITEMS-->
@@ -303,20 +323,22 @@
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="clothes"/>
         <usage name="Military"/>
-        <value name=""/>
+        <value name="Tier3"/>
+        <value name="Tier4"/>
     </type>
     <type name="MMG_bottle_germany">
         <nominal>0</nominal>
         <lifetime>7200</lifetime>
         <restock>7200</restock>
         <min>0</min>
-        <quantmin>40</quantmin>
-        <quantmax>80</quantmax>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="clothes"/>
         <usage name="Military"/>
-        <value name=""/>
+        <value name="Tier3"/>
+        <value name="Tier4"/>
     </type>
      <type name="MMG_Holster_germany">
         <nominal>0</nominal>
@@ -329,7 +351,8 @@
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="clothes"/>
         <usage name="Military"/>
-        <value name=""/>
+        <value name="Tier3"/>
+        <value name="Tier4"/>
     </type>
 
 <!--CLOTHING-->
@@ -345,7 +368,8 @@
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="clothes"/>
         <usage name="Military"/>
-        <value name=""/>
+        <value name="Tier3"/>
+        <value name="Tier4"/>
     </type>
     <type name="MMG_tactical_shirt_germany">
         <nominal>0</nominal>
@@ -358,7 +382,8 @@
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="clothes"/>
         <usage name="Military"/>
-        <value name=""/>
+        <value name="Tier3"/>
+        <value name="Tier4"/>
     </type>
     <type name="MMG_combatshirt_germany">
         <nominal>0</nominal>
@@ -371,7 +396,8 @@
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="clothes"/>
         <usage name="Military"/>
-        <value name=""/>
+        <value name="Tier3"/>
+        <value name="Tier4"/>
     </type>
     <type name="MMG_combatpants_germany">
         <nominal>0</nominal>
@@ -384,7 +410,8 @@
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="clothes"/>
         <usage name="Military"/>
-        <value name=""/>
+        <value name="Tier3"/>
+        <value name="Tier4"/>
     </type>
     <type name="mmg_tactical_gloves_germany">
         <nominal>0</nominal>
@@ -397,7 +424,8 @@
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="clothes"/>
         <usage name="Military"/>
-        <value name=""/>
+        <value name="Tier3"/>
+        <value name="Tier4"/>
     </type>
     <type name="MMG_boots_germany">
         <nominal>0</nominal>
@@ -410,7 +438,8 @@
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="clothes"/>
         <usage name="Military"/>
-        <value name=""/>
+        <value name="Tier3"/>
+        <value name="Tier4"/>
     </type>
     <type name="MMG_facemask_germany">
         <nominal>0</nominal>
@@ -423,7 +452,8 @@
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="clothes"/>
         <usage name="Military"/>
-        <value name=""/>
+        <value name="Tier3"/>
+        <value name="Tier4"/>
     </type>
     <type name="MMG_balaclava_germany">
         <nominal>0</nominal>
@@ -436,7 +466,8 @@
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="clothes"/>
         <usage name="Military"/>
-        <value name=""/>
+        <value name="Tier3"/>
+        <value name="Tier4"/>
     </type>
 	<type name="mmg_boonie_germany">
         <nominal>0</nominal>
@@ -449,6 +480,8 @@
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="clothes"/>
         <usage name="Military"/>
-        <value name=""/>
+		<value name="Tier2"/>
+        <value name="Tier3"/>
+        <value name="Tier4"/>
     </type>
 </types>
