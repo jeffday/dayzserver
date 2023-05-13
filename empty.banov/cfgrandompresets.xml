@@ -160,6 +160,10 @@
 				<item name="AmmoBox_762x39_20Rnd" chance="0.05" />
 				<item name="Ammo_762x54" chance="0.2" />
 				<item name="AmmoBox_762x54_20Rnd" chance="0.05" />
+				<item name="Ammo_AE57x28" chance="0.2" />
+				<item name="AE_AmmoBox_57x28_30rnd" chance="0.05" />
+				<item name="Ammo_AE338" chance="0.2" />
+				<item name="AE_AmmoBox_338_20rnd" chance="0.05" />
 		</cargo>
 		<cargo chance="0.1" name="mixVillage">
 				<item name="DuctTape" chance="0.07" />
@@ -230,6 +234,10 @@
 				<item name="AmmoBox_762x39_20Rnd" chance="0.05" />
 				<item name="Ammo_762x54" chance="0.2" />
 				<item name="AmmoBox_762x54_20Rnd" chance="0.05" />
+				<item name="Ammo_AE57x28" chance="0.2" />
+				<item name="AE_AmmoBox_57x28_30rnd" chance="0.05" />
+				<item name="Ammo_AE338" chance="0.2" />
+				<item name="AE_AmmoBox_338_20rnd" chance="0.05" />
 		</cargo>
 		<cargo chance="0.04" name="grenades">
 				<item name="RDG2SmokeGrenade_White" chance="0.25" />
@@ -473,58 +481,60 @@
 				<item name="MedicalScrubsHat_White" chance="0.35" />
 		</attachments>
 
-		<!-- ARMY ATTACHMENTS -->
-		<attachments chance="0.60" name="hatsArmy">
-				<item name="TankerHelmet" chance="0.10" />
-				<item name="PilotkaCap" chance="0.10" />
-				<!-- <item name="GorkaHelmet" chance="0.10" /> Problem with animation of chin cover -->
-				<item name="MilitaryBeret_Red" chance="0.10" />
-				<item name="MilitaryBeret_UN" chance="0.10" />
-				<item name="MilitaryBeret_NZ" chance="0.10" />
-				<item name="MilitaryBeret_ChDKZ" chance="0.05" />
-				<item name="MilitaryBeret_CDF" chance="0.05" />
-				<item name="ZSh3PilotHelmet" chance="0.05" />
-				<item name="NVGHeadstrap" chance="0.01" />
+		<!--ARMY ATTACHMENTS-->
+		<attachments chance="0.80" name="hatsArmy">
+			<item name="TankerHelmet" chance="0.1" />
+			<item name="ZSh3PilotHelmet" chance="0.1" />
+			<item name="MMG_tactical_helmet_green" chance="0.2" />
+			<item name="MMG_tactical_helmet_multicam_tropic" chance="0.2" />
 		</attachments>
 		<attachments chance="0.00" name="glassesArmy"> <!--was chance="0.10"; removed coz of attachment slot is missing -->
 				<item name="TacticalGoggles" chance="0.10" />
 				<item name="AviatorGlasses" chance="0.25" />
 		</attachments>
-		<attachments chance="0.20" name="vestsArmy">
-				<item name="UKAssVest_Black" chance="0.20" />
-				<item name="UKAssVest_Camo" chance="0.20" />
-				<item name="UKAssVest_Khaki" chance="0.2" />
-				<item name="UKAssVest_Olive" chance="0.2" />
-				<item name="SmershVest" chance="0.05" />
+		<attachments chance="1.00" name="vestsArmy">
+			<item name="MMG_chestrig_green" chance="0.05" />
+			<item name="MMG_chestrig_multicam_tropic" chance="0.05" />
+			<item name="MMG_JPC_Vest_green" chance="0.05" />
+			<item name="MMG_JPC_Vest_multicam_tropic" chance="0.05" />
+			<item name="MMG_tt_Vest_green" chance="0.05" />
+			<item name="MMG_tt_Vest_multicam_tropic" chance="0.05" />
 		</attachments>
 		<attachments chance="0.15" name="bagsArmy">
-				<item name="AssaultBag_Green" chance="0.10" />
-				<item name="AssaultBag_Ttsko" chance="0.10" />
-				<item name="AssaultBag_Black" chance="0.10" />
-				<item name="TortillaBag" chance="0.05" />
-				<item name="SmershBag" chance="0.05" />
-				<item name="CoyoteBag_Brown" chance="0.05" />
-				<item name="CoyoteBag_Green" chance="0.05" />
-				<item name="AliceBag_Camo" chance="0.05" />
-				<item name="AliceBag_Green" chance="0.05" />
-				<item name="AliceBag_Black" chance="0.05" />
+			<item name="MMG_assault_pack_green" chance="0.07" />
+			<item name="MMG_assault_pack_multicam_tropic" chance="0.06" />
+			<item name="MMG_carrier_backpack_green" chance="0.05" />
+			<item name="MMG_carrier_backpack_multicam_tropic" chance="0.05" />
+			<item name="MMG_camelback_green" chance="0.03" />
+			<item name="MMG_camelback_multicam_tropic" chance="0.03" />
+			<item name="MMG_supplybag_green" chance="0.02" />
+			<item name="MMG_supplybag_multicam_tropic" chance="0.02" />
 		</attachments>
 		<attachments chance="1.00" name="HeavyArmorArmy">
-				<item name="PlateCarrierVest" chance="1.00" />
+			<item name="MMG_tt_Vest_green" chance="0.09" />
+			<item name="MMG_tt_Vest_multicam_tropic" chance="0.08" />
+			<item name="MMG_MK_III_Armor_green" chance="0.05" />
+			<item name="MMG_MK_III_Armor_multicam_tropic" chance="0.05" />
+			<item name="MMG_MK_V_Armor_green" chance="0.04" />
+			<item name="MMG_MK_V_Armor_multicam_tropic" chance="0.03" />
 		</attachments>
 		<attachments chance="1.00" name="HeavyHelmetArmy">
-				<item name="Ssh68Helmet" chance="1.00" />
+			<item name="MMG_striker_helmet_green" chance="0.12" />
+			<item name="MMG_striker_helmet_multicam_tropic" chance="0.11" />
+			<item name="mmg_armored_helmet_green" chance="0.10" />
 		</attachments>
 		<attachments chance="1.00" name="OfficerHatArmy">
 				<item name="OfficerHat" chance="1.00" />
 		</attachments>
 
-		<!-- POLICE ATTACHMENTS -->
-		<attachments chance="0.20" name="hatsPolice">
-				<item name="PoliceCap" chance="1.00" />
+		<!--POLICE ATTACHMENTS-->
+		<attachments chance="0.80" name="hatsPolice">
+			<item name="PoliceCap" chance="0.5" />
+			<item name="MMG_tactical_helmet_police" chance="0.5" />
 		</attachments>
 		<attachments chance="1.00" name="vestsPolice">
-				<item name="PoliceVest" chance="1.00" />
+			<item name="PoliceVest" chance="0.25" />
+			<item name="MMG_tt_Vest_police" chance="0.75" />
 		</attachments>
 		
 		<!-- PRISONER ATTACHMENTS -->
