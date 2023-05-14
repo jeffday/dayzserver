@@ -1139,7 +1139,6 @@
         <usage name="Military"/>
         <value name="Tier3"/>
         <value name="Tier4"/>
-        <value name="Unique"/>
     </type>
     <type name="Ammo_40mm_Smoke_Black">
         <nominal>15</nominal>
@@ -5058,9 +5057,7 @@
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="explosives"/>
         <usage name="Military"/>
-        <value name="Tier3"/>
         <value name="Tier4"/>
-        <value name="Unique"/>
     </type>
     <type name="Cleaver">
         <nominal>55</nominal>
@@ -10934,10 +10931,8 @@
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
-        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="1"/>
         <category name="weapons"/>
-        <usage name="Military"/>
-        <value name="Unique"/>
     </type>
     <type name="M9A1_Bayonet">
         <nominal>10</nominal>
@@ -13775,7 +13770,8 @@
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="explosives"/>
         <usage name="Industrial"/>
-        <value name="Unique"/>
+        <value name="Tier3"/>
+        <value name="Tier4"/>
     </type>
     <type name="PlateCarrierHolster">
         <nominal>0</nominal>
@@ -14724,7 +14720,8 @@
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="tools"/>
         <usage name="Industrial"/>
-        <value name="Unique"/>
+        <value name="Tier3"/>
+        <value name="Tier4"/>
     </type>
     <type name="RemoteDetonatorReceiver">
         <nominal>0</nominal>
