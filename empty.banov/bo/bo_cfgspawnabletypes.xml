@@ -85,8 +85,7 @@
 	</type>
 	<type name="BO_SKS_Tactical">
 		<attachments chance="0.30">
-			<item name="Mag_AKM_Palm30Rnd" chance="0.50" />
-			<item name="Mag_AKM_30Rnd" chance="0.50" />
+			<item name="BO_PMAG_AKM_30rnd" chance="1.00" />
 		</attachments>
 	</type>
 	<type name="BO_KH9">
@@ -401,8 +400,7 @@
 			<item name="BO_GrozaOptic" chance="1.00" />
 		</attachments>
 		<attachments chance="0.60">
-			<item name="Mag_AKM_30Rnd" chance="0.50" />
-			<item name="Mag_AKM_Palm30Rnd" chance="0.50" />
+			<item name="BO_PMAG_AKM_30rnd" chance="1.00" />
 		</attachments>
 	</type>
 	<type name="BO_Groza_9x39">
