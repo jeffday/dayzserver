@@ -31,20 +31,6 @@
         <value name="Tier345"/>
         <tag name="military"/>
     </type>
-	<type name="MMG_chestrig_sweden">
-        <nominal>0</nominal>
-        <lifetime>7200</lifetime>
-        <restock>7200</restock>
-        <min>0</min>
-        <quantmin>-1</quantmin>
-        <quantmax>-1</quantmax>
-        <cost>100</cost>
-        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-        <category name="clothes"/>
-        <usage />
-        <value name="Tier234"/>
-        <tag name="military"/>
-    </type>
     <type name="MMG_MK_III_Armor_sweden">
         <nominal>0</nominal>
         <lifetime>7200</lifetime>
@@ -266,35 +252,7 @@
 
 <!--HELMETS-->
 
-    <type name="MMG_tactical_helmet_sweden">
-        <nominal>0</nominal>
-        <lifetime>7200</lifetime>
-        <restock>7200</restock>
-        <min>0</min>
-        <quantmin>-1</quantmin>
-        <quantmax>-1</quantmax>
-        <cost>100</cost>
-        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-        <category name="clothes"/>
-        <usage />
-        <value name="Tier345"/>
-        <tag name="military"/>
-    </type>
     <type name="MMG_striker_helmet_sweden">
-        <nominal>0</nominal>
-        <lifetime>7200</lifetime>
-        <restock>7200</restock>
-        <min>0</min>
-        <quantmin>-1</quantmin>
-        <quantmax>-1</quantmax>
-        <cost>100</cost>
-        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-        <category name="clothes"/>
-        <usage />
-        <value name="Tier345"/>
-        <tag name="military"/>
-    </type>
-    <type name="MMG_headphones_sweden">
         <nominal>0</nominal>
         <lifetime>7200</lifetime>
         <restock>7200</restock>

@@ -383,15 +383,6 @@
 			<item name="MMG_nbc_pouch" 			chance="0.05" />
 		</attachments>
 	</type>
-	<type name="MMG_chestrig_sweden"> <!-- this currently doesn't exist -->
-		<attachments chance="1.00">
-			<item name="MMG_Med_Pouch_sweden" 		chance="0.20" />
-			<item name="MMG_ammo_pouch_sweden"		chance="0.20" />
-			<item name="MMG_bottle_sweden" 		chance="0.20" />
-			<item name="MMG_sheath_sweden" 		chance="0.20" />
-			<item name="MMG_nbc_pouch" 			chance="0.05" />
-		</attachments>
-	</type>
 	<type name="MMG_chestrig_ukraine">
 		<attachments chance="1.00">
 			<item name="MMG_Med_Pouch_ukraine" 		chance="0.20" />
@@ -2132,7 +2123,7 @@
 	</type>
 	<type name="MMG_tactical_helmet_germany">
 		<attachments chance="1.00">
-			<item name="MMG_headphones_germany" 			chance="0.20" />
+			<item name="MMG_headphones_green" 			chance="0.20" />
 			<item name="mmg_gp_nvg_green" 				chance="0.05" />
 			<item name="NVGoggles" 						chance="0.05" />
 			<item name="UniversalLight" 				chance="0.15" />
@@ -2140,15 +2131,7 @@
 	</type>
 	<type name="MMG_tactical_helmet_norway">
 		<attachments chance="1.00">
-			<item name="MMG_headphones_norway" 			chance="0.20" />
-			<item name="mmg_gp_nvg_green" 				chance="0.05" />
-			<item name="NVGoggles" 						chance="0.05" />
-			<item name="UniversalLight" 				chance="0.15" />
-		</attachments>
-	</type>
-	<type name="MMG_tactical_helmet_sweden">
-		<attachments chance="1.00">
-			<item name="MMG_headphones_sweden" 			chance="0.20" />
+			<item name="MMG_headphones_green" 			chance="0.20" />
 			<item name="mmg_gp_nvg_green" 				chance="0.05" />
 			<item name="NVGoggles" 						chance="0.05" />
 			<item name="UniversalLight" 				chance="0.15" />
@@ -2156,7 +2139,7 @@
 	</type>
 	<type name="MMG_tactical_helmet_ukraine">
 		<attachments chance="1.00">
-			<item name="MMG_headphones_ukraine" 			chance="0.20" />
+			<item name="MMG_headphones_green" 			chance="0.20" />
 			<item name="mmg_gp_nvg_green" 				chance="0.05" />
 			<item name="NVGoggles" 						chance="0.05" />
 			<item name="UniversalLight" 				chance="0.15" />
