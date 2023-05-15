@@ -57,6 +57,12 @@ class CustomMission: MissionServer
 		}
 	}
 
+    void spawnItemsOnPlayer(PlayerBase player, TStringArray items) {
+        for(int i = 0; i < items.Count(); i++) {
+             player.GetInventory().CreateInInventory(items[i]);
+        }
+    }
+
 	override PlayerBase CreateCharacter(PlayerIdentity identity, vector pos, ParamsReadContext ctx, string characterName)
 	{
 		Entity playerEnt;
@@ -68,33 +74,35 @@ class CustomMission: MissionServer
 		return m_player;
 	}
 
+    void SpawnJeffSetup(PlayerBase player) {
+        autoptr TStringArray clothes = {"beanie_blackred","ThickFramesGlasses","Hoodie_Sport1","SlacksPants_Khaki","SK8_Sneakers_Black"};
+
+        spawnItemsOnPlayer(player, clothes);
+    }
+
 	override void StartingEquipSetup(PlayerBase player, bool clothesChosen)
 	{
-		EntityAI itemTop;
+		EntityAI itemClothing;
 		EntityAI itemEnt;
 		ItemBase itemBs;
 		float rand;
 
-		itemTop = player.FindAttachmentBySlotName("Body");
-
-		if ( itemTop )
+		itemClothing = player.FindAttachmentBySlotName( "Body" );
+		if ( itemClothing )
 		{
-			itemEnt = itemTop.GetInventory().CreateInInventory("BandageDressing");
-			if ( Class.CastTo(itemBs, itemEnt ) )
-				itemBs.SetQuantity(2);
-
-			SetRandomHealth(itemEnt);
-
-			rand = Math.RandomFloatInclusive(0.0, 1.0);
-			if ( rand < 0.35 )
-				itemEnt = player.GetInventory().CreateInInventory("Apple");
-			else if ( rand > 0.65 )
-				itemEnt = player.GetInventory().CreateInInventory("Pear");
-			else
-				itemEnt = player.GetInventory().CreateInInventory("Plum");
-
-			SetRandomHealth(itemEnt);
-		}
+			player.RemoveAllItems();
+            
+            SpawnJeffSetup(player);
+            
+            itemEnt = player.GetInventory().CreateInInventory( "BandageDressing" );
+			itemEnt = player.GetInventory().CreateInInventory( "Chemlight_White" );
+            
+            itemEnt = player.GetInventory().CreateInInventory( "CanOpener" );
+            itemEnt = player.GetInventory().CreateInInventory( "SodaCan_Cola" );
+        	itemEnt = player.GetInventory().CreateInInventory( "SodaCan_Spite" );
+            itemEnt = player.GetInventory().CreateInInventory( "BakedBeansCan" );
+            itemEnt = player.GetInventory().CreateInInventory( "SpaghettiCan" );
+		} 
 	}
 };
 
