@@ -243,7 +243,7 @@
         <usage name="Military"/>
     </type>
     <type name="AMS_NBCPouch">
-        <nominal>3</nominal>
+        <nominal>2</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
         <min>1</min>
@@ -254,6 +254,8 @@
         <category name="tools"/>
         <tag name="floor"/>
         <usage name="Military"/>
+        <usage name="Firefighter"/>
+        <usage name="Medic"/>
     </type>
     <type name="AMS_NBCPouch_Green">
         <nominal>2</nominal>
@@ -280,6 +282,8 @@
         <category name="tools"/>
         <tag name="floor"/>
         <usage name="Military"/>
+                <usage name="Firefighter"/>
+        <usage name="Medic"/>
     </type>
     <type name="AMS_Whistle">
         <nominal>0</nominal>
@@ -334,10 +338,10 @@
         <usage name="Medic"/>
     </type>
     <type name="AMS_GasMaskGP21">
-        <nominal>10</nominal>
+        <nominal>5</nominal>
         <lifetime>28800</lifetime>
         <restock>0</restock>
-        <min>8</min>
+        <min>4</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -347,10 +351,10 @@
         <usage name="Firefighter"/>
     </type>
     <type name="AMS_GasMaskGP21_Filter">
-        <nominal>8</nominal>
+        <nominal>5</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
-        <min>7</min>
+        <min>3</min>
         <quantmin>20</quantmin>
         <quantmax>100</quantmax>
         <cost>100</cost>
@@ -361,10 +365,10 @@
         <usage name="Firefighter"/>
     </type>
     <type name="AMS_GasMaskGP7B">
-        <nominal>10</nominal>
+        <nominal>5</nominal>
         <lifetime>28800</lifetime>
         <restock>0</restock>
-        <min>8</min>
+        <min>4</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -374,10 +378,10 @@
         <usage name="Firefighter"/>
     </type>
     <type name="AMS_GasMaskGP7B_Filter">
-        <nominal>8</nominal>
+        <nominal>5</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
-        <min>7</min>
+        <min>3</min>
         <quantmin>20</quantmin>
         <quantmax>100</quantmax>
         <cost>100</cost>
