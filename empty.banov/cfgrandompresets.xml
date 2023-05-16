@@ -246,13 +246,11 @@
 				<item name="RGD5Grenade" chance="0.25" />
 		</cargo>
 		<attachments chance="0.15" name="pistol_optics">
-				<item name="FNP45_MRDSOptic" chance="0.25" />
-				<item name="BO_Holosun_HS507C" chance="0.25"/>
-				<item name="BO_RMR_Black" chance="0.25" />
-				<item name="BO_RMR_FDE" chance="0.25" />
+				<item name="FNP45_MRDSOptic" chance="1.00" />
 		</attachments>
 		<attachments chance="0.60" name="close_range_optics">
 				<item name="BO_Holosun_HS510C_Optic" chance="0.125" />
+				<item name="BO_Holosun_HS507C" chance="0.125"/>
 				<item name="BO_VortexAMG_UH1_Optic" chance="0.125" />
 				<item name="BO_RMR_Black" chance="0.125" />
 				<item name="BO_RMR_FDE" chance="0.125" />
@@ -421,17 +419,17 @@
 				<item name="TaloonBag_Blue" chance="0.10" />
 				<item name="TaloonBag_Violet" chance="0.10" />
 				<item name="TaloonBag_Green" chance="0.10" />
-				<item name="TaloonBag_Black" chance="0.10" />
+				<item name="TaloonBag_Black" chance="0.05" />
 				<item name="TaloonBag_Red" chance="0.10" />
 				<item name="TaloonBag_Yellow" chance="0.10" />
-				<item name="TaloonBag_Woodland" chance="0.10" />
-				<item name="TaloonBag_Navy" chance="0.10" />
-				<item name="Canvas_Backpack_Base" chance="0.10" />
-				<item name="Canvas_Backpack_Black" chance="0.10" />
-				<item name="Canvas_Backpack_White" chance="0.10" />
-				<item name="Canvas_Backpack_Red" chance="0.10" />
-				<item name="Canvas_Backpack_Blue" chance="0.10" />
-				<item name="Canvas_Backpack_Purple" chance="0.10" />
+				<item name="TaloonBag_Woodland" chance="0.05" />
+				<item name="TaloonBag_Navy" chance="0.05" />
+				<item name="Canvas_Backpack_Base" chance="0.05" />
+				<item name="Canvas_Backpack_Black" chance="0.03" />
+				<item name="Canvas_Backpack_White" chance="0.05" />
+				<item name="Canvas_Backpack_Red" chance="0.05" />
+				<item name="Canvas_Backpack_Blue" chance="0.02" />
+				<item name="Canvas_Backpack_Purple" chance="0.05" />
 		</attachments>
 		<attachments chance="0.30" name="hatsCitySkate">
 				<item name="SkateHelmet_Blue" chance="0.20" />
@@ -483,45 +481,45 @@
 
 		<!--ARMY ATTACHMENTS-->
 		<attachments chance="0.80" name="hatsArmy">
-			<item name="TankerHelmet" chance="0.1" />
-			<item name="ZSh3PilotHelmet" chance="0.1" />
-			<item name="MMG_tactical_helmet_green" chance="0.2" />
-			<item name="MMG_tactical_helmet_multicam_tropic" chance="0.2" />
+			<item name="TankerHelmet" chance="0.25" />
+			<item name="ZSh3PilotHelmet" chance="0.25" />
+			<item name="MMG_tactical_helmet_green" chance="0.25" />
+			<item name="MMG_tactical_helmet_multicam_tropic" chance="0.25" />
 		</attachments>
 		<attachments chance="0.00" name="glassesArmy"> <!--was chance="0.10"; removed coz of attachment slot is missing -->
 				<item name="TacticalGoggles" chance="0.10" />
 				<item name="AviatorGlasses" chance="0.25" />
 		</attachments>
 		<attachments chance="1.00" name="vestsArmy">
-			<item name="MMG_chestrig_green" chance="0.05" />
-			<item name="MMG_chestrig_multicam_tropic" chance="0.05" />
-			<item name="MMG_JPC_Vest_green" chance="0.05" />
-			<item name="MMG_JPC_Vest_multicam_tropic" chance="0.05" />
+			<item name="MMG_chestrig_green" chance="0.25" />
+			<item name="MMG_chestrig_multicam_tropic" chance="0.25" />
+			<item name="MMG_JPC_Vest_green" chance="0.2" />
+			<item name="MMG_JPC_Vest_multicam_tropic" chance="0.2" />
 			<item name="MMG_tt_Vest_green" chance="0.05" />
 			<item name="MMG_tt_Vest_multicam_tropic" chance="0.05" />
 		</attachments>
 		<attachments chance="0.15" name="bagsArmy">
-			<item name="MMG_assault_pack_green" chance="0.07" />
-			<item name="MMG_assault_pack_multicam_tropic" chance="0.06" />
-			<item name="MMG_carrier_backpack_green" chance="0.05" />
-			<item name="MMG_carrier_backpack_multicam_tropic" chance="0.05" />
-			<item name="MMG_camelback_green" chance="0.03" />
-			<item name="MMG_camelback_multicam_tropic" chance="0.03" />
-			<item name="MMG_supplybag_green" chance="0.02" />
+			<item name="MMG_assault_pack_green" chance="0.25" />
+			<item name="MMG_assault_pack_multicam_tropic" chance="0.25" />
+			<item name="MMG_carrier_backpack_green" chance="0.125" />
+			<item name="MMG_carrier_backpack_multicam_tropic" chance="0.125" />
+			<item name="MMG_camelback_green" chance="0.1" />
+			<item name="MMG_camelback_multicam_tropic" chance="0.1" />
+			<item name="MMG_supplybag_green" chance="0.03" />
 			<item name="MMG_supplybag_multicam_tropic" chance="0.02" />
 		</attachments>
 		<attachments chance="1.00" name="HeavyArmorArmy">
-			<item name="MMG_tt_Vest_green" chance="0.09" />
-			<item name="MMG_tt_Vest_multicam_tropic" chance="0.08" />
-			<item name="MMG_MK_III_Armor_green" chance="0.05" />
-			<item name="MMG_MK_III_Armor_multicam_tropic" chance="0.05" />
-			<item name="MMG_MK_V_Armor_green" chance="0.04" />
-			<item name="MMG_MK_V_Armor_multicam_tropic" chance="0.03" />
+			<item name="MMG_tt_Vest_green" chance="0.25" />
+			<item name="MMG_tt_Vest_multicam_tropic" chance="0.25" />
+			<item name="MMG_MK_III_Armor_green" chance="0.2" />
+			<item name="MMG_MK_III_Armor_multicam_tropic" chance="0.2" />
+			<item name="MMG_MK_V_Armor_green" chance="0.05" />
+			<item name="MMG_MK_V_Armor_multicam_tropic" chance="0.05" />
 		</attachments>
 		<attachments chance="1.00" name="HeavyHelmetArmy">
-			<item name="MMG_striker_helmet_green" chance="0.12" />
-			<item name="MMG_striker_helmet_multicam_tropic" chance="0.11" />
-			<item name="mmg_armored_helmet_green" chance="0.10" />
+			<item name="MMG_striker_helmet_green" chance="0.4" />
+			<item name="MMG_striker_helmet_multicam_tropic" chance="0.4" />
+			<item name="mmg_armored_helmet_green" chance="0.20" />
 		</attachments>
 		<attachments chance="1.00" name="OfficerHatArmy">
 				<item name="OfficerHat" chance="1.00" />
