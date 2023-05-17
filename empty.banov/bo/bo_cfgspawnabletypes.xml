@@ -144,7 +144,7 @@
 		<attachments chance="0.10">
 			<item name="BO_LegionSuppressor_Black" chance="1.00" />
 		</attachments>
-		<attachments preset="ar_optics" />
+		<attachments preset="ar_300optics" />
 		<attachments chance="0.60">
 			<item name="BO_Mag_PMAG300_30rnd" chance="1.00" />
 		</attachments>
@@ -743,7 +743,7 @@
 		</attachments>
 	</type>
 	<type name="BO_HoneyBadger">
-		<attachments preset="ar_optics" />
+		<attachments preset="ar_300optics" />
 		<attachments chance="0.60">
 			<item name="BO_Mag_PMAG300_30rnd" chance="1.00" />
 		</attachments>

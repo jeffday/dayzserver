@@ -243,10 +243,10 @@
         <usage name="Military"/>
     </type>
     <type name="AMS_NBCPouch">
-        <nominal>2</nominal>
+        <nominal>0</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
-        <min>1</min>
+        <min>0</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -282,7 +282,7 @@
         <category name="tools"/>
         <tag name="floor"/>
         <usage name="Military"/>
-                <usage name="Firefighter"/>
+        <usage name="Firefighter"/>
         <usage name="Medic"/>
     </type>
     <type name="AMS_Whistle">
