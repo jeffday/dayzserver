@@ -952,13 +952,13 @@
 		</attachments>
 	</type>
 	<type name="BO_MDR_Black">
-		<attachments preset="long_range_scopes" />
+		<attachments preset="ar_optics" />
 		<attachments chance="0.60">
 			<item name="BO_Mag_PMAG_30rnd" chance="1.00" />
 		</attachments>
 	</type>
 	<type name="BO_MDR_Tan">
-		<attachments preset="long_range_scopes" />
+		<attachments preset="ar_optics" />
 		<attachments chance="0.60">
 			<item name="BO_Mag_PMAG_Tan_30rnd" chance="1.00" />
 		</attachments>
@@ -999,15 +999,15 @@
 		</attachments>
 	</type>
 	<type name="BO_M40A1">
-		<attachments preset="dmr_optics" />
+		<attachments preset="long_range_scopes" />
 		<attachments preset="fal" />
 	</type>
 	<type name="BO_M40A1_Green">
-		<attachments preset="dmr_optics" />
+		<attachments preset="long_range_scopes" />
 		<attachments preset="fal" />
 	</type>
 	<type name="BO_M40A1_Digital">
-		<attachments preset="dmr_optics" />
+		<attachments preset="long_range_scopes" />
 		<attachments preset="fal" />
 	</type>
 	<type name="BO_SVU">
