@@ -44,19 +44,19 @@
         <zone name="InfectedReligious" smin="0" smax="0" dmin="1" dmax="2" x="8888.57" z="2787.86" r="50"/>
     </territory>
     <territory color="2567342848">
-        <zone name="InfectedArmy" smin="0" smax="0" dmin="3" dmax="6" x="8106.67" z="9886.67" r="100"/>
-        <zone name="InfectedArmy" smin="0" smax="0" dmin="1" dmax="2" x="7721.9" z="8985.32" r="50"/>
-        <zone name="InfectedArmy" smin="0" smax="0" dmin="5" dmax="8" x="8332.79" z="9981.04" r="50"/>
-        <zone name="InfectedArmy" smin="0" smax="0" dmin="3" dmax="6" x="12306.1" z="15042.4" r="50"/>
-        <zone name="InfectedArmy" smin="0" smax="0" dmin="4" dmax="6" x="914.857" z="8979.29" r="50"/>
-        <zone name="InfectedArmy" smin="0" smax="0" dmin="5" dmax="8" x="2053.75" z="11672" r="50"/>
-        <zone name="InfectedArmy" smin="0" smax="0" dmin="5" dmax="8" x="2055" z="12071.3" r="50"/>
-        <zone name="InfectedArmy" smin="0" smax="0" dmin="5" dmax="8" x="1968.75" z="11555" r="50"/>
-        <zone name="InfectedArmy" smin="0" smax="0" dmin="1" dmax="2" x="12200.6" z="14806.9" r="50"/>
-        <zone name="InfectedArmy" smin="0" smax="0" dmin="1" dmax="2" x="12065.6" z="14808.8" r="50"/>
-        <zone name="InfectedArmy" smin="0" smax="0" dmin="1" dmax="2" x="11853.8" z="14803.1" r="50"/>
-        <zone name="InfectedArmy" smin="0" smax="0" dmin="1" dmax="5" x="11806.9" z="15082.5" r="50"/>
-        <zone name="InfectedArmy" smin="0" smax="0" dmin="1" dmax="2" x="9659.14" z="3746.57" r="50"/>
+        <zone name="InfectedArmy" smin="0" smax="0" dmin="3" dmax="6" x="8106.67" z="9886.67" r="100"/> <!-- overgrown military, center -->
+        <zone name="InfectedArmy" smin="0" smax="0" dmin="1" dmax="2" x="7721.9" z="8985.32" r="50"/> <!-- overgrown military tunnel entrance -->
+        <zone name="InfectedArmy" smin="0" smax="0" dmin="5" dmax="8" x="8332.79" z="9981.04" r="50"/> <!-- overgrown military, hospital area -->
+        <zone name="InfectedArmy" smin="0" smax="0" dmin="3" dmax="6" x="12306.1" z="15042.4" r="50"/> <!-- military tisovik, northwest area -->
+        <zone name="InfectedArmy" smin="0" smax="0" dmin="4" dmax="6" x="914.857" z="8979.29" r="50"/> <!-- happybombs compound -->
+        <zone name="InfectedArmy" smin="0" smax="0" dmin="5" dmax="8" x="2053.75" z="11672" r="50"/> <!-- hrabice airport center tents -->
+        <zone name="InfectedArmy" smin="0" smax="0" dmin="5" dmax="8" x="2055" z="12071.3" r="50"/> <!-- hrabice airport grass behind center hangars -->
+        <zone name="InfectedArmy" smin="0" smax="0" dmin="5" dmax="8" x="1968.75" z="11555" r="50"/> <!-- hrabice airpot grass across from hospital -->
+        <zone name="InfectedArmy" smin="0" smax="0" dmin="1" dmax="2" x="12200.6" z="14806.9" r="50"/> <!-- military tisovik next to radar building -->
+        <zone name="InfectedArmy" smin="0" smax="0" dmin="1" dmax="2" x="12065.6" z="14808.8" r="50"/> <!-- center military tisovik -->
+        <zone name="InfectedArmy" smin="0" smax="0" dmin="1" dmax="2" x="11853.8" z="14803.1" r="50"/> <!-- military tisovik service hangar -->
+        <zone name="InfectedArmy" smin="0" smax="0" dmin="1" dmax="5" x="11806.9" z="15082.5" r="50"/> <!-- military tisovik north tents -->
+        <zone name="InfectedArmy" smin="0" smax="0" dmin="1" dmax="2" x="9659.14" z="3746.57" r="50"/> <!-- lean -->
     </territory>
     <territory color="4289244426">
         <zone name="InfectedCity" smin="0" smax="0" dmin="2" dmax="4" x="7135.71" z="1461.43" r="50"/>
@@ -179,35 +179,35 @@
         <zone name="InfectedIndustrial" smin="0" smax="0" dmin="1" dmax="2" x="5832.35" z="945.882" r="50"/>
     </territory>
     <territory color="872349696">
-        <zone name="InfectedArmyHard" smin="0" smax="0" dmin="2" dmax="4" x="6108" z="1212" r="50"/>
-        <zone name="InfectedArmyHard" smin="0" smax="0" dmin="2" dmax="3" x="12157.1" z="14907.4" r="50"/>
-        <zone name="InfectedArmyHard" smin="0" smax="0" dmin="2" dmax="3" x="320" z="5948.33" r="50"/>
-        <zone name="InfectedArmyHard" smin="0" smax="0" dmin="2" dmax="3" x="1256.45" z="7293.29" r="50"/>
-        <zone name="InfectedArmyHard" smin="0" smax="0" dmin="1" dmax="2" x="2302.1" z="4940.16" r="50"/>
-        <zone name="InfectedArmyHard" smin="0" smax="0" dmin="2" dmax="4" x="1893.32" z="11444.9" r="50"/>
-        <zone name="InfectedArmyHard" smin="0" smax="0" dmin="2" dmax="4" x="4842.64" z="4989.69" r="50"/>
-        <zone name="InfectedArmyHard" smin="0" smax="0" dmin="2" dmax="4" x="4900.3" z="4669.94" r="50"/>
-        <zone name="InfectedArmyHard" smin="0" smax="0" dmin="1" dmax="2" x="8175" z="9720.83" r="50"/>
-        <zone name="InfectedArmyHard" smin="0" smax="0" dmin="1" dmax="2" x="2200.71" z="11780.1" r="50"/>
-        <zone name="InfectedArmyHard" smin="0" smax="0" dmin="1" dmax="2" x="1760.49" z="11423.7" r="50"/>
-        <zone name="InfectedArmyHard" smin="0" smax="0" dmin="1" dmax="2" x="1912.63" z="11998.9" r="50"/>
-        <zone name="InfectedArmyHard" smin="0" smax="0" dmin="1" dmax="2" x="4672.24" z="3291.6" r="50"/>
-        <zone name="InfectedArmyHard" smin="0" smax="0" dmin="2" dmax="4" x="855" z="8985" r="50"/>
-        <zone name="InfectedArmyHard" smin="0" smax="0" dmin="2" dmax="3" x="4246.15" z="14376.9" r="50"/>
-        <zone name="InfectedArmyHard" smin="0" smax="0" dmin="1" dmax="2" x="11794.6" z="10975.4" r="50"/>
-        <zone name="InfectedArmyHard" smin="0" smax="0" dmin="1" dmax="2" x="2194.8" z="11415.6" r="50"/>
-        <zone name="InfectedArmyHard" smin="0" smax="0" dmin="1" dmax="2" x="2208" z="12066" r="50"/>
-        <zone name="InfectedArmyHard" smin="0" smax="0" dmin="1" dmax="2" x="1923.6" z="12184.8" r="50"/>
-        <zone name="InfectedArmyHard" smin="0" smax="0" dmin="1" dmax="2" x="13300.5" z="11592" r="50"/>
-        <zone name="InfectedArmyHard" smin="0" smax="0" dmin="1" dmax="2" x="1760.77" z="752.308" r="50"/>
-        <zone name="InfectedArmyHard" smin="0" smax="0" dmin="1" dmax="2" x="14889.4" z="615.882" r="50"/>
-        <zone name="InfectedArmyHard" smin="0" smax="0" dmin="2" dmax="3" x="12001.9" z="14906.3" r="50"/>
-        <zone name="InfectedArmyHard" smin="0" smax="0" dmin="1" dmax="2" x="12556.9" z="14662.5" r="50"/>
-        <zone name="InfectedArmyHard" smin="0" smax="0" dmin="1" dmax="2" x="11913.3" z="8981.67" r="50"/>
-        <zone name="InfectedArmyHard" smin="0" smax="0" dmin="1" dmax="2" x="11951.7" z="9036.67" r="50"/>
-        <zone name="InfectedArmyHard" smin="0" smax="0" dmin="4" dmax="5" x="11484.4" z="11889.7" r="50"/>
-        <zone name="InfectedArmyHard" smin="0" smax="0" dmin="2" dmax="4" x="2599.09" z="11359.1" r="50"/>
-        <zone name="InfectedArmyHard" smin="0" smax="0" dmin="1" dmax="2" x="11469" z="11853" r="50"/>
+        <zone name="InfectedArmyHard" smin="0" smax="0" dmin="2" dmax="4" x="6108" z="1212" r="50"/> <!-- banovce nad bebravou southwest military stadium area -->
+        <zone name="InfectedArmyHard" smin="0" smax="0" dmin="2" dmax="3" x="12157.1" z="14907.4" r="50"/> <!-- military tisovik barracks -->
+        <zone name="InfectedArmyHard" smin="0" smax="0" dmin="2" dmax="3" x="320" z="5948.33" r="50"/> <!-- lambo s2n military -->
+        <zone name="InfectedArmyHard" smin="0" smax="0" dmin="2" dmax="3" x="1256.45" z="7293.29" r="50"/> <!-- watchtower southwest of hornany -->
+        <zone name="InfectedArmyHard" smin="0" smax="0" dmin="1" dmax="2" x="2302.1" z="4940.16" r="50"/> <!-- prison veronika -->
+        <zone name="InfectedArmyHard" smin="0" smax="0" dmin="2" dmax="4" x="1893.32" z="11444.9" r="50"/> <!-- hrabice airport southwest hangars -->
+        <zone name="InfectedArmyHard" smin="0" smax="0" dmin="2" dmax="4" x="4842.64" z="4989.69" r="50"/> <!-- alica airport service hangar -->
+        <zone name="InfectedArmyHard" smin="0" smax="0" dmin="2" dmax="4" x="4900.3" z="4669.94" r="50"/> <!-- alica airport south office  -->
+        <zone name="InfectedArmyHard" smin="0" smax="0" dmin="1" dmax="2" x="8175" z="9720.83" r="50"/> <!-- overgrown military south fenced compound -->
+        <zone name="InfectedArmyHard" smin="0" smax="0" dmin="1" dmax="2" x="2200.71" z="11780.1" r="50"/> <!-- hrabice airport east mil office -->
+        <zone name="InfectedArmyHard" smin="0" smax="0" dmin="1" dmax="2" x="1760.49" z="11423.7" r="50"/> <!-- hrabice airport southwest barracks -->
+        <zone name="InfectedArmyHard" smin="0" smax="0" dmin="1" dmax="2" x="1912.63" z="11998.9" r="50"/> <!-- hrabice airport service hangar -->
+        <zone name="InfectedArmyHard" smin="0" smax="0" dmin="1" dmax="2" x="4672.24" z="3291.6" r="50"/> <!-- home ozorovce south entrance -->
+        <zone name="InfectedArmyHard" smin="0" smax="0" dmin="2" dmax="4" x="855" z="8985" r="50"/> <!-- happybombs -->
+        <zone name="InfectedArmyHard" smin="0" smax="0" dmin="2" dmax="3" x="4246.15" z="14376.9" r="50"/> <!-- military obsidian -->
+        <zone name="InfectedArmyHard" smin="0" smax="0" dmin="1" dmax="2" x="11794.6" z="10975.4" r="50"/> <!-- watchtower southwest of ksinna -->
+        <zone name="InfectedArmyHard" smin="0" smax="0" dmin="1" dmax="2" x="2194.8" z="11415.6" r="50"/> <!-- hrabice airport southeast cargo containers -->
+        <zone name="InfectedArmyHard" smin="0" smax="0" dmin="1" dmax="2" x="2208" z="12066" r="50"/> <!-- hrabice airport northeast barracks -->
+        <zone name="InfectedArmyHard" smin="0" smax="0" dmin="1" dmax="2" x="1923.6" z="12184.8" r="50"/> <!-- hrabice airport northwest large garages -->
+        <zone name="InfectedArmyHard" smin="0" smax="0" dmin="1" dmax="2" x="13300.5" z="11592" r="50"/> <!-- r.a.b.b.i.t. -->
+        <zone name="InfectedArmyHard" smin="0" smax="0" dmin="1" dmax="2" x="1760.77" z="752.308" r="50"/> <!-- green camp -->
+        <zone name="InfectedArmyHard" smin="0" smax="0" dmin="1" dmax="2" x="14889.4" z="615.882" r="50"/> <!-- sumrak -->
+        <zone name="InfectedArmyHard" smin="0" smax="0" dmin="2" dmax="3" x="12001.9" z="14906.3" r="50"/> <!-- military tisovik barracks -->
+        <zone name="InfectedArmyHard" smin="0" smax="0" dmin="1" dmax="2" x="12556.9" z="14662.5" r="50"/> <!-- military tisovik shooting range -->
+        <zone name="InfectedArmyHard" smin="0" smax="0" dmin="1" dmax="2" x="11913.3" z="8981.67" r="50"/> <!-- huntsmen complex north barracks -->
+        <zone name="InfectedArmyHard" smin="0" smax="0" dmin="1" dmax="2" x="11951.7" z="9036.67" r="50"/> <!-- huntsmen complex south barracks -->
+        <zone name="InfectedArmyHard" smin="0" smax="0" dmin="4" dmax="5" x="11484.4" z="11889.7" r="50"/> <!-- area 4 entrance -->
+        <zone name="InfectedArmyHard" smin="0" smax="0" dmin="2" dmax="4" x="2599.09" z="11359.1" r="50"/> <!-- hrabice airport southwest compound that's up a hill -->
+        <zone name="InfectedArmyHard" smin="0" smax="0" dmin="1" dmax="2" x="11469" z="11853" r="50"/> <!-- area 4 entrance -->
     </territory>
     <territory color="1136576269">
         <zone name="InfectedCity" smin="0" smax="0" dmin="5" dmax="10" x="11649" z="4110" r="100"/>
