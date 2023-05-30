@@ -1157,7 +1157,7 @@
         <usage name="Military"/>
     </type>
     <type name="BO_SIG552">
-		<nominal>3</nominal>
+		<nominal>5</nominal>
         <lifetime>7200</lifetime>
         <restock>300</restock>
 		<min>2</min>
@@ -1169,6 +1169,7 @@
 		<usage name="Military" />
 		<value name="Tier2" />
 		<value name="Tier3" />
+        <value name="Tier4" />
     </type>
     <type name="BO_Mag_SIG552_30rnd">
 		<nominal>5</nominal>
@@ -1181,9 +1182,9 @@
 		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
 		<category name="weapons" />
 		<usage name="Military" />
-        <value name="Tier1" />
 		<value name="Tier2" />
 		<value name="Tier3" />
+        <value name="Tier4" />
     </type>
     <type name="BO_PPSh">
         <nominal>0</nominal>
@@ -2906,6 +2907,7 @@
         <usage name="Military"/>
         <value name="Tier2"/>
         <value name="Tier3"/>
+        <value name="Tier4" />
     </type>
     <type name="BO_TAR21">
         <nominal>3</nominal>
@@ -3141,6 +3143,7 @@
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="weapons"/>
         <usage name="Military"/>
+        <value name="Tier1"/>
         <value name="Tier2"/>
         <value name="Tier3"/>
     </type>
@@ -3155,6 +3158,7 @@
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="weapons"/>
         <usage name="Military"/>
+        <value name="Tier1"/>
         <value name="Tier2"/>
         <value name="Tier3"/>
     </type>
@@ -3169,8 +3173,9 @@
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
         <category name="weapons" />
         <usage name="Military" />
-        <value name="Tier2" />
-        <value name="Tier3" />
+        <value name="Tier1"/>
+        <value name="Tier2"/>
+        <value name="Tier3"/>
     </type>
     <type name="BO_MK23_Suppressor">
         <nominal>10</nominal>
