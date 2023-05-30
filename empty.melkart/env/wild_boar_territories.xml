@@ -14,20 +14,6 @@
         <zone name="Rest" smin="0" smax="0" dmin="0" dmax="0" x="9888.13" z="13894.8" r="60"/>
         <zone name="Water" smin="0" smax="0" dmin="0" dmax="0" x="9951.39" z="14062.3" r="67.5"/>
     </territory>
-    <territory color="2841534046">
-        <zone name="Graze" smin="0" smax="0" dmin="0" dmax="0" x="11150.1" z="12890.7" r="70"/>
-        <zone name="Water" smin="0" smax="0" dmin="0" dmax="0" x="11535.5" z="13015.9" r="60"/>
-        <zone name="Rest" smin="0" smax="0" dmin="0" dmax="0" x="11400.3" z="12990.9" r="60"/>
-        <zone name="Rest" smin="0" smax="0" dmin="0" dmax="0" x="11123.1" z="13028.8" r="60"/>
-        <zone name="Graze" smin="0" smax="0" dmin="0" dmax="0" x="11256" z="12986.3" r="60"/>
-    </territory>
-    <territory color="2841534046">
-        <zone name="Graze" smin="0" smax="0" dmin="0" dmax="0" x="10214.7" z="10023.4" r="60"/>
-        <zone name="Rest" smin="0" smax="0" dmin="0" dmax="0" x="10411" z="10108.5" r="60"/>
-        <zone name="Graze" smin="0" smax="0" dmin="0" dmax="0" x="10414.7" z="10262.9" r="60"/>
-        <zone name="Water" smin="0" smax="0" dmin="0" dmax="0" x="10073" z="9610.08" r="60"/>
-        <zone name="Rest" smin="0" smax="0" dmin="0" dmax="0" x="10083.4" z="9755.92" r="60"/>
-    </territory>
     <territory color="1207959552">
         <zone name="Graze" smin="0" smax="0" dmin="0" dmax="0" x="9696.67" z="12760" r="60"/>
         <zone name="Water" smin="0" smax="0" dmin="0" dmax="0" x="9756.67" z="13028.3" r="60"/>
@@ -36,18 +22,11 @@
         <zone name="Graze" smin="0" smax="0" dmin="0" dmax="0" x="9600" z="12657.5" r="60"/>
     </territory>
     <territory color="2841534046">
-        <zone name="Rest" smin="0" smax="0" dmin="0" dmax="0" x="8391.38" z="10017.5" r="105"/>
-        <zone name="Rest" smin="0" smax="0" dmin="0" dmax="0" x="8805.38" z="10017.5" r="90"/>
-        <zone name="Water" smin="0" smax="0" dmin="0" dmax="0" x="8995.38" z="9978.8" r="60"/>
-        <zone name="Graze" smin="0" smax="0" dmin="0" dmax="0" x="8638.13" z="10113.7" r="70"/>
-        <zone name="Graze" smin="0" smax="0" dmin="0" dmax="0" x="8536.38" z="10213.3" r="60"/>
-    </territory>
-    <territory color="1090519040">
-        <zone name="Graze" smin="0" smax="0" dmin="0" dmax="0" x="9999.73" z="10649.9" r="60"/>
-        <zone name="Water" smin="0" smax="0" dmin="0" dmax="0" x="10374.4" z="10868.5" r="60"/>
-        <zone name="Graze" smin="0" smax="0" dmin="0" dmax="0" x="10127" z="10674" r="60"/>
-        <zone name="Graze" smin="0" smax="0" dmin="0" dmax="0" x="9871" z="10794" r="60"/>
-        <zone name="Rest" smin="0" smax="0" dmin="0" dmax="0" x="10042" z="10798" r="80"/>
+        <zone name="Graze" smin="0" smax="0" dmin="0" dmax="0" x="11150.1" z="12890.7" r="70"/>
+        <zone name="Water" smin="0" smax="0" dmin="0" dmax="0" x="11535.5" z="13015.9" r="60"/>
+        <zone name="Rest" smin="0" smax="0" dmin="0" dmax="0" x="11400.3" z="12990.9" r="60"/>
+        <zone name="Rest" smin="0" smax="0" dmin="0" dmax="0" x="11123.1" z="13028.8" r="60"/>
+        <zone name="Graze" smin="0" smax="0" dmin="0" dmax="0" x="11256" z="12986.3" r="60"/>
     </territory>
     <territory color="2841534046">
         <zone name="Graze" smin="0" smax="0" dmin="0" dmax="0" x="9065.9" z="11755.2" r="60"/>
@@ -61,5 +40,26 @@
         <zone name="Graze" smin="0" smax="0" dmin="0" dmax="0" x="10589.8" z="12295.3" r="80"/>
         <zone name="Rest" smin="0" smax="0" dmin="0" dmax="0" x="10530.2" z="12473.5" r="70"/>
         <zone name="Water" smin="0" smax="0" dmin="0" dmax="0" x="10437.7" z="12591.5" r="60"/>
+    </territory>
+    <territory color="1090519040">
+        <zone name="Graze" smin="0" smax="0" dmin="0" dmax="0" x="9999.73" z="10649.9" r="60"/>
+        <zone name="Water" smin="0" smax="0" dmin="0" dmax="0" x="10374.4" z="10868.5" r="60"/>
+        <zone name="Graze" smin="0" smax="0" dmin="0" dmax="0" x="10127" z="10674" r="60"/>
+        <zone name="Graze" smin="0" smax="0" dmin="0" dmax="0" x="9871" z="10794" r="60"/>
+        <zone name="Rest" smin="0" smax="0" dmin="0" dmax="0" x="10042" z="10798" r="80"/>
+    </territory>
+    <territory color="2841534046">
+        <zone name="Graze" smin="0" smax="0" dmin="0" dmax="0" x="10214.7" z="10023.4" r="60"/>
+        <zone name="Rest" smin="0" smax="0" dmin="0" dmax="0" x="10411" z="10108.5" r="60"/>
+        <zone name="Graze" smin="0" smax="0" dmin="0" dmax="0" x="10414.7" z="10262.9" r="60"/>
+        <zone name="Water" smin="0" smax="0" dmin="0" dmax="0" x="10073" z="9610.08" r="60"/>
+        <zone name="Rest" smin="0" smax="0" dmin="0" dmax="0" x="10083.4" z="9755.92" r="60"/>
+    </territory>
+    <territory color="2841534046">
+        <zone name="Rest" smin="0" smax="0" dmin="0" dmax="0" x="8391.38" z="10017.5" r="105"/>
+        <zone name="Rest" smin="0" smax="0" dmin="0" dmax="0" x="8805.38" z="10017.5" r="90"/>
+        <zone name="Water" smin="0" smax="0" dmin="0" dmax="0" x="8995.38" z="9978.8" r="60"/>
+        <zone name="Graze" smin="0" smax="0" dmin="0" dmax="0" x="8638.13" z="10113.7" r="70"/>
+        <zone name="Graze" smin="0" smax="0" dmin="0" dmax="0" x="8536.38" z="10213.3" r="60"/>
     </territory>
 </territory-type>
