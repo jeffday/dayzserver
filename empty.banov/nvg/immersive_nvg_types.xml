@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <types>
     <type name="CJ_MilBattery_Black">
-        <nominal>5</nominal>
+        <nominal>15</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
-        <min>2</min>
+        <min>6</min>
         <quantmin>50</quantmin>
         <quantmax>100</quantmax>
         <cost>50</cost>
@@ -14,10 +14,10 @@
         <usage name="Military"/>
     </type>
     <type name="CJ_MilBattery_Green">
-        <nominal>5</nominal>
+        <nominal>0</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
-        <min>2</min>
+        <min>0</min>
         <quantmin>50</quantmin>
         <quantmax>100</quantmax>
         <cost>50</cost>
@@ -27,10 +27,10 @@
         <usage name="Military"/>
     </type>
     <type name="CJ_MilBattery_Tan">
-        <nominal>5</nominal>
+        <nominal>0</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
-        <min>2</min>
+        <min>0</min>
         <quantmin>50</quantmin>
         <quantmax>100</quantmax>
         <cost>50</cost>
