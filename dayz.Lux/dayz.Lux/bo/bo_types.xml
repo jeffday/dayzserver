@@ -380,7 +380,8 @@
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="weapons"/>
-        <usage name="ContaminatedArea"/>
+        <usage name="Military"/>
+		<value name="Tier5"/>
     </type>
     <type name="BO_BarrettM82Suppressor">
         <nominal>1</nominal>
@@ -392,7 +393,8 @@
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="weapons"/>
-        <usage name="ContaminatedArea"/>
+        <usage name="Military"/>
+		<value name="Tier5"/>
     </type>
     <type name="BO_MK12Suppressor">
         <nominal>0</nominal>
@@ -1406,7 +1408,8 @@
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="weapons"/>
-        <usage name="ContaminatedArea"/>
+        <usage name="Military"/>
+		<value name="Tier5"/>
     </type>
     <type name="BO_Mag_M300_7rnd">
         <nominal>3</nominal>
@@ -1641,7 +1644,8 @@
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="weapons"/>
-        <usage name="ContaminatedArea"/>
+        <usage name="Military"/>
+		<value name="Tier5"/>
     </type>
     <type name="BO_VR80">
         <nominal>5</nominal>
@@ -1790,7 +1794,8 @@
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="weapons"/>
-        <usage name="ContaminatedArea"/>
+        <usage name="Military"/>
+		<value name="Tier5"/>
     </type>
     <type name="BO_AlligatorSniper">
         <nominal>1</nominal>
@@ -3112,7 +3117,8 @@
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="weapons"/>
-        <usage name="ContaminatedArea"/>
+        <usage name="Military"/>
+		<value name="Tier5"/>
     </type>
     <type name="BO_M32_Tan">
         <nominal>0</nominal>
@@ -3135,7 +3141,8 @@
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="weapons"/>
-        <usage name="ContaminatedArea"/>
+        <usage name="Military"/>
+		<value name="Tier5"/>
     </type>
     <!-- Added 2.2 -->
     <type name="BO_MK23">
@@ -4070,7 +4077,8 @@
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="weapons"/>
-        <usage name="ContaminatedArea"/>
+        <usage name="Military"/>
+		<value name="Tier5"/>
     </type>
     <type name="BO_Mag_VSSK_5rnd">
         <nominal>4</nominal>
