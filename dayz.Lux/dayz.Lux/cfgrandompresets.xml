@@ -522,6 +522,13 @@
 		<attachments chance="1.00" name="OfficerHatArmy">
 			<item name="OfficerHat" chance="1.00" />
 		</attachments>
+		<attachments chance="1.00" name="BeretHatArmy">
+			<item name="MilitaryBeret_CDF" chance="0.2" />
+			<item name="MilitaryBeret_ChDKZ" chance="0.2" />
+			<item name="MilitaryBeret_NZ" chance="0.2" />
+			<item name="MilitaryBeret_Red" chance="0.2" />
+			<item name="MilitaryBeret_UN" chance="0.2" />
+		</attachments>
 		
 		<!--POLICE ATTACHMENTS-->
 		<attachments chance="0.80" name="hatsPolice">
