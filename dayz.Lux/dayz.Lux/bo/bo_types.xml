@@ -2933,7 +2933,7 @@
 		<value name="Tier3" />
     </type>
     <type name="BO_AA12">
-        <nominal>5</nominal>
+        <nominal>2</nominal>
         <lifetime>28800</lifetime>
         <restock>0</restock>
         <min>1</min>
@@ -2943,9 +2943,8 @@
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="weapons"/>
         <usage name="Military"/>
-		<value name="Tier1"/>
-        <value name="Tier2"/>
 		<value name="Tier3"/>
+        <value name="Tier4" />
     </type>
     <type name="BO_Mag_AA12_20rnd">
         <nominal>1</nominal>
@@ -3231,7 +3230,7 @@
 		<value name="Tier4"/>
     </type>
     <type name="BO_USAS12">
-        <nominal>5</nominal>
+        <nominal>2</nominal>
         <lifetime>28800</lifetime>
         <restock>0</restock>
         <min>1</min>
@@ -3241,9 +3240,8 @@
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="weapons"/>
         <usage name="Military"/>
-		<value name="Tier1"/>
-        <value name="Tier2"/>
 		<value name="Tier3"/>
+        <value name="Tier4" />
     </type>
     <type name="BO_Mag_USAS12_10rnd">
         <nominal>4</nominal>
@@ -3256,8 +3254,8 @@
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="weapons"/>
         <usage name="Military"/>
-        <value name="Tier1"/>
-        <value name="Tier2"/>
+		<value name="Tier3"/>
+        <value name="Tier4" />
     </type>
     <type name="BO_Mag_USAS12_20rnd">
         <nominal>1</nominal>
