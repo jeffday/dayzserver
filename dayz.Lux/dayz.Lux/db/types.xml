@@ -459,10 +459,10 @@
 		<usage name="Mine"/>
     </type>
     <type name="AlarmClock_Blue">
-        <nominal>4</nominal>
+        <nominal>0</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
-        <min>1</min>
+        <min>0</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -476,10 +476,10 @@
         <usage name="School"/>
     </type>
     <type name="AlarmClock_Green">
-        <nominal>4</nominal>
+        <nominal>0</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
-        <min>1</min>
+        <min>0</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -493,10 +493,10 @@
         <usage name="School"/>
     </type>
     <type name="AlarmClock_Red">
-        <nominal>4</nominal>
+        <nominal>0</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
-        <min>1</min>
+        <min>0</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -9610,10 +9610,10 @@
         <usage name="Military"/>
     </type>
     <type name="KashtanOptic">
-        <nominal>10</nominal>
+        <nominal>5</nominal>
         <lifetime>28800</lifetime>
         <restock>1800</restock>
-        <min>5</min>
+        <min>2</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -9622,10 +9622,10 @@
         <usage name="Military"/>
     </type>
     <type name="KazuarOptic">
-        <nominal>6</nominal>
+        <nominal>3</nominal>
         <lifetime>28800</lifetime>
         <restock>3600</restock>
-        <min>2</min>
+        <min>1</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -9651,10 +9651,10 @@
         <usage name="Village"/>
     </type>
     <type name="KitchenTimer">
-        <nominal>10</nominal>
+        <nominal>0</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
-        <min>5</min>
+        <min>0</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -9665,10 +9665,10 @@
         <usage name="Village"/>
     </type>
     <type name="KobraOptic">
-        <nominal>15</nominal>
+        <nominal>10</nominal>
         <lifetime>14400</lifetime>
         <restock>1800</restock>
-        <min>8</min>
+        <min>4</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -12794,10 +12794,10 @@
 		<value name="Tier2"/>
     </type>
     <type name="PSO11Optic">
-        <nominal>8</nominal>
+        <nominal>4</nominal>
         <lifetime>28800</lifetime>
         <restock>1800</restock>
-        <min>3</min>
+        <min>2</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -12806,10 +12806,10 @@
         <usage name="Military"/>
     </type>
     <type name="PSO1Optic">
-        <nominal>15</nominal>
+        <nominal>10</nominal>
         <lifetime>14400</lifetime>
         <restock>1800</restock>
-        <min>8</min>
+        <min>4</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
