@@ -4,7 +4,6 @@
 	<territories>
 		<file path="env/cattle_territories.xml" />
 		<file path="env/sheep_goat_territories.xml" />
-		<file path="env/goat_territories.xml" />
 		<file path="env/red_deer_territories.xml" />
 		<file path="env/roe_deer_territories.xml" />
 		<file path="env/wild_boar_territories.xml" />
@@ -30,9 +29,11 @@
 		<territory type="Herd" name="WildBoar" behavior="DZDeerGroupBeh">
 			<file usable="wild_boar_territories" />
 		</territory>
+		<!--
 		<territory type="Herd" name="Sheep" behavior="DZSheepGroupBeh">
 			<file usable="sheep_goat_territories" />
 		</territory>
+		-->
 		<territory type="Herd" name="Goat" behavior="DZSheepGroupBeh">
 			<file usable="sheep_goat_territories" />
 		</territory>

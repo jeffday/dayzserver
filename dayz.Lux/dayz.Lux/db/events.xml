@@ -93,7 +93,7 @@
         </children>
     </event>
     <event name="AnimalGoat">
-        <nominal>8</nominal>
+        <nominal>2</nominal>
         <min>1</min>
         <max>3</max>
         <lifetime>180</lifetime>
@@ -113,7 +113,7 @@
         </children>
     </event>
     <event name="AnimalPig">
-        <nominal>4</nominal>
+        <nominal>2</nominal>
         <min>1</min>
         <max>3</max>
         <lifetime>180</lifetime>
@@ -166,7 +166,7 @@
         </children>
     </event>
     <event name="AnimalWildBoar">
-        <nominal>9</nominal>
+        <nominal>12</nominal>
         <min>1</min>
         <max>3</max>
         <lifetime>180</lifetime>
@@ -183,7 +183,7 @@
         </children>
     </event>
     <event name="AnimalWolf">
-        <nominal>11</nominal>
+        <nominal>16</nominal>
         <min>5</min>
         <max>7</max>
         <lifetime>180</lifetime>
@@ -244,7 +244,7 @@
         </children>
     </event>
     <event name="InfectedArmyHard">
-        <nominal>10</nominal>
+        <nominal>15</nominal>
         <min>5</min>
         <max>25</max>
         <lifetime>3</lifetime>
@@ -436,7 +436,7 @@
         </children>
     </event>
     <event name="InfectedNBC">
-        <nominal>50</nominal>
+        <nominal>30</nominal>
         <min>25</min>
         <max>250</max>
         <lifetime>3</lifetime>
@@ -453,7 +453,7 @@
         </children>
     </event>
     <event name="InfectedNBCYellow">
-        <nominal>50</nominal>
+        <nominal>30</nominal>
         <min>25</min>
         <max>250</max>
         <lifetime>3</lifetime>
@@ -592,7 +592,7 @@
         </children>
     </event>
     <event name="InfectedVillage">
-        <nominal>30</nominal>
+        <nominal>35</nominal>
         <min>15</min>
         <max>100</max>
         <lifetime>3</lifetime>
@@ -928,7 +928,7 @@
         </children>
     </event>
     <event name="VehicleCivilianSedan">
-        <nominal>3</nominal>
+        <nominal>4</nominal>
         <min>2</min>
         <max>4</max>
         <lifetime>300</lifetime>
@@ -947,7 +947,7 @@
         </children>
     </event>
     <event name="VehicleHatchback02">
-        <nominal>3</nominal>
+        <nominal>4</nominal>
         <min>2</min>
         <max>4</max>
         <lifetime>300</lifetime>
@@ -966,7 +966,7 @@
         </children>
     </event>
     <event name="VehicleOffroad02">
-        <nominal>3</nominal>
+        <nominal>4</nominal>
         <min>2</min>
         <max>3</max>
         <lifetime>300</lifetime>
@@ -983,7 +983,7 @@
         </children>
     </event>
     <event name="VehicleOffroadHatchback">
-        <nominal>3</nominal>
+        <nominal>4</nominal>
         <min>2</min>
         <max>4</max>
         <lifetime>300</lifetime>
@@ -1002,7 +1002,7 @@
         </children>
     </event>
     <event name="VehicleSedan02">
-        <nominal>3</nominal>
+        <nominal>4</nominal>
         <min>2</min>
         <max>4</max>
         <lifetime>300</lifetime>
