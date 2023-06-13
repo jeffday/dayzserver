@@ -437,7 +437,6 @@
 		<usage name="Industrial" />
 		<container name="lootfloor" lootmax="2">
 			<category name="tools" />
-			<category name="vehiclesparts" />
 			<category name="containers" />
 			<point pos="1.331430 -1.687598 -0.006109" range="1.00" height="1.00" />
 			<point pos="-1.443570 -1.687598 -0.006109" range="1.00" height="1.00" />
@@ -447,7 +446,6 @@
 		<usage name="Industrial" />
 		<container name="lootfloor" lootmax="2">
 			<category name="tools" />
-			<category name="vehiclesparts" />
 			<category name="containers" />
 			<point pos="1.331430 -1.687598 -0.006109" range="1.00" height="1.00" />
 			<point pos="-1.443570 -1.687598 -0.006109" range="1.00" height="1.00" />
@@ -732,7 +730,6 @@
 			<category name="containers" />
 			<category name="clothes" />
 			<category name="tools" />
-			<category name="vehiclesparts"/>
 			<tag name="floor" />
 			<tag name="ground"/>
 			<point pos="13.783766 -6.852306 -18.265139" range="1.00" height="1.00" />
@@ -761,7 +758,6 @@
 			<category name="containers" />
 			<category name="clothes" />
 			<category name="tools" />
-			<category name="vehiclesparts"/>
 			<tag name="floor" />
 			<tag name="ground"/>
 			<point pos="-4.490563 -4.843684 14.778252" range="1.00" height="1.00" />
@@ -807,7 +803,6 @@
 			<category name="containers" />
 			<category name="clothes" />
 			<category name="tools" />
-			<category name="vehiclesparts"/>
 			<tag name="floor" />
 			<tag name="ground"/>
 			<point pos="-3.767234 -10.830811 18.902750" range="1.50" height="1.50" />
@@ -1072,7 +1067,6 @@
 		<container name="lootFloor" lootmax="6">
 			<category name="tools" />
 			<category name="containers" />
-			<category name="vehiclesparts"/>
 			<tag name="floor" />
 			<tag name="ground" />
 			<point pos="-13.881082 -4.120716 0.394457" range="2.00" height="2.00" />
