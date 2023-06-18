@@ -11069,6 +11069,7 @@
         <usage name="Hunting"/>
         <value name="Tier2"/>
         <value name="Tier3"/>
+        <value name="Tier4"/>
     </type>
     <type name="Mag_CZ61_20Rnd">
         <nominal>15</nominal>
@@ -11110,10 +11111,10 @@
         <usage name="Town"/>
     </type>
     <type name="Mag_FAL_20Rnd">
-        <nominal>10</nominal>
+        <nominal>0</nominal>
         <lifetime>28800</lifetime>
         <restock>1800</restock>
-        <min>5</min>
+        <min>0</min>
         <quantmin>5</quantmin>
         <quantmax>50</quantmax>
         <cost>100</cost>
@@ -11123,7 +11124,7 @@
         <value name="Tier5"/>
     </type>
     <type name="Mag_FAMAS_25Rnd">
-        <nominal>12</nominal>
+        <nominal>8</nominal>
         <lifetime>28800</lifetime>
         <restock>1800</restock>
         <min>5</min>
@@ -11311,7 +11312,7 @@
 		<value name="Tier5"/>
     </type>
     <type name="Mag_SVD_10Rnd">
-        <nominal>4</nominal>
+        <nominal>5</nominal>
         <lifetime>28800</lifetime>
         <restock>3600</restock>
         <min>2</min>
@@ -11348,8 +11349,8 @@
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="weapons"/>
         <usage name="Military"/>
-        <value name="Tier1"/>
         <value name="Tier2"/>
+        <value name="Tier3"/>
     </type>
     <type name="Mag_Saiga_Drum20Rnd">
         <nominal>15</nominal>
@@ -11362,9 +11363,6 @@
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="1" crafted="0" deloot="1"/>
         <category name="weapons"/>
         <usage name="Military"/>
-		<value name="Tier2"/>
-		<value name="Tier3"/>
-		<value name="Tier4"/>
     </type>
     <type name="Mag_Scout_5Rnd">
         <nominal>15</nominal>
@@ -11378,8 +11376,8 @@
         <category name="weapons"/>
         <category name="weapons"/>
         <usage name="Military"/>
+        <value name="Tier2"/>
 		<value name="Tier3"/>
-		<value name="Tier4"/>
     </type>
     <type name="Mag_UMP_25Rnd">
         <nominal>20</nominal>
@@ -14812,18 +14810,18 @@
         <category name="food"/>
     </type>
     <type name="Scout">
-        <nominal>10</nominal>
+        <nominal>5</nominal>
         <lifetime>28800</lifetime>
         <restock>0</restock>
-        <min>5</min>
+        <min>2</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="weapons"/>
         <usage name="Military"/>
-        <value name="Tier3"/>
-		<value name="Tier4"/>
+        <value name="Tier2"/>
+		<value name="Tier3"/>
     </type>
     <type name="Scout_Chernarus">
         <nominal>0</nominal>

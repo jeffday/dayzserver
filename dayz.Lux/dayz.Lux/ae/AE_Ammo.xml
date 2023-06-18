@@ -79,7 +79,6 @@
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="weapons"/>
         <usage name="Hunting"/>
-        <value name="Tier2"/>
         <value name="Tier3"/>
         <value name="Tier4"/>				
     </type>
@@ -94,7 +93,8 @@
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="weapons"/>
         <usage name="Military"/>		
-        <value name="Tier4"/>				
+        <value name="Tier4"/>
+        <value name="Tier5"/>					
     </type>
 	<type name="AE_AmmoBox_50AE_20Rnd">
         <nominal>0</nominal>
@@ -138,7 +138,9 @@
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="weapons"/>
-        <usage name="Military"/>		
+        <usage name="Military"/>
+        <value name="Tier4"/>
+        <value name="Tier5"/>		
     </type>
 	<type name="AE_AmmoBox_408_20rnd">
         <nominal>3</nominal>
@@ -151,7 +153,7 @@
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="weapons"/>
         <usage name="Military"/>		
-        <value name="Tier4"/>				
+        <value name="Tier5"/>				
     </type>
 	<type name="Ammo_AE792x33">
         <nominal>0</nominal>
@@ -232,7 +234,8 @@
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="weapons"/>
         <usage name="Military"/>
-		<value name="Tier4"/>					
+		<value name="Tier4"/>
+        <value name="Tier5"/>					
     </type>
 	<type name="Ammo_AE792x57">
         <nominal>50</nominal>
@@ -247,7 +250,10 @@
         <tag name="shelves"/>
         <usage name="Farm"/>
         <usage name="Village"/>
-        <usage name="Hunting"/>			
+        <usage name="Hunting"/>
+        <value name="Tier2"/>
+        <value name="Tier3"/>
+        <value name="Tier4"/>		
     </type>
 	<type name="Ammo_AE127x99">
         <nominal>4</nominal>
@@ -260,7 +266,8 @@
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="weapons"/>
         <usage name="Military"/>
-		<value name="Tier4"/>					
+		<value name="Tier4"/>
+        <value name="Tier5"/>					
     </type>
 	<type name="Ammo_AE50AE">
         <nominal>0</nominal>
@@ -308,6 +315,7 @@
         <tag name="shelves"/>
         <usage name="Military"/>
 		<value name="Tier3"/>	
-		<value name="Tier4"/>						
+		<value name="Tier4"/>
+        <value name="Tier5"/>						
     </type>
 </types>
