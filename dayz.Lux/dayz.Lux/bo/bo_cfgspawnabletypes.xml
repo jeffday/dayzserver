@@ -1237,7 +1237,9 @@
 	</type>
 	<type name="BO_MCXTacops_Black">
 		<attachments preset="ar_optics" />
-		<attachments preset="bttsttckMCX" />
+		<attachments chance="1.00">
+			<item name="BO_MCXTacops_Bttstck_Black" chance="1.00" />
+		</attachments>
 		<attachments chance="0.60">
 			<item name="BO_Mag_PMAG_30rnd" chance="0.50" />
 		</attachments>
@@ -1248,7 +1250,9 @@
 	<type name="BO_MCXSpear_Tan">
 		<attachments preset="dmr_optics" />
 		<attachments preset="fal" />
-		<attachments preset="bttsttckMCX" />
+		<attachments chance="1.00">
+			<item name="BO_MCXSpear_Bttstck_Tan" chance="1.00" />
+		</attachments>
 		<attachments chance="0.60">
 			<item name="BO_Mag_MCXSpear_20rnd" chance="1.00" />
 		</attachments>
