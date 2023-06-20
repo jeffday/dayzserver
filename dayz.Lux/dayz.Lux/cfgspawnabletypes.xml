@@ -1,6 +1,11 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
 
 <spawnabletypes>
+	<type name="KatanaSheath">
+		<attachments chance="1.00">
+			<item name="Katana" chance="1.00" />
+		</attachments>
+	</type>
 	<type name="Barrel_Blue">
 		<hoarder />
 	</type>
