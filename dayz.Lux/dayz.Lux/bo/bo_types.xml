@@ -1763,10 +1763,10 @@
         <usage name="Military"/>
     </type>
     <type name="BO_Groza_9x39">
-        <nominal>2</nominal>
+        <nominal>6</nominal>
         <lifetime>7200</lifetime>
         <restock>300</restock>
-        <min>1</min>
+        <min>3</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -1777,10 +1777,10 @@
         <value name="Tier5"/>
     </type>
     <type name="BO_Mag_Groza_20rnd">
-        <nominal>3</nominal>
+        <nominal>10</nominal>
         <lifetime>28800</lifetime>
         <restock>3600</restock>
-        <min>2</min>
+        <min>5</min>
         <quantmin>10</quantmin>
         <quantmax>60</quantmax>
         <cost>100</cost>
@@ -2376,7 +2376,7 @@
 		<value name="Tier5"/>
     </type>
     <type name="BO_ASVAL">
-        <nominal>3</nominal>
+        <nominal>2</nominal>
         <lifetime>28800</lifetime>
         <restock>3600</restock>
         <min>1</min>
