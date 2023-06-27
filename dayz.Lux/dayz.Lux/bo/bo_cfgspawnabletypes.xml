@@ -28,7 +28,11 @@
 			<item name="BO_LegionSuppressor_Black" chance="1.00" />
 		</attachments>
 		<attachments chance="0.60">
-			<item name="BO_G36Optic" chance="1.00" />
+			<item name="BO_G36Optic" chance="0.50" />
+			<item name="BO_ACOGOptic_ACSS_Red" chance="0.125" />
+			<item name="BO_HAMROptic" chance="0.125" />
+			<item name="BO_Bravo4" chance="0.125" />
+			<item name="BO_SpecterDROptic" chance="0.125" />
 		</attachments>
 	</type>
 	<type name="BO_M1918">
@@ -48,6 +52,10 @@
 		<attachments chance="0.60">
 			<item name="BO_Mag_M14_10rnd" chance="0.80" />
 			<item name="BO_Mag_M14_20rnd" chance="0.20" />
+		</attachments>
+		<attachments preset="dmr_optics" />
+		<attachments chance="0.10">
+			<item name="BO_CorduraSuppressor_Black" chance="1.00" />
 		</attachments>
 	</type>
 	<type name="BO_MK12">
@@ -676,6 +684,7 @@
 	</type>
 	<type name="BO_Tac21">
 		<attachments preset="hunting_scopes" />
+		<attachments preset="338" />
 		<attachments chance="0.60">
 			<item name="BO_Mag_Tac21_5rnd" chance="1.00" />
 		</attachments>
@@ -868,11 +877,17 @@
 		<attachments chance="0.60">
 			<item name="BO_Mag_SuperSniper_5rnd" chance="1.00" />
 		</attachments>
+		<attachments chance="0.10">
+			<item name="BO_CorduraSuppressor_Black" chance="1.00" />
+		</attachments>
 	</type>
 	<type name="BO_Delta5">
 		<attachments preset="long_range_scopes" />
 		<attachments chance="0.60">
 			<item name="BO_Mag_Delta5_10rnd" chance="1.00" />
+		</attachments>
+		<attachments chance="0.10">
+			<item name="BO_CorduraSuppressor" chance="1.00" />
 		</attachments>
 	</type>
 	<type name="BO_Delta5_Camo1">
@@ -942,7 +957,7 @@
 		</attachments>
 	</type>
 	<type name="BO_PP1901">
-		<attachments preset="ak_suppressors" />
+		<attachments preset="pistol_suppressors" />
 		<attachments preset="close_range_optics" />
 		<attachments chance="0.60">
 			<item name="BO_Mag_PP1901_30rnd" chance="1.00" />
@@ -1000,15 +1015,21 @@
 	</type>
 	<type name="BO_M40A1">
 		<attachments preset="long_range_scopes" />
-		<attachments preset="fal" />
+		<attachments chance="0.10">
+			<item name="BO_CorduraSuppressor_Black" chance="1.00" />
+		</attachments>
 	</type>
 	<type name="BO_M40A1_Green">
 		<attachments preset="long_range_scopes" />
-		<attachments preset="fal" />
+		<attachments chance="0.10">
+			<item name="BO_CorduraSuppressor_Black" chance="1.00" />
+		</attachments>
 	</type>
 	<type name="BO_M40A1_Digital">
 		<attachments preset="long_range_scopes" />
-		<attachments preset="fal" />
+		<attachments chance="0.10">
+			<item name="BO_CorduraSuppressor_Black" chance="1.00" />
+		</attachments>
 	</type>
 	<type name="BO_SVU">
 		<attachments chance="0.60">
@@ -1213,7 +1234,9 @@
 <!-- Added 2.5 -->
 	<type name="BO_SR25">
 		<attachments preset="dmr_optics" />
-		<attachments preset="308" />
+		<attachments chance="0.10">
+			<item name="BO_CorduraSuppressor_Black" chance="1.00" />
+		</attachments>
 		<attachments chance="0.60">
 			<item name="BO_Mag_SR25_20rnd" chance="1.00" />
 		</attachments>
@@ -1249,7 +1272,9 @@
 	</type>
 	<type name="BO_MCXSpear_Tan">
 		<attachments preset="dmr_optics" />
-		<attachments preset="fal" />
+		<attachments chance="0.10">
+			<item name="BO_MCXSpear_Suppressor" chance="1.00" />
+		</attachments>
 		<attachments chance="1.00">
 			<item name="BO_MCXSpear_Bttstck_Tan" chance="1.00" />
 		</attachments>
