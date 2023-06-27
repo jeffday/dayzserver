@@ -1666,7 +1666,6 @@
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="weapons"/>
         <usage name="Military"/>
-        <value name="Tier2"/>
 		<value name="Tier3"/>
         <value name="Tier4"/>
     </type>
@@ -1681,7 +1680,6 @@
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="weapons"/>
         <usage name="Military"/>
-        <value name="Tier2"/>
         <value name="Tier3"/>
         <value name="Tier4"/>
     </type>
@@ -3267,7 +3265,7 @@
         <category name="weapons"/>
         <usage name="Military"/>
 		<value name="Tier3"/>
-        <value name="Tier4" />
+        <value name="Tier4"/>
     </type>
     <type name="BO_Mag_USAS12_10rnd">
         <nominal>4</nominal>
@@ -3281,7 +3279,7 @@
         <category name="weapons"/>
         <usage name="Military"/>
 		<value name="Tier3"/>
-        <value name="Tier4" />
+        <value name="Tier4"/>
     </type>
     <type name="BO_Mag_USAS12_20rnd">
         <nominal>1</nominal>
@@ -3306,8 +3304,8 @@
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="weapons"/>
         <usage name="Military"/>
-        <value name="Tier2"/>
-		<value name="Tier3"/>
+        <value name="Tier3"/>
+		<value name="Tier4"/>
     </type>
     <type name="BO_SPAS12_Pump">
         <nominal>8</nominal>
@@ -3321,6 +3319,8 @@
         <category name="weapons"/>
         <usage name="Police"/>
         <usage name="Military"/>
+        <value name="Tier2"/>
+		<value name="Tier3"/>
     </type>
     <type name="BO_SPAS12_Suppressor">
         <nominal>1</nominal>
@@ -3361,6 +3361,8 @@
         <category name="weapons"/>
         <usage name="Police"/>
         <usage name="Military"/>
+        <value name="Tier2"/>
+        <value name="Tier3"/>
     </type>
     <type name="BO_R870">
         <nominal>8</nominal>
@@ -3374,6 +3376,8 @@
         <category name="weapons"/>
         <usage name="Police"/>
         <usage name="Military"/>
+        <value name="Tier2"/>
+        <value name="Tier3"/>
     </type>
     <type name="BO_Trenchgun">
         <nominal>0</nominal>
