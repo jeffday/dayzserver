@@ -3079,7 +3079,7 @@
 		<value name="Tier5"/>
     </type>
     <type name="BO_SAKOTRG">
-        <nominal>1</nominal>
+        <nominal>0</nominal>
         <lifetime>7200</lifetime>
         <restock>300</restock>
         <min>0</min>
@@ -3091,10 +3091,10 @@
         <usage name="Military"/>
     </type>
     <type name="BO_Mag_SAKOTRG_5rnd">
-        <nominal>3</nominal>
+        <nominal>0</nominal>
         <lifetime>7200</lifetime>
         <restock>300</restock>
-        <min>2</min>
+        <min>0</min>
         <quantmin>20</quantmin>
         <quantmax>80</quantmax>
         <cost>100</cost>
@@ -3105,7 +3105,7 @@
 		<value name="Tier5"/>
     </type>
     <type name="BO_SCAR20S">
-        <nominal>1</nominal>
+        <nominal>0</nominal>
         <lifetime>7200</lifetime>
         <restock>300</restock>
         <min>0</min>
@@ -3117,10 +3117,10 @@
         <usage name="Military"/>
     </type>
     <type name="BO_Mag_SCAR20S_5rnd">
-        <nominal>2</nominal>
+        <nominal>0</nominal>
         <lifetime>7200</lifetime>
         <restock>300</restock>
-        <min>1</min>
+        <min>0</min>
         <quantmin>20</quantmin>
         <quantmax>80</quantmax>
         <cost>100</cost>
