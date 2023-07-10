@@ -55,7 +55,9 @@
 				<item name="SpaghettiCan" chance="0.05" />
 				<item name="BakedBeansCan" chance="0.05" />
 				<item name="TacticalBaconCan" chance="0.1" />
-				<item name="Canteen" chance="0.1" />
+				<item name="Canteen_Spur_Green" chance="0.04" />
+				<item name="Canteen_Spur_Black" chance="0.02" />
+				<item name="Canteen_Spur_WoodlandCamo" chance="0.04" />
 		</cargo>
 		<cargo chance="0.15" name="toolsHermit">
 				<item name="WeaponCleaningKit" chance="0.10" />
@@ -227,7 +229,9 @@
 				<item name="SpaghettiCan" chance="0.05" />
 				<item name="BakedBeansCan" chance="0.05" />
 				<item name="TacticalBaconCan" chance="0.1" />
-				<item name="Canteen" chance="0.1" />
+				<item name="Canteen_Spur_Green" chance="0.04" />
+				<item name="Canteen_Spur_Black" chance="0.02" />
+				<item name="Canteen_Spur_WoodlandCamo" chance="0.04" />
 				<item name="Ammo_45ACP" chance="0.2" />
 				<item name="AmmoBox_45ACP_25Rnd" chance="0.05" />
 				<item name="Ammo_762x39" chance="0.2" />
@@ -243,16 +247,14 @@
 				<item name="RDG2SmokeGrenade_White" chance="0.25" />
 				<item name="FlashGrenade" chance="0.25" />
 				<item name="RDG2SmokeGrenade_Black" chance="0.25" />
-				<item name="RDG5Grenade" chance="0.25" />
+				<item name="RGD5Grenade" chance="0.25" />
 		</cargo>
 		<attachments chance="0.15" name="pistol_optics">
-				<item name="FNP45_MRDSOptic" chance="0.25" />
-				<item name="BO_Holosun_HS507C" chance="0.25"/>
-				<item name="BO_RMR_Black" chance="0.25" />
-				<item name="BO_RMR_FDE" chance="0.25" />
+				<item name="FNP45_MRDSOptic" chance="1.00" />
 		</attachments>
 		<attachments chance="0.60" name="close_range_optics">
 				<item name="BO_Holosun_HS510C_Optic" chance="0.125" />
+				<item name="BO_Holosun_HS507C" chance="0.125"/>
 				<item name="BO_VortexAMG_UH1_Optic" chance="0.125" />
 				<item name="BO_RMR_Black" chance="0.125" />
 				<item name="BO_RMR_FDE" chance="0.125" />
@@ -269,6 +271,10 @@
 				<item name="BO_LeupoldHoloDEVO" chance="0.125" />
 				<item name="BO_Bravo4" chance="0.125" />
 				<item name="BO_Spitfire" chance="0.125" />
+		</attachments>
+		<attachments chance="0.60" name="ar_300optics">
+				<item name="BO_ACOGOptic_300blk_Blue" chance="0.5" />
+				<item name="BO_ACOGOptic_300blk_Red" chance="0.5" />
 		</attachments>
 		<attachments chance="0.60" name="dmr_optics">
 				<item name="BO_ACOGOptic_Crosshair_Red" chance="0.10" />
@@ -420,17 +426,17 @@
 				<item name="TaloonBag_Blue" chance="0.10" />
 				<item name="TaloonBag_Violet" chance="0.10" />
 				<item name="TaloonBag_Green" chance="0.10" />
-				<item name="TaloonBag_Black" chance="0.10" />
+				<item name="TaloonBag_Black" chance="0.05" />
 				<item name="TaloonBag_Red" chance="0.10" />
 				<item name="TaloonBag_Yellow" chance="0.10" />
-				<item name="TaloonBag_Woodland" chance="0.10" />
-				<item name="TaloonBag_Navy" chance="0.10" />
-				<item name="Canvas_Backpack_Base" chance="0.10" />
-				<item name="Canvas_Backpack_Black" chance="0.10" />
-				<item name="Canvas_Backpack_White" chance="0.10" />
-				<item name="Canvas_Backpack_Red" chance="0.10" />
-				<item name="Canvas_Backpack_Blue" chance="0.10" />
-				<item name="Canvas_Backpack_Purple" chance="0.10" />
+				<item name="TaloonBag_Woodland" chance="0.05" />
+				<item name="TaloonBag_Navy" chance="0.05" />
+				<item name="Canvas_Backpack_Base" chance="0.05" />
+				<item name="Canvas_Backpack_Black" chance="0.03" />
+				<item name="Canvas_Backpack_White" chance="0.05" />
+				<item name="Canvas_Backpack_Red" chance="0.05" />
+				<item name="Canvas_Backpack_Blue" chance="0.02" />
+				<item name="Canvas_Backpack_Purple" chance="0.05" />
 		</attachments>
 		<attachments chance="0.30" name="hatsCitySkate">
 				<item name="SkateHelmet_Blue" chance="0.20" />
