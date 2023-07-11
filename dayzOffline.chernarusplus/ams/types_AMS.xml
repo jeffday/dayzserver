@@ -243,10 +243,10 @@
         <usage name="Military"/>
     </type>
        <type name="AMS_NBCPouch">
-        <nominal>3</nominal>
+        <nominal>0</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
-        <min>1</min>
+        <min>0</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -347,10 +347,10 @@
         <usage name="Firefighter"/>
     </type>
     <type name="AMS_GasMaskGP21_Filter">
-        <nominal>8</nominal>
+        <nominal>0</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
-        <min>7</min>
+        <min>0</min>
         <quantmin>20</quantmin>
         <quantmax>100</quantmax>
         <cost>100</cost>
@@ -374,10 +374,10 @@
         <usage name="Firefighter"/>
     </type>
     <type name="AMS_GasMaskGP7B_Filter">
-        <nominal>8</nominal>
+        <nominal>0</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
-        <min>7</min>
+        <min>0</min>
         <quantmin>20</quantmin>
         <quantmax>100</quantmax>
         <cost>100</cost>
