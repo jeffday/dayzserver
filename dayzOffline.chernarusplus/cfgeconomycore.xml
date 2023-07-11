@@ -95,4 +95,9 @@ Do not forget to add attribute act="car", if root class represents moveable vehi
 		<file name="cfgspawnabletypes_AMS.xml" type="spawnabletypes" />
 	</ce>
 
+	<!-- CJ187 Immersive NVG -->
+	<ce folder="nvg">
+		<file name="immersive_nvg_types.xml" type="types" />
+	</ce>
+
 </economycore>
