@@ -12,19 +12,19 @@ void main()
 
 	if ((month == reset_month) && (day < reset_day))
 	{
-		GetGame().GetWorld().SetDate(year, reset_month, reset_day, 8, 0);
+		GetGame().GetWorld().SetDate(year, reset_month, reset_day, 7, 0);
 	}
 	else
 	{
 		if ((month == reset_month + 1) && (day > reset_day))
 		{
-			GetGame().GetWorld().SetDate(year, reset_month, reset_day, 8, 0);
+			GetGame().GetWorld().SetDate(year, reset_month, reset_day, 7, 0);
 		}
 		else
 		{
 			if ((month < reset_month) || (month > reset_month + 1))
 			{
-				GetGame().GetWorld().SetDate(year, reset_month, reset_day, 8, 0);
+				GetGame().GetWorld().SetDate(year, reset_month, reset_day, 7, 0);
 			}
 		}
 	}
@@ -71,42 +71,6 @@ class CustomMission: MissionServer
         for(int i = 0; i < attachments.Count(); i++) {
             itemEnt.GetInventory().CreateAttachment(attachments[i]);
         }   
-    }
-
-    // god dammit moitzbert
-    string getItemNameForCamoType(string prefix, string camoType)
-    {
-        if (camoType == "green")
-        {
-            if(prefix == "MMG_Mag_Pouch_" || prefix == "MMG_JPC_Vest_" || prefix == "MMG_ammo_pouch_" || prefix == "MMG_Med_Pouch_" || prefix == "MMG_carrier_backpack_" || prefix == "MMG_assault_pack_" || prefix == "MMG_falcon_b1_belt_" || prefix == "MMG_sheath_" || prefix == "MMG_bottle_" || prefix == "MMG_combatpants_" || prefix == "MMG_balaclava_") {
-                return prefix + "olive";
-            }
-        }
-
-        return prefix + camoType;
-    }
-
-    // yet another special case
-    void spawnHeadphones(PlayerBase player, string camoType)
-    {
-        switch(camoType) { 
-            case "multicam":
-            case "ucp":
-            case "green":
-            case "erdl":
-            case "multicam_tropic":
-            case "ukraine":
-            case "germany":
-            case "sweden":
-            case "norway":
-                player.GetInventory().CreateInInventory("MMG_headphones_green");
-                break;
-            case "black":
-            case "dark_woodland":
-            case "multicamblack":
-                player.GetInventory().CreateInInventory("MMG_headphones_black");
-                break;
-        }
     }
     
 	override PlayerBase CreateCharacter(PlayerIdentity identity, vector pos, ParamsReadContext ctx, string characterName)
