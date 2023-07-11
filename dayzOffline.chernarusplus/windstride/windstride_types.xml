@@ -265,10 +265,10 @@
         <usage name="Village"/>
     </type>
     <type name="Fingerless_Gloves_Wool">
-        <nominal>7</nominal>
+        <nominal>0</nominal>
         <lifetime>5600</lifetime>
         <restock>0</restock>
-        <min>4</min>
+        <min>0</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -279,10 +279,10 @@
         <usage name="Village"/>
     </type>
     <type name="Fingerless_Gloves_Wool_Grey">
-        <nominal>7</nominal>
+        <nominal>0</nominal>
         <lifetime>5600</lifetime>
         <restock>0</restock>
-        <min>4</min>
+        <min>0</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -293,10 +293,10 @@
         <usage name="Village"/>
     </type>
     <type name="Fingerless_Gloves_Wool_Black">
-        <nominal>7</nominal>
+        <nominal>0</nominal>
         <lifetime>5600</lifetime>
         <restock>0</restock>
-        <min>4</min>
+        <min>0</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -863,10 +863,10 @@
         <usage name="Hunting"/>
     </type>
     <type name="Eyepatch">
-        <nominal>5</nominal>
+        <nominal>0</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
-        <min>4</min>
+        <min>0</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -979,10 +979,6 @@
         <category name="clothes"/>
         <usage name="Police"/>
         <usage name="Military"/>
-        <value name="Tier1"/>
-        <value name="Tier2"/>
-        <value name="Tier3"/>
-        <value name="Tier4"/>
     </type>
     <type name="Scarf_Brown">
         <nominal>5</nominal>
@@ -1032,7 +1028,7 @@
         <value name="Tier3"/>
         <value name="Tier4"/>
     </type>
-            <type name="Wool_GreatCoat_Navy">
+    <type name="Wool_GreatCoat_Navy">
         <nominal>2</nominal>
         <lifetime>21600</lifetime>
         <restock>0</restock>
@@ -1048,7 +1044,7 @@
         <value name="Tier3"/>
         <value name="Tier4"/>
     </type>
-            <type name="Wool_GreatCoat_Olive">
+    <type name="Wool_GreatCoat_Olive">
         <nominal>2</nominal>
         <lifetime>21600</lifetime>
         <restock>0</restock>
@@ -1064,7 +1060,7 @@
         <value name="Tier3"/>
         <value name="Tier4"/>
     </type>
-            <type name="Wool_GreatCoat_Grey">
+    <type name="Wool_GreatCoat_Grey">
         <nominal>2</nominal>
         <lifetime>21600</lifetime>
         <restock>0</restock>
@@ -1080,7 +1076,7 @@
         <value name="Tier3"/>
         <value name="Tier4"/>
     </type>
-            <type name="Plague_Mask">
+    <type name="Plague_Mask">
         <nominal>2</nominal>
         <lifetime>21600</lifetime>
         <restock>0</restock>
