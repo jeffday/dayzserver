@@ -61,7 +61,7 @@
         <value name="Tier4"/>
     </type>
     <type name="MMG_MK_V_Armor_black">
-        <nominal>5</nominal>
+        <nominal>2</nominal>
         <lifetime>7200</lifetime>
         <restock>7200</restock>
         <min>1</min>
@@ -290,7 +290,7 @@
         <value name="Tier4"/>
     </type>
     <type name="MMG_mmps_bag_black">
-        <nominal>5</nominal>
+        <nominal>2</nominal>
         <lifetime>7200</lifetime>
         <restock>7200</restock>
         <min>1</min>
@@ -321,7 +321,7 @@
         <value name="Tier4"/>
     </type>
     <type name="mmg_cargobelt_black">
-        <nominal>5</nominal>
+        <nominal>2</nominal>
         <lifetime>7200</lifetime>
         <restock>7200</restock>
         <min>1</min>
@@ -351,7 +351,7 @@
         <value name="Tier4"/>
     </type>
     <type name="MMG_striker_helmet_black">
-        <nominal>5</nominal>
+        <nominal>2</nominal>
         <lifetime>7200</lifetime>
         <restock>7200</restock>
         <min>1</min>
@@ -365,7 +365,7 @@
         <value name="Tier4"/>
     </type>
     <type name="mmg_armored_helmet_black">
-        <nominal>5</nominal>
+        <nominal>2</nominal>
         <lifetime>7200</lifetime>
         <restock>7200</restock>
         <min>1</min>
@@ -378,7 +378,7 @@
         <value name="Tier4"/>
     </type>
 	<type name="mmg_armored_helmet_visor_black">
-        <nominal>5</nominal>
+        <nominal>2</nominal>
         <lifetime>7200</lifetime>
         <restock>7200</restock>
         <min>1</min>
@@ -391,7 +391,7 @@
         <value name="Tier4"/>
     </type>
     <type name="MMG_headphones_black">
-        <nominal>5</nominal>
+        <nominal>10</nominal>
         <lifetime>7200</lifetime>
         <restock>7200</restock>
         <min>1</min>
@@ -450,7 +450,7 @@
         <value name="Tier4"/>
     </type>
     <type name="mmg_tac_goggles_red_black">
-        <nominal>5</nominal>
+        <nominal>10</nominal>
         <lifetime>7200</lifetime>
         <restock>7200</restock>
         <min>1</min>
@@ -467,7 +467,7 @@
 <!--CLOTHING-->
 
     <type name="MMG_operatorshirt_black">
-        <nominal>5</nominal>
+        <nominal>2</nominal>
         <lifetime>7200</lifetime>
         <restock>7200</restock>
         <min>1</min>
@@ -477,7 +477,6 @@
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="clothes"/>
         <usage name="Military"/>
-        <value name="Tier3"/>
         <value name="Tier4"/>
     </type>
     <type name="MMG_tactical_shirt_black">
@@ -523,7 +522,7 @@
         <value name="Tier4"/>
     </type>
     <type name="mmg_tactical_pants_black">
-        <nominal>5</nominal>
+        <nominal>2</nominal>
         <lifetime>7200</lifetime>
         <restock>7200</restock>
         <min>1</min>
@@ -533,7 +532,6 @@
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="clothes"/>
         <usage name="Military"/>
-        <value name="Tier3"/>
         <value name="Tier4"/>
     </type>
     <type name="mmg_tactical_gloves_black">
