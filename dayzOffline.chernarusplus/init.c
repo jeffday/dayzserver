@@ -110,7 +110,6 @@ class CustomMission: MissionServer
             itemEnt = player.GetInventory().CreateInInventory( "CanOpener" );
             itemEnt = player.GetInventory().CreateInInventory( "SodaCan_Cola" );
         	itemEnt = player.GetInventory().CreateInInventory( "SodaCan_Spite" );
-            itemEnt = player.GetInventory().CreateInInventory( "BakedBeansCan" );
             itemEnt = player.GetInventory().CreateInInventory( "SpaghettiCan" );
 		} 
 	}

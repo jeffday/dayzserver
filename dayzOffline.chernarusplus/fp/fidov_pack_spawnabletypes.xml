@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+
+<spawnabletypes>
+	<type name="PSG1">
+		<attachments preset="long_range_scopes" />
+		<attachments chance="0.60">
+			<item name="Mag_psg_5Rnd" chance="1.00" />
+		</attachments>
+	</type>
+    <type name="SV98">
+		<attachments preset="long_range_scopes" />
+		<attachments chance="0.60">
+			<item name="Mag_SV98_10Rnd" chance="1.00" />
+		</attachments>
+	</type>
+    <type name="P99">
+		<attachments chance="0.60">
+			<item name="Mag_pp99_16Rnd" chance="1.00" />
+		</attachments>
+	</type>
+    <type name="P220">
+		<attachments chance="0.60">
+			<item name="Mag_p220_8Rnd" chance="1.00" />
+		</attachments>
+	</type>
+    <type name="USP">
+        <attachments chance="0.05">
+            <item name="USP_Suppressor" chance="1.00" />
+		</attachments>
+		<attachments chance="0.60">
+			<item name="Mag_USP_12Rnd" chance="1.00" />
+		</attachments>
+	</type>
+</spawnabletypes>
