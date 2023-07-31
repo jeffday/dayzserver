@@ -635,18 +635,18 @@
         <value name="Tier4"/>
     </type>	
 	<type name="M1935">
-        <nominal>0</nominal>
+        <nominal>10</nominal>
         <lifetime>28800</lifetime>
         <restock>1800</restock>
-        <min>0</min>
+        <min>8</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="1" count_in_map="1" count_in_player="1" crafted="0" deloot="0"/>
         <category name="weapons"/>
         <usage name="Military"/>
-		<value name="Tier3"/>
-        <value name="Tier4"/>
+		<value name="Tier1"/>
+        <value name="Tier2"/>
     </type>	
 	<type name="HK_MP7">
         <nominal>0</nominal>
@@ -720,7 +720,7 @@
     </type>	
 	<type name="P220">
         <nominal>10</nominal>
-        <lifetime>28800</lifetime>
+        <lifetime>14400</lifetime>
         <restock>0</restock>
         <min>8</min>
         <quantmin>-1</quantmin>
@@ -729,8 +729,8 @@
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="weapons"/>
         <usage name="Military"/>
+        <value name="Tier1"/>
         <value name="Tier2"/>
-        <value name="Tier3"/>
     </type>	
 	<type name="OTS33">
         <nominal>0</nominal>
@@ -943,17 +943,18 @@
         <value name="Tier4"/>
     </type>	
 	<type name="SR1M">
-        <nominal>0</nominal>
-        <lifetime>28800</lifetime>
-        <restock>1800</restock>
-        <min>0</min>
+        <nominal>10</nominal>
+        <lifetime>7200</lifetime>
+        <restock>300</restock>
+        <min>8</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
-        <flags count_in_cargo="0" count_in_hoarder="1" count_in_map="1" count_in_player="1" crafted="0" deloot="0"/>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="weapons"/>
         <usage name="Military"/>
-		<value name="Tier3"/>
+        <value name="Tier2"/>
+        <value name="Tier3"/>
         <value name="Tier4"/>
     </type>	
 	<type name="SR2">
@@ -1064,6 +1065,7 @@
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="weapons"/>
         <usage name="Military"/>
+        <value name="Tier2"/>
         <value name="Tier3"/>
         <value name="Tier4"/>
     </type>	
@@ -1787,18 +1789,18 @@
         <value name="Tier4"/>
     </type>
 	<type name="Mag_m1935_13Rnd">
-        <nominal>0</nominal>
+        <nominal>10</nominal>
         <lifetime>28800</lifetime>
         <restock>1800</restock>
-        <min>0</min>
-        <quantmin>10</quantmin>
-        <quantmax>100</quantmax>
+        <min>8</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
         <cost>100</cost>
-        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <flags count_in_cargo="0" count_in_hoarder="1" count_in_map="1" count_in_player="1" crafted="0" deloot="0"/>
         <category name="weapons"/>
         <usage name="Military"/>
-        <value name="Tier3"/>
-        <value name="Tier4"/>
+		<value name="Tier1"/>
+        <value name="Tier2"/>
     </type>
 	<type name="Mag_MP7_20Rnds">
         <nominal>0</nominal>
@@ -1872,17 +1874,17 @@
     </type>
 	<type name="Mag_p220_8Rnd">
         <nominal>10</nominal>
-        <lifetime>28800</lifetime>
+        <lifetime>14400</lifetime>
         <restock>0</restock>
         <min>8</min>
-        <quantmin>10</quantmin>
+        <quantmin>20</quantmin>
         <quantmax>100</quantmax>
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="weapons"/>
         <usage name="Military"/>
+        <value name="Tier1"/>
         <value name="Tier2"/>
-        <value name="Tier3"/>
     </type>
 	<type name="Mag_OTS_27Rnd">
         <nominal>0</nominal>
@@ -2123,16 +2125,17 @@
         <value name="Tier4"/>
     </type>
 	<type name="Mag_SR1M_18Rnd">
-        <nominal>0</nominal>
-        <lifetime>28800</lifetime>
-        <restock>1800</restock>
-        <min>0</min>
-        <quantmin>-1</quantmin>
+        <nominal>10</nominal>
+        <lifetime>7200</lifetime>
+        <restock>300</restock>
+        <min>8</min>
+        <quantmin>5</quantmin>
         <quantmax>50</quantmax>
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="weapons"/>
         <usage name="Military"/>
+        <value name="Tier2"/>
         <value name="Tier3"/>
         <value name="Tier4"/>
     </type>
@@ -2203,6 +2206,7 @@
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="weapons"/>
         <usage name="Military"/>
+        <value name="Tier2"/>
         <value name="Tier3"/>
         <value name="Tier4"/>
     </type>
@@ -3262,10 +3266,10 @@
 <!-- CLOTHES -->
 
 	<type name="fp4_ReconRus_gorka">
-        <nominal>0</nominal>
-        <lifetime>14400</lifetime>
-        <restock>600</restock>
-        <min>0</min>
+        <nominal>5</nominal>
+        <lifetime>7200</lifetime>
+        <restock>7200</restock>
+        <min>1</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -3274,10 +3278,10 @@
         <usage name="Military"/>
     </type>
 	<type name="fp4_ReconRus_gorka_autumn">
-        <nominal>0</nominal>
-        <lifetime>14400</lifetime>
-        <restock>600</restock>
-        <min>0</min>
+        <nominal>5</nominal>
+        <lifetime>7200</lifetime>
+        <restock>7200</restock>
+        <min>1</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -3296,14 +3300,12 @@
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="clothes"/>
         <usage name="Military"/>
-        <value name="Tier3"/>
-        <value name="Tier4"/>
     </type>
 	<type name="fp4_ReconRus_VKPO">
-        <nominal>0</nominal>
-        <lifetime>14400</lifetime>
-        <restock>600</restock>
-        <min>0</min>
+        <nominal>5</nominal>
+        <lifetime>7200</lifetime>
+        <restock>7200</restock>
+        <min>1</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -3312,10 +3314,10 @@
         <usage name="Military"/>
     </type>
 	<type name="fp4_ReconRus_LES">
-        <nominal>0</nominal>
-        <lifetime>14400</lifetime>
-        <restock>600</restock>
-        <min>0</min>
+        <nominal>5</nominal>
+        <lifetime>7200</lifetime>
+        <restock>7200</restock>
+        <min>1</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -3334,14 +3336,12 @@
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="clothes"/>
         <usage name="Military"/>
-        <value name="Tier3"/>
-        <value name="Tier4"/>
     </type>
 	<type name="FP4_Hood_Autumn">
-        <nominal>0</nominal>
-        <lifetime>14400</lifetime>
-        <restock>600</restock>
-        <min>0</min>
+        <nominal>5</nominal>
+        <lifetime>7200</lifetime>
+        <restock>7200</restock>
+        <min>1</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -3350,10 +3350,10 @@
         <usage name="Military"/>
     </type>
 	<type name="FP4_Hood_Summer">
-        <nominal>0</nominal>
-        <lifetime>14400</lifetime>
-        <restock>600</restock>
-        <min>0</min>
+        <nominal>5</nominal>
+        <lifetime>7200</lifetime>
+        <restock>7200</restock>
+        <min>1</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -3362,10 +3362,10 @@
         <usage name="Military"/>
     </type>
 	<type name="FP4_Hood_vkpo">
-        <nominal>0</nominal>
-        <lifetime>14400</lifetime>
-        <restock>600</restock>
-        <min>0</min>
+        <nominal>5</nominal>
+        <lifetime>7200</lifetime>
+        <restock>7200</restock>
+        <min>1</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -3374,10 +3374,10 @@
         <usage name="Military"/>
     </type>
 	<type name="FP4_Hood_Beige">
-        <nominal>0</nominal>
-        <lifetime>14400</lifetime>
-        <restock>600</restock>
-        <min>0</min>
+        <nominal>5</nominal>
+        <lifetime>7200</lifetime>
+        <restock>7200</restock>
+        <min>1</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -3424,10 +3424,10 @@
         <usage name="Military"/>
     </type>
 	<type name="FP4_Hood_LES">
-        <nominal>0</nominal>
-        <lifetime>14400</lifetime>
-        <restock>600</restock>
-        <min>0</min>
+        <nominal>5</nominal>
+        <lifetime>7200</lifetime>
+        <restock>7200</restock>
+        <min>1</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -3508,10 +3508,10 @@
         <usage name="Military"/>
     </type>
 	<type name="GorkaJacket_LES">
-        <nominal>0</nominal>
-        <lifetime>14400</lifetime>
-        <restock>600</restock>
-        <min>0</min>
+        <nominal>5</nominal>
+        <lifetime>7200</lifetime>
+        <restock>7200</restock>
+        <min>1</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -3520,10 +3520,10 @@
         <usage name="Military"/>
     </type>
 	<type name="M65Jacket_LES">
-        <nominal>0</nominal>
-        <lifetime>14400</lifetime>
-        <restock>600</restock>
-        <min>0</min>
+        <nominal>5</nominal>
+        <lifetime>7200</lifetime>
+        <restock>7200</restock>
+        <min>1</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -3544,10 +3544,10 @@
         <usage name="Military"/>
     </type>
 	<type name="CargoPants_LES">
-        <nominal>0</nominal>
-        <lifetime>14400</lifetime>
-        <restock>600</restock>
-        <min>0</min>
+        <nominal>5</nominal>
+        <lifetime>7200</lifetime>
+        <restock>7200</restock>
+        <min>1</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -3556,10 +3556,10 @@
         <usage name="Military"/>
     </type>
 	<type name="GorkaPants_LES">
-        <nominal>0</nominal>
-        <lifetime>14400</lifetime>
-        <restock>600</restock>
-        <min>0</min>
+        <nominal>5</nominal>
+        <lifetime>7200</lifetime>
+        <restock>7200</restock>
+        <min>1</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -3748,10 +3748,10 @@
         <usage name="Military"/>
     </type>
 	<type name="fp4_Sharf">
-        <nominal>5</nominal>
+        <nominal>0</nominal>
         <lifetime>14400</lifetime>
         <restock>600</restock>
-        <min>2</min>
+        <min>0</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -3890,8 +3890,6 @@
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="clothes"/>
         <usage name="Military"/>
-        <value name="Tier3"/>
-        <value name="Tier4"/>
     </type>
 	<type name="Jacket_SOBR">
         <nominal>5</nominal>
@@ -3904,8 +3902,6 @@
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="clothes"/>
         <usage name="Military"/>
-        <value name="Tier3"/>
-        <value name="Tier4"/>
     </type>
 	<type name="Sweater_Skeleton">
         <nominal>0</nominal>
@@ -3956,10 +3952,10 @@
         <usage name="Military"/>
     </type>
 	<type name="FP4_VKPO_Demi">
-        <nominal>0</nominal>
-        <lifetime>14400</lifetime>
-        <restock>600</restock>
-        <min>0</min>
+        <nominal>5</nominal>
+        <lifetime>7200</lifetime>
+        <restock>7200</restock>
+        <min>1</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -3968,10 +3964,10 @@
         <usage name="Military"/>
     </type>
 	<type name="FP4_VKPO_Demi_RHBZ">
-        <nominal>0</nominal>
-        <lifetime>14400</lifetime>
-        <restock>600</restock>
-        <min>0</min>
+        <nominal>5</nominal>
+        <lifetime>7200</lifetime>
+        <restock>7200</restock>
+        <min>1</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -3980,10 +3976,10 @@
         <usage name="Military"/>
     </type>
 	<type name="FP4_VKPO_Demi_VDV">
-        <nominal>0</nominal>
-        <lifetime>14400</lifetime>
-        <restock>600</restock>
-        <min>0</min>
+        <nominal>5</nominal>
+        <lifetime>7200</lifetime>
+        <restock>7200</restock>
+        <min>1</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -4004,10 +4000,10 @@
         <usage name="Military"/>
     </type>
 	<type name="FP4_VKPO_Demi_Pants">
-        <nominal>0</nominal>
-        <lifetime>14400</lifetime>
-        <restock>600</restock>
-        <min>0</min>
+        <nominal>5</nominal>
+        <lifetime>7200</lifetime>
+        <restock>7200</restock>
+        <min>1</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -4028,10 +4024,10 @@
         <usage name="Military"/>
     </type>
 	<type name="FP4_VKPO_LETO_Pants">
-        <nominal>0</nominal>
-        <lifetime>14400</lifetime>
-        <restock>600</restock>
-        <min>0</min>
+        <nominal>5</nominal>
+        <lifetime>7200</lifetime>
+        <restock>7200</restock>
+        <min>1</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -4040,10 +4036,10 @@
         <usage name="Military"/>
     </type>
 	<type name="FP4_VKPO_LETO_Tors_RTV">
-        <nominal>0</nominal>
-        <lifetime>14400</lifetime>
-        <restock>600</restock>
-        <min>0</min>
+        <nominal>5</nominal>
+        <lifetime>7200</lifetime>
+        <restock>7200</restock>
+        <min>1</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -4052,10 +4048,10 @@
         <usage name="Military"/>
     </type>
 	<type name="FP4_VKPO_LETO_Tors_RHBZ">
-        <nominal>0</nominal>
-        <lifetime>14400</lifetime>
-        <restock>600</restock>
-        <min>0</min>
+        <nominal>5</nominal>
+        <lifetime>7200</lifetime>
+        <restock>7200</restock>
+        <min>1</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -4372,10 +4368,10 @@
         <usage name="Military"/>
     </type>
 	<type name="FP4_MiniGloves_Brown">
-        <nominal>0</nominal>
-        <lifetime>14400</lifetime>
-        <restock>600</restock>
-        <min>0</min>
+        <nominal>5</nominal>
+        <lifetime>7200</lifetime>
+        <restock>7200</restock>
+        <min>1</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -4518,10 +4514,10 @@
         <usage name="Military"/>
     </type>
 	<type name="FP4_Brodaga_Jacket">
-        <nominal>0</nominal>
-        <lifetime>14400</lifetime>
-        <restock>600</restock>
-        <min>0</min>
+        <nominal>5</nominal>
+        <lifetime>7200</lifetime>
+        <restock>7200</restock>
+        <min>1</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -4540,8 +4536,6 @@
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="clothes"/>
         <usage name="Military"/>
-        <value name="Tier3"/>
-        <value name="Tier4"/>
     </type>
 	<type name="FP4_Brodaga_Jacket_Green">
         <nominal>5</nominal>
@@ -4554,8 +4548,6 @@
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="clothes"/>
         <usage name="Military"/>
-        <value name="Tier3"/>
-        <value name="Tier4"/>
     </type>
 	<type name="FP4_PLASH_black">
         <nominal>0</nominal>
@@ -4642,10 +4634,10 @@
         <usage name="Military"/>
     </type>
 	<type name="FP4_TacticalPants_vkpo">
-        <nominal>0</nominal>
-        <lifetime>14400</lifetime>
-        <restock>600</restock>
-        <min>0</min>
+        <nominal>5</nominal>
+        <lifetime>7200</lifetime>
+        <restock>7200</restock>
+        <min>1</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -4664,14 +4656,12 @@
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="clothes"/>
         <usage name="Military"/>
-        <value name="Tier3"/>
-        <value name="Tier4"/>
     </type>
 	<type name="FP4_TacticalPants_gorka_autumn">
-        <nominal>0</nominal>
-        <lifetime>14400</lifetime>
-        <restock>600</restock>
-        <min>0</min>
+        <nominal>5</nominal>
+        <lifetime>7200</lifetime>
+        <restock>7200</restock>
+        <min>1</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -4680,10 +4670,10 @@
         <usage name="Military"/>
     </type>
 	<type name="FP4_TacticalPants_gorka_summer">
-        <nominal>0</nominal>
-        <lifetime>14400</lifetime>
-        <restock>600</restock>
-        <min>0</min>
+        <nominal>5</nominal>
+        <lifetime>7200</lifetime>
+        <restock>7200</restock>
+        <min>1</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -4702,8 +4692,6 @@
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="clothes"/>
         <usage name="Military"/>
-        <value name="Tier3"/>
-        <value name="Tier4"/>
     </type>
 	<type name="FP4_TacticalPants_Desert">
         <nominal>0</nominal>
@@ -4718,10 +4706,10 @@
         <usage name="Military"/>
     </type>
 	<type name="FP4_TacticalPants_Dolg">
-        <nominal>0</nominal>
-        <lifetime>14400</lifetime>
-        <restock>600</restock>
-        <min>0</min>
+        <nominal>5</nominal>
+        <lifetime>7200</lifetime>
+        <restock>7200</restock>
+        <min>1</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -4730,10 +4718,10 @@
         <usage name="Military"/>
     </type>
 	<type name="FP4_TacticalPants_free">
-        <nominal>0</nominal>
-        <lifetime>14400</lifetime>
-        <restock>600</restock>
-        <min>0</min>
+        <nominal>5</nominal>
+        <lifetime>7200</lifetime>
+        <restock>7200</restock>
+        <min>1</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -4764,8 +4752,6 @@
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="clothes"/>
         <usage name="Military"/>
-        <value name="Tier3"/>
-        <value name="Tier4"/>
     </type>
 	<type name="FP4_TacticalPants_ttsco">
         <nominal>0</nominal>
@@ -4780,10 +4766,10 @@
         <usage name="Military"/>
     </type>
 	<type name="FP4_TacticalPants_WoodLand">
-        <nominal>0</nominal>
-        <lifetime>14400</lifetime>
-        <restock>600</restock>
-        <min>0</min>
+        <nominal>5</nominal>
+        <lifetime>7200</lifetime>
+        <restock>7200</restock>
+        <min>1</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>

@@ -14,8 +14,15 @@
 		</attachments>
 	</type>
     <type name="P99">
+        <attachments preset="pistol_suppressors" />
 		<attachments chance="0.60">
 			<item name="Mag_pp99_16Rnd" chance="1.00" />
+		</attachments>
+	</type>
+    <type name="SR1M">
+        <attachments preset="pistol_suppressors" />
+		<attachments chance="0.60">
+			<item name="Mag_SR1M_18Rnd" chance="1.00" />
 		</attachments>
 	</type>
     <type name="P220">
@@ -23,10 +30,14 @@
 			<item name="Mag_p220_8Rnd" chance="1.00" />
 		</attachments>
 	</type>
-    <type name="USP">
-        <attachments chance="0.05">
-            <item name="USP_Suppressor" chance="1.00" />
+    <type name="M1935">
+		<attachments chance="0.60">
+			<item name="Mag_m1935_13Rnd" chance="1.00" />
 		</attachments>
+	</type>
+    <type name="USP">
+        <attachments preset="pistol_optics" />
+		<attachments preset="pistol_suppressors" />
 		<attachments chance="0.60">
 			<item name="Mag_USP_12Rnd" chance="1.00" />
 		</attachments>
