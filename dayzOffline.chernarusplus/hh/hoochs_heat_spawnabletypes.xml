@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+
+<spawnabletypes>
+	<type name="HH_Beretta92">
+		<attachments preset="pistol_optics" />
+		<attachments preset="pistol_suppressors" />
+		<attachments chance="0.60">
+			<item name="HH_Beretta92_Mag" chance="1.00" />
+		</attachments>
+	</type>
+	<type name="HH_Mako_R7">
+		<attachments preset="pistol_optics" />
+		<attachments preset="pistol_suppressors" />
+		<attachments chance="0.60">
+			<item name="HH_Mako_Mag" chance="1.00" />
+		</attachments>
+	</type>
+</spawnabletypes>

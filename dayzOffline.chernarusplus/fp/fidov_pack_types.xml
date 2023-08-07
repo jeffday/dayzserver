@@ -635,18 +635,19 @@
         <value name="Tier4"/>
     </type>	
 	<type name="M1935">
-        <nominal>10</nominal>
+        <nominal>40</nominal>
         <lifetime>28800</lifetime>
-        <restock>1800</restock>
-        <min>8</min>
+        <restock>0</restock>
+        <min>30</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
-        <flags count_in_cargo="0" count_in_hoarder="1" count_in_map="1" count_in_player="1" crafted="0" deloot="0"/>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="weapons"/>
-        <usage name="Military"/>
-		<value name="Tier1"/>
+        <usage name="Town"/>
+        <usage name="Village"/>
         <value name="Tier2"/>
+        <value name="Tier3"/>
     </type>	
 	<type name="HK_MP7">
         <nominal>0</nominal>
@@ -1789,18 +1790,19 @@
         <value name="Tier4"/>
     </type>
 	<type name="Mag_m1935_13Rnd">
-        <nominal>10</nominal>
-        <lifetime>28800</lifetime>
-        <restock>1800</restock>
-        <min>8</min>
-        <quantmin>10</quantmin>
-        <quantmin>100</quantmin>
+        <nominal>35</nominal>
+        <lifetime>14400</lifetime>
+        <restock>0</restock>
+        <min>25</min>
+        <quantmin>25</quantmin>
+        <quantmax>100</quantmax>
         <cost>100</cost>
-        <flags count_in_cargo="0" count_in_hoarder="1" count_in_map="1" count_in_player="1" crafted="0" deloot="0"/>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="weapons"/>
-        <usage name="Military"/>
-		<value name="Tier1"/>
+        <usage name="Town"/>
+        <usage name="Village"/>
         <value name="Tier2"/>
+        <value name="Tier3"/>
     </type>
 	<type name="Mag_MP7_20Rnds">
         <nominal>0</nominal>
