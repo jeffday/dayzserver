@@ -85,9 +85,32 @@ class CustomMission: MissionServer
 	}
 
     void SpawnJeffSetup(PlayerBase player) {
-        autoptr TStringArray clothes = {"beanie_blackred","ThickFramesGlasses","Hoodie_Sport1","SlacksPants_Khaki","SK8_Sneakers_Black"};
+        autoptr TStringArray clothes = {"FP4_Hood_black","MMG_facemask_black","ThickFramesGlasses","MMG_combatshirt_black","MMG_combatpants_black","SK8_Sneakers_FullBlack","WoolGlovesFingerless_Black","FP4_HuntingTOP_Bag_BLACK","FP4_LesnikBag"};
 
         spawnItemsOnPlayer(player, clothes);
+
+		autoptr TStringArray rifleAttachments = {"BO_LeupoldMk4", "BO_CS5_Suppressor", "BO_Mag_CS5_10rnd"};
+		autoptr TStringArray beltAttachments = {"MMG_Holster_black","MMG_sheath_black","MMG_tactical_pouch_black","MMG_carbine_black"};
+		autoptr TStringArray katanaAttachments = {"Katana"}; 
+
+
+		spawnItemWithAttachments(player, "BO_CS5", rifleAttachments);
+		spawnItemWithAttachments(player, "KatanaSheath",katanaAttachments);
+
+		EntityAI itemEnt;
+        
+        itemEnt = player.GetInventory().CreateInInventory("MMG_falcon_b1_belt_black");
+		itemEnt.GetInventory().CreateAttachment("MMG_Holster_black");
+		itemEnt.GetInventory().CreateAttachment("MMG_sheath_black");
+		itemEnt.GetInventory().CreateAttachment("MMG_carbine_black");
+		itemEnt = itemEnt.GetInventory().CreateAttachment("MMG_tactical_pouch_black");
+
+		itemEnt.GetInventory().CreateInInventory("BO_Mag_CS5_10rnd");
+		itemEnt.GetInventory().CreateInInventory("BO_Mag_CS5_10rnd");
+
+		for(int i = 0; i < 16; i++) {
+             itemEnt.GetInventory().CreateInInventory("AmmoBox_308Win_20Rnd");
+        }
     }
 
 	override void StartingEquipSetup(PlayerBase player, bool clothesChosen)
