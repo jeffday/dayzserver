@@ -590,6 +590,12 @@
 			<item name="BO_Mag_Tac21_5rnd" chance="1.00" />
 		</attachments>
 	</type>
+	<type name="BO_MAR10">
+		<attachments preset="long_range_scopes" />
+		<attachments chance="0.60">
+			<item name="BO_Mag_MAR10_10rnd" chance="1.00" />
+		</attachments>
+	</type>
 	
 	<!-- Added on 2.1 -->
 	<type name="BO_FG42M">
@@ -889,6 +895,12 @@
 		</attachments>
 	</type>
 	<type name="BO_L115A3">
+		<attachments preset="long_range_scopes" />
+		<attachments chance="0.60">
+			<item name="BO_Mag_L115A3_5rnd" chance="1.00" />
+		</attachments>
+	</type>
+	<type name="BO_L115A3_Green">
 		<attachments preset="long_range_scopes" />
 		<attachments chance="0.60">
 			<item name="BO_Mag_L115A3_5rnd" chance="1.00" />
