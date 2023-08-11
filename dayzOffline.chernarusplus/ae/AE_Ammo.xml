@@ -100,22 +100,16 @@
         <value name="Tier4"/>				
     </type>
 	<type name="AE_AmmoBox_50AE_20Rnd">
-        <nominal>0</nominal>
-        <lifetime>7200</lifetime>
-        <restock>1200</restock>
-        <min>0</min>
+        <nominal>15</nominal>
+        <lifetime>28800</lifetime>
+        <restock>0</restock>
+        <min>8</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="weapons"/>
-        <usage name="Farm"/>
-        <usage name="Industrial"/>
-        <usage name="Town"/>
-        <usage name="Village"/>
-		<value name="Tier1"/>	
-		<value name="Tier2"/>		
-        <value name="Tier3"/>				
+        <usage name="Military"/>			
     </type>
 	<type name="AE_AmmoBox_300_20rnd">
         <nominal>20</nominal>
@@ -269,21 +263,17 @@
 		<value name="Tier4"/>					
     </type>
 	<type name="Ammo_AE50AE">
-        <nominal>0</nominal>
-        <lifetime>7200</lifetime>
-        <restock>1200</restock>
-        <min>0</min>
+        <nominal>45</nominal>
+        <lifetime>28800</lifetime>
+        <restock>0</restock>
+        <min>32</min>
         <quantmin>10</quantmin>
-        <quantmax>30</quantmax>
+        <quantmax>25</quantmax>
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="weapons"/>
-        <usage name="Farm"/>
-        <usage name="Industrial"/>
-        <usage name="Town"/>
-        <usage name="Village"/>
-		<value name="Tier1"/>	
-		<value name="Tier2"/>					
+        <tag name="shelves"/>
+        <usage name="Military"/>				
     </type>
 	<type name="Ammo_AE300">
         <nominal>50</nominal>

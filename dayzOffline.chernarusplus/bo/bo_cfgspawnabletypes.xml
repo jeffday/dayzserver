@@ -373,27 +373,21 @@
 		</attachments>
 	</type>
 	<type name="BO_DesertEagle">
-		<attachments chance="0.15">
-			<item name="PistolOptic" chance="1.00" />
-		</attachments>
+		<attachments preset="pistol_optics" />
 		<attachments preset="pistol_suppressors" />
 		<attachments chance="0.60">
 			<item name="BO_Mag_DesertEagle_9rnd" chance="1.00" />
 		</attachments>
 	</type>
 	<type name="BO_DesertEagle_BlackSky">
-		<attachments chance="0.15">
-			<item name="PistolOptic" chance="1.00" />
-		</attachments>
+		<attachments preset="pistol_optics" />
 		<attachments preset="pistol_suppressors" />
 		<attachments chance="0.60">
 			<item name="BO_Mag_DesertEagle_9rnd" chance="1.00" />
 		</attachments>
 	</type>
 	<type name="BO_DesertEagle_Gold">
-		<attachments chance="0.15">
-			<item name="PistolOptic" chance="1.00" />
-		</attachments>
+		<attachments preset="pistol_optics" />
 		<attachments preset="pistol_suppressors" />
 		<attachments chance="0.60">
 			<item name="BO_Mag_DesertEagle_9rnd" chance="1.00" />
