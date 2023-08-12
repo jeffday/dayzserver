@@ -18,4 +18,16 @@
 			<item name="HH_Mako_Mag" chance="1.00" />
 		</attachments>
 	</type>
+	<type name="HH_Galil">
+		<attachments preset="ar_optics" />
+		<attachments chance="0.50">
+			<item name="HH_Galil_Mag" chance="1.00" />
+		</attachments>
+	</type>
+	<type name="HH_Galil_MAR">
+		<attachments preset="ar_optics" />
+		<attachments chance="0.50">
+			<item name="HH_Galil_Mag" chance="1.00" />
+		</attachments>
+	</type>
 </spawnabletypes>
