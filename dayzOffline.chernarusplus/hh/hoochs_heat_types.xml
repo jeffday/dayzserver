@@ -120,7 +120,7 @@
     <tag name="floor"/>
     <usage name="Village"/>
     <usage name="Town"/>
-    <value name="Coast"/>
+    <value name="coast"/>
     <value name="Tier1"/>
     <value name="Tier2"/>
     <value name="Tier3"/>
@@ -139,7 +139,7 @@
     <tag name="floor"/>
     <usage name="Village"/>
     <usage name="Town"/>
-    <value name="Coast"/>
+    <value name="coast"/>
     <value name="Tier1"/>
     <value name="Tier2"/>
     <value name="Tier3"/>
@@ -158,7 +158,7 @@
     <tag name="floor"/>
     <usage name="Village"/>
     <usage name="Town"/>
-    <value name="Coast"/>
+    <value name="coast"/>
     <value name="Tier1"/>
     <value name="Tier2"/>
     <value name="Tier3"/>
@@ -273,7 +273,7 @@
     <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
     <category name="weapons"/>
     <tag name="shelves"/>
-    <usage name="Coast"/>
+    <usage name="coast"/>
     <usage name="Village"/>
     <usage name="Town"/>
     <value name="Tier3"/>
@@ -290,7 +290,7 @@
     <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
     <category name="weapons"/>
     <tag name="shelves"/>
-    <usage name="Coast"/>
+    <usage name="coast"/>
     <usage name="Village"/>
     <usage name="Town"/>
     <value name="Tier3"/>
@@ -382,7 +382,7 @@
     <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
     <category name="weapons"/>
     <tag name="shelves"/>
-    <usage name="Coast"/>
+    <usage name="coast"/>
     <usage name="Village"/>
     <usage name="Town"/>
     <value name="Tier3"/>
@@ -448,7 +448,7 @@
     <usage name="Farm"/>
     <usage name="Town"/>
     <usage name="Village"/>
-    <usage name="Coast"/>
+    <usage name="coast"/>
   </type>
   <type name="HH_AmmoBox_50AE_20Rnd">
     <nominal>0</nominal>
@@ -465,7 +465,7 @@
     <usage name="Military"/>
     <usage name="Town"/>
     <usage name="Village"/>
-    <usage name="Coast"/>
+    <usage name="coast"/>
   </type>
   <type name="HH_AmmoBox_30_06_20Rnd">
     <nominal>0</nominal>
@@ -495,7 +495,7 @@
     <usage name="Farm"/>
     <usage name="Town"/>
     <usage name="Village"/>
-    <usage name="Coast"/>
+    <usage name="coast"/>
   </type>
   <type name="HH_Ammo_50AE">
     <nominal>0</nominal>
@@ -512,7 +512,7 @@
     <usage name="Town"/>
     <usage name="Military"/>
     <usage name="Village"/>
-    <usage name="Coast"/>
+    <usage name="coast"/>
   </type>
   <type name="HH_Ammo_30_06">
     <nominal>0</nominal>
