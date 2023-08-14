@@ -206,6 +206,7 @@
             <child lootmax="5" lootmin="0" max="0" min="20" type="ZmbM_SoldierNormal"/>
             <child lootmax="5" lootmin="0" max="0" min="5" type="ZmbM_usSoldier_normal_Desert"/>
             <child lootmax="5" lootmin="0" max="0" min="5" type="ZmbM_usSoldier_normal_Woodland"/>
+            <child lootmax="0" lootmin="0" max="0" min="17" type="tmane_lurk"/>
         </children>
     </event>
     <event name="InfectedArmyHard">
@@ -231,6 +232,7 @@
             <child lootmax="5" lootmin="0" max="0" min="5" type="ZmbM_usSoldier_Officer_Desert"/>
             <child lootmax="5" lootmin="0" max="0" min="5" type="ZmbM_usSoldier_normal_Desert"/>
             <child lootmax="5" lootmin="0" max="0" min="5" type="ZmbM_usSoldier_normal_Woodland"/>
+            <child lootmax="0" lootmin="0" max="0" min="17" type="tmane_fatlurk"/>
         </children>
     </event>
     <event name="InfectedCity">
@@ -287,6 +289,7 @@
             <child lootmax="5" lootmin="0" max="0" min="2" type="ZmbM_SkaterYoung_Brown"/>
             <child lootmax="5" lootmin="0" max="0" min="2" type="ZmbM_SkaterYoung_Green"/>
             <child lootmax="5" lootmin="0" max="0" min="2" type="ZmbM_SkaterYoung_Grey"/>
+            <child lootmax="0" lootmin="0" max="0" min="17" type="tmane_fastlurk"/>
         </children>
     </event>
     <event name="InfectedCityTier1">
@@ -315,6 +318,7 @@
             <child lootmax="5" lootmin="0" max="0" min="8" type="ZmbM_CommercialPilotOld_Grey"/>
             <child lootmax="5" lootmin="0" max="0" min="8" type="ZmbM_MotobikerFat_Black"/>
             <child lootmax="5" lootmin="0" max="0" min="8" type="ZmbM_SkaterYoung_Blue"/>
+            <child lootmax="0" lootmin="0" max="0" min="17" type="tmane_fastlurk"/>
         </children>
     </event>
     <event name="InfectedFirefighter">
@@ -333,6 +337,7 @@
         <children>
             <child lootmax="5" lootmin="0" max="0" min="90" type="ZmbM_FirefighterNormal"/>
             <child lootmax="5" lootmin="0" max="0" min="10" type="ZmbM_NBC_Yellow"/>
+            <child lootmax="0" lootmin="0" max="0" min="17" type="tmane_lurk"/>
         </children>
     </event>
     <event name="InfectedIndustrial">
@@ -375,6 +380,7 @@
             <child lootmax="5" lootmin="0" max="0" min="3" type="ZmbM_OffshoreWorker_Orange"/>
             <child lootmax="5" lootmin="0" max="0" min="3" type="ZmbM_OffshoreWorker_Red"/>
             <child lootmax="5" lootmin="0" max="0" min="3" type="ZmbM_OffshoreWorker_Yellow"/>
+            <child lootmax="0" lootmin="0" max="0" min="17" type="tmane_lurk"/>
         </children>
     </event>
     <event name="InfectedMedic">
@@ -404,6 +410,7 @@
             <child lootmax="5" lootmin="0" max="0" min="7" type="ZmbM_ParamedicNormal_Green"/>
             <child lootmax="5" lootmin="0" max="0" min="7" type="ZmbM_ParamedicNormal_Red"/>
             <child lootmax="5" lootmin="0" max="0" min="7" type="ZmbM_PatientSkinny"/>
+            <child lootmax="0" lootmin="0" max="0" min="17" type="tmane_lurk"/>
         </children>
     </event>
     <event name="InfectedNBC">
@@ -562,6 +569,7 @@
             <child lootmax="5" lootmin="0" max="0" min="5" type="ZmbM_HunterOld_Spring"/>
             <child lootmax="5" lootmin="0" max="0" min="5" type="ZmbM_HunterOld_Summer"/>
             <child lootmax="5" lootmin="0" max="0" min="5" type="ZmbM_HunterOld_Winter"/>
+            <child lootmax="0" lootmin="0" max="0" min="17" type="tmane_fastlurk"/>
         </children>
     </event>
     <event name="InfectedVillage">
@@ -602,6 +610,7 @@
             <child lootmax="5" lootmin="0" max="0" min="5" type="ZmbM_JoggerSkinny_Green"/>
             <child lootmax="5" lootmin="0" max="0" min="2" type="ZmbM_VillagerOld_Blue"/>
             <child lootmax="5" lootmin="0" max="0" min="2" type="ZmbM_VillagerOld_White"/>
+            <child lootmax="0" lootmin="0" max="0" min="17" type="tmane_fastlurk"/>
         </children>
     </event>
     <event name="InfectedVillageTier1">
@@ -626,57 +635,7 @@
             <child lootmax="5" lootmin="0" max="0" min="17" type="ZmbM_Jacket_magenta"/>
             <child lootmax="5" lootmin="0" max="0" min="17" type="ZmbM_JoggerSkinny_Red"/>
             <child lootmax="5" lootmin="0" max="0" min="5" type="ZmbM_VillagerOld_Green"/>
-        </children>
-    </event>
-    <event name="InfectedClicker">
-        <nominal>50</nominal>
-        <min>25</min>
-        <max>100</max>
-        <lifetime>3</lifetime>
-        <restock>0</restock>
-        <saferadius>100</saferadius>
-        <distanceradius>50</distanceradius>
-        <cleanupradius>100</cleanupradius>
-        <flags deletable="0" init_random="0" remove_damaged="1"/>
-        <position>player</position>
-        <limit>custom</limit>
-        <active>1</active>
-        <children>
-            <child lootmax="5" lootmin="0" max="0" min="17" type="tmane_fastlurk"/>
-        </children>
-    </event>
-    <event name="InfectedShambler">
-        <nominal>50</nominal>
-        <min>25</min>
-        <max>100</max>
-        <lifetime>3</lifetime>
-        <restock>0</restock>
-        <saferadius>100</saferadius>
-        <distanceradius>50</distanceradius>
-        <cleanupradius>100</cleanupradius>
-        <flags deletable="0" init_random="0" remove_damaged="1"/>
-        <position>player</position>
-        <limit>custom</limit>
-        <active>1</active>
-        <children>
-            <child lootmax="5" lootmin="0" max="0" min="17" type="tmane_lurk"/>
-        </children>
-    </event>
-    <event name="InfectedBloater">
-        <nominal>50</nominal>
-        <min>25</min>
-        <max>100</max>
-        <lifetime>3</lifetime>
-        <restock>0</restock>
-        <saferadius>100</saferadius>
-        <distanceradius>50</distanceradius>
-        <cleanupradius>100</cleanupradius>
-        <flags deletable="0" init_random="0" remove_damaged="1"/>
-        <position>player</position>
-        <limit>custom</limit>
-        <active>1</active>
-        <children>
-            <child lootmax="5" lootmin="0" max="0" min="17" type="tmane_fatlurk"/>
+            <child lootmax="0" lootmin="0" max="0" min="17" type="tmane_fastlurk"/>
         </children>
     </event>
     <event name="ItemPlanks">
