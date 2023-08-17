@@ -12,19 +12,19 @@ void main()
 
 	if ((month == reset_month) && (day < reset_day))
 	{
-		GetGame().GetWorld().SetDate(year, reset_month, reset_day, 6, 0);
+		GetGame().GetWorld().SetDate(year, reset_month, reset_day, 5, 30);
 	}
 	else
 	{
 		if ((month == reset_month + 1) && (day > reset_day))
 		{
-			GetGame().GetWorld().SetDate(year, reset_month, reset_day, 6, 0);
+			GetGame().GetWorld().SetDate(year, reset_month, reset_day, 5, 30);
 		}
 		else
 		{
 			if ((month < reset_month) || (month > reset_month + 1))
 			{
-				GetGame().GetWorld().SetDate(year, reset_month, reset_day, 6, 0);
+				GetGame().GetWorld().SetDate(year, reset_month, reset_day, 5, 30);
 			}
 		}
 	}
@@ -43,11 +43,11 @@ class CustomMission: MissionServer
 			// enable/disable event system, min time between events, max time between events, max number of events at the same time
 			m_EventManagerServer.OnInitServer( true, 550, 1000, 2 );
 			// registering events and their probability
-			m_EventManagerServer.RegisterEvent( Aurora, 0.25 );
+			m_EventManagerServer.RegisterEvent( Aurora, 0.1 );
 			m_EventManagerServer.RegisterEvent( Blizzard, 0.0 );
 			m_EventManagerServer.RegisterEvent( ExtremeCold, 0.0 );
 			m_EventManagerServer.RegisterEvent( Snowfall, 0.0 );
-			m_EventManagerServer.RegisterEvent( EVRStorm, 0.75 );
+			m_EventManagerServer.RegisterEvent( EVRStorm, 0.9 );
 			m_EventManagerServer.RegisterEvent( HeavyFog, 0.0 );
 		}
 	}
@@ -105,22 +105,18 @@ class CustomMission: MissionServer
 	}
 
     void SpawnJeffSetup(PlayerBase player) {
-        autoptr TStringArray clothes = {"BaseballCap_Black","MMG_facemask_black","ThickFramesGlasses","FP4_Brodaga_Jacket_Black","MMG_combatpants_black","SK8_Sneakers_FullBlack","WoolGlovesFingerless_Black","MMG_carrier_backpack_black"};
+        autoptr TStringArray clothes = {"BaseballCap_Black","MMG_facemask_black","mmg_tac_goggles_red_black","MMG_combatshirt_black","MMG_combatpants_black","SK8_Sneakers_FullBlack","WoolGloves_Black"};
 
         spawnItemsOnPlayer(player, clothes);
 
-		EntityAI sheath, rifle, belt, itemEnt, holster, pistol;
+		ItemBase bullets;
+		EntityAI rifle, bag, belt, itemEnt, holster, pistol;
 
-		sheath = player.GetInventory().CreateInInventory("KatanaSheath");
-		itemEnt = sheath.GetInventory().CreateAttachment("Katana");
+		rifle = player.GetInventory().CreateInInventory("BO_MK12");
+		rifle.GetInventory().CreateAttachment("BO_Tango6");
+		rifle.GetInventory().CreateAttachment("BO_MK12Suppressor");
 
-		player.SetQuickBarEntityShortcut( itemEnt, 0 );
-
-		rifle = player.GetInventory().CreateInInventory("BO_M40A1");
-		rifle.GetInventory().CreateAttachment("BO_LeupoldMk4");
-		rifle.GetInventory().CreateAttachment("BO_CorduraSuppressor_Black");
-
-		player.SetQuickBarEntityShortcut( rifle, 6 );
+		player.SetQuickBarEntityShortcut( rifle, 3 );
 
         belt = player.GetInventory().CreateInInventory("MMG_falcon_b1_belt_black");
 		holster = belt.GetInventory().CreateAttachment("MMG_Holster_black");
@@ -137,18 +133,34 @@ class CustomMission: MissionServer
 		for(int i = 0; i < 3; i++) {
              itemEnt.GetInventory().CreateInInventory("HH_Beretta92_Mag");
         }
+		bullets = itemEnt.GetInventory().CreateInInventory("Ammo_9x19");
+		bullets.SetQuantity(25);
 
 		itemEnt = belt.GetInventory().CreateAttachment("MMG_tactical_pouch_black");
-
-		for(i = 0; i < 12; i++) {
-             itemEnt.GetInventory().CreateInInventory("AmmoBox_308Win_20Rnd");
-        }
 
 		// harness
 
 		itemEnt = player.GetInventory().CreateInInventory("MMG_chestrig_black");
-		itemEnt.GetInventory().CreateAttachment("MMG_ammo_pouch_black");
 		itemEnt.GetInventory().CreateAttachment("MMG_sheath_black");
+
+		itemEnt = itemEnt.GetInventory().CreateAttachment("MMG_ammo_pouch_black");
+
+		for(i = 0; i < 3; i++) {
+             itemEnt.GetInventory().CreateInInventory("BO_Mag_MK12_20rnd");
+        }
+
+		for(i = 0; i < 11; i++) {
+             itemEnt.GetInventory().CreateInInventory("AmmoBox_556x45_20Rnd");
+        }
+
+		bullets = itemEnt.GetInventory().CreateInInventory("Ammo_556x45");
+		bullets.SetQuantity(20);
+		
+		bag = player.GetInventory().CreateInInventory("MMG_carrier_backpack_black");
+
+		bag.GetInventory().CreateAttachment("Chemlight_White");
+		itemEnt = bag.GetInventory().CreateInInventory("BandageDressing");
+		player.SetQuickBarEntityShortcut(itemEnt, 4);
     }
 
 	override void StartingEquipSetup(PlayerBase player, bool clothesChosen)
@@ -164,16 +176,14 @@ class CustomMission: MissionServer
 			player.RemoveAllItems();
             
             SpawnJeffSetup(player);
-            
-            itemEnt = player.GetInventory().CreateInInventory( "BandageDressing" );
-			player.SetQuickBarEntityShortcut( itemEnt, 4 );
+			
+            itemEnt = player.GetInventory().CreateInInventory("WaterBottle");
+			itemBs = player.GetInventory().CreateInInventory("PurificationTablets");
+			itemBs.SetQuantity(1);
 
-			itemEnt = player.GetInventory().CreateInInventory( "Chemlight_White" );
-            
-            itemEnt = player.GetInventory().CreateInInventory( "CanOpener" );
-            itemEnt = player.GetInventory().CreateInInventory( "SodaCan_Cola" );
-        	itemEnt = player.GetInventory().CreateInInventory( "SodaCan_Spite" );
-            itemEnt = player.GetInventory().CreateInInventory( "SpaghettiCan" );
+            itemEnt = player.GetInventory().CreateInInventory("PowderedMilk");
+			itemEnt = player.GetInventory().CreateInInventory("ChernarusMap");
+			itemEnt = player.GetInventory().CreateInInventory("CanOpener");
 		} 
 	}
 };
