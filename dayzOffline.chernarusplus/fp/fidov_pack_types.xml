@@ -3411,7 +3411,7 @@
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="clothes"/>
-        <usage name="Military"/>
+        <usage name="Police"/>
         <value name="Tier3"/>
         <value name="Tier4"/>
     </type>
@@ -4315,7 +4315,7 @@
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="clothes"/>
-        <usage name="Military"/>
+        <usage name="Police"/>
         <value name="Tier3"/>
         <value name="Tier4"/>
     </type>
@@ -4695,7 +4695,9 @@
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="clothes"/>
-        <usage name="Military"/>
+        <usage name="Police"/>
+        <value name="Tier3"/>
+        <value name="Tier4"/>
     </type>
 	<type name="FP4_TacticalPants_Desert">
         <nominal>0</nominal>
