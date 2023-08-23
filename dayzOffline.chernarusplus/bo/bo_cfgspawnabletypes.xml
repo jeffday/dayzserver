@@ -642,8 +642,9 @@
 	</type>
 	<type name="BO_M16A4">
 		<attachments preset="ar_optics" />
-		<attachments chance="0.50">
-			<item name="BO_Mag_PMAG_30rnd" chance="1.00" />
+		<attachments chance="0.60">
+			<item name="BO_Mag_PMAG_30rnd" chance="0.50" />
+			<item name="Mag_STANAG_30Rnd" chance="0.50" />
 		</attachments>
 	</type>
 	<type name="BO_TAR21">
@@ -1097,7 +1098,7 @@
 	<type name="BO_MCXTacops_Black">
 		<attachments preset="ar_optics" />
 		<attachments chance="1.00">
-			<item name="BO_MCXSpear_Bttstck_Tan" chance="1.00" />
+			<item name="BO_MCXTacops_Bttstck_Black" chance="1.00" />
 		</attachments>
 		<attachments chance="0.60">
 			<item name="BO_Mag_PMAG_30rnd" chance="0.50" />
@@ -1126,6 +1127,141 @@
 		</attachments>
 		<attachments preset="pistol_suppressors" />
 		<attachments preset="pistol_optics" />
+	</type>
+
+	<!-- Added 2.7 -->
+	<type name="BO_CAR15">
+		<attachments preset="ar_optics" />
+		<attachments chance="0.60">
+			<item name="BO_Mag_PMAG_30rnd" chance="0.50" />
+		</attachments>
+	</type>
+	<type name="BO_Beowulf">
+		<attachments preset="ar_optics" />
+		<attachments chance="0.60">
+			<item name="BO_Mag_Beowulf_20Rnd" chance="1.00" />
+		</attachments>
+	</type>
+	<type name="BO_M16A1">
+		<attachments preset="ar_optics" />
+		<attachments chance="0.60">
+			<item name="BO_Mag_PMAG_30rnd" chance="0.50" />
+			<item name="Mag_STANAG_30Rnd" chance="0.50" />
+		</attachments>
+	</type>
+	<type name="BO_AR10">
+		<attachments preset="dmr_optics" />
+		<attachments chance="0.60">
+			<item name="BO_Mag_AR10_20rnd" chance="1.00" />
+		</attachments>
+	</type>
+	<type name="BO_AR10_Bakelite">
+		<attachments preset="dmr_optics" />
+		<attachments chance="0.60">
+			<item name="BO_Mag_AR10_20rnd" chance="1.00" />
+		</attachments>
+	</type>
+	<type name="BO_AR10_Shadow">
+		<attachments preset="dmr_optics" />
+		<attachments chance="0.60">
+			<item name="BO_Mag_AR10_20rnd" chance="1.00" />
+		</attachments>
+	</type>
+	<type name="BO_M87R">
+		<attachments preset="long_range_scopes" />
+		<attachments chance="0.60">
+			<item name="BO_Mag_M87R_5rnd" chance="1.00" />
+		</attachments>
+	</type>
+	<type name="BO_Mini14">
+		<attachments chance="0.30">
+			<item name="HuntingOptic" chance="1.00" />
+		</attachments>
+		<attachments chance="0.60">
+			<item name="BO_Mag_Mini14_20rnd" chance="1.00" />
+		</attachments>
+	</type>
+	<type name="BO_PTRS41">
+		<attachments chance="0.60">
+			<item name="BO_Mag_PTRS41_5rnd" chance="1.00" />
+		</attachments>
+	</type>
+	<type name="BO_RugerMkIV_Black">
+		<attachments chance="0.60">
+			<item name="BO_Mag_RugerMkIV_10Rnd" chance="1.00" />
+		</attachments>
+	</type>
+	<type name="BO_RugerMkIV_Red">
+		<attachments chance="0.60">
+			<item name="BO_Mag_RugerMkIV_10Rnd" chance="1.00" />
+		</attachments>
+	</type>
+	<type name="BO_P30L_Black">
+		<attachments chance="0.10">
+			<item name="BO_P30L_Compensator" chance="1.00" />
+		</attachments>
+		<attachments chance="0.60">
+			<item name="BO_Mag_P30L_15rnd" chance="1.00" />
+		</attachments>
+	</type>
+	<type name="BO_P30L_Grey">
+		<attachments chance="0.10">
+			<item name="BO_P30L_Compensator" chance="1.00" />
+		</attachments>
+		<attachments chance="0.60">
+			<item name="BO_Mag_P30L_15rnd" chance="1.00" />
+		</attachments>
+	</type>
+	<type name="BO_AEK971">
+		<attachments chance="0.30">
+			<item name="KashtanOptic" chance="0.50" />
+			<item name="PSO11Optic" chance="0.30" />
+		</attachments>
+		<attachments chance="0.60">
+			<item name="BO_AK74_30rnd" chance="1.00" />
+		</attachments>
+	</type>
+	<type name="BO_PP2000">
+		<attachments preset="close_range_optics" />
+		<attachments preset="pistol_suppressors" />
+		<attachments chance="0.60">
+			<item name="BO_Mag_PP2000_20rnd" chance="0.8" />
+			<item name="BO_Mag_PP2000_40rnd" chance="0.2" />
+		</attachments>
+	</type>
+	<type name="BO_UMP45">
+		<attachments preset="close_range_optics" />
+		<attachments preset="pistol_suppressors" />
+		<attachments chance="0.60">
+			<item name="Mag_UMP_25Rnd" chance="1.00" />
+		</attachments>
+	</type>
+	<type name="BO_SV98">
+		<attachments chance="0.30">
+			<item name="HuntingOptic" chance="1.00" />
+		</attachments>
+		<attachments chance="0.60">
+			<item name="BO_Mag_SV98_10rnd" chance="1.00" />
+		</attachments>
+	</type>
+	<type name="BO_M1Garand">
+		<attachments chance="0.30">
+			<item name="BO_M1Garand_M84_Scope" chance="1.00" />
+		</attachments>
+		<attachments chance="0.10">
+			<item name="BO_M1Garand_Suppressor" chance="1.00" />
+		</attachments>
+	</type>
+	<type name="BO_Tigr_Tactical">
+		<attachments preset="long_range_scopes" />
+		<attachments chance="1.00">
+				<item name="BO_SOPMODBttstck" chance="0.33" />
+				<item name="BO_MK18Bttstck" chance="0.33" />
+				<item name="BO_CAR15_Bttstk" chance="0.34" />
+		</attachments>
+		<attachments chance="0.60">
+			<item name="Mag_SVD_10Rnd" chance="1.00" />
+		</attachments>
 	</type>
 	<!-- stuff that was missing -->
 	<type name="BO_Springfield1903">

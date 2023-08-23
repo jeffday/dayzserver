@@ -2,8 +2,8 @@
 <types>
     <type name="BO_AccuPowerOptic">
         <nominal>0</nominal>
-        <lifetime>28800</lifetime>
-        <restock>0</restock>
+        <lifetime>7200</lifetime>
+        <restock>300</restock>
         <min>0</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
@@ -679,8 +679,8 @@
     </type>
     <type name="BO_SA58">
 		<nominal>1</nominal>
-		<lifetime>10800</lifetime>
-		<restock>14400</restock>
+        <lifetime>7200</lifetime>
+        <restock>300</restock>
 		<min>0</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
@@ -919,8 +919,8 @@
     </type>
     <type name="BO_Mag_PMAG300_30rnd">
         <nominal>0</nominal>
-        <lifetime>28800</lifetime>
-        <restock>0</restock>
+        <lifetime>7200</lifetime>
+        <restock>300</restock>
         <min>0</min>
         <quantmin>5</quantmin>
         <quantmax>50</quantmax>
@@ -1045,6 +1045,7 @@
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="1"/>
         <category name="weapons"/>
+        <usage name="Military"/>
     </type>
     <type name="BO_Mag_RPK16_96rnd">
         <nominal>0</nominal>
@@ -1152,8 +1153,8 @@
     </type>
     <type name="BO_SIG552">
         <nominal>7</nominal>
-        <lifetime>28800</lifetime>
-        <restock>0</restock>
+        <lifetime>7200</lifetime>
+        <restock>300</restock>
         <min>4</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
@@ -1459,8 +1460,8 @@
     </type>
     <type name="BO_Mag_R700_5rnd">
         <nominal>10</nominal>
-        <lifetime>28800</lifetime>
-        <restock>0</restock>
+        <lifetime>7200</lifetime>
+        <restock>300</restock>
         <min>7</min>
         <quantmin>0</quantmin>
         <quantmax>80</quantmax>
@@ -1597,8 +1598,8 @@
     <!-- Added 1.03 -->
     <type name="BO_AKS74U">
         <nominal>17</nominal>
-        <lifetime>28800</lifetime>
-        <restock>0</restock>
+        <lifetime>7200</lifetime>
+        <restock>300</restock>
         <min>12</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
@@ -1757,8 +1758,8 @@
     </type>
     <type name="BO_Mag_Groza_20rnd">
         <nominal>3</nominal>
-        <lifetime>28800</lifetime>
-        <restock>3600</restock>
+        <lifetime>7200</lifetime>
+        <restock>300</restock>
         <min>2</min>
         <quantmin>10</quantmin>
         <quantmax>100</quantmax>
@@ -1922,7 +1923,7 @@
     <type name="BO_Beretta">
         <nominal>0</nominal>
         <lifetime>7200</lifetime>
-        <restock>0</restock>
+        <restock>300</restock>
         <min>0</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
@@ -1947,7 +1948,7 @@
     <type name="BO_Mag_Beretta_15rnd">
         <nominal>0</nominal>
         <lifetime>7200</lifetime>
-        <restock>0</restock>
+        <restock>300</restock>
         <min>0</min>
         <quantmin>10</quantmin>
         <quantmax>100</quantmax>
@@ -1958,8 +1959,8 @@
     </type>
     <type name="BO_DesertEagle">
         <nominal>12</nominal>
-        <lifetime>28800</lifetime>
-        <restock>0</restock>
+        <lifetime>7200</lifetime>
+        <restock>300</restock>
         <min>8</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
@@ -1970,8 +1971,8 @@
     </type>
     <type name="BO_DesertEagle_BlackSky">
         <nominal>4</nominal>
-        <lifetime>28800</lifetime>
-        <restock>0</restock>
+        <lifetime>7200</lifetime>
+        <restock>300</restock>
         <min>2</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
@@ -1994,8 +1995,8 @@
     </type>
     <type name="BO_Mag_DesertEagle_9rnd">
         <nominal>15</nominal>
-        <lifetime>28800</lifetime>
-        <restock>0</restock>
+        <lifetime>7200</lifetime>
+        <restock>300</restock>
         <min>10</min>
         <quantmin>15</quantmin>
         <quantmax>100</quantmax>
@@ -2036,8 +2037,8 @@
     </type>
     <type name="BO_Glock18C">
         <nominal>10</nominal>
-        <lifetime>28800</lifetime>
-        <restock>0</restock>
+        <lifetime>7200</lifetime>
+        <restock>300</restock>
         <min>8</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
@@ -2051,8 +2052,8 @@
     </type>
     <type name="BO_Mag_Glock18C_17rnd">
         <nominal>10</nominal>
-        <lifetime>28800</lifetime>
-        <restock>0</restock>
+        <lifetime>7200</lifetime>
+        <restock>300</restock>
         <min>8</min>
         <quantmin>10</quantmin>
         <quantmax>100</quantmax>
@@ -2383,8 +2384,8 @@
     </type>
     <type name="BO_AK74">
         <nominal>8</nominal>
-        <lifetime>28800</lifetime>
-        <restock>0</restock>
+        <lifetime>7200</lifetime>
+        <restock>300</restock>
         <min>6</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
@@ -2397,8 +2398,8 @@
     </type>
     <type name="BO_AK74_30rnd">
         <nominal>25</nominal>
-        <lifetime>28800</lifetime>
-        <restock>0</restock>
+        <lifetime>7200</lifetime>
+        <restock>300</restock>
         <min>20</min>
         <quantmin>5</quantmin>
         <quantmax>50</quantmax>
@@ -2436,8 +2437,8 @@
     </type>
     <type name="BO_PMAG_AKM_30rnd">
         <nominal>5</nominal>
-        <lifetime>28800</lifetime>
-        <restock>0</restock>
+        <lifetime>7200</lifetime>
+        <restock>300</restock>
         <min>2</min>
         <quantmin>5</quantmin>
         <quantmax>50</quantmax>
@@ -2450,8 +2451,8 @@
     </type>
     <type name="BO_PMAG_AKM_30rnd_FDE">
         <nominal>0</nominal>
-        <lifetime>28800</lifetime>
-        <restock>0</restock>
+        <lifetime>7200</lifetime>
+        <restock>300</restock>
         <min>0</min>
         <quantmin>5</quantmin>
         <quantmax>50</quantmax>
@@ -2685,32 +2686,6 @@
         <quantmax>80</quantmax>
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-        <category name="weapons"/>
-        <usage name="Military"/>
-        <value name="Tier4"/>
-    </type>
-    <type name="BO_MAR10">
-        <nominal>1</nominal>
-        <lifetime>7200</lifetime>
-        <restock>300</restock>
-        <min>1</min>
-        <quantmin>-1</quantmin>
-        <quantmax>-1</quantmax>
-        <cost>100</cost>
-        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="1" crafted="0" deloot="1"/>
-        <category name="weapons"/>
-        <usage name="Military"/>
-        <value name="Tier4"/>
-    </type>
-    <type name="BO_Mag_MAR10_10rnd">
-        <nominal>1</nominal>
-        <lifetime>7200</lifetime>
-        <restock>300</restock>
-        <min>1</min>
-        <quantmin>10</quantmin>
-        <quantmax>80</quantmax>
-        <cost>100</cost>
-        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="1" crafted="0" deloot="1"/>
         <category name="weapons"/>
         <usage name="Military"/>
         <value name="Tier4"/>
@@ -2974,8 +2949,8 @@
     </type>
     <type name="BO_MKGS">
         <nominal>5</nominal>
-        <lifetime>28800</lifetime>
-        <restock>0</restock>
+        <lifetime>7200</lifetime>
+        <restock>300</restock>
         <min>3</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
@@ -2986,8 +2961,8 @@
     </type>
     <type name="BO_Mag_MKGS_32rnd">
         <nominal>7</nominal>
-        <lifetime>28800</lifetime>
-        <restock>0</restock>
+        <lifetime>7200</lifetime>
+        <restock>300</restock>
         <min>4</min>
         <quantmin>5</quantmin>
         <quantmax>50</quantmax>
@@ -3020,34 +2995,10 @@
         <category name="weapons"/>
         <usage name="Military"/>
     </type>
-    <type name="BO_Vector">
-        <nominal>5</nominal>
-        <lifetime>7200</lifetime>
-        <restock>300</restock>
-        <min>2</min>
-        <quantmin>-1</quantmin>
-        <quantmax>-1</quantmax>
-        <cost>100</cost>
-        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-        <category name="weapons"/>
-        <usage name="Military"/>
-    </type>
-    <type name="BO_Mag_Vector_32rnd">
-        <nominal>5</nominal>
-        <lifetime>7200</lifetime>
-        <restock>300</restock>
-        <min>2</min>
-        <quantmin>5</quantmin>
-        <quantmax>50</quantmax>
-        <cost>100</cost>
-        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-        <category name="weapons"/>
-        <usage name="Military"/>
-    </type>
     <type name="BO_MRAD">
 		<nominal>1</nominal>
-		<lifetime>10800</lifetime>
-		<restock>1800</restock>
+        <lifetime>7200</lifetime>
+        <restock>300</restock>
 		<min>0</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
@@ -3157,8 +3108,8 @@
     <!-- Added 2.2 -->
     <type name="BO_MK23">
         <nominal>10</nominal>
-        <lifetime>28800</lifetime>
-        <restock>0</restock>
+        <lifetime>7200</lifetime>
+        <restock>300</restock>
         <min>8</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
@@ -3171,8 +3122,8 @@
     </type>
     <type name="BO_Mag_MK23_12rnd">
         <nominal>10</nominal>
-        <lifetime>28800</lifetime>
-        <restock>0</restock>
+        <lifetime>7200</lifetime>
+        <restock>300</restock>
         <min>8</min>
         <quantmin>10</quantmin>
         <quantmax>100</quantmax>
@@ -3185,8 +3136,8 @@
     </type>
     <type name="BO_MK23_LAM">
         <nominal>5</nominal>
-        <lifetime>28800</lifetime>
-        <restock>1800</restock>
+        <lifetime>7200</lifetime>
+        <restock>300</restock>
         <min>4</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
@@ -3199,8 +3150,8 @@
     </type>
     <type name="BO_MK23_Suppressor">
         <nominal>10</nominal>
-        <lifetime>14400</lifetime>
-        <restock>0</restock>
+        <lifetime>7200</lifetime>
+        <restock>300</restock>
         <min>5</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
@@ -3212,8 +3163,8 @@
     </type>
     <type name="BO_SVD">
         <nominal>5</nominal>
-        <lifetime>28800</lifetime>
-        <restock>0</restock>
+        <lifetime>7200</lifetime>
+        <restock>300</restock>
         <min>2</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
@@ -3224,8 +3175,8 @@
     </type>
     <type name="BO_TKB0146">
         <nominal>3</nominal>
-        <lifetime>10800</lifetime>
-        <restock>1800</restock>
+        <lifetime>7200</lifetime>
+        <restock>300</restock>
         <min>2</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
@@ -3316,8 +3267,8 @@
     </type>
     <type name="BO_HS12">
         <nominal>25</nominal>
-        <lifetime>14400</lifetime>
-        <restock>0</restock>
+        <lifetime>7200</lifetime>
+        <restock>300</restock>
         <min>20</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
@@ -3332,7 +3283,7 @@
     <type name="BO_M590A1">
         <nominal>10</nominal>
         <lifetime>7200</lifetime>
-        <restock>0</restock>
+        <restock>300</restock>
         <min>8</min>
         <quantmin>0</quantmin>
         <quantmax>80</quantmax>
@@ -3649,8 +3600,8 @@
     </type>
     <type name="BO_Spitfire">
         <nominal>3</nominal>
-        <lifetime>14400</lifetime>
-        <restock>1800</restock>
+        <lifetime>7200</lifetime>
+        <restock>300</restock>
         <min>1</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
@@ -4100,8 +4051,8 @@
     </type>
     <type name="BO_Mag_VSSK_5rnd">
         <nominal>4</nominal>
-        <lifetime>28800</lifetime>
-        <restock>3600</restock>
+        <lifetime>7200</lifetime>
+        <restock>300</restock>
         <min>2</min>
         <quantmin>10</quantmin>
         <quantmax>100</quantmax>
@@ -4388,10 +4339,10 @@
         <usage name="Military"/>
     </type>
     <type name="Ammo_BO_127x55STs">
-        <nominal>8</nominal>
+        <nominal>12</nominal>
         <lifetime>10800</lifetime>
         <restock>4800</restock>
-        <min>4</min>
+        <min>8</min>
         <quantmin>10</quantmin>
         <quantmax>30</quantmax>
         <cost>100</cost>
@@ -4402,10 +4353,10 @@
         <value name="Tier4"/>
     </type>
     <type name="Ammo_BO_65C">
-        <nominal>8</nominal>
+        <nominal>12</nominal>
         <lifetime>10800</lifetime>
         <restock>4800</restock>
-        <min>4</min>
+        <min>8</min>
         <quantmin>10</quantmin>
         <quantmax>30</quantmax>
         <cost>100</cost>
@@ -4416,10 +4367,10 @@
         <value name="Tier4"/>
     </type>
     <type name="Ammo_BO_145x114">
-        <nominal>8</nominal>
+        <nominal>16</nominal>
         <lifetime>10800</lifetime>
         <restock>4800</restock>
-        <min>4</min>
+        <min>8</min>
         <quantmin>10</quantmin>
         <quantmax>30</quantmax>
         <cost>100</cost>
@@ -5162,40 +5113,617 @@
         <value name="Tier3"/>
         <value name="Tier4"/>
     </type>
-    <type name="BO_M1Garand">
-        <nominal>0</nominal>
-        <lifetime>7200</lifetime>
-        <restock>300</restock>
-        <min>0</min>
-        <quantmin>0</quantmin>
-        <quantmax>80</quantmax>
+    
+<!-- Added 2.7 -->
+    <type name="BO_AmmoBox_65C_20rnd">
+        <nominal>30</nominal>
+        <lifetime>10800</lifetime>
+        <restock>4800</restock>
+        <min>10</min>
+        <quantmin>100</quantmin>
+        <quantmax>100</quantmax>
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="weapons"/>
         <usage name="Military"/>
     </type>
-    <type name="BO_M1Garand_M84_Scope">
+    <type name="BO_Beowulf">
+        <nominal>1</nominal>
+        <lifetime>7200</lifetime>
+        <restock>300</restock>
+        <min>1</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="1"/>
+        <category name="weapons"/>
+        <usage name="Military"/>
+    </type>
+    <type name="BO_Mag_Beowulf_20Rnd">
+        <nominal>3</nominal>
+        <lifetime>7200</lifetime>
+        <restock>300</restock>
+        <min>2</min>
+        <quantmin>10</quantmin>
+        <quantmax>100</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="weapons"/>
+        <usage name="Military"/>
+        <value name="Tier4"/>
+    </type>
+    <type name="BO_Mag_Makarov_84rnd">
         <nominal>0</nominal>
         <lifetime>7200</lifetime>
         <restock>300</restock>
         <min>0</min>
+        <quantmin>100</quantmin>
+        <quantmax>100</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="weapons"/>
+        <usage name="Military"/>
+    </type>
+    <type name="BO_M16A1">
+        <nominal>4</nominal>
+        <lifetime>28800</lifetime>
+        <restock>0</restock>
+        <min>2</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="weapons"/>
+        <usage name="Military"/>
+        <value name="Tier2"/>
+        <value name="Tier3"/>
+    </type>
+    <type name="BO_AR10">
+        <nominal>1</nominal>
+        <lifetime>7200</lifetime>
+        <restock>300</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="weapons"/>
+        <usage name="Military"/>
+        <value name="Tier4"/>
+    </type>
+    <type name="BO_AR10_Bakelite">
+        <nominal>1</nominal>
+        <lifetime>7200</lifetime>
+        <restock>300</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="weapons"/>
+        <usage name="Military"/>
+        <value name="Tier4"/>
+    </type>
+    <type name="BO_AR10_Shadow">
+        <nominal>1</nominal>
+        <lifetime>7200</lifetime>
+        <restock>300</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="weapons"/>
+        <usage name="Military"/>
+        <value name="Tier4"/>
+    </type>
+    <type name="BO_Mag_AR10_20rnd">
+        <nominal>5</nominal>
+        <lifetime>7200</lifetime>
+        <restock>300</restock>
+        <min>2</min>
+        <quantmin>10</quantmin>
+        <quantmax>100</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="weapons"/>
+        <usage name="Military"/>
+        <value name="Tier3"/>
+        <value name="Tier4"/>
+    </type>
+    <type name="BO_M87R">
+        <nominal>1</nominal>
+        <lifetime>7200</lifetime>
+        <restock>300</restock>
+        <min>1</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="1"/>
+        <category name="weapons"/>
+        <usage name="Military"/>
+    </type>
+    <type name="BO_Mag_M87R_5rnd">
+        <nominal>3</nominal>
+        <lifetime>7200</lifetime>
+        <restock>300</restock>
+        <min>2</min>
+        <quantmin>10</quantmin>
+        <quantmax>100</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="weapons"/>
+        <usage name="Military"/>
+        <value name="Tier4"/>
+    </type>
+    <type name="BO_Mini14">
+        <nominal>10</nominal>
+        <lifetime>28800</lifetime>
+        <restock>0</restock>
+        <min>7</min>
         <quantmin>0</quantmin>
         <quantmax>80</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="weapons"/>
+        <value name="Tier2"/>
+        <value name="Tier3"/>
+        <value name="Tier4"/>
+    </type>
+    <type name="BO_Mag_Mini14_20rnd">
+        <nominal>10</nominal>
+        <lifetime>7200</lifetime>
+        <restock>300</restock>
+        <min>7</min>
+        <quantmin>10</quantmin>
+        <quantmax>100</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="weapons"/>
+        <usage name="Military"/>
+        <value name="Tier2"/>
+        <value name="Tier3"/>
+        <value name="Tier4"/>
+    </type>
+    <type name="BO_PTRS41">
+        <nominal>20</nominal>
+        <lifetime>7200</lifetime>
+        <restock>300</restock>
+        <min>6</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="weapons"/>
+        <usage name="Military"/>
+    </type>
+    <type name="BO_Mag_PTRS41_5rnd">
+        <nominal>20</nominal>
+        <lifetime>7200</lifetime>
+        <restock>300</restock>
+        <min>6</min>
+        <quantmin>100</quantmin>
+        <quantmax>100</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="weapons"/>
+        <usage name="Military"/>
+    </type>
+    <type name="Ammo_BO_300WinMag">
+        <nominal>20</nominal>
+        <lifetime>10800</lifetime>
+        <restock>4800</restock>
+        <min>12</min>
+        <quantmin>10</quantmin>
+        <quantmax>30</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="weapons"/>
+        <tag name="shelves"/>
+        <usage name="Military"/>
+        <value name="Tier3"/>
+        <value name="Tier4"/>	
+    </type>
+    <type name="BO_Ammobox_300WinMag_20rnd">
+        <nominal>10</nominal>
+        <lifetime>10800</lifetime>
+        <restock>4800</restock>
+        <min>5</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="weapons"/>
+        <usage name="Military"/>
+        <value name="Tier3"/>
+        <value name="Tier4"/>	
+    </type>
+    <type name="BO_RugerMkIV_Black">
+        <nominal>15</nominal>
+        <lifetime>7200</lifetime>
+        <restock>300</restock>
+        <min>10</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="weapons"/>
+        <tag name="shelves"/>
+        <usage name="Town"/>
+        <usage name="Village"/>
+        <value name="Tier3"/>
+        <value name="Tier4"/>
+    </type>
+    <type name="BO_RugerMkIV_Red">
+        <nominal>15</nominal>
+        <lifetime>7200</lifetime>
+        <restock>300</restock>
+        <min>10</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="weapons"/>
+        <tag name="shelves"/>
+        <usage name="Town"/>
+        <usage name="Village"/>
+        <value name="Tier3"/>
+        <value name="Tier4"/>
+    </type>
+    <type name="BO_Mag_RugerMkIV_10Rnd">
+        <nominal>30</nominal>
+        <lifetime>7200</lifetime>
+        <restock>300</restock>
+        <min>20</min>
+        <quantmin>20</quantmin>
+        <quantmax>100</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="weapons"/>
+        <usage name="Town"/>
+        <usage name="Village"/>
+        <value name="Tier3"/>
+        <value name="Tier4"/>
+    </type>
+    <type name="BO_P30L_Black">
+        <nominal>5</nominal>
+        <lifetime>7200</lifetime>
+        <restock>300</restock>
+        <min>4</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="weapons"/>
+        <usage name="Military"/>
+        <value name="Tier2"/>
+        <value name="Tier3"/>
+    </type>
+    <type name="BO_P30L_Grey">
+        <nominal>5</nominal>
+        <lifetime>7200</lifetime>
+        <restock>300</restock>
+        <min>4</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="weapons"/>
+        <usage name="Military"/>
+        <value name="Tier2"/>
+        <value name="Tier3"/>
+    </type>
+    <type name="BO_Mag_P30L_15rnd">
+        <nominal>10</nominal>
+        <lifetime>7200</lifetime>
+        <restock>300</restock>
+        <min>8</min>
+        <quantmin>10</quantmin>
+        <quantmax>100</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="weapons"/>
+        <usage name="Military"/>
+        <value name="Tier2"/>
+        <value name="Tier3"/>
+    </type>
+    <type name="BO_P30L_Compensator">
+        <nominal>5</nominal>
+        <lifetime>7200</lifetime>
+        <restock>300</restock>
+        <min>4</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+        <category name="weapons" />
+        <usage name="Military" />
+        <value name="Tier2" />
+        <value name="Tier3" />
+    </type>
+    <type name="BO_AEK971">
+        <nominal>3</nominal>
+        <lifetime>7200</lifetime>
+        <restock>300</restock>
+        <min>1</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="weapons"/>
+        <usage name="Military"/>
+        <value name="Tier3"/>
+        <value name="Tier4"/>
+    </type>
+    <type name="BO_PP2000">
+        <nominal>0</nominal>
+        <lifetime>7200</lifetime>
+        <restock>300</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="weapons"/>
+        <usage name="Military"/>
+    </type>
+    <type name="BO_Mag_PP2000_20rnd">
+        <nominal>0</nominal>
+        <lifetime>7200</lifetime>
+        <restock>300</restock>
+        <min>0</min>
+        <quantmin>100</quantmin>
+        <quantmax>100</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="weapons"/>
+        <usage name="Military"/>
+    </type>
+    <type name="BO_Mag_PP2000_40rnd">
+        <nominal>0</nominal>
+        <lifetime>7200</lifetime>
+        <restock>300</restock>
+        <min>0</min>
+        <quantmin>100</quantmin>
+        <quantmax>100</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="weapons"/>
+        <usage name="Military"/>
+    </type>
+    <type name="BO_UMP45">
+        <nominal>0</nominal>
+        <lifetime>7200</lifetime>
+        <restock>300</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="weapons"/>
+        <usage name="Military"/>
+    </type>
+    <type name="BO_SV98">
+        <nominal>2</nominal>
+        <lifetime>7200</lifetime>
+        <restock>300</restock>
+        <min>1</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="1" count_in_map="1" count_in_player="1" crafted="0" deloot="0"/>
+        <category name="weapons"/>
+        <usage name="Military"/>
+        <value name="Tier4"/>
+    </type>
+    <type name="BO_Mag_SV98_10rnd">
+        <nominal>3</nominal>
+        <lifetime>7200</lifetime>
+        <restock>300</restock>
+        <min>2</min>
+        <quantmin>10</quantmin>
+        <quantmax>100</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="weapons"/>
+        <usage name="Military"/>
+        <value name="Tier3"/>
+        <value name="Tier4"/>
+    </type>
+    <type name="BO_Tigr_Tactical">
+        <nominal>1</nominal>
+        <lifetime>7200</lifetime>
+        <restock>300</restock>
+        <min>1</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="1"/>
+        <category name="weapons"/>
+        <usage name="Military"/>
+    </type>
+    <type name="BO_Tigr_Handguard_Original">
+        <nominal>3</nominal>
+        <lifetime>7200</lifetime>
+        <restock>300</restock>
+        <min>1</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="weapons"/>
+        <usage name="Military"/>
+        <value name="Tier3"/>
+        <value name="Tier4"/>
+    </type>
+    <type name="BO_Tigr_Handguard_Rail">
+        <nominal>3</nominal>
+        <lifetime>7200</lifetime>
+        <restock>300</restock>
+        <min>1</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="weapons"/>
+        <usage name="Military"/>
+        <value name="Tier3"/>
+        <value name="Tier4"/>
+    </type>
+    <type name="BO_CAR15">
+        <nominal>2</nominal>
+        <lifetime>7200</lifetime>
+        <restock>300</restock>
+        <min>1</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="weapons"/>
+        <usage name="Military"/>
+        <value name="Tier3"/>
+        <value name="Tier4"/>
+    </type>
+    <type name="BO_CAR15_Handguard">
+        <nominal>3</nominal>
+        <lifetime>7200</lifetime>
+        <restock>300</restock>
+        <min>2</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="weapons"/>
+        <usage name="Military"/>
+        <value name="Tier3"/>
+        <value name="Tier4"/>
+    </type>
+    <type name="BO_CAR15_Bttstk">
+        <nominal>3</nominal>
+        <lifetime>7200</lifetime>
+        <restock>300</restock>
+        <min>2</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="weapons"/>
+        <usage name="Military"/>
+        <value name="Tier3"/>
+        <value name="Tier4"/>
+    </type>
+    <type name="BO_M1Garand">
+        <nominal>5</nominal>
+        <lifetime>7200</lifetime>
+        <restock>300</restock>
+        <min>2</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="weapons"/>
         <usage name="Military"/>
     </type>
     <type name="BO_M1Garand_Suppressor">
-        <nominal>0</nominal>
+        <nominal>3</nominal>
         <lifetime>7200</lifetime>
         <restock>300</restock>
-        <min>0</min>
-        <quantmin>0</quantmin>
-        <quantmax>80</quantmax>
+        <min>2</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="weapons"/>
         <usage name="Military"/>
+    </type>
+    <type name="BO_M1Garand_M84_Scope">
+        <nominal>5</nominal>
+        <lifetime>7200</lifetime>
+        <restock>300</restock>
+        <min>2</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="weapons"/>
+        <usage name="Military"/>
+    </type>
+    <type name="BO_300WinMag_Suppressor_Black">
+        <nominal>1</nominal>
+        <lifetime>7200</lifetime>
+        <restock>300</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="weapons"/>
+        <usage name="Military"/>
+        <value name="Tier4"/>
+    </type>
+    <type name="BO_300WinMag_Suppressor_FDE">
+        <nominal>1</nominal>
+        <lifetime>7200</lifetime>
+        <restock>300</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="weapons"/>
+        <usage name="Military"/>
+        <value name="Tier4"/>
+    </type>
+<!-- Stuff that was missing -->
+
+    <type name="BO_Vector">
+        <nominal>5</nominal>
+        <lifetime>7200</lifetime>
+        <restock>300</restock>
+        <min>2</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="weapons"/>
+        <usage name="Military"/>
+    </type>
+    <type name="BO_Mag_Vector_32rnd">
+        <nominal>5</nominal>
+        <lifetime>7200</lifetime>
+        <restock>300</restock>
+        <min>2</min>
+        <quantmin>5</quantmin>
+        <quantmax>50</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="weapons"/>
+        <usage name="Military"/>
+    </type>
+    <type name="BO_MAR10">
+        <nominal>1</nominal>
+        <lifetime>7200</lifetime>
+        <restock>300</restock>
+        <min>1</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="1" crafted="0" deloot="1"/>
+        <category name="weapons"/>
+        <usage name="Military"/>
+        <value name="Tier4"/>
+    </type>
+    <type name="BO_Mag_MAR10_10rnd">
+        <nominal>1</nominal>
+        <lifetime>7200</lifetime>
+        <restock>300</restock>
+        <min>1</min>
+        <quantmin>10</quantmin>
+        <quantmax>80</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="1" crafted="0" deloot="1"/>
+        <category name="weapons"/>
+        <usage name="Military"/>
+        <value name="Tier4"/>
     </type>
 </types>
