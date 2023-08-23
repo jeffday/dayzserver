@@ -105,48 +105,53 @@ class CustomMission: MissionServer
 	}
 
     void SpawnJeffSetup(PlayerBase player) {
-        autoptr TStringArray clothes = {"BaseballCap_Black","MMG_facemask_black","FP4_Black_Glasses","MMG_combatshirt_black","MMG_combatpants_black","SK8_Sneakers_FullBlack","WoolGloves_Black"};
+        autoptr TStringArray clothes = {"BaseballCap_Black","MMG_facemask_black","FP4_Black_Glasses","MMG_combatshirt_black","MMG_combatpants_black","SK8_Sneakers_FullBlack","FP4_MiniGloves_black"};
 
         spawnItemsOnPlayer(player, clothes);
 
 		ItemBase bullets;
-		EntityAI sheath, rifle, bag, belt, itemEnt, holster, pistol;
+		EntityAI sheath, knifeSheath, rifle, bag, belt, itemEnt, holster, pistol;
 
-		sheath = player.GetInventory().CreateInInventory("FP4_Nodaty_Sheath");
-		itemEnt = sheath.GetInventory().CreateAttachment("FP4_Nodaty");
+		// sheath = player.GetInventory().CreateInInventory("KatanaSheath");
+		// itemEnt = sheath.GetInventory().CreateAttachment("Katana");
 
-		player.SetQuickBarEntityShortcut( itemEnt, 0 );
+		// player.SetQuickBarEntityShortcut( itemEnt, 0 );
 
-		rifle = player.GetInventory().CreateInInventory("Mosin9130_Black");
-		rifle.GetInventory().CreateAttachment("PUScopeOptic");
+		// rifle = player.GetInventory().CreateInInventory("Mosin9130_Black");
+		// rifle.GetInventory().CreateAttachment("PUScopeOptic");
 
-		player.SetQuickBarEntityShortcut( rifle, 6 );
+		// player.SetQuickBarEntityShortcut( rifle, 6 );
 
         belt = player.GetInventory().CreateInInventory("MMG_falcon_b1_belt_black");
 		holster = belt.GetInventory().CreateAttachment("MMG_Holster_black");
-		pistol = holster.GetInventory().CreateAttachment("HH_Beretta92");
+		// pistol = holster.GetInventory().CreateAttachment("BO_P30L_Black");
+		// pistol.GetInventory().CreateAttachment("BO_P30L_Compensator");
 
-		player.SetQuickBarEntityShortcut( pistol, 2 );
+		// player.SetQuickBarEntityShortcut( pistol, 2 );
 
-		itemEnt = belt.GetInventory().CreateAttachment("Spur_KnifeSheath_Black");
-		itemEnt = itemEnt.GetInventory().CreateAttachment("Scara_Nomad");
+		knifeSheath = belt.GetInventory().CreateAttachment("Spur_KnifeSheath_Black");
+		knifeSheath.GetInventory().CreateAttachment("Whetstone");
+		itemEnt = knifeSheath.GetInventory().CreateAttachment("Scara_Nomad");
 		player.SetQuickBarEntityShortcut( itemEnt, 1 );
 
 		belt.GetInventory().CreateAttachment("MMG_carbine_black");
 		itemEnt = belt.GetInventory().CreateAttachment("mmg_dump_pouch_black");
-		for(int i = 0; i < 3; i++) {
-             itemEnt.GetInventory().CreateInInventory("HH_Beretta92_Mag");
-        }
-		bullets = itemEnt.GetInventory().CreateInInventory("Ammo_9x19");
-		bullets.SetQuantity(25);
+		// for(int i = 0; i < 3; i++) {
+        //      itemEnt.GetInventory().CreateInInventory("BO_Mag_P30L_15rnd");
+        // }
+		// for(i = 0; i < 3; i++) {
+        //      itemEnt.GetInventory().CreateInInventory("AmmoBox_9x19_25rnd");
+        // }
+		// bullets = itemEnt.GetInventory().CreateInInventory("Ammo_9x19");
+		// bullets.SetQuantity(25);
 
 		itemEnt = belt.GetInventory().CreateAttachment("MMG_tactical_pouch_black");
-		for(i = 0; i < 11; i++) {
-             itemEnt.GetInventory().CreateInInventory("AmmoBox_762x54_20Rnd");
-        }
+		// for(i = 0; i < 11; i++) {
+        //      itemEnt.GetInventory().CreateInInventory("AmmoBox_762x54_20Rnd");
+        // }
 
-		bullets = itemEnt.GetInventory().CreateInInventory("AmmoBox_762x54_20Rnd");
-		bullets.SetQuantity(20);
+		// bullets = itemEnt.GetInventory().CreateInInventory("AmmoBox_762x54_20Rnd");
+		// bullets.SetQuantity(20);
 
 		// harness
 
@@ -155,9 +160,10 @@ class CustomMission: MissionServer
 
 		itemEnt = itemEnt.GetInventory().CreateAttachment("MMG_ammo_pouch_black");
 		
-		bag = player.GetInventory().CreateInInventory("FP4_HuntingTOP_Bag_BLACK");
+		bag = player.GetInventory().CreateInInventory("Spur_MilBag_Black");
 
 		bag.GetInventory().CreateAttachment("Chemlight_White");
+		bag.GetInventory().CreateInInventory("LeatherSewingKit");
 		itemEnt = bag.GetInventory().CreateInInventory("BandageDressing");
 		player.SetQuickBarEntityShortcut(itemEnt, 4);
     }
