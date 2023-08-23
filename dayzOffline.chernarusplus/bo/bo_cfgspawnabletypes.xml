@@ -1131,6 +1131,12 @@
 
 	<!-- Added 2.7 -->
 	<type name="BO_CAR15">
+		<attachments chance="1.00">
+			<item name="BO_CAR15_Bttstk" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="BO_CAR15_Handguard" chance="1.00" />
+		</attachments>
 		<attachments preset="ar_optics" />
 		<attachments chance="0.60">
 			<item name="BO_Mag_PMAG_30rnd" chance="0.50" />

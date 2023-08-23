@@ -358,11 +358,18 @@
 				<item name="ZmijovkaCap_Red" chance="0.10" />
 		</attachments>
 		<attachments chance="0.10" name="bagsHunter">
-			<item name="CourierBag" chance="0.10" />
-			<item name="HuntingBag" chance="0.50" />
+			<item name="CourierBag" chance="0.40" />
+			<item name="HuntingBag" chance="0.125" />
+			<item name="HuntingBag_black" chance="0.125" />
+			<item name="HuntingBag_green" chance="0.125" />
+			<item name="HuntingBag_woodland" chance="0.125" />
+			<item name="FP4_LesnikBag" chance="0.05" />
+			<item name="FP4_HuntingTOP_Bag" chance="0.025" />
+			<item name="FP4_HuntingTOP_Bag_BLACK" chance="0.025" />
 		</attachments>
 		<attachments chance="0.20" name="vestsHunter">
-			<item name="HuntingVest" chance="0.50" />
+			<item name="HuntingVest" chance="0.25" />
+			<item name="HuntingVest_Green" chance="0.25" />
 			<item name="ChestHolster" chance="0.50" />
 		</attachments>
 		<!--VILLAGE ATTACHMENTS-->
@@ -387,15 +394,18 @@
 				<item name="Shovel" chance="0.8" />
 		</attachments>
 		<attachments chance="0.15" name="bagsVillage">
-				<item name="MountainBag_Red" chance="0.10" />
-				<item name="MountainBag_Blue" chance="0.10" />
-				<item name="MountainBag_Orange" chance="0.10" />
-				<item name="MountainBag_Green" chance="0.10" />
-				<item name="MountainBag_Summer" chance="0.10" />
-				<item name="MountainBag_Autumn" chance="0.10" />
-				<item name="MountainBag_Grey" chance="0.10" />
-				<item name="MountainBag_Brown" chance="0.10" />
-				<item name="MountainBag_FLT" chance="0.10" />
+				<item name="MountainBag_Red" chance="0.09" />
+				<item name="MountainBag_Blue" chance="0.09" />
+				<item name="MountainBag_Orange" chance="0.09" />
+				<item name="MountainBag_Green" chance="0.09" />
+				<item name="MountainBag_Summer" chance="0.08" />
+				<item name="MountainBag_Autumn" chance="0.08" />
+				<item name="MountainBag_Grey" chance="0.08" />
+				<item name="MountainBag_Brown" chance="0.08" />
+				<item name="MountainBag_FLT" chance="0.08" />
+				<item name="FP4_POHOD_Bag" chance="0.08" />
+				<item name="FP4_POHOD_Bag_BLACK" chance="0.08" />
+				<item name="FP4_POHOD_Bag_green" chance="0.08" />
 		</attachments>
 		<attachments chance="0.00" name="glassesVillage"> <!--was chance="0.30"; removed coz of attachment slot is missing -->
 			<item name="ThickFramesGlasses" chance="0.10" />
@@ -448,6 +458,9 @@
 				<item name="Canvas_Backpack_Red" chance="0.05" />
 				<item name="Canvas_Backpack_Blue" chance="0.02" />
 				<item name="Canvas_Backpack_Purple" chance="0.05" />
+		</attachments>
+		<attachments chance="0.15" name="bagsMedical">
+				<item name="FP4_Surv_Bag_MEDICAL" chance="1.00" />
 		</attachments>
 		<attachments chance="0.30" name="hatsCitySkate">
 				<item name="SkateHelmet_Blue" chance="0.20" />
@@ -533,18 +546,18 @@
 			<item name="MMG_tt_Vest_norway" chance="0.07" />
 		</attachments>
 		<attachments chance="0.15" name="bagsArmy">
-			<item name="MMG_assault_pack_black" chance="0.07" />
-			<item name="MMG_assault_pack_erdl" chance="0.07" />
-			<item name="MMG_assault_pack_germany" chance="0.07" />
-			<item name="MMG_assault_pack_green" chance="0.07" />
+			<item name="MMG_assault_pack_black" chance="0.06" />
+			<item name="MMG_assault_pack_erdl" chance="0.06" />
+			<item name="MMG_assault_pack_germany" chance="0.06" />
+			<item name="MMG_assault_pack_green" chance="0.06" />
 			<item name="MMG_assault_pack_multicamblack" chance="0.06" />
 			<item name="MMG_assault_pack_norway" chance="0.06" />
-			<item name="MMG_carrier_backpack_black" chance="0.05" />
-			<item name="MMG_carrier_backpack_erdl" chance="0.05" />
-			<item name="MMG_carrier_backpack_germany" chance="0.05" />
-			<item name="MMG_carrier_backpack_green" chance="0.05" />
-			<item name="MMG_carrier_backpack_multicamblack" chance="0.05" />
-			<item name="MMG_carrier_backpack_norway" chance="0.05" />
+			<item name="MMG_carrier_backpack_black" chance="0.04" />
+			<item name="MMG_carrier_backpack_erdl" chance="0.04" />
+			<item name="MMG_carrier_backpack_germany" chance="0.04" />
+			<item name="MMG_carrier_backpack_green" chance="0.04" />
+			<item name="MMG_carrier_backpack_multicamblack" chance="0.04" />
+			<item name="MMG_carrier_backpack_norway" chance="0.04" />
 			<item name="MMG_camelback_black" chance="0.03" />
 			<item name="MMG_camelback_erdl" chance="0.03" />
 			<item name="MMG_camelback_germany" chance="0.03" />
@@ -557,6 +570,12 @@
 			<item name="MMG_supplybag_green" chance="0.02" />
 			<item name="MMG_supplybag_multicamblack" chance="0.02" />
 			<item name="MMG_supplybag_norway" chance="0.02" />
+			<item name="Spur_MilBag_Black" chance="0.03" />
+			<item name="Spur_MilBag_Green" chance="0.03" />
+			<item name="Spur_MilBag_WoodlandCamo" chance="0.03" />
+			<item name="Spur_CamelBag_Black" chance="0.01" />
+			<item name="Spur_CamelBag_Green" chance="0.01" />
+			<item name="Spur_CamelBag_WoodlandCamo" chance="0.01" />
 		</attachments>
 		<attachments chance="1.00" name="HeavyArmorArmy">
 			<item name="MMG_tt_Vest_black" chance="0.09" />

@@ -1742,12 +1742,15 @@
 	</type>
 	<type name="ZmbF_ParamedicNormal_Blue">
 		<cargo preset="toolsMedic" />
+		<attachments preset="bagsMedical" />
 	</type>
 	<type name="ZmbF_ParamedicNormal_Green">
 		<cargo preset="toolsMedic" />
+		<attachments preset="bagsMedical" />
 	</type>
 	<type name="ZmbF_ParamedicNormal_Red">
 		<cargo preset="toolsMedic" />
+		<attachments preset="bagsMedical" />
 	</type>
 	<type name="ZmbF_PatientOld">
 		<cargo preset="toolsMedic" />
@@ -1758,15 +1761,19 @@
 	</type>
 	<type name="ZmbM_ParamedicNormal_Black">
 		<cargo preset="toolsMedic" />
+		<attachments preset="bagsMedical" />
 	</type>
 	<type name="ZmbM_ParamedicNormal_Blue">
 		<cargo preset="toolsMedic" />
+		<attachments preset="bagsMedical" />
 	</type>
 	<type name="ZmbM_ParamedicNormal_Green">
 		<cargo preset="toolsMedic" />
+		<attachments preset="bagsMedical" />
 	</type>
 	<type name="ZmbM_ParamedicNormal_Red">
 		<cargo preset="toolsMedic" />
+		<attachments preset="bagsMedical" />
 	</type>
 	<type name="ZmbM_PatientSkinny">
 		<cargo preset="toolsMedic" />
