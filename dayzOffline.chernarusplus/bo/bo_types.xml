@@ -1559,28 +1559,31 @@
 		<usage name="Military" />
     </type>
     <type name="Ammo_BO_3006">
-        <nominal>0</nominal>
-        <lifetime>7200</lifetime>
-        <restock>300</restock>
-        <min>0</min>
+        <nominal>20</nominal>
+        <lifetime>10800</lifetime>
+        <restock>4800</restock>
+        <min>12</min>
         <quantmin>10</quantmin>
-        <quantmax>60</quantmax>
+        <quantmax>30</quantmax>
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="weapons"/>
+        <tag name="shelves"/>
         <usage name="Military"/>
     </type>
     <type name="BO_AmmoBox_3006_20rnd">
-        <nominal>0</nominal>
-        <lifetime>7200</lifetime>
-        <restock>300</restock>
-        <min>0</min>
-        <quantmin>10</quantmin>
-        <quantmax>60</quantmax>
+        <nominal>10</nominal>
+        <lifetime>10800</lifetime>
+        <restock>4800</restock>
+        <min>5</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="weapons"/>
         <usage name="Military"/>
+        <value name="Tier3"/>
+        <value name="Tier4"/>	
     </type>
     <type name="Ammo_BO_40mm_HE">
         <nominal>0</nominal>
