@@ -293,10 +293,10 @@
         <value name="Tier4"/>
     </type>
     <type name="BO_SVT40Optic">
-        <nominal>3</nominal>
+        <nominal>5</nominal>
         <lifetime>7200</lifetime>
         <restock>300</restock>
-        <min>2</min>
+        <min>3</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -305,6 +305,7 @@
         <usage name="Farm"/>
         <usage name="Village"/>
         <usage name="Town"/>
+        <usage name="Hunting"/>
         <value name="Tier3"/>
         <value name="Tier4"/>
     </type>
@@ -1504,10 +1505,10 @@
         <value name="Tier4"/>
     </type>
     <type name="BO_SVT40">
-        <nominal>5</nominal>
-        <lifetime>7200</lifetime>
-        <restock>300</restock>
-        <min>2</min>
+        <nominal>10</nominal>
+        <lifetime>28800</lifetime>
+        <restock>0</restock>
+        <min>7</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -1516,22 +1517,24 @@
         <usage name="Farm"/>
         <usage name="Village"/>
         <usage name="Town"/>
+        <usage name="Hunting"/>
         <value name="Tier3"/>
         <value name="Tier4"/>
     </type>
     <type name="BO_Mag_SVT40_10rnd">
-        <nominal>5</nominal>
+        <nominal>10</nominal>
         <lifetime>7200</lifetime>
         <restock>300</restock>
-        <min>2</min>
+        <min>7</min>
         <quantmin>10</quantmin>
-        <quantmax>80</quantmax>
+        <quantmax>100</quantmax>
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="weapons"/>
         <usage name="Farm"/>
         <usage name="Village"/>
         <usage name="Town"/>
+        <usage name="Hunting"/>
         <value name="Tier3"/>
         <value name="Tier4"/>
     </type>
