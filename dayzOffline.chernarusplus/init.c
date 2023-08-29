@@ -105,67 +105,111 @@ class CustomMission: MissionServer
 	}
 
     void SpawnJeffSetup(PlayerBase player) {
-        autoptr TStringArray clothes = {"BaseballCap_Black","MMG_facemask_black","FP4_Black_Glasses","MMG_combatshirt_black","MMG_combatpants_black","SK8_Sneakers_FullBlack","FP4_MiniGloves_black"};
-
-        spawnItemsOnPlayer(player, clothes);
-
 		ItemBase bullets;
-		EntityAI sheath, knifeSheath, rifle, bag, belt, itemEnt, holster, pistol;
+		EntityAI head, face, eyes, torso, belt, knife, legs, feet, hands, meleeContainer, melee, beltSheath, holster, rifle, shotgun, sniper, bag, pistolAmmoPouch, beltAmmoPouch, chestAmmoPouch, pistol, chest, bandages, rangefinder, itemEnt;
 
-		// sheath = player.GetInventory().CreateInInventory("KatanaSheath");
-		// itemEnt = sheath.GetInventory().CreateAttachment("Katana");
+		head = player.GetInventory().CreateInInventory("BeanieHat_Blue");
 
-		// player.SetQuickBarEntityShortcut( itemEnt, 0 );
+		face = player.GetInventory().CreateInInventory("MMG_facemask_black");
+		eyes = player.GetInventory().CreateInInventory("FP4_Black_Glasses");
+		torso = player.GetInventory().CreateInInventory("MMG_combatshirt_police");
+		legs = player.GetInventory().CreateInInventory("MMG_combatpants_police");
+		hands = player.GetInventory().CreateInInventory("FP4_MiniGloves_black");
+		feet = player.GetInventory().CreateInInventory("SK8_Sneakers_FullBlack");
 
-		// rifle = player.GetInventory().CreateInInventory("Mosin9130_Black");
-		// rifle.GetInventory().CreateAttachment("PUScopeOptic");
+		// belt
 
-		// player.SetQuickBarEntityShortcut( rifle, 6 );
-
-        belt = player.GetInventory().CreateInInventory("MMG_falcon_b1_belt_black");
-		holster = belt.GetInventory().CreateAttachment("MMG_Holster_black");
-		// pistol = holster.GetInventory().CreateAttachment("BO_P30L_Black");
-		// pistol.GetInventory().CreateAttachment("BO_P30L_Compensator");
-
-		// player.SetQuickBarEntityShortcut( pistol, 2 );
-
-		knifeSheath = belt.GetInventory().CreateAttachment("Spur_KnifeSheath_Black");
-		knifeSheath.GetInventory().CreateAttachment("Whetstone");
-		itemEnt = knifeSheath.GetInventory().CreateAttachment("Scara_Nomad");
-		player.SetQuickBarEntityShortcut( itemEnt, 1 );
-
+		belt = player.GetInventory().CreateInInventory("MMG_falcon_b1_belt_black");
 		belt.GetInventory().CreateAttachment("MMG_carbine_black");
-		itemEnt = belt.GetInventory().CreateAttachment("mmg_dump_pouch_black");
-		// for(int i = 0; i < 3; i++) {
-        //      itemEnt.GetInventory().CreateInInventory("BO_Mag_P30L_15rnd");
-        // }
-		// for(i = 0; i < 3; i++) {
-        //      itemEnt.GetInventory().CreateInInventory("AmmoBox_9x19_25rnd");
-        // }
-		// bullets = itemEnt.GetInventory().CreateInInventory("Ammo_9x19");
-		// bullets.SetQuantity(25);
 
-		itemEnt = belt.GetInventory().CreateAttachment("MMG_tactical_pouch_black");
-		// for(i = 0; i < 11; i++) {
-        //      itemEnt.GetInventory().CreateInInventory("AmmoBox_762x54_20Rnd");
-        // }
+		holster = belt.GetInventory().CreateAttachment("MMG_Holster_black");
+		beltSheath = belt.GetInventory().CreateAttachment("Spur_KnifeSheath_Black");
+		// pistolAmmoPouch = belt.GetInventory().CreateAttachment("mmg_dump_pouch_black");
+		beltAmmoPouch = belt.GetInventory().CreateAttachment("MMG_tactical_pouch_black");
 
-		// bullets = itemEnt.GetInventory().CreateInInventory("AmmoBox_762x54_20Rnd");
-		// bullets.SetQuantity(20);
+		// chest slot
 
-		// harness
+		chest = player.GetInventory().CreateInInventory("MMG_chestrig_black");
+		chestAmmoPouch = chest.GetInventory().CreateAttachment("MMG_ammo_pouch_black");
+		chest.GetInventory().CreateAttachment("Spur_KnifeSheath_Black");
 
-		itemEnt = player.GetInventory().CreateInInventory("MMG_chestrig_black");
-		itemEnt.GetInventory().CreateAttachment("Spur_KnifeSheath_Black");
+		// bag
 
-		itemEnt = itemEnt.GetInventory().CreateAttachment("MMG_ammo_pouch_black");
-		
-		bag = player.GetInventory().CreateInInventory("Spur_MilBag_Black");
-
+		bag = player.GetInventory().CreateInInventory("MMG_assault_pack_black");
 		bag.GetInventory().CreateAttachment("Chemlight_White");
 		bag.GetInventory().CreateInInventory("LeatherSewingKit");
-		itemEnt = bag.GetInventory().CreateInInventory("BandageDressing");
-		player.SetQuickBarEntityShortcut(itemEnt, 4);
+		bag.GetInventory().CreateInInventory("WeaponCleaningKit");
+		bandages = bag.GetInventory().CreateInInventory("BandageDressing");
+
+		// rangefinder = bag.GetInventory().CreateInInventory("Rangefinder");
+		// rangefinder.GetInventory().CreateAttachment("Battery9V");
+
+		// weapons
+
+		knife = beltSheath.GetInventory().CreateAttachment("Scara_Skeleton");
+		beltSheath.GetInventory().CreateAttachment("Whetstone");
+
+		// meleeContainer = player.GetInventory().CreateInInventory("FP4_Nodaty_Sheath");
+		// melee = meleeContainer.GetInventory().CreateAttachment("FP4_Nodaty");
+
+		// shotgun = player.GetInventory().CreateInInventory("BO_SPAS12_SemiAuto");
+		// shotgun.GetInventory().CreateAttachment("BO_SPAS12_Suppressor");
+
+		rifle = bag.GetInventory().CreateAttachment("BO_M4A1_CQB");
+		rifle.GetInventory().CreateAttachment("BO_LeupoldCarbineOptics");
+		rifle.GetInventory().CreateAttachment("BO_LegionSuppressor_Black");
+
+		// sniper = player.GetInventory().CreateInInventory("BO_SV98");
+		// sniper.GetInventory().CreateAttachment("BO_Sight_4_6");
+
+		pistol = holster.GetInventory().CreateAttachment("HH_Beretta92");
+		pistol.GetInventory().CreateAttachment("Tundra_Suppressor");
+
+		// sidearm ammo
+
+		// for(int i = 0; i < 4; i++) {
+        //      pistolAmmoPouch.GetInventory().CreateInInventory("HH_Beretta92_Mag");
+        // }
+		// for(i = 0; i < 3; i++) {
+        //      pistolAmmoPouch.GetInventory().CreateInInventory("AmmoBox_9x19_25rnd");
+        // }
+		// bullets = pistolAmmoPouch.GetInventory().CreateInInventory("Ammo_9x19");
+		// bullets.SetQuantity(25);
+
+		// primary ammo
+
+		for(int i = 0; i < 4; i++) {
+             chestAmmoPouch.GetInventory().CreateInInventory("BO_Mag_PMAGWindow_30rnd");
+        }
+		// for(i = 0; i < 11; i++) {
+        //      chestAmmoPouch.GetInventory().CreateInInventory("AmmoBox_556x45_20Rnd");
+        // }
+		bullets = chestAmmoPouch.GetInventory().CreateInInventory("Ammo_556x45");
+		bullets.SetQuantity(1);
+
+		// secondary ammo
+
+		for(i = 0; i < 4; i++) {
+			beltAmmoPouch.GetInventory().CreateInInventory("HH_Beretta92_Mag");
+        }
+
+		// for(i = 0; i < 3; i++) {
+		// 	beltAmmoPouch.GetInventory().CreateInInventory("AmmoBox_9x19_25rnd");
+        // }
+
+		bullets = beltAmmoPouch.GetInventory().CreateInInventory("Ammo_9x19");
+		bullets.SetQuantity(1);
+
+		// hotkeys
+
+		// player.SetQuickBarEntityShortcut( melee, 0 );
+		player.SetQuickBarEntityShortcut( knife, 1 );
+		player.SetQuickBarEntityShortcut( pistol, 2 );
+		player.SetQuickBarEntityShortcut( rifle, 3 );
+		player.SetQuickBarEntityShortcut( bandages, 4 );
+		// player.SetQuickBarEntityShortcut( rangefinder, 5 );
+		// player.SetQuickBarEntityShortcut( sniper, 6 );
+		// player.SetQuickBarEntityShortcut( shotgun, 7 );
     }
 
 	override void StartingEquipSetup(PlayerBase player, bool clothesChosen)
