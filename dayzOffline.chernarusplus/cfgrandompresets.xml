@@ -357,15 +357,17 @@
 				<item name="ZmijovkaCap_Green" chance="0.10" />
 				<item name="ZmijovkaCap_Red" chance="0.10" />
 		</attachments>
-		<attachments chance="0.10" name="bagsHunter">
-			<item name="CourierBag" chance="0.40" />
-			<item name="HuntingBag" chance="0.125" />
-			<item name="HuntingBag_black" chance="0.125" />
-			<item name="HuntingBag_green" chance="0.125" />
-			<item name="HuntingBag_woodland" chance="0.125" />
-			<item name="FP4_LesnikBag" chance="0.05" />
-			<item name="FP4_HuntingTOP_Bag" chance="0.025" />
-			<item name="FP4_HuntingTOP_Bag_BLACK" chance="0.025" />
+		<attachments chance="0.1" name="bagsHunter">
+			<item name="ArmyPouch_Beige" chance="0.325" />
+			<item name="ArmyPouch_Green" chance="0.325" />
+			<item name="CourierBag" chance="0.20" />
+			<item name="HuntingBag" chance="0.025" />
+			<item name="HuntingBag_black" chance="0.025" />
+			<item name="HuntingBag_green" chance="0.025" />
+			<item name="HuntingBag_woodland" chance="0.025" />
+			<item name="FP4_LesnikBag" chance="0.03" />
+			<item name="FP4_HuntingTOP_Bag" chance="0.01" />
+			<item name="FP4_HuntingTOP_Bag_BLACK" chance="0.01" />
 		</attachments>
 		<attachments chance="0.20" name="vestsHunter">
 			<item name="HuntingVest" chance="0.25" />
@@ -393,19 +395,14 @@
 				<item name="Pickaxe" chance="0.8" />
 				<item name="Shovel" chance="0.8" />
 		</attachments>
-		<attachments chance="0.15" name="bagsVillage">
-				<item name="MountainBag_Red" chance="0.09" />
-				<item name="MountainBag_Blue" chance="0.09" />
-				<item name="MountainBag_Orange" chance="0.09" />
-				<item name="MountainBag_Green" chance="0.09" />
-				<item name="MountainBag_Summer" chance="0.08" />
-				<item name="MountainBag_Autumn" chance="0.08" />
-				<item name="MountainBag_Grey" chance="0.08" />
-				<item name="MountainBag_Brown" chance="0.08" />
-				<item name="MountainBag_FLT" chance="0.08" />
-				<item name="FP4_POHOD_Bag" chance="0.08" />
-				<item name="FP4_POHOD_Bag_BLACK" chance="0.08" />
-				<item name="FP4_POHOD_Bag_green" chance="0.08" />
+		<attachments chance="0.1" name="bagsVillage">
+				<item name="Slingbag_Black" chance="0.20" />
+				<item name="SlingBag_Gray" chance="0.20" />
+				<item name="SlingBag_Brown" chance="0.20" />
+				<item name="TaloonBag_Blue" chance="0.10" />
+				<item name="TaloonBag_Green" chance="0.10" />
+				<item name="TaloonBag_Orange" chance="0.10" />
+				<item name="TaloonBag_Violet" chance="0.10" />
 		</attachments>
 		<attachments chance="0.00" name="glassesVillage"> <!--was chance="0.30"; removed coz of attachment slot is missing -->
 			<item name="ThickFramesGlasses" chance="0.10" />
@@ -442,25 +439,28 @@
 			<item name="SportGlasses_Green" chance="0.10" />
 			<item name="SportGlasses_Orange" chance="0.10" />
 		</attachments>
-		<attachments chance="0.15" name="bagsCity">
-				<item name="TaloonBag_Orange" chance="0.10" />
-				<item name="TaloonBag_Blue" chance="0.10" />
-				<item name="TaloonBag_Violet" chance="0.10" />
-				<item name="TaloonBag_Green" chance="0.10" />
-				<item name="TaloonBag_Black" chance="0.05" />
-				<item name="TaloonBag_Red" chance="0.10" />
-				<item name="TaloonBag_Yellow" chance="0.10" />
-				<item name="TaloonBag_Woodland" chance="0.05" />
+		<attachments chance="0.1" name="bagsCity">
+				<item name="SlingBag" chance="0.20" />
+				<item name="CanvasBag_Olive" chance="0.20" />
+				<item name="TaloonBag_Orange" chance="0.05" />
+				<item name="TaloonBag_Blue" chance="0.05" />
+				<item name="TaloonBag_Violet" chance="0.05" />
+				<item name="TaloonBag_Green" chance="0.05" />
+				<item name="TaloonBag_Black" chance="0.025" />
+				<item name="TaloonBag_Red" chance="0.05" />
+				<item name="TaloonBag_Yellow" chance="0.05" />
+				<item name="TaloonBag_Woodland" chance="0.025" />
 				<item name="TaloonBag_Navy" chance="0.05" />
-				<item name="Canvas_Backpack_Base" chance="0.05" />
-				<item name="Canvas_Backpack_Black" chance="0.03" />
-				<item name="Canvas_Backpack_White" chance="0.05" />
-				<item name="Canvas_Backpack_Red" chance="0.05" />
+				<item name="Canvas_Backpack_Base" chance="0.04" />
+				<item name="Canvas_Backpack_Black" chance="0.02" />
+				<item name="Canvas_Backpack_White" chance="0.04" />
+				<item name="Canvas_Backpack_Red" chance="0.04" />
 				<item name="Canvas_Backpack_Blue" chance="0.02" />
-				<item name="Canvas_Backpack_Purple" chance="0.05" />
+				<item name="Canvas_Backpack_Purple" chance="0.04" />
 		</attachments>
 		<attachments chance="0.15" name="bagsMedical">
-				<item name="FP4_Surv_Bag_MEDICAL" chance="1.00" />
+				<item name="FP4_Surv_Bag_MEDICAL" chance="0.25" />
+				<item name="CanvasBag_Medical" chance="0.75" />
 		</attachments>
 		<attachments chance="0.30" name="hatsCitySkate">
 				<item name="SkateHelmet_Blue" chance="0.20" />
@@ -486,14 +486,6 @@
 		</attachments>
 		<attachments chance="0.10" name="vestsIndustrial">
 			<item name="ReflexVest" chance="1.00" />
-		</attachments>
-		<attachments chance="0.05" name="bagsIndustrial">
-				<item name="DryBag_Orange" chance="0.20" />
-				<item name="DryBag_Yellow" chance="0.20" />
-				<item name="DryBag_Blue" chance="0.20" />
-				<item name="DryBag_Green" chance="0.1" />
-				<item name="DryBag_Black" chance="0.1" />
-				<item name="DryBag_Red" chance="0.20" />
 		</attachments>
 		
 		<!--FIREFIGHTER ATTACHMENTS-->
@@ -648,6 +640,12 @@
 				<item name="PressVest_LightBlue" chance="0.25" />
 		</attachments>
 		
+		<!--Headtorches-->
+		<attachments chance= "0.03" name="headtorches">
+			<item name="Headtorch_Grey" chance="0.5" />
+			<item name="Headtorch_Black" chance="0.5" />
+		</attachments>
+		
 		<!--T1 GEAR-->
 		<cargo chance="0.15" name="drinks_T1">
 				<item name="SodaCan_Cola" chance="0.10" />
@@ -705,13 +703,18 @@
 				<item name="RadarCap_Green" chance="0.1" />
 				<item name="RadarCap_Red" chance="0.1" />
 		</attachments>
-		<attachments chance="0.17" name="backpacks_T1">
-				<item name="CourierBag" chance="0.2" />
-				<item name="TaloonBag_Blue" chance="0.2" />
-				<item name="TaloonBag_Green" chance="0.1" />
-				<item name="TaloonBag_Orange" chance="0.2" />
-				<item name="TaloonBag_Violet" chance="0.2" />
+		<attachments chance="0.1" name="backpacks_T1">
+				<item name="Slingbag_Black" chance="0.1" />
+				<item name="Slingbag_Brown" chance="0.1" />
+				<item name="Slingbag_Gray" chance="0.1" />
+				<item name="CourierBag" chance="0.1" />
 				<item name="FurCourierBag" chance="0.1" />
+				<item name="CanvasBag_Olive" chance="0.1" />
+				<item name="DuffelBagSmall_Green" chance="0.08" />
+				<item name="TaloonBag_Blue" chance="0.08" />
+				<item name="TaloonBag_Green" chance="0.08" />
+				<item name="TaloonBag_Orange" chance="0.08" />
+				<item name="TaloonBag_Violet" chance="0.08" />
 		</attachments>
 		
 		<!--Xmas Clothing-->
