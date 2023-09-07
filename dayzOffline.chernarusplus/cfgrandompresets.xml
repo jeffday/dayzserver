@@ -358,16 +358,13 @@
 				<item name="ZmijovkaCap_Red" chance="0.10" />
 		</attachments>
 		<attachments chance="0.1" name="bagsHunter">
-			<item name="ArmyPouch_Beige" chance="0.325" />
-			<item name="ArmyPouch_Green" chance="0.325" />
+			<item name="ArmyPouch_Beige" chance="0.35" />
+			<item name="ArmyPouch_Green" chance="0.35" />
 			<item name="CourierBag" chance="0.20" />
 			<item name="HuntingBag" chance="0.025" />
 			<item name="HuntingBag_black" chance="0.025" />
 			<item name="HuntingBag_green" chance="0.025" />
 			<item name="HuntingBag_woodland" chance="0.025" />
-			<item name="FP4_LesnikBag" chance="0.03" />
-			<item name="FP4_HuntingTOP_Bag" chance="0.01" />
-			<item name="FP4_HuntingTOP_Bag_BLACK" chance="0.01" />
 		</attachments>
 		<attachments chance="0.20" name="vestsHunter">
 			<item name="HuntingVest" chance="0.25" />
@@ -459,8 +456,7 @@
 				<item name="Canvas_Backpack_Purple" chance="0.04" />
 		</attachments>
 		<attachments chance="0.15" name="bagsMedical">
-				<item name="FP4_Surv_Bag_MEDICAL" chance="0.05" />
-				<item name="CanvasBag_Medical" chance="0.95" />
+				<item name="CanvasBag_Medical" chance="1.00" />
 		</attachments>
 		<attachments chance="0.30" name="hatsCitySkate">
 				<item name="SkateHelmet_Blue" chance="0.20" />
