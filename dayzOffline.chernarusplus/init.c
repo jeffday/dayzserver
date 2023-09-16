@@ -43,11 +43,11 @@ class CustomMission: MissionServer
 			// enable/disable event system, min time between events, max time between events, max number of events at the same time
 			m_EventManagerServer.OnInitServer( true, 550, 1000, 2 );
 			// registering events and their probability
-			m_EventManagerServer.RegisterEvent( Aurora, 0.1 );
+			m_EventManagerServer.RegisterEvent( Aurora, 0.01 );
 			m_EventManagerServer.RegisterEvent( Blizzard, 0.0 );
 			m_EventManagerServer.RegisterEvent( ExtremeCold, 0.0 );
 			m_EventManagerServer.RegisterEvent( Snowfall, 0.0 );
-			m_EventManagerServer.RegisterEvent( EVRStorm, 0.9 );
+			m_EventManagerServer.RegisterEvent( EVRStorm, 0.99 );
 			m_EventManagerServer.RegisterEvent( HeavyFog, 0.0 );
 		}
 	}
@@ -105,119 +105,28 @@ class CustomMission: MissionServer
 	}
 
     void SpawnJeffSetup(PlayerBase player) {
-		ItemBase bullets;
-		EntityAI head, face, eyes, torso, belt, knife, legs, feet, hands, meleeContainer, melee, beltSheath, holster, rifle, shotgun, sniper, bag, pistolAmmoPouch, beltAmmoPouch, chestAmmoPouch, pistol, chest, bandages, rangefinder, itemEnt;
+		EntityAI bandages;
 
-		head = player.GetInventory().CreateInInventory("BeanieHat_Blue");
+		player.GetInventory().CreateInInventory("BeanieHat_Red");
 
-		face = player.GetInventory().CreateInInventory("MMG_facemask_black");
-		eyes = player.GetInventory().CreateInInventory("FP4_Black_Glasses");
-		torso = player.GetInventory().CreateInInventory("MMG_combatshirt_police");
-		legs = player.GetInventory().CreateInInventory("MMG_combatpants_police");
-		hands = player.GetInventory().CreateInInventory("FP4_MiniGloves_black");
-		feet = player.GetInventory().CreateInInventory("SK8_Sneakers_FullBlack");
+		player.GetInventory().CreateInInventory("ThickFramesGlasses");
+		player.GetInventory().CreateInInventory("ParamedicJacket_Crimson");
+		player.GetInventory().CreateInInventory("ParamedicPants_Crimson");
+		player.GetInventory().CreateInInventory("YRTSK_VansSneakers_Red");
+		player.GetInventory().CreateInInventory("SurgicalGloves_Blue");
+		player.GetInventory().CreateInInventory("CanvasBag_Medical");
 
-		// belt
-
-		belt = player.GetInventory().CreateInInventory("MMG_falcon_b1_belt_black");
-		belt.GetInventory().CreateAttachment("MMG_carbine_black");
-
-		holster = belt.GetInventory().CreateAttachment("MMG_Holster_black");
-		beltSheath = belt.GetInventory().CreateAttachment("Spur_KnifeSheath_Black");
-		// pistolAmmoPouch = belt.GetInventory().CreateAttachment("mmg_dump_pouch_black");
-		beltAmmoPouch = belt.GetInventory().CreateAttachment("MMG_tactical_pouch_black");
-
-		// chest slot
-
-		chest = player.GetInventory().CreateInInventory("MMG_chestrig_black");
-		chestAmmoPouch = chest.GetInventory().CreateAttachment("MMG_ammo_pouch_black");
-		chest.GetInventory().CreateAttachment("Spur_KnifeSheath_Black");
-
-		// bag
-
-		bag = player.GetInventory().CreateInInventory("MMG_assault_pack_black");
-		bag.GetInventory().CreateAttachment("Chemlight_White");
-		bag.GetInventory().CreateInInventory("LeatherSewingKit");
-		bag.GetInventory().CreateInInventory("WeaponCleaningKit");
-		bandages = bag.GetInventory().CreateInInventory("BandageDressing");
-
-		// rangefinder = bag.GetInventory().CreateInInventory("Rangefinder");
-		// rangefinder.GetInventory().CreateAttachment("Battery9V");
-
-		// weapons
-
-		knife = beltSheath.GetInventory().CreateAttachment("Scara_Skeleton");
-		beltSheath.GetInventory().CreateAttachment("Whetstone");
-
-		// meleeContainer = player.GetInventory().CreateInInventory("FP4_Nodaty_Sheath");
-		// melee = meleeContainer.GetInventory().CreateAttachment("FP4_Nodaty");
-
-		// shotgun = player.GetInventory().CreateInInventory("BO_SPAS12_SemiAuto");
-		// shotgun.GetInventory().CreateAttachment("BO_SPAS12_Suppressor");
-
-		rifle = bag.GetInventory().CreateAttachment("BO_M4A1_CQB");
-		rifle.GetInventory().CreateAttachment("BO_LeupoldCarbineOptics");
-		rifle.GetInventory().CreateAttachment("BO_LegionSuppressor_Black");
-
-		// sniper = player.GetInventory().CreateInInventory("BO_SV98");
-		// sniper.GetInventory().CreateAttachment("BO_Sight_4_6");
-
-		pistol = holster.GetInventory().CreateAttachment("HH_Beretta92");
-		pistol.GetInventory().CreateAttachment("Tundra_Suppressor");
-
-		// sidearm ammo
-
-		// for(int i = 0; i < 4; i++) {
-        //      pistolAmmoPouch.GetInventory().CreateInInventory("HH_Beretta92_Mag");
-        // }
-		// for(i = 0; i < 3; i++) {
-        //      pistolAmmoPouch.GetInventory().CreateInInventory("AmmoBox_9x19_25rnd");
-        // }
-		// bullets = pistolAmmoPouch.GetInventory().CreateInInventory("Ammo_9x19");
-		// bullets.SetQuantity(25);
-
-		// primary ammo
-
-		for(int i = 0; i < 4; i++) {
-             chestAmmoPouch.GetInventory().CreateInInventory("BO_Mag_PMAGWindow_30rnd");
-        }
-		// for(i = 0; i < 11; i++) {
-        //      chestAmmoPouch.GetInventory().CreateInInventory("AmmoBox_556x45_20Rnd");
-        // }
-		bullets = chestAmmoPouch.GetInventory().CreateInInventory("Ammo_556x45");
-		bullets.SetQuantity(1);
-
-		// secondary ammo
-
-		for(i = 0; i < 4; i++) {
-			beltAmmoPouch.GetInventory().CreateInInventory("HH_Beretta92_Mag");
-        }
-
-		// for(i = 0; i < 3; i++) {
-		// 	beltAmmoPouch.GetInventory().CreateInInventory("AmmoBox_9x19_25rnd");
-        // }
-
-		bullets = beltAmmoPouch.GetInventory().CreateInInventory("Ammo_9x19");
-		bullets.SetQuantity(1);
+		bandages = player.GetInventory().CreateInInventory("BandageDressing");
+		player.GetInventory().CreateInInventory("Chemlight_White");
 
 		// hotkeys
 
-		// player.SetQuickBarEntityShortcut( melee, 0 );
-		player.SetQuickBarEntityShortcut( knife, 1 );
-		player.SetQuickBarEntityShortcut( pistol, 2 );
-		player.SetQuickBarEntityShortcut( rifle, 3 );
 		player.SetQuickBarEntityShortcut( bandages, 4 );
-		// player.SetQuickBarEntityShortcut( rangefinder, 5 );
-		// player.SetQuickBarEntityShortcut( sniper, 6 );
-		// player.SetQuickBarEntityShortcut( shotgun, 7 );
     }
 
 	override void StartingEquipSetup(PlayerBase player, bool clothesChosen)
 	{
 		EntityAI itemClothing;
-		EntityAI itemEnt;
-		ItemBase itemBs;
-		float rand;
 
 		itemClothing = player.FindAttachmentBySlotName( "Body" );
 		if ( itemClothing )
@@ -225,14 +134,6 @@ class CustomMission: MissionServer
 			player.RemoveAllItems();
             
             SpawnJeffSetup(player);
-			
-            itemEnt = player.GetInventory().CreateInInventory("WaterBottle");
-			itemBs = player.GetInventory().CreateInInventory("PurificationTablets");
-			itemBs.SetQuantity(1);
-
-            itemEnt = player.GetInventory().CreateInInventory("PowderedMilk");
-			itemEnt = player.GetInventory().CreateInInventory("ChernarusMap");
-			itemEnt = player.GetInventory().CreateInInventory("CanOpener");
 		} 
 	}
 };
