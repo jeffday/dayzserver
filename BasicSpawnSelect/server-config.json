@@ -1,0 +1,337 @@
+{
+  "SpawnSystemMode": 1,
+  "SpawnLocations": [
+    {
+      "m_locationname": "Skalisty",
+      "m_spawnlocation": [
+        14036.99,
+        0,
+        2916.93
+      ],
+      "m_randomradius": 50
+    },
+    {
+      "m_locationname": "Storozh",
+      "m_spawnlocation": [
+        2935.23,
+        0,
+        1191.6
+      ],
+      "m_randomradius": 25
+    },
+    {
+      "m_locationname": "Svyatoy Roman Ski Resort",
+      "m_spawnlocation": [
+        215.8,
+        0,
+        11841.32
+      ],
+      "m_randomradius": 25
+    },
+    {
+      "m_locationname": "Simurg",
+      "m_spawnlocation": [
+        138.04,
+        0,
+        7573.91
+      ],
+      "m_randomradius": 100
+    },
+    {
+      "m_locationname": "Krasnoe",
+      "m_spawnlocation": [
+        6423.57,
+        0,
+        15033.08
+      ],
+      "m_randomradius": 100
+    },
+    {
+      "m_locationname": "Devil's Castle",
+      "m_spawnlocation": [
+        6889.2,
+        0,
+        11435.47
+      ],
+      "m_randomradius": 250
+    },
+    {
+      "m_locationname": "Volchiypik",
+      "m_spawnlocation": [
+        293.57,
+        0,
+        2705.11
+      ],
+      "m_randomradius": 25
+    },
+    {
+      "m_locationname": "Black Forest",
+      "m_spawnlocation": [
+        9066.66,
+        0,
+        8037.66
+      ],
+      "m_randomradius": 250
+    },
+    {
+      "m_locationname": "Black Mountain",
+      "m_spawnlocation": [
+        10285.69,
+        0,
+        12047.19
+      ],
+      "m_randomradius": 250
+    },
+    {
+      "m_locationname": "Sokol",
+      "m_spawnlocation": [
+        11985.97,
+        0,
+        14785.83
+      ],
+      "m_randomradius": 100
+    },
+    {
+      "m_locationname": "Zub",
+      "m_spawnlocation": [
+        6531.23,
+        0,
+        5574.62
+      ],
+      "m_randomradius": 100
+    },
+    {
+      "m_locationname": "Tokarnya",
+      "m_spawnlocation": [
+        8882.96,
+        0,
+        5680.7
+      ],
+      "m_randomradius": 100
+    },
+    {
+      "m_locationname": "Ostry",
+      "m_spawnlocation": [
+        10796.04,
+        0,
+        12837.15
+      ],
+      "m_randomradius": 100
+    },
+    {
+      "m_locationname": "Kustryk",
+      "m_spawnlocation": [
+        4914.4,
+        0,
+        5069.14
+      ],
+      "m_randomradius": 100
+    },
+    {
+      "m_locationname": "Klen",
+      "m_spawnlocation": [
+        11481.36,
+        0,
+        11333.01
+      ],
+      "m_randomradius": 100
+    },
+    {
+      "m_locationname": "Erbenka",
+      "m_spawnlocation": [
+        2972.65,
+        0,
+        4303.43
+      ],
+      "m_randomradius": 100
+    },
+    {
+      "m_locationname": "Gnomovzamok",
+      "m_spawnlocation": [
+        7442.08,
+        0,
+        9265.23
+      ],
+      "m_randomradius": 100
+    },
+    {
+      "m_locationname": "Shkolnik",
+      "m_spawnlocation": [
+        15020.25,
+        0,
+        14531.53
+      ],
+      "m_randomradius": 100
+    },
+    {
+      "m_locationname": "Stary Yar",
+      "m_spawnlocation": [
+        5037.86,
+        0,
+        15124.23
+      ],
+      "m_randomradius": 100
+    },
+    {
+      "m_locationname": "Galkino",
+      "m_spawnlocation": [
+        1371.62,
+        0,
+        9161.91
+      ],
+      "m_randomradius": 100
+    },
+    {
+      "m_locationname": "Nizhneye",
+      "m_spawnlocation": [
+        13085.79,
+        0,
+        8480.49
+      ],
+      "m_randomradius": 100
+    },
+    {
+      "m_locationname": "Black Lake",
+      "m_spawnlocation": [
+        13441.09,
+        0,
+        12273.22
+      ],
+      "m_randomradius": 100
+    },
+    {
+      "m_locationname": "Solnichniy Tower",
+      "m_spawnlocation": [
+        13007.78,
+        0,
+        5962.97
+      ],
+      "m_randomradius": 100
+    },
+    {
+      "m_locationname": "Krutyeskaly Tower",
+      "m_spawnlocation": [
+        14125.45,
+        0,
+        14158.31
+      ],
+      "m_randomradius": 100
+    },
+    {
+      "m_locationname": "Ostrog",
+      "m_spawnlocation": [
+        2647.00,
+        0,
+        2199.57
+      ],
+      "m_randomradius": 100
+    },
+    {
+      "m_locationname": "Pik Kozlova",
+      "m_spawnlocation": [
+        8835.33,
+        0,
+        2860.39
+      ],
+      "m_randomradius": 100
+    }
+  ],
+  "SpawnTickets": [
+    {
+      "m_classname": "BasicSpawnSelect_SpawnTicket",
+      "m_ID": "Bandit",
+      "m_UsePosition": [
+        4111.2998046875,
+        0,
+        8912.7900390625
+      ],
+      "m_UseRadius": 50,
+      "m_PossibleSpawn": [
+        {
+          "m_locationname": "Kamenka",
+          "m_spawnlocation": [
+            1892.1099853515625,
+            6.1711249351501465,
+            2244.1298828125
+          ],
+          "m_randomradius": 500
+        },
+        {
+          "m_locationname": "West Balota",
+          "m_spawnlocation": [
+            4025.159912109375,
+            6.494447231292725,
+            2620.4599609375
+          ],
+          "m_randomradius": 1000
+        },
+        {
+          "m_locationname": "Chernogorsk",
+          "m_spawnlocation": [
+            6387.43017578125,
+            9.290138244628906,
+            2699.47998046875
+          ],
+          "m_randomradius": 1000
+        },
+        {
+          "m_locationname": "Elektrozavodsk",
+          "m_spawnlocation": [
+            10322.400390625,
+            5.811277866363525,
+            2171.159912109375
+          ],
+          "m_randomradius": 1000
+        }
+      ]
+    },
+    {
+      "m_classname": "BasicSpawnSelect_SpawnTicket",
+      "m_ID": "Admin",
+      "m_UsePosition": [
+        4111.2998046875,
+        0,
+        8912.7900390625
+      ],
+      "m_UseRadius": 50,
+      "m_PossibleSpawn": [
+        {
+          "m_locationname": "Kamenka",
+          "m_spawnlocation": [
+            1892.1099853515625,
+            6.1711249351501465,
+            2244.1298828125
+          ],
+          "m_randomradius": 500
+        },
+        {
+          "m_locationname": "West Balota",
+          "m_spawnlocation": [
+            4025.159912109375,
+            6.494447231292725,
+            2620.4599609375
+          ],
+          "m_randomradius": 1000
+        },
+        {
+          "m_locationname": "Chernogorsk",
+          "m_spawnlocation": [
+            6387.43017578125,
+            9.290138244628906,
+            2699.47998046875
+          ],
+          "m_randomradius": 1000
+        },
+        {
+          "m_locationname": "Elektrozavodsk",
+          "m_spawnlocation": [
+            10322.400390625,
+            5.811277866363525,
+            2171.159912109375
+          ],
+          "m_randomradius": 1000
+        }
+      ]
+    }
+  ]
+}
