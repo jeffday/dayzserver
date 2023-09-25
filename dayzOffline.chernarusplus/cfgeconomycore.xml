@@ -122,4 +122,10 @@ Do not forget to add attribute act="car", if root class represents moveable vehi
 		<file name="lebedev_pistol_compact_spawnabletypes.xml" type="spawnabletypes"/>
 	</ce>
 
+	<!-- asorrycanadian AVS-36 -->
+	<ce folder="CE_AVS36">
+		<file name="AVS36_types.xml" type="types" />
+		<file name="AVS36_spawnabletypes.xml" type="spawnabletypes" />
+	</ce>
+
 </economycore>
