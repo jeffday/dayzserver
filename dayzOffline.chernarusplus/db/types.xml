@@ -26,6 +26,19 @@
 	    <usage name="Village" />
         <usage name="Hunting"/>
     </type>
+    <type name="HK416C">
+		<nominal>2</nominal>
+        <lifetime>7200</lifetime>
+        <restock>300</restock>
+		<min>1</min>
+		<quantmin>-1</quantmin>
+		<quantmax>-1</quantmax>
+		<cost>100</cost>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+		<category name="weapons" />
+		<value name="Tier4" />
+		<usage name="Military" />
+    </type>
     <type name="ACOGOptic">
         <nominal>0</nominal>
         <lifetime>14400</lifetime>
