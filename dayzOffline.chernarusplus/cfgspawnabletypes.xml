@@ -7,12 +7,11 @@
 		</attachments>
 	</type>
 	<type name="HK416C">
-		<damage min="0.3" max="0.7" />Q
+		<damage min="0.3" max="0.7" />
 		<attachments preset="ar_optics" />
-		<attachments chance="0.50">
-			<item name="BO_Mag_PMAG_30rnd" chance="1.00" />
-		</attachments>
 		<attachments chance="0.30">
+			<item name="Mag_CMAG_10Rnd" chance="0.50" />
+			<item name="Mag_CMAG_20Rnd" chance="0.70" />
 			<item name="Mag_CMAG_30Rnd" chance="1.00" />
 		</attachments>
 	</type>
