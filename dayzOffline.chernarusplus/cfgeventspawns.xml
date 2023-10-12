@@ -1441,6 +1441,12 @@
 		<pos x="4927.973" z="7844.380" a="0" y="333.543" group="Traffic_VMC"/>
 		<pos x="3518.464" z="9122.509" a="0" y="310.821" group="Traffic_Vybor"/>
 	</event>
+	<event name="StaticNWAFCrashGroups">
+		<pos x="4349.202148" y="338.977814" z="10096.630859" a="260" group="NWAFTankT72"/>
+		<pos x="4371.109863" y="339.296997" z="10421.500000" a="300" group="NWAFPlane"/>
+		<pos x="4293.528809" y="338.296997" z="11056.922852" a="260" group="NWAFTankT34"/>
+		<pos x="5071.226074" y="341.704010" z="9922.66601" a="260" group="NWAFTankBMP1"/>
+	</event>
 
     <event name="VehicleTransitBus" />
     <event name="InfectedVillage" />

@@ -1121,4 +1121,58 @@
         <child type="Land_Wreck_Ikarus_DE" deloot="1" lootmax="3" lootmin="2" x="31.720" z="-22.114" a="340.147"/>
         <child type="Land_Wreck_sed01_aban1_police_DE" deloot="1" lootmax="4" lootmin="2" x="37.964" z="-38.186" a="337.311"/>
     </group>
+    <group name="NWAFTankBMP1">
+                <child type="Land_Roadblock_WoodenCrate" deloot="0" lootmax="4" lootmin="2" x="0" y="0" z="0" a="0"/>
+                <child type="Wreck_BMP1_GG" deloot="1" lootmax="8" lootmin="3" x="-6.786133" y="0.85" z="3.057617" a="240"/>
+                <child type="StaticObj_Misc_WoodenCrate_5x" deloot="0" lootmax="8" lootmin="3" x="-8.897461" y="0.825928" z="7.144531" a="0.000000"/>
+                <child type="StaticObj_Misc_BoxWooden" deloot="0" lootmax="8" lootmin="3" x="-7.660157" y="0.125946" z="-4.305176" a="18.803267"/>
+                <child type="StaticObj_Misc_BoxWooden" deloot="0" lootmax="8" lootmin="3" x="-6.395508" y="0.124969" z="-4.383789" a="90.803162"/>
+                <child type="StaticObj_Misc_BoxWooden" deloot="0" lootmax="8" lootmin="3" x="-7.075196" y="1.097687" z="-4.377930" a="-179.196457"/>
+                <child type="ZmbM_usSoldier_Officer_Desert" deloot="0" lootmax="8" lootmin="3" x="7.727539" y="0.057343" z="-0.900878" a="0.000000"/>
+                <child type="ZmbM_usSoldier_Heavy_Woodland" deloot="0" lootmax="8" lootmin="3" x="-0.212890" y="0.097443" z="-3.638671" a="0.000000"/>
+                <child type="GG_ZmbM_NBC_Black_Contam" deloot="0" lootmax="8" lootmin="3" x="-6.697265" y="0.159150" z="0.420411" a="0.000000"/>
+                <child type="GG_ZmbM_NBC_Black_Contam" deloot="0" lootmax="8" lootmin="3" x="1.627930" y="0.145600" z="3.755372" a="0.000000"/>
+	</group> 
+    <group name="NWAFTankT72">
+                <child type="Land_Roadblock_WoodenCrate" deloot="0" lootmax="4" lootmin="2" x="0" y="0" z="0" a="0"/>
+                <child type="StaticObj_Misc_WoodenCrate_5x" deloot="0" lootmax="8" lootmin="3" x="4.238282" y="0.794861" z="-11.902344" a="9.000000"/>
+                <child type="StaticObj_Misc_BoxWooden" deloot="0" lootmax="8" lootmin="3" x="12.655274" y="0.323883" z="-6.884278" a="18.000000"/>
+                <child type="StaticObj_Misc_BoxWooden" deloot="0" lootmax="8" lootmin="3" x="12.315430" y="0.325134" z="-5.282227" a="80.999954"/>
+                <child type="StaticObj_Misc_BoxWooden" deloot="0" lootmax="8" lootmin="3" x="12.322266" y="1.294067" z="-6.104493" a="107.999908"/>
+                <child type="Wreck_T72_GG" deloot="0" lootmax="8" lootmin="3" x="7.000977" y="0.650451" z="-5.270997" a="170"/>
+                <child type="ZmbM_usSoldier_Officer_Desert" deloot="0" lootmax="8" lootmin="3" x="10.335938" y="-0.087708" z="-2.534180" a="0.000000"/>
+                <child type="ZmbM_usSoldier_Heavy_Woodland" deloot="0" lootmax="8" lootmin="3" x="6.161133" y="-0.122925" z="3.016113" a="0.000000"/>
+                <child type="GG_ZmbM_NBC_Black_Contam" deloot="0" lootmax="8" lootmin="3" x="0.176758" y="-0.082093" z="-7.474610" a="0.000000"/>
+                <child type="GG_ZmbM_NBC_Yellow_Contam" deloot="0" lootmax="8" lootmin="3" x="8.247071" y="-0.065827" z="-13.170899" a="0.000000"/>
+	</group> 
+    <group name="NWAFTankT34">
+                <child type="Wreck_T34_GG" deloot="1" lootmax="8" lootmin="3" x="0" y="0" z="0" a="120"/>
+                <child type="Land_Roadblock_WoodenCrate" deloot="0" lootmax="8" lootmin="3" x="7.356446" y="0.21" z="1.706543" a="0.000000"/>
+                <child type="StaticObj_Misc_WoodenCrate_5x" deloot="0" lootmax="8" lootmin="3" x="-3.932617" y="0.974457" z="-3.340820" a="-27.000000"/>
+                <child type="StaticObj_Misc_BoxWooden" deloot="0" lootmax="8" lootmin="3" x="5.999024" y="0.219087" z="-4.832031" a="0.000000"/>
+                <child type="StaticObj_Misc_BoxWooden" deloot="0" lootmax="8" lootmin="3" x="4.877930" y="0.19820" z="-5.293457" a="80.999954"/>
+                <child type="StaticObj_Misc_BoxWooden" deloot="0" lootmax="8" lootmin="3" x="5.472657" y="1.190126" z="-5.112304" a="53.999985"/>
+                <child type="ZmbM_usSoldier_Officer_Desert" deloot="0" lootmax="8" lootmin="3" x="7.727539" y="0.057343" z="-0.900878" a="0.000000"/>
+                <child type="ZmbM_usSoldier_Heavy_Woodland" deloot="0" lootmax="8" lootmin="3" x="-0.212890" y="0.097443" z="-3.638671" a="0.000000"/>
+                <child type="GG_ZmbM_NBC_Yellow_Contam" deloot="0" lootmax="8" lootmin="3" x="-6.697265" y="0.159150" z="0.420411" a="0.000000"/>
+                <child type="GG_ZmbM_NBC_Grey_Contam" deloot="0" lootmax="8" lootmin="3" x="1.627930" y="0.145600" z="3.755372" a="0.000000"/>
+	</group> 
+    <group name="NWAFPlane">
+                <child type="Land_Roadblock_WoodenCrate" deloot="0" lootmax="4" lootmin="2" x="1" y="0" z="4.4" a="0"/>
+                <child type="Wreck_C130J_GG" 			 deloot="1" lootmax="25" lootmin="10" x="-0.8" y="4.906799" z="-6.8" a="-58.583603"/>
+                <child type="StaticObj_Misc_WoodenCrate_5x" deloot="0" lootmax="12" lootmin="4" x="6.398438" y="0.632172" z="-1.771973" a="89.989731"/>
+                <child type="StaticObj_Misc_BoxWooden" deloot="0" lootmax="12" lootmin="4" x="2.656250" y="0.242157" z="4.510421" a="-26.907307"/>
+                <child type="StaticObj_Misc_BoxWooden" deloot="0" lootmax="12" lootmin="4" x="4.116211" y="0.242188" z="4.641601" a="46.209953"/>
+                <child type="StaticObj_Misc_BoxWooden" deloot="0" lootmax="12" lootmin="4" x="3.391602" y="1.209869" z="4.675781" a="76.225075"/>
+                <child type="StaticObj_Wreck_Decal_Small2" deloot="0" lootmax="12" lootmin="4" x="-3.439453" y="1.267365" z="-5.588867" a="-62.999947"/>
+                <child type="StaticObj_Wreck_Decal_Small2" deloot="0" lootmax="12" lootmin="4" x="-0.851562" y="1.267426" z="-0.923340" a="-63.764355"/>
+                <child type="StaticObj_Wreck_Decal_Small2" deloot="0" lootmax="12" lootmin="4" x="0.439453" y="1.267365" z="2.080566" a="-64.8"/>
+                <child type="StaticObj_Wreck_Decal_Small2" deloot="0" lootmax="12" lootmin="4" x="2.678711" y="1.267395" z="5.487304" a="-58.764404"/>
+                <child type="ZmbM_usSoldier_Officer_Desert" deloot="0" lootmax="12" lootmin="4" x="-7.112305" y="-0.211548" z="-2.486328" a="35.999996"/>
+                <child type="ZmbM_usSoldier_Heavy_Woodland" deloot="0" lootmax="12" lootmin="4" x="-2.316406" y="-0.211548" z="5.617187" a="62.999973"/>
+                <child type="ZmbM_SoldierNormal" deloot="0" lootmax="12" lootmin="4" x="6.052734" y="-0.211487" z="2.587402" a="62.999973"/>
+                <child type="ZmbM_SoldierNormal" deloot="0" lootmax="12" lootmin="4" x="3.799805" y="-0.181854" z="-8.620606" a="62.999973"/>
+                <child type="ZmbM_CommercialPilotOld_Olive" deloot="0" lootmax="12" lootmin="4" x="-4.606445" y="0.144379" z="-20.373047" a="62.999973"/>
+                <child type="ZmbF_SurvivorNormal_White" deloot="0" lootmax="12" lootmin="4" x="-12.606445" y="-0.211548" z="-12.354981" a="62.999973"/>
+	</group>  
 </eventgroupdef>
