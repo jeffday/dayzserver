@@ -2,7 +2,7 @@
 <eventgroupdef>
     <!--pos x="5587.466" z="2063.353" a="0" y="7.591" group="Train_Abandoned_Cherno"/-->
     <group name="Train_Abandoned_Cherno">
-<child type="StaticObj_Wreck_Train_742_Red_DE" deloot="0" lootmax="3" lootmin="1" x="0" z="0" a="78.123" y="1.9"/>
+<child type="Land_Train_742_Red_GG" deloot="0" lootmax="3" lootmin="1" x="0" z="0" a="78.123" y="1.9"/>
         <child type="StaticObj_Wreck_Train_Wagon_Tanker_DE" deloot="0" lootmax="3" lootmin="1" x="12.085" z="2.740" a="256.739" y="1.789"/>
         <child type="StaticObj_Wreck_Train_Wagon_Tanker_DE" deloot="0" lootmax="3" lootmin="1" x="23.106" z="5.477" a="255.579" y="1.781"/>
         <child type="Land_Train_Wagon_Box_DE" deloot="0" lootmax="3" lootmin="2" x="34.546" z="8.424" a="255.837" y="1.32"/>
@@ -12,7 +12,7 @@
     </group>
     <!--pos x="3678.228" z="2328.108" a="0" y="6.546" group="Train_Abandoned_Kamarovo"/-->
     <group name="Train_Abandoned_Kamarovo">
-        <child type="StaticObj_Wreck_Train_742_Blue_DE" deloot="0" lootmax="3" lootmin="1" x="0" z="0" a="198.014" y="1.9"/>
+        <child type="Land_Train_742_Blue_GG" deloot="0" lootmax="3" lootmin="1" x="0" z="0" a="198.014" y="1.9"/>
         <child type="Land_Container_1Aoh_DE" deloot="0" lootmax="5" lootmin="3" x="47.815" z="73.054" a="232.503" y="2.122"/>
         <child type="Land_Container_1Bo_DE" deloot="0" lootmax="4" lootmin="3" x="56.970" z="78.525" a="65.747" y="2.083"/>
         <child type="StaticObj_Wreck_Train_Wagon_Flat_DE" deloot="0" lootmax="3" lootmin="1" x="60.378" z="80.129" a="67.036" y="0.196"/>
@@ -30,7 +30,7 @@
     </group>
     <!--pos x="11254.230" z="3290.319" a="0" y="6.513" group="Train_Abandoned_Kamy"/-->
     <group name="Train_Abandoned_Kamy">
-<child type="StaticObj_Wreck_Train_742_Red_DE" deloot="0" lootmax="3" lootmin="1" x="0" z="0" a="232.116" y="1.9"/>
+<child type="Land_Train_742_Red_GG" deloot="0" lootmax="3" lootmin="1" x="0" z="0" a="232.116" y="1.9"/>
         <child type="Land_Train_Wagon_Box_DE" deloot="0" lootmax="3" lootmin="2" x="10.519" z="7.484" a="56.981" y="1.359"/>
         <child type="Land_Train_Wagon_Box_DE" deloot="0" lootmax="3" lootmin="2" x="63.608" z="36.819" a="65.102" y="1.350"/>
         <child type="Land_Train_Wagon_Box_DE" deloot="0" lootmax="3" lootmin="2" x="42.184" z="25.479" a="61.364" y="1.357"/>
@@ -42,7 +42,7 @@
     </group>
     <!--pos x="1256.313" z="9349.465" a="0" y="211.678" group="Train_Abandoned_Myshkino"/-->
     <group name="Train_Abandoned_Myshkino">
- <child type="StaticObj_Wreck_Train_742_Blue_DE" deloot="0" lootmax="3" lootmin="1" x="0" z="0" a="29.779" y="1.9"/>
+        <child type="Land_Train_742_Blue_GG" deloot="0" lootmax="3" lootmin="1" x="0" z="0" a="29.779" y="1.9"/>
         <child type="Land_Train_Wagon_Box_DE" deloot="0" lootmax="3" lootmin="2" x="-6.915" z="-10.795" a="36.096" y="1.265"/>
         <child type="Land_Train_Wagon_Box_DE" deloot="0" lootmax="3" lootmin="2" x="-14.550" z="-20.221" a="42.284" y="1.208"/>
         <child type="Land_Container_1Bo_DE" deloot="0" lootmax="4" lootmin="2" x="-57.636" z="-59.438" a="48.988" y="2.05"/>
@@ -55,7 +55,7 @@
     </group>
     <!--pos x="5428.630" z="12312.974" a="0" y="185.442" group="Train_Abandoned_Petrovka"/-->
     <group name="Train_Abandoned_Petrovka">
-        <child type="StaticObj_Wreck_Train_742_Red_DE" deloot="0" lootmax="3" lootmin="1" x="0" z="0" a="289.612" y="1.9"/>
+        <child type="Land_Train_742_Red_GG" deloot="0" lootmax="3" lootmin="1" x="0" z="0" a="289.612" y="1.9"/>
         <child type="Land_Train_Wagon_Box_DE" deloot="0" lootmax="3" lootmin="2" x="12.042" z="-4.408" a="289.097" y="1.269"/>
         <child type="Land_Train_Wagon_Box_DE" deloot="0" lootmax="3" lootmin="2" x="46.298" z="-16.484" a="289.999" y="1.255"/>
         <child type="Land_Train_Wagon_Box_DE" deloot="0" lootmax="3" lootmin="2" x="34.948" z="-12.386" a="289.354" y="1.242"/>
@@ -65,7 +65,7 @@
     </group>
     <!--pos x="8802.031" z="2334.222" a="0" y="8.277" group="Train_Abandoned_Prigorodki"/-->
     <group name="Train_Abandoned_Prigorodki">
-         <child type="StaticObj_Wreck_Train_742_Red_DE" deloot="0" lootmax="3" lootmin="1" x="0" z="0" a="319.005" y="1.9"/>
+         <child type="Land_Train_742_Red_GG" deloot="0" lootmax="3" lootmin="1" x="0" z="0" a="319.005" y="1.9"/>
         <child type="Land_Container_1Aoh_DE" deloot="0" lootmax="5" lootmin="3" x="31.764" z="-36.236" a="137.682" y="2.1"/>
         <child type="Land_Train_Wagon_Box_DE" deloot="0" lootmax="3" lootmin="2" x="16.395" z="-18.849" a="318.876" y="1.405"/>
         <child type="Land_Train_Wagon_Box_DE" deloot="0" lootmax="3" lootmin="2" x="8.245" z="-9.730" a="318.361" y="1.427"/>
@@ -80,7 +80,7 @@
     </group>
     <!--pos x="13402.112" z="4303.119" a="0" y="6.561" group="Train_Abandoned_Skalisty"/-->
     <group name="Train_Abandoned_Skalisty">
-        <child type="StaticObj_Wreck_Train_742_Blue_DE" deloot="0" lootmax="3" lootmin="1" x="0" z="0" a="18.632" y="1.9" />
+        <child type="Land_Train_742_Blue_GG" deloot="0" lootmax="3" lootmin="1" x="0" z="0" a="18.632" y="1.9" />
         <child type="Land_Train_Wagon_Box_DE" deloot="0" lootmax="3" lootmin="2" x="-4.306" z="-12.020" a="19.208" y="1.336"/>
         <child type="Land_Train_Wagon_Box_DE" deloot="0" lootmax="3" lootmin="2" x="-8.356" z="-23.465" a="19.208" y="1.336"/>
         <child type="Land_Train_Wagon_Box_DE" deloot="0" lootmax="3" lootmin="2" x="-12.496" z="-34.835" a="20.626" y="1.336"/>
@@ -96,7 +96,7 @@
     </group>
     <!--pos x="13377.262" z="13919.888" a="0" y="17.197" group="Train_Abandoned_Svetlo"/-->
     <group name="Train_Abandoned_Svetlo">
- <child type="StaticObj_Wreck_Train_742_Blue_DE" deloot="0" lootmax="3" lootmin="1" x="0" z="0" a="10.700" y="1.9"/>
+ <child type="Land_Train_742_Blue_GG" deloot="0" lootmax="3" lootmin="1" x="0" z="0" a="10.700" y="1.9"/>
         <child type="StaticObj_Wreck_Train_Wagon_Tanker_DE" deloot="0" lootmax="3" lootmin="1" x="-10.339" z="-33.442" a="17.661" y="1.7"/>
         <child type="StaticObj_Wreck_Train_Wagon_Tanker_DE" deloot="0" lootmax="3" lootmin="1" x="-3.268" z="-11.845" a="16.630" y="1.713"/>
         <child type="StaticObj_Wreck_Train_Wagon_Tanker_DE" deloot="0" lootmax="3" lootmin="1" x="-6.742" z="-22.613" a="18.951" y="1.722"/>
@@ -110,7 +110,7 @@
     </group>
     <!--pos x="1309.973" z="4991.340" a="0" y="166.535" group="Train_Abandoned_Zvir"/-->
     <group name="Train_Abandoned_Zvir">
-        <child type="StaticObj_Wreck_Train_742_Blue_DE" deloot="0" lootmax="3" lootmin="1" x="0" z="0" a="288.452" y="1.9"/>
+        <child type="Land_Train_742_Blue_GG" deloot="0" lootmax="3" lootmin="1" x="0" z="0" a="288.452" y="1.9"/>
         <child type="Land_Container_1Aoh_DE" deloot="0" lootmax="5" lootmin="3" x="34.194" z="-5.531" a="270.404" y="2.275"/>
         <child type="Land_Container_1Aoh_DE" deloot="0" lootmax="5" lootmin="3" x="28.251" z="-5.405" a="92.114" y="2.272"/>
         <child type="Land_Container_1Bo_DE" deloot="0" lootmax="4" lootmin="2" x="13.024" z="-3.390" a="100.296" y="2.216"/>
@@ -126,7 +126,7 @@
     </group>
     <!--pos x="12912.529" z="15006.073" a="0" y="57.328" group="Train_Accident_Dobroe"/-->
     <group name="Train_Accident_Dobroe">
-        <child type="StaticObj_Wreck_Train_742_Red_DE" deloot="0" lootmax="3" lootmin="1" x="0" z="0" a="138.455" y="1.9"/>
+        <child type="Land_Train_742_Red_GG" deloot="0" lootmax="3" lootmin="1" x="0" z="0" a="138.455" y="1.9"/>
         <child type="Land_Train_Wagon_Box_DE" deloot="0" lootmax="3" lootmin="2" x="-22.857" z="29.025" a="322.099" y="1.2040"/>
         <child type="Land_Train_Wagon_Box_DE" deloot="0" lootmax="3" lootmin="2" x="-30.252" z="38.570" a="321.970" y="1.2058"/>
         <child type="Land_Train_Wagon_Box_DE" deloot="0" lootmax="3" lootmin="2" x="-37.781" z="48.048" a="321.583" y="1.204"/>
@@ -142,7 +142,7 @@
     </group>
     <!--pos x="10797.634" z="2567.169" a="0" y="6.000" group="Train_Accident_Electro"/-->
     <group name="Train_Accident_Electro">
-        <child type="StaticObj_Wreck_Train_742_Blue_DE" deloot="0" lootmax="3" lootmin="1" x="0" z="0" a="200.464" y="1.9"/>
+        <child type="Land_Train_742_Blue_GG" deloot="0" lootmax="3" lootmin="1" x="0" z="0" a="200.464" y="1.9"/>
         <child type="StaticObj_Train_Wagon_Flat_Industrial_Planks_DE" deloot="0" lootmax="3" lootmin="1" x="18.971" z="61.096" a="20.498" y="0.146"/>
         <child type="StaticObj_Wreck_Train_Wagon_Flat_DE" deloot="0" lootmax="3" lootmin="1" x="24.964" z="77.256" a="20.369" y="0.146"/>
         <child type="StaticObj_Wreck_Train_Wagon_Flat_DE" deloot="0" lootmax="3" lootmin="1" x="31.062" z="93.385" a="20.369" y="0.146"/>
@@ -155,11 +155,11 @@
         <child type="Land_Train_Wagon_Box_DE" deloot="0" lootmax="3" lootmin="2" x="5.826" z="24.352" a="15.212" y="1.314"/>
         <child type="Land_Train_Wagon_Box_DE" deloot="0" lootmax="3" lootmin="2" x="3.228" z="12.332" a="5.801" y="1.314"/>
         <child type="Land_Train_Wagon_Box_DE" deloot="0" lootmax="3" lootmin="2" x="13.717" z="47.396" a="21.271" y="1.314"/>
-        <child type="Land_Wreck_Ikarus_DE" x="-2.749" z="-6.006" a="325.254"/>
+        <child type="Land_Wreck_Ikarus_GG" x="-2.749" z="-6.006" a="325.254"/>
     </group>
     <!--pos x="12851.586" z="8577.874" a="0" y="6.407" group="Train_Accident_Nizhnoye"/-->
     <group name="Train_Accident_Nizhnoye">
-        <child type="StaticObj_Wreck_Train_742_Red_DE" deloot="0" lootmax="3" lootmin="1" x="0" z="0" a="157.664" y="1.9"/>
+        <child type="Land_Train_742_Red_GG" deloot="0" lootmax="3" lootmin="1" x="0" z="0" a="157.664" y="1.9"/>
         <child type="StaticObj_Wreck_Train_Wagon_Tanker_DE" deloot="0" lootmax="3" lootmin="1" x="-21.917" z="69.881" a="342.339" y="1.857"/>
         <child type="StaticObj_Wreck_Train_Wagon_Tanker_DE" deloot="0" lootmax="3" lootmin="1" x="-25.285" z="80.692" a="343.628" y="1.857"/>
         <child type="Land_Train_Wagon_Box_DE" deloot="0" lootmax="3" lootmin="2" x="-11.316" z="35.373" a="342.854" y="1.364"/>
@@ -171,7 +171,7 @@
     </group>
     <!--pos x="13590.054" z="11515.854" a="0" y="13.902" group="Train_Accident_Rify"/-->
     <group name="Train_Accident_Rify">
- <child type="StaticObj_Wreck_Train_742_Red_DE" deloot="0" lootmax="3" lootmin="1" x="0" z="0" a="31.971" y="1.9"/>
+ <child type="Land_Train_742_Red_GG" deloot="0" lootmax="3" lootmin="1" x="0" z="0" a="31.971" y="1.9"/>
         <child type="StaticObj_Wreck_Decal_Small2_DE" spawnsecondary="false" x="5.215" z="3.712" a="359.098"/>
         <child type="Land_wreck_truck01_aban2_blue_DE" deloot="0" lootmax="3" lootmin="1" x="5.169" z="3.995" a="182.158" y="-0.122"/>
         <child type="Land_Train_Wagon_Box_DE" deloot="0" lootmax="3" lootmin="2" x="-20.735" z="-30.501" a="30.811" y="1.418"/>
@@ -193,7 +193,7 @@
     </group>
     <!--pos x="9384.272" z="13392.446" a="0" y="105.168" group="Train_Accident_Severo"/-->
     <group name="Train_Accident_Severo">
-        <child type="StaticObj_Wreck_Train_742_Blue_DE" deloot="0" lootmax="3" lootmin="1" x="0" z="0" a="196.725" y="1.9"/>
+        <child type="Land_Train_742_Blue_GG" deloot="0" lootmax="3" lootmin="1" x="0" z="0" a="196.725" y="1.9"/>
         <child type="Land_Train_Wagon_Box_DE" deloot="0" lootmax="3" lootmin="2" x="29.008" z="53.607" a="33.647" y="1.2067"/>
         <child type="StaticObj_Wreck_Ural_DE" deloot="0" lootmax="3" lootmin="1" x="-4.430" z="-5.382" a="342.529"/>
         <child type="Land_Train_Wagon_Box_DE" deloot="0" lootmax="3" lootmin="2" x="4.738" z="11.703" a="24.881" y="1.253"/>
@@ -204,7 +204,7 @@
     </group>
     <!--pos x="13213.484" z="6894.041" a="0" y="6.000" group="Train_Accident_Solnichniy"/-->
     <group name="Train_Accident_Solnichniy">
-        <child type="StaticObj_Wreck_Train_742_Red_DE" deloot="0" lootmax="3" lootmin="1" x="0" z="0" a="162.691" y="1.9"/>
+        <child type="Land_Train_742_Red_GG" deloot="0" lootmax="3" lootmin="1" x="0" z="0" a="162.691" y="1.9"/>
         <child type="Land_Train_Wagon_Box_DE" deloot="0" lootmax="3" lootmin="2" x="-21.514" z="70.040" a="342.855" y="1.303"/>
         <child type="StaticObj_Wreck_Train_Wagon_Flat_DE" deloot="0" lootmax="3" lootmin="1" x="-25.842" z="83.999" a="342.854" y="0.168"/>
         <child type="StaticObj_Train_Wagon_Flat_Industrial_Planks_DE" deloot="0" lootmax="3" lootmin="1" x="-36.040" z="116.854" a="342.854" y="0.168"/>
@@ -220,7 +220,7 @@
     </group>
     <!--pos x="13363.302" z="5439.232" a="0" y="5.982" group="Train_Accident_Solnichniy2"/-->
     <group name="Train_Accident_Solnichniy2">
-        <child type="StaticObj_Wreck_Train_742_Red_DE" deloot="0" lootmax="3" lootmin="1" x="0" z="0" a="355.488" y="0.3"/>
+        <child type="Land_Train_742_Red_GG" deloot="0" lootmax="3" lootmin="1" x="0" z="0" a="355.488" y="0.3"/>
         <child type="Land_Wreck_hb02_aban2_red_DE" deloot="0" lootmax="3" lootmin="1" x="-1.593" z="7.262" a="56.594" />
         <child type="StaticObj_Wreck_Train_Wagon_Tanker_DE" deloot="0" lootmax="3" lootmin="1" x="0.476" z="-12.301" a="358.969" />
         <child type="Land_Train_Wagon_Box_DE" deloot="0" lootmax="3" lootmin="2" x="2.172" z="-70.300" a="358.582" />
@@ -234,7 +234,7 @@
     </group>
     <!--pos x="2025.067" z="11378.385" a="0" y="249.355" group="Train_Accident_Vavilovo"/-->
     <group name="Train_Accident_Vavilovo">
-        <child type="StaticObj_Wreck_Train_742_Blue_DE" deloot="0" lootmax="3" lootmin="1" x="0" z="0" a="22.173" y="1.9"/>
+        <child type="Land_Train_742_Blue_GG" deloot="0" lootmax="3" lootmin="1" x="0" z="0" a="22.173" y="1.9"/>
         <child type="StaticObj_Wreck_Ural_DE" deloot="0" lootmax="3" lootmin="1" x="-0.143" z="7.251" a="262.282" y="1.2"/>
         <child type="Land_Train_Wagon_Box_Mil_DE" deloot="0" lootmax="3" lootmin="1" x="-4.474" z="-11.733" a="13.665" y="1.224"/>
         <child type="Land_Train_Wagon_Box_Mil_DE" deloot="0" lootmax="3" lootmin="1" x="-7.652" z="-23.412" a="19.466" y="1.3116"/>
@@ -267,7 +267,7 @@
         <child type="StaticObj_Wreck_Train_Wagon_Flat_Mil_DE" deloot="0" lootmax="3" lootmin="1" x="10.686" z="-30.795" a="335.635" y="0.226"/>
         <child type="StaticObj_Wreck_Train_Wagon_Flat_Mil_DE" deloot="0" lootmax="3" lootmin="1" x="18.944" z="-45.766" a="325.967" y="0.25"/>
         <child type="StaticObj_Wreck_Uaz_DE" x="-23.984" z="-10.800" a="254.446"/>
-        <child type="StaticObj_Wreck_BMP1_DE" deloot="0" lootmax="3" lootmin="1" x="-9.078" z="-16.710" a="281.490"/>
+        <child type="Wreck_BMP1_GG" deloot="0" lootmax="3" lootmin="1" x="-9.078" z="-16.710" a="281.490"/>
         <child type="StaticObj_Wreck_Decal_Small2_DE" spawnsecondary="false" x="-23.893" z="-10.573" a="73.224"/>
         <child type="StaticObj_Wreck_Decal_Small2_DE" spawnsecondary="false" x="-8.775" z="-17.882" a="101.843"/>
         <child type="Land_Container_1Mo_DE" deloot="0" lootmax="4" lootmin="3" x="28.354" z="-57.315" a="313.462" y="2.3"/>
@@ -319,12 +319,12 @@
     <!--pos x="3262.817" z="12430.286" a="0" y="220.335" group="Train_Mil_Petrovka"/-->
     <group name="Train_Mil_Petrovka">
         <child type="StaticObj_Wreck_Train_742_Red_Mil_DE" deloot="0" lootmax="3" lootmin="1" x="0" z="0" a="225.283" y="2.9"/>
-        <child type="StaticObj_Wreck_BMP2_DE" deloot="0" lootmax="3" lootmin="1" x="37.556" z="44.083" a="25.973" y="1.5"/>
+        <child type="Wreck_BMP2_GG" deloot="0" lootmax="3" lootmin="1" x="37.556" z="44.083" a="25.973" y="1.5"/>
         <child type="Land_Train_Wagon_Box_Mil_DE" deloot="0" lootmax="3" lootmin="1" x="36.443" z="30.719" a="54.016" y="2.2"/>
         <child type="Land_Train_Wagon_Box_Mil_DE" deloot="0" lootmax="3" lootmin="1" x="26.840" z="23.290" a="50.664" y="2.208"/>
         <child type="Land_Train_Wagon_Box_Mil_DE" deloot="0" lootmax="3" lootmin="1" x="56.311" z="44.548" a="65.489" y="2.202"/>
         <child type="Land_Train_Wagon_Box_Mil_DE" deloot="0" lootmax="3" lootmin="1" x="45.440" z="38.568" a="36.612" y="2.2072"/>
-        <child type="StaticObj_Wreck_T72_Chassis_DE" deloot="0" lootmax="3" lootmin="1" x="51.893" z="39.221" a="132.267" y="1.7"/>
+        <child type="Wreck_T72_GG" deloot="0" lootmax="3" lootmin="1" x="51.893" z="39.221" a="132.267" y="1.7"/>
         <child type="StaticObj_Wreck_T72_Turret_DE" x="51.135" z="41.070" a="16.243" y="2.7"/>
         <child type="StaticObj_Wreck_Train_Wagon_Flat_Mil_DE" deloot="0" lootmax="3" lootmin="1" x="112.567" z="68.760" a="72.708" y="1.102"/>
         <child type="StaticObj_Wreck_Train_Wagon_Flat_Mil_DE" deloot="0" lootmax="3" lootmin="1" x="96.211" z="63.229" a="69.485" y="1.102"/>
@@ -344,16 +344,16 @@
     
     <!--pos deloot="1" lootmax="4" lootmin="2" x="8434.497" z="14003.119" a="0" y="205.349" group="Abandoned_Arsenovo"/-->
     <group name="Abandoned_Arsenovo">
-        <child type="Land_Wreck_V3S_DE" deloot="1" lootmax="3" lootmin="2" x="0" z="0" a="42.800"/>
+        <child type="Land_Wreck_V3S_GG" deloot="1" lootmax="3" lootmin="2" x="0" z="0" a="42.800"/>
         <child type="StaticObj_Wreck_Decal_Small2_DE" spawnsecondary="false" x="-0.349" z="-1.252" a="45.575"/>
         <child type="StaticObj_Wreck_Decal_Small2_DE" spawnsecondary="false" x="-1.577" z="-10.871" a="0"/>
         <child type="StaticObj_Wreck_Decal_Small2_DE" spawnsecondary="false" x="-6.421" z="-15.165" a="174.362"/>
         <child type="StaticObj_Wreck_Decal_Small2_DE" spawnsecondary="false" x="-21.742" z="-19.327" a="330.736"/>
         <child type="StaticObj_Wreck_Decal_Small2_DE" spawnsecondary="false" x="-17.860" z="-28.331" a="163.723"/>
-        <child type="Land_Wreck_offroad02_aban1_DE" deloot="1" lootmax="3" lootmin="2" x="-21.371" z="-19.243" a="339.889"/>
+        <child type="Land_Wreck_offroad02_aban1_GG" deloot="1" lootmax="3" lootmin="2" x="-21.371" z="-19.243" a="339.889"/>
         <child type="Land_wreck_truck01_aban2_green_DE" deloot="1" lootmax="3" lootmin="2" x="-6.068" z="-17.091" a="358.195"/>
         <child type="Land_wreck_truck01_aban1_green_DE" deloot="1" lootmax="3" lootmin="2" x="-2.029" z="-13.583" a="6.961"/>
-        <child type="StaticObj_Wreck_BRDM_DE" deloot="1" lootmax="3" lootmin="2" x="-17.305" z="-29.343" a="0"/>
+        <child type="Wreck_BRDM_GG" deloot="1" lootmax="3" lootmin="2" x="-17.305" z="-29.343" a="0"/>
     </group>
     <!--pos deloot="1" lootmax="4" lootmin="2" x="5272.803" z="2085.858" a="0" y="5.600" group="Abandoned_Balota"/-->
     <group name="Abandoned_Balota">
@@ -363,11 +363,11 @@
         <child type="StaticObj_Wreck_Decal_Small2_DE" spawnsecondary="false" x="-31.581" z="7.590" a="281.233"/>
         <child type="StaticObj_Wreck_Decal_Small2_DE" spawnsecondary="false" x="-7.314" z="6.913" a="286.647"/>
         <child type="StaticObj_Wreck_Decal_Small2_DE" spawnsecondary="false" x="-0.110" z="7.367" a="247.328"/>
-        <child type="StaticObj_Wreck_BMP2_DE" deloot="1" lootmax="3" lootmin="2" x="-29.744" z="6.677" a="281.104"/>
+        <child type="Wreck_BMP2_GG" deloot="1" lootmax="3" lootmin="2" x="-29.744" z="6.677" a="281.104"/>
         <child type="StaticObj_Wreck_Ural_DE" deloot="1" lootmax="3" lootmin="2" x="1.379" z="9.086" a="223.736"/>
-        <child type="Land_Wreck_V3S_DE" deloot="1" lootmax="3" lootmin="2" x="-8.375" z="7.284" a="284.842"/>
+        <child type="Land_Wreck_V3S_GG" deloot="1" lootmax="3" lootmin="2" x="-8.375" z="7.284" a="284.842"/>
         <child type="StaticObj_Wreck_Uaz_DE" deloot="1" lootmax="3" lootmin="2" x="0.562" z="-0.015" a="287.678"/>
-        <child type="StaticObj_Wreck_BRDM_DE" deloot="1" lootmax="3" lootmin="2" x="4.784" z="21.874" a="194.859"/>
+        <child type="Wreck_BRDM_GG" deloot="1" lootmax="3" lootmin="2" x="4.784" z="21.874" a="194.859"/>
     </group>
     <!--pos deloot="1" lootmax="4" lootmin="2" x="5664.508" z="3254.114" a="0" y="120.222" group="Abandoned_Cherno"/-->
     <group name="Abandoned_Cherno">
@@ -378,7 +378,7 @@
         <child type="Land_wreck_truck01_aban2_green_DE" deloot="1" lootmax="3" lootmin="2" x="0.775" z="-0.222" a="145.546"/>
         <child type="Land_wreck_truck01_aban1_green_DE" deloot="1" lootmax="3" lootmin="2" x="-4.731" z="10.653" a="156.761"/>
         <child type="Land_Wreck_hb01_aban1_white_DE" deloot="1" lootmax="2" lootmin="2" x="-8.959" z="20.259" a="66.649"/>
-        <child type="Land_Wreck_offroad02_aban2_DE" deloot="1" lootmax="3" lootmin="2" x="9.812" z="-10.736" a="131.623"/>
+        <child type="Land_Wreck_offroad02_aban2_GG" deloot="1" lootmax="3" lootmin="2" x="9.812" z="-10.736" a="131.623"/>
         <child type="StaticObj_Wreck_Decal_Small1_DE" spawnsecondary="false" x="-9.434" z="20.466" a="73.224"/>
         <child type="StaticObj_Wreck_Decal_Small1_DE" spawnsecondary="false" x="-9.245" z="16.426" a="336.924"/>
     </group>
@@ -386,10 +386,10 @@
     <group name="Abandoned_Kamensk">
         <child type="Land_wreck_truck01_aban1_green_DE" deloot="1" lootmax="3" lootmin="2" x="0" z="0" a="303.664"/>
         <child type="Land_wreck_truck01_aban2_green_DE" deloot="1" lootmax="3" lootmin="2" x="-11.639" z="4.566" a="56.981"/>
-        <child type="StaticObj_Wreck_BMP2_DE" deloot="1" lootmax="3" lootmin="2" x="-29.326" z="-5.471" a="61.493"/>
+        <child type="Wreck_BMP2_GG" deloot="1" lootmax="3" lootmin="2" x="-29.326" z="-5.471" a="61.493"/>
         <child type="StaticObj_Wreck_Uaz_DE" deloot="1" lootmax="3" lootmin="2" x="-8.036" z="-2.888" a="313.977"/>
-        <child type="StaticObj_Wreck_T72_Chassis_DE" deloot="1" lootmax="4" lootmin="2" x="-8.205" z="-30.628" a="256.868"/>
-        <child type="StaticObj_Wreck_BMP1_NoPlacement_DE" deloot="1" lootmax="3" lootmin="2" x="44.021" z="14.552" a="307.918"/>
+        <child type="Wreck_T72_GG" deloot="1" lootmax="4" lootmin="2" x="-8.205" z="-30.628" a="256.868"/>
+        <child type="Wreck_BMP1_GG" deloot="1" lootmax="3" lootmin="2" x="44.021" z="14.552" a="307.918"/>
         <child type="StaticObj_Wreck_Decal_Small2_DE" spawnsecondary="false" x="59.875" z="9.595" a="85.600"/>
         <child type="StaticObj_Wreck_Decal_Small2_DE" spawnsecondary="false" x="56.739" z="13.023" a="302.117"/>
         <child type="StaticObj_Wreck_Decal_Small2_DE" spawnsecondary="false" x="12.155" z="-4.446" a="122.212"/>
@@ -401,18 +401,18 @@
     </group>
     <!--pos deloot="1" lootmax="4" lootmin="2" x="3048.051" z="9986.940" a="0" y="291.746" group="Abandoned_Lopatino"/-->
     <group name="Abandoned_Lopatino">
-        <child type="StaticObj_Wreck_BMP2_DE" deloot="1" lootmax="3" lootmin="2" x="0" z="0" a="96.558"/>
+        <child type="Wreck_BMP2_GG" deloot="1" lootmax="3" lootmin="2" x="0" z="0" a="96.558"/>
         <child type="StaticObj_Wreck_Ural_DE" deloot="1" lootmax="3" lootmin="2" x="-21.046" z="-2.778" a="101.070"/>
         <child type="StaticObj_Wreck_Decal_Small2_DE" spawnsecondary="false" x="-21.551" z="-3.034" a="270.662"/>
-        <child type="Land_Wreck_offroad02_aban1_DE" deloot="1" lootmax="3" lootmin="2" x="-16.754" z="-11.858" a="6.832"/>
-        <child type="StaticObj_Wreck_BMP1_NoPlacement_DE" deloot="1" lootmax="3" lootmin="2" x="-41.793" z="-16.217" a="70.904"/>
+        <child type="Land_Wreck_offroad02_aban1_GG" deloot="1" lootmax="3" lootmin="2" x="-16.754" z="-11.858" a="6.832"/>
+        <child type="Wreck_BMP1_GG" deloot="1" lootmax="3" lootmin="2" x="-41.793" z="-16.217" a="70.904"/>
         <child type="StaticObj_Wreck_Decal_Small2_DE" spawnsecondary="false" x="-16.602" z="-11.642" a="8.508"/>
         <child type="StaticObj_Wreck_Decal_Small2_DE" spawnsecondary="false" x="-45.665" z="-16.781" a="250.035"/>
         <child type="StaticObj_Wreck_Decal_Small2_DE" spawnsecondary="false" x="-39.339" z="-14.569" a="65.747"/>
     </group>
     <!--pos deloot="1" lootmax="4" lootmin="2" x="10927.198" z="13403.151" a="0" y="219.720" group="Abandoned_Novo"/-->
     <group name="Abandoned_Novo">
-        <child type="Land_Wreck_V3S_DE" deloot="1" lootmax="3" lootmin="2" x="0" z="0" a="107.000"/>
+        <child type="Land_Wreck_V3S_GG" deloot="1" lootmax="3" lootmin="2" x="0" z="0" a="107.000"/>
         <child type="StaticObj_Wreck_Decal_Small2_DE" spawnsecondary="false" x="-1.637" z="0.332" a="278.783"/>
         <child type="StaticObj_Wreck_Decal_Small2_DE" spawnsecondary="false" x="0.890" z="-29.997" a="3.996"/>
         <child type="Land_wreck_truck01_aban2_green_DE" deloot="1" lootmax="3" lootmin="2" x="0.584" z="-31.408" a="19.853"/>
@@ -425,7 +425,7 @@
     <group name="Abandoned_Rogovo">
         <child type="StaticObj_Wreck_Uaz_DE" deloot="1" lootmax="3" lootmin="2" x="0" z="0" a="110.094"/>
         <child type="StaticObj_Wreck_Ural_DE" deloot="1" lootmax="3" lootmin="2" x="18.258" z="0.274" a="278.525"/>
-        <child type="Land_Wreck_offroad02_aban2_DE" deloot="1" lootmax="3" lootmin="2" x="-8.173" z="-6.375" a="75.802"/>
+        <child type="Land_Wreck_offroad02_aban2_GG" deloot="1" lootmax="3" lootmin="2" x="-8.173" z="-6.375" a="75.802"/>
         <child type="StaticObj_Wreck_Decal_Small2_DE" spawnsecondary="false" x="17.026" z="0.993" a="279.815"/>
         <child type="StaticObj_Wreck_Decal_Small2_DE" spawnsecondary="false" x="-0.192" z="-0.149" a="292.964"/>
         <child type="StaticObj_Wreck_Decal_Small2_DE" spawnsecondary="false" x="-8.274" z="-6.308" a="253.903"/>
@@ -434,7 +434,7 @@
     <group name="Abandoned_Sinystok">
         <child type="StaticObj_Wreck_Decal_Small2_DE" spawnsecondary="false" x="0" z="0" a="281.619"/>
         <child type="StaticObj_Wreck_Uaz_DE" deloot="1" lootmax="3" lootmin="2" x="0.244" z="-0.158" a="112.285"/>
-        <child type="Land_Wreck_V3S_DE" deloot="1" lootmax="3" lootmin="2" x="20.656" z="-23.671" a="160.568"/>
+        <child type="Land_Wreck_V3S_GG" deloot="1" lootmax="3" lootmin="2" x="20.656" z="-23.671" a="160.568"/>
         <child type="StaticObj_Wreck_Decal_Small2_DE" spawnsecondary="false" x="20.729" z="-24.430" a="334.862"/>
         <child type="StaticObj_Wreck_Decal_Small2_DE" spawnsecondary="false" x="9.758" z="-5.499" a="0"/>
         <child type="StaticObj_Wreck_Decal_Small2_DE" spawnsecondary="false" x="14.497" z="-13.120" a="0"/>
@@ -443,12 +443,12 @@
     </group>
     <!--pos deloot="1" lootmax="4" lootmin="2" x="6427.380" z="8027.553" a="0" y="323.645" group="Abandoned_StarySobor"/-->
     <group name="Abandoned_StarySobor">
-        <child type="StaticObj_Wreck_BRDM_DE" deloot="1" lootmax="3" lootmin="2" x="0" z="0" a="268.083"/>
+        <child type="Wreck_BRDM_GG" deloot="1" lootmax="3" lootmin="2" x="0" z="0" a="268.083"/>
         <child type="StaticObj_Wreck_Ural_DE" deloot="1" lootmax="3" lootmin="2" x="-6.066" z="-13.215" a="338.600"/>
         <child type="StaticObj_Wreck_Decal_Small2_DE" spawnsecondary="false" x="-5.000" z="-12.651" a="355.230"/>
         <child type="StaticObj_Wreck_Decal_Small2_DE" spawnsecondary="false" x="-0.927" z="0.413" a="267.052"/>
-        <child type="StaticObj_Wreck_BMP2_DE" deloot="1" lootmax="3" lootmin="2" x="-15.567" z="-34.421" a="13.407"/>
-        <child type="Land_Wreck_offroad02_aban1_DE" deloot="1" lootmax="3" lootmin="2" x="-11.388" z="-50.983" a="346.980"/>
+        <child type="Wreck_BMP2_GG" deloot="1" lootmax="3" lootmin="2" x="-15.567" z="-34.421" a="13.407"/>
+        <child type="Land_Wreck_offroad02_aban1_GG" deloot="1" lootmax="3" lootmin="2" x="-11.388" z="-50.983" a="346.980"/>
         <child type="StaticObj_Wreck_Uaz_DE" deloot="1" lootmax="3" lootmin="2" x="-6.208" z="-25.354" a="19.466"/>
         <child type="StaticObj_Wreck_Decal_Small2_DE" spawnsecondary="false" x="-6.266" z="-25.013" a="18.048"/>
         <child type="StaticObj_Wreck_Decal_Small2_DE" spawnsecondary="false" x="-11.559" z="-49.757" a="342.854"/>
@@ -456,14 +456,14 @@
     </group>
     <!--pos deloot="1" lootmax="4" lootmin="2" x="12678.560" z="4834.562" a="0" y="117.462" group="Abandoned_Tulga"/-->
     <group name="Abandoned_Tulga">
-        <child type="Land_Wreck_V3S_DE" deloot="1" lootmax="3" lootmin="2" x="0" z="0" a="183.257"/>
+        <child type="Land_Wreck_V3S_GG" deloot="1" lootmax="3" lootmin="2" x="0" z="0" a="183.257"/>
         <child type="StaticObj_Wreck_Ural_DE" deloot="1" lootmax="3" lootmin="2" x="-3.026" z="12.716" a="162.047"/>
-        <child type="Land_Wreck_offroad02_aban2_DE" deloot="1" lootmax="3" lootmin="2" x="-2.855" z="34.211" a="206.333"/>
+        <child type="Land_Wreck_offroad02_aban2_GG" deloot="1" lootmax="3" lootmin="2" x="-2.855" z="34.211" a="206.333"/>
         <child type="StaticObj_Wreck_Decal_Small2_DE" spawnsecondary="false" x="0.387" z="-0.816" a="356.004"/>
         <child type="StaticObj_Wreck_Decal_Small2_DE" spawnsecondary="false" x="-3.445" z="33.489" a="26.041"/>
         <child type="StaticObj_Wreck_Decal_Small2_DE" spawnsecondary="false" x="-2.554" z="12.178" a="339.374"/>
         <child type="StaticObj_Wreck_Uaz_DE" deloot="1" lootmax="3" lootmin="2" x="7.265" z="-33.211" a="180.739"/>
-        <child type="StaticObj_Wreck_BMP2_DE" deloot="1" lootmax="3" lootmin="2" x="3.589" z="-20.063" a="173.201"/>
+        <child type="Wreck_BMP2_GG" deloot="1" lootmax="3" lootmin="2" x="3.589" z="-20.063" a="173.201"/>
         <child type="StaticObj_Wreck_Decal_Small2_DE" spawnsecondary="false" x="3.146" z="-20.821" a="356.004"/>
         <child type="StaticObj_Wreck_Decal_Small2_DE" spawnsecondary="false" x="6.778" z="-32.770" a="0"/>
     </group>
@@ -473,8 +473,8 @@
             <child type="StaticObj_Wreck_Decal_Small2_DE" spawnsecondary="false" x="18.611" z="21.776" a="214.644"/>
             <child type="Land_wreck_truck01_aban2_green_DE" deloot="1" lootmax="3" lootmin="2" x="18.911" z="21.710" a="215.933"/>
             <child type="StaticObj_Wreck_Uaz_DE" deloot="1" lootmax="3" lootmin="2" x="0.428" z="0.649" a="210.974"/>
-            <child type="Land_Wreck_V3S_DE" deloot="1" lootmax="3" lootmin="2" x="32.307" z="47.973" a="206.333"/>
-            <child type="Land_Wreck_offroad02_aban1_DE" deloot="1" lootmax="3" lootmin="2" x="40.872" z="59.088" a="234.050"/>
+            <child type="Land_Wreck_V3S_GG" deloot="1" lootmax="3" lootmin="2" x="32.307" z="47.973" a="206.333"/>
+            <child type="Land_Wreck_offroad02_aban1_GG" deloot="1" lootmax="3" lootmin="2" x="40.872" z="59.088" a="234.050"/>
             <child type="Land_wreck_truck01_aban1_green_DE" deloot="1" lootmax="3" lootmin="2" x="27.989" z="36.601" a="196.664"/>
             <child type="StaticObj_Wreck_Decal_Small2_DE" spawnsecondary="false" x="40.723" z="59.321" a="52.469"/>
             <child type="StaticObj_Wreck_Decal_Small2_DE" spawnsecondary="false" x="27.875" z="36.652" a="191.955"/>
@@ -482,7 +482,7 @@
     </group>
     <!--pos deloot="1" lootmax="4" lootmin="2" x="10784.112" z="6684.350" a="0" y="93.008" group="Ambush_Dolina"/-->
     <group name="Ambush_Dolina">
-            <child type="Land_Wreck_offroad02_aban2_DE" deloot="1" lootmax="3" lootmin="2" x="0" z="0" a="163.465"/>
+            <child type="Land_Wreck_offroad02_aban2_GG" deloot="1" lootmax="3" lootmin="2" x="0" z="0" a="163.465"/>
             <child type="Land_wreck_truck01_aban1_green_DE" deloot="1" lootmax="3" lootmin="2" x="-11.453" z="-36.278" a="209.617"/>
             <child type="Land_wreck_truck01_aban2_green_DE" deloot="1" lootmax="3" lootmin="2" x="-2.983" z="-19.316" a="216.001"/>
             <child type="StaticObj_Wreck_Ural_DE" deloot="1" lootmax="3" lootmin="2" x="1.817" z="-9.237" a="212.650"/>
@@ -491,11 +491,11 @@
             <child type="StaticObj_Wreck_Decal_Small2_DE" spawnsecondary="false" x="-2.339" z="-18.830" a="28.619"/>
             <child type="StaticObj_Wreck_Decal_Small2_DE" spawnsecondary="false" x="-0.231" z="-1.225" a="162.820"/>
             <child type="StaticObj_Wreck_Decal_Small2_DE" spawnsecondary="false" x="-21.800" z="-59.622" a="354.328"/>
-            <child type="StaticObj_Wreck_BRDM_DE" deloot="1" lootmax="3" lootmin="2" x="-21.478" z="-59.552" a="185.577"/>
+            <child type="Wreck_BRDM_GG" deloot="1" lootmax="3" lootmin="2" x="-21.478" z="-59.552" a="185.577"/>
     </group>
     <!--pos deloot="1" lootmax="4" lootmin="2" x="9778.452" z="10969.752" a="0" y="214.959" group="Ambush_Dubrovka"/-->
     <group name="Ambush_Dubrovka">
-            <child type="Land_Wreck_offroad02_aban1_DE" deloot="1" lootmax="3" lootmin="2" x="18.582" z="-54.129" a="335.764"/>
+            <child type="Land_Wreck_offroad02_aban1_GG" deloot="1" lootmax="3" lootmin="2" x="18.582" z="-54.129" a="335.764"/>
             <child type="StaticObj_Wreck_Ural_DE" deloot="1" lootmax="3" lootmin="2" x="-2.090" z="5.350" a="351.105"/>
             <child type="Land_wreck_truck01_aban1_green_DE" deloot="1" lootmax="3" lootmin="2" x="-4.777" z="20.168" a="343.628"/>
             <child type="StaticObj_Wreck_Uaz_DE" deloot="1" lootmax="3" lootmin="2" x="-16.682" z="49.531" a="343.241"/>
@@ -504,32 +504,32 @@
             <child type="StaticObj_Wreck_Decal_Small2_DE" spawnsecondary="false" x="-4.942" z="21.833" a="348.140"/>
             <child type="StaticObj_Wreck_Decal_Small2_DE" spawnsecondary="false" x="0.438" z="0.848" a="348.140"/>
             <child type="StaticObj_Wreck_Decal_Small2_DE" spawnsecondary="false" x="-2.151" z="7.754" a="348.140"/>
-            <child type="StaticObj_Wreck_BMP2_DE" deloot="1" lootmax="3" lootmin="2" x="21.074" z="-24.896" a="124.919"/>
-            <child type="StaticObj_Wreck_BRDM_DE" deloot="1" lootmax="3" lootmin="2" x="12.611" z="-8.571" a="151.028"/>
+            <child type="Wreck_BMP2_GG" deloot="1" lootmax="3" lootmin="2" x="21.074" z="-24.896" a="124.919"/>
+            <child type="Wreck_BRDM_GG" deloot="1" lootmax="3" lootmin="2" x="12.611" z="-8.571" a="151.028"/>
             <child type="StaticObj_Wreck_Decal_Small2_DE" spawnsecondary="false" x="18.365" z="-27.569" a="132.464"/>
             <child type="StaticObj_Wreck_Decal_Small2_DE" spawnsecondary="false" x="11.941" z="-8.821" a="147.032"/>
     </group>
     <!--pos deloot="1" lootmax="4" lootmin="2" x="5768.208" z="10208.027" a="0" y="274.293" group="Ambush_Grishino"/-->
     <group name="Ambush_Grishino">
-            <child type="StaticObj_Wreck_T72_Chassis_DE" deloot="1" lootmax="4" lootmin="2" x="0" z="0" a="0"/>
+            <child type="Wreck_T72_GG" deloot="1" lootmax="4" lootmin="2" x="0" z="0" a="0"/>
             <child type="StaticObj_Wreck_Decal_Small2_DE" spawnsecondary="false" x="-0.410" z="24.141" a="159.279"/>
             <child type="StaticObj_Wreck_Decal_Small2_DE" spawnsecondary="false" x="-1.514" z="28.810" a="335.506"/>
             <child type="StaticObj_Wreck_Decal_Small2_DE" spawnsecondary="false" x="-9.932" z="36.875" a="128.271"/>
             <child type="StaticObj_Wreck_Decal_Small2_DE" spawnsecondary="false" x="-8.711" z="2.795" a="312.559"/>
             <child type="StaticObj_Wreck_Decal_Small2_DE" spawnsecondary="false" x="0.988" z="1.392" a="183.901"/>
-            <child type="Land_Wreck_V3S_DE" deloot="1" lootmax="3" lootmin="2" x="-0.921" z="26.062" a="340.276"/>
+            <child type="Land_Wreck_V3S_GG" deloot="1" lootmax="3" lootmin="2" x="-0.921" z="26.062" a="340.276"/>
             <child type="StaticObj_Wreck_Uaz_DE" deloot="1" lootmax="3" lootmin="2" x="-10.320" z="36.849" a="311.786"/>
             <child type="StaticObj_Wreck_T72_Turret_DE" x="-9.398" z="3.811" a="337.955" y="0.6"/>
             <child type="StaticObj_Wreck_Decal_Small2_DE" spawnsecondary="false" x="26.317" z="10.605" a="305.211"/>
             <child type="StaticObj_Wreck_Decal_Small2_DE" spawnsecondary="false" x="30.342" z="6.972" a="122.212"/>
-            <child type="StaticObj_Wreck_BMP1_NoPlacement_DE" deloot="1" lootmax="3" lootmin="2" x="28.668" z="7.894" a="134.330"/>
+            <child type="Wreck_BMP1_GG" deloot="1" lootmax="3" lootmin="2" x="28.668" z="7.894" a="134.330"/>
             <child type="StaticObj_Wreck_Decal_Small2_DE" spawnsecondary="false" x="10.252" z="-11.886" a="324.419"/>
-            <child type="StaticObj_Wreck_BRDM_DE" deloot="1" lootmax="3" lootmin="2" x="10.950" z="-13.705" a="339.631"/>
+            <child type="Wreck_BRDM_GG" deloot="1" lootmax="3" lootmin="2" x="10.950" z="-13.705" a="339.631"/>
     </group>
     <!--pos deloot="1" lootmax="4" lootmin="2" x="8387.078" z="5988.155" a="0" y="292.062" group="Ambush_Kumyrna"/-->
     <group name="Ambush_Kumyrna">
-            <child type="StaticObj_Wreck_BRDM_DE" deloot="1" lootmax="3" lootmin="2" x="0" z="0" a="105.582"/>
-            <child type="StaticObj_Wreck_BMP2_DE" deloot="1" lootmax="3" lootmin="2" x="-71.272" z="3.784" a="232.889"/>
+            <child type="Wreck_BRDM_GG" deloot="1" lootmax="3" lootmin="2" x="0" z="0" a="105.582"/>
+            <child type="Wreck_BMP2_GG" deloot="1" lootmax="3" lootmin="2" x="-71.272" z="3.784" a="232.889"/>
             <child type="StaticObj_Wreck_Decal_Small2_DE" spawnsecondary="false" x="-14.422" z="7.641" a="118.989"/>
             <child type="StaticObj_Wreck_Decal_Small2_DE" spawnsecondary="false" x="-0.146" z="0.666" a="271.048"/>
             <child type="StaticObj_Wreck_Decal_Small2_DE" spawnsecondary="false" x="-10.355" z="4.494" a="118.989"/>
@@ -539,21 +539,21 @@
             <child type="StaticObj_Wreck_Decal_Small2_DE" spawnsecondary="false" x="-32.743" z="-4.769" a="15.212"/>
             <child type="StaticObj_Wreck_Decal_Small2_DE" spawnsecondary="false" x="-72.759" z="2.499" a="53.887"/>
             <child type="StaticObj_Wreck_T72_Turret_DE" x="-23.264" z="-4.750" a="98.620" y="0.75"/>
-            <child type="Land_Wreck_V3S_DE" deloot="1" lootmax="3" lootmin="2" x="-27.354" z="-17.292" a="187.640"/>
+            <child type="Land_Wreck_V3S_GG" deloot="1" lootmax="3" lootmin="2" x="-27.354" z="-17.292" a="187.640"/>
             <child type="StaticObj_Wreck_Uaz_DE" deloot="1" lootmax="3" lootmin="2" x="-57.881" z="2.665" a="89.338"/>
-            <child type="StaticObj_Wreck_T72_Chassis_DE" deloot="1" lootmax="4" lootmin="2" x="-30.815" z="-3.995" a="195.891"/>
-            <child type="StaticObj_Wreck_BMP1_NoPlacement_DE" deloot="1" lootmax="3" lootmin="2" x="-9.445" z="2.607" a="129.818"/>
+            <child type="Wreck_T72_GG" deloot="1" lootmax="4" lootmin="2" x="-30.815" z="-3.995" a="195.891"/>
+            <child type="Wreck_BMP1_GG" deloot="1" lootmax="3" lootmin="2" x="-9.445" z="2.607" a="129.818"/>
             <child type="StaticObj_Wreck_Decal_Small2_DE" spawnsecondary="false" x="-27.234" z="-18.126" a="183.386"/>
     </group>
     <!--pos deloot="1" lootmax="4" lootmin="2" x="1203.912" z="7974.503" a="0" y="218.039" group="Ambush_Metalurg"/-->
     <group name="Ambush_Metalurg">
-            <child type="Land_Wreck_offroad02_aban2_DE" deloot="1" lootmax="3" lootmin="2" x="0" z="0" a="98.430"/>
-            <child type="Land_Wreck_offroad02_aban1_DE" deloot="1" lootmax="3" lootmin="2" x="21.505" z="-10.857" a="138.197"/>
+            <child type="Land_Wreck_offroad02_aban2_GG" deloot="1" lootmax="3" lootmin="2" x="0" z="0" a="98.430"/>
+            <child type="Land_Wreck_offroad02_aban1_GG" deloot="1" lootmax="3" lootmin="2" x="21.505" z="-10.857" a="138.197"/>
             <child type="StaticObj_Wreck_Decal_Small2_DE" spawnsecondary="false" x="21.291" z="-10.223" a="322.228"/>
             <child type="StaticObj_Wreck_Decal_Small2_DE" spawnsecondary="false" x="11.913" z="-0.822" a="322.228"/>
             <child type="StaticObj_Wreck_Decal_Small2_DE" spawnsecondary="false" x="0.804" z="-0.251" a="97.976"/>
             <child type="StaticObj_Wreck_Decal_Small2_DE" spawnsecondary="false" x="29.181" z="-18.521" a="326.869"/>
-            <child type="StaticObj_Wreck_BRDM_DE" deloot="1" lootmax="3" lootmin="2" x="11.451" z="-0.800" a="163.078"/>
+            <child type="Wreck_BRDM_GG" deloot="1" lootmax="3" lootmin="2" x="11.451" z="-0.800" a="163.078"/>
             <child type="StaticObj_Wreck_Uaz_DE" deloot="1" lootmax="3" lootmin="2" x="28.958" z="-18.577" a="142.065"/>
     </group>
     <!--pos deloot="1" lootmax="4" lootmin="2" x="9834.277" z="4667.238" a="0" y="84.831" group="Supply_Elektro"/-->
@@ -565,31 +565,31 @@
             <child type="StaticObj_Wreck_Decal_Small2_DE" spawnsecondary="false" x="-19.415" z="21.048" a="328.674"/>
             <child type="StaticObj_Wreck_Decal_Small2_DE" spawnsecondary="false" x="-10.245" z="10.285" a="308.821"/>
             <child type="StaticObj_Wreck_Decal_Small2_DE" spawnsecondary="false" x="-0.017" z="0.295" a="318.103"/>
-            <child type="Land_Wreck_V3S_DE" deloot="1" lootmax="3" lootmin="2" x="-10.527" z="10.196" a="312.430"/>
+            <child type="Land_Wreck_V3S_GG" deloot="1" lootmax="3" lootmin="2" x="-10.527" z="10.196" a="312.430"/>
             <child type="StaticObj_Wreck_Ural_DE" deloot="1" lootmax="3" lootmin="2" x="18.775" z="-22.302" a="328.674"/>
-            <child type="Land_Wreck_offroad02_aban2_DE" deloot="1" lootmax="3" lootmin="2" x="23.013" z="-32.231" a="326.611"/>
+            <child type="Land_Wreck_offroad02_aban2_GG" deloot="1" lootmax="3" lootmin="2" x="23.013" z="-32.231" a="326.611"/>
             <child type="StaticObj_Wreck_Decal_Small2_DE" spawnsecondary="false" x="19.204" z="-22.764" a="328.674"/>
             <child type="StaticObj_Wreck_Decal_Small2_DE" spawnsecondary="false" x="23.765" z="-32.049" a="328.674"/>
     </group>
     <!--pos deloot="1" lootmax="4" lootmin="2" x="4132.739" z="5649.462" a="0" y="347.288" group="Supply_GreenMountain"/-->
     <group name="Supply_GreenMountain">
         <child type="Land_wreck_truck01_aban2_green_DE" deloot="1" lootmax="3" lootmin="2" x="0" z="0" a="305.082"/>
-        <child type="Land_Wreck_offroad02_aban1_DE" deloot="1" lootmax="3" lootmin="2" x="-23.175" z="22.375" a="314.235"/>
-        <child type="Land_Wreck_offroad02_aban2_DE" deloot="1" lootmax="3" lootmin="2" x="6.354" z="-6.271" a="312.430"/>
-        <child type="StaticObj_Wreck_BRDM_DE" deloot="1" lootmax="3" lootmin="2" x="-31.080" z="32.410" a="318.747"/>
+        <child type="Land_Wreck_offroad02_aban1_GG" deloot="1" lootmax="3" lootmin="2" x="-23.175" z="22.375" a="314.235"/>
+        <child type="Land_Wreck_offroad02_aban2_GG" deloot="1" lootmax="3" lootmin="2" x="6.354" z="-6.271" a="312.430"/>
+        <child type="Wreck_BRDM_GG" deloot="1" lootmax="3" lootmin="2" x="-31.080" z="32.410" a="318.747"/>
         <child type="Land_wreck_truck01_aban1_green_DE" deloot="1" lootmax="3" lootmin="2" x="-11.226" z="10.320" a="322.615"/>
         <child type="StaticObj_Wreck_Decal_Small2_DE" spawnsecondary="false" x="0.849" z="-0.020" a="303.535"/>
         <child type="StaticObj_Wreck_Decal_Small2_DE" spawnsecondary="false" x="5.795" z="-5.485" a="303.535"/>
         <child type="StaticObj_Wreck_Decal_Small2_DE" spawnsecondary="false" x="-11.509" z="10.731" a="317.200"/>
         <child type="StaticObj_Wreck_Decal_Small2_DE" spawnsecondary="false" x="-24.150" z="23.346" a="317.200"/>
         <child type="StaticObj_Wreck_Decal_Small2_DE" spawnsecondary="false" x="-31.992" z="32.654" a="304.695"/>
-        <child type="StaticObj_Wreck_BMP1_NoPlacement_DE" deloot="1" lootmax="3" lootmin="2" x="19.328" z="-16.611" a="309.852"/>
+        <child type="Wreck_BMP1_GG" deloot="1" lootmax="3" lootmin="2" x="19.328" z="-16.611" a="309.852"/>
         <child type="StaticObj_Wreck_Decal_Small2_DE" spawnsecondary="false" x="17.183" z="-14.575" a="303.535"/>
     </group>
     <!--pos deloot="1" lootmax="4" lootmin="2" x="2506.352" z="2043.815" a="0" y="6.736" group="Supply_Kamenka"/-->
     <group name="Supply_Kamenka">
-            <child type="Land_Wreck_offroad02_aban1_DE" deloot="1" lootmax="3" lootmin="2" x="0" z="0" a="283.166"/>
-            <child type="StaticObj_Wreck_BMP2_DE" deloot="1" lootmax="3" lootmin="2" x="61.766" z="-9.714" a="277.365"/>
+            <child type="Land_Wreck_offroad02_aban1_GG" deloot="1" lootmax="3" lootmin="2" x="0" z="0" a="283.166"/>
+            <child type="Wreck_BMP2_GG" deloot="1" lootmax="3" lootmin="2" x="61.766" z="-9.714" a="277.365"/>
             <child type="StaticObj_Wreck_Decal_Small2_DE" spawnsecondary="false" x="-0.534" z="0.328" a="276.978"/>
             <child type="StaticObj_Wreck_Decal_Small2_DE" spawnsecondary="false" x="34.000" z="-13.818" a="110.352"/>
             <child type="StaticObj_Wreck_Decal_Small2_DE" spawnsecondary="false" x="39.301" z="-13.878" a="70.130"/>
@@ -598,7 +598,7 @@
             <child type="StaticObj_Wreck_Decal_Small2_DE" spawnsecondary="false" x="75.123" z="-12.928" a="109.063"/>
             <child type="StaticObj_Wreck_Decal_Small2_DE" spawnsecondary="false" x="21.593" z="-8.766" a="110.352"/>
             <child type="StaticObj_Wreck_Decal_Small2_DE" spawnsecondary="false" x="44.683" z="-13.457" a="86.116"/>
-            <child type="Land_Wreck_V3S_DE" deloot="1" lootmax="3" lootmin="2" x="42.431" z="-13.500" a="270.017"/>
+            <child type="Land_Wreck_V3S_GG" deloot="1" lootmax="3" lootmin="2" x="42.431" z="-13.500" a="270.017"/>
             <child type="StaticObj_Wreck_Ural_DE" deloot="1" lootmax="3" lootmin="2" x="34.386" z="-13.850" a="289.225"/>
             <child type="StaticObj_Wreck_Uaz_DE" deloot="1" lootmax="3" lootmin="2" x="75.177" z="-13.172" a="297.992"/>
             <child type="Land_wreck_truck01_aban1_green_DE" deloot="1" lootmax="3" lootmin="2" x="21.139" z="-8.524" a="293.351"/>
@@ -608,10 +608,10 @@
     <group name="Supply_Komarovo">
             <child type="StaticObj_Wreck_Uaz_DE" deloot="1" lootmax="3" lootmin="2" x="0" z="0" a="50.793"/>
             <child type="StaticObj_Wreck_Decal_Small2_DE" spawnsecondary="false" x="0.351" z="-0.139" a="43.573" y="-0.010"/>
-            <child type="Land_Wreck_offroad02_aban2_DE" deloot="1" lootmax="3" lootmin="2" x="83.837" z="19.507" a="264.603"/>
+            <child type="Land_Wreck_offroad02_aban2_GG" deloot="1" lootmax="3" lootmin="2" x="83.837" z="19.507" a="264.603"/>
             <child type="StaticObj_Wreck_Decal_Small2_DE" spawnsecondary="false" x="82.876" z="19.718" a="260.606" y="-0.386"/>
             <child type="StaticObj_Wreck_Decal_Small2_DE" spawnsecondary="false" x="73.118" z="16.722" a="250.809" y="-0.366"/>
-            <child type="Land_Wreck_V3S_DE" deloot="1" lootmax="3" lootmin="2" x="72.574" z="15.867" a="247.328"/>
+            <child type="Land_Wreck_V3S_GG" deloot="1" lootmax="3" lootmin="2" x="72.574" z="15.867" a="247.328"/>
             <child type="Land_wreck_truck01_aban1_green_DE" deloot="1" lootmax="3" lootmin="2" x="29.209" z="1.447" a="250.680" y="-0.271"/>
             <child type="StaticObj_Wreck_Decal_Small2_DE" spawnsecondary="false" x="49.550" z="8.571" a="250.809" y="-0.411"/>
             <child type="StaticObj_Wreck_Decal_Small2_DE" spawnsecondary="false" x="38.352" z="4.651" a="250.809" y="-0.303"/>
@@ -624,7 +624,7 @@
     <!--pos deloot="1" lootmax="4" lootmin="2" x="6628.302" z="12507.082" a="0" y="168.853" group="Supply_Petrovka"/-->
     <group name="Supply_Petrovka">
             <child type="StaticObj_Wreck_Decal_Small2_DE" spawnsecondary="false" x="0" z="0" a="221.993"/>
-            <child type="Land_Wreck_offroad02_aban1_DE" deloot="1" lootmax="3" lootmin="2" x="0.299" z="1.011" a="222.318"/>
+            <child type="Land_Wreck_offroad02_aban1_GG" deloot="1" lootmax="3" lootmin="2" x="0.299" z="1.011" a="222.318"/>
             <child type="StaticObj_Wreck_Uaz_DE" deloot="1" lootmax="3" lootmin="2" x="-20.131" z="-37.662" a="196.922"/>
             <child type="StaticObj_Wreck_Ural_DE" deloot="1" lootmax="3" lootmin="2" x="-5.684" z="-24.935" a="196.596"/>
             <child type="Land_wreck_truck01_aban2_green_DE" deloot="1" lootmax="3" lootmin="2" x="-3.666" z="-12.990" a="199.113"/>
@@ -633,13 +633,13 @@
             <child type="StaticObj_Wreck_Decal_Small2_DE" spawnsecondary="false" x="-3.631" z="-12.918" a="202.011"/>
             <child type="StaticObj_Wreck_Decal_Small2_DE" spawnsecondary="false" x="-13.622" z="-35.817" a="169.137"/>
             <child type="StaticObj_Wreck_Decal_Small2_DE" spawnsecondary="false" x="-6.268" z="-24.115" a="202.011"/>
-            <child type="Land_Wreck_V3S_DE" deloot="1" lootmax="3" lootmin="2" x="-16.116" z="-26.281" a="222.189"/>
+            <child type="Land_Wreck_V3S_GG" deloot="1" lootmax="3" lootmin="2" x="-16.116" z="-26.281" a="222.189"/>
     </group>
     <!--pos deloot="1" lootmax="4" lootmin="2" x="2421.141" z="13608.731" a="0" y="301.707" group="Supply_Tisy"/-->
     <group name="Supply_Tisy">
-            <child type="StaticObj_Wreck_BRDM_DE" deloot="1" lootmax="3" lootmin="2" x="0" z="0" a="9.024"/>
+            <child type="Wreck_BRDM_GG" deloot="1" lootmax="3" lootmin="2" x="0" z="0" a="9.024"/>
             <child type="StaticObj_Wreck_Decal_Small2_DE" spawnsecondary="false" x="0.332" z="-0.096" a="0.902"/>
-            <child type="StaticObj_Wreck_BMP2_DE" deloot="1" lootmax="3" lootmin="2" x="-6.0" z="-14.071" a="23.334"/>
+            <child type="Wreck_BMP2_GG" deloot="1" lootmax="3" lootmin="2" x="-6.0" z="-14.071" a="23.334"/>
             <child type="StaticObj_Wreck_Ural_DE" deloot="1" lootmax="3" lootmin="2" x="-19.919" z="-52.604" a="42.284"/>
             <child type="Land_wreck_truck01_aban1_green_DE" deloot="1" lootmax="3" lootmin="2" x="-9.771" z="-30.032" a="27.717"/>
             <child type="StaticObj_Wreck_Decal_Small2_DE" spawnsecondary="false" x="-8.280" z="-39.713" a="353.425"/>
@@ -648,17 +648,17 @@
             <child type="StaticObj_Wreck_Uaz_DE" deloot="1" lootmax="3" lootmin="2" x="-8.745" z="-40.498" a="350.718"/>
             <child type="StaticObj_Wreck_Decal_Small2_DE" spawnsecondary="false" x="-16.541" z="-72.890" a="0"/>
             <child type="StaticObj_Wreck_Decal_Small2_DE" spawnsecondary="false" x="-16.462" z="-67.648" a="7.993"/>
-            <child type="StaticObj_Wreck_BMP2_DE" deloot="1" lootmax="3" lootmin="2" x="-16.0" z="-69.69" a="0"/>
+            <child type="Wreck_BMP2_GG" deloot="1" lootmax="3" lootmin="2" x="-16.0" z="-69.69" a="0"/>
     </group>
     <!--pos deloot="1" lootmax="4" lootmin="2" x="332.324" z="3059.927" a="0" y="99.673" group="Supply_Volchiypik"/-->
     <group name="Supply_Volchiypik">
             <child type="StaticObj_Wreck_Decal_Small2_DE" spawnsecondary="false" x="0" z="0" a="3.352"/>
-            <child type="StaticObj_Wreck_BRDM_DE" deloot="1" lootmax="3" lootmin="2" x="-0.061" z="0.756" a="197.051"/>
+            <child type="Wreck_BRDM_GG" deloot="1" lootmax="3" lootmin="2" x="-0.061" z="0.756" a="197.051"/>
             <child type="Land_wreck_truck01_aban2_green_DE" deloot="1" lootmax="3" lootmin="2" x="1.307" z="-45.612" a="323.001"/>
             <child type="Land_wreck_truck01_aban1_green_DE" deloot="1" lootmax="3" lootmin="2" x="5.813" z="-39.788" a="0"/>
             <child type="StaticObj_Wreck_Ural_DE" deloot="1" lootmax="3" lootmin="2" x="3.054" z="-18.078" a="272.853"/>
             <child type="StaticObj_Wreck_Uaz_DE" deloot="1" lootmax="3" lootmin="2" x="-5.654" z="-21.858" a="0"/>
-            <child type="Land_Wreck_V3S_DE" deloot="1" lootmax="3" lootmin="2" x="5.392" z="-27.983" a="333.186"/>
+            <child type="Land_Wreck_V3S_GG" deloot="1" lootmax="3" lootmin="2" x="5.392" z="-27.983" a="333.186"/>
             <child type="StaticObj_Wreck_Decal_Small2_DE" spawnsecondary="false" x="5.621" z="-28.725" a="146.835"/>
             <child type="StaticObj_Wreck_Decal_Small2_DE" spawnsecondary="false" x="5.881" z="-39.447" a="171.458"/>
             <child type="StaticObj_Wreck_Decal_Small2_DE" spawnsecondary="false" x="1.157" z="-45.490" a="139.100"/>
@@ -829,7 +829,7 @@
         <child type="Land_Wreck_sed01_aban1_police_DE" deloot="1" lootmax="4" lootmin="2" x="0.124" z="0.014" a="64.845"/>
         <child type="StaticObj_Wreck_Decal_Small1_DE" spawnsecondary="false" x="7.927" z="-23.062" a="47.699"/>
         <child type="Land_Wreck_sed01_aban2_police_DE" deloot="1" lootmax="4" lootmin="2" x="7.731" z="-23.065" a="216.836"/>
-        <child type="Land_Wreck_Ikarus_DE" deloot="1" lootmax="3" lootmin="2" x="15.214" z="-7.562" a="147.866"/>
+        <child type="Land_Wreck_Ikarus_GG" deloot="1" lootmax="3" lootmin="2" x="15.214" z="-7.562" a="147.866"/>
     </group>
     <!--pos deloot="1" lootmax="4" lootmin="2" x="5689.945" z="11852.006" a="0" y="221.974" group="Traffic_Grishino"/-->
     <group name="Traffic_Grishino">
@@ -852,11 +852,11 @@
     </group>
     <!--pos deloot="1" lootmax="4" lootmin="2" x="1894.825" z="2126.238" a="0" y="4.147" group="Traffic_Kamenka"/-->
     <group name="Traffic_Kamenka">
-        <child type="Land_Wreck_Ikarus_DE" deloot="1" lootmax="3" lootmin="2" x="0" z="0" a="250.035"/>
+        <child type="Land_Wreck_Ikarus_GG" deloot="1" lootmax="3" lootmin="2" x="0" z="0" a="250.035"/>
         <child type="Land_Wreck_sed01_aban2_police_DE" deloot="1" lootmax="4" lootmin="2" x="12.237" z="5.094" a="252.742"/>
         <child type="StaticObj_Wreck_Decal_Big_DE" spawnsecondary="false" x="-0.567" z="0.477" a="250.293"/>
         <child type="StaticObj_Wreck_Decal_Small1_DE" spawnsecondary="false" x="13.280" z="5.041" a="255.321"/>
-        <child type="Land_Wreck_Ikarus_DE" deloot="1" lootmax="3" lootmin="2" x="-17.910" z="-5.488" a="253.387"/>
+        <child type="Land_Wreck_Ikarus_GG" deloot="1" lootmax="3" lootmin="2" x="-17.910" z="-5.488" a="253.387"/>
         <child type="StaticObj_Wreck_Decal_Small1_DE" spawnsecondary="false" x="-33.553" z="-6.963" a="0"/>
         <child type="Land_Wreck_sed01_aban1_police_DE" deloot="1" lootmax="4" lootmin="2" x="-34.383" z="-6.963" a="359.227"/>
         <child type="StaticObj_Wreck_Decal_Big_DE" spawnsecondary="false" x="-19.288" z="-5.013" a="255.836"/>
@@ -872,13 +872,13 @@
     </group>
     <!--pos deloot="1" lootmax="4" lootmin="2" x="12873.966" z="3729.957" a="0" y="4.960" group="Traffic_Kamy"/-->
     <group name="Traffic_Kamy">
-        <child type="Land_Wreck_Ikarus_DE" deloot="1" lootmax="3" lootmin="2" x="0" z="0" a="57.238"/>
+        <child type="Land_Wreck_Ikarus_GG" deloot="1" lootmax="3" lootmin="2" x="0" z="0" a="57.238"/>
         <child type="Land_wreck_truck01_aban1_blue_DE" deloot="1" lootmax="2" lootmin="2" x="-14.913" z="-9.976" a="57.496"/>
         <child type="StaticObj_Wreck_Decal_Big_DE" spawnsecondary="false" x="0.016" z="0.393" a="59.688"/>
         <child type="StaticObj_Wreck_Decal_Small1_DE" spawnsecondary="false" x="-15.678" z="-10.553" a="240.496"/>
         <child type="StaticObj_Wreck_Decal_Small1_DE" spawnsecondary="false" x="33.933" z="21.607" a="241.398"/>
         <child type="Land_Wreck_sed01_aban2_police_DE" deloot="1" lootmax="4" lootmin="2" x="33.043" z="21.357" a="56.078"/>
-        <child type="Land_Wreck_Ikarus_DE" deloot="1" lootmax="3" lootmin="2" x="19.526" z="12.073" a="56.078"/>
+        <child type="Land_Wreck_Ikarus_GG" deloot="1" lootmax="3" lootmin="2" x="19.526" z="12.073" a="56.078"/>
         <child type="StaticObj_Wreck_Decal_Big_DE" spawnsecondary="false" x="19.927" z="12.399" a="235.468"/>
         <child type="StaticObj_Wreck_Decal_Small1_DE" spawnsecondary="false" x="-24.681" z="-15.906" a="240.496"/>
         <child type="Land_Wreck_sed01_aban1_police_DE" deloot="1" lootmax="4" lootmin="2" x="-25.008" z="-16.253" a="60.332"/>
@@ -1115,10 +1115,10 @@
         <child type="StaticObj_Wreck_Decal_Big_DE" spawnsecondary="false" x="17.544" z="-3.740" a="123.888"/>
         <child type="Land_Wreck_sed01_aban2_police_DE" deloot="1" lootmax="4" lootmin="2" x="-13.869" z="-3.534" a="239.980"/>
         <child type="Land_wreck_truck01_aban2_blue_DE" deloot="1" lootmax="2" lootmin="2" x="-0.386" z="0.180" a="259.575"/>
-        <child type="Land_Wreck_Ikarus_DE" deloot="1" lootmax="3" lootmin="2" x="17.640" z="-3.671" a="299.281"/>
+        <child type="Land_Wreck_Ikarus_GG" deloot="1" lootmax="3" lootmin="2" x="17.640" z="-3.671" a="299.281"/>
         <child type="StaticObj_Wreck_Decal_Small1_DE" spawnsecondary="false" x="37.851" z="-38.415" a="343.499"/>
         <child type="StaticObj_Wreck_Decal_Big_DE" spawnsecondary="false" x="32.060" z="-22.048" a="337.956"/>
-        <child type="Land_Wreck_Ikarus_DE" deloot="1" lootmax="3" lootmin="2" x="31.720" z="-22.114" a="340.147"/>
+        <child type="Land_Wreck_Ikarus_GG" deloot="1" lootmax="3" lootmin="2" x="31.720" z="-22.114" a="340.147"/>
         <child type="Land_Wreck_sed01_aban1_police_DE" deloot="1" lootmax="4" lootmin="2" x="37.964" z="-38.186" a="337.311"/>
     </group>
     <group name="NWAFTankBMP1">
