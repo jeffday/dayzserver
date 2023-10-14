@@ -75,7 +75,7 @@
         <usage name="Military"/>
     </type>
     <type name="BO_SOPMODBttstck">
-        <nominal>3</nominal>
+        <nominal>5</nominal>
         <lifetime>7200</lifetime>
         <restock>300</restock>
         <min>2</min>
@@ -99,7 +99,7 @@
         <usage name="Military"/>
     </type>
     <type name="BO_MK18Bttstck">
-        <nominal>3</nominal>
+        <nominal>5</nominal>
         <lifetime>7200</lifetime>
         <restock>300</restock>
         <min>2</min>
@@ -352,7 +352,7 @@
         <value name="Tier4" />
     </type>
     <type name="BO_SA58_Buttstock">
-        <nominal>2</nominal>
+        <nominal>3</nominal>
         <lifetime>7200</lifetime>
         <restock>300</restock>
         <min>1</min>
@@ -465,7 +465,7 @@
         <usage name="Military"/>
     </type>
     <type name="BO_G36C">
-		<nominal>2</nominal>
+		<nominal>1</nominal>
         <lifetime>7200</lifetime>
         <restock>300</restock>
 		<min>1</min>
@@ -958,17 +958,16 @@
 		<value name="Tier4" />
     </type>
     <type name="BO_Mag_FNFAL_30rnd">
-        <nominal>2</nominal>
+        <nominal>1</nominal>
         <lifetime>7200</lifetime>
         <restock>300</restock>
         <min>1</min>
         <quantmin>5</quantmin>
         <quantmax>50</quantmax>
         <cost>100</cost>
-        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="1"/>
         <category name="weapons"/>
 		<usage name="Military" />
-		<value name="Tier4" />
     </type>
     <type name="BO_Mag_FNFAL_40rnd">
         <nominal>1</nominal>
@@ -1150,10 +1149,10 @@
         <usage name="Military"/>
     </type>
     <type name="BO_SIG552">
-        <nominal>7</nominal>
+        <nominal>5</nominal>
         <lifetime>7200</lifetime>
         <restock>300</restock>
-        <min>4</min>
+        <min>2</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
@@ -1164,10 +1163,10 @@
 		<value name="Tier4" />
     </type>
     <type name="BO_Mag_SIG552_30rnd">
-		<nominal>8</nominal>
+		<nominal>5</nominal>
         <lifetime>7200</lifetime>
         <restock>300</restock>
-		<min>5</min>
+		<min>2</min>
         <quantmin>5</quantmin>
         <quantmax>50</quantmax>
 		<cost>100</cost>
@@ -1433,10 +1432,10 @@
         <value name="Tier4"/>
     </type>
     <type name="BO_Mag_MK12_20rnd">
-        <nominal>10</nominal>
+        <nominal>8</nominal>
         <lifetime>7200</lifetime>
         <restock>300</restock>
-        <min>2</min>
+        <min>5</min>
         <quantmin>5</quantmin>
         <quantmax>50</quantmax>
         <cost>100</cost>
@@ -1478,7 +1477,7 @@
         <nominal>1</nominal>
         <lifetime>7200</lifetime>
         <restock>300</restock>
-        <min>01</min>
+        <min>0</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -1560,10 +1559,10 @@
 		<usage name="Military" />
     </type>
     <type name="Ammo_BO_3006">
-        <nominal>20</nominal>
+        <nominal>30</nominal>
         <lifetime>10800</lifetime>
         <restock>4800</restock>
-        <min>12</min>
+        <min>20</min>
         <quantmin>10</quantmin>
         <quantmax>30</quantmax>
         <cost>100</cost>
@@ -1573,10 +1572,10 @@
         <usage name="Military"/>
     </type>
     <type name="BO_AmmoBox_3006_20rnd">
-        <nominal>10</nominal>
+        <nominal>20</nominal>
         <lifetime>10800</lifetime>
         <restock>4800</restock>
-        <min>5</min>
+        <min>15</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -2348,7 +2347,7 @@
         <nominal>1</nominal>
         <lifetime>7200</lifetime>
         <restock>300</restock>
-        <min>1</min>
+        <min>0</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -4110,7 +4109,7 @@
         <nominal>1</nominal>
         <lifetime>7200</lifetime>
         <restock>300</restock>
-        <min>1</min>
+        <min>0</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -4307,7 +4306,7 @@
         <value name="Tier4"/>
     </type>
     <type name="BO_AUGA1">
-        <nominal>3</nominal>
+        <nominal>5</nominal>
         <lifetime>7200</lifetime>
         <restock>300</restock>
         <min>2</min>
@@ -5120,7 +5119,7 @@
     
 <!-- Added 2.7 -->
     <type name="BO_AmmoBox_65C_20rnd">
-        <nominal>20</nominal>
+        <nominal>15</nominal>
         <lifetime>10800</lifetime>
         <restock>4800</restock>
         <min>10</min>
@@ -5139,9 +5138,10 @@
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
-        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="1"/>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="weapons"/>
         <usage name="Military"/>
+        <value name="Tier4"/>
     </type>
     <type name="BO_Mag_Beowulf_20Rnd">
         <nominal>3</nominal>
@@ -5456,7 +5456,7 @@
         <nominal>1</nominal>
         <lifetime>7200</lifetime>
         <restock>300</restock>
-        <min>1</min>
+        <min>0</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -5622,10 +5622,10 @@
         <value name="Tier4"/>
     </type>
     <type name="BO_M1Garand">
-        <nominal>10</nominal>
+        <nominal>15</nominal>
         <lifetime>7200</lifetime>
         <restock>300</restock>
-        <min>7</min>
+        <min>10</min>
         <quantmin>10</quantmin>
         <quantmax>80</quantmax>
         <cost>100</cost>
@@ -5690,8 +5690,7 @@
         <usage name="Military"/>
         <value name="Tier4"/>
     </type>
-<!-- Stuff that was missing -->
-
+    <!-- Stuff that was missing -->
     <type name="BO_Vector">
         <nominal>5</nominal>
         <lifetime>7200</lifetime>
