@@ -1159,7 +1159,7 @@
 	</group> 
     <group name="NWAFPlane">
                 <child type="Land_Roadblock_WoodenCrate" deloot="0" lootmax="4" lootmin="2" x="1" y="0" z="4.4" a="0"/>
-                <child type="Wreck_C130J_GG" 			 deloot="1" lootmax="25" lootmin="10" x="-0.8" y="4.906799" z="-6.8" a="-58.583603"/>
+                <child type="Land_Wreck_C130J_GG" 			 deloot="1" lootmax="25" lootmin="10" x="-0.8" y="4.906799" z="-6.8" a="-58.583603"/>
                 <child type="StaticObj_Misc_WoodenCrate_5x" deloot="0" lootmax="12" lootmin="4" x="6.398438" y="0.632172" z="-1.771973" a="89.989731"/>
                 <child type="StaticObj_Misc_BoxWooden" deloot="0" lootmax="12" lootmin="4" x="2.656250" y="0.242157" z="4.510421" a="-26.907307"/>
                 <child type="StaticObj_Misc_BoxWooden" deloot="0" lootmax="12" lootmin="4" x="4.116211" y="0.242188" z="4.641601" a="46.209953"/>
