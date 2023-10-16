@@ -17711,7 +17711,32 @@
 						<point pos="-5.323487 -2.201790 3.078125" range="0.500000" height="1.500000" />
 				</container>
 		</group>
-		
+		<group name="StaticObj_Misc_WoodenCrate" lootmax="2">
+                <usage name="Police" />
+                <usage name="Military" />
+                <usage name="Medic" />
+                <container name="loot" lootmax="2">
+                        <category name="tools" />
+                        <category name="clothes" />
+                        <category name="weapons" />
+                        <tag name="shelves" />
+                        <point pos="0.288574 0.332373 0.025391" range="0.375000" height="0.937500" />
+                        <point pos="-0.511108 0.332373 -0.242920" range="0.134375" height="0.335938" />
+                </container>
+        </group>
+		<group name="StaticObj_Misc_BoxWooden" lootmax="5">
+				<usage name="Military" />
+				<usage name="Hunting" />
+				<container name="lootShelf" lootmax="5">
+						<category name="weapons" />
+						<tag name="shelves" />
+						<point pos="0.331298 0.468921 -0.201172" range="0.160000" height="0.170000" />
+						<point pos="0.148193 0.468921 0.291016" range="0.160000" height="0.170000" />
+						<point pos="-0.171631 0.468921 -0.335938" range="0.160000" height="0.170000" />
+						<point pos="-0.354737 0.468921 0.156250" range="0.160000" height="0.170000" />
+						<point pos="-0.008057 0.468921 0.006836" range="0.160000" height="0.170000" />
+				</container>
+		</group>
 		<!-- NOT INGAME - PREPARATION
 		<group name="Land_Wreck_truck02_aban1_green" >
 						<usage name="Village" />		
