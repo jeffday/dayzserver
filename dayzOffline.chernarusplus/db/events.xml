@@ -628,6 +628,44 @@
             <child lootmax="5" lootmin="0" max="0" min="5" type="ZmbM_VillagerOld_Green"/>
         </children>
     </event>
+    <event name="InfectedSilents">
+        <nominal>50</nominal>
+        <min>25</min>
+        <max>100</max>
+        <lifetime>3</lifetime>
+        <restock>0</restock>
+        <saferadius>100</saferadius>
+        <distanceradius>50</distanceradius>
+        <cleanupradius>100</cleanupradius>
+        <flags deletable="0" init_random="0" remove_damaged="1"/>
+        <position>player</position>
+        <limit>custom</limit>
+        <active>1</active>
+        <children>
+            <child lootmax="5" lootmin="0" max="0" min="40" type="ZmbM_LyingFigure"/>
+            <child lootmax="5" lootmin="0" max="0" min="20" type="ZmbM_LyingFigure_Burlap"/>
+            <child lootmax="5" lootmin="0" max="0" min="30" type="Zombie_Double_Mannequin"/>
+            <child lootmax="5" lootmin="0" max="0" min="10" type="Zombie_Doll"/>
+        </children>
+    </event>
+    <event name="InfectedMarias">
+        <nominal>50</nominal>
+        <min>25</min>
+        <max>100</max>
+        <lifetime>3</lifetime>
+        <restock>0</restock>
+        <saferadius>100</saferadius>
+        <distanceradius>50</distanceradius>
+        <cleanupradius>100</cleanupradius>
+        <flags deletable="0" init_random="0" remove_damaged="1"/>
+        <position>player</position>
+        <limit>custom</limit>
+        <active>1</active>
+        <children>
+            <child lootmax="5" lootmin="0" max="0" min="50" type="Zombie_Maria"/>
+            <child lootmax="5" lootmin="0" max="0" min="50" type="Zombie_Maria_Bloody"/>
+        </children>
+    </event>
     <event name="ItemPlanks">
         <nominal>50</nominal>
         <min>40</min>
