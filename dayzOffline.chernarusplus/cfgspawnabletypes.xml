@@ -1135,6 +1135,30 @@
 	</type>
 	<!--START OF ZOMBIES  -->
 	<!--NBC-->
+<type name="ZmbM_Mummy">
+		<cargo preset="ContaminatedCargo" />
+		<cargo chance="0.05">
+			<item name="AntiChemInjector" chance="1.0" />
+		</cargo>
+		<cargo chance="0.5">
+			<item name="HumanSteakMeat" chance="1.0" />
+		</cargo>
+		<cargo chance="0.5">
+			<item name="BandageDressing" chance="0.5" />
+			<item name="Rag" chance="0.5" />
+		</cargo>
+		<cargo chance="0.5">
+			<item name="IodineTincture" chance="0.33" />
+			<item name="Epinephrine" chance="0.33" />
+			<item name="Morphine" chance="0.33" />
+		</cargo>
+		<cargo chance="0.5">
+			<item name="CharcoalTablets" chance="0.25" />
+			<item name="PainkillerTablets" chance="0.25" />
+			<item name="TetracyclineAntibiotics" chance="0.25" />
+			<item name="VitaminBottle" chance="0.25" />
+		</cargo>
+	</type>
 	<type name="ZmbM_NBC_Grey">
 		<cargo preset="ContaminatedCargo" />
 		<cargo chance="0.03">
@@ -1151,7 +1175,7 @@
 	<type name="ZmbM_PatrolNormal_Autumn">
 		<cargo preset="foodArmy" />
 		<cargo preset="ammoArmy" />
-		<attachments preset="headtorches" />
+		<attachments preset="glassesArmy" />
 		<attachments preset="hatsArmy" />
 		<attachments preset="bagsArmy" />
 		<attachments preset="vestsArmy" />
@@ -1159,7 +1183,7 @@
 	<type name="ZmbM_PatrolNormal_Flat">
 		<cargo preset="foodArmy" />
 		<cargo preset="ammoArmy" />
-		<attachments preset="headtorches" />
+		<attachments preset="glassesArmy" />
 		<attachments preset="hatsArmy" />
 		<attachments preset="bagsArmy" />
 		<attachments preset="vestsArmy" />
@@ -1167,7 +1191,7 @@
 	<type name="ZmbM_PatrolNormal_PautRev">
 		<cargo preset="foodArmy" />
 		<cargo preset="ammoArmy" />
-		<attachments preset="headtorches" />
+		<attachments preset="glassesArmy" />
 		<attachments preset="hatsArmy" />
 		<attachments preset="bagsArmy" />
 		<attachments preset="vestsArmy" />
@@ -1175,7 +1199,7 @@
 	<type name="ZmbM_PatrolNormal_Summer">
 		<cargo preset="foodArmy" />
 		<cargo preset="ammoArmy" />
-		<attachments preset="headtorches" />
+		<attachments preset="glassesArmy" />
 		<attachments preset="hatsArmy" />
 		<attachments preset="bagsArmy" />
 		<attachments preset="vestsArmy" />
@@ -1183,15 +1207,14 @@
 	<type name="ZmbM_SoldierNormal">
 		<cargo preset="foodArmy" />
 		<cargo preset="ammoArmy" />
-		<attachments preset="headtorches" />
+		<attachments preset="glassesArmy" />
 		<attachments preset="hatsArmy" />
 		<attachments preset="bagsArmy" />
 		<attachments preset="vestsArmy" />
 	</type>
 	<type name="ZmbM_usSoldier_Officer_Desert">
 		<cargo preset="foodArmy" />		
-		<attachments preset="headtorches" />
-		<attachments preset="OfficerHatArmy" />
+				<attachments preset="OfficerHatArmy" />
 	</type>
 	<type name="ZmbM_usSoldier_Heavy_Woodland">
 		<cargo preset="foodArmy" />		
@@ -1249,26 +1272,22 @@
 	<type name="ZmbF_CitizenBSkinny">
 		<cargo preset="foodCity" />
 		<cargo preset="toolsCity" />
-		<attachments preset="glassesCity" />
 		<attachments preset="hatsCity" />
 		<attachments preset="bagsCity" />
 	</type>
 	<type name="ZmbF_JournalistNormal_Blue">
 		<cargo preset="foodCity" />
 		<cargo preset="toolsCity" />
-		<attachments preset="glassesCity" />
 		<attachments preset="hatsCity" />
 	</type>
 	<type name="ZmbF_JournalistNormal_Green">
 		<cargo preset="foodCity" />
 		<cargo preset="toolsCity" />
-		<attachments preset="glassesCity" />
 		<attachments preset="hatsCity" />
 	</type>
 	<type name="ZmbF_JournalistNormal_Red">
 		<cargo preset="foodCity" />
 		<cargo preset="toolsCity" />
-		<attachments preset="glassesCity" />
 		<attachments preset="hatsCity" />
 	</type>
 	<type name="ZmbF_JournalistNormal_White">
@@ -1370,6 +1389,12 @@
 		<attachments preset="bagsCity" />
 	</type>
 	<type name="ZmbF_SurvivorNormal_Blue">
+		<attachments chance="0.2">
+			<item name="EyeMask_Black" chance="0.2" />
+			<item name="EyeMask_Blue" chance="0.2" />
+			<item name="EyeMask_Red" chance="0.2" />
+			<item name="EyeMask_Yellow" chance="0.2" />
+		</attachments>
 		<cargo preset="foodCity" />
 		<cargo preset="toolsCity" />
 		<attachments preset="glassesCity" />
@@ -1377,6 +1402,12 @@
 		<attachments preset="bagsCity" />
 	</type>
 	<type name="ZmbF_SurvivorNormal_Orange">
+		<attachments chance="0.2">
+			<item name="EyeMask_Black" chance="0.2" />
+			<item name="EyeMask_Blue" chance="0.2" />
+			<item name="EyeMask_Red" chance="0.2" />
+			<item name="EyeMask_Yellow" chance="0.2" />
+		</attachments>
 		<cargo preset="drinks_T1" />
 		<cargo preset="food_T1" />
 		<cargo preset="toolsCommon_T1" />
@@ -1384,24 +1415,33 @@
 		<attachments preset="backpacks_T1" />
 	</type>
 	<type name="ZmbF_SurvivorNormal_Red">
+		<attachments chance="0.2">
+			<item name="EyeMask_Black" chance="0.2" />
+			<item name="EyeMask_Blue" chance="0.2" />
+			<item name="EyeMask_Red" chance="0.2" />
+			<item name="EyeMask_Yellow" chance="0.2" />
+		</attachments>
 		<cargo preset="foodCity" />
 		<cargo preset="toolsCity" />
-		<attachments preset="glassesCity" />
 		<attachments preset="hatsCity" />
 		<attachments preset="bagsCity" />
 	</type>
 	<type name="ZmbF_SurvivorNormal_White">
+		<attachments chance="0.2">
+			<item name="EyeMask_Black" chance="0.2" />
+			<item name="EyeMask_Blue" chance="0.2" />
+			<item name="EyeMask_Red" chance="0.2" />
+			<item name="EyeMask_Yellow" chance="0.2" />
+		</attachments>
 		<cargo preset="foodCity" />
 		<cargo preset="toolsCity" />
-		<attachments preset="glassesCity" />
 		<attachments preset="hatsCity" />
 		<attachments preset="bagsCity" />
 	</type>
 	<type name="ZmbM_CitizenASkinny_Blue">
 		<cargo preset="foodCity" />
 		<cargo preset="toolsCity" />
-		<attachments preset="glassesCity" />
-		<attachments preset="hatsCity" />
+				<attachments preset="hatsCity" />
 		<attachments preset="bagsCity" />
 	</type>
 	<type name="ZmbM_CitizenASkinny_Brown">
@@ -1414,35 +1454,30 @@
 	<type name="ZmbM_CitizenASkinny_Grey">
 		<cargo preset="foodCity" />
 		<cargo preset="toolsCity" />
-		<attachments preset="glassesCity" />
-		<attachments preset="hatsCity" />
+			<attachments preset="hatsCity" />
 		<attachments preset="bagsCity" />
 	</type>
 	<type name="ZmbM_CitizenASkinny_Red">
 		<cargo preset="foodCity" />
 		<cargo preset="toolsCity" />
-		<attachments preset="glassesCity" />
 		<attachments preset="hatsCity" />
 		<attachments preset="bagsCity" />
 	</type>
 	<type name="ZmbM_CitizenBFat_Blue">
 		<cargo preset="foodCity" />
 		<cargo preset="toolsCity" />
-		<attachments preset="glassesCity" />
 		<attachments preset="hatsCity" />
 		<attachments preset="bagsCity" />
 	</type>
 	<type name="ZmbM_CitizenBFat_Green">
 		<cargo preset="foodCity" />
 		<cargo preset="toolsCity" />
-		<attachments preset="glassesCity" />
 		<attachments preset="hatsCity" />
 		<attachments preset="bagsCity" />
 	</type>
 	<type name="ZmbM_CitizenBFat_Red">
 		<cargo preset="foodCity" />
 		<cargo preset="toolsCity" />
-		<attachments preset="glassesCity" />
 		<attachments preset="hatsCity" />
 		<attachments preset="bagsCity" />
 	</type>
@@ -1456,34 +1491,29 @@
 	<type name="ZmbM_ClerkFat_Grey">
 		<cargo preset="foodCity" />
 		<cargo preset="toolsCity" />
-		<attachments preset="glassesCity" />
 		<attachments preset="hatsCity" />
 		<attachments preset="bagsCity" />
 	</type>
 	<type name="ZmbM_ClerkFat_Khaki">
 		<cargo preset="foodCity" />
 		<cargo preset="toolsCity" />
-		<attachments preset="glassesCity" />
 		<attachments preset="hatsCity" />
 		<attachments preset="bagsCity" />
 	</type>
 	<type name="ZmbM_ClerkFat_White">
 		<cargo preset="foodCity" />
 		<cargo preset="toolsCity" />
-		<attachments preset="glassesCity" />
 		<attachments preset="hatsCity" />
 		<attachments preset="bagsCity" />
 	</type>
 	<type name="ZmbM_CommercialPilotOld_Blue">
 		<cargo preset="foodCity" />
 		<cargo preset="toolsCity" />
-		<attachments preset="glassesCity" />
 		<attachments preset="hatsCity" />
 	</type>
 	<type name="ZmbM_CommercialPilotOld_Brown">
 		<cargo preset="foodCity" />
 		<cargo preset="toolsCity" />
-		<attachments preset="glassesCity" />
 		<attachments preset="hatsCity" />
 	</type>
 	<type name="ZmbM_CommercialPilotOld_Grey">
@@ -1496,27 +1526,23 @@
 	<type name="ZmbM_CommercialPilotOld_Olive">
 		<cargo preset="foodCity" />
 		<cargo preset="toolsCity" />
-		<attachments preset="glassesCity" />
 		<attachments preset="hatsCity" />
 	</type>
 	<type name="ZmbM_Jacket_beige">
 		<cargo preset="foodCity" />
 		<cargo preset="toolsCity" />
-		<attachments preset="glassesCity" />
 		<attachments preset="hatsCity" />
 		<attachments preset="bagsCity" />
 	</type>
 	<type name="ZmbM_Jacket_black">
 		<cargo preset="foodCity" />
 		<cargo preset="toolsCity" />
-		<attachments preset="glassesCity" />
 		<attachments preset="hatsCity" />
 		<attachments preset="bagsCity" />
 	</type>
 	<type name="ZmbM_Jacket_blue">
 		<cargo preset="foodCity" />
 		<cargo preset="toolsCity" />
-		<attachments preset="glassesCity" />
 		<attachments preset="hatsCity" />
 		<attachments preset="bagsCity" />
 	</type>
@@ -1530,28 +1556,24 @@
 	<type name="ZmbM_Jacket_brown">
 		<cargo preset="foodCity" />
 		<cargo preset="toolsCity" />
-		<attachments preset="glassesCity" />
 		<attachments preset="hatsCity" />
 		<attachments preset="bagsCity" />
 	</type>
 	<type name="ZmbM_Jacket_greenchecks">
 		<cargo preset="foodCity" />
 		<cargo preset="toolsCity" />
-		<attachments preset="glassesCity" />
 		<attachments preset="hatsCity" />
 		<attachments preset="bagsCity" />
 	</type>
 	<type name="ZmbM_Jacket_grey">
 		<cargo preset="foodCity" />
 		<cargo preset="toolsCity" />
-		<attachments preset="glassesCity" />
 		<attachments preset="hatsCity" />
 		<attachments preset="bagsCity" />
 	</type>
 	<type name="ZmbM_Jacket_khaki">
 		<cargo preset="foodCity" />
 		<cargo preset="toolsCity" />
-		<attachments preset="glassesCity" />
 		<attachments preset="hatsCity" />
 		<attachments preset="bagsCity" />
 	</type>
@@ -1565,7 +1587,6 @@
 	<type name="ZmbM_Jacket_stripes">
 		<cargo preset="foodCity" />
 		<cargo preset="toolsCity" />
-		<attachments preset="glassesCity" />
 		<attachments preset="hatsCity" />
 		<attachments preset="bagsCity" />
 	</type>
@@ -1591,6 +1612,12 @@
 		<attachments preset="hatsMotorbike" />
 	</type>
 	<type name="ZmbM_SkaterYoung_Blue">
+		<attachments chance="0.2">
+			<item name="EyeMask_Black" chance="0.2" />
+			<item name="EyeMask_Blue" chance="0.2" />
+			<item name="EyeMask_Red" chance="0.2" />
+			<item name="EyeMask_Yellow" chance="0.2" />
+		</attachments>
 		<cargo preset="drinks_T1" />
 		<cargo preset="food_T1" />
 		<cargo preset="toolsCommon_T1" />
@@ -1598,18 +1625,36 @@
 		<attachments preset="backpacks_T1" />
 	</type>
 	<type name="ZmbM_SkaterYoung_Brown">
+		<attachments chance="0.2">
+			<item name="EyeMask_Black" chance="0.2" />
+			<item name="EyeMask_Blue" chance="0.2" />
+			<item name="EyeMask_Red" chance="0.2" />
+			<item name="EyeMask_Yellow" chance="0.2" />
+		</attachments>
 		<cargo preset="foodCity" />
 		<cargo preset="toolsCity" />
 		<attachments preset="hatsCitySkate" />
 		<attachments preset="bagsCity" />
 	</type>
 	<type name="ZmbM_SkaterYoung_Green">
+		<attachments chance="0.2">
+			<item name="EyeMask_Black" chance="0.2" />
+			<item name="EyeMask_Blue" chance="0.2" />
+			<item name="EyeMask_Red" chance="0.2" />
+			<item name="EyeMask_Yellow" chance="0.2" />
+		</attachments>
 		<cargo preset="foodCity" />
 		<cargo preset="toolsCity" />
 		<attachments preset="hatsCitySkate" />
 		<attachments preset="bagsCity" />
 	</type>
 	<type name="ZmbM_SkaterYoung_Grey">
+		<attachments chance="0.2">
+			<item name="EyeMask_Black" chance="0.2" />
+			<item name="EyeMask_Blue" chance="0.2" />
+			<item name="EyeMask_Red" chance="0.2" />
+			<item name="EyeMask_Yellow" chance="0.2" />
+		</attachments>
 		<cargo preset="foodCity" />
 		<cargo preset="toolsCity" />
 		<attachments preset="hatsCitySkate" />
@@ -1619,28 +1664,24 @@
 	<type name="ZmbF_BlueCollarFat_Blue">
 		<cargo preset="foodCity" />
 		<cargo preset="toolsIndustrial" />
-		<attachments preset="glassesVillage" />
 		<attachments preset="hatsIndustrial" />
 		<attachments preset="vestsIndustrial" />
 	</type>
 	<type name="ZmbF_BlueCollarFat_Green">
 		<cargo preset="foodCity" />
 		<cargo preset="toolsIndustrial" />
-		<attachments preset="glassesVillage" />
 		<attachments preset="hatsIndustrial" />
 		<attachments preset="vestsIndustrial" />
 	</type>
 	<type name="ZmbF_BlueCollarFat_Red">
 		<cargo preset="foodCity" />
 		<cargo preset="toolsIndustrial" />
-		<attachments preset="glassesVillage" />
 		<attachments preset="hatsIndustrial" />
 		<attachments preset="vestsIndustrial" />
 	</type>
 	<type name="ZmbF_BlueCollarFat_White">
 		<cargo preset="foodCity" />
 		<cargo preset="toolsIndustrial" />
-		<attachments preset="glassesVillage" />
 		<attachments preset="hatsIndustrial" />
 		<attachments preset="vestsIndustrial" />
 	</type>
@@ -1701,11 +1742,12 @@
 		<attachments preset="vestsIndustrial" />
 	</type>
 	<type name="ZmbM_HandymanNormal_Beige">
-		<cargo preset="foodCity" />
-		<cargo preset="toolsIndustrial" />
-		<attachments preset="glassesVillage" />
-		<attachments preset="hatsIndustrial" />
-		<attachments preset="vestsIndustrial" />
+		<attachments chance="1.00">
+			<item name="PumpkinHelmet" chance="1.00" />
+		</attachments>
+		<cargo chance="1.0">
+			<item name="SlicedPumpkin" chance="1.00" />
+		</cargo>
 	</type>
 	<type name="ZmbM_HandymanNormal_Blue">
 		<cargo preset="foodCity" />
@@ -1736,6 +1778,12 @@
 		<attachments preset="vestsIndustrial" />
 	</type>
 	<type name="ZmbM_HeavyIndustryWorker">
+		<attachments chance="0.2">
+			<item name="EyeMask_Black" chance="0.2" />
+			<item name="EyeMask_Blue" chance="0.2" />
+			<item name="EyeMask_Red" chance="0.2" />
+			<item name="EyeMask_Yellow" chance="0.2" />
+		</attachments>
 		<cargo preset="foodCity" />
 		<cargo preset="toolsIndustrial" />
 		<attachments preset="glassesVillage" />
@@ -1743,6 +1791,12 @@
 		<attachments preset="vestsIndustrial" />
 	</type>
 	<type name="ZmbM_MechanicSkinny_Blue">
+		<attachments chance="0.2">
+			<item name="EyeMask_Black" chance="0.2" />
+			<item name="EyeMask_Blue" chance="0.2" />
+			<item name="EyeMask_Red" chance="0.2" />
+			<item name="EyeMask_Yellow" chance="0.2" />
+		</attachments>
 		<cargo preset="foodCity" />
 		<cargo preset="toolsIndustrial" />
 		<attachments preset="glassesVillage" />
@@ -1750,6 +1804,12 @@
 		<attachments preset="vestsIndustrial" />
 	</type>
 	<type name="ZmbM_MechanicSkinny_Green">
+		<attachments chance="0.2">
+			<item name="EyeMask_Black" chance="0.2" />
+			<item name="EyeMask_Blue" chance="0.2" />
+			<item name="EyeMask_Red" chance="0.2" />
+			<item name="EyeMask_Yellow" chance="0.2" />
+		</attachments>
 		<cargo preset="foodCity" />
 		<cargo preset="toolsIndustrial" />
 		<attachments preset="glassesVillage" />
@@ -1757,6 +1817,12 @@
 		<attachments preset="vestsIndustrial" />
 	</type>
 	<type name="ZmbM_MechanicSkinny_Grey">
+		<attachments chance="0.2">
+			<item name="EyeMask_Black" chance="0.2" />
+			<item name="EyeMask_Blue" chance="0.2" />
+			<item name="EyeMask_Red" chance="0.2" />
+			<item name="EyeMask_Yellow" chance="0.2" />
+		</attachments>
 		<cargo preset="foodCity" />
 		<cargo preset="toolsIndustrial" />
 		<attachments preset="glassesVillage" />
@@ -1764,6 +1830,12 @@
 		<attachments preset="vestsIndustrial" />
 	</type>
 	<type name="ZmbM_MechanicSkinny_Red">
+		<attachments chance="0.2">
+			<item name="EyeMask_Black" chance="0.2" />
+			<item name="EyeMask_Blue" chance="0.2" />
+			<item name="EyeMask_Red" chance="0.2" />
+			<item name="EyeMask_Yellow" chance="0.2" />
+		</attachments>
 		<cargo preset="foodCity" />
 		<cargo preset="toolsIndustrial" />
 		<attachments preset="glassesVillage" />
@@ -1773,33 +1845,35 @@
 	<type name="ZmbM_OffshoreWorker_Green">
 		<cargo preset="foodCity" />
 		<cargo preset="toolsIndustrial" />
-		<attachments preset="glassesVillage" />
 		<attachments preset="hatsIndustrial" />
 		<attachments preset="vestsIndustrial" />
 	</type>
 	<type name="ZmbM_OffshoreWorker_Orange">
 		<cargo preset="foodCity" />
 		<cargo preset="toolsIndustrial" />
-		<attachments preset="glassesVillage" />
 		<attachments preset="hatsIndustrial" />
 		<attachments preset="vestsIndustrial" />
 	</type>
 	<type name="ZmbM_OffshoreWorker_Red">
 		<cargo preset="foodCity" />
 		<cargo preset="toolsIndustrial" />
-		<attachments preset="glassesVillage" />
 		<attachments preset="hatsIndustrial" />
 		<attachments preset="vestsIndustrial" />
 	</type>
 	<type name="ZmbM_OffshoreWorker_Yellow">
 		<cargo preset="foodCity" />
 		<cargo preset="toolsIndustrial" />
-		<attachments preset="glassesVillage" />
 		<attachments preset="hatsIndustrial" />
 		<attachments preset="vestsIndustrial" />
 	</type>
 	<!-- FireFighter -->
 	<type name="ZmbM_FirefighterNormal">
+		<attachments chance="0.2">
+			<item name="EyeMask_Black" chance="0.2" />
+			<item name="EyeMask_Blue" chance="0.2" />
+			<item name="EyeMask_Red" chance="0.2" />
+			<item name="EyeMask_Yellow" chance="0.2" />
+		</attachments>
 		<cargo preset="toolsCity" />
 		<attachments preset="hatsFirefighter" />
 	</type>
@@ -1851,6 +1925,12 @@
 	</type>
 	<!-- Police -->
 	<type name="ZmbF_PoliceWomanNormal">
+		<attachments chance="0.2">
+			<item name="EyeMask_Black" chance="0.2" />
+			<item name="EyeMask_Blue" chance="0.2" />
+			<item name="EyeMask_Red" chance="0.2" />
+			<item name="EyeMask_Yellow" chance="0.2" />
+		</attachments>
 		<cargo preset="toolsPolice" />
 		<cargo preset="ammoPolice" />
 		<cargo chance="0.10">
@@ -1895,7 +1975,16 @@
 	</type>
 	<!-- Religious -->
 	<type name="ZmbM_priestPopSkinny">
+		<attachments chance="0.2">
+			<item name="EyeMask_Black" chance="0.2" />
+			<item name="EyeMask_Blue" chance="0.2" />
+			<item name="EyeMask_Red" chance="0.2" />
+			<item name="EyeMask_Yellow" chance="0.2" />
+		</attachments>
 		<cargo preset="foodHermit" />
+		<attachments chance="1.00">
+			<item name="WitchHood_Black" chance="1.00" />
+		</attachments>
 	</type>
 	<!-- Solitude -->
 	<type name="ZmbF_HikerSkinny_Blue">
@@ -1939,36 +2028,78 @@
 		<attachments preset="hatsFarm" />
 	</type>
 	<type name="ZmbM_HermitSkinny_Beige">
+		<attachments chance="0.2">
+			<item name="EyeMask_Black" chance="0.2" />
+			<item name="EyeMask_Blue" chance="0.2" />
+			<item name="EyeMask_Red" chance="0.2" />
+			<item name="EyeMask_Yellow" chance="0.2" />
+		</attachments>
 		<cargo preset="foodHermit" />
 		<cargo preset="toolsHermit" />
 		<attachments preset="hatsFarm" />
 	</type>
 	<type name="ZmbM_HermitSkinny_Black">
+		<attachments chance="0.2">
+			<item name="EyeMask_Black" chance="0.2" />
+			<item name="EyeMask_Blue" chance="0.2" />
+			<item name="EyeMask_Red" chance="0.2" />
+			<item name="EyeMask_Yellow" chance="0.2" />
+		</attachments>
 		<cargo preset="foodHermit" />
 		<cargo preset="toolsHermit" />
 		<attachments preset="hatsFarm" />
 	</type>
 	<type name="ZmbM_HermitSkinny_Green">
+		<attachments chance="0.2">
+			<item name="EyeMask_Black" chance="0.2" />
+			<item name="EyeMask_Blue" chance="0.2" />
+			<item name="EyeMask_Red" chance="0.2" />
+			<item name="EyeMask_Yellow" chance="0.2" />
+		</attachments>
 		<cargo preset="foodHermit" />
 		<cargo preset="toolsHermit" />
 		<attachments preset="hatsFarm" />
 	</type>
 	<type name="ZmbM_HermitSkinny_Red">
+		<attachments chance="0.2">
+			<item name="EyeMask_Black" chance="0.2" />
+			<item name="EyeMask_Blue" chance="0.2" />
+			<item name="EyeMask_Red" chance="0.2" />
+			<item name="EyeMask_Yellow" chance="0.2" />
+		</attachments>
 		<cargo preset="foodHermit" />
 		<cargo preset="toolsHermit" />
 		<attachments preset="hatsFarm" />
 	</type>
 	<type name="ZmbM_HikerSkinny_Blue">
+		<attachments chance="0.2">
+			<item name="EyeMask_Black" chance="0.2" />
+			<item name="EyeMask_Blue" chance="0.2" />
+			<item name="EyeMask_Red" chance="0.2" />
+			<item name="EyeMask_Yellow" chance="0.2" />
+		</attachments>
 		<cargo preset="foodHermit" />
 		<cargo preset="toolsHermit" />
 		<attachments preset="hatsFarm" />
 	</type>
 	<type name="ZmbM_HikerSkinny_Green">
+		<attachments chance="0.2">
+			<item name="EyeMask_Black" chance="0.2" />
+			<item name="EyeMask_Blue" chance="0.2" />
+			<item name="EyeMask_Red" chance="0.2" />
+			<item name="EyeMask_Yellow" chance="0.2" />
+		</attachments>
 		<cargo preset="foodHermit" />
 		<cargo preset="toolsHermit" />
 		<attachments preset="hatsFarm" />
 	</type>
 	<type name="ZmbM_HikerSkinny_Yellow">
+		<attachments chance="0.2">
+			<item name="EyeMask_Black" chance="0.2" />
+			<item name="EyeMask_Blue" chance="0.2" />
+			<item name="EyeMask_Red" chance="0.2" />
+			<item name="EyeMask_Yellow" chance="0.2" />
+		</attachments>
 		<cargo preset="foodHermit" />
 		<cargo preset="toolsHermit" />
 		<attachments preset="hatsFarm" />
@@ -1978,7 +2109,7 @@
 		<cargo preset="toolsHermit" />
 		<attachments preset="hatsFarm" />
 		<attachments preset="bagsHunter" />
-		<attachments preset="headtorches" />
+		<attachments preset="glassesVillage" />
 		<attachments preset="vestsHunter" />
 	</type>
 	<type name="ZmbM_HunterOld_Spring">
@@ -1986,7 +2117,7 @@
 		<cargo preset="toolsHermit" />
 		<attachments preset="hatsFarm" />
 		<attachments preset="bagsHunter" />
-		<attachments preset="headtorches" />
+		<attachments preset="glassesVillage" />
 		<attachments preset="vestsHunter" />
 	</type>
 	<type name="ZmbM_HunterOld_Summer">
@@ -1994,13 +2125,13 @@
 		<cargo preset="toolsHermit" />
 		<attachments preset="hatsFarm" />
 		<attachments preset="bagsHunter" />
-		<attachments preset="headtorches" />
+		<attachments preset="glassesVillage" />
 		<attachments preset="vestsHunter" />
 	</type>
 	<type name="ZmbM_HunterOld_Winter">
 		<cargo preset="foodHermit" />
 		<cargo preset="toolsHermit" />
-		<attachments preset="headtorches" />
+		<attachments preset="glassesVillage" />
 		<attachments preset="hatsFarm" />
 		<attachments preset="bagsHunter" />
 		<attachments preset="vestsHunter" />
@@ -2009,20 +2140,43 @@
 	<type name="ZmbF_MilkMaidOld_Beige">
 		<cargo preset="foodVillage" />
 		<cargo preset="toolsVillage" />
+		<cargo chance="0.20">
+			<item name="CrookedNose" chance="1.0" />
+		</cargo>
+		<attachments chance="1.00">
+			<item name="WitchHood_Brown" chance="1.00" />
+		</attachments>
 	</type>
 	<type name="ZmbF_MilkMaidOld_Black">
 		<cargo preset="foodVillage" />
 		<cargo preset="toolsVillage" />
+		<cargo chance="0.20">
+			<item name="CrookedNose" chance="1.0" />
+		</cargo>
+		<attachments chance="1.00">
+			<item name="WitchHat" chance="1.00" />
+		</attachments>
 	</type>
 	<type name="ZmbF_MilkMaidOld_Green">
 		<cargo preset="drinks_T1" />
 		<cargo preset="food_T1" />
 		<cargo preset="toolsCommon_T1" />
-		<attachments preset="hatsCommon_T1" />
+		<cargo chance="0.20">
+			<item name="CrookedNose" chance="1.0" />
+		</cargo>
+		<attachments chance="1.00">
+			<item name="WitchHood_Red" chance="1.00" />
+		</attachments>
 	</type>
 	<type name="ZmbF_MilkMaidOld_Grey">
 		<cargo preset="foodVillage" />
 		<cargo preset="toolsVillage" />
+		<cargo chance="0.20">
+			<item name="CrookedNose" chance="1.0" />
+		</cargo>
+		<attachments chance="1.00">
+			<item name="WitchHood_Black" chance="1.00" />
+		</attachments>
 	</type>
 	<type name="ZmbF_VillagerOld_Blue">
 		<cargo preset="drinks_T1" />
@@ -2034,20 +2188,17 @@
 	<type name="ZmbF_VillagerOld_Green">
 		<cargo preset="foodVillage" />
 		<cargo preset="toolsVillage" />
-		<attachments preset="glassesVillage" />
-		<attachments preset="hatsFarm" />
+				<attachments preset="hatsFarm" />
 	</type>
 	<type name="ZmbF_VillagerOld_Red">
 		<cargo preset="foodVillage" />
 		<cargo preset="toolsVillage" />
-		<attachments preset="glassesVillage" />
-		<attachments preset="hatsFarm" />
+				<attachments preset="hatsFarm" />
 	</type>
 	<type name="ZmbF_VillagerOld_White">
 		<cargo preset="foodVillage" />
 		<cargo preset="toolsVillage" />
-		<attachments preset="glassesVillage" />
-		<attachments preset="hatsFarm" />
+				<attachments preset="hatsFarm" />
 	</type>
 	<type name="ZmbF_JoggerSkinny_Blue">
 		<cargo preset="foodVillage" />
@@ -2118,7 +2269,6 @@
 	<type name="ZmbM_VillagerOld_Blue">
 		<cargo preset="foodVillage" />
 		<cargo preset="toolsVillage" />
-		<attachments preset="glassesVillage" />
 		<attachments preset="hatsFarm" />
 	</type>
 	<type name="ZmbM_VillagerOld_Green">
@@ -2131,12 +2281,20 @@
 	<type name="ZmbM_VillagerOld_White">
 		<cargo preset="foodVillage" />
 		<cargo preset="toolsVillage" />
-		<attachments preset="glassesVillage" />
 		<attachments preset="hatsFarm" />
 	</type>
 	<!-- Special -->
 	<type name="ZmbM_Santa">
 		<attachments preset="SantaHat" />
+	</type>
+	<type name="ZmbM_Mummy">
+		<cargo chance="0.20">
+			<item name="BandageDressing" chance="0.2" />
+			<item name="Epinephrine" chance="0.2" />
+			<item name="CharcoalTablets" chance="0.2" />
+			<item name="TetracyclineAntibiotics" chance="0.2" />
+			<item name="VitaminBottle" chance="0.2" />
+		</cargo>
 	</type>
 	<!--END OF ZOMBIES  -->
 	<!--  WEAPONS  -->
