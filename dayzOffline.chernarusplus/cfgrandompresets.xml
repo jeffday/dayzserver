@@ -392,10 +392,9 @@
 				<item name="TaloonBag_Orange" chance="0.10" />
 				<item name="TaloonBag_Violet" chance="0.10" />
 		</attachments>
-		<attachments chance="0.00" name="glassesVillage"> <!--was chance="0.30"; removed coz of attachment slot is missing -->
-			<item name="ThickFramesGlasses" chance="0.10" />
-			<item name="ThinFramesGlasses" chance="0.20" />
-			<item name="DesignerGlasses" chance="0.20" />
+		<attachments chance="0.1" name="glassesVillage"> <!--was chance="0.30"; removed coz of attachment slot is missing -->
+			<item name="Headtorch_Black" chance="0.5" />
+			<item name="Headtorch_Grey" chance="0.5" />
 		</attachments>
 
 	<!--CITY ATTACHMENTS-->
@@ -418,14 +417,9 @@
 				<item name="BaseballBat" chance="1.0" />
 				<item name="Machete" chance="1.0" />
 		</attachments>
-		<attachments chance="0.00" name="glassesCity"> <!--was chance="0.20"; removed coz of attachment slot is missing -->
-			<item name="ThickFramesGlasses" chance="0.10" />
-			<item name="ThinFramesGlasses" chance="0.10" />
-			<item name="DesignerGlasses" chance="0.10" />
-			<item name="SportGlasses_Black" chance="0.10" />
-			<item name="SportGlasses_Blue" chance="0.10" />
-			<item name="SportGlasses_Green" chance="0.10" />
-			<item name="SportGlasses_Orange" chance="0.10" />
+		<attachments chance="0.1" name="glassesCity"> <!--was chance="0.20"; removed coz of attachment slot is missing -->
+			<item name="Headtorch_Black" chance="0.5" />
+			<item name="Headtorch_Grey" chance="0.5" />
 		</attachments>
 		<attachments chance="0.1" name="bagsCity">
 				<item name="SlingBag" chance="0.20" />
@@ -602,13 +596,7 @@
 				<item name="PressVest_Blue" chance="0.25" />
 				<item name="PressVest_LightBlue" chance="0.25" />
 		</attachments>
-		
-		<!--Headtorches-->
-		<attachments chance= "0.03" name="headtorches">
-			<item name="Headtorch_Grey" chance="0.5" />
-			<item name="Headtorch_Black" chance="0.5" />
-		</attachments>
-		
+				
 		<!--T1 GEAR-->
 		<cargo chance="0.15" name="drinks_T1">
 				<item name="SodaCan_Cola" chance="0.10" />
