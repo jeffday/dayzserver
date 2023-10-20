@@ -2296,6 +2296,20 @@
 			<item name="VitaminBottle" chance="0.2" />
 		</cargo>
 	</type>
+	<type name="CDAJ_ZmbM_Demon">
+		<cargo chance="0.50">
+			<item name="GoatSteakMeat" chance="1.0" />
+		</cargo>
+		<cargo chance="0.50">
+			<item name="GoatSteakMeat" chance="1.0" />
+		</cargo>
+		<cargo chance="0.50">
+			<item name="GoatSteakMeat" chance="1.0" />
+		</cargo>
+		<cargo chance="0.50">
+			<item name="GoatSteakMeat" chance="1.0" />
+		</cargo>
+	</type>
 	<!--END OF ZOMBIES  -->
 	<!--  WEAPONS  -->
 	<type name="MakarovIJ70">
