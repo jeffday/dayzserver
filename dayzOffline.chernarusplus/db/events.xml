@@ -228,9 +228,10 @@
             <child lootmax="5" lootmin="0" max="0" min="10" type="ZmbM_PatrolNormal_Summer"/>
             <child lootmax="5" lootmin="0" max="0" min="20" type="ZmbM_SoldierNormal"/>
             <child lootmax="5" lootmin="0" max="0" min="5" type="ZmbM_usSoldier_Heavy_Woodland"/>
-            <child lootmax="5" lootmin="0" max="0" min="5" type="ZmbM_usSoldier_Officer_Desert"/>
-            <child lootmax="5" lootmin="0" max="0" min="5" type="ZmbM_usSoldier_normal_Desert"/>
-            <child lootmax="5" lootmin="0" max="0" min="5" type="ZmbM_usSoldier_normal_Woodland"/>
+            <child lootmax="5" lootmin="0" max="0" min="4" type="ZmbM_usSoldier_Officer_Desert"/>
+            <child lootmax="5" lootmin="0" max="0" min="3" type="ZmbM_usSoldier_normal_Desert"/>
+            <child lootmax="5" lootmin="0" max="0" min="3" type="ZmbM_usSoldier_normal_Woodland"/>
+            <child lootmax="5" lootmin="0" max="0" min="5" type="CDAJ_ZmbM_Dark_Heavy"/>
         </children>
     </event>
     <event name="InfectedCity">
@@ -525,9 +526,9 @@
         <limit>custom</limit>
         <active>1</active>
         <children>
-            <child lootmax="5" lootmin="0" max="0" min="70" type="ZmbM_priestPopSkinny"/>
+            <child lootmax="5" lootmin="0" max="0" min="50" type="ZmbM_priestPopSkinny"/>
             <child lootmax="3" lootmin="0" max="0" min="10" type="CDAJ_ZmbM_Demon"/>
-            <child lootmax="3" lootmin="0" max="0" min="20" type="ZmbM_Mummy"/>
+            <child lootmax="3" lootmin="0" max="0" min="40" type="ZmbM_Mummy"/>
         </children>
     </event>
     <event name="InfectedSanta">
