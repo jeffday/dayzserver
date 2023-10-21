@@ -525,14 +525,9 @@
         <limit>custom</limit>
         <active>1</active>
         <children>
-            <child lootmax="5" lootmin="0" max="0" min="20" type="ZmbM_priestPopSkinny"/>
-            <child lootmax="5" lootmin="0" max="0" min="20" type="GG_ZmbM_priestChanting"/>
-            <child lootmax="5" lootmin="0" max="0" min="10" type="GG_ZmbM_priestChanting_Smoke"/>
-            <child lootmax="5" lootmin="0" max="0" min="10" type="GG_ZmbM_priestPopSkinny_Smoke"/>
-            <child lootmax="5" lootmin="0" max="0" min="10" type="GG_ZmbM_priestChanting_Fire"/>
-            <child lootmax="5" lootmin="0" max="0" min="10" type="GG_ZmbM_priestPopSkinny_Fire"/>
-            <child lootmax="3" lootmin="0" max="0" min="2" type="CDAJ_ZmbM_Demon"/>
-            <child lootmax="3" lootmin="0" max="0" min="18" type="ZmbM_Mummy"/>
+            <child lootmax="5" lootmin="0" max="0" min="70" type="ZmbM_priestPopSkinny"/>
+            <child lootmax="3" lootmin="0" max="0" min="10" type="CDAJ_ZmbM_Demon"/>
+            <child lootmax="3" lootmin="0" max="0" min="20" type="ZmbM_Mummy"/>
         </children>
     </event>
     <event name="InfectedSanta">
