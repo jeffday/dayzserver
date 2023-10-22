@@ -178,15 +178,31 @@
 	</event>
 	<event name="StaticC130Crash">
 		<zone smin="1" smax="3" dmin="3" dmax="5" r="45" />
-		<pos x="4663.12" z="10325.66" a="-1" />
-		<pos x="5097.64" z="10457.52" a="-1" />
-		<pos x="5199.71" z="8905.67" a="-1" />
-		<pos x="3492.72" z="10845.41" a="-1" />
-		<pos x="4914.89" z="9741.01" a="-1" />
-		<pos x="2782.12" z="13005.36" a="-1" />
-		<pos x="4236.37" z="13489.67" a="-1" />
-		<pos x="4852.68" z="8555.65" a="-1" />
-		<pos x="1050.83" z="14618.42" a="-1" />
+		<pos x="4663.12" z="10325.66" a="-1" /> <!-- NWAF, in front of big maintenance hangar -->
+		<pos x="5097.64" z="10457.52" a="-1" /> <!-- NWAF, outside of east entrance -->
+		<pos x="5199.71" z="8905.67" a="-1" /> <!-- NW of Kabanino -->
+		<pos x="3492.72" z="10845.41" a="-1" /> <!-- NWAF, outside of NW junkyard -->
+		<pos x="4914.89" z="9741.01" a="-1" /> <!-- NWAF, south runway in front of hangars -->
+		<pos x="2782.12" z="13005.36" a="-1" /> <!-- NE of Topolniki-->
+		<pos x="4236.37" z="13489.67" a="-1" /> <!-- ENE of Novaya Petrovka -->
+		<pos x="4852.68" z="8555.65" a="-1" /> <!-- NE of VMC Military -->
+		<pos x="1050.83" z="14618.42" a="-1" /> <!-- Tisy Gun range-->
+		<pos x="2198.87" z="14937.22" a="-1" /> <!-- NE of Tisy Military -->
+		<pos x="3616.18" z="12877.43" a="-1" /> <!-- Novaya Petrovka -->
+		<pos x="2568.26" z="11760.98" a="-1" /> <!-- NE of Vavilovo -->
+		<pos x="919.60" z="10759.29" a="-1" /> <!-- SE of Biathlon Arena -->
+		<pos x="2364.12" z="10049.35" a="-1" /> <!-- W of Lopatino -->
+		<pos x="3143.74" z="8779.24" a="-1" /> <!-- SW of Vybor -->
+		<pos x="2173.59" z="8098.48" a="-1" /> <!-- W of Putoshka -->
+		<pos x="3571.46" z="7509.13" a="-1" /> <!-- SE of Putoshka -->
+		<pos x="3946.69" z="7711.42" a="-1" /> <!-- SW of VMC Military -->
+		<pos x="6229.16" z="8513.21" a="-1" /> <!-- N of Stary Sobor -->
+		<pos x="5834.49" z="10948.40" a="-1" /> <!-- N of Grishino -->
+		<pos x="1761.43" z="5281.45" a="-1" /> <!-- W of Zelenogorsk -->
+		<pos x="2088.05" z="4096.93" a="-1" /> <!-- E of Pavlovo -->
+		<pos x="1323.99" z="4641.54" a="-1" /> <!-- NW of Pavlovo -->
+		<pos x="3120.41" z="5086.95" a="-1" /> <!-- W of Drozhino -->
+		<pos x="3859.20" z="6510.72" a="-1" /> <!-- N of Green Mountain -->
 	</event>
     <event name="StaticHeliCrash">
 		<zone smin="1" smax="3" dmin="3" dmax="5" r="45" />
