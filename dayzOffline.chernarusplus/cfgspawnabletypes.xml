@@ -2310,6 +2310,13 @@
 			<item name="GoatSteakMeat" chance="1.0" />
 		</cargo>
 	</type>
+	<type name="CDAJ_ZmbM_Dark_Heavy">
+		<cargo preset="ammoChad" />
+		<cargo preset="ammoChad" />
+		<attachments preset="hatsChad" />
+		<attachments preset="bagsChad" />
+		<attachments preset="vestsChad" />
+	</type>
 	<!--END OF ZOMBIES  -->
 	<!--  WEAPONS  -->
 	<type name="MakarovIJ70">
