@@ -226,14 +226,14 @@
 	</type>
 <!-- AWM -->
 	<type name="TWM_AWM">
-		<attachments preset="long_range_optics" />
+		<attachments preset="long_range_scopes" />
 		<attachments chance="0.15">
 			<item name="TWM_Mag_AWM" chance="1.00" />
 		</attachments> 
 	</type>
 <!-- M200 -->
 	<type name="TWM_M200">
-		<attachments preset="long_range_optics" />
+		<attachments preset="long_range_scopes" />
 		<attachments chance="0.15">
 			<item name="TWM_Mag_M200" chance="1.00" />
 		</attachments> 
@@ -462,13 +462,13 @@
 	</type>
 <!-- update 1.4.5 The Melee Update -->
 	<type name="TWM_M2010">
-		<attachments preset="long_range_optics" />
+		<attachments preset="long_range_scopes" />
 		<attachments chance="0.30">
 			<item name="TWM_Mag_M2010_5rnd" chance="1.00" />
 		</attachments>
 	</type>
 	<type name="TWM_M2010_Tan">
-		<attachments preset="long_range_optics" />
+		<attachments preset="long_range_scopes" />
 		<attachments chance="0.30">
 			<item name="TWM_Mag_M2010_5rnd" chance="1.00" />
 		</attachments>
@@ -570,35 +570,35 @@
 	</type>
 <!-- SV98 -->
 	<type name="TWM_SV98">
-		<attachments preset="long_range_optics" />
+		<attachments preset="long_range_scopes" />
 		<attachments chance="0.25">
 			<item name="TWM_Mag_SV98" chance="1.00" />
 		</attachments>
 	</type>
 <!-- HecateII -->
 	<type name="TWM_HecateII">
-		<attachments preset="long_range_optics" />
+		<attachments preset="long_range_scopes" />
 		<attachments chance="0.05">
 			<item name="TWM_Mag_HecateII" chance="1.00" />
 		</attachments>
 	</type>
 <!-- M82A1 -->
 	<type name="TWM_M82A1">
-		<attachments preset="long_range_optics" />
+		<attachments preset="long_range_scopes" />
 		<attachments chance="0.05">
 			<item name="TWM_Mag_M82A1" chance="1.00" />
 		</attachments>
 	</type>
 	<!-- M82A1 -->
 	<type name="TWM_M82A1_Tan">
-		<attachments preset="long_range_optics" />
+		<attachments preset="long_range_scopes" />
 		<attachments chance="0.05">
 			<item name="TWM_Mag_M82A1_Tan" chance="1.00" />
 		</attachments>
 	</type>
 <!-- TWM_OSV96 -->
 	<type name="TWM_OSV96">
-		<attachments preset="long_range_optics" />
+		<attachments preset="long_range_scopes" />
 		<attachments chance="0.05">
 			<item name="TWM_Mag_OSV96" chance="1.00" />
 		</attachments>

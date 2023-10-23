@@ -2954,10 +2954,10 @@
         <value name="Tier4" />
     </type>
     <type name="BO_MKGS">
-        <nominal>5</nominal>
+        <nominal>0</nominal>
         <lifetime>7200</lifetime>
         <restock>300</restock>
-        <min>3</min>
+        <min>0</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -2966,10 +2966,10 @@
         <usage name="Military"/>
     </type>
     <type name="BO_Mag_MKGS_32rnd">
-        <nominal>7</nominal>
+        <nominal>0</nominal>
         <lifetime>7200</lifetime>
         <restock>300</restock>
-        <min>4</min>
+        <min>0</min>
         <quantmin>5</quantmin>
         <quantmax>50</quantmax>
         <cost>100</cost>
