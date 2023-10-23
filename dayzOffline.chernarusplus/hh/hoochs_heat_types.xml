@@ -166,10 +166,10 @@
   </type>
   <!-- Pistols -->
   <type name="HH_Beretta92">
-    <nominal>20</nominal>
+    <nominal>0</nominal>
     <lifetime>7200</lifetime>
     <restock>0</restock>
-    <min>10</min>
+    <min>0</min>
     <quantmin>-1</quantmin>
     <quantmax>-1</quantmax>
     <cost>100</cost>
@@ -179,10 +179,10 @@
     <usage name="Police"/>
   </type>
   <type name="HH_Beretta92_Chrome">
-    <nominal>20</nominal>
+    <nominal>0</nominal>
     <lifetime>7200</lifetime>
     <restock>0</restock>
-    <min>10</min>
+    <min>0</min>
     <quantmin>-1</quantmin>
     <quantmax>-1</quantmax>
     <cost>100</cost>
@@ -402,10 +402,10 @@
     <value name="Tier2"/>
   </type>
   <type name="HH_Beretta92_Mag">
-    <nominal>20</nominal>
+    <nominal>0</nominal>
     <lifetime>7200</lifetime>
     <restock>0</restock>
-    <min>15</min>
+    <min>0</min>
     <quantmin>10</quantmin>
     <quantmax>100</quantmax>
     <cost>100</cost>
