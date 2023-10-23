@@ -241,6 +241,20 @@
     <value name="Tier1"/>
     <value name="Tier2"/>
   </type>
+  <type name="HH_P320">
+    <nominal>10</nominal>
+    <lifetime>28800</lifetime>
+    <restock>0</restock>
+    <min>8</min>
+    <quantmin>-1</quantmin>
+    <quantmax>-1</quantmax>
+    <cost>100</cost>
+    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+    <category name="weapons"/>
+    <usage name="Military"/>
+    <value name="Tier1"/>
+    <value name="Tier2"/>
+  </type>
   <type name="HH_TT33">
     <nominal>0</nominal>
     <lifetime>10800</lifetime>
@@ -401,6 +415,20 @@
     <value name="Tier1"/>
     <value name="Tier2"/>
   </type>
+  <type name="HH_P320_Mag">
+    <nominal>20</nominal>
+    <lifetime>28800</lifetime>
+    <restock>0</restock>
+    <min>15</min>
+    <quantmin>10</quantmin>
+    <quantmax>100</quantmax>
+    <cost>100</cost>
+    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+    <category name="weapons"/>
+    <usage name="Military"/>
+    <value name="Tier1"/>
+    <value name="Tier2"/>
+  </type>
   <type name="HH_Beretta92_Mag">
     <nominal>0</nominal>
     <lifetime>7200</lifetime>
@@ -449,6 +477,18 @@
     <usage name="Village"/>
     <usage name="coast"/>
   </type>
+  <type name="HH_AmmoBox_10mm_25Rnd">
+    <nominal>15</nominal>
+    <lifetime>7200</lifetime>
+    <restock>1200</restock>
+    <min>8</min>
+    <quantmin>-1</quantmin>
+    <quantmax>-1</quantmax>
+    <cost>100</cost>
+    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+    <category name="weapons"/>
+    <usage name="Military"/>	
+  </type>
   <type name="HH_AmmoBox_50AE_20Rnd">
     <nominal>0</nominal>
     <lifetime>5600</lifetime>
@@ -495,6 +535,19 @@
     <usage name="Town"/>
     <usage name="Village"/>
     <usage name="coast"/>
+  </type>
+  <type name="HH_Ammo_10mm">
+    <nominal>45</nominal>
+    <lifetime>7200</lifetime>
+    <restock>1200</restock>
+    <min>32</min>
+    <quantmin>10</quantmin>
+    <quantmax>30</quantmax>
+    <cost>100</cost>
+    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+    <category name="weapons"/>
+    <tag name="shelves"/>
+    <usage name="Military"/>
   </type>
   <type name="HH_Ammo_50AE">
     <nominal>0</nominal>

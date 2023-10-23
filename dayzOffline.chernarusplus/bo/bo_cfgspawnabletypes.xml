@@ -1280,4 +1280,10 @@
 			<item name="HuntingOptic" chance="1.00" />
 		</attachments>
 	</type>
+	<type name="BO_ACR17S">
+		<attachments preset="dmr_optics" />
+		<attachments chance="0.60">
+			<item name="BO_Mag_ACR17_30rnd" chance="1.0" />
+		</attachments>
+	</type>
 </spawnabletypes>
