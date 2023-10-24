@@ -89,12 +89,6 @@ Do not forget to add attribute act="car", if root class represents moveable vehi
 		<file name="cfgspawnabletypes.xml" type="spawnabletypes" />
 	</ce>
 
-	<!-- AdvancedMedicalSupplies -->
-	<ce folder="ams">
-		<file name="types_AMS.xml" type="types" />
-		<file name="cfgspawnabletypes_AMS.xml" type="spawnabletypes" />
-	</ce>
-
 	<!-- CJ187 Immersive NVG -->
 	<ce folder="nvg">
 		<file name="immersive_nvg_types.xml" type="types" />
@@ -133,6 +127,11 @@ Do not forget to add attribute act="car", if root class represents moveable vehi
 	<ce folder="twm">
 		<file name="twm_types.xml" type="types" />
 		<file name="twm_spawnabletypes.xml" type="spawnabletypes" />
+	</ce>
+
+	<!-- Fall of Mankind Attachments  -->
+	<ce folder="foma">
+		<file name="foma_types.xml" type="types" />
 	</ce>
 
 </economycore>
