@@ -11834,6 +11834,21 @@
         <value name="Tier3"/>
         <value name="Tier4"/>
     </type>
+    <type name="Mag_AK74_30Rnd_Black">
+        <nominal>25</nominal>
+        <lifetime>28800</lifetime>
+        <restock>0</restock>
+        <min>20</min>
+        <quantmin>5</quantmin>
+        <quantmax>50</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="weapons"/>
+        <usage name="Military"/>
+        <value name="Tier2"/>
+        <value name="Tier3"/>
+        <value name="Tier4"/>
+    </type>
     <type name="Mag_AK74_45Rnd">
         <nominal>0</nominal>
         <lifetime>28800</lifetime>
@@ -11847,10 +11862,10 @@
         <usage name="ContaminatedArea"/>
     </type>
     <type name="Mag_AKM_30Rnd">
-        <nominal>0</nominal>
-        <lifetime>28800</lifetime>
-        <restock>0</restock>
-        <min>0</min>
+        <nominal>5</nominal>
+        <lifetime>7200</lifetime>
+        <restock>300</restock>
+        <min>2</min>
         <quantmin>5</quantmin>
         <quantmax>50</quantmax>
         <cost>100</cost>
@@ -11873,10 +11888,10 @@
         <usage name="Military"/>
     </type>
     <type name="Mag_AKM_Palm30Rnd">
-        <nominal>0</nominal>
-        <lifetime>28800</lifetime>
-        <restock>0</restock>
-        <min>0</min>
+        <nominal>10</nominal>
+        <lifetime>7200</lifetime>
+        <restock>300</restock>
+        <min>4</min>
         <quantmin>5</quantmin>
         <quantmax>50</quantmax>
         <cost>100</cost>
@@ -12204,10 +12219,10 @@
         <value name="Tier4"/>
     </type>
     <type name="Mag_STANAG_30Rnd">
-        <nominal>5</nominal>
+        <nominal>10</nominal>
         <lifetime>28800</lifetime>
         <restock>0</restock>
-        <min>2</min>
+        <min>4</min>
         <quantmin>5</quantmin>
         <quantmax>50</quantmax>
         <cost>100</cost>
