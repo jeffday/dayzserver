@@ -238,7 +238,7 @@
 		<usage name="Military" />
 		<value name="Tier4" />
 	</type>
-	<type name="TWM_Tikka">
+	<!-- <type name="TWM_Tikka">
 		<nominal>2</nominal>
 		<lifetime>8200</lifetime>
 		<restock>1800</restock>
@@ -251,7 +251,7 @@
         <usage name="Military"/>
         <usage name="Hunting"/>
         <value name="Tier4"/>
-	</type>
+	</type> -->
 	<type name="TWM_Firefly">
         <nominal>10</nominal>
         <lifetime>7200</lifetime>
@@ -282,7 +282,7 @@
         <value name="Tier4"/>
 	</type>
 <!-- Taser Rifle Spawns Dissabled by default enable if you want Taser Mags / Rifles to spawn on the map -->
-	<type name="TWM_TaserRifle">
+	<!-- <type name="TWM_TaserRifle">
 		<nominal>0</nominal>
 		<lifetime>8200</lifetime>
 		<restock>1800</restock>
@@ -305,7 +305,7 @@
 		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
 		<category name="weapons" />
 		<usage name="Military" />
-	</type>
+	</type> -->
 <!-- Magazines -->
 <!-- Taser Rifle Magazines Disabled by Default, enable if you want Taser Mags / Rifles to spawn on the map -->
     <type name="TWM_Mag_Socom458_10rnd">
@@ -405,7 +405,7 @@
         <value name="Tier3"/>
         <value name="Tier4"/>
     </type>
-    <type name="TWM_Mag_Tikka_5rnd">
+    <!-- <type name="TWM_Mag_Tikka_5rnd">
         <nominal>5</nominal>
         <lifetime>7200</lifetime>
         <restock>1800</restock>
@@ -419,7 +419,7 @@
         <usage name="Military"/>
         <usage name="Hunting"/>
         <value name="Tier4"/>
-    </type>
+    </type> -->
     <type name="TWM_Mag_Ash12">
         <nominal>2</nominal>
         <lifetime>7200</lifetime>
@@ -433,7 +433,7 @@
         <usage name="Military"/>
         <value name="Tier4"/>
     </type>
-    <type name="TWM_Mag_TaserRifle">
+    <!-- <type name="TWM_Mag_TaserRifle">
         <nominal>0</nominal>
         <lifetime>7200</lifetime>
         <restock>1800</restock>
@@ -456,7 +456,7 @@
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="weapons"/>
         <usage name="Military"/>
-    </type>
+    </type> -->
 <!-- Ammo / Ammo Boxes -->	
 <!-- Taser Ammo Disabled, enable if you want it to spawn-->
 	<type name="TWM_Ammobox_Taserprobes">
@@ -556,7 +556,7 @@
         <value name="Tier4"/>
     </type>
 <!-- 50x110Win-->
-	<type name="TWM_Ammobox_50x110Win">
+	<!-- <type name="TWM_Ammobox_50x110Win">
         <nominal>7</nominal>
         <lifetime>28800</lifetime>
         <restock>0</restock>
@@ -585,7 +585,7 @@
         <usage name="Military"/>
         <usage name="Hunting"/>
         <value name="Tier4"/>
-    </type>
+    </type> -->
 <!-- 12x55 -->
 	<type name="TWM_Ammobox_12x55">
         <nominal>7</nominal>
@@ -688,7 +688,7 @@
         <value name="Tier3"/>
         <value name="Tier4"/>
     </type>
-    <type name="TWM_Ammo_408">
+    <type name="TWM_Ammo_408Cheytac">
         <nominal>0</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
@@ -718,7 +718,7 @@
         <value name="Tier3"/>
         <value name="Tier4"/>
     </type>
-    <type name="TWM_Ammo_338">
+    <type name="TWM_Ammo_338Magnum">
         <nominal>0</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
@@ -2730,7 +2730,7 @@
 		<value name="Tier3"/>
 		<value name="Tier4"/>
 	</type>
-	<type name="TWM_Mag_300BO_Tan">
+	<!-- <type name="TWM_Mag_300BO_Tan">
         <nominal>0</nominal>
         <lifetime>7200</lifetime>
         <restock>7200</restock>
@@ -2744,7 +2744,7 @@
         <usage name="Military"/>
 		<value name="Tier3"/>
 		<value name="Tier4"/>
-	</type>
+	</type> -->
 	<type name="TWM_XM25"> 
 		<nominal>0</nominal>
 		<lifetime>7200</lifetime>
