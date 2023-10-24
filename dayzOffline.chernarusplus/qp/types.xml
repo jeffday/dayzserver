@@ -1,10 +1,10 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <types>
   <type name="tacticalbelt_quad_black">
-    <nominal>0</nominal>
-    <lifetime>2700</lifetime>
+    <nominal>8</nominal>
+    <lifetime>28800</lifetime>
     <restock>1800</restock>
-    <min>0</min>
+    <min>3</min>
     <quantmin>-1</quantmin>
     <quantmax>-1</quantmax>
     <cost>100</cost>
@@ -15,10 +15,10 @@
     <value name="Tier3" />
   </type>
   <type name="tacticalbelt_quad_green">
-    <nominal>0</nominal>
-    <lifetime>2700</lifetime>
+    <nominal>8</nominal>
+    <lifetime>28800</lifetime>
     <restock>1800</restock>
-    <min>0</min>
+    <min>3</min>
     <quantmin>-1</quantmin>
     <quantmax>-1</quantmax>
     <cost>100</cost>
