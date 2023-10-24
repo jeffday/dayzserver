@@ -584,10 +584,10 @@
     </type>
 <!-- 12x55 -->
 	<type name="TWM_Ammobox_12x55">
-        <nominal>15</nominal>
+        <nominal>7</nominal>
         <lifetime>28800</lifetime>
         <restock>0</restock>
-        <min>10</min>
+        <min>3</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -595,25 +595,21 @@
         <category name="weapons"/>
         <tag name="shelves"/>
         <usage name="Military"/>
-        <usage name="Hunting"/>
-        <value name="Tier2"/>
         <value name="Tier3"/>
         <value name="Tier4"/>
     </type>
     <type name="TWM_Ammo_12x55">
-        <nominal>55</nominal>
+        <nominal>14</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
-        <min>35</min>
+        <min>8</min>
         <quantmin>10</quantmin>
-        <quantmax>70</quantmax>
+        <quantmax>20</quantmax>
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="weapons"/>
         <tag name="shelves"/>
         <usage name="Military"/>
-        <usage name="Hunting"/>
-        <value name="Tier2"/>
         <value name="Tier3"/>
         <value name="Tier4"/>
     </type>
