@@ -101,46 +101,6 @@
 			<item name="MMG_nbc_pouch" 			chance="0.05" />
 		</attachments>
 	</type>
-	<type name="MMG_JPC_Vest_germany">
-		<attachments chance="1.00">
-			<item name="MMG_Mag_Pouch_germany" 		chance="0.20" />
-			<item name="MMG_Med_Pouch_germany" 		chance="0.20" />
-			<item name="MMG_ammo_pouch_germany"		chance="0.20" />
-			<item name="MMG_bottle_germany" 		chance="0.20" />
-			<item name="MMG_sheath_germany" 		chance="0.20" />
-			<item name="MMG_nbc_pouch" 			chance="0.05" />
-		</attachments>
-	</type>
-	<type name="MMG_JPC_Vest_norway">
-		<attachments chance="1.00">
-			<item name="MMG_Mag_Pouch_norway" 		chance="0.20" />
-			<item name="MMG_Med_Pouch_norway" 		chance="0.20" />
-			<item name="MMG_ammo_pouch_norway"		chance="0.20" />
-			<item name="MMG_bottle_norway" 		chance="0.20" />
-			<item name="MMG_sheath_norway" 		chance="0.20" />
-			<item name="MMG_nbc_pouch" 			chance="0.05" />
-		</attachments>
-	</type>
-	<type name="MMG_JPC_Vest_sweden">
-		<attachments chance="1.00">
-			<item name="MMG_Mag_Pouch_sweden" 		chance="0.20" />
-			<item name="MMG_Med_Pouch_sweden" 		chance="0.20" />
-			<item name="MMG_ammo_pouch_sweden"		chance="0.20" />
-			<item name="MMG_bottle_sweden" 		chance="0.20" />
-			<item name="MMG_sheath_sweden" 		chance="0.20" />
-			<item name="MMG_nbc_pouch" 			chance="0.05" />
-		</attachments>
-	</type>
-	<type name="MMG_JPC_Vest_ukraine">
-		<attachments chance="1.00">
-			<item name="MMG_Mag_Pouch_ukraine" 		chance="0.20" />
-			<item name="MMG_Med_Pouch_ukraine" 		chance="0.20" />
-			<item name="MMG_ammo_pouch_ukraine"		chance="0.20" />
-			<item name="MMG_bottle_ukraine" 		chance="0.20" />
-			<item name="MMG_sheath_ukraine" 		chance="0.20" />
-			<item name="MMG_nbc_pouch" 			chance="0.05" />
-		</attachments>
-	</type>
 	<type name="MMG_JPC_Vest_atacs">
 		<attachments chance="1.00">
 			<item name="MMG_Mag_Pouch_atacs" 		chance="0.20" />
@@ -252,46 +212,6 @@
 			<item name="MMG_nbc_pouch" 				chance="0.05" />
 		</attachments>
 	</type>
-	<type name="MMG_tt_vest_germany">
-		<attachments chance="1.00">
-			<item name="MMG_double_magpouch_germany" 	chance="0.20" />
-			<item name="MMG_double_magpouch_germany" 	chance="0.20" />
-			<item name="MMG_Med_Pouch_germany" 			chance="0.20" />
-			<item name="MMG_ammo_Pouch_germany" 		chance="0.20" />
-			<item name="MMG_bottle_germany" 			chance="0.20" />
-			<item name="MMG_nbc_pouch" 				chance="0.05" />
-		</attachments>
-	</type>
-	<type name="MMG_tt_vest_norway">
-		<attachments chance="1.00">
-			<item name="MMG_double_magpouch_norway" 	chance="0.20" />
-			<item name="MMG_double_magpouch_norway" 	chance="0.20" />
-			<item name="MMG_Med_Pouch_norway" 			chance="0.20" />
-			<item name="MMG_ammo_Pouch_norway" 		chance="0.20" />
-			<item name="MMG_bottle_norway" 			chance="0.20" />
-			<item name="MMG_nbc_pouch" 				chance="0.05" />
-		</attachments>
-	</type>
-	<type name="MMG_tt_vest_sweden">
-		<attachments chance="1.00">
-			<item name="MMG_double_magpouch_sweden" 	chance="0.20" />
-			<item name="MMG_double_magpouch_sweden" 	chance="0.20" />
-			<item name="MMG_Med_Pouch_sweden" 			chance="0.20" />
-			<item name="MMG_ammo_Pouch_sweden" 		chance="0.20" />
-			<item name="MMG_bottle_sweden" 			chance="0.20" />
-			<item name="MMG_nbc_pouch" 				chance="0.05" />
-		</attachments>
-	</type>
-	<type name="MMG_tt_vest_ukraine">
-		<attachments chance="1.00">
-			<item name="MMG_double_magpouch_ukraine" 	chance="0.20" />
-			<item name="MMG_double_magpouch_ukraine" 	chance="0.20" />
-			<item name="MMG_Med_Pouch_ukraine" 			chance="0.20" />
-			<item name="MMG_ammo_Pouch_ukraine" 		chance="0.20" />
-			<item name="MMG_bottle_ukraine" 			chance="0.20" />
-			<item name="MMG_nbc_pouch" 				chance="0.05" />
-		</attachments>
-	</type>
 	<type name="MMG_tt_vest_atacs">
 		<attachments chance="1.00">
 			<item name="MMG_double_magpouch_atacs" 	chance="0.20" />
@@ -393,33 +313,6 @@
 			<item name="MMG_nbc_pouch" 			chance="0.05" />
 		</attachments>
 	</type>
-	<type name="MMG_chestrig_germany">
-		<attachments chance="1.00">
-			<item name="MMG_Med_Pouch_germany" 		chance="0.20" />
-			<item name="MMG_ammo_pouch_germany"		chance="0.20" />
-			<item name="MMG_bottle_germany" 		chance="0.20" />
-			<item name="MMG_sheath_germany" 		chance="0.20" />
-			<item name="MMG_nbc_pouch" 			chance="0.05" />
-		</attachments>
-	</type>
-	<type name="MMG_chestrig_norway">
-		<attachments chance="1.00">
-			<item name="MMG_Med_Pouch_norway" 		chance="0.20" />
-			<item name="MMG_ammo_pouch_norway"		chance="0.20" />
-			<item name="MMG_bottle_norway" 		chance="0.20" />
-			<item name="MMG_sheath_norway" 		chance="0.20" />
-			<item name="MMG_nbc_pouch" 			chance="0.05" />
-		</attachments>
-	</type>
-	<type name="MMG_chestrig_ukraine">
-		<attachments chance="1.00">
-			<item name="MMG_Med_Pouch_ukraine" 		chance="0.20" />
-			<item name="MMG_ammo_pouch_ukraine"		chance="0.20" />
-			<item name="MMG_bottle_ukraine" 		chance="0.20" />
-			<item name="MMG_sheath_ukraine" 		chance="0.20" />
-			<item name="MMG_nbc_pouch" 			chance="0.05" />
-		</attachments>
-	</type>
 	<type name="mmg_chestrig_atacs">
 		<attachments chance="1.00">
 			<item name="MMG_Med_Pouch_atacs" 		chance="0.20" />
@@ -517,42 +410,6 @@
 			<item name="MMG_double_magpouch_ucp" 	chance="0.20" />
 			<item name="MMG_Med_Pouch_ucp" 			chance="0.20" />
 			<item name="MMG_tactical_pouch_ucp" 	chance="0.20" />
-			<item name="MMG_nbc_pouch" 				chance="0.05" />
-		</attachments>
-	</type>
-	<type name="MMG_MK_III_Armor_germany">
-		<attachments chance="1.00">
-			<item name="MMG_single_magpouch_germany" 	chance="0.20" />
-			<item name="MMG_double_magpouch_germany" 	chance="0.20" />
-			<item name="MMG_Med_Pouch_germany" 			chance="0.20" />
-			<item name="MMG_tactical_pouch_germany" 	chance="0.20" />
-			<item name="MMG_nbc_pouch" 				chance="0.05" />
-		</attachments>
-	</type>
-	<type name="MMG_MK_III_Armor_norway">
-		<attachments chance="1.00">
-			<item name="MMG_single_magpouch_norway" 	chance="0.20" />
-			<item name="MMG_double_magpouch_norway" 	chance="0.20" />
-			<item name="MMG_Med_Pouch_norway" 			chance="0.20" />
-			<item name="MMG_tactical_pouch_norway" 	chance="0.20" />
-			<item name="MMG_nbc_pouch" 				chance="0.05" />
-		</attachments>
-	</type>
-	<type name="MMG_MK_III_Armor_sweden">
-		<attachments chance="1.00">
-			<item name="MMG_single_magpouch_sweden" 	chance="0.20" />
-			<item name="MMG_double_magpouch_sweden" 	chance="0.20" />
-			<item name="MMG_Med_Pouch_sweden" 			chance="0.20" />
-			<item name="MMG_tactical_pouch_sweden" 	chance="0.20" />
-			<item name="MMG_nbc_pouch" 				chance="0.05" />
-		</attachments>
-	</type>
-	<type name="MMG_MK_III_Armor_ukraine">
-		<attachments chance="1.00">
-			<item name="MMG_single_magpouch_ukraine" 	chance="0.20" />
-			<item name="MMG_double_magpouch_ukraine" 	chance="0.20" />
-			<item name="MMG_Med_Pouch_ukraine" 			chance="0.20" />
-			<item name="MMG_tactical_pouch_ukraine" 	chance="0.20" />
 			<item name="MMG_nbc_pouch" 				chance="0.05" />
 		</attachments>
 	</type>
@@ -664,46 +521,6 @@
 			<item name="MMG_mk5_utility_pouch_ucp" 		chance="0.20" />
 			<item name="MMG_mk5_grenade_pouch_ucp" 	chance="0.20" />
 			<item name="MMG_sheath_ucp" 				chance="0.20" />
-		</attachments>
-	</type>
-	<type name="MMG_MK_V_Armor_germany">
-		<attachments chance="1.00">
-			<item name="MMG_Holster_germany" 				chance="0.20" />
-			<item name="MMG_double_magpouch_germany" 		chance="0.20" />
-			<item name="MMG_double_magpouch_germany" 		chance="0.20" />
-			<item name="MMG_mk5_utility_pouch_germany" 		chance="0.20" />
-			<item name="MMG_mk5_grenade_pouch_germany" 	chance="0.20" />
-			<item name="MMG_sheath_germany" 				chance="0.20" />
-		</attachments>
-	</type>
-	<type name="MMG_MK_V_Armor_norway">
-		<attachments chance="1.00">
-			<item name="MMG_Holster_norway" 				chance="0.20" />
-			<item name="MMG_double_magpouch_norway" 		chance="0.20" />
-			<item name="MMG_double_magpouch_norway" 		chance="0.20" />
-			<item name="MMG_mk5_utility_pouch_norway" 		chance="0.20" />
-			<item name="MMG_mk5_grenade_pouch_norway" 	chance="0.20" />
-			<item name="MMG_sheath_norway" 				chance="0.20" />
-		</attachments>
-	</type>
-	<type name="MMG_MK_V_Armor_sweden">
-		<attachments chance="1.00">
-			<item name="MMG_Holster_sweden" 				chance="0.20" />
-			<item name="MMG_double_magpouch_sweden" 		chance="0.20" />
-			<item name="MMG_double_magpouch_sweden" 		chance="0.20" />
-			<item name="MMG_mk5_utility_pouch_sweden" 		chance="0.20" />
-			<item name="MMG_mk5_grenade_pouch_sweden" 	chance="0.20" />
-			<item name="MMG_sheath_sweden" 				chance="0.20" />
-		</attachments>
-	</type>
-	<type name="MMG_MK_V_Armor_ukraine">
-		<attachments chance="1.00">
-			<item name="MMG_Holster_ukraine" 				chance="0.20" />
-			<item name="MMG_double_magpouch_ukraine" 		chance="0.20" />
-			<item name="MMG_double_magpouch_ukraine" 		chance="0.20" />
-			<item name="MMG_mk5_utility_pouch_ukraine" 		chance="0.20" />
-			<item name="MMG_mk5_grenade_pouch_ukraine" 	chance="0.20" />
-			<item name="MMG_sheath_ukraine" 				chance="0.20" />
 		</attachments>
 	</type>
 	<type name="MMG_MK_V_Armor_atacs">
@@ -888,74 +705,6 @@
 			<item name="MMG_nbc_pouch" 					chance="0.05" />	
 		</attachments>
 	</type>
-	<type name="MMG_falcon_b1_belt_germany">
-		<attachments chance="1.00">
-			<item name="MMG_Med_Pouch_germany" 			chance="0.20" />
-			<item name="MMG_tactical_pouch_germany" 	chance="0.20" />
-			<item name="MMG_Holster_germany" 			chance="0.20" />
-			<item name="MMG_carbine_red" 				chance="0.05" />
-			<item name="MMG_carbine_blue" 				chance="0.05" />
-			<item name="MMG_carbine_green" 				chance="0.05" />
-			<item name="MMG_carbine_black" 				chance="0.05" />
-			<item name="MMG_carbine_grey" 				chance="0.05" />
-		    <item name="MMG_carbine_orange" 			chance="0.05" />
-			<item name="Epinephrine" 					chance="0.10" />
-			<item name="Morphine" 						chance="0.10" />
-			<item name="MMG_sheath_germany" 			chance="0.20" />
-			<item name="MMG_nbc_pouch" 					chance="0.05" />	
-		</attachments>
-	</type>
-	<type name="MMG_falcon_b1_belt_norway">
-		<attachments chance="1.00">
-			<item name="MMG_Med_Pouch_norway" 			chance="0.20" />
-			<item name="MMG_tactical_pouch_norway" 		chance="0.20" />
-			<item name="MMG_Holster_norway" 			chance="0.20" />
-			<item name="MMG_carbine_red" 				chance="0.05" />
-			<item name="MMG_carbine_blue" 				chance="0.05" />
-			<item name="MMG_carbine_green" 				chance="0.05" />
-			<item name="MMG_carbine_black" 				chance="0.05" />
-			<item name="MMG_carbine_grey" 				chance="0.05" />
-		    <item name="MMG_carbine_orange" 			chance="0.05" />
-			<item name="Epinephrine" 					chance="0.10" />
-			<item name="Morphine" 						chance="0.10" />
-			<item name="MMG_sheath_norway" 				chance="0.20" />
-			<item name="MMG_nbc_pouch" 					chance="0.05" />	
-		</attachments>
-	</type>
-	<type name="MMG_falcon_b1_belt_sweden">
-		<attachments chance="1.00">
-			<item name="MMG_Med_Pouch_sweden" 			chance="0.20" />
-			<item name="MMG_tactical_pouch_sweden" 		chance="0.20" />
-			<item name="MMG_Holster_sweden" 			chance="0.20" />
-			<item name="MMG_carbine_red" 				chance="0.05" />
-			<item name="MMG_carbine_blue" 				chance="0.05" />
-			<item name="MMG_carbine_green" 				chance="0.05" />
-			<item name="MMG_carbine_black" 				chance="0.05" />
-			<item name="MMG_carbine_grey" 				chance="0.05" />
-		    <item name="MMG_carbine_orange" 			chance="0.05" />
-			<item name="Epinephrine" 					chance="0.10" />
-			<item name="Morphine" 						chance="0.10" />
-			<item name="MMG_sheath_sweden" 				chance="0.20" />
-			<item name="MMG_nbc_pouch" 					chance="0.05" />	
-		</attachments>
-	</type>
-	<type name="MMG_falcon_b1_belt_ukraine">
-		<attachments chance="1.00">
-			<item name="MMG_Med_Pouch_ukraine" 			chance="0.20" />
-			<item name="MMG_tactical_pouch_ukraine" 	chance="0.20" />
-			<item name="MMG_Holster_ukraine" 			chance="0.20" />
-			<item name="MMG_carbine_red" 				chance="0.05" />
-			<item name="MMG_carbine_blue" 				chance="0.05" />
-			<item name="MMG_carbine_green" 				chance="0.05" />
-			<item name="MMG_carbine_black" 				chance="0.05" />
-			<item name="MMG_carbine_grey" 				chance="0.05" />
-		    <item name="MMG_carbine_orange" 			chance="0.05" />
-			<item name="Epinephrine" 					chance="0.10" />
-			<item name="Morphine" 						chance="0.10" />
-			<item name="MMG_sheath_ukraine" 			chance="0.20" />
-			<item name="MMG_nbc_pouch" 					chance="0.05" />	
-		</attachments>
-	</type>
 	<type name="MMG_falcon_b1_belt_atacs">
 		<attachments chance="1.00">
 			<item name="MMG_Med_Pouch_atacs" 			chance="0.20" />
@@ -1104,58 +853,6 @@
 		<cargo preset="mixArmy" />
 		<cargo preset="foodVillage" />
 	</type>
-	<type name="MMG_carrier_backpack_germany">
-		<attachments chance="1.00">
-			<item name="PersonalRadio" 		chance="0.33" />
-			<item name="Chemlight_Blue" 	chance="0.05" />
-			<item name="Chemlight_Green" 	chance="0.05" />
-			<item name="Chemlight_Red" 		chance="0.05" />
-			<item name="Chemlight_White" 	chance="0.05" />
-			<item name="Chemlight_yellow" 	chance="0.05" />
-		</attachments>
-		<cargo preset="mixArmy" />
-		<cargo preset="mixArmy" />
-		<cargo preset="foodVillage" />
-	</type>
-	<type name="MMG_carrier_backpack_norway">
-		<attachments chance="1.00">
-			<item name="PersonalRadio" 		chance="0.33" />
-			<item name="Chemlight_Blue" 	chance="0.05" />
-			<item name="Chemlight_Green" 	chance="0.05" />
-			<item name="Chemlight_Red" 		chance="0.05" />
-			<item name="Chemlight_White" 	chance="0.05" />
-			<item name="Chemlight_yellow" 	chance="0.05" />
-		</attachments>
-		<cargo preset="mixArmy" />
-		<cargo preset="mixArmy" />
-		<cargo preset="foodVillage" />
-	</type>
-	<type name="MMG_carrier_backpack_sweden">
-		<attachments chance="1.00">
-			<item name="PersonalRadio" 		chance="0.33" />
-			<item name="Chemlight_Blue" 	chance="0.05" />
-			<item name="Chemlight_Green" 	chance="0.05" />
-			<item name="Chemlight_Red" 		chance="0.05" />
-			<item name="Chemlight_White" 	chance="0.05" />
-			<item name="Chemlight_yellow" 	chance="0.05" />
-		</attachments>
-		<cargo preset="mixArmy" />
-		<cargo preset="mixArmy" />
-		<cargo preset="foodVillage" />
-	</type>
-	<type name="MMG_carrier_backpack_ukraine">
-		<attachments chance="1.00">
-			<item name="PersonalRadio" 		chance="0.33" />
-			<item name="Chemlight_Blue" 	chance="0.05" />
-			<item name="Chemlight_Green" 	chance="0.05" />
-			<item name="Chemlight_Red" 		chance="0.05" />
-			<item name="Chemlight_White" 	chance="0.05" />
-			<item name="Chemlight_yellow" 	chance="0.05" />
-		</attachments>
-		<cargo preset="mixArmy" />
-		<cargo preset="mixArmy" />
-		<cargo preset="foodVillage" />
-	</type>
 	<type name="MMG_carrier_backpack_atacs">
 		<attachments chance="1.00">
 			<item name="PersonalRadio" 		chance="0.33" />
@@ -1275,58 +972,6 @@
 		<cargo preset="foodVillage" />
 	</type>
 	<type name="MMG_supplybag_ucp">
-		<attachments chance="1.00">
-			<item name="PersonalRadio" 		chance="0.33" />
-			<item name="Chemlight_Blue" 	chance="0.05" />
-			<item name="Chemlight_Green" 	chance="0.05" />
-			<item name="Chemlight_Red" 		chance="0.05" />
-			<item name="Chemlight_White" 	chance="0.05" />
-			<item name="Chemlight_yellow" 	chance="0.05" />
-		</attachments>
-		<cargo preset="mixArmy" />
-		<cargo preset="mixArmy" />
-		<cargo preset="foodVillage" />
-	</type>
-	<type name="MMG_supplybag_germany">
-		<attachments chance="1.00">
-			<item name="PersonalRadio" 		chance="0.33" />
-			<item name="Chemlight_Blue" 	chance="0.05" />
-			<item name="Chemlight_Green" 	chance="0.05" />
-			<item name="Chemlight_Red" 		chance="0.05" />
-			<item name="Chemlight_White" 	chance="0.05" />
-			<item name="Chemlight_yellow" 	chance="0.05" />
-		</attachments>
-		<cargo preset="mixArmy" />
-		<cargo preset="mixArmy" />
-		<cargo preset="foodVillage" />
-	</type>
-	<type name="MMG_supplybag_norway">
-		<attachments chance="1.00">
-			<item name="PersonalRadio" 		chance="0.33" />
-			<item name="Chemlight_Blue" 	chance="0.05" />
-			<item name="Chemlight_Green" 	chance="0.05" />
-			<item name="Chemlight_Red" 		chance="0.05" />
-			<item name="Chemlight_White" 	chance="0.05" />
-			<item name="Chemlight_yellow" 	chance="0.05" />
-		</attachments>
-		<cargo preset="mixArmy" />
-		<cargo preset="mixArmy" />
-		<cargo preset="foodVillage" />
-	</type>
-	<type name="MMG_supplybag_sweden">
-		<attachments chance="1.00">
-			<item name="PersonalRadio" 		chance="0.33" />
-			<item name="Chemlight_Blue" 	chance="0.05" />
-			<item name="Chemlight_Green" 	chance="0.05" />
-			<item name="Chemlight_Red" 		chance="0.05" />
-			<item name="Chemlight_White" 	chance="0.05" />
-			<item name="Chemlight_yellow" 	chance="0.05" />
-		</attachments>
-		<cargo preset="mixArmy" />
-		<cargo preset="mixArmy" />
-		<cargo preset="foodVillage" />
-	</type>
-	<type name="MMG_supplybag_ukraine">
 		<attachments chance="1.00">
 			<item name="PersonalRadio" 		chance="0.33" />
 			<item name="Chemlight_Blue" 	chance="0.05" />
@@ -1471,58 +1116,6 @@
 		<cargo preset="foodVillage" />
 	</type>
 	<type name="MMG_assault_pack_ucp">
-		<attachments chance="1.00">
-			<item name="PersonalRadio" 		chance="0.33" />
-			<item name="Chemlight_Blue" 	chance="0.05" />
-			<item name="Chemlight_Green" 	hance="0.05" />
-			<item name="Chemlight_Red" 		chance="0.05" />
-			<item name="Chemlight_White" 	chance="0.05" />
-			<item name="Chemlight_yellow" 	chance="0.05" />
-		</attachments>
-		<cargo preset="mixArmy" />
-		<cargo preset="mixArmy" />
-		<cargo preset="foodVillage" />
-	</type>
-	<type name="MMG_assault_pack_germany">
-		<attachments chance="1.00">
-			<item name="PersonalRadio" 		chance="0.33" />
-			<item name="Chemlight_Blue" 	chance="0.05" />
-			<item name="Chemlight_Green" 	hance="0.05" />
-			<item name="Chemlight_Red" 		chance="0.05" />
-			<item name="Chemlight_White" 	chance="0.05" />
-			<item name="Chemlight_yellow" 	chance="0.05" />
-		</attachments>
-		<cargo preset="mixArmy" />
-		<cargo preset="mixArmy" />
-		<cargo preset="foodVillage" />
-	</type>
-	<type name="MMG_assault_pack_norway">
-		<attachments chance="1.00">
-			<item name="PersonalRadio" 		chance="0.33" />
-			<item name="Chemlight_Blue" 	chance="0.05" />
-			<item name="Chemlight_Green" 	hance="0.05" />
-			<item name="Chemlight_Red" 		chance="0.05" />
-			<item name="Chemlight_White" 	chance="0.05" />
-			<item name="Chemlight_yellow" 	chance="0.05" />
-		</attachments>
-		<cargo preset="mixArmy" />
-		<cargo preset="mixArmy" />
-		<cargo preset="foodVillage" />
-	</type>
-	<type name="MMG_assault_pack_sweden">
-		<attachments chance="1.00">
-			<item name="PersonalRadio" 		chance="0.33" />
-			<item name="Chemlight_Blue" 	chance="0.05" />
-			<item name="Chemlight_Green" 	hance="0.05" />
-			<item name="Chemlight_Red" 		chance="0.05" />
-			<item name="Chemlight_White" 	chance="0.05" />
-			<item name="Chemlight_yellow" 	chance="0.05" />
-		</attachments>
-		<cargo preset="mixArmy" />
-		<cargo preset="mixArmy" />
-		<cargo preset="foodVillage" />
-	</type>
-	<type name="MMG_assault_pack_ukraine">
 		<attachments chance="1.00">
 			<item name="PersonalRadio" 		chance="0.33" />
 			<item name="Chemlight_Blue" 	chance="0.05" />
@@ -1703,70 +1296,6 @@
 			<item name="Chemlight_yellow" 	chance="0.05" />
 			<item name="MMG_Med_Pouch_ucp" 	chance="0.20" />
 			<item name="MMG_bottle_ucp" 	chance="0.20" />
-			<item name="MMG_nbc_pouch" 		chance="0.05" />
-		</attachments>
-		<cargo preset="mixArmy" />
-		<cargo preset="mixArmy" />
-		<cargo preset="foodVillage" />
-	</type>
-	<type name="MMG_camelback_germany">
-		<attachments chance="1.00">
-			<item name="PersonalRadio" 		chance="0.33" />
-			<item name="Chemlight_Blue" 	chance="0.05" />
-			<item name="Chemlight_Green" 	chance="0.05" />
-			<item name="Chemlight_Red" 		chance="0.05" />
-			<item name="Chemlight_White" 	chance="0.05" />
-			<item name="Chemlight_yellow" 	chance="0.05" />
-			<item name="MMG_Med_Pouch_germany" 	chance="0.20" />
-			<item name="MMG_bottle_germany" 	chance="0.20" />
-			<item name="MMG_nbc_pouch" 		chance="0.05" />
-		</attachments>
-		<cargo preset="mixArmy" />
-		<cargo preset="mixArmy" />
-		<cargo preset="foodVillage" />
-	</type>
-	<type name="MMG_camelback_norway">
-		<attachments chance="1.00">
-			<item name="PersonalRadio" 		chance="0.33" />
-			<item name="Chemlight_Blue" 	chance="0.05" />
-			<item name="Chemlight_Green" 	chance="0.05" />
-			<item name="Chemlight_Red" 		chance="0.05" />
-			<item name="Chemlight_White" 	chance="0.05" />
-			<item name="Chemlight_yellow" 	chance="0.05" />
-			<item name="MMG_Med_Pouch_norway" 	chance="0.20" />
-			<item name="MMG_bottle_norway" 	chance="0.20" />
-			<item name="MMG_nbc_pouch" 		chance="0.05" />
-		</attachments>
-		<cargo preset="mixArmy" />
-		<cargo preset="mixArmy" />
-		<cargo preset="foodVillage" />
-	</type>
-	<type name="MMG_camelback_sweden">
-		<attachments chance="1.00">
-			<item name="PersonalRadio" 		chance="0.33" />
-			<item name="Chemlight_Blue" 	chance="0.05" />
-			<item name="Chemlight_Green" 	chance="0.05" />
-			<item name="Chemlight_Red" 		chance="0.05" />
-			<item name="Chemlight_White" 	chance="0.05" />
-			<item name="Chemlight_yellow" 	chance="0.05" />
-			<item name="MMG_Med_Pouch_sweden" 	chance="0.20" />
-			<item name="MMG_bottle_sweden" 	chance="0.20" />
-			<item name="MMG_nbc_pouch" 		chance="0.05" />
-		</attachments>
-		<cargo preset="mixArmy" />
-		<cargo preset="mixArmy" />
-		<cargo preset="foodVillage" />
-	</type>
-	<type name="MMG_camelback_ukraine">
-		<attachments chance="1.00">
-			<item name="PersonalRadio" 		chance="0.33" />
-			<item name="Chemlight_Blue" 	chance="0.05" />
-			<item name="Chemlight_Green" 	chance="0.05" />
-			<item name="Chemlight_Red" 		chance="0.05" />
-			<item name="Chemlight_White" 	chance="0.05" />
-			<item name="Chemlight_yellow" 	chance="0.05" />
-			<item name="MMG_Med_Pouch_ukraine" 	chance="0.20" />
-			<item name="MMG_bottle_ukraine" 	chance="0.20" />
 			<item name="MMG_nbc_pouch" 		chance="0.05" />
 		</attachments>
 		<cargo preset="mixArmy" />
@@ -1965,18 +1494,6 @@
 	<type name="MMG_mag_pouch_ucp">
 		<cargo preset="mixArmy" />
 	</type>
-	<type name="MMG_mag_pouch_germany">
-		<cargo preset="mixArmy" />
-	</type>
-	<type name="MMG_mag_pouch_norway">
-		<cargo preset="mixArmy" />
-	</type>
-	<type name="MMG_mag_pouch_sweden">
-		<cargo preset="mixArmy" />
-	</type>
-	<type name="MMG_mag_pouch_ukraine">
-		<cargo preset="mixArmy" />
-	</type>
 	<type name="MMG_mag_pouch_atacs">
 		<cargo preset="mixArmy" />
 	</type>
@@ -2162,78 +1679,6 @@
 			<item name="BloodTestKit" />
 		</cargo>
 	</type>
-	<type name="MMG_Med_Pouch_germany">
-		<tag name="shelves" />
-		<cargo chance="1">
-			<item name="BandageDressing" />
-		</cargo>
-		<cargo chance="0.8">
-			<item name="Thermometer" />
-		</cargo>
-		<cargo chance="0.8">
-			<item name="StartKitIV" />
-		</cargo>
-		<cargo chance="0.8">
-			<item name="BloodBagEmpty" />
-		</cargo>
-		<cargo chance="0.8">
-			<item name="BloodTestKit" />
-		</cargo>
-	</type>
-	<type name="MMG_Med_Pouch_norway">
-		<tag name="shelves" />
-		<cargo chance="1">
-			<item name="BandageDressing" />
-		</cargo>
-		<cargo chance="0.8">
-			<item name="Thermometer" />
-		</cargo>
-		<cargo chance="0.8">
-			<item name="StartKitIV" />
-		</cargo>
-		<cargo chance="0.8">
-			<item name="BloodBagEmpty" />
-		</cargo>
-		<cargo chance="0.8">
-			<item name="BloodTestKit" />
-		</cargo>
-	</type>
-	<type name="MMG_Med_Pouch_sweden">
-		<tag name="shelves" />
-		<cargo chance="1">
-			<item name="BandageDressing" />
-		</cargo>
-		<cargo chance="0.8">
-			<item name="Thermometer" />
-		</cargo>
-		<cargo chance="0.8">
-			<item name="StartKitIV" />
-		</cargo>
-		<cargo chance="0.8">
-			<item name="BloodBagEmpty" />
-		</cargo>
-		<cargo chance="0.8">
-			<item name="BloodTestKit" />
-		</cargo>
-	</type>
-	<type name="MMG_Med_Pouch_ukraine">
-		<tag name="shelves" />
-		<cargo chance="1">
-			<item name="BandageDressing" />
-		</cargo>
-		<cargo chance="0.8">
-			<item name="Thermometer" />
-		</cargo>
-		<cargo chance="0.8">
-			<item name="StartKitIV" />
-		</cargo>
-		<cargo chance="0.8">
-			<item name="BloodBagEmpty" />
-		</cargo>
-		<cargo chance="0.8">
-			<item name="BloodTestKit" />
-		</cargo>
-	</type>
 	<type name="MMG_Med_Pouch_atacs">
 		<tag name="shelves" />
 		<cargo chance="1">
@@ -2284,18 +1729,6 @@
 	<type name="MMG_ammo_pouch_ucp">
 		<cargo preset="mixArmy" />
 	</type>
-	<type name="MMG_ammo_pouch_germany">
-		<cargo preset="mixArmy" />
-	</type>
-	<type name="MMG_ammo_pouch_norway">
-		<cargo preset="mixArmy" />
-	</type>
-	<type name="MMG_ammo_pouch_sweden">
-		<cargo preset="mixArmy" />
-	</type>
-	<type name="MMG_ammo_pouch_ukraine">
-		<cargo preset="mixArmy" />
-	</type>
 	<type name="MMG_ammo_pouch_atacs">
 		<cargo preset="mixArmy" />
 	</type>
@@ -2331,18 +1764,6 @@
 	<type name="MMG_tactical_pouch_ucp">
 		<cargo preset="mixArmy" />
 	</type>
-	<type name="MMG_tactical_pouch_germany">
-		<cargo preset="mixArmy" />
-	</type>
-	<type name="MMG_tactical_pouch_norway">
-		<cargo preset="mixArmy" />
-	</type>
-	<type name="MMG_tactical_pouch_sweden">
-		<cargo preset="mixArmy" />
-	</type>
-	<type name="MMG_tactical_pouch_ukraine">
-		<cargo preset="mixArmy" />
-	</type>
 	<type name="MMG_tactical_pouch_atacs">
 		<cargo preset="mixArmy" />
 	</type>
@@ -2376,18 +1797,6 @@
 		<cargo preset="mixArmy" />
 	</type>
 	<type name="MMG_mk5_utility_pouch_ucp">
-		<cargo preset="mixArmy" />
-	</type>
-	<type name="MMG_mk5_utility_pouch_germany">
-		<cargo preset="mixArmy" />
-	</type>
-	<type name="MMG_mk5_utility_pouch_norway">
-		<cargo preset="mixArmy" />
-	</type>
-	<type name="MMG_mk5_utility_pouch_sweden">
-		<cargo preset="mixArmy" />
-	</type>
-	<type name="MMG_mk5_utility_pouch_ukraine">
 		<cargo preset="mixArmy" />
 	</type>
 	<type name="MMG_mk5_utility_pouch_atacs">
@@ -2516,42 +1925,6 @@
 			<item name="UniversalLight" 				chance="0.15" />
 		</attachments>
 	</type>
-	<type name="MMG_tactical_helmet_germany">
-		<attachments chance="1.00">
-			<item name="MMG_headphones_green" 			chance="0.20" />
-			<item name="MMG_tactical_visor_green" 			chance="0.10" />
-			<item name="MMG_ballistic_earcover_green" 			chance="0.10" />
-			<item name="CJ_NVG_TIG7" 						chance="0.025" />
-			<item name="CJ_NVG_ANPVS7" 						chance="0.025" />
-			<item name="CJ_NVG_ANPVS14" 						chance="0.025" />
-			<item name="CJ_NVG_BCNVG21" 						chance="0.025" />
-			<item name="UniversalLight" 				chance="0.15" />
-		</attachments>
-	</type>
-	<type name="MMG_tactical_helmet_norway">
-		<attachments chance="1.00">
-			<item name="MMG_headphones_green" 			chance="0.20" />
-			<item name="MMG_tactical_visor_green" 			chance="0.10" />
-			<item name="MMG_ballistic_earcover_green" 			chance="0.10" />
-			<item name="CJ_NVG_TIG7" 						chance="0.025" />
-			<item name="CJ_NVG_ANPVS7" 						chance="0.025" />
-			<item name="CJ_NVG_ANPVS14" 						chance="0.025" />
-			<item name="CJ_NVG_BCNVG21" 						chance="0.025" />
-			<item name="UniversalLight" 				chance="0.15" />
-		</attachments>
-	</type>
-	<type name="MMG_tactical_helmet_ukraine">
-		<attachments chance="1.00">
-			<item name="MMG_headphones_green" 			chance="0.20" />
-			<item name="MMG_tactical_visor_green" 			chance="0.10" />
-			<item name="MMG_ballistic_earcover_green" 			chance="0.10" />
-			<item name="CJ_NVG_TIG7" 						chance="0.025" />
-			<item name="CJ_NVG_ANPVS7" 						chance="0.025" />
-			<item name="CJ_NVG_ANPVS14" 						chance="0.025" />
-			<item name="CJ_NVG_BCNVG21" 						chance="0.025" />
-			<item name="UniversalLight" 				chance="0.15" />
-		</attachments>
-	</type>
 	<type name="MMG_tactical_helmet_atacs">
 		<attachments chance="1.00">
 			<item name="MMG_headphones_green" 			chance="0.20" />
@@ -2648,42 +2021,6 @@
 		</attachments>
 	</type>
 	<type name="MMG_striker_helmet_dark_woodland">
-		<attachments chance="1.00">
-			<item name="CJ_NVG_TIG7" 						chance="0.025" />
-			<item name="CJ_NVG_ANPVS7" 						chance="0.025" />
-			<item name="CJ_NVG_ANPVS14" 						chance="0.025" />
-			<item name="CJ_NVG_BCNVG21" 						chance="0.025" />
-			<item name="UniversalLight" 				chance="0.15" />
-		</attachments>
-	</type>
-	<type name="MMG_striker_helmet_germany">
-		<attachments chance="1.00">
-			<item name="CJ_NVG_TIG7" 						chance="0.025" />
-			<item name="CJ_NVG_ANPVS7" 						chance="0.025" />
-			<item name="CJ_NVG_ANPVS14" 						chance="0.025" />
-			<item name="CJ_NVG_BCNVG21" 						chance="0.025" />
-			<item name="UniversalLight" 				chance="0.15" />
-		</attachments>
-	</type>
-	<type name="MMG_striker_helmet_norway">
-		<attachments chance="1.00">
-			<item name="CJ_NVG_TIG7" 						chance="0.025" />
-			<item name="CJ_NVG_ANPVS7" 						chance="0.025" />
-			<item name="CJ_NVG_ANPVS14" 						chance="0.025" />
-			<item name="CJ_NVG_BCNVG21" 						chance="0.025" />
-			<item name="UniversalLight" 				chance="0.15" />
-		</attachments>
-	</type>
-	<type name="MMG_striker_helmet_sweden">
-		<attachments chance="1.00">
-			<item name="CJ_NVG_TIG7" 						chance="0.025" />
-			<item name="CJ_NVG_ANPVS7" 						chance="0.025" />
-			<item name="CJ_NVG_ANPVS14" 						chance="0.025" />
-			<item name="CJ_NVG_BCNVG21" 						chance="0.025" />
-			<item name="UniversalLight" 				chance="0.15" />
-		</attachments>
-	</type>
-	<type name="MMG_striker_helmet_ukraine">
 		<attachments chance="1.00">
 			<item name="CJ_NVG_TIG7" 						chance="0.025" />
 			<item name="CJ_NVG_ANPVS7" 						chance="0.025" />
