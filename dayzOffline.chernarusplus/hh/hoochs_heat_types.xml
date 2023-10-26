@@ -92,20 +92,18 @@
     <value name="Tier4"/>
   </type>
   <type name="HH_MPX">
-    <nominal>0</nominal>
-    <lifetime>10800</lifetime>
-    <restock>450</restock>
-    <min>0</min>
+    <nominal>5</nominal>
+    <lifetime>7200</lifetime>
+    <restock>300</restock>
+    <min>3</min>
     <quantmin>-1</quantmin>
     <quantmax>-1</quantmax>
     <cost>100</cost>
-    <flags count_in_cargo="1" count_in_hoarder="1" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
     <category name="weapons"/>
-    <tag name="floor"/>
     <usage name="Military"/>
-    <usage name="Police"/>
+    <value name="Tier2"/>
     <value name="Tier3"/>
-    <value name="Tier4"/>
   </type>
   <type name="HH_MP40">
     <nominal>0</nominal>
@@ -269,6 +267,7 @@
     <usage name="Town"/>
     <usage name="Village"/>
     <value name="Tier1"/>
+    <value name="Tier2"/>
   </type>
   <!-- Magazines -->
   <type name="HH_M1A1_Mag">
@@ -282,7 +281,6 @@
     <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
     <category name="weapons"/>
     <tag name="shelves"/>
-    <usage name="coast"/>
     <usage name="Village"/>
     <usage name="Town"/>
     <value name="Tier3"/>
@@ -299,7 +297,6 @@
     <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
     <category name="weapons"/>
     <tag name="shelves"/>
-    <usage name="coast"/>
     <usage name="Village"/>
     <usage name="Town"/>
     <value name="Tier3"/>
@@ -364,20 +361,18 @@
     <value name="Tier4"/>
   </type>
   <type name="HH_Mag_MPX_35Rnd">
-    <nominal>0</nominal>
+    <nominal>5</nominal>
     <lifetime>7200</lifetime>
-    <restock>2700</restock>
-    <min>0</min>
-    <quantmin>-1</quantmin>
-    <quantmax>30</quantmax>
+    <restock>300</restock>
+    <min>2</min>
+    <quantmin>10</quantmin>
+    <quantmax>100</quantmax>
     <cost>100</cost>
-    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
     <category name="weapons"/>
-    <tag name="shelves"/>
     <usage name="Military"/>
-    <usage name="Police"/>
+    <value name="Tier2"/>
     <value name="Tier3"/>
-    <value name="Tier4"/>
   </type>
   <type name="HH_MP40_Mag">
     <nominal>0</nominal>
@@ -390,7 +385,6 @@
     <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
     <category name="weapons"/>
     <tag name="shelves"/>
-    <usage name="coast"/>
     <usage name="Village"/>
     <usage name="Town"/>
     <value name="Tier3"/>
@@ -423,6 +417,7 @@
     <usage name="Military"/>
     <value name="Tier1"/>
     <value name="Tier2"/>
+    <value name="Tier3"/>
   </type>
   <type name="HH_Beretta92_Mag">
     <nominal>0</nominal>
@@ -449,6 +444,7 @@
     <usage name="Town"/>
     <usage name="Village"/>
     <value name="Tier1"/>
+    <value name="Tier2"/>
   </type>
   <!-- AmmoBoxes -->
   <type name="HH_AmmoBox_762x25_25Rnd">
@@ -461,12 +457,11 @@
     <cost>100</cost>
     <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
     <category name="weapons"/>
-    <usage name="Hunting"/>
     <usage name="Farm"/>
     <usage name="Town"/>
     <usage name="Village"/>
-    <usage name="coast"/>
     <value name="Tier1"/>
+    <value name="Tier2"/>
   </type>
   <type name="HH_AmmoBox_10mm_25Rnd">
     <nominal>15</nominal>
@@ -478,7 +473,10 @@
     <cost>100</cost>
     <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
     <category name="weapons"/>
-    <usage name="Military"/>	
+    <usage name="Military"/>
+    <value name="Tier1"/>
+    <value name="Tier2"/>
+    <value name="Tier3"/>
   </type>
   <type name="HH_AmmoBox_50AE_20Rnd">
     <nominal>0</nominal>
@@ -490,12 +488,7 @@
     <cost>100</cost>
     <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
     <category name="weapons"/>
-    <usage name="Hunting"/>
-    <usage name="Farm"/>
     <usage name="Military"/>
-    <usage name="Town"/>
-    <usage name="Village"/>
-    <usage name="coast"/>
   </type>
   <type name="HH_AmmoBox_30_06_20Rnd">
     <nominal>0</nominal>
@@ -517,16 +510,14 @@
     <restock>0</restock>
     <min>42</min>
     <quantmin>10</quantmin>
-    <quantmax>40</quantmax>
+    <quantmax>25</quantmax>
     <cost>100</cost>
     <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
     <category name="weapons"/>
-    <usage name="Hunting"/>
-    <usage name="Farm"/>
     <usage name="Town"/>
     <usage name="Village"/>
-    <usage name="coast"/>
     <value name="Tier1"/>
+    <value name="Tier2"/>
   </type>
   <type name="HH_Ammo_10mm">
     <nominal>45</nominal>
@@ -540,6 +531,9 @@
     <category name="weapons"/>
     <tag name="shelves"/>
     <usage name="Military"/>
+    <value name="Tier1"/>
+    <value name="Tier2"/>
+    <value name="Tier3"/>
   </type>
   <type name="HH_Ammo_50AE">
     <nominal>0</nominal>
@@ -551,12 +545,7 @@
     <cost>100</cost>
     <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
     <category name="weapons"/>
-    <usage name="Hunting"/>
-    <usage name="Farm"/>
-    <usage name="Town"/>
     <usage name="Military"/>
-    <usage name="Village"/>
-    <usage name="coast"/>
   </type>
   <type name="HH_Ammo_30_06">
     <nominal>0</nominal>

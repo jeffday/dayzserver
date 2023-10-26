@@ -16,6 +16,11 @@
 			<item name="HH_P320_Mag" chance="1.00" />
 		</attachments>
 	</type>
+	<type name="HH_TT33">
+		<attachments chance="0.60">
+			<item name="HH_TT33_Mag" chance="1.00" />
+		</attachments>
+	</type>
 	<type name="HH_Mako_R7">
 		<attachments preset="pistol_optics" />
 		<attachments chance="0.60">
@@ -32,6 +37,13 @@
 		<attachments preset="ar_optics" />
 		<attachments chance="0.50">
 			<item name="HH_Galil_Mag" chance="1.00" />
+		</attachments>
+	</type>
+	<type name="HH_MPX">
+		<attachments preset="close_range_optics" />
+		<attachments preset="pistol_suppressors" />
+		<attachments chance="0.60">
+			<item name="HH_Mag_MPX_35Rnd" chance="1.00" />
 		</attachments>
 	</type>
 </spawnabletypes>
