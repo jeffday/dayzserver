@@ -13,11 +13,7 @@
 		<attachments chance="1.00">
 			<item name="ASC_HK416_Compensator" chance="1.00" />
 		</attachments>
-		<attachments chance="0.20">
-			<item name="ReflexOptic" chance="0.50" />
-			<item name="M68Optic" chance="0.30" />
-			<item name="ACOGOptic" chance="0.20" />
-		</attachments>
+		<attachments preset="ar_optics" />
 		<attachments chance="0.20">
 			<item name="Mag_CMAG_20Rnd" chance="0.80" />
 			<item name="Mag_CMAG_30Rnd" chance="0.10" />

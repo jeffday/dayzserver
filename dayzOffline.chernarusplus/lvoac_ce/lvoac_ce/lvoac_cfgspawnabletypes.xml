@@ -10,13 +10,7 @@
 		<attachments chance="0.50">
 			<item name="ASC_LVOAC_AngledForeGrip" chance="1.00" />
 		</attachments>
-		<attachments chance="0.20">
-			<item name="ASC_LVOAC_MilStdScope" chance="0.20" />
-			<item name="ASC_LVOAC_HurricaneOptic" chance="0.20" />
-			<item name="ReflexOptic" chance="0.20" />
-			<item name="M68Optic" chance="0.20" />
-			<item name="ACOGOptic" chance="0.20" />
-		</attachments>
+		<attachments preset="ar_optics" />
 		<attachments chance="0.20">
 			<item name="Mag_ASC_Stanag_10Rnd" chance="0.50" />
 			<item name="Mag_ASC_Stanag_20Rnd" chance="0.30" />
