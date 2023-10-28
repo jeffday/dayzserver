@@ -266,8 +266,9 @@
     <tag name="shelves"/>
     <usage name="Town"/>
     <usage name="Village"/>
-    <value name="Tier1"/>
     <value name="Tier2"/>
+    <value name="Tier3"/>
+    <value name="Tier4"/>
   </type>
   <!-- Magazines -->
   <type name="HH_M1A1_Mag">
@@ -443,8 +444,9 @@
     <category name="weapons"/>
     <usage name="Town"/>
     <usage name="Village"/>
-    <value name="Tier1"/>
     <value name="Tier2"/>
+    <value name="Tier3"/>
+    <value name="Tier4"/>
   </type>
   <!-- AmmoBoxes -->
   <type name="HH_AmmoBox_762x25_25Rnd">
@@ -457,11 +459,11 @@
     <cost>100</cost>
     <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
     <category name="weapons"/>
-    <usage name="Farm"/>
     <usage name="Town"/>
     <usage name="Village"/>
-    <value name="Tier1"/>
     <value name="Tier2"/>
+    <value name="Tier3"/>
+    <value name="Tier4"/>
   </type>
   <type name="HH_AmmoBox_10mm_25Rnd">
     <nominal>15</nominal>
@@ -516,8 +518,9 @@
     <category name="weapons"/>
     <usage name="Town"/>
     <usage name="Village"/>
-    <value name="Tier1"/>
     <value name="Tier2"/>
+    <value name="Tier3"/>
+    <value name="Tier4"/>
   </type>
   <type name="HH_Ammo_10mm">
     <nominal>45</nominal>
