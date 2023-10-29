@@ -253,10 +253,10 @@
         <value name="Tier4"/>
 	</type> -->
 	<type name="TWM_Firefly">
-        <nominal>10</nominal>
+        <nominal>0</nominal>
         <lifetime>7200</lifetime>
         <restock>300</restock>
-        <min>5</min>
+        <min>0</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -390,10 +390,10 @@
         <usage name="Police"/>
     </type>
     <type name="TWM_Mag_Firefly_15rnd">
-        <nominal>15</nominal>
+        <nominal>0</nominal>
         <lifetime>7200</lifetime>
         <restock>300</restock>
-        <min>10</min>
+        <min>0</min>
         <quantmin>20</quantmin>
         <quantmax>100</quantmax>
         <cost>100</cost>
@@ -522,10 +522,10 @@
     </type>
 <!-- 204 Ruger-->
 	<type name="TWM_Ammobox_204Ruger">
-        <nominal>15</nominal>
+        <nominal>0</nominal>
         <lifetime>28800</lifetime>
         <restock>0</restock>
-        <min>10</min>
+        <min>0</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -539,10 +539,10 @@
         <value name="Tier4"/>
     </type>
     <type name="TWM_Ammo_204Ruger">
-        <nominal>40</nominal>
+        <nominal>0</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
-        <min>30</min>
+        <min>0</min>
         <quantmin>1</quantmin>
         <quantmax>6</quantmax>
         <cost>100</cost>
@@ -735,10 +735,10 @@
     </type>
 <!-- Update 1.3.5 Vector and SR47 + Green Firefly -->
 	<type name="TWM_Firefly_Green">
-        <nominal>10</nominal>
+        <nominal>0</nominal>
         <lifetime>7200</lifetime>
         <restock>300</restock>
-        <min>5</min>
+        <min>0</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
