@@ -309,10 +309,10 @@
 <!-- Magazines -->
 <!-- Taser Rifle Magazines Disabled by Default, enable if you want Taser Mags / Rifles to spawn on the map -->
     <type name="TWM_Mag_Socom458_10rnd">
-        <nominal>15</nominal>
+        <nominal>8</nominal>
         <lifetime>7200</lifetime>
         <restock>1800</restock>
-        <min>8</min>
+        <min>5</min>
         <quantmin>20</quantmin>
         <quantmax>80</quantmax>
         <cost>100</cost>
@@ -323,10 +323,10 @@
         <value name="Tier4"/>
     </type>
     <type name="TWM_Mag_Socom458_15rnd">
-        <nominal>8</nominal>
+        <nominal>5</nominal>
         <lifetime>7200</lifetime>
         <restock>1800</restock>
-        <min>5</min>
+        <min>2</min>
         <quantmin>20</quantmin>
         <quantmax>80</quantmax>
         <cost>100</cost>
@@ -751,9 +751,9 @@
         <value name="Tier4"/>
 	</type>
 	<type name="TWM_SR47">
-		<nominal>0</nominal>
-		<lifetime>3600</lifetime>
-		<restock>1600</restock>
+		<nominal>1</nominal>
+        <lifetime>7200</lifetime>
+        <restock>300</restock>
 		<min>0</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
@@ -761,7 +761,6 @@
 		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
 		<category name="weapons" />
         <usage name="Military"/>
-        <value name="Tier3"/>
 		<value name="Tier4"/>
 	</type>
 	<type name="TWM_Vector">
