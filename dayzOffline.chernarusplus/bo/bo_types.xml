@@ -15,7 +15,7 @@
         <value name="Tier4"/>
     </type>
     <type name="BO_ACOGOptic_Crosshair_Red">
-        <nominal>7</nominal>
+        <nominal>5</nominal>
         <lifetime>7200</lifetime>
         <restock>300</restock>
         <min>3</min>
@@ -51,7 +51,7 @@
         <usage name="Military"/>
     </type>
     <type name="BO_ACOGOptic_Chevron_Green">
-        <nominal>7</nominal>
+        <nominal>5</nominal>
         <lifetime>7200</lifetime>
         <restock>300</restock>
         <min>3</min>
@@ -63,10 +63,10 @@
         <usage name="Military"/>
     </type>
     <type name="BO_ACOGOptic_ACSS_Red">
-        <nominal>7</nominal>
+        <nominal>5</nominal>
         <lifetime>7200</lifetime>
         <restock>300</restock>
-        <min>3</min>
+        <min>2</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -135,7 +135,7 @@
         <usage name="Military"/>
     </type>
     <type name="BO_HAMROptic">
-        <nominal>7</nominal>
+        <nominal>5</nominal>
         <lifetime>7200</lifetime>
         <restock>300</restock>
         <min>3</min>
@@ -150,7 +150,7 @@
         <nominal>5</nominal>
         <lifetime>7200</lifetime>
         <restock>300</restock>
-        <min>2</min>
+        <min>3</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -162,10 +162,10 @@
         <value name="Tier4"/>
     </type>
     <type name="BO_Holosun_HS510C_Optic">
-        <nominal>7</nominal>
+        <nominal>5</nominal>
         <lifetime>7200</lifetime>
         <restock>300</restock>
-        <min>3</min>
+        <min>2</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -239,7 +239,7 @@
         <value name="Tier4" />
     </type>
     <type name="BO_LegionSuppressor">
-        <nominal>0</nominal>
+        <nominal>1</nominal>
         <lifetime>7200</lifetime>
         <restock>300</restock>
         <min>0</min>
@@ -323,10 +323,10 @@
 		<value name="Tier4" />
     </type>
     <type name="BO_VortexAMG_UH1_Optic">
-        <nominal>7</nominal>
+        <nominal>5</nominal>
         <lifetime>7200</lifetime>
         <restock>300</restock>
-        <min>3</min>
+        <min>2</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -522,10 +522,10 @@
         <value name="Tier4"/>
     </type>
     <type name="BO_Mag_PMAG_Green_30rnd">
-        <nominal>0</nominal>
+        <nominal>5</nominal>
         <lifetime>7200</lifetime>
         <restock>300</restock>
-        <min>0</min>
+        <min>2</min>
         <quantmin>5</quantmin>
         <quantmax>50</quantmax>
         <cost>100</cost>
@@ -799,7 +799,7 @@
         <nominal>1</nominal>
         <lifetime>7200</lifetime>
         <restock>300</restock>
-        <min>1</min>
+        <min>0</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -811,7 +811,7 @@
         <nominal>1</nominal>
         <lifetime>7200</lifetime>
         <restock>300</restock>
-        <min>1</min>
+        <min>0</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -1025,7 +1025,7 @@
         <nominal>1</nominal>
         <lifetime>7200</lifetime>
         <restock>300</restock>
-        <min>1</min>
+        <min>0</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -1115,7 +1115,7 @@
         <nominal>3</nominal>
         <lifetime>7200</lifetime>
         <restock>300</restock>
-        <min>2</min>
+        <min>1</min>
         <quantmin>5</quantmin>
         <quantmax>50</quantmax>
         <cost>100</cost>
@@ -1537,7 +1537,7 @@
 		<nominal>1</nominal>
         <lifetime>7200</lifetime>
         <restock>300</restock>
-		<min>1</min>
+		<min>0</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
@@ -1549,7 +1549,7 @@
 		<nominal>3</nominal>
         <lifetime>7200</lifetime>
         <restock>300</restock>
-		<min>2</min>
+		<min>1</min>
 		<quantmin>10</quantmin>
 		<quantmax>80</quantmax>
 		<cost>100</cost>
@@ -1850,10 +1850,10 @@
         <value name="Tier4"/>
     </type>
     <type name="BO_LeupoldHoloDEVO">
-        <nominal>2</nominal>
+        <nominal>0</nominal>
         <lifetime>7200</lifetime>
         <restock>300</restock>
-        <min>1</min>
+        <min>0</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -2378,8 +2378,8 @@
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="weapons"/>
-        <value name="Tier4" />
         <usage name="Military"/>
+        <value name="Tier4" />
     </type>
     <type name="BO_Mag_ASVAL_30Rnd">
         <nominal>5</nominal>
@@ -2409,10 +2409,10 @@
         <value name="Tier4"/>
     </type>
     <type name="BO_AK74_30rnd">
-        <nominal>0</nominal>
-        <lifetime>7200</lifetime>
-        <restock>300</restock>
-        <min>0</min>
+        <nominal>25</nominal>
+        <lifetime>28800</lifetime>
+        <restock>0</restock>
+        <min>20</min>
         <quantmin>5</quantmin>
         <quantmax>50</quantmax>
         <cost>100</cost>
@@ -2450,10 +2450,10 @@
         <value name="Tier4"/>
     </type>
     <type name="BO_PMAG_AKM_30rnd">
-        <nominal>10</nominal>
+        <nominal>3</nominal>
         <lifetime>7200</lifetime>
         <restock>300</restock>
-        <min>4</min>
+        <min>1</min>
         <quantmin>5</quantmin>
         <quantmax>50</quantmax>
         <cost>100</cost>
@@ -2464,10 +2464,10 @@
         <value name="Tier4"/>
     </type>
     <type name="BO_PMAG_AKM_30rnd_FDE">
-        <nominal>5</nominal>
+        <nominal>2</nominal>
         <lifetime>7200</lifetime>
         <restock>300</restock>
-        <min>2</min>
+        <min>1</min>
         <quantmin>5</quantmin>
         <quantmax>50</quantmax>
         <cost>100</cost>
@@ -2923,10 +2923,10 @@
         <value name="Tier4" />
     </type>
     <type name="BO_TAR21">
-        <nominal>3</nominal>
+        <nominal>1</nominal>
         <lifetime>7200</lifetime>
         <restock>300</restock>
-        <min>2</min>
+        <min>1</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -3340,7 +3340,7 @@
     
     <!-- Added 2.3 -->
     <type name="BO_AimpointT1">
-        <nominal>8</nominal>
+        <nominal>5</nominal>
         <lifetime>7200</lifetime>
         <restock>300</restock>
         <min>2</min>
@@ -3354,7 +3354,7 @@
         <value name="Tier3"/>
     </type>
     <type name="BO_AimpointCS">
-        <nominal>8</nominal>
+        <nominal>5</nominal>
         <lifetime>7200</lifetime>
         <restock>300</restock>
         <min>2</min>
@@ -3368,7 +3368,7 @@
         <value name="Tier3"/>
     </type>
     <type name="BO_DeltaPoint">
-        <nominal>8</nominal>
+        <nominal>5</nominal>
         <lifetime>7200</lifetime>
         <restock>300</restock>
         <min>2</min>
@@ -3382,10 +3382,10 @@
         <value name="Tier4"/>
     </type>
     <type name="BO_Eotech552">
-        <nominal>7</nominal>
+        <nominal>5</nominal>
         <lifetime>7200</lifetime>
         <restock>300</restock>
-        <min>3</min>
+        <min>2</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -3396,10 +3396,10 @@
         <value name="Tier4"/>
     </type>
     <type name="BO_EotechHHS">
-        <nominal>7</nominal>
+        <nominal>5</nominal>
         <lifetime>7200</lifetime>
         <restock>300</restock>
-        <min>3</min>
+        <min>2</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -3410,10 +3410,10 @@
         <value name="Tier4"/>
     </type>
     <type name="BO_LeupoldCarbineOptics">
-        <nominal>7</nominal>
+        <nominal>5</nominal>
         <lifetime>7200</lifetime>
         <restock>300</restock>
-        <min>3</min>
+        <min>2</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -3424,10 +3424,10 @@
         <value name="Tier4"/>
     </type>
     <type name="BO_Holosun_HS507C">
-        <nominal>7</nominal>
+        <nominal>5</nominal>
         <lifetime>7200</lifetime>
         <restock>300</restock>
-        <min>3</min>
+        <min>2</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -3469,7 +3469,7 @@
         <nominal>5</nominal>
         <lifetime>7200</lifetime>
         <restock>300</restock>
-        <min>3</min>
+        <min>2</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -3481,7 +3481,7 @@
         <nominal>5</nominal>
         <lifetime>7200</lifetime>
         <restock>300</restock>
-        <min>3</min>
+        <min>2</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -3503,10 +3503,10 @@
         <value name="Tier4"/>
     </type>
     <type name="BO_ShmidtBender25">
-        <nominal>2</nominal>
+        <nominal>3</nominal>
         <lifetime>7200</lifetime>
         <restock>300</restock>
-        <min>1</min>
+        <min>2</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -3530,10 +3530,10 @@
         <value name="Tier4"/>
     </type>
     <type name="BO_DragonScope">
-        <nominal>7</nominal>
+        <nominal>5</nominal>
         <lifetime>7200</lifetime>
         <restock>300</restock>
-        <min>3</min>
+        <min>2</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -3544,10 +3544,10 @@
         <value name="Tier4"/>
     </type>
     <type name="BO_Bravo4">
-        <nominal>7</nominal>
+        <nominal>5</nominal>
         <lifetime>7200</lifetime>
         <restock>300</restock>
-        <min>3</min>
+        <min>2</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -3617,7 +3617,7 @@
         <nominal>3</nominal>
         <lifetime>7200</lifetime>
         <restock>300</restock>
-        <min>1</min>
+        <min>2</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -3628,7 +3628,7 @@
         <value name="Tier4"/>
     </type>
     <type name="BO_ARAdapter_9mm">
-        <nominal>8</nominal>
+        <nominal>5</nominal>
         <lifetime>7200</lifetime>
         <restock>300</restock>
         <min>2</min>
@@ -3642,7 +3642,7 @@
         <value name="Tier3"/>
     </type>
     <type name="BO_GlockPDWKit">
-        <nominal>8</nominal>
+        <nominal>5</nominal>
         <lifetime>7200</lifetime>
         <restock>300</restock>
         <min>2</min>
@@ -4069,8 +4069,8 @@
         <lifetime>7200</lifetime>
         <restock>300</restock>
         <min>2</min>
-        <quantmin>10</quantmin>
-        <quantmax>100</quantmax>
+        <quantmin>20</quantmin>
+        <quantmax>80</quantmax>
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="weapons"/>
@@ -4276,7 +4276,6 @@
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="1"/>
         <category name="weapons"/>
         <usage name="Military"/>
-        <value name="Tier4"/>
     </type>
     <type name="BO_L115A3">
         <nominal>0</nominal>
@@ -4292,10 +4291,10 @@
         <value name="Tier4"/>
     </type>
     <type name="BO_L115A3_Green">
-        <nominal>1</nominal>
+        <nominal>2</nominal>
         <lifetime>7200</lifetime>
         <restock>300</restock>
-        <min>1</min>
+        <min>0</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -4372,10 +4371,10 @@
         <value name="Tier4"/>
     </type>
     <type name="Ammo_BO_65C">
-        <nominal>12</nominal>
+        <nominal>15</nominal>
         <lifetime>10800</lifetime>
         <restock>4800</restock>
-        <min>8</min>
+        <min>10</min>
         <quantmin>10</quantmin>
         <quantmax>30</quantmax>
         <cost>100</cost>
@@ -5133,16 +5132,18 @@
     
 <!-- Added 2.7 -->
     <type name="BO_AmmoBox_65C_20rnd">
-        <nominal>15</nominal>
+        <nominal>10</nominal>
         <lifetime>10800</lifetime>
         <restock>4800</restock>
-        <min>10</min>
+        <min>5</min>
         <quantmin>100</quantmin>
         <quantmax>100</quantmax>
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="weapons"/>
         <usage name="Military"/>
+        <value name="Tier3"/>
+        <value name="Tier4"/>	
     </type>
     <type name="BO_Beowulf">
         <nominal>1</nominal>
@@ -5210,7 +5211,7 @@
         <value name="Tier4"/>
     </type>
     <type name="BO_AR10_Bakelite">
-        <nominal>1</nominal>
+        <nominal>0</nominal>
         <lifetime>7200</lifetime>
         <restock>300</restock>
         <min>0</min>
@@ -5236,7 +5237,7 @@
         <value name="Tier4"/>
     </type>
     <type name="BO_Mag_AR10_20rnd">
-        <nominal>5</nominal>
+        <nominal>3</nominal>
         <lifetime>7200</lifetime>
         <restock>300</restock>
         <min>2</min>
@@ -5400,7 +5401,7 @@
         <restock>300</restock>
         <min>20</min>
         <quantmin>20</quantmin>
-        <quantmax>100</quantmax>
+        <quantmax>80</quantmax>
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="weapons"/>
@@ -5567,7 +5568,7 @@
         <usage name="Military"/>
     </type>
     <type name="BO_Tigr_Handguard_Original">
-        <nominal>3</nominal>
+        <nominal>2</nominal>
         <lifetime>7200</lifetime>
         <restock>300</restock>
         <min>1</min>
@@ -5581,7 +5582,7 @@
         <value name="Tier4"/>
     </type>
     <type name="BO_Tigr_Handguard_Rail">
-        <nominal>3</nominal>
+        <nominal>2</nominal>
         <lifetime>7200</lifetime>
         <restock>300</restock>
         <min>1</min>
@@ -5773,8 +5774,8 @@
         <lifetime>7200</lifetime>
         <restock>300</restock>
         <min>1</min>
-        <quantmin>10</quantmin>
-        <quantmax>80</quantmax>
+        <quantmin>5</quantmin>
+        <quantmax>50</quantmax>
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="1" crafted="0" deloot="0"/>
         <category name="weapons"/>

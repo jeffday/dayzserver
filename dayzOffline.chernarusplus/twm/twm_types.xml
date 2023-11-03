@@ -134,7 +134,7 @@
 		<nominal>1</nominal>
 		<lifetime>8200</lifetime>
 		<restock>1800</restock>
-		<min>0</min>
+		<min>1</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
@@ -148,7 +148,7 @@
 		<nominal>1</nominal>
 		<lifetime>8200</lifetime>
 		<restock>1800</restock>
-		<min>0</min>
+		<min>1</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
@@ -176,7 +176,7 @@
 		<nominal>1</nominal>
 		<lifetime>8200</lifetime>
 		<restock>1800</restock>
-		<min>0</min>
+		<min>1</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
@@ -309,10 +309,10 @@
 <!-- Magazines -->
 <!-- Taser Rifle Magazines Disabled by Default, enable if you want Taser Mags / Rifles to spawn on the map -->
     <type name="TWM_Mag_Socom458_10rnd">
-        <nominal>8</nominal>
+        <nominal>5</nominal>
         <lifetime>7200</lifetime>
         <restock>1800</restock>
-        <min>5</min>
+        <min>2</min>
         <quantmin>20</quantmin>
         <quantmax>80</quantmax>
         <cost>100</cost>
@@ -323,10 +323,10 @@
         <value name="Tier4"/>
     </type>
     <type name="TWM_Mag_Socom458_15rnd">
-        <nominal>5</nominal>
+        <nominal>2</nominal>
         <lifetime>7200</lifetime>
         <restock>1800</restock>
-        <min>2</min>
+        <min>1</min>
         <quantmin>20</quantmin>
         <quantmax>80</quantmax>
         <cost>100</cost>
@@ -505,10 +505,10 @@
         <value name="Tier4"/>
     </type>
     <type name="TWM_Ammo_458">
-        <nominal>30</nominal>
-        <lifetime>28800</lifetime>
-        <restock>1800</restock>
-        <min>20</min>
+        <nominal>14</nominal>
+        <lifetime>7200</lifetime>
+        <restock>1200</restock>
+        <min>8</min>
         <quantmin>1</quantmin>
         <quantmax>6</quantmax>
         <cost>100</cost>
@@ -516,7 +516,6 @@
         <category name="weapons"/>
         <tag name="shelves"/>
         <usage name="Military"/>
-        <value name="Tier2"/>
         <value name="Tier3"/>
         <value name="Tier4"/>
     </type>
@@ -978,12 +977,12 @@
         <value name="Tier4"/>
     </type>
 	<type name="TWM_Mag_Ak105">
-        <nominal>8</nominal>
+        <nominal>5</nominal>
         <lifetime>7200</lifetime>
         <restock>1800</restock>
-        <min>3</min>
-        <quantmin>10</quantmin>
-        <quantmax>70</quantmax>
+        <min>2</min>
+        <quantmin>5</quantmin>
+        <quantmax>50</quantmax>
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="weapons"/>
@@ -997,8 +996,8 @@
         <lifetime>7200</lifetime>
         <restock>1800</restock>
         <min>0</min>
-        <quantmin>10</quantmin>
-        <quantmax>70</quantmax>
+        <quantmin>5</quantmin>
+        <quantmax>40</quantmax>
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="weapons"/>
@@ -1070,7 +1069,6 @@
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="weapons"/>
         <usage name="Military"/>
-        <value name="Tier3"/>
         <value name="Tier4"/>
     </type>
     <type name="TWM_Mk18_OD">
@@ -1084,7 +1082,6 @@
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="weapons"/>
         <usage name="Military"/>
-        <value name="Tier3"/>
         <value name="Tier4"/>
     </type>
     <type name="TWM_Mk18_Tan">
@@ -1358,8 +1355,8 @@
 		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
 		<category name="weapons" />
 		<usage name="Town"/>
-        <value name="Tier4"/>
-		<value name="Tier3"/>
+        <value name="Tier3"/>
+		<value name="Tier4"/>
 	</type>
 	<type name="TWM_Mag_H9">
         <nominal>18</nominal>
@@ -1373,8 +1370,8 @@
         <category name="weapons"/>
         <tag name="shelves"/>
 		<usage name="Town"/>
-		<value name="Tier4"/>
 		<value name="Tier3"/>
+		<value name="Tier4"/>
     </type>
 	<type name="TWM_Mp443">
         <nominal>40</nominal>
@@ -2817,10 +2814,10 @@
 		<value name="Tier3"/>
 	</type>
 	<type name="TWM_Mag_HK417_10Rnd">
-        <nominal>3</nominal>
+        <nominal>5</nominal>
         <lifetime>7200</lifetime>
         <restock>7200</restock>
-        <min>1</min>
+        <min>2</min>
         <quantmin>10</quantmin>
         <quantmax>20</quantmax>
         <cost>75</cost>
