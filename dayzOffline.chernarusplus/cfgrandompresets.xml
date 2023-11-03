@@ -162,8 +162,8 @@
 				<item name="AmmoBox_762x39_20Rnd" chance="0.05" />
 				<item name="Ammo_762x54" chance="0.2" />
 				<item name="AmmoBox_762x54_20Rnd" chance="0.05" />
-				<item name="TWM_Ammo_57x28" chance="0.2" />
-				<item name="TWM_AmmoBox_57x28" chance="0.05" />
+				<item name="Ammo_AE57x28" chance="0.2" />
+				<item name="AE_AmmoBox_57x28_30rnd" chance="0.05" />
 				<item name="Ammo_AE338" chance="0.2" />
 				<item name="AE_AmmoBox_338_20rnd" chance="0.05" />
 		</cargo>
@@ -242,16 +242,12 @@
 				<item name="Canteen_Spur_Green" chance="0.04" />
 				<item name="Canteen_Spur_Black" chance="0.02" />
 				<item name="Canteen_Spur_WoodlandCamo" chance="0.04" />
-				<item name="Ammo_45ACP" chance="0.2" />
-				<item name="AmmoBox_45ACP_25Rnd" chance="0.05" />
-				<item name="Ammo_762x39" chance="0.2" />
-				<item name="AmmoBox_762x39_20Rnd" chance="0.05" />
-				<item name="Ammo_762x54" chance="0.2" />
-				<item name="AmmoBox_762x54_20Rnd" chance="0.05" />
-				<item name="TWM_Ammo_57x28" chance="0.2" />
-				<item name="TWM_AmmoBox_57x28" chance="0.05" />
-				<item name="Ammo_AE338" chance="0.2" />
-				<item name="AE_AmmoBox_338_20rnd" chance="0.05" />
+				<item name="Ammo_45ACP" chance="0.1" />
+				<item name="AmmoBox_45ACP_25Rnd" chance="0.02" />
+				<item name="Ammo_762x39" chance="0.1" />
+				<item name="AmmoBox_762x39_20Rnd" chance="0.02" />
+				<item name="Ammo_762x54" chance="0.1" />
+				<item name="AmmoBox_762x54_20Rnd" chance="0.01" />
 		</cargo>
 		<cargo chance="0.04" name="grenades">
 				<item name="RDG2SmokeGrenade_White" chance="0.25" />
