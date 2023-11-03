@@ -1377,35 +1377,29 @@
 		<value name="Tier3"/>
     </type>
 	<type name="TWM_Mp443">
-        <nominal>20</nominal>
+        <nominal>40</nominal>
         <lifetime>7200</lifetime>
         <restock>0</restock>
-        <min>10</min>
+        <min>20</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="weapons"/>
         <tag name="shelves"/>
-        <usage name="Military"/>
         <usage name="Police"/>
-        <value name="Tier3"/>
-		<value name="Tier4"/>
 	</type>
 	<type name="TWM_Mag_MP443">
-        <nominal>10</nominal>
+        <nominal>20</nominal>
         <lifetime>7200</lifetime>
         <restock>0</restock>
-        <min>8</min>
+        <min>15</min>
         <quantmin>10</quantmin>
-        <quantmax>80</quantmax>
-		<flags count_in_map="1" count_in_hoarder="0" count_in_cargo="0" count_in_player="0" crafted="0" deloot="0" />
+        <quantmax>100</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="weapons"/>
-        <tag name="shelves"/>
-        <usage name="Military"/>
         <usage name="Police"/>
-        <value name="Tier3"/>
-		<value name="Tier4"/>
     </type>
 	<!-- Disabled Till i can figure out a less hacky way to make this work. It does however work. 
 			enable at your own choice and understanding this is not a fully finished item - 

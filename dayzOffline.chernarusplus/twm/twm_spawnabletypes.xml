@@ -494,8 +494,7 @@
 	</type>
 <!-- Mp 443 Grach -->
 	<type name="TWM_MP443">
-		<attachments preset="pistol_suppressors" />
-		<attachments chance="0.25">
+		<attachments chance="0.10">
 			<item name="TWM_Mag_MP443" chance="1.00" />
 		</attachments>
 	</type>
