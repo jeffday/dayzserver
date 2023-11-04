@@ -237,10 +237,10 @@
     <value name="Tier2"/>
   </type>
   <type name="HH_P320">
-    <nominal>10</nominal>
+    <nominal>0</nominal>
     <lifetime>28800</lifetime>
     <restock>0</restock>
-    <min>8</min>
+    <min>0</min>
     <quantmin>-1</quantmin>
     <quantmax>-1</quantmax>
     <cost>100</cost>
@@ -403,10 +403,10 @@
     <value name="Tier2"/>
   </type>
   <type name="HH_P320_Mag">
-    <nominal>20</nominal>
+    <nominal>0</nominal>
     <lifetime>28800</lifetime>
     <restock>0</restock>
-    <min>15</min>
+    <min>0</min>
     <quantmin>10</quantmin>
     <quantmax>100</quantmax>
     <cost>100</cost>
@@ -463,10 +463,10 @@
     <value name="Tier4"/>
   </type>
   <type name="HH_AmmoBox_10mm_25Rnd">
-    <nominal>15</nominal>
+    <nominal>0</nominal>
     <lifetime>7200</lifetime>
     <restock>1200</restock>
-    <min>8</min>
+    <min>0</min>
     <quantmin>-1</quantmin>
     <quantmax>-1</quantmax>
     <cost>100</cost>
@@ -520,10 +520,10 @@
     <value name="Tier4"/>
   </type>
   <type name="HH_Ammo_10mm">
-    <nominal>45</nominal>
+    <nominal>0</nominal>
     <lifetime>7200</lifetime>
     <restock>1200</restock>
-    <min>32</min>
+    <min>0</min>
     <quantmin>1</quantmin>
     <quantmax>6</quantmax>
     <cost>100</cost>
