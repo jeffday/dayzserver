@@ -18808,6 +18808,36 @@
 						<point pos="2.554070 -1.697937 4.891639" range="0.925143" height="1.900002" />
 				</container>
 		</group>
+		<group name="Land_Roadblock_Table" lootmax="2">
+			<usage name="Police" />
+			<usage name="Military" />
+			<usage name="Medic" />
+			<container name="loot" lootmax="2">
+				<category name="tools" />
+				<category name="clothes" />
+				<category name="weapons" />
+				<category name="food" />
+				<tag name="shelves" />
+				<point pos="0.298584 0.400101 -0.024414" range="0.100000" height="0.250000" />
+				<point pos="0.007813 0.400101 0.422363" range="0.375000" height="0.937500" />
+				<point pos="-0.274536 0.400101 0.846191" range="0.134265" height="0.335938" />
+				<point pos="0.283325 0.400101 0.902344" range="0.100000" height="0.250000" />
+				<point pos="-0.281982 0.400101 -0.034668" range="0.100000" height="0.250000" />
+				<point pos="-0.022095 0.400101 -0.526611" range="0.375000" height="0.937500" />
+			</container>
+		</group>
+		<group name="Land_Roadblock_WoodenCrate" lootmax="1">
+			<usage name="Police" />
+			<usage name="Industrial" />
+			<usage name="Medic" />
+			<container name="loot" lootmax="1">
+					<category name="tools" />
+					<category name="clothes" />
+					<category name="food" />
+					<point pos="0.288574 0.332373 0.025391" range="0.375000" height="0.937500" />
+					<point pos="-0.511108 0.332373 -0.242920" range="0.134375" height="0.335938" />
+			</container>
+		</group>
 		<!-- NOT INGAME - PREPARATION
 		<group name="Land_Wreck_truck02_aban1_green" >
 						<usage name="Village" />		
