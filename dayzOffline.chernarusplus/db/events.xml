@@ -91,10 +91,10 @@
         <limit>child</limit>
         <active>1</active>
         <children>
+            <child lootmax="0" lootmin="0" max="3" min="1" type="Animal_CapraHircusF"/>
             <child lootmax="0" lootmin="0" max="1" min="0" type="Animal_CapraHircus_Black"/>
             <child lootmax="0" lootmin="0" max="1" min="0" type="Animal_CapraHircus_Brown"/>
-            <child lootmax="0" lootmin="0" max="1" min="0" type="Animal_CapraHircus_Spooky"/>
-            <child lootmax="0" lootmin="0" max="1" min="0" type="Animal_CapraHircus_White"/>
+            <child lootmax="0" lootmin="0" max="1" min="1" type="Animal_CapraHircus_White"/>
         </children>
     </event>
     <event name="AnimalPig">
@@ -168,9 +168,9 @@
         </children>
     </event>
     <event name="AnimalWolf">
-        <nominal>12</nominal>
-        <min>8</min>
-        <max>10</max>
+        <nominal>8</nominal>
+        <min>4</min>
+        <max>6</max>
         <lifetime>180</lifetime>
         <restock>0</restock>
         <saferadius>200</saferadius>
@@ -356,6 +356,7 @@
             <child lootmax="5" lootmin="0" max="0" min="4" type="ZmbF_BlueCollarFat_White"/>
             <child lootmax="5" lootmin="0" max="0" min="4" type="ZmbF_MechanicNormal_Beige"/>
             <child lootmax="5" lootmin="0" max="0" min="4" type="ZmbF_MechanicNormal_Green"/>
+            <child lootmax="5" lootmin="0" max="0" min="4" type="ZmbF_MechanicNormal_Grey"/>
             <child lootmax="5" lootmin="0" max="0" min="4" type="ZmbF_MechanicNormal_Orange"/>
             <child lootmax="5" lootmin="0" max="0" min="4" type="ZmbM_ConstrWorkerNormal_Beige"/>
             <child lootmax="5" lootmin="0" max="0" min="4" type="ZmbM_ConstrWorkerNormal_Black"/>
@@ -495,23 +496,6 @@
             <child lootmax="5" lootmin="0" max="0" min="100" type="ZmbM_PrisonerSkinny"/>
         </children>
     </event>
-    <event name="InfectedPumpkin">
-        <nominal>50</nominal>
-        <min>25</min>
-        <max>100</max>
-        <lifetime>3</lifetime>
-        <restock>0</restock>
-        <saferadius>100</saferadius>
-        <distanceradius>50</distanceradius>
-        <cleanupradius>100</cleanupradius>
-        <flags deletable="0" init_random="0" remove_damaged="1"/>
-        <position>player</position>
-        <limit>custom</limit>
-        <active>1</active>
-        <children>
-            <child lootmax="5" lootmin="0" max="0" min="5" type="ZmbM_HandymanNormal_Beige"/>
-        </children>
-    </event>
     <event name="InfectedReligious">
         <nominal>50</nominal>
         <min>25</min>
@@ -526,9 +510,8 @@
         <limit>custom</limit>
         <active>1</active>
         <children>
-            <child lootmax="5" lootmin="0" max="0" min="50" type="ZmbM_priestPopSkinny"/>
+            <child lootmax="5" lootmin="0" max="0" min="90" type="ZmbM_priestPopSkinny"/>
             <child lootmax="3" lootmin="0" max="0" min="10" type="CDAJ_ZmbM_Demon"/>
-            <child lootmax="3" lootmin="0" max="0" min="40" type="ZmbM_Mummy"/>
         </children>
     </event>
     <event name="InfectedSanta">
@@ -601,6 +584,7 @@
             <child lootmax="5" lootmin="0" max="0" min="6" type="ZmbF_JoggerSkinny_Brown"/>
             <child lootmax="5" lootmin="0" max="0" min="7" type="ZmbF_JoggerSkinny_Green"/>
             <child lootmax="5" lootmin="0" max="0" min="2" type="ZmbF_MilkMaidOld_Beige"/>
+            <child lootmax="5" lootmin="0" max="0" min="2" type="ZmbF_MilkMaidOld_Black"/>
             <child lootmax="5" lootmin="0" max="0" min="2" type="ZmbF_MilkMaidOld_Grey"/>
             <child lootmax="5" lootmin="0" max="0" min="2" type="ZmbF_VillagerOld_Green"/>
             <child lootmax="5" lootmin="0" max="0" min="2" type="ZmbF_VillagerOld_Red"/>
@@ -646,23 +630,6 @@
             <child lootmax="5" lootmin="0" max="0" min="5" type="ZmbM_VillagerOld_Green"/>
         </children>
     </event>
-    <event name="InfectedWitch">
-        <nominal>50</nominal>
-        <min>25</min>
-        <max>100</max>
-        <lifetime>3</lifetime>
-        <restock>0</restock>
-        <saferadius>100</saferadius>
-        <distanceradius>50</distanceradius>
-        <cleanupradius>100</cleanupradius>
-        <flags deletable="0" init_random="0" remove_damaged="1"/>
-        <position>player</position>
-        <limit>custom</limit>
-        <active>1</active>
-        <children>
-            <child lootmax="5" lootmin="0" max="0" min="5" type="ZmbF_MilkMaidOld_Black"/>
-        </children>
-    </event>
     <event name="ItemPlanks">
         <nominal>50</nominal>
         <min>40</min>
@@ -694,6 +661,25 @@
         <limit>custom</limit>
         <active>1</active>
         <children/>
+    </event>
+    <event name="StaticAirplaneCrate">
+        <nominal>9</nominal>
+        <min>0</min>
+        <max>0</max>
+        <lifetime>1800</lifetime>
+        <restock>0</restock>
+        <saferadius>1000</saferadius>
+        <distanceradius>1</distanceradius>
+        <cleanupradius>1000</cleanupradius>
+        <flags deletable="1" init_random="0" remove_damaged="0"/>
+        <position>fixed</position>
+        <limit>child</limit>
+        <active>1</active>
+        <children>
+            <child lootmax="8" lootmin="4" max="4" min="2" type="StaticObj_Misc_SupplyBox1_DE"/>
+            <child lootmax="8" lootmin="4" max="4" min="2" type="StaticObj_Misc_SupplyBox2_DE"/>
+            <child lootmax="8" lootmin="4" max="4" min="2" type="StaticObj_Misc_SupplyBox3_DE"/>
+        </children>
     </event>
     <event name="StaticBonfire">
         <nominal>20</nominal>
