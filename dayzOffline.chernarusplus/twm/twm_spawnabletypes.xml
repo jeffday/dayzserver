@@ -115,7 +115,7 @@
 		</attachments> 
 	</type>
 <!-- Banshee 57 SMG's -->
-	<type name="TWM_Banshee_57">
+	<type name="TWM_Banshee_57_Black">
 		<attachments preset="close_range_optics" />
 		<attachments preset="pistol_suppressors" />
 		<attachments chance="1.00">
@@ -123,9 +123,6 @@
 		</attachments> 
 		<attachments chance="0.15">
 			<item name="TWM_Mag_Banshee_57" chance="1.00" />
-		</attachments> 
-		<attachments chance="0.25">
-			<item name="Mag_Glock_15Rnd" chance="1.00" />
 		</attachments> 
 	</type>
 	<type name="TWM_Banshee_57_OD">
@@ -137,9 +134,6 @@
 		<attachments chance="0.15">
 			<item name="TWM_Mag_Banshee_57" chance="1.00" />
 		</attachments> 
-		<attachments chance="0.25">
-			<item name="Mag_Glock_15Rnd" chance="1.00" />
-		</attachments> 
 	</type>
 	<type name="TWM_Banshee_57_Tan">
 		<attachments preset="close_range_optics" />
@@ -149,9 +143,6 @@
 		</attachments> 
 		<attachments chance="0.15">
 			<item name="TWM_Mag_Banshee_57" chance="1.00" />
-		</attachments> 
-		<attachments chance="0.25">
-			<item name="Mag_Glock_15Rnd" chance="1.00" />
 		</attachments> 
 	</type>
 <!-- IA2 Light Rifles -->
