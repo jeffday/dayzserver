@@ -1,0 +1,265 @@
+{
+    "spawnWeight": 1,
+    "name": "medic",
+    "attachmentSlotItemSets": [
+        {
+            "slotName": "Back",
+            "discreteItemSets": [
+                {
+                    "itemType": "CanvasBag_Medical",
+                    "spawnWeight": 1,
+                    "attributes": {
+                        "healthMin": 0.5,
+                        "healthMax": 0.8,
+                        "quantityMin": 1.0,
+                        "quantityMax": 1.0
+                    },
+                    "quickBarSlot": -1
+                }
+            ]
+        },
+        {
+            "slotName": "Eyewear",
+            "discreteItemSets": [
+                {
+                    "itemType": "ThickFramesGlasses",
+                    "spawnWeight": 1,
+                    "attributes": {
+                        "healthMin": 1.0,
+                        "healthMax": 1.0,
+                        "quantityMin": 1.0,
+                        "quantityMax": 1.0
+                    },
+                    "quickBarSlot": -1
+                },
+                {
+                    "itemType": "",
+                    "spawnWeight": 1
+                }
+            ]
+        },
+		{
+            "slotName": "Mask",
+            "discreteItemSets": [
+                {
+                    "itemType": "SurgicalMask",
+                    "spawnWeight": 1,
+                    "attributes": {
+                        "healthMin": 0.6,
+                        "healthMax": 0.9,
+                        "quantityMin": 1.0,
+                        "quantityMax": 1.0
+                    },
+                    "quickBarSlot": -1
+                },
+                {
+                    "itemType": "SurgicalMask_black",
+                    "spawnWeight": 1,
+                    "attributes": {
+                        "healthMin": 0.6,
+                        "healthMax": 0.9,
+                        "quantityMin": 1.0,
+                        "quantityMax": 1.0
+                    },
+                    "quickBarSlot": -1
+                },
+                {
+                    "itemType": "NioshFaceMask",
+                    "spawnWeight": 1,
+                    "attributes": {
+                        "healthMin": 0.6,
+                        "healthMax": 0.9,
+                        "quantityMin": 1.0,
+                        "quantityMax": 1.0
+                    },
+                    "quickBarSlot": -1
+                },
+                {
+                    "itemType": "NioshFaceMask_black",
+                    "spawnWeight": 1,
+                    "attributes": {
+                        "healthMin": 0.6,
+                        "healthMax": 0.9,
+                        "quantityMin": 1.0,
+                        "quantityMax": 1.0
+                    },
+                    "quickBarSlot": -1
+                }
+            ]
+        },
+        {
+            "slotName": "Body",
+            "discreteItemSets": [
+                {
+                    "itemType": "ParamedicJacket_Crimson",
+                    "spawnWeight": 1,
+                    "attributes": {
+                        "healthMin": 1.0,
+                        "healthMax": 1.0,
+                        "quantityMin": 1.0,
+                        "quantityMax": 1.0
+                    },
+                    "quickBarSlot": -1
+                }
+            ]
+        },
+        {
+            "slotName": "Gloves",
+            "discreteItemSets": [
+                {
+                    "itemType": "SurgicalGloves_Blue",
+                    "spawnWeight": 1,
+                    "attributes": {
+                        "healthMin": 0.7,
+                        "healthMax": 1.0,
+                        "quantityMin": 1.0,
+                        "quantityMax": 1.0
+                    },
+                    "quickBarSlot": -1
+                },
+                {
+                    "itemType": "SurgicalGloves_Green",
+                    "spawnWeight": 1,
+                    "attributes": {
+                        "healthMin": 0.7,
+                        "healthMax": 1.0,
+                        "quantityMin": 1.0,
+                        "quantityMax": 1.0
+                    },
+                    "quickBarSlot": -1
+                },
+                {
+                    "itemType": "SurgicalGloves_LightBlue",
+                    "spawnWeight": 1,
+                    "attributes": {
+                        "healthMin": 0.7,
+                        "healthMax": 1.0,
+                        "quantityMin": 1.0,
+                        "quantityMax": 1.0
+                    },
+                    "quickBarSlot": -1
+                }
+            ]
+        },
+        {
+            "slotName": "Legs",
+            "discreteItemSets": [
+                {
+                    "itemType": "ParamedicPants_Crimson",
+                    "spawnWeight": 1,
+                    "attributes": {
+                        "healthMin": 1.0,
+                        "healthMax": 1.0,
+                        "quantityMin": 1.0,
+                        "quantityMax": 1.0
+                    },
+                    "quickBarSlot": -1
+                }
+            ]
+        },
+        {
+            "slotName": "Feet",
+            "discreteItemSets": [
+                {
+                    "itemType": "WorkingBoots_Yellow",
+                    "spawnWeight": 1,
+                    "attributes": {
+                        "healthMin": 0.5,
+                        "healthMax": 0.8,
+                        "quantityMin": 1.0,
+                        "quantityMax": 1.0
+                    },
+                    "quickBarSlot": -1
+                },
+                {
+                    "itemType": "WorkingBoots_Beige",
+                    "spawnWeight": 1,
+                    "attributes": {
+                        "healthMin": 0.5,
+                        "healthMax": 0.8,
+                        "quantityMin": 1.0,
+                        "quantityMax": 1.0
+                    },
+                    "quickBarSlot": -1
+                },
+                {
+                    "itemType": "WorkingBoots_Brown",
+                    "spawnWeight": 1,
+                    "attributes": {
+                        "healthMin": 0.5,
+                        "healthMax": 0.8,
+                        "quantityMin": 1.0,
+                        "quantityMax": 1.0
+                    },
+                    "quickBarSlot": -1
+                }
+            ]
+        }
+    ],
+    "discreteUnsortedItemSets": [
+        {
+            "name": "Medic Cargo 1",
+            "spawnWeight": 1,
+            "attributes": {
+                "healthMin": 0.5,
+                "healthMax": 1.0,
+                "quantityMin": 0.6,
+                "quantityMax": 0.8
+            },
+            "complexChildrenTypes": [
+                {
+                    "itemType": "FirstAidKit",
+                    "attributes": {
+                        "healthMin": 0.7,
+                        "healthMax": 0.8,
+                        "quantityMin": 0.05,
+                        "quantityMax": 0.1
+                    },
+                    "quickBarSlot": 3,
+                    "simpleChildrenUseDefaultAttributes": false,
+                    "simpleChildrenTypes": [
+                        "BloodBagIV",
+                        "BandageDressing"
+                    ]
+                }
+            ],
+            "simpleChildrenUseDefaultAttributes": false,
+            "simpleChildrenTypes": [
+                "WaterBottle",
+                "Zagorky"
+            ]
+        },
+        {
+            "name": "Medic Cargo 2",
+            "spawnWeight": 1,
+            "attributes": {
+                "healthMin": 0.5,
+                "healthMax": 1.0,
+                "quantityMin": 0.6,
+                "quantityMax": 0.8
+            },
+            "complexChildrenTypes": [
+                {
+                    "itemType": "FirstAidKit",
+                    "attributes": {
+                        "healthMin": 0.7,
+                        "healthMax": 0.8,
+                        "quantityMin": 0.05,
+                        "quantityMax": 0.1
+                    },
+                    "quickBarSlot": 3,
+                    "simpleChildrenUseDefaultAttributes": false,
+                    "simpleChildrenTypes": [
+                        "TetracyclineAntibiotics",
+                        "BandageDressing"
+                    ]
+                }
+            ],
+            "simpleChildrenUseDefaultAttributes": false,
+            "simpleChildrenTypes": [
+                "WaterBottle",
+                "Apple"
+            ]
+        }
+    ]
+}
