@@ -295,16 +295,11 @@
 				<item name="BO_ACOGOptic_300blk_Red" chance="0.5" />
 		</attachments>
 		<attachments chance="0.60" name="dmr_optics">
-				<item name="BO_ACOGOptic_Crosshair_Red" chance="0.10" />
-				<item name="BO_SpecterDROptic" chance="0.10" />
-				<item name="BO_HAMROptic" chance="0.10" />
-				<item name="BO_NFATACR_1_8" chance="0.10" />
-				<item name="BO_ShmidtBender20" chance="0.10" />
-				<item name="BO_Vudu" chance="0.10" />
-				<item name="BO_VortexRazor_Black" chance="0.10" />
-				<item name="BO_VortexRazor_Brown" chance="0.10" />
-				<item name="BO_Tango6" chance="0.10" />
-				<item name="BO_AccuPowerOptic" chance="0.10" />
+				<item name="BO_SpecterDROptic" chance="0.125" />
+				<item name="BO_Sight_4_6" chance="0.125" />
+				<item name="BO_Tango6" chance="0.25" />
+				<item name="BO_NFATACR_1_8" chance="0.25" />
+				<item name="BO_Vudu" chance="0.25" />
 		</attachments>
 		<attachments chance="0.60" name="long_range_scopes">
 				<item name="HuntingOptic" chance="0.50" />
@@ -319,37 +314,8 @@
 		</attachments>
 		<attachments chance="0.05" name="pistol_suppressors">
 				<item name="BO_OspreySuppressor" chance="0.125" />
-				<item name="BO_MK23_Suppressor" chance="0.5" />
-				<item name="Tundra_Suppressor" chance="0.125" />
-				<item name="USP_Suppressor" chance="0.25" />
-		</attachments>
-		<attachments chance="0.10" name="ak_suppressors">
-				<item name="BO_TacticalSuppressor" chance="1.00" />
-		</attachments>
-		<attachments chance="0.10" name="338">
-				<item name="BO_HarvesterSuppressor" chance="1.00" />
-		</attachments>
-		<attachments chance="1.00" name="bttsttck">
-				<item name="BO_SOPMODBttstck" chance="0.25" />
-				<item name="BO_SOPMODBttstck_FDE" chance="0.25" />
-				<item name="BO_MK18Bttstck" chance="0.25" />
-				<item name="BO_MK18Bttstck_FDE" chance="0.25" />
-		</attachments>
-		<attachments chance="0.10" name="fal">
-				<item name="BO_CorduraSuppressor" chance="0.33" />
-				<item name="BO_CorduraSuppressor_Black" chance="0.33" />
-				<item name="BO_MCXSpear_Suppressor" chance="0.33" />
-		</attachments>
-		<attachments chance="0.10" name="408">
-				<item name="BO_M200_Suppressor" chance="1.00" />
-		</attachments>
-		<attachments chance="0.10" name="50bmg">
-				<item name="BO_BarrettM82Suppressor" chance="1.00" />
-		</attachments>
-		<attachments chance="1.00" name="bttsttckMCX">
-				<item name="BO_MCXSpear_Bttstck_Tan" chance="0.33" />
-				<item name="BO_SOPMODBttstck_FDE" chance="0.33" />
-				<item name="BO_MK18Bttstck" chance="0.33" />
+				<item name="BO_MK23_Suppressor" chance="0.75" />
+				<item name="TWM_MCPistol_Suppressor" chance="0.125" />
 		</attachments>
 		<!--NBC Cargo-->
 		<cargo chance="0.2" name="ContaminatedCargo">
