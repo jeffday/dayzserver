@@ -6070,7 +6070,7 @@
 						<point pos="4.750735 0.906868 6.758787" range="1.199951" height="2.000000" />
 				</container>
 		</group>
-		<group name="Land_Mil_Barracks1" lootmax="12">
+		<group name="Land_Mil_Barracks1" lootmax="10">
 				<usage name="Military" />
 				<container name="lootFloor" lootmax="8">
 						<category name="tools" />
@@ -6106,7 +6106,7 @@
 						<point pos="3.796594 -0.731110 3.047653" range="0.405042" height="1.012604" />
 						<point pos="-3.750014 -0.731079 5.538971" range="0.443750" height="1.109375" />
 				</container>
-				<container name="lootweapons" lootmax="12">
+				<container name="lootweapons" lootmax="10">
 						<category name="weapons" />
 						<category name="explosives" />
 						<point pos="4.032560 -0.354279 -5.900653" range="0.100000" height="0.165283" />
@@ -6157,7 +6157,7 @@
 						<point pos="3.711096 -0.731201 -2.212100" range="0.478125" height="1.195313" />
 				</container>
 		</group>
-		<group name="Land_Mil_Barracks2" lootmax="12">
+		<group name="Land_Mil_Barracks2" lootmax="10">
 				<usage name="Military" />
 				<container name="lootFloor" lootmax="8">
 						<category name="tools" />
@@ -6203,7 +6203,7 @@
 						<point pos="-0.912986 -0.700653 3.491587" range="0.443750" height="0.532288" />
 						<point pos="-1.955373 -0.700653 -3.013132" range="0.443750" height="0.533661" />
 				</container>
-				<container name="lootweapons" lootmax="10">
+				<container name="lootweapons" lootmax="8">
 						<category name="weapons" />
 						<category name="explosives" />
 						<point pos="-2.142600 -0.088013 -4.251707" range="0.100000" height="0.250000" />
@@ -6229,7 +6229,7 @@
 						<point pos="-1.883546 -1.098541 8.319878" range="1.153076" height="2.000000" />
 				</container>
 		</group>
-		<group name="Land_Mil_Barracks3" lootmax="12">
+		<group name="Land_Mil_Barracks3" lootmax="10">
 				<usage name="Military" />
 				<container name="lootFloor" lootmax="8">
 						<category name="tools" />
@@ -6278,7 +6278,7 @@
 						<point pos="4.505566 -1.531708 4.332965" range="0.443750" height="0.532288" />
 						<point pos="5.508085 -1.531708 -2.392418" range="0.478125" height="0.532501" />
 				</container>
-				<container name="lootweapons" lootmax="10">
+				<container name="lootweapons" lootmax="8">
 						<category name="weapons" />
 						<category name="explosives" />
 						<point pos="-1.276884 -1.867615 7.931981" range="0.100000" height="0.250000" />
@@ -6358,7 +6358,7 @@
 						<point pos="-2.029328 -1.465946 4.138081" range="1.200000" height="2.000004" />
 				</container>
 		</group>
-		<group name="Land_Mil_Barracks5" lootmax="10">
+		<group name="Land_Mil_Barracks5" lootmax="8">
 				<usage name="Military" />
 				<container name="lootFloor" lootmax="6">
 						<category name="tools" />
@@ -6390,7 +6390,7 @@
 						<point pos="-5.681998 -0.484375 8.608490" range="0.409375" height="0.533508" />
 						<point pos="-8.207457 -0.933044 11.558698" range="1.079590" height="2.000000" />
 				</container>
-				<container name="lootweapons" lootmax="8">
+				<container name="lootweapons" lootmax="6">
 						<category name="weapons" />
 						<category name="explosives" />
 						<point pos="-7.071167 -4.293365 8.186148" range="0.134375" height="0.335938" />
@@ -6493,9 +6493,9 @@
 						<point pos="0.615404 -7.461273 1.361351" range="0.100000" height="0.250000" />
 				</container>
 		</group>
-		<group name="Land_Mil_Barracks6" lootmax="35">
+		<group name="Land_Mil_Barracks6" lootmax="25">
 				<usage name="Military" />
-				<container name="lootFloor" lootmax="15">
+				<container name="lootFloor" lootmax="10">
 						<category name="tools" />
 						<category name="containers" />
 						<tag name="floor" />
@@ -6532,7 +6532,7 @@
 						<point pos="-3.131103 3.851433 -3.309082" range="0.843262" height="2.000000" />
 						<point pos="-2.720458 3.851433 12.030027" range="0.895968" height="2.000000" />
 				</container>
-				<container name="lootshelves" lootmax="25">
+				<container name="lootshelves" lootmax="20">
 						<category name="tools" />
 						<category name="containers" />
 						<category name="clothes" />
@@ -6654,7 +6654,7 @@
 						<point pos="1.900635 4.303635 10.927490" range="0.375000" height="0.533516" />
 						<point pos="1.963624 5.093536 11.828370" range="0.306250" height="0.765625" />
 				</container>
-				<container name="lootweapons" lootmax="25">
+				<container name="lootweapons" lootmax="20">
 						<category name="weapons" />
 						<category name="explosives" />
 						<point pos="-0.742188 2.237579 -9.721436" range="0.100000" height="0.250000" />
@@ -6772,9 +6772,9 @@
 				</container>
 		</group>
 
-		<group name="Land_Mil_Barracks6_Old" lootmax="35">
+		<group name="Land_Mil_Barracks6_Old" lootmax="25">
 				<usage name="Military" />
-				<container name="lootFloor" lootmax="15">
+				<container name="lootFloor" lootmax="10">
 						<category name="tools" />
 						<category name="containers" />
 						<tag name="floor" />
@@ -6811,7 +6811,7 @@
 						<point pos="-3.131103 3.851433 -3.309082" range="0.843262" height="2.000000" />
 						<point pos="-2.720458 3.851433 12.030027" range="0.895968" height="2.000000" />
 				</container>
-				<container name="lootshelves" lootmax="25">
+				<container name="lootshelves" lootmax="20">
 						<category name="tools" />
 						<category name="containers" />
 						<category name="clothes" />
@@ -6933,7 +6933,7 @@
 						<point pos="1.900635 4.303635 10.927490" range="0.375000" height="0.533516" />
 						<point pos="1.963624 5.093536 11.828370" range="0.306250" height="0.765625" />
 				</container>
-				<container name="lootweapons" lootmax="25">
+				<container name="lootweapons" lootmax="20">
 						<category name="weapons" />
 						<category name="explosives" />
 						<point pos="-0.742188 2.237579 -9.721436" range="0.100000" height="0.250000" />
@@ -7090,7 +7090,7 @@
 						<point pos="2.966833 -0.696869 1.577464" range="1.199951" height="1.661102" />
 				</container>
 		</group>
-		<group name="Land_Mil_Tent_Big1_1" lootmax="8">
+		<group name="Land_Mil_Tent_Big1_1" lootmax="5">
 				<usage name="Military" />
 				<container name="lootFloor">
 						<category name="tools" />
@@ -7122,7 +7122,7 @@
 						<point pos="-2.805496 0.648079 1.726367" range="0.134375" height="0.335938" />
 				</container>
 		</group>
-		<group name="Land_Mil_Tent_Big1_2" lootmax="8">
+		<group name="Land_Mil_Tent_Big1_2" lootmax="5">
 				<usage name="Military" />
 				<container name="lootFloor">
 						<category name="tools" />
@@ -7153,7 +7153,7 @@
 						<point pos="-1.931714 0.046318 0.052331" range="0.520264" height="1.300659" />
 				</container>
 		</group>
-		<group name="Land_Mil_Tent_Big1_3" lootmax="8">
+		<group name="Land_Mil_Tent_Big1_3" lootmax="5">
 				<usage name="Military" />
 				<container name="lootFloor">
 						<category name="tools" />
@@ -7189,7 +7189,7 @@
 						<point pos="-2.052130 0.046318 -0.129865" range="0.748047" height="1.870117" />
 				</container>
 		</group>
-		<group name="Land_Mil_Tent_Big1_4" lootmax="8">
+		<group name="Land_Mil_Tent_Big1_4" lootmax="5">
 				<usage name="Military" />
 				<container name="lootFloor">
 						<category name="tools" />
@@ -7222,7 +7222,7 @@
 						<point pos="-2.336955 0.046318 1.019177" range="1.108398" height="2.000000" />
 				</container>
 		</group>
-		<group name="Land_Mil_Tent_Big1_5" lootmax="8">
+		<group name="Land_Mil_Tent_Big1_5" lootmax="5">
 				<usage name="Military" />
 				<container name="lootFloor">
 						<category name="tools" />
@@ -7252,7 +7252,7 @@
 						<point pos="-2.448397 0.046318 0.425987" range="0.347793" height="2.000000" />
 				</container>
 		</group>
-		<group name="Land_Mil_Tent_Big2_1" lootmax="8">
+		<group name="Land_Mil_Tent_Big2_1" lootmax="5">
 				<usage name="Military" />
 				<container name="lootFloor">
 						<category name="tools" />
@@ -7291,7 +7291,7 @@
 						<point pos="-0.963426 -1.966694 -2.745652" range="1.199951" height="1.999943" />
 				</container>
 		</group>
-		<group name="Land_Mil_Tent_Big2_2" lootmax="8">
+		<group name="Land_Mil_Tent_Big2_2" lootmax="5">
 				<usage name="Military" />
 				<container name="lootFloor">
 						<category name="tools" />
@@ -7332,7 +7332,7 @@
 						<point pos="1.725067 -1.966691 -3.166091" range="1.179932" height="1.999928" />
 				</container>
 		</group>
-		<group name="Land_Mil_Tent_Big2_3" lootmax="8">
+		<group name="Land_Mil_Tent_Big2_3" lootmax="5">
 				<usage name="Military" />
 				<container name="lootFloor">
 						<category name="tools" />
@@ -7375,7 +7375,7 @@
 						<point pos="0.070854 -1.966694 3.208801" range="1.199951" height="1.999943" />
 				</container>
 		</group>
-		<group name="Land_Mil_Tent_Big2_4" lootmax="8">
+		<group name="Land_Mil_Tent_Big2_4" lootmax="5">
 				<usage name="Military" />
 				<container name="lootFloor">
 						<category name="tools" />
@@ -7422,7 +7422,7 @@
 						<point pos="0.702515 -1.966694 0.121484" range="1.199951" height="1.999943" />
 				</container>
 		</group>
-		<group name="Land_Mil_Tent_Big2_5" lootmax="8">
+		<group name="Land_Mil_Tent_Big2_5" lootmax="5">
 				<usage name="Military" />
 				<container name="lootFloor">
 						<category name="tools" />
@@ -7474,9 +7474,9 @@
 						<point pos="-0.399605 -1.966690 -2.572634" range="1.199951" height="2.000000" />
 				</container>
 		</group>
-		<group name="Land_Mil_Tent_Big3" lootmax="10">
+		<group name="Land_Mil_Tent_Big3" lootmax="8">
 				<usage name="Military" />
-				<container name="lootFloor" lootmax="10">
+				<container name="lootFloor" lootmax="8">
 						<category name="tools" />
 						<category name="containers" />
 						<category name="clothes" />
@@ -7508,9 +7508,9 @@
 						<point pos="-5.394416 -1.037323 -3.044804" range="1.199951" height="2.000000" />
 				</container>
 		</group>
-		<group name="Land_Mil_Tent_Big4" lootmax="10">
+		<group name="Land_Mil_Tent_Big4" lootmax="8">
 				<usage name="Military" />
-				<container name="lootFloor" lootmax="10">
+				<container name="lootFloor" lootmax="8">
 						<category name="tools" />
 						<category name="containers" />
 						<category name="clothes" />
@@ -7547,9 +7547,9 @@
 						<point pos="-2.228182 -1.161530 -0.128232" range="0.944595" height="2.000000" />
 				</container>
 		</group>
-		<group name="Land_Tisy_HQ" lootmax="35">
+		<group name="Land_Tisy_HQ" lootmax="25">
 				<usage name="Military" />
-				<container name="lootFloor" lootmax="15">
+				<container name="lootFloor" lootmax="10">
 						<category name="tools" />
 						<category name="containers" />
 						<category name="clothes" />
@@ -7595,7 +7595,7 @@
 						<point pos="0.238778 1.121368 -2.798935" range="0.985596" height="2.000000" />
 						<point pos="3.078720 1.121368 -2.454961" range="1.082764" height="2.000000" />
 				</container>
-				<container name="lootshelves" lootmax="15">
+				<container name="lootshelves" lootmax="10">
 						<category name="tools" />
 						<category name="containers" />
 						<category name="clothes" />
@@ -7636,7 +7636,7 @@
 						<point pos="1.514976 1.121368 -2.397526" range="0.352242" height="2.000000" />
 						<point pos="-7.102809 2.714211 -9.042295" range="0.150146" height="0.165291" />
 				</container>
-				<container name="lootweapons" lootmax="15">
+				<container name="lootweapons" lootmax="10">
 						<category name="weapons" />
 						<category name="explosives" />
 						<point pos="1.462782 1.755463 1.211397" range="0.100000" height="0.250000" />
@@ -7682,9 +7682,9 @@
 						<point pos="2.086038 1.789528 -4.274648" range="0.164551" height="0.202454" />
 				</container>
 		</group>
-		<group name="Land_Tisy_Garages" lootmax="12">
+		<group name="Land_Tisy_Garages" lootmax="8">
 				<usage name="Military" />
-				<container name="lootFloor" lootmax="12">
+				<container name="lootFloor" lootmax="8">
 						<category name="tools" />
 						<category name="containers" />
 						<category name="clothes" />
@@ -7734,9 +7734,9 @@
 						<point pos="-4.598347 -3.052094 3.351741" range="1.199951" height="2.000000" />
 				</container>
 		</group>
-		<group name="Land_Tisy_Garages2" lootmax="12">
+<group name="Land_Tisy_Garages2">
 				<usage name="Military" />
-				<container name="lootFloor" lootmax="12">
+				<container name="lootFloor">
 						<category name="clothes" />
 						<tag name="floor" />
 						<tag name="ground" />
@@ -7755,7 +7755,7 @@
 						<point pos="-11.326903 -2.670380 2.903197" range="1.199975" height="2.000000" />
 						<point pos="-11.495238 -2.670767 -1.722901" range="1.199975" height="2.000000" />
 				</container>
-				<container name="loot" lootmax="12">
+				<container name="loot">
 						<category name="weapons" />
 						<tag name="floor" />
 						<tag name="ground" />
@@ -8002,9 +8002,9 @@
 						<point pos="7.051305 -4.268127 6.184982" range="1.199951" height="2.000000" />
 				</container>
 		</group>
-		<group name="Land_Tisy_Barracks" lootmax="35">
+		<group name="Land_Tisy_Barracks" lootmax="25">
 				<usage name="Military" />
-				<container name="lootFloor" lootmax="20">
+				<container name="lootFloor" lootmax="15">
 						<category name="tools" />
 						<category name="containers" />
 						<category name="clothes" />
@@ -8043,7 +8043,7 @@
 						<point pos="-2.901367 3.752327 -11.208740" range="1.195439" height="2.000000" />
 						<point pos="-0.276123 3.752327 -15.102783" range="1.199951" height="2.000000" />
 				</container>
-				<container name="lootshelves" lootmax="20">
+				<container name="lootshelves" lootmax="15">
 						<category name="tools" />
 						<category name="containers" />
 						<category name="clothes" />
@@ -8096,7 +8096,7 @@
 						<point pos="1.508791 0.688667 16.447512" range="0.349838" height="0.532295" />
 						<point pos="-2.371348 0.688667 16.679684" range="0.203125" height="0.507813" />
 				</container>
-				<container name="lootweapons" lootmax="20">
+				<container name="lootweapons" lootmax="15">
 						<category name="weapons" />
 						<category name="explosives" />
 						<point pos="3.985354 -3.434326 6.267576" range="0.478125" height="0.533684" />
@@ -8308,9 +8308,9 @@
 						<point pos="-3.742365 -1.106073 -9.297617" range="1.199951" height="1.910801" />
 				</container>
 		</group>
-		<group name="Land_Mil_ATC_Big" lootmax="30">
+		<group name="Land_Mil_ATC_Big" lootmax="20">
 				<usage name="Military" />
-				<container name="lootFloor" lootmax="20">
+				<container name="lootFloor" lootmax="15">
 						<category name="tools" />
 						<category name="containers" />
 						<tag name="floor" />
@@ -8365,7 +8365,7 @@
 						<point pos="-10.982666 4.460175 -12.515626" range="1.155273" height="2.000000" />
 						<point pos="-7.573242 4.460175 -9.840330" range="0.731689" height="1.829224" />
 				</container>
-				<container name="lootshelves" lootmax="20">
+				<container name="lootshelves" lootmax="15">
 						<category name="tools" />
 						<category name="containers" />
 						<category name="clothes" />
@@ -8430,7 +8430,7 @@
 						<point pos="-12.239742 5.292915 -10.581790" range="0.375000" height="0.937500" />
 						<point pos="-17.545654 8.704140 -3.239505" range="0.203125" height="0.507813" />
 				</container>
-				<container name="lootweapons" lootmax="20">
+				<container name="lootweapons" lootmax="15">
 						<category name="weapons" />
 						<category name="explosives" />
 						<point pos="-3.023682 -5.839828 11.941894" range="0.890625" height="2.000000" />
@@ -8492,9 +8492,9 @@
 						<point pos="-19.070557 4.460175 -0.683594" range="1.199951" height="2.000000" />
 				</container>
 		</group>
-		<group name="Land_Mil_Airfield_HQ" lootmax="25">
+		<group name="Land_Mil_Airfield_HQ" lootmax="20">
 				<usage name="Military" />
-				<container name="lootFloor" lootmax="15">
+				<container name="lootFloor" lootmax="10">
 						<category name="tools" />
 						<category name="containers" />
 						<category name="clothes" />
@@ -8530,7 +8530,7 @@
 						<point pos="-7.752197 -4.907120 -1.470949" range="1.199951" height="2.000000" />
 						<point pos="-6.462159 -4.907120 6.256835" range="0.826114" height="2.000000" />
 				</container>
-				<container name="lootshelves" lootmax="15">
+				<container name="lootshelves" lootmax="10">
 						<category name="tools" />
 						<category name="containers" />
 						<category name="clothes" />
@@ -8568,7 +8568,7 @@
 						<point pos="-7.343507 -3.738022 5.133297" range="0.203125" height="0.507813" />
 						<point pos="-7.896729 -3.738022 5.156250" range="0.134375" height="0.335938" />
 				</container>
-				<container name="lootweapons" lootmax="15">
+				<container name="lootweapons" lootmax="10">
 						<category name="weapons" />
 						<category name="explosives" />
 						<point pos="-4.176517 -0.891541 8.543211" range="0.661133" height="1.652832" />
