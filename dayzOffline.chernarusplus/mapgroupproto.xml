@@ -8608,10 +8608,10 @@
 						<point pos="-7.775880 -4.330116 5.158689" range="0.154297" height="0.385742" />
 				</container>
 		</group>
-		<group name="Land_Mil_AircraftShelter" lootmax="26">
+		<group name="Land_Mil_AircraftShelter" lootmax="27">
 				<usage name="Industrial" />
 				<usage name="Village" />
-				<container name="lootFloor" lootmax="13">
+				<container name="lootFloor" lootmax="11">
 						<category name="tools" />
 						<category name="containers" />
 						<category name="clothes" />
@@ -8623,12 +8623,11 @@
 						<point pos="-11.541688 0.010468 4.757290" range="1.200000" height="2.000000" />
 						<point pos="-16.739067 0.010468 -4.682236" range="1.200000" height="2.000000" />
 						<point pos="-20.536377 0.010468 4.959951" range="1.200000" height="2.000000" />
-						<point pos="-17.912701 0.093488 -11.714435" range="1" height="1" />
-						<point pos="-17.801168 0.071743 -10.102725" range="1" height="1" /> 
-						<point pos="-13.938618 0.089717 -13.423308" range="1" height="1" /> 
-						<point pos="-12.843619 0.090355 -11.240248" range="1" height="1" />
-						<point pos="-19.982746 0.158125 -12.019562" range="1" height="1" /> 
-						<point pos="-19.634100 0.125124 -10.307600" range="1" height="1" /> 
+						<point pos="-17.912701 0.010468 -11.714435" range="0.320149" height="1" />
+						<point pos="-17.801168 0.010468 -10.102725" range="0.320149" height="1" /> 
+						<point pos="-12.843619 0.010468 -11.240248" range="0.320149" height="1" />
+						<point pos="-19.982746 0.010468 -12.019562" range="0.320149" height="1" /> 
+						 
 				</container>
 				<container name="lootshelves" lootmax="9">
 						<category name="tools" />
@@ -8641,12 +8640,12 @@
 						<point pos="-3.226580 0.010468 -0.251008" range="0.470706" height="2.000000" />
 						<point pos="-20.778181 0.010468 -4.218490" range="0.601893" height="2.000000" />
 						<point pos="-10.775822 0.010468 2.521199" range="0.681156" height="2.000000" />
-						<point pos="-14.196158 0.180458 -9.693172" range="1" height="1" /> 
-						<point pos="-14.656792 0.621678 -10.400032" range="1" height="1" /> 
-						<point pos="-14.557798 1.136876 -10.060621" range="1" height="1" /> 
-						<point pos="-12.790564 1.122410 -9.948010" range="1" height="1" /> 
+						<point pos="-14.196158 0.180458 -9.693172" range="0.320149" height="1" /> 
+						<point pos="-14.656792 0.621678 -10.400032" range="0.320149" height="1" /> 
+						<point pos="-14.557798 1.136876 -10.060621" range="0.320149" height="1" /> 
+						<point pos="-12.790564 1.122410 -9.948010" range="0.320149" height="1" /> 
 				</container>
-				<container name="lootweapons" lootmax="2">
+				<container name="lootweapons" lootmax="7">
 						<category name="weapons" />
 						<category name="explosives" />
 						<point pos="5.001691 0.010468 3.293729" range="0.673381" height="2.000000" />
@@ -8654,6 +8653,8 @@
 						<point pos="7.347686 0.010437 -2.901450" range="0.670899" height="1.677246" />
 						<point pos="-9.047234 0.010468 0.008569" range="0.320149" height="2.000000" />
 						<point pos="-7.189093 0.010468 3.243827" range="0.355510" height="2.000000" />
+						<point pos="-19.634100 0.010468 -10.307600" range="0.320149" height="1" />
+						<point pos="-13.938618 0.010468 -13.423308" range="0.320149" height="1" />
 				</container>
 		</group>
 		<group name="Land_Mil_Guardhouse1" lootmax="2">
