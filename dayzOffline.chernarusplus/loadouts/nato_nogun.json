@@ -1,0 +1,427 @@
+{
+    "spawnWeight":1,
+    "name":"Military - NATO",
+    "characterTypes":[
+       "SurvivorF_Keiko"
+    ],
+    "attachmentSlotItemSets":[
+       {
+          "slotName":"Vest",
+          "discreteItemSets":[
+             {
+                "itemType":"MMG_chestrig_green",
+                "spawnWeight":1,
+                "attributes":{
+                   "healthMin":1.0,
+                   "healthMax":1.0,
+                   "quantityMin":1.0,
+                   "quantityMax":1.0
+                },
+                "quickBarSlot":-1,
+                "complexChildrenTypes":[
+                    {
+                        "itemType":"MMG_sheath_olive",
+                        "attributes":{
+                           "healthMin":0.9,
+                           "healthMax":0.9,
+                           "quantityMin":1.0,
+                           "quantityMax":1.0
+                        },
+                        "quickBarSlot":-1,
+                        "simpleChildrenUseDefaultAttributes":false,
+                        "simpleChildrenTypes":[
+                           "CombatKnife"
+                        ]
+                    },
+                    {
+                        "itemType":"MMG_Med_Pouch_Olive",
+                        "attributes":{
+                           "healthMin":0.9,
+                           "healthMax":0.9,
+                           "quantityMin":1.0,
+                           "quantityMax":1.0
+                        },
+                        "quickBarSlot":-1,
+                        "simpleChildrenUseDefaultAttributes":false,
+                        "simpleChildrenTypes":[
+                           "BandageDressing",
+                           "BandageDressing"
+                        ]
+                    },
+                    {
+                     "itemType":"PersonalRadio",
+                     "attributes":{
+                        "healthMin":1.0,
+                        "healthMax":1.0,
+                        "quantityMin":1.0,
+                        "quantityMax":1.0
+                     },
+                     "quickBarSlot":-1,
+                     "simpleChildrenUseDefaultAttributes":true,
+                     "simpleChildrenTypes":[
+                        "Battery9V"
+                     ]
+                  }]
+             }
+          ]
+       },
+       {
+          "slotName":"Headgear",
+          "discreteItemSets":[
+             {
+                "itemType":"MMG_tactical_helmet_green",
+                "spawnWeight":1,
+                "attributes":{
+                   "healthMin":1.0,
+                   "healthMax":1.0,
+                   "quantityMin":1.0,
+                   "quantityMax":1.0
+                },
+                "quickBarSlot":-1,
+                "simpleChildrenUseDefaultAttributes":false,
+                "simpleChildrenTypes":[
+                   "MMG_headphones_green"
+                ]
+             }
+          ]
+       },
+       {
+          "slotName":"Gloves",
+          "discreteItemSets":[
+             {
+                "itemType":"mmg_tactical_gloves_green",
+                "spawnWeight":1,
+                "attributes":{
+                   "healthMin":1.0,
+                   "healthMax":1.0,
+                   "quantityMin":1.0,
+                   "quantityMax":1.0
+                },
+                "quickBarSlot":-1
+             }
+          ]
+       },
+       {
+          "slotName":"Mask",
+          "discreteItemSets":[
+             {
+                "itemType":"MMG_facemask_green",
+                "spawnWeight":1,
+                "attributes":{
+                   "healthMin":1.0,
+                   "healthMax":1.0,
+                   "quantityMin":1.0,
+                   "quantityMax":1.0
+                },
+                "quickBarSlot":-1
+             }
+          ]
+       },
+       {
+          "slotName":"Eyewear",
+          "discreteItemSets":[
+             {
+                "itemType":"ThickFramesGlasses",
+                "spawnWeight":1,
+                "attributes":{
+                   "healthMin":1.0,
+                   "healthMax":1.0,
+                   "quantityMin":1.0,
+                   "quantityMax":1.0
+                },
+                "quickBarSlot":-1
+             }
+          ]
+       },
+       {
+          "slotName":"Body",
+          "discreteItemSets":[
+             {
+                "itemType":"MMG_combatshirt_green",
+                "spawnWeight":1,
+                "attributes":{
+                   "healthMin":1.0,
+                   "healthMax":1.0,
+                   "quantityMin":1.0,
+                   "quantityMax":1.0
+                },
+                "quickBarSlot":-1,
+                "simpleChildrenUseDefaultAttributes":false,
+                "simpleChildrenTypes":[
+                   "ChernarusMap",
+                   "CanOpener"
+                ]
+             }
+          ]
+       },
+       {
+        "slotName": "Hips",
+        "discreteItemSets": [
+            {
+                "itemType": "MMG_falcon_b1_belt_olive",
+                "spawnWeight": 1,
+                "attributes": {
+                    "healthMin": 1.0,
+                    "healthMax": 1.0,
+                    "quantityMin": 1.0,
+                    "quantityMax": 1.0
+                },
+                "quickBarSlot": -1,
+                "complexChildrenTypes": [
+                    {
+                        "itemType": "MMG_Holster_green",
+                        "attributes": {
+                            "healthMin": 1.0,
+                            "healthMax": 1.0,
+                            "quantityMin": 1.0,
+                            "quantityMax": 1.0
+                        },
+                        "quickBarSlot": -1,
+                        "complexChildrenTypes": [
+                            {
+                                "itemType": "TWM_M1911",
+                                "attributes": {
+                                    "healthMin": 1.0,
+                                    "healthMax": 1.0,
+                                    "quantityMin": 1.0,
+                                    "quantityMax": 1.0
+                                },
+                                "quickBarSlot": 2,
+                                "simpleChildrenUseDefaultAttributes":false,
+                                "simpleChildrenTypes":[
+                                   "TWM_Mag_M1911"
+                                ]
+                            }                                             
+                        ]
+                    },
+                    {
+                     "itemType": "MMG_tactical_pouch_green",
+                     "attributes": {
+                         "healthMin": 1.0,
+                         "healthMax": 1.0,
+                         "quantityMin": 1.0,
+                         "quantityMax": 1.0
+                     },
+                     "quickBarSlot": -1,
+                     "simpleChildrenUseDefaultAttributes":false,
+                     "simpleChildrenTypes":[
+                        "TWM_Mag_M1911",
+                        "TWM_Mag_M1911",
+                        "AmmoBox_45ACP_25rnd",
+                        "AmmoBox_45ACP_25rnd",
+                        "AmmoBox_45ACP_25rnd",
+                        "AmmoBox_45ACP_25rnd"
+                     ]
+                  }                                            
+                ]
+            },
+            {
+               "itemType": "MMG_falcon_b1_belt_olive",
+               "spawnWeight": 1,
+               "attributes": {
+                   "healthMin": 1.0,
+                   "healthMax": 1.0,
+                   "quantityMin": 1.0,
+                   "quantityMax": 1.0
+               },
+               "quickBarSlot": -1,
+               "complexChildrenTypes": [
+                   {
+                       "itemType": "MMG_Holster_green",
+                       "attributes": {
+                           "healthMin": 1.0,
+                           "healthMax": 1.0,
+                           "quantityMin": 1.0,
+                           "quantityMax": 1.0
+                       },
+                       "quickBarSlot": -1,
+                       "complexChildrenTypes": [
+                           {
+                               "itemType": "TWM_Glock18_OD",
+                               "attributes": {
+                                   "healthMin": 1.0,
+                                   "healthMax": 1.0,
+                                   "quantityMin": 1.0,
+                                   "quantityMax": 1.0
+                               },
+                               "quickBarSlot": 2,
+                               "simpleChildrenUseDefaultAttributes":false,
+                               "simpleChildrenTypes":[
+                                  "TWM_Mag_Glock18"
+                               ]
+                           }                                             
+                       ]
+                   },
+                   {
+                    "itemType": "MMG_tactical_pouch_green",
+                    "attributes": {
+                        "healthMin": 1.0,
+                        "healthMax": 1.0,
+                        "quantityMin": 1.0,
+                        "quantityMax": 1.0
+                    },
+                    "quickBarSlot": -1,
+                    "simpleChildrenUseDefaultAttributes":false,
+                    "simpleChildrenTypes":[
+                       "TWM_Mag_Glock18",
+                       "TWM_Mag_Glock18",
+                       "AmmoBox_9x19_25rnd",
+                       "AmmoBox_9x19_25rnd",
+                       "AmmoBox_9x19_25rnd",
+                       "AmmoBox_9x19_25rnd"
+                    ]
+                 }                                            
+               ]
+           },
+           {
+              "itemType": "MMG_falcon_b1_belt_olive",
+              "spawnWeight": 1,
+              "attributes": {
+                  "healthMin": 1.0,
+                  "healthMax": 1.0,
+                  "quantityMin": 1.0,
+                  "quantityMax": 1.0
+              },
+              "quickBarSlot": -1,
+              "complexChildrenTypes": [
+                  {
+                      "itemType": "MMG_Holster_green",
+                      "attributes": {
+                          "healthMin": 1.0,
+                          "healthMax": 1.0,
+                          "quantityMin": 1.0,
+                          "quantityMax": 1.0
+                      },
+                      "quickBarSlot": -1,
+                      "complexChildrenTypes": [
+                          {
+                              "itemType": "TWM_P320_blk",
+                              "attributes": {
+                                  "healthMin": 1.0,
+                                  "healthMax": 1.0,
+                                  "quantityMin": 1.0,
+                                  "quantityMax": 1.0
+                              },
+                              "quickBarSlot": 2,
+                              "simpleChildrenUseDefaultAttributes":false,
+                              "simpleChildrenTypes":[
+                                 "TWM_Mag_P320"
+                              ]
+                          }                                             
+                      ]
+                  },
+                  {
+                   "itemType": "MMG_tactical_pouch_green",
+                   "attributes": {
+                       "healthMin": 1.0,
+                       "healthMax": 1.0,
+                       "quantityMin": 1.0,
+                       "quantityMax": 1.0
+                   },
+                   "quickBarSlot": -1,
+                   "simpleChildrenUseDefaultAttributes":false,
+                   "simpleChildrenTypes":[
+                      "TWM_Mag_P320",
+                      "TWM_Mag_P320",
+                      "AmmoBox_9x19_25rnd",
+                      "AmmoBox_9x19_25rnd",
+                      "AmmoBox_9x19_25rnd",
+                      "AmmoBox_9x19_25rnd"
+                   ]
+                }                                            
+              ]
+          },
+          {
+             "itemType": "MMG_falcon_b1_belt_olive",
+             "spawnWeight": 1,
+             "attributes": {
+                 "healthMin": 1.0,
+                 "healthMax": 1.0,
+                 "quantityMin": 1.0,
+                 "quantityMax": 1.0
+             },
+             "quickBarSlot": -1,
+             "complexChildrenTypes": [
+                 {
+                     "itemType": "MMG_Holster_green",
+                     "attributes": {
+                         "healthMin": 1.0,
+                         "healthMax": 1.0,
+                         "quantityMin": 1.0,
+                         "quantityMax": 1.0
+                     },
+                     "quickBarSlot": -1,
+                     "complexChildrenTypes": [
+                         {
+                             "itemType": "TWM_FN57_OD",
+                             "attributes": {
+                                 "healthMin": 1.0,
+                                 "healthMax": 1.0,
+                                 "quantityMin": 1.0,
+                                 "quantityMax": 1.0
+                             },
+                             "quickBarSlot": 2,
+                             "simpleChildrenUseDefaultAttributes":false,
+                             "simpleChildrenTypes":[
+                                "TWM_Mag_FN57"
+                             ]
+                         }                                             
+                     ]
+                 },
+                 {
+                  "itemType": "MMG_tactical_pouch_green",
+                  "attributes": {
+                      "healthMin": 1.0,
+                      "healthMax": 1.0,
+                      "quantityMin": 1.0,
+                      "quantityMax": 1.0
+                  },
+                  "quickBarSlot": -1,
+                  "simpleChildrenUseDefaultAttributes":false,
+                  "simpleChildrenTypes":[
+                     "TWM_Mag_FN57",
+                     "TWM_Mag_FN57",
+                     "AE_AmmoBox_57x28_30rnd",
+                     "AE_AmmoBox_57x28_30rnd",
+                     "AE_AmmoBox_57x28_30rnd",
+                     "AE_AmmoBox_57x28_30rnd"
+                  ]
+               }                                            
+             ]
+         }
+        ]
+    },
+       {
+          "slotName":"Legs",
+          "discreteItemSets":[
+             {
+                "itemType":"MMG_combatpants_olive",
+                "spawnWeight":1,
+                "attributes":{
+                   "healthMin":1.0,
+                   "healthMax":1.0,
+                   "quantityMin":1.0,
+                   "quantityMax":1.0
+                },
+                "quickBarSlot":-1
+             }
+          ]
+       },
+       {
+          "slotName":"Feet",
+          "discreteItemSets":[
+             {
+                "itemType":"HikingBoots_Brown",
+                "spawnWeight":1,
+                "attributes":{
+                   "healthMin":1.0,
+                   "healthMax":1.0,
+                   "quantityMin":1.0,
+                   "quantityMax":1.0
+                },
+                "quickBarSlot":-1
+             }
+          ]
+       }
+    ]
+ }

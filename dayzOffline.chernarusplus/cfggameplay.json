@@ -9,8 +9,8 @@
 	},
     "PlayerData":
 	{
-		"disablePersonalLight": false,
-		"spawnGearPresetFiles": ["./loadouts/medic.json"],
+		"disablePersonalLight": true,
+		"spawnGearPresetFiles": ["./loadouts/nato_nogun.json"],
 		"StaminaData":
 		{
 			"sprintStaminaModifierErc": 1.0,
