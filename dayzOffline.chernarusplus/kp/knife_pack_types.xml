@@ -81,6 +81,8 @@
     <category name="tools"/>
     <tag name="shelves"/>
     <usage name="Military"/>
+    <value name="Tier1"/>
+    <value name="Tier2"/>
   </type>
   <type name="Scara_Skeleton">
     <nominal>10</nominal>
@@ -124,10 +126,10 @@
     <usage name="Village"/>
   </type>
   <type name="Scara_Talon">
-    <nominal>10</nominal>
+    <nominal>0</nominal>
     <lifetime>14400</lifetime>
     <restock>0</restock>
-    <min>5</min>
+    <min>0</min>
     <quantmin>-1</quantmin>
     <quantmax>-1</quantmax>
     <cost>100</cost>
@@ -164,10 +166,10 @@
     <usage name="Hunting"/>
   </type>
   <type name="Scara_Falchion">
-    <nominal>10</nominal>
+    <nominal>0</nominal>
     <lifetime>14400</lifetime>
     <restock>0</restock>
-    <min>5</min>
+    <min>0</min>
     <quantmin>-1</quantmin>
     <quantmax>-1</quantmax>
     <cost>100</cost>
