@@ -28,10 +28,18 @@
                            "quantityMax":1.0
                         },
                         "quickBarSlot":-1,
-                        "simpleChildrenUseDefaultAttributes":false,
-                        "simpleChildrenTypes":[
-                           "CombatKnife"
-                        ]
+                        "complexChildrenTypes": [
+                           {
+                               "itemType": "CombatKnife",
+                               "attributes": {
+                                   "healthMin": 1.0,
+                                   "healthMax": 1.0,
+                                   "quantityMin": 1.0,
+                                   "quantityMax": 1.0
+                               },
+                               "quickBarSlot": 1
+                           }                                             
+                       ]
                     },
                     {
                         "itemType":"MMG_Med_Pouch_Olive",
@@ -42,9 +50,20 @@
                            "quantityMax":1.0
                         },
                         "quickBarSlot":-1,
+                        "complexChildrenTypes": [
+                           {
+                               "itemType": "BandageDressing",
+                               "attributes": {
+                                   "healthMin": 1.0,
+                                   "healthMax": 1.0,
+                                   "quantityMin": 1.0,
+                                   "quantityMax": 1.0
+                               },
+                               "quickBarSlot": 4
+                           }                                             
+                       ],
                         "simpleChildrenUseDefaultAttributes":false,
                         "simpleChildrenTypes":[
-                           "BandageDressing",
                            "BandageDressing"
                         ]
                     },
