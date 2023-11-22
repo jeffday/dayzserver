@@ -2213,19 +2213,17 @@
         <value name="Tier2"/>
     </type>
     <type name="BO_MP5MPA2">
-		<nominal>4</nominal>
-		<restock>1800</restock>
-		<lifetime>28800</lifetime>
-		<min>3</min>
-		<quantmin>-1</quantmin>
-		<quantmax>-1</quantmax>
+		<nominal>20</nominal>
+		<restock>0</restock>
+		<lifetime>7200</lifetime>
+		<min>10</min>
+		<quantmin>5</quantmin>
+		<quantmax>50</quantmax>
 		<cost>100</cost>
 		<flags count_in_hoarder="0" count_in_player="0" count_in_map="1" count_in_cargo="0" crafted="0" deloot="0"/>
 		<category name="weapons"/>
-		<usage name="Military"/>
-		<value name="Tier1"/>
-		<value name="Tier2"/>
-		<value name="Tier3"/>
+		<usage name="Police"/>
+		<value name=""/>
     </type>
     <type name="BO_MP5MPA2_FDE">
         <nominal>0</nominal>
