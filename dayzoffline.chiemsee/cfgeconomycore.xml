@@ -44,4 +44,9 @@ Do not forget to add attribute act="car", if root class represents moveable vehi
 		<file name="types.xml" type="types" />
 		<file name="cfgspawnabletypes.xml" type="spawnabletypes" />
 	</ce>
+	<!-- Blackout Weapons -->
+	<ce folder="bo">
+		<file name="bo_types.xml" type="types" />
+		<file name="bo_cfgspawnabletypes.xml" type="spawnabletypes" />
+	</ce>
 </economycore>
