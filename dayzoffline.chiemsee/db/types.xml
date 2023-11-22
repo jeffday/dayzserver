@@ -10549,10 +10549,10 @@
 		<value name=""/>
 	</type>
 	<type name="Izh18">
-		<nominal>60</nominal>
+		<nominal>30</nominal>
 		<restock>0</restock>
 		<lifetime>14400</lifetime>
-		<min>50</min>
+		<min>25</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
@@ -12107,10 +12107,10 @@
 		<value name=""/>
 	</type>
 	<type name="Lockpick">
-		<nominal>31</nominal>
+		<nominal>0</nominal>
 		<restock>0</restock>
 		<lifetime>14400</lifetime>
-		<min>22</min>
+		<min>0</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
@@ -12586,10 +12586,10 @@
 		<value name="Tier3"/>
 	</type>
 	<type name="MKII">
-		<nominal>30</nominal>
+		<nominal>15</nominal>
 		<restock>0</restock>
 		<lifetime>14400</lifetime>
-		<min>20</min>
+		<min>10</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
@@ -13029,10 +13029,10 @@
 		<value name=""/>
 	</type>
 	<type name="Mag_IJ70_8Rnd">
-		<nominal>35</nominal>
+		<nominal>18</nominal>
 		<restock>0</restock>
 		<lifetime>28800</lifetime>
-		<min>25</min>
+		<min>12</min>
 		<quantmin>10</quantmin>
 		<quantmax>100</quantmax>
 		<cost>100</cost>
@@ -13071,10 +13071,10 @@
         <value name="Tier4"/>
     </type>
 	<type name="Mag_MKII_10Rnd">
-		<nominal>30</nominal>
+		<nominal>15</nominal>
 		<restock>0</restock>
 		<lifetime>14400</lifetime>
-		<min>20</min>
+		<min>10</min>
 		<quantmin>20</quantmin>
 		<quantmax>100</quantmax>
 		<cost>100</cost>
@@ -13334,10 +13334,10 @@
 		<value name=""/>
 	</type>
 	<type name="MakarovIJ70">
-		<nominal>40</nominal>
+		<nominal>20</nominal>
 		<restock>0</restock>
 		<lifetime>28800</lifetime>
-		<min>30</min>
+		<min>15</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>

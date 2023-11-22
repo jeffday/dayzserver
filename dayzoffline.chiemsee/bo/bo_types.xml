@@ -2132,10 +2132,10 @@
         <value name="Tier2"/>
     </type>
     <type name="BO_Makarov">
-		<nominal>40</nominal>
+		<nominal>20</nominal>
 		<restock>0</restock>
 		<lifetime>28800</lifetime>
-		<min>30</min>
+		<min>15</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
@@ -2146,10 +2146,10 @@
 		<value name="Tier1"/>
     </type>
     <type name="BO_Mag_Makarov_12rnd">
-		<nominal>35</nominal>
+		<nominal>18</nominal>
 		<restock>0</restock>
 		<lifetime>28800</lifetime>
-		<min>25</min>
+		<min>12</min>
 		<quantmin>10</quantmin>
 		<quantmax>100</quantmax>
 		<cost>100</cost>
