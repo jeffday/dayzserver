@@ -13140,10 +13140,10 @@
 		<value name=""/>
 	</type>
 	<type name="Mag_Ruger1022_15Rnd">
-		<nominal>35</nominal>
+		<nominal>20</nominal>
 		<restock>0</restock>
 		<lifetime>28800</lifetime>
-		<min>20</min>
+		<min>15</min>
 		<quantmin>10</quantmin>
 		<quantmax>100</quantmax>
 		<cost>100</cost>
@@ -13155,10 +13155,10 @@
 		<value name="Tier2"/>
 	</type>
 	<type name="Mag_Ruger1022_30Rnd">
-		<nominal>30</nominal>
+		<nominal>15</nominal>
 		<restock>0</restock>
 		<lifetime>28800</lifetime>
-		<min>20</min>
+		<min>10</min>
 		<quantmin>5</quantmin>
 		<quantmax>50</quantmax>
 		<cost>100</cost>
@@ -13166,8 +13166,8 @@
 		<category name="weapons"/>
 		<usage name="Town"/>
 		<usage name="Village"/>
+		<value name="Tier1"/>
 		<value name="Tier2"/>
-		<value name="Tier3"/>
 	</type>
 	<type name="Mag_SSG82_5rnd">
 		<nominal>25</nominal>
@@ -16788,10 +16788,10 @@
 		<value name=""/>
 	</type>
 	<type name="Ruger1022">
-		<nominal>35</nominal>
+		<nominal>20</nominal>
 		<restock>0</restock>
 		<lifetime>28800</lifetime>
-		<min>25</min>
+		<min>15</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>

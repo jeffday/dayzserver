@@ -67,4 +67,9 @@ Do not forget to add attribute act="car", if root class represents moveable vehi
 		<file name="twm_types.xml" type="types" />
 		<file name="twm_spawnabletypes.xml" type="spawnabletypes" />
 	</ce>
+	<!-- AJ45 Forward Operator Gear -->
+	<ce folder="fog">
+		<file name="FOG_Types.xml" type="types" />
+		<file name="FOG_spawnabletypes.xml" type="spawnabletypes" />
+	</ce>
 </economycore>
