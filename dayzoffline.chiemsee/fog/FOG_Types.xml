@@ -861,6 +861,8 @@
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
         <category name="clothes" />
         <usage name="Military"/>
+        <usage name="Underground"/>
+		<value name="Tier4"/>
     </type>
     <type name="FOG_Vest_Thor_Black">
         <nominal>2</nominal>
@@ -873,6 +875,8 @@
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
         <category name="clothes" />
         <usage name="Military"/>
+        <usage name="Underground"/>
+		<value name="Tier4"/>
     </type>
     <type name="FOG_Vest_Thor_Green">
         <nominal>2</nominal>
@@ -885,6 +889,8 @@
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
         <category name="clothes" />
         <usage name="Military"/>
+        <usage name="Underground"/>
+		<value name="Tier4"/>
     </type>
     <type name="FOG_Vest_Thor_EMR">
         <nominal>2</nominal>
@@ -897,6 +903,8 @@
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
         <category name="clothes" />
         <usage name="Military"/>
+        <usage name="Underground"/>
+		<value name="Tier4"/>
     </type>
     <type name="FOG_Vest_Thor_MC">
         <nominal>0</nominal>
@@ -909,6 +917,8 @@
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
         <category name="clothes" />
         <usage name="Military"/>
+        <usage name="Underground"/>
+		<value name="Tier4"/>
     </type>
     <type name="FOG_Vest_Thor_MCB">
         <nominal>2</nominal>
@@ -921,6 +931,8 @@
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
         <category name="clothes" />
         <usage name="Military"/>
+        <usage name="Underground"/>
+		<value name="Tier4"/>
     </type>
     <type name="FOG_Vest_Thor_M81">
         <nominal>2</nominal>
@@ -933,6 +945,8 @@
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
         <category name="clothes" />
         <usage name="Military"/>
+        <usage name="Underground"/>
+		<value name="Tier4"/>
     </type>
     <type name="FOG_Vest_SSMK4_CB">
         <nominal>0</nominal>
@@ -6181,10 +6195,10 @@
 		<value name="Tier4"/>
     </type>
     <type name="FOG_Vest_Gen4_Tan">
-        <nominal>2</nominal>
+        <nominal>0</nominal>
         <lifetime>3200</lifetime>
         <restock>0</restock>
-        <min>1</min>
+        <min>0</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
