@@ -4935,16 +4935,19 @@
         <usage name="Military"/>
     </type>
     <type name="FOG_Bag_F4Terminator">
-        <nominal>2</nominal>
+        <nominal>0</nominal>
         <lifetime>14400</lifetime>
         <restock>3200</restock>
-        <min>1</min>
+        <min>0</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
         <category name="clothes" />
         <usage name="Military"/>
+        <usage name="Underground"/>
+		<value name="Tier3"/>
+		<value name="Tier4"/>
     </type>
     <type name="FOG_Bag_F4Terminator_Black">
         <nominal>2</nominal>
@@ -4957,6 +4960,9 @@
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
         <category name="clothes" />
         <usage name="Military"/>
+        <usage name="Underground"/>
+		<value name="Tier3"/>
+		<value name="Tier4"/>
     </type>
     <type name="FOG_Bag_F4Terminator_RG">
         <nominal>2</nominal>
@@ -4969,6 +4975,9 @@
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
         <category name="clothes" />
         <usage name="Military"/>
+        <usage name="Underground"/>
+		<value name="Tier3"/>
+		<value name="Tier4"/>
     </type>
     <type name="FOG_Bag_F4Terminator_CB">
         <nominal>0</nominal>
@@ -5053,6 +5062,9 @@
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
         <category name="clothes" />        
         <usage name="Military"/>
+        <usage name="Underground"/>
+		<value name="Tier3"/>
+		<value name="Tier4"/>
     </type>
     <type name="FOG_Bag_BlackJack_RG">
         <nominal>2</nominal>
@@ -5065,6 +5077,9 @@
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
         <category name="clothes" />        
         <usage name="Military"/>
+        <usage name="Underground"/>
+		<value name="Tier3"/>
+		<value name="Tier4"/>
     </type>
     <type name="FOG_Bag_BlackJack_CB">
         <nominal>0</nominal>
@@ -5077,6 +5092,9 @@
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
         <category name="clothes" />        
         <usage name="Military"/>
+        <usage name="Underground"/>
+		<value name="Tier3"/>
+		<value name="Tier4"/>
     </type>
     <type name="FOG_Bag_BlackJack_MCB">
         <nominal>2</nominal>
@@ -5089,6 +5107,9 @@
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
         <category name="clothes" />        
         <usage name="Military"/>
+        <usage name="Underground"/>
+		<value name="Tier3"/>
+		<value name="Tier4"/>
     </type>
     <type name="FOG_Bag_BlackJack_ERDL">
         <nominal>2</nominal>
@@ -5101,6 +5122,9 @@
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
         <category name="clothes" />        
         <usage name="Military"/>
+        <usage name="Underground"/>
+		<value name="Tier3"/>
+		<value name="Tier4"/>
     </type>
     <type name="FOG_Bag_BlackJack_Black">
         <nominal>2</nominal>
@@ -5113,6 +5137,9 @@
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
         <category name="clothes" />        
         <usage name="Military"/>
+        <usage name="Underground"/>
+		<value name="Tier3"/>
+		<value name="Tier4"/>
     </type>
     <type name="FOG_Bag_SSO_Tan">
         <nominal>0</nominal>
@@ -5175,10 +5202,10 @@
         <usage name="Military"/>
     </type>
     <type name="FOG_Bag_SSO_Toxic">
-        <nominal>2</nominal>
+        <nominal>0</nominal>
         <lifetime>14400</lifetime>
         <restock>3200</restock>
-        <min>1</min>
+        <min>0</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
