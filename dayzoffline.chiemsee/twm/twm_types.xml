@@ -1014,10 +1014,9 @@
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
-        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="1"/>
         <category name="weapons"/>
         <usage name="Military"/>
-        <value name="Tier4"/>
     </type>
     <type name="TWM_M1A_Tan">
         <nominal>0</nominal>
@@ -1027,10 +1026,9 @@
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
-        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="1"/>
         <category name="weapons"/>
         <usage name="Military"/>
-        <value name="Tier4"/>
     </type>
     <type name="TWM_M1A_OD">
         <nominal>1</nominal>
@@ -1040,10 +1038,9 @@
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
-        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="1"/>
         <category name="weapons"/>
         <usage name="Military"/>
-        <value name="Tier4"/>
     </type>
     <type name="TWM_M1A_Camo">
         <nominal>0</nominal>
@@ -1053,10 +1050,9 @@
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
-        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="1"/>
         <category name="weapons"/>
         <usage name="Military"/>
-        <value name="Tier4"/>
     </type>
     <type name="TWM_Mk18">
         <nominal>1</nominal>
@@ -2772,10 +2768,9 @@
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>80</cost> 
-		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="1" />
 		<category name="weapons" />
         <usage name="Military"/>
-        <value name="Tier4"/>
 	</type>
 	<type name="TWM_HK417_OD">
 		<nominal>1</nominal>
@@ -2785,10 +2780,9 @@
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>80</cost> 
-		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="1" />
 		<category name="weapons" />
         <usage name="Military"/>
-        <value name="Tier4"/>
 	</type>
 	<type name="TWM_HK417_Tan">
 		<nominal>0</nominal>
@@ -2798,11 +2792,9 @@
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>80</cost> 
-		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="1" />
 		<category name="weapons" />
         <usage name="Military"/>
-        <value name="Tier4"/>
-		<value name="Tier3"/>
 	</type>
 	<type name="TWM_Mag_HK417_10Rnd">
         <nominal>5</nominal>
