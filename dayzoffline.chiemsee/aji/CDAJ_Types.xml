@@ -1115,10 +1115,10 @@
 		<value name="Tier4"/>
     </type>
     <type name="CDAJ_OpscoreV2_Helmet_FK">
-		<nominal>2</nominal>
+		<nominal>0</nominal>
 		<restock>0</restock>
 		<lifetime>28800</lifetime>
-		<min>1</min>
+		<min>0</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
@@ -1352,10 +1352,10 @@
 		<value name=""/>
     </type>
     <type name="CDAJ_OpscoreV2_Pants_FK">
-		<nominal>2</nominal>
+		<nominal>0</nominal>
 		<restock>600</restock>
 		<lifetime>14400</lifetime>
-		<min>1</min>
+		<min>0</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
@@ -1444,10 +1444,10 @@
 		<value name="Tier4"/>
     </type>
     <type name="CDAJ_OpscoreV2_Shirt_Rolled_FK">
-		<nominal>2</nominal>
+		<nominal>0</nominal>
 		<restock>600</restock>
 		<lifetime>28800</lifetime>
-		<min>1</min>
+		<min>0</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
@@ -1484,10 +1484,10 @@
         <usage name="Military" />
     </type>
     <type name="CDAJ_OCV2_Boots_FK">
-		<nominal>2</nominal>
+		<nominal>0</nominal>
 		<restock>0</restock>
 		<lifetime>14400</lifetime>
-		<min>1</min>
+		<min>0</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
@@ -2170,10 +2170,10 @@
         <usage name="Military"/>
     </type>
     <type name="CDAJ_OpscoreV2_BatteryPack_FK">
-        <nominal>2</nominal>
+        <nominal>0</nominal>
         <lifetime>7200</lifetime>
         <restock>0</restock>
-        <min>1</min>
+        <min>0</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -2266,10 +2266,10 @@
         <usage name="Military"/>
     </type>
     <type name="CDAJ_OpscoreV2_Headphones_FK">
-        <nominal>2</nominal>
+        <nominal>0</nominal>
         <lifetime>7200</lifetime>
         <restock>0</restock>
-        <min>1</min>
+        <min>0</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -2362,10 +2362,10 @@
         <usage name="Military"/>
     </type>
     <type name="CDAJ_OpscoreV2_HelmetCover_FK">
-        <nominal>2</nominal>
+        <nominal>0</nominal>
         <lifetime>7200</lifetime>
         <restock>0</restock>
-        <min>1</min>
+        <min>0</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -4017,10 +4017,10 @@
 		<value name=""/>
     </type>
     <type name="CDAJ_Opscore_Pants_FK">
-		<nominal>2</nominal>
+		<nominal>0</nominal>
 		<restock>600</restock>
 		<lifetime>14400</lifetime>
-		<min>1</min>
+		<min>0</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
@@ -4097,10 +4097,10 @@
 		<value name="Tier4"/>
     </type>
     <type name="CDAJ_Opscore_Shirt_FK">
-		<nominal>2</nominal>
+		<nominal>0</nominal>
 		<restock>600</restock>
 		<lifetime>28800</lifetime>
-		<min>1</min>
+		<min>0</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
