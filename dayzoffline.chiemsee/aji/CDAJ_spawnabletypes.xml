@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+
+<spawnabletypes>
+	<type name="CDAJ_MSR">
+		<attachments chance="0.30">
+			<item name="HuntingOptic" chance="1.00" />
+		</attachments>
+        <attachments chance="0.30">
+			<item name="CDAJ_Mag_MSR_5rnd" chance="1.00" />
+		</attachments>
+	</type>
+    <type name="CDAJ_MSR_Tan">
+		<attachments chance="0.30">
+			<item name="HuntingOptic" chance="1.00" />
+		</attachments>
+        <attachments chance="0.30">
+			<item name="CDAJ_Mag_MSR_5rnd" chance="1.00" />
+		</attachments>
+	</type>
+    <type name="CDAJ_DKS">
+		<attachments chance="0.30">
+			<item name="CDAJ_Optic_DKS" chance="1.00" />
+		</attachments>
+        <attachments chance="0.30">
+			<item name="CDAJ_Mag_DKS_10rnd" chance="1.00" />
+		</attachments>
+	</type>
+</spawnabletypes>
