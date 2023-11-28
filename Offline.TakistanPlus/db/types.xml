@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <types>
 	<type name="cype_sa58ris">
-        <nominal>5</nominal>
+        <nominal>0</nominal>
         <lifetime>28800</lifetime>
         <restock>1800</restock>
-        <min>2</min>
+        <min>0</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -15,10 +15,10 @@
         <value name="Tier4" />
     </type>
 	<type name="cype_M16A4">
-        <nominal>5</nominal>
+        <nominal>0</nominal>
         <lifetime>28800</lifetime>
         <restock>1800</restock>
-        <min>2</min>
+        <min>0</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -29,10 +29,10 @@
         <value name="Tier4" />
     </type>
 	<type name="cype_M110">
-        <nominal>4</nominal>
+        <nominal>0</nominal>
         <lifetime>28800</lifetime>
         <restock>1800</restock>
-        <min>2</min>
+        <min>0</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -42,10 +42,10 @@
         <value name="Tier4" />
     </type>
 	<type name="cype_m249">
-        <nominal>3</nominal>
+        <nominal>0</nominal>
         <lifetime>28800</lifetime>
         <restock>1800</restock>
-        <min>1</min>
+        <min>0</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -54,11 +54,11 @@
         <usage name="Military" />
         <value name="Tier4" />
 		</type>
-		<type name="Mag_M249_Box200Rnd">
-		<nominal>5</nominal>
+    <type name="Mag_M249_Box200Rnd">
+		<nominal>0</nominal>
 		<lifetime>28800</lifetime>
 		<restock>1800</restock>
-		<min>2</min>
+		<min>0</min>
 		<quantmin>20</quantmin>
 		<quantmax>60</quantmax>
 		<cost>100</cost>
@@ -68,10 +68,10 @@
 		<value name="Tier4" />
 	  </type>
 	  <type name="Mag_M110_20Rnd">
-		<nominal>10</nominal>
+		<nominal>0</nominal>
 		<lifetime>28800</lifetime>
 		<restock>2700</restock>
-		<min>8</min>
+		<min>0</min>
 		<quantmin>10</quantmin>
 		<quantmax>70</quantmax>
 		<cost>100</cost>
