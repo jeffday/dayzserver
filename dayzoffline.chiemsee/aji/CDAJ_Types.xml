@@ -2819,62 +2819,6 @@
         <category name="clothes" />
         <usage name="Military" />
     </type>
-    <type name="CDAJ_adidas">
-		<nominal>12</nominal>
-		<restock>0</restock>
-		<lifetime>14400</lifetime>
-		<min>8</min>
-		<quantmin>-1</quantmin>
-		<quantmax>-1</quantmax>
-		<cost>100</cost>
-		<flags count_in_hoarder="0" count_in_player="0" count_in_map="1" count_in_cargo="0" crafted="0" deloot="0"/>
-		<category name="clothes"/>
-		<usage name="Town"/>
-		<usage name="School"/>
-		<value name=""/>
-    </type>
-    <type name="CDAJ_adidas_blackgold">
-		<nominal>12</nominal>
-		<restock>0</restock>
-		<lifetime>14400</lifetime>
-		<min>8</min>
-		<quantmin>-1</quantmin>
-		<quantmax>-1</quantmax>
-		<cost>100</cost>
-		<flags count_in_hoarder="0" count_in_player="0" count_in_map="1" count_in_cargo="0" crafted="0" deloot="0"/>
-		<category name="clothes"/>
-		<usage name="Town"/>
-		<usage name="School"/>
-		<value name=""/>
-    </type>
-    <type name="CDAJ_adidas_blackred">
-		<nominal>12</nominal>
-		<restock>0</restock>
-		<lifetime>14400</lifetime>
-		<min>8</min>
-		<quantmin>-1</quantmin>
-		<quantmax>-1</quantmax>
-		<cost>100</cost>
-		<flags count_in_hoarder="0" count_in_player="0" count_in_map="1" count_in_cargo="0" crafted="0" deloot="0"/>
-		<category name="clothes"/>
-		<usage name="Town"/>
-		<usage name="School"/>
-		<value name=""/>
-    </type>
-    <type name="CDAJ_adidas_red">
-		<nominal>12</nominal>
-		<restock>0</restock>
-		<lifetime>14400</lifetime>
-		<min>8</min>
-		<quantmin>-1</quantmin>
-		<quantmax>-1</quantmax>
-		<cost>100</cost>
-		<flags count_in_hoarder="0" count_in_player="0" count_in_map="1" count_in_cargo="0" crafted="0" deloot="0"/>
-		<category name="clothes"/>
-		<usage name="Town"/>
-		<usage name="School"/>
-		<value name=""/>
-    </type>
     <type name="CDAJ_Adidas_SS_Black">
 		<nominal>12</nominal>
 		<restock>0</restock>
@@ -2960,10 +2904,10 @@
 		<value name=""/>
     </type>
     <type name="CDAJ_Adidas_SS_UWU">
-		<nominal>12</nominal>
+		<nominal>0</nominal>
 		<restock>0</restock>
 		<lifetime>14400</lifetime>
-		<min>8</min>
+		<min>0</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
@@ -2988,20 +2932,6 @@
 		<value name=""/>
     </type>
     <type name="CDAJ_Adidas_SS_Yellow">
-		<nominal>12</nominal>
-		<restock>0</restock>
-		<lifetime>14400</lifetime>
-		<min>8</min>
-		<quantmin>-1</quantmin>
-		<quantmax>-1</quantmax>
-		<cost>100</cost>
-		<flags count_in_hoarder="0" count_in_player="0" count_in_map="1" count_in_cargo="0" crafted="0" deloot="0"/>
-		<category name="clothes"/>
-		<usage name="Town"/>
-		<usage name="School"/>
-		<value name=""/>
-    </type>
-    <type name="CDAJ_adidas_vanna">
 		<nominal>12</nominal>
 		<restock>0</restock>
 		<lifetime>14400</lifetime>
