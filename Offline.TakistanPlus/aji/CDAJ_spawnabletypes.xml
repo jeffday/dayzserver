@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+
+<spawnabletypes>
+	<type name="CDAJ_MSR">
+		<attachments chance="0.30">
+			<item name="HuntingOptic" chance="1.00" />
+		</attachments>
+        <attachments chance="0.30">
+			<item name="CDAJ_Mag_MSR_5rnd" chance="1.00" />
+		</attachments>
+	</type>
+    <type name="CDAJ_MSR_Tan">
+		<attachments chance="0.30">
+			<item name="HuntingOptic" chance="1.00" />
+		</attachments>
+        <attachments chance="0.30">
+			<item name="CDAJ_Mag_MSR_5rnd" chance="1.00" />
+		</attachments>
+	</type>
+    <type name="CDAJ_DKS">
+		<attachments chance="0.30">
+			<item name="CDAJ_Optic_DKS" chance="1.00" />
+		</attachments>
+        <attachments chance="0.30">
+			<item name="CDAJ_Mag_DKS_10rnd" chance="1.00" />
+		</attachments>
+	</type>
+    <type name="CDAJ_OpscoreV2_Helmet_Tan">
+        <attachments chance="0.75">
+            <item name="CDAJ_OpscoreV2_HelmetCover_Tan" chance="1.00" />
+        </attachments>
+        <attachments chance="0.60">
+            <item name="CDAJ_OpscoreV2_Headphones_Tan" chance="1.00" />
+        </attachments>
+        <attachments chance="0.60">
+            <item name="CDAJ_OpscoreV2_BatteryPack_Tan" chance="0.50"/>
+            <item name="CDAJ_OpscoreV2_IRLIGHT" chance="0.50"/>
+        </attachments>
+    </type>
+    <type name="CDAJ_OpscoreV2_Helmet_RG">
+        <attachments chance="0.75">
+            <item name="CDAJ_OpscoreV2_HelmetCover_RG" chance="1.00" />
+        </attachments>
+        <attachments chance="0.60">
+            <item name="CDAJ_OpscoreV2_Headphones_RG" chance="1.00" />
+        </attachments>
+        <attachments chance="0.60">
+            <item name="CDAJ_OpscoreV2_BatteryPack_RG" chance="0.50"/>
+            <item name="CDAJ_OpscoreV2_IRLIGHT" chance="0.50"/>
+        </attachments>
+    </type>
+    <type name="CDAJ_OpscoreV2_Helmet_MCT">
+        <attachments chance="0.75">
+            <item name="CDAJ_OpscoreV2_HelmetCover_MCT" chance="1.00" />
+        </attachments>
+        <attachments chance="0.60">
+            <item name="CDAJ_OpscoreV2_Headphones_MCT" chance="1.00" />
+        </attachments>
+        <attachments chance="0.60">
+            <item name="CDAJ_OpscoreV2_BatteryPack_MCT" chance="0.50"/>
+            <item name="CDAJ_OpscoreV2_IRLIGHT" chance="0.50"/>
+        </attachments>
+    </type>
+    <type name="CDAJ_OpscoreV2_Helmet_MCB">
+        <attachments chance="0.75">
+            <item name="CDAJ_OpscoreV2_HelmetCover_MCB" chance="1.00" />
+        </attachments>
+        <attachments chance="0.60">
+            <item name="CDAJ_OpscoreV2_Headphones_MCB" chance="1.00" />
+        </attachments>
+        <attachments chance="0.60">
+            <item name="CDAJ_OpscoreV2_BatteryPack_MCB" chance="0.50"/>
+            <item name="CDAJ_OpscoreV2_IRLIGHT" chance="0.50"/>
+        </attachments>
+    </type>
+    <type name="CDAJ_OpscoreV2_Helmet_ERDL">
+        <attachments chance="0.75">
+            <item name="CDAJ_OpscoreV2_HelmetCover_ERDL" chance="1.00" />
+        </attachments>
+        <attachments chance="0.60">
+            <item name="CDAJ_OpscoreV2_Headphones_ERDL" chance="1.00" />
+        </attachments>
+        <attachments chance="0.60">
+            <item name="CDAJ_OpscoreV2_BatteryPack_ERDL" chance="0.50"/>
+            <item name="CDAJ_OpscoreV2_IRLIGHT" chance="0.50"/>
+        </attachments>
+    </type>
+    <type name="CDAJ_OpscoreV2_Helmet_MARPAT">
+        <attachments chance="0.75">
+            <item name="CDAJ_OpscoreV2_HelmetCover_MARPAT" chance="1.00" />
+        </attachments>
+        <attachments chance="0.60">
+            <item name="CDAJ_OpscoreV2_Headphones_MARPAT" chance="1.00" />
+        </attachments>
+        <attachments chance="0.60">
+            <item name="CDAJ_OpscoreV2_BatteryPack_MARPAT" chance="0.50"/>
+            <item name="CDAJ_OpscoreV2_IRLIGHT" chance="0.50"/>
+        </attachments>
+    </type>
+    <type name="CDAJ_OpscoreV2_Helmet_FK">
+        <attachments chance="0.75">
+            <item name="CDAJ_OpscoreV2_HelmetCover_FK" chance="1.00" />
+        </attachments>
+        <attachments chance="0.60">
+            <item name="CDAJ_OpscoreV2_Headphones_FK" chance="1.00" />
+        </attachments>
+        <attachments chance="0.60">
+            <item name="CDAJ_OpscoreV2_BatteryPack_FK" chance="0.50"/>
+            <item name="CDAJ_OpscoreV2_IRLIGHT" chance="0.50"/>
+        </attachments>
+    </type>
+    <type name="CDAJ_OpscoreV2_Helmet_AOR1">
+        <attachments chance="0.75">
+            <item name="CDAJ_OpscoreV2_HelmetCover_AOR1" chance="1.00" />
+        </attachments>
+        <attachments chance="0.60">
+            <item name="CDAJ_OpscoreV2_Headphones_AOR1" chance="1.00" />
+        </attachments>
+        <attachments chance="0.60">
+            <item name="CDAJ_OpscoreV2_BatteryPack_AOR1" chance="0.50"/>
+            <item name="CDAJ_OpscoreV2_IRLIGHT" chance="0.50"/>
+        </attachments>
+    </type>
+    <type name="CDAJ_Opscore_Arid">
+        <attachments chance="0.75">
+            <item name="CDAJ_Opscore_Cover_Arid" chance="1.00" />
+        </attachments>
+        <attachments chance="0.60">
+            <item name="CDAJ_Opscore_Headphones_Arid" chance="1.00" />
+        </attachments>
+        <attachments chance="0.60">
+            <item name="CDAJ_Opscore_Counterweight_Arid" chance="1.00"/>
+        </attachments>
+        <attachments chance="0.60">
+            <item name="CDAJ_Opscore_Straps_Arid" chance="1.00"/>
+        </attachments>
+    </type>
+    <type name="CDAJ_Opscore_Black">
+        <attachments chance="0.75">
+            <item name="CDAJ_Opscore_Cover_Arid" chance="1.00" />
+        </attachments>
+        <attachments chance="0.60">
+            <item name="CDAJ_Opscore_Headphones_Black" chance="1.00" />
+        </attachments>
+        <attachments chance="0.60">
+            <item name="CDAJ_Opscore_Counterweight_Black" chance="1.00"/>
+        </attachments>
+        <attachments chance="0.60">
+            <item name="CDAJ_Opscore_Straps_Black" chance="1.00"/>
+        </attachments>
+    </type>
+    <type name="CDAJ_Opscore_Green">
+        <attachments chance="0.75">
+            <item name="CDAJ_Opscore_Cover_ERDL" chance="1.00" />
+        </attachments>
+        <attachments chance="0.60">
+            <item name="CDAJ_Opscore_Headphones_Green" chance="1.00" />
+        </attachments>
+        <attachments chance="0.60">
+            <item name="CDAJ_Opscore_Counterweight_ERDL" chance="1.00"/>
+        </attachments>
+        <attachments chance="0.60">
+            <item name="CDAJ_Opscore_Straps_Green" chance="1.00"/>
+        </attachments>
+    </type>
+    <type name="CDAJ_Opscore_Grey">
+        <attachments chance="0.75">
+            <item name="CDAJ_Opscore_Cover_Grey" chance="1.00" />
+        </attachments>
+        <attachments chance="0.60">
+            <item name="CDAJ_Opscore_Headphones_Grey" chance="1.00" />
+        </attachments>
+        <attachments chance="0.60">
+            <item name="CDAJ_Opscore_Counterweight_Grey" chance="1.00"/>
+        </attachments>
+        <attachments chance="0.60">
+            <item name="CDAJ_Opscore_Straps_Black" chance="1.00"/>
+        </attachments>
+    </type>
+    <type name="CDAJ_Opscore_Moon">
+        <attachments chance="0.75">
+            <item name="CDAJ_Opscore_Cover_Moon" chance="1.00" />
+        </attachments>
+        <attachments chance="0.60">
+            <item name="CDAJ_Opscore_Headphones_Grey" chance="1.00" />
+        </attachments>
+        <attachments chance="0.60">
+            <item name="CDAJ_Opscore_Counterweight_Moon" chance="1.00"/>
+        </attachments>
+        <attachments chance="0.60">
+            <item name="CDAJ_Opscore_Straps_Black" chance="1.00"/>
+        </attachments>
+    </type>
+    <type name="CDAJ_Opscore_Multicam_Brown">
+        <attachments chance="0.75">
+            <item name="CDAJ_Opscore_Cover_Multicam_Brown" chance="1.00" />
+        </attachments>
+        <attachments chance="0.60">
+            <item name="CDAJ_Opscore_Headphones_Brown" chance="1.00" />
+        </attachments>
+        <attachments chance="0.60">
+            <item name="CDAJ_Opscore_Counterweight_Multicam_Brown" chance="1.00"/>
+        </attachments>
+        <attachments chance="0.60">
+            <item name="CDAJ_Opscore_Straps_Brown" chance="1.00"/>
+        </attachments>
+    </type>
+    <type name="CDAJ_Opscore_OD">
+        <attachments chance="0.75">
+            <item name="CDAJ_Opscore_Cover_ERDL" chance="1.00" />
+        </attachments>
+        <attachments chance="0.60">
+            <item name="CDAJ_Opscore_Headphones_OD" chance="1.00" />
+        </attachments>
+        <attachments chance="0.60">
+            <item name="CDAJ_Opscore_Counterweight_ERDL" chance="1.00"/>
+        </attachments>
+        <attachments chance="0.60">
+            <item name="CDAJ_Opscore_Straps_OD" chance="1.00"/>
+        </attachments>
+    </type>
+    <type name="CDAJ_OCV2_WarBelt_Black">
+        <attachments chance="0.50">
+            <item name="CDAJ_OCV2_WB_DropPouch_Black" chance="1.00" />
+        </attachments>
+        <attachments chance="0.50">
+            <item name="CDAJ_OCV2_WB_IFAK_Black" chance="1.00" />
+        </attachments>
+        <attachments chance="0.50">
+            <item name="CDAJ_OCV2_Safariland_Holster_Black" chance="1.00" />
+        </attachments>
+    </type>
+    <type name="CDAJ_OCV2_WarBelt_MC">
+        <attachments chance="0.50">
+            <item name="CDAJ_OCV2_WB_DropPouch_MC" chance="1.00" />
+        </attachments>
+        <attachments chance="0.50">
+            <item name="CDAJ_OCV2_WB_IFAK_MC" chance="1.00" />
+        </attachments>
+        <attachments chance="0.50">
+            <item name="CDAJ_OCV2_Safariland_Holster_MC" chance="1.00" />
+        </attachments>
+    </type>
+</spawnabletypes>

@@ -1,0 +1,4885 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<types>
+    <!-- Update Feb 06 2023 -->
+    <type name="CDAJ_QuadMag_Pouch_Camo">
+        <nominal>0</nominal>
+        <lifetime>7200</lifetime>
+        <restock>7200</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+        <category name="clothes" />
+        <usage name="Military" />
+        <value name="Tier3" />
+        <value name="Tier4" />
+    </type>
+    <type name="CDAJ_QuadMag_Pouch_ERDL">
+        <nominal>0</nominal>
+        <lifetime>7200</lifetime>
+        <restock>7200</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+        <category name="clothes" />
+        <usage name="Military" />
+        <value name="Tier3" />
+        <value name="Tier4" />
+    </type>
+    <type name="CDAJ_QuadMag_Pouch_Brown">
+        <nominal>0</nominal>
+        <lifetime>7200</lifetime>
+        <restock>7200</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+        <category name="clothes" />
+        <usage name="Military" />
+        <value name="Tier3" />
+        <value name="Tier4" />
+    </type>
+    <type name="CDAJ_QuadMag_Pouch_Multicam">
+        <nominal>0</nominal>
+        <lifetime>7200</lifetime>
+        <restock>7200</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+        <category name="clothes" />
+        <usage name="Military" />
+        <value name="Tier3" />
+        <value name="Tier4" />
+    </type>
+    <type name="CDAJ_QuadMag_Pouch_Grey">
+        <nominal>0</nominal>
+        <lifetime>7200</lifetime>
+        <restock>7200</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+        <category name="clothes" />
+        <usage name="Military" />
+        <value name="Tier3" />
+        <value name="Tier4" />
+    </type>
+    <type name="CDAJ_QuadMag_Pouch_Black">
+        <nominal>0</nominal>
+        <lifetime>7200</lifetime>
+        <restock>7200</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+        <category name="clothes" />
+        <usage name="Military" />
+        <value name="Tier3" />
+        <value name="Tier4" />
+    </type>
+    <type name="CDAJ_QuadMag_Pouch_RG">
+        <nominal>0</nominal>
+        <lifetime>7200</lifetime>
+        <restock>7200</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+        <category name="clothes" />
+        <usage name="Military" />
+        <value name="Tier3" />
+        <value name="Tier4" />
+    </type>
+    <type name="CDAJ_QuadMag_Pouch_Moon">
+        <nominal>0</nominal>
+        <lifetime>7200</lifetime>
+        <restock>7200</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+        <category name="clothes" />
+        <usage name="Military" />
+        <value name="Tier3" />
+        <value name="Tier4" />
+    </type>
+    <type name="CDAJ_QuadMag_Pouch_Jay">
+        <nominal>0</nominal>
+        <lifetime>7200</lifetime>
+        <restock>7200</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+        <category name="clothes" />
+        <usage name="Military" />
+        <value name="Tier3" />
+        <value name="Tier4" />
+    </type>
+    <type name="CDAJ_Utility_Pouch_Camo">
+        <nominal>0</nominal>
+        <lifetime>7200</lifetime>
+        <restock>7200</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+        <category name="clothes" />
+        <usage name="Military" />
+        <value name="Tier3" />
+        <value name="Tier4" />
+    </type>
+    <type name="CDAJ_Utility_Pouch_ERDL">
+        <nominal>0</nominal>
+        <lifetime>7200</lifetime>
+        <restock>7200</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+        <category name="clothes" />
+        <usage name="Military" />
+        <value name="Tier3" />
+        <value name="Tier4" />
+    </type>
+    <type name="CDAJ_Utility_Pouch_Brown">
+        <nominal>0</nominal>
+        <lifetime>7200</lifetime>
+        <restock>7200</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+        <category name="clothes" />
+        <usage name="Military" />
+        <value name="Tier3" />
+        <value name="Tier4" />
+    </type>
+    <type name="CDAJ_Utility_Pouch_Multicam">
+        <nominal>0</nominal>
+        <lifetime>7200</lifetime>
+        <restock>7200</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+        <category name="clothes" />
+        <usage name="Military" />
+        <value name="Tier3" />
+        <value name="Tier4" />
+    </type>
+    <type name="CDAJ_Utility_Pouch_Black">
+        <nominal>0</nominal>
+        <lifetime>7200</lifetime>
+        <restock>7200</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+        <category name="clothes" />
+        <usage name="Military" />
+        <value name="Tier3" />
+        <value name="Tier4" />
+    </type>
+    <type name="CDAJ_Utility_Pouch_Grey">
+        <nominal>0</nominal>
+        <lifetime>7200</lifetime>
+        <restock>7200</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+        <category name="clothes" />
+        <usage name="Military" />
+        <value name="Tier3" />
+        <value name="Tier4" />
+    </type>
+    <type name="CDAJ_Utility_Pouch_RG">
+        <nominal>0</nominal>
+        <lifetime>7200</lifetime>
+        <restock>7200</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+        <category name="clothes" />
+        <usage name="Military" />
+        <value name="Tier3" />
+        <value name="Tier4" />
+    </type>
+    <type name="CDAJ_Utility_Pouch_Moon">
+        <nominal>0</nominal>
+        <lifetime>7200</lifetime>
+        <restock>7200</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+        <category name="clothes" />
+        <usage name="Military" />
+        <value name="Tier3" />
+        <value name="Tier4" />
+    </type>
+    <type name="CDAJ_Utility_Pouch_Jay">
+        <nominal>0</nominal>
+        <lifetime>7200</lifetime>
+        <restock>7200</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+        <category name="clothes" />
+        <usage name="Military" />
+        <value name="Tier3" />
+        <value name="Tier4" />
+    </type>
+    <type name="CDAJ_LargeUtility_Pouch_Camo">
+        <nominal>0</nominal>
+        <lifetime>7200</lifetime>
+        <restock>7200</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+        <category name="clothes" />
+        <usage name="Military" />
+        <value name="Tier3" />
+        <value name="Tier4" />
+    </type>
+    <type name="CDAJ_LargeUtility_Pouch_ERDL">
+        <nominal>0</nominal>
+        <lifetime>7200</lifetime>
+        <restock>7200</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+        <category name="clothes" />
+        <usage name="Military" />
+        <value name="Tier3" />
+        <value name="Tier4" />
+    </type>
+    <type name="CDAJ_LargeUtility_Pouch_Brown">
+        <nominal>0</nominal>
+        <lifetime>7200</lifetime>
+        <restock>7200</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+        <category name="clothes" />
+        <usage name="Military" />
+        <value name="Tier3" />
+        <value name="Tier4" />
+    </type>
+    <type name="CDAJ_LargeUtility_Pouch_Multicam">
+        <nominal>0</nominal>
+        <lifetime>7200</lifetime>
+        <restock>7200</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+        <category name="clothes" />
+        <usage name="Military" />
+        <value name="Tier3" />
+        <value name="Tier4" />
+    </type>
+    <type name="CDAJ_LargeUtility_Pouch_Black">
+        <nominal>0</nominal>
+        <lifetime>7200</lifetime>
+        <restock>7200</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+        <category name="clothes" />
+        <usage name="Military" />
+        <value name="Tier3" />
+        <value name="Tier4" />
+    </type>
+    <type name="CDAJ_LargeUtility_Pouch_Grey">
+        <nominal>0</nominal>
+        <lifetime>7200</lifetime>
+        <restock>7200</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+        <category name="clothes" />
+        <usage name="Military" />
+        <value name="Tier3" />
+        <value name="Tier4" />
+    </type>
+    <type name="CDAJ_LargeUtility_Pouch_RG">
+        <nominal>0</nominal>
+        <lifetime>7200</lifetime>
+        <restock>7200</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+        <category name="clothes" />
+        <usage name="Military" />
+        <value name="Tier3" />
+        <value name="Tier4" />
+    </type>
+    <type name="CDAJ_LargeUtility_Pouch_Moon">
+        <nominal>0</nominal>
+        <lifetime>7200</lifetime>
+        <restock>7200</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+        <category name="clothes" />
+        <usage name="Military" />
+        <value name="Tier3" />
+        <value name="Tier4" />
+    </type>
+    <type name="CDAJ_LargeUtility_Pouch_Jay">
+        <nominal>0</nominal>
+        <lifetime>7200</lifetime>
+        <restock>7200</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+        <category name="clothes" />
+        <usage name="Military" />
+        <value name="Tier3" />
+        <value name="Tier4" />
+    </type>
+    <type name="CDAJ_Medkit_Pouch_Camo">
+        <nominal>0</nominal>
+        <lifetime>7200</lifetime>
+        <restock>7200</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+        <category name="clothes" />
+        <usage name="Military" />
+        <value name="Tier3" />
+        <value name="Tier4" />
+    </type>
+    <type name="CDAJ_Medkit_Pouch_ERDL">
+        <nominal>0</nominal>
+        <lifetime>7200</lifetime>
+        <restock>7200</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+        <category name="clothes" />
+        <usage name="Military" />
+        <value name="Tier3" />
+        <value name="Tier4" />
+    </type>
+    <type name="CDAJ_Medkit_Pouch_Brown">
+        <nominal>0</nominal>
+        <lifetime>7200</lifetime>
+        <restock>7200</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+        <category name="clothes" />
+        <usage name="Military" />
+        <value name="Tier3" />
+        <value name="Tier4" />
+    </type>
+    <type name="CDAJ_Medkit_Pouch_Multicam">
+        <nominal>0</nominal>
+        <lifetime>7200</lifetime>
+        <restock>7200</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+        <category name="clothes" />
+        <usage name="Military" />
+        <value name="Tier3" />
+        <value name="Tier4" />
+    </type>
+    <type name="CDAJ_Medkit_Pouch_Black">
+        <nominal>0</nominal>
+        <lifetime>7200</lifetime>
+        <restock>7200</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+        <category name="clothes" />
+        <usage name="Military" />
+        <value name="Tier3" />
+        <value name="Tier4" />
+    </type>
+    <type name="CDAJ_Medkit_Pouch_Grey">
+        <nominal>0</nominal>
+        <lifetime>7200</lifetime>
+        <restock>7200</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+        <category name="clothes" />
+        <usage name="Military" />
+        <value name="Tier3" />
+        <value name="Tier4" />
+    </type>
+    <type name="CDAJ_Medkit_Pouch_RG">
+        <nominal>0</nominal>
+        <lifetime>7200</lifetime>
+        <restock>7200</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+        <category name="clothes" />
+        <usage name="Military" />
+        <value name="Tier3" />
+        <value name="Tier4" />
+    </type>
+    <type name="CDAJ_Medkit_Pouch_Moon">
+        <nominal>0</nominal>
+        <lifetime>7200</lifetime>
+        <restock>7200</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+        <category name="clothes" />
+        <usage name="Military" />
+        <value name="Tier3" />
+        <value name="Tier4" />
+    </type>
+    <type name="CDAJ_Medkit_Pouch_Jay">
+        <nominal>0</nominal>
+        <lifetime>7200</lifetime>
+        <restock>7200</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+        <category name="clothes" />
+        <usage name="Military" />
+        <value name="Tier3" />
+        <value name="Tier4" />
+    </type>
+    <type name="CDAJ_Opscore_Carrier_RG">
+        <nominal>0</nominal>
+        <lifetime>7200</lifetime>
+        <restock>7200</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+        <category name="clothes" />
+        <usage name="Military" />
+        <value name="Tier3" />
+        <value name="Tier4" />
+    </type>
+    <!-- Update Jan 16 2023 -->
+    <type name="CDAJ_Vest_TBAS_MC">
+        <nominal>0</nominal>
+        <lifetime>21600</lifetime>
+        <restock>7200</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+        <category name="clothes" />
+        <usage name="Military" />
+    </type>
+    <type name="CDAJ_Vest_TBAS_ERDL">
+        <nominal>0</nominal>
+        <lifetime>21600</lifetime>
+        <restock>7200</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+        <category name="clothes" />
+        <usage name="Military" />
+    </type>
+    <type name="CDAJ_Vest_TBAS_RG">
+        <nominal>0</nominal>
+        <lifetime>21600</lifetime>
+        <restock>7200</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+        <category name="clothes" />
+        <usage name="Military" />
+    </type>
+    <type name="CDAJ_Vest_TBAS_CB">
+        <nominal>0</nominal>
+        <lifetime>21600</lifetime>
+        <restock>7200</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+        <category name="clothes" />
+        <usage name="Military" />
+    </type>
+    <type name="CDAJ_Vest_TBAS_Black">
+        <nominal>0</nominal>
+        <lifetime>21600</lifetime>
+        <restock>7200</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+        <category name="clothes" />
+        <usage name="Military" />
+    </type>
+    <type name="CDAJ_TV110_MC2">
+        <nominal>0</nominal>
+        <lifetime>21600</lifetime>
+        <restock>7200</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+        <category name="clothes" />
+        <usage name="Military" />
+    </type>
+    <type name="CDAJ_TV110_AOR2">
+        <nominal>0</nominal>
+        <lifetime>21600</lifetime>
+        <restock>7200</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+        <category name="clothes" />
+        <usage name="Military" />
+    </type>
+    <type name="CDAJ_TV110_ERDL">
+        <nominal>0</nominal>
+        <lifetime>21600</lifetime>
+        <restock>7200</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+        <category name="clothes" />
+        <usage name="Military" />
+    </type>
+    <type name="CDAJ_TV110_MCB">
+        <nominal>0</nominal>
+        <lifetime>21600</lifetime>
+        <restock>7200</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+        <category name="clothes" />
+        <usage name="Military" />
+    </type>
+    <type name="CDAJ_TV110_MCT">
+        <nominal>0</nominal>
+        <lifetime>21600</lifetime>
+        <restock>7200</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+        <category name="clothes" />
+        <usage name="Military" />
+    </type>
+    <type name="CDAJ_TV110_CB">
+        <nominal>0</nominal>
+        <lifetime>21600</lifetime>
+        <restock>7200</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+        <category name="clothes" />
+        <usage name="Military" />
+    </type>
+    <type name="CDAJ_TV110_RG">
+        <nominal>0</nominal>
+        <lifetime>21600</lifetime>
+        <restock>7200</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+        <category name="clothes" />
+        <usage name="Military" />
+    </type>
+    <type name="CDAJ_Vest_TacTecV2_Med_MC">
+        <nominal>0</nominal>
+        <lifetime>21600</lifetime>
+        <restock>7200</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+        <category name="clothes" />
+        <usage name="Military" />
+    </type>
+    <type name="CDAJ_Vest_TacTecV2_Med_Tan">
+        <nominal>0</nominal>
+        <lifetime>21600</lifetime>
+        <restock>7200</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+        <category name="clothes" />
+        <usage name="Military" />
+    </type>
+    <type name="CDAJ_Vest_TacTecV2_Med_Black">
+        <nominal>0</nominal>
+        <lifetime>21600</lifetime>
+        <restock>7200</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+        <category name="clothes" />
+        <usage name="Military" />
+    </type>
+    <type name="CDAJ_Vest_TacTecV2_Med_RG">
+        <nominal>0</nominal>
+        <lifetime>21600</lifetime>
+        <restock>7200</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+        <category name="clothes" />
+        <usage name="Military" />
+    </type>
+    <type name="CDAJ_Vest_TacTecV2_Med_MCT">
+        <nominal>0</nominal>
+        <lifetime>21600</lifetime>
+        <restock>7200</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+        <category name="clothes" />
+        <usage name="Military" />
+    </type>
+    <type name="CDAJ_Vest_TacTecV2_Med_MCB">
+        <nominal>0</nominal>
+        <lifetime>21600</lifetime>
+        <restock>7200</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+        <category name="clothes" />
+        <usage name="Military" />
+    </type>
+    <type name="CDAJ_Vest_TacTecV2_Med_AOR1">
+        <nominal>0</nominal>
+        <lifetime>21600</lifetime>
+        <restock>7200</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+        <category name="clothes" />
+        <usage name="Military" />
+    </type>
+    <type name="CDAJ_Vest_TacTecV2_Med_MARPAT">
+        <nominal>0</nominal>
+        <lifetime>21600</lifetime>
+        <restock>7200</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+        <category name="clothes" />
+        <usage name="Military" />
+    </type>
+    <type name="CDAJ_Vest_TacTecV2_Med_FK">
+        <nominal>0</nominal>
+        <lifetime>21600</lifetime>
+        <restock>7200</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+        <category name="clothes" />
+        <usage name="Military" />
+    </type>
+    <type name="CDAJ_Vest_TacTecV2_Med_ERDL">
+        <nominal>0</nominal>
+        <lifetime>21600</lifetime>
+        <restock>7200</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+        <category name="clothes" />
+        <usage name="Military" />
+    </type>
+    <type name="CDAJ_Vest_TacTecV2_MC">
+        <nominal>0</nominal>
+        <lifetime>21600</lifetime>
+        <restock>7200</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+        <category name="clothes" />
+        <usage name="Military" />
+    </type>
+    <type name="CDAJ_Vest_TacTecV2_Tan">
+        <nominal>0</nominal>
+        <lifetime>21600</lifetime>
+        <restock>7200</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+        <category name="clothes" />
+        <usage name="Military" />
+    </type>
+    <type name="CDAJ_Vest_TacTecV2_Black">
+        <nominal>0</nominal>
+        <lifetime>21600</lifetime>
+        <restock>7200</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+        <category name="clothes" />
+        <usage name="Military" />
+    </type>
+    <type name="CDAJ_Vest_TacTecV2_RG">
+        <nominal>0</nominal>
+        <lifetime>21600</lifetime>
+        <restock>7200</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+        <category name="clothes" />
+        <usage name="Military" />
+    </type>
+    <type name="CDAJ_Vest_TacTecV2_MCT">
+        <nominal>0</nominal>
+        <lifetime>21600</lifetime>
+        <restock>7200</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+        <category name="clothes" />
+        <usage name="Military" />
+    </type>
+    <type name="CDAJ_Vest_TacTecV2_MCB">
+        <nominal>0</nominal>
+        <lifetime>21600</lifetime>
+        <restock>7200</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+        <category name="clothes" />
+        <usage name="Military" />
+    </type>
+    <type name="CDAJ_Vest_TacTecV2_AOR1">
+        <nominal>0</nominal>
+        <lifetime>21600</lifetime>
+        <restock>7200</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+        <category name="clothes" />
+        <usage name="Military" />
+    </type>
+    <type name="CDAJ_Vest_TacTecV2_MARPAT">
+        <nominal>0</nominal>
+        <lifetime>21600</lifetime>
+        <restock>7200</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+        <category name="clothes" />
+        <usage name="Military" />
+    </type>
+    <type name="CDAJ_Vest_TacTecV2_FK">
+        <nominal>0</nominal>
+        <lifetime>21600</lifetime>
+        <restock>7200</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+        <category name="clothes" />
+        <usage name="Military" />
+    </type>
+    <type name="CDAJ_Vest_TacTecV2_ERDL">
+        <nominal>0</nominal>
+        <lifetime>21600</lifetime>
+        <restock>7200</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+        <category name="clothes" />
+        <usage name="Military" />
+    </type>
+    <type name="CDAJ_Vest_TacTecV2_Full_MC">
+        <nominal>0</nominal>
+        <lifetime>21600</lifetime>
+        <restock>7200</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+        <category name="clothes" />
+        <usage name="Military" />
+    </type>
+    <type name="CDAJ_Vest_TacTecV2_Full_Tan">
+        <nominal>0</nominal>
+        <lifetime>21600</lifetime>
+        <restock>7200</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+        <category name="clothes" />
+        <usage name="Military" />
+    </type>
+    <type name="CDAJ_Vest_TacTecV2_Full_Black">
+        <nominal>0</nominal>
+        <lifetime>21600</lifetime>
+        <restock>7200</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+        <category name="clothes" />
+        <usage name="Military" />
+    </type>
+    <type name="CDAJ_Vest_TacTecV2_Full_RG">
+        <nominal>0</nominal>
+        <lifetime>21600</lifetime>
+        <restock>7200</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+        <category name="clothes" />
+        <usage name="Military" />
+    </type>
+    <type name="CDAJ_Vest_TacTecV2_Full_MCT">
+        <nominal>0</nominal>
+        <lifetime>21600</lifetime>
+        <restock>7200</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+        <category name="clothes" />
+        <usage name="Military" />
+    </type>
+    <type name="CDAJ_Vest_TacTecV2_Full_MCB">
+        <nominal>0</nominal>
+        <lifetime>21600</lifetime>
+        <restock>7200</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+        <category name="clothes" />
+        <usage name="Military" />
+    </type>
+    <type name="CDAJ_Vest_TacTecV2_Full_AOR1">
+        <nominal>0</nominal>
+        <lifetime>21600</lifetime>
+        <restock>7200</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+        <category name="clothes" />
+        <usage name="Military" />
+    </type>
+    <type name="CDAJ_Vest_TacTecV2_Full_MARPAT">
+        <nominal>0</nominal>
+        <lifetime>21600</lifetime>
+        <restock>7200</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+        <category name="clothes" />
+        <usage name="Military" />
+    </type>
+    <type name="CDAJ_Vest_TacTecV2_Full_FK">
+        <nominal>0</nominal>
+        <lifetime>21600</lifetime>
+        <restock>7200</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+        <category name="clothes" />
+        <usage name="Military" />
+    </type>
+    <type name="CDAJ_Vest_TacTecV2_Full_ERDL">
+        <nominal>0</nominal>
+        <lifetime>21600</lifetime>
+        <restock>7200</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+        <category name="clothes" />
+        <usage name="Military" />
+    </type>
+    <type name="CDAJ_OpscoreV2_Helmet_Tan">
+		<nominal>0</nominal>
+		<restock>0</restock>
+		<lifetime>28800</lifetime>
+		<min>0</min>
+		<quantmin>-1</quantmin>
+		<quantmax>-1</quantmax>
+		<cost>100</cost>
+		<flags count_in_hoarder="0" count_in_player="0" count_in_map="1" count_in_cargo="0" crafted="0" deloot="0"/>
+		<category name="clothes"/>
+		<usage name="Underground"/>
+		<value name="Tier2"/>
+		<value name="Tier3"/>
+		<value name="Tier4"/>
+    </type>
+    <type name="CDAJ_OpscoreV2_Helmet_RG">
+		<nominal>0</nominal>
+		<restock>0</restock>
+		<lifetime>28800</lifetime>
+		<min>0</min>
+		<quantmin>-1</quantmin>
+		<quantmax>-1</quantmax>
+		<cost>100</cost>
+		<flags count_in_hoarder="0" count_in_player="0" count_in_map="1" count_in_cargo="0" crafted="0" deloot="0"/>
+		<category name="clothes"/>
+		<usage name="Underground"/>
+		<value name="Tier2"/>
+		<value name="Tier3"/>
+		<value name="Tier4"/>
+    </type>
+    <type name="CDAJ_OpscoreV2_Helmet_MCT">
+		<nominal>0</nominal>
+		<restock>0</restock>
+		<lifetime>28800</lifetime>
+		<min>0</min>
+		<quantmin>-1</quantmin>
+		<quantmax>-1</quantmax>
+		<cost>100</cost>
+		<flags count_in_hoarder="0" count_in_player="0" count_in_map="1" count_in_cargo="0" crafted="0" deloot="0"/>
+		<category name="clothes"/>
+		<usage name="Underground"/>
+		<value name="Tier2"/>
+		<value name="Tier3"/>
+		<value name="Tier4"/>
+    </type>
+    <type name="CDAJ_OpscoreV2_Helmet_MCB">
+		<nominal>2</nominal>
+		<restock>0</restock>
+		<lifetime>28800</lifetime>
+		<min>1</min>
+		<quantmin>-1</quantmin>
+		<quantmax>-1</quantmax>
+		<cost>100</cost>
+		<flags count_in_hoarder="0" count_in_player="0" count_in_map="1" count_in_cargo="0" crafted="0" deloot="0"/>
+		<category name="clothes"/>
+		<usage name="Underground"/>
+		<value name="Tier2"/>
+		<value name="Tier3"/>
+		<value name="Tier4"/>
+    </type>
+    <type name="CDAJ_OpscoreV2_Helmet_ERDL">
+		<nominal>0</nominal>
+		<restock>0</restock>
+		<lifetime>28800</lifetime>
+		<min>0</min>
+		<quantmin>-1</quantmin>
+		<quantmax>-1</quantmax>
+		<cost>100</cost>
+		<flags count_in_hoarder="0" count_in_player="0" count_in_map="1" count_in_cargo="0" crafted="0" deloot="0"/>
+		<category name="clothes"/>
+		<usage name="Underground"/>
+		<value name="Tier2"/>
+		<value name="Tier3"/>
+		<value name="Tier4"/>
+    </type>
+    <type name="CDAJ_OpscoreV2_Helmet_MARPAT">
+		<nominal>0</nominal>
+		<restock>0</restock>
+		<lifetime>28800</lifetime>
+		<min>0</min>
+		<quantmin>-1</quantmin>
+		<quantmax>-1</quantmax>
+		<cost>100</cost>
+		<flags count_in_hoarder="0" count_in_player="0" count_in_map="1" count_in_cargo="0" crafted="0" deloot="0"/>
+		<category name="clothes"/>
+		<usage name="Underground"/>
+		<value name="Tier2"/>
+		<value name="Tier3"/>
+		<value name="Tier4"/>
+    </type>
+    <type name="CDAJ_OpscoreV2_Helmet_FK">
+		<nominal>0</nominal>
+		<restock>0</restock>
+		<lifetime>28800</lifetime>
+		<min>0</min>
+		<quantmin>-1</quantmin>
+		<quantmax>-1</quantmax>
+		<cost>100</cost>
+		<flags count_in_hoarder="0" count_in_player="0" count_in_map="1" count_in_cargo="0" crafted="0" deloot="0"/>
+		<category name="clothes"/>
+		<usage name="Underground"/>
+		<value name="Tier2"/>
+		<value name="Tier3"/>
+		<value name="Tier4"/>
+    </type>
+    <type name="CDAJ_OpscoreV2_Helmet_AOR1">
+		<nominal>0</nominal>
+		<restock>0</restock>
+		<lifetime>28800</lifetime>
+		<min>0</min>
+		<quantmin>-1</quantmin>
+		<quantmax>-1</quantmax>
+		<cost>100</cost>
+		<flags count_in_hoarder="0" count_in_player="0" count_in_map="1" count_in_cargo="0" crafted="0" deloot="0"/>
+		<category name="clothes"/>
+		<usage name="Underground"/>
+		<value name="Tier2"/>
+		<value name="Tier3"/>
+		<value name="Tier4"/>
+    </type>
+    <type name="CDAJ_Silkies_Blue">
+        <nominal>0</nominal>
+        <lifetime>21600</lifetime>
+        <restock>7200</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+        <category name="clothes" />
+        <usage name="Military" />
+    </type>
+    <type name="CDAJ_Silkies_Yellow">
+        <nominal>0</nominal>
+        <lifetime>21600</lifetime>
+        <restock>7200</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+        <category name="clothes" />
+        <usage name="Military" />
+    </type>
+    <type name="CDAJ_Silkies_Green">
+        <nominal>0</nominal>
+        <lifetime>21600</lifetime>
+        <restock>7200</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+        <category name="clothes" />
+        <usage name="Military" />
+    </type>
+    <type name="CDAJ_Silkies_Orange">
+        <nominal>0</nominal>
+        <lifetime>21600</lifetime>
+        <restock>7200</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+        <category name="clothes" />
+        <usage name="Military" />
+    </type>
+    <type name="CDAJ_Silkies_Pink">
+        <nominal>0</nominal>
+        <lifetime>21600</lifetime>
+        <restock>7200</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+        <category name="clothes" />
+        <usage name="Military" />
+    </type>
+    <type name="CDAJ_Silkies_Purple">
+        <nominal>0</nominal>
+        <lifetime>21600</lifetime>
+        <restock>7200</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+        <category name="clothes" />
+        <usage name="Military" />
+    </type>
+    <type name="CDAJ_Silkies_RB">
+        <nominal>0</nominal>
+        <lifetime>21600</lifetime>
+        <restock>7200</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+        <category name="clothes" />
+        <usage name="Military" />
+    </type>
+    <type name="CDAJ_Silkies_Weed1">
+        <nominal>0</nominal>
+        <lifetime>21600</lifetime>
+        <restock>7200</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+        <category name="clothes" />
+        <usage name="Military" />
+    </type>
+    <type name="CDAJ_Silkies_Weed2">
+        <nominal>0</nominal>
+        <lifetime>21600</lifetime>
+        <restock>7200</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+        <category name="clothes" />
+        <usage name="Military" />
+    </type>
+    <type name="CDAJ_Silkies_Fingers">
+        <nominal>0</nominal>
+        <lifetime>21600</lifetime>
+        <restock>7200</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+        <category name="clothes" />
+        <usage name="Military" />
+    </type>
+    <type name="CDAJ_Silkies_Jaguar">
+        <nominal>0</nominal>
+        <lifetime>21600</lifetime>
+        <restock>7200</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+        <category name="clothes" />
+        <usage name="Military" />
+    </type>
+    <type name="CDAJ_OpscoreV2_Pants_RG">
+		<nominal>2</nominal>
+		<restock>600</restock>
+		<lifetime>14400</lifetime>
+		<min>1</min>
+		<quantmin>-1</quantmin>
+		<quantmax>-1</quantmax>
+		<cost>100</cost>
+		<flags count_in_hoarder="0" count_in_player="0" count_in_map="1" count_in_cargo="0" crafted="0" deloot="0"/>
+		<category name="clothes"/>
+		<usage name="Military"/>
+		<value name=""/>
+    </type>
+    <type name="CDAJ_OpscoreV2_Pants_Tan">
+        <nominal>0</nominal>
+        <lifetime>21600</lifetime>
+        <restock>7200</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+        <category name="clothes" />
+        <usage name="Military" />
+    </type>
+    <type name="CDAJ_OpscoreV2_Pants_AOR1">
+        <nominal>0</nominal>
+        <lifetime>21600</lifetime>
+        <restock>7200</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+        <category name="clothes" />
+        <usage name="Military" />
+    </type>
+    <type name="CDAJ_OpscoreV2_Pants_MCB">
+		<nominal>2</nominal>
+		<restock>600</restock>
+		<lifetime>14400</lifetime>
+		<min>1</min>
+		<quantmin>-1</quantmin>
+		<quantmax>-1</quantmax>
+		<cost>100</cost>
+		<flags count_in_hoarder="0" count_in_player="0" count_in_map="1" count_in_cargo="0" crafted="0" deloot="0"/>
+		<category name="clothes"/>
+		<usage name="Military"/>
+		<value name=""/>
+    </type>
+    <type name="CDAJ_OpscoreV2_Pants_MCT">
+        <nominal>0</nominal>
+        <lifetime>21600</lifetime>
+        <restock>7200</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+        <category name="clothes" />
+        <usage name="Military" />
+    </type>
+    <type name="CDAJ_OpscoreV2_Pants_MARPAT">
+		<nominal>0</nominal>
+		<restock>600</restock>
+		<lifetime>14400</lifetime>
+		<min>0</min>
+		<quantmin>-1</quantmin>
+		<quantmax>-1</quantmax>
+		<cost>100</cost>
+		<flags count_in_hoarder="0" count_in_player="0" count_in_map="1" count_in_cargo="0" crafted="0" deloot="0"/>
+		<category name="clothes"/>
+		<usage name="Military"/>
+		<value name=""/>
+    </type>
+    <type name="CDAJ_OpscoreV2_Pants_FK">
+		<nominal>0</nominal>
+		<restock>600</restock>
+		<lifetime>14400</lifetime>
+		<min>0</min>
+		<quantmin>-1</quantmin>
+		<quantmax>-1</quantmax>
+		<cost>100</cost>
+		<flags count_in_hoarder="0" count_in_player="0" count_in_map="1" count_in_cargo="0" crafted="0" deloot="0"/>
+		<category name="clothes"/>
+		<usage name="Military"/>
+		<value name=""/>
+    </type>
+    <type name="CDAJ_OpscoreV2_Pants_ERDL">
+		<nominal>2</nominal>
+		<restock>600</restock>
+		<lifetime>14400</lifetime>
+		<min>1</min>
+		<quantmin>-1</quantmin>
+		<quantmax>-1</quantmax>
+		<cost>100</cost>
+		<flags count_in_hoarder="0" count_in_player="0" count_in_map="1" count_in_cargo="0" crafted="0" deloot="0"/>
+		<category name="clothes"/>
+		<usage name="Military"/>
+		<value name=""/>
+    </type>
+    <type name="CDAJ_OpscoreV2_Shirt_Rolled_CB">
+        <nominal>0</nominal>
+        <lifetime>21600</lifetime>
+        <restock>7200</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+        <category name="clothes" />
+        <usage name="Military" />
+    </type>
+    <type name="CDAJ_OpscoreV2_Shirt_Rolled_RG">
+		<nominal>2</nominal>
+		<restock>600</restock>
+		<lifetime>28800</lifetime>
+		<min>1</min>
+		<quantmin>-1</quantmin>
+		<quantmax>-1</quantmax>
+		<cost>100</cost>
+		<flags count_in_hoarder="0" count_in_player="0" count_in_map="1" count_in_cargo="0" crafted="0" deloot="0"/>
+		<category name="clothes"/>
+		<usage name="Military"/>
+		<value name="Tier3"/>
+		<value name="Tier4"/>
+    </type>
+    <type name="CDAJ_OpscoreV2_Shirt_Rolled_MCT">
+        <nominal>0</nominal>
+        <lifetime>21600</lifetime>
+        <restock>7200</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+        <category name="clothes" />
+        <usage name="Military" />
+    </type>
+    <type name="CDAJ_OpscoreV2_Shirt_Rolled_MCB">
+		<nominal>2</nominal>
+		<restock>600</restock>
+		<lifetime>28800</lifetime>
+		<min>1</min>
+		<quantmin>-1</quantmin>
+		<quantmax>-1</quantmax>
+		<cost>100</cost>
+		<flags count_in_hoarder="0" count_in_player="0" count_in_map="1" count_in_cargo="0" crafted="0" deloot="0"/>
+		<category name="clothes"/>
+		<usage name="Military"/>
+		<value name="Tier3"/>
+		<value name="Tier4"/>
+    </type>
+    <type name="CDAJ_OpscoreV2_Shirt_Rolled_MARPAT">
+		<nominal>0</nominal>
+		<restock>600</restock>
+		<lifetime>28800</lifetime>
+		<min>0</min>
+		<quantmin>-1</quantmin>
+		<quantmax>-1</quantmax>
+		<cost>100</cost>
+		<flags count_in_hoarder="0" count_in_player="0" count_in_map="1" count_in_cargo="0" crafted="0" deloot="0"/>
+		<category name="clothes"/>
+		<usage name="Military"/>
+		<value name="Tier3"/>
+		<value name="Tier4"/>
+    </type>
+    <type name="CDAJ_OpscoreV2_Shirt_Rolled_FK">
+		<nominal>0</nominal>
+		<restock>600</restock>
+		<lifetime>28800</lifetime>
+		<min>0</min>
+		<quantmin>-1</quantmin>
+		<quantmax>-1</quantmax>
+		<cost>100</cost>
+		<flags count_in_hoarder="0" count_in_player="0" count_in_map="1" count_in_cargo="0" crafted="0" deloot="0"/>
+		<category name="clothes"/>
+		<usage name="Military"/>
+		<value name="Tier3"/>
+		<value name="Tier4"/>
+    </type>
+    <type name="CDAJ_OpscoreV2_Shirt_Rolled_ERDL">
+		<nominal>2</nominal>
+		<restock>600</restock>
+		<lifetime>28800</lifetime>
+		<min>1</min>
+		<quantmin>-1</quantmin>
+		<quantmax>-1</quantmax>
+		<cost>100</cost>
+		<flags count_in_hoarder="0" count_in_player="0" count_in_map="1" count_in_cargo="0" crafted="0" deloot="0"/>
+		<category name="clothes"/>
+		<usage name="Military"/>
+		<value name="Tier3"/>
+		<value name="Tier4"/>
+    </type>
+    <type name="CDAJ_OpscoreV2_Shirt_Rolled_AOR1">
+        <nominal>0</nominal>
+        <lifetime>21600</lifetime>
+        <restock>7200</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+        <category name="clothes" />
+        <usage name="Military" />
+    </type>
+    <type name="CDAJ_OCV2_Boots_FK">
+		<nominal>0</nominal>
+		<restock>0</restock>
+		<lifetime>14400</lifetime>
+		<min>0</min>
+		<quantmin>-1</quantmin>
+		<quantmax>-1</quantmax>
+		<cost>100</cost>
+		<flags count_in_hoarder="0" count_in_player="0" count_in_map="1" count_in_cargo="0" crafted="0" deloot="0"/>
+		<category name="clothes"/>
+		<usage name="Military"/>
+		<value name=""/>
+    </type>
+    <type name="CDAJ_OCV2_Boots_CB">
+        <nominal>0</nominal>
+        <lifetime>21600</lifetime>
+        <restock>7200</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+        <category name="clothes" />
+        <usage name="Military" />
+    </type>
+    <type name="CDAJ_OCV2_Boots_Pale">
+        <nominal>0</nominal>
+        <lifetime>21600</lifetime>
+        <restock>7200</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+        <category name="clothes" />
+        <usage name="Military" />
+    </type>
+    <type name="CDAJ_OCV2_Boots_RG">
+		<nominal>2</nominal>
+		<restock>0</restock>
+		<lifetime>14400</lifetime>
+		<min>1</min>
+		<quantmin>-1</quantmin>
+		<quantmax>-1</quantmax>
+		<cost>100</cost>
+		<flags count_in_hoarder="0" count_in_player="0" count_in_map="1" count_in_cargo="0" crafted="0" deloot="0"/>
+		<category name="clothes"/>
+		<usage name="Military"/>
+		<value name=""/>
+    </type>
+    <type name="CDAJ_OCV2_WB_IFAK_AOR1">
+        <nominal>0</nominal>
+        <lifetime>21600</lifetime>
+        <restock>7200</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+        <category name="clothes" />
+        <usage name="Military" />
+    </type>
+    <type name="CDAJ_OCV2_WB_IFAK_ERDL">
+        <nominal>0</nominal>
+        <lifetime>21600</lifetime>
+        <restock>7200</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+        <category name="clothes" />
+        <usage name="Military" />
+    </type>
+    <type name="CDAJ_OCV2_WB_IFAK_FK">
+        <nominal>0</nominal>
+        <lifetime>21600</lifetime>
+        <restock>7200</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+        <category name="clothes" />
+        <usage name="Military" />
+    </type>
+    <type name="CDAJ_OCV2_WB_IFAK_MARPAT">
+        <nominal>0</nominal>
+        <lifetime>21600</lifetime>
+        <restock>7200</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+        <category name="clothes" />
+        <usage name="Military" />
+    </type>
+    <type name="CDAJ_OCV2_WB_IFAK_MCT">
+        <nominal>0</nominal>
+        <lifetime>21600</lifetime>
+        <restock>7200</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+        <category name="clothes" />
+        <usage name="Military" />
+    </type>
+    <type name="CDAJ_OCV2_WB_IFAK_MCB">
+        <nominal>0</nominal>
+        <lifetime>21600</lifetime>
+        <restock>7200</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+        <category name="clothes" />
+        <usage name="Military" />
+    </type>
+    <type name="CDAJ_OCV2_WB_IFAK_RG">
+        <nominal>0</nominal>
+        <lifetime>21600</lifetime>
+        <restock>7200</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+        <category name="clothes" />
+        <usage name="Military" />
+    </type>
+    <type name="CDAJ_OCV2_WB_IFAK_Tan">
+        <nominal>0</nominal>
+        <lifetime>21600</lifetime>
+        <restock>7200</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+        <category name="clothes" />
+        <usage name="Military" />
+    </type>
+    <type name="CDAJ_OCV2_WB_DropPouch_AOR1">
+        <nominal>0</nominal>
+        <lifetime>21600</lifetime>
+        <restock>7200</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+        <category name="clothes" />
+        <usage name="Military" />
+    </type>
+    <type name="CDAJ_OCV2_WB_DropPouch_ERDL">
+        <nominal>0</nominal>
+        <lifetime>21600</lifetime>
+        <restock>7200</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+        <category name="clothes" />
+        <usage name="Military" />
+    </type>
+    <type name="CDAJ_OCV2_WB_DropPouch_FK">
+        <nominal>0</nominal>
+        <lifetime>21600</lifetime>
+        <restock>7200</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+        <category name="clothes" />
+        <usage name="Military" />
+    </type>
+    <type name="CDAJ_OCV2_WB_DropPouch_MARPAT">
+        <nominal>0</nominal>
+        <lifetime>21600</lifetime>
+        <restock>7200</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+        <category name="clothes" />
+        <usage name="Military" />
+    </type>
+    <type name="CDAJ_OCV2_WB_DropPouch_MCT">
+        <nominal>0</nominal>
+        <lifetime>21600</lifetime>
+        <restock>7200</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+        <category name="clothes" />
+        <usage name="Military" />
+    </type>
+    <type name="CDAJ_OCV2_WB_DropPouch_MCB">
+        <nominal>0</nominal>
+        <lifetime>21600</lifetime>
+        <restock>7200</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+        <category name="clothes" />
+        <usage name="Military" />
+    </type>
+    <type name="CDAJ_OCV2_WB_DropPouch_RG">
+        <nominal>0</nominal>
+        <lifetime>21600</lifetime>
+        <restock>7200</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+        <category name="clothes" />
+        <usage name="Military" />
+    </type>
+    <type name="CDAJ_OCV2_WB_DropPouch_Tan">
+        <nominal>0</nominal>
+        <lifetime>21600</lifetime>
+        <restock>7200</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+        <category name="clothes" />
+        <usage name="Military" />
+    </type>
+    <type name="CDAJ_Slick_MagPouches_MC">
+        <nominal>0</nominal>
+        <lifetime>21600</lifetime>
+        <restock>7200</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+        <category name="clothes" />
+        <usage name="Military" />
+    </type>
+    <type name="CDAJ_Slick_MagPouches_EMR">
+        <nominal>0</nominal>
+        <lifetime>21600</lifetime>
+        <restock>7200</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+        <category name="clothes" />
+        <usage name="Military" />
+    </type>
+    <type name="CDAJ_Slick_MagPouches_Black">
+        <nominal>0</nominal>
+        <lifetime>21600</lifetime>
+        <restock>7200</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+        <category name="clothes" />
+        <usage name="Military" />
+    </type>
+    <type name="CDAJ_Slick_MagPouches_CB">
+        <nominal>0</nominal>
+        <lifetime>21600</lifetime>
+        <restock>7200</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+        <category name="clothes" />
+        <usage name="Military" />
+    </type>
+    <type name="CDAJ_Slick_MagPouches_RG">
+        <nominal>0</nominal>
+        <lifetime>21600</lifetime>
+        <restock>7200</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+        <category name="clothes" />
+        <usage name="Military" />
+    </type>
+    <type name="CDAJ_GrenadePouch_MC">
+        <nominal>0</nominal>
+        <lifetime>21600</lifetime>
+        <restock>7200</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+        <category name="clothes" />
+        <usage name="Military" />
+    </type>
+    <type name="CDAJ_GrenadePouch_ATACTS">
+        <nominal>0</nominal>
+        <lifetime>21600</lifetime>
+        <restock>7200</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+        <category name="clothes" />
+        <usage name="Military" />
+    </type>
+    <type name="CDAJ_GrenadePouch_Black">
+        <nominal>0</nominal>
+        <lifetime>21600</lifetime>
+        <restock>7200</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+        <category name="clothes" />
+        <usage name="Military" />
+    </type>
+    <type name="CDAJ_GrenadePouch_RG">
+        <nominal>0</nominal>
+        <lifetime>21600</lifetime>
+        <restock>7200</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+        <category name="clothes" />
+        <usage name="Military" />
+    </type>
+    <type name="CDAJ_AFAK_MC">
+        <nominal>0</nominal>
+        <lifetime>21600</lifetime>
+        <restock>7200</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+        <category name="clothes" />
+        <usage name="Military" />
+    </type>
+    <type name="CDAJ_AFAK_EMR">
+        <nominal>0</nominal>
+        <lifetime>21600</lifetime>
+        <restock>7200</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+        <category name="clothes" />
+        <usage name="Military" />
+    </type>
+    <type name="CDAJ_AFAK_Black">
+        <nominal>0</nominal>
+        <lifetime>21600</lifetime>
+        <restock>7200</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+        <category name="clothes" />
+        <usage name="Military" />
+    </type>
+    <type name="CDAJ_AFAK_CB">
+        <nominal>0</nominal>
+        <lifetime>21600</lifetime>
+        <restock>7200</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+        <category name="clothes" />
+        <usage name="Military" />
+    </type>
+    <type name="CDAJ_AFAK_RG">
+        <nominal>0</nominal>
+        <lifetime>21600</lifetime>
+        <restock>7200</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+        <category name="clothes" />
+        <usage name="Military" />
+    </type>
+    <type name="CDAJ_Tourniquet_AJI">
+        <nominal>0</nominal>
+        <lifetime>21600</lifetime>
+        <restock>7200</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+        <category name="clothes" />
+        <usage name="Military" />
+    </type>
+    <type name="CDAJ_Vest_Patch_FOG">
+        <nominal>0</nominal>
+        <lifetime>21600</lifetime>
+        <restock>7200</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+        <category name="clothes" />
+        <usage name="Military" />
+    </type>
+    <type name="CDAJ_Vest_Patch_Cowabunga">
+        <nominal>0</nominal>
+        <lifetime>21600</lifetime>
+        <restock>7200</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+        <category name="clothes" />
+        <usage name="Military" />
+    </type>
+    <type name="CDAJ_Vest_Patch_EOD">
+        <nominal>0</nominal>
+        <lifetime>21600</lifetime>
+        <restock>7200</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+        <category name="clothes" />
+        <usage name="Military" />
+    </type>
+    <type name="CDAJ_Vest_Patch_Medic1">
+        <nominal>0</nominal>
+        <lifetime>21600</lifetime>
+        <restock>7200</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+        <category name="clothes" />
+        <usage name="Military" />
+    </type>
+    <type name="CDAJ_Vest_Patch_Reaperswing">
+        <nominal>0</nominal>
+        <lifetime>21600</lifetime>
+        <restock>7200</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+        <category name="clothes" />
+        <usage name="Military" />
+    </type>
+    <type name="CDAJ_Vest_Patch_US_Flag">
+        <nominal>0</nominal>
+        <lifetime>21600</lifetime>
+        <restock>7200</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+        <category name="clothes" />
+        <usage name="Military" />
+    </type>
+    <type name="CDAJ_Vest_Patch_Redman">
+        <nominal>0</nominal>
+        <lifetime>21600</lifetime>
+        <restock>7200</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+        <category name="clothes" />
+        <usage name="Military" />
+    </type>
+    <type name="CDAJ_Spud_Magpouches_MC">
+        <nominal>0</nominal>
+        <lifetime>21600</lifetime>
+        <restock>7200</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+        <category name="clothes" />
+        <usage name="Military" />
+    </type>
+    <type name="CDAJ_Spud_Magpouches_Black">
+        <nominal>0</nominal>
+        <lifetime>21600</lifetime>
+        <restock>7200</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+        <category name="clothes" />
+        <usage name="Military" />
+    </type>
+    <type name="CDAJ_Spud_Magpouches_CB">
+        <nominal>0</nominal>
+        <lifetime>21600</lifetime>
+        <restock>7200</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+        <category name="clothes" />
+        <usage name="Military" />
+    </type>
+    <type name="CDAJ_Spud_Magpouches_RG">
+        <nominal>0</nominal>
+        <lifetime>21600</lifetime>
+        <restock>7200</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+        <category name="clothes" />
+        <usage name="Military" />
+    </type>
+    <type name="CDAJ_Pouch_TraumaRoll_MC">
+        <nominal>0</nominal>
+        <lifetime>21600</lifetime>
+        <restock>7200</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+        <category name="clothes" />
+        <usage name="Military" />
+    </type>
+    <type name="CDAJ_Pouch_TraumaRoll_MCB">
+        <nominal>0</nominal>
+        <lifetime>21600</lifetime>
+        <restock>7200</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+        <category name="clothes" />
+        <usage name="Military" />
+    </type>
+    <type name="CDAJ_Pouch_TraumaRoll_Black">
+        <nominal>0</nominal>
+        <lifetime>21600</lifetime>
+        <restock>7200</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+        <category name="clothes" />
+        <usage name="Military" />
+    </type>
+    <type name="CDAJ_Pouch_TraumaRoll_CB">
+        <nominal>0</nominal>
+        <lifetime>21600</lifetime>
+        <restock>7200</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+        <category name="clothes" />
+        <usage name="Military" />
+    </type>
+    <type name="CDAJ_Pouch_TraumaRoll_RG">
+        <nominal>0</nominal>
+        <lifetime>21600</lifetime>
+        <restock>7200</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+        <category name="clothes" />
+        <usage name="Military" />
+    </type>
+    <type name="CDAJ_OpscoreV2_BatteryPack_Tan">
+        <nominal>0</nominal>
+        <lifetime>21600</lifetime>
+        <restock>7200</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+        <category name="clothes" />
+        <usage name="Military" />
+    </type>
+    <type name="CDAJ_OpscoreV2_BatteryPack_RG">
+        <nominal>2</nominal>
+        <lifetime>7200</lifetime>
+        <restock>0</restock>
+        <min>1</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+        <category name="clothes" />        
+        <usage name="Military"/>
+    </type>
+    <type name="CDAJ_OpscoreV2_BatteryPack_MCT">
+        <nominal>0</nominal>
+        <lifetime>21600</lifetime>
+        <restock>7200</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+        <category name="clothes" />
+        <usage name="Military" />
+    </type>
+    <type name="CDAJ_OpscoreV2_BatteryPack_MCB">
+        <nominal>2</nominal>
+        <lifetime>7200</lifetime>
+        <restock>0</restock>
+        <min>1</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+        <category name="clothes" />        
+        <usage name="Military"/>
+    </type>
+    <type name="CDAJ_OpscoreV2_BatteryPack_ERDL">
+        <nominal>2</nominal>
+        <lifetime>7200</lifetime>
+        <restock>0</restock>
+        <min>1</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+        <category name="clothes" />        
+        <usage name="Military"/>
+    </type>
+    <type name="CDAJ_OpscoreV2_BatteryPack_MARPAT">
+        <nominal>0</nominal>
+        <lifetime>7200</lifetime>
+        <restock>0</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+        <category name="clothes" />        
+        <usage name="Military"/>
+    </type>
+    <type name="CDAJ_OpscoreV2_BatteryPack_FK">
+        <nominal>0</nominal>
+        <lifetime>7200</lifetime>
+        <restock>0</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+        <category name="clothes" />        
+        <usage name="Military"/>
+    </type>
+    <type name="CDAJ_OpscoreV2_BatteryPack_AOR1">
+        <nominal>0</nominal>
+        <lifetime>21600</lifetime>
+        <restock>7200</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+        <category name="clothes" />
+        <usage name="Military" />
+    </type>
+    <type name="CDAJ_OpscoreV2_Headphones_Tan">
+        <nominal>0</nominal>
+        <lifetime>21600</lifetime>
+        <restock>7200</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+        <category name="clothes" />
+        <usage name="Military" />
+    </type>
+    <type name="CDAJ_OpscoreV2_Headphones_RG">
+        <nominal>2</nominal>
+        <lifetime>7200</lifetime>
+        <restock>0</restock>
+        <min>1</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+        <category name="clothes" />        
+        <usage name="Military"/>
+    </type>
+    <type name="CDAJ_OpscoreV2_Headphones_MCT">
+        <nominal>0</nominal>
+        <lifetime>21600</lifetime>
+        <restock>7200</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+        <category name="clothes" />
+        <usage name="Military" />
+    </type>
+    <type name="CDAJ_OpscoreV2_Headphones_MCB">
+        <nominal>2</nominal>
+        <lifetime>7200</lifetime>
+        <restock>0</restock>
+        <min>1</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+        <category name="clothes" />        
+        <usage name="Military"/>
+    </type>
+    <type name="CDAJ_OpscoreV2_Headphones_ERDL">
+        <nominal>2</nominal>
+        <lifetime>7200</lifetime>
+        <restock>0</restock>
+        <min>1</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+        <category name="clothes" />        
+        <usage name="Military"/>
+    </type>
+    <type name="CDAJ_OpscoreV2_Headphones_MARPAT">
+        <nominal>0</nominal>
+        <lifetime>7200</lifetime>
+        <restock>0</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+        <category name="clothes" />        
+        <usage name="Military"/>
+    </type>
+    <type name="CDAJ_OpscoreV2_Headphones_FK">
+        <nominal>0</nominal>
+        <lifetime>7200</lifetime>
+        <restock>0</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+        <category name="clothes" />        
+        <usage name="Military"/>
+    </type>
+    <type name="CDAJ_OpscoreV2_Headphones_AOR1">
+        <nominal>0</nominal>
+        <lifetime>21600</lifetime>
+        <restock>7200</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+        <category name="clothes" />
+        <usage name="Military" />
+    </type>
+    <type name="CDAJ_OpscoreV2_HelmetCover_Tan">
+        <nominal>0</nominal>
+        <lifetime>21600</lifetime>
+        <restock>7200</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+        <category name="clothes" />
+        <usage name="Military" />
+    </type>
+    <type name="CDAJ_OpscoreV2_HelmetCover_RG">
+        <nominal>2</nominal>
+        <lifetime>7200</lifetime>
+        <restock>0</restock>
+        <min>1</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+        <category name="clothes" />        
+        <usage name="Military"/>
+    </type>
+    <type name="CDAJ_OpscoreV2_HelmetCover_MCT">
+        <nominal>0</nominal>
+        <lifetime>21600</lifetime>
+        <restock>7200</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+        <category name="clothes" />
+        <usage name="Military" />
+    </type>
+    <type name="CDAJ_OpscoreV2_HelmetCover_MCB">
+        <nominal>2</nominal>
+        <lifetime>7200</lifetime>
+        <restock>0</restock>
+        <min>1</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+        <category name="clothes" />        
+        <usage name="Military"/>
+    </type>
+    <type name="CDAJ_OpscoreV2_HelmetCover_ERDL">
+        <nominal>2</nominal>
+        <lifetime>7200</lifetime>
+        <restock>0</restock>
+        <min>1</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+        <category name="clothes" />        
+        <usage name="Military"/>
+    </type>
+    <type name="CDAJ_OpscoreV2_HelmetCover_MARPAT">
+        <nominal>0</nominal>
+        <lifetime>7200</lifetime>
+        <restock>0</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+        <category name="clothes" />        
+        <usage name="Military"/>
+    </type>
+    <type name="CDAJ_OpscoreV2_HelmetCover_FK">
+        <nominal>0</nominal>
+        <lifetime>7200</lifetime>
+        <restock>0</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+        <category name="clothes" />        
+        <usage name="Military"/>
+    </type>
+    <type name="CDAJ_OpscoreV2_HelmetCover_AOR1">
+        <nominal>0</nominal>
+        <lifetime>21600</lifetime>
+        <restock>7200</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+        <category name="clothes" />
+        <usage name="Military" />
+    </type>
+    <type name="CDAJ_UtilityPouch_MC">
+        <nominal>0</nominal>
+        <lifetime>21600</lifetime>
+        <restock>7200</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+        <category name="clothes" />
+        <usage name="Military" />
+    </type>
+    <type name="CDAJ_UtilityPouch_Black">
+        <nominal>0</nominal>
+        <lifetime>21600</lifetime>
+        <restock>7200</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+        <category name="clothes" />
+        <usage name="Military" />
+    </type>
+    <type name="CDAJ_UtilityPouch_Tan">
+        <nominal>0</nominal>
+        <lifetime>21600</lifetime>
+        <restock>7200</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+        <category name="clothes" />
+        <usage name="Military" />
+    </type>
+    <type name="CDAJ_UtilityPouch_RG">
+        <nominal>0</nominal>
+        <lifetime>21600</lifetime>
+        <restock>7200</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+        <category name="clothes" />
+        <usage name="Military" />
+    </type>
+    <type name="CDAJ_UtilityPouch_MCT">
+        <nominal>0</nominal>
+        <lifetime>21600</lifetime>
+        <restock>7200</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+        <category name="clothes" />
+        <usage name="Military" />
+    </type>
+    <type name="CDAJ_UtilityPouch_MCB">
+        <nominal>0</nominal>
+        <lifetime>21600</lifetime>
+        <restock>7200</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+        <category name="clothes" />
+        <usage name="Military" />
+    </type>
+    <type name="CDAJ_UtilityPouch_FK">
+        <nominal>0</nominal>
+        <lifetime>21600</lifetime>
+        <restock>7200</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+        <category name="clothes" />
+        <usage name="Military" />
+    </type>
+    <type name="CDAJ_UtilityPouch_MARPAT">
+        <nominal>0</nominal>
+        <lifetime>21600</lifetime>
+        <restock>7200</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+        <category name="clothes" />
+        <usage name="Military" />
+    </type>
+    <type name="CDAJ_UtilityPouch_AOR1">
+        <nominal>0</nominal>
+        <lifetime>21600</lifetime>
+        <restock>7200</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+        <category name="clothes" />
+        <usage name="Military" />
+    </type>
+    <type name="CDAJ_UtilityPouch_ERDL">
+        <nominal>0</nominal>
+        <lifetime>21600</lifetime>
+        <restock>7200</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+        <category name="clothes" />
+        <usage name="Military" />
+    </type>
+    <type name="CDAJ_AdminPouch_MC">
+        <nominal>0</nominal>
+        <lifetime>21600</lifetime>
+        <restock>7200</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+        <category name="clothes" />
+        <usage name="Military" />
+    </type>
+    <type name="CDAJ_AdminPouch_Black">
+        <nominal>0</nominal>
+        <lifetime>21600</lifetime>
+        <restock>7200</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+        <category name="clothes" />
+        <usage name="Military" />
+    </type>
+    <type name="CDAJ_AdminPouch_RG">
+        <nominal>0</nominal>
+        <lifetime>21600</lifetime>
+        <restock>7200</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+        <category name="clothes" />
+        <usage name="Military" />
+    </type>
+    <type name="CDAJ_AdminPouch_Tan">
+        <nominal>0</nominal>
+        <lifetime>21600</lifetime>
+        <restock>7200</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+        <category name="clothes" />
+        <usage name="Military" />
+    </type>
+    <type name="CDAJ_AdminPouch_MCT">
+        <nominal>0</nominal>
+        <lifetime>21600</lifetime>
+        <restock>7200</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+        <category name="clothes" />
+        <usage name="Military" />
+    </type>
+    <type name="CDAJ_AdminPouch_MCB">
+        <nominal>0</nominal>
+        <lifetime>21600</lifetime>
+        <restock>7200</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+        <category name="clothes" />
+        <usage name="Military" />
+    </type>
+    <type name="CDAJ_AdminPouch_FK">
+        <nominal>0</nominal>
+        <lifetime>21600</lifetime>
+        <restock>7200</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+        <category name="clothes" />
+        <usage name="Military" />
+    </type>
+    <type name="CDAJ_AdminPouch_MARPAT">
+        <nominal>0</nominal>
+        <lifetime>21600</lifetime>
+        <restock>7200</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+        <category name="clothes" />
+        <usage name="Military" />
+    </type>
+    <type name="CDAJ_AdminPouch_AOR1">
+        <nominal>0</nominal>
+        <lifetime>21600</lifetime>
+        <restock>7200</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+        <category name="clothes" />
+        <usage name="Military" />
+    </type>
+    <type name="CDAJ_AdminPouch_ERDL">
+        <nominal>0</nominal>
+        <lifetime>21600</lifetime>
+        <restock>7200</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+        <category name="clothes" />
+        <usage name="Military" />
+    </type>
+    <type name="CDAJ_Large_MagPouches_MC">
+        <nominal>0</nominal>
+        <lifetime>21600</lifetime>
+        <restock>7200</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+        <category name="clothes" />
+        <usage name="Military" />
+    </type>
+    <type name="CDAJ_Large_MagPouches_Black">
+        <nominal>0</nominal>
+        <lifetime>21600</lifetime>
+        <restock>7200</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+        <category name="clothes" />
+        <usage name="Military" />
+    </type>
+    <type name="CDAJ_Large_MagPouches_RG">
+        <nominal>0</nominal>
+        <lifetime>21600</lifetime>
+        <restock>7200</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+        <category name="clothes" />
+        <usage name="Military" />
+    </type>
+    <type name="CDAJ_Large_MagPouches_Tan">
+        <nominal>0</nominal>
+        <lifetime>21600</lifetime>
+        <restock>7200</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+        <category name="clothes" />
+        <usage name="Military" />
+    </type>
+    <type name="CDAJ_Large_MagPouches_MCT">
+        <nominal>0</nominal>
+        <lifetime>21600</lifetime>
+        <restock>7200</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+        <category name="clothes" />
+        <usage name="Military" />
+    </type>
+    <type name="CDAJ_Large_MagPouches_MCB">
+        <nominal>0</nominal>
+        <lifetime>21600</lifetime>
+        <restock>7200</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+        <category name="clothes" />
+        <usage name="Military" />
+    </type>
+    <type name="CDAJ_Large_MagPouches_FK">
+        <nominal>0</nominal>
+        <lifetime>21600</lifetime>
+        <restock>7200</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+        <category name="clothes" />
+        <usage name="Military" />
+    </type>
+    <type name="CDAJ_Large_MagPouches_MARPAT">
+        <nominal>0</nominal>
+        <lifetime>21600</lifetime>
+        <restock>7200</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+        <category name="clothes" />
+        <usage name="Military" />
+    </type>
+    <type name="CDAJ_Large_MagPouches_AOR1">
+        <nominal>0</nominal>
+        <lifetime>21600</lifetime>
+        <restock>7200</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+        <category name="clothes" />
+        <usage name="Military" />
+    </type>
+    <type name="CDAJ_Large_MagPouches_ERDL">
+        <nominal>0</nominal>
+        <lifetime>21600</lifetime>
+        <restock>7200</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+        <category name="clothes" />
+        <usage name="Military" />
+    </type>
+    <!-- End of new content -->
+    <type name="CDAJ_Ammo_8mm">
+        <nominal>0</nominal>
+        <lifetime>7200</lifetime>
+        <restock>1800</restock>
+        <min>0</min>
+        <quantmin>60</quantmin>
+        <quantmax>100</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+        <category name="weapons" />
+        <usage name="Military" />
+    </type>
+    <type name="CDAJ_MagMG42_50rnd_Drum">
+        <nominal>0</nominal>
+        <lifetime>14400</lifetime>
+        <restock>1800</restock>
+        <min>0</min>
+        <quantmin>60</quantmin>
+        <quantmax>100</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+        <category name="weapons" />
+        <usage name="Military" />
+    </type>
+    <type name="CDAJ_MG42">
+        <nominal>0</nominal>
+        <lifetime>14400</lifetime>
+        <restock>1800</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+        <category name="weapons" />
+        <usage name="Military" />
+    </type>
+    <type name="CDAJ_PaperBag_Mask">
+        <nominal>0</nominal>
+        <lifetime>7200</lifetime>
+        <restock>7200</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+        <category name="clothes" />
+        <usage name="Town" />
+    </type>
+    <type name="CDAJ_TRexHelmet_Green">
+        <nominal>0</nominal>
+        <lifetime>7200</lifetime>
+        <restock>7200</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+        <category name="clothes" />
+        <usage name="Town" />
+    </type>
+    <type name="CDAJ_OCV2_Boots_Tan">
+        <nominal>0</nominal>
+        <lifetime>7200</lifetime>
+        <restock>7200</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+        <category name="clothes" />
+        <usage name="Military" />
+    </type>
+    <type name="CDAJ_OCV2_Boots_Black">
+		<nominal>2</nominal>
+		<restock>0</restock>
+		<lifetime>14400</lifetime>
+		<min>1</min>
+		<quantmin>-1</quantmin>
+		<quantmax>-1</quantmax>
+		<cost>100</cost>
+		<flags count_in_hoarder="0" count_in_player="0" count_in_map="1" count_in_cargo="0" crafted="0" deloot="0"/>
+		<category name="clothes"/>
+		<usage name="Military"/>
+		<value name=""/>
+    </type>
+    <type name="CDAJ_Cockpressor">
+        <nominal>0</nominal>
+        <lifetime>7200</lifetime>
+        <restock>7200</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+        <category name="clothes" />
+        <usage name="Military" />
+    </type>
+    <type name="CDAJ_Adidas_SS_Black">
+		<nominal>12</nominal>
+		<restock>0</restock>
+		<lifetime>14400</lifetime>
+		<min>8</min>
+		<quantmin>-1</quantmin>
+		<quantmax>-1</quantmax>
+		<cost>100</cost>
+		<flags count_in_hoarder="0" count_in_player="0" count_in_map="1" count_in_cargo="0" crafted="0" deloot="0"/>
+		<category name="clothes"/>
+		<usage name="Town"/>
+		<usage name="School"/>
+		<value name=""/>
+    </type>
+    <type name="CDAJ_Adidas_SS_ERDL">
+		<nominal>12</nominal>
+		<restock>0</restock>
+		<lifetime>14400</lifetime>
+		<min>8</min>
+		<quantmin>-1</quantmin>
+		<quantmax>-1</quantmax>
+		<cost>100</cost>
+		<flags count_in_hoarder="0" count_in_player="0" count_in_map="1" count_in_cargo="0" crafted="0" deloot="0"/>
+		<category name="clothes"/>
+		<usage name="Town"/>
+		<usage name="School"/>
+		<value name=""/>
+    </type>
+    <type name="CDAJ_Adidas_SS_Purple">
+		<nominal>12</nominal>
+		<restock>0</restock>
+		<lifetime>14400</lifetime>
+		<min>8</min>
+		<quantmin>-1</quantmin>
+		<quantmax>-1</quantmax>
+		<cost>100</cost>
+		<flags count_in_hoarder="0" count_in_player="0" count_in_map="1" count_in_cargo="0" crafted="0" deloot="0"/>
+		<category name="clothes"/>
+		<usage name="Town"/>
+		<usage name="School"/>
+		<value name=""/>
+    </type>
+    <type name="CDAJ_Adidas_SS_Rainbow">
+		<nominal>12</nominal>
+		<restock>0</restock>
+		<lifetime>14400</lifetime>
+		<min>8</min>
+		<quantmin>-1</quantmin>
+		<quantmax>-1</quantmax>
+		<cost>100</cost>
+		<flags count_in_hoarder="0" count_in_player="0" count_in_map="1" count_in_cargo="0" crafted="0" deloot="0"/>
+		<category name="clothes"/>
+		<usage name="Town"/>
+		<usage name="School"/>
+		<value name=""/>
+    </type>
+    <type name="CDAJ_Adidas_SS_Red">
+		<nominal>12</nominal>
+		<restock>0</restock>
+		<lifetime>14400</lifetime>
+		<min>8</min>
+		<quantmin>-1</quantmin>
+		<quantmax>-1</quantmax>
+		<cost>100</cost>
+		<flags count_in_hoarder="0" count_in_player="0" count_in_map="1" count_in_cargo="0" crafted="0" deloot="0"/>
+		<category name="clothes"/>
+		<usage name="Town"/>
+		<usage name="School"/>
+		<value name=""/>
+    </type>
+    <type name="CDAJ_Adidas_SS_Teal">
+		<nominal>12</nominal>
+		<restock>0</restock>
+		<lifetime>14400</lifetime>
+		<min>8</min>
+		<quantmin>-1</quantmin>
+		<quantmax>-1</quantmax>
+		<cost>100</cost>
+		<flags count_in_hoarder="0" count_in_player="0" count_in_map="1" count_in_cargo="0" crafted="0" deloot="0"/>
+		<category name="clothes"/>
+		<usage name="Town"/>
+		<usage name="School"/>
+		<value name=""/>
+    </type>
+    <type name="CDAJ_Adidas_SS_UWU">
+		<nominal>0</nominal>
+		<restock>0</restock>
+		<lifetime>14400</lifetime>
+		<min>0</min>
+		<quantmin>-1</quantmin>
+		<quantmax>-1</quantmax>
+		<cost>100</cost>
+		<flags count_in_hoarder="0" count_in_player="0" count_in_map="1" count_in_cargo="0" crafted="0" deloot="0"/>
+		<category name="clothes"/>
+		<usage name="Town"/>
+		<usage name="School"/>
+		<value name=""/>
+    </type>
+    <type name="CDAJ_Adidas_SS_White">
+		<nominal>12</nominal>
+		<restock>0</restock>
+		<lifetime>14400</lifetime>
+		<min>8</min>
+		<quantmin>-1</quantmin>
+		<quantmax>-1</quantmax>
+		<cost>100</cost>
+		<flags count_in_hoarder="0" count_in_player="0" count_in_map="1" count_in_cargo="0" crafted="0" deloot="0"/>
+		<category name="clothes"/>
+		<usage name="Town"/>
+		<usage name="School"/>
+		<value name=""/>
+    </type>
+    <type name="CDAJ_Adidas_SS_Yellow">
+		<nominal>12</nominal>
+		<restock>0</restock>
+		<lifetime>14400</lifetime>
+		<min>8</min>
+		<quantmin>-1</quantmin>
+		<quantmax>-1</quantmax>
+		<cost>100</cost>
+		<flags count_in_hoarder="0" count_in_player="0" count_in_map="1" count_in_cargo="0" crafted="0" deloot="0"/>
+		<category name="clothes"/>
+		<usage name="Town"/>
+		<usage name="School"/>
+		<value name=""/>
+    </type>
+    <type name="CDAJ_Apoco_Boots_Brown">
+		<nominal>13</nominal>
+		<restock>0</restock>
+		<lifetime>14400</lifetime>
+		<min>9</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+        <category name="clothes" />
+        <usage name="Farm" />
+        <usage name="Hunting" />
+        <usage name="Town" />
+        <usage name="Village" />
+    </type>
+    <type name="CDAJ_Apoco_Pants_Brown">
+		<nominal>9</nominal>
+		<restock>0</restock>
+		<lifetime>14400</lifetime>
+		<min>4</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+        <category name="clothes" />
+        <usage name="Farm" />
+        <usage name="Hunting" />
+        <usage name="Town" />
+        <usage name="Village" />
+    </type>
+    <type name="CDAJ_Apoco_Sweater_OD">
+		<nominal>7</nominal>
+		<restock>0</restock>
+		<lifetime>14400</lifetime>
+		<min>4</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+        <category name="clothes" />
+        <usage name="Farm" />
+        <usage name="Hunting" />
+        <usage name="Town" />
+        <usage name="Village" />
+    </type>
+    <type name="CDAJ_Ballistic_Mask_Black">
+        <nominal>0</nominal>
+        <lifetime>7200</lifetime>
+        <restock>1800</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+        <category name="clothes" />
+        <usage name="Military" />
+        <value name="Tier3" />
+        <value name="Tier4" />
+    </type>
+    <type name="CDAJ_Ballistic_Mask_ERDL">
+        <nominal>0</nominal>
+        <lifetime>7200</lifetime>
+        <restock>1800</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+        <category name="clothes" />
+        <usage name="Military" />
+        <value name="Tier3" />
+        <value name="Tier4" />
+    </type>
+    <type name="CDAJ_Ballistic_Mask_RedTiger">
+        <nominal>0</nominal>
+        <lifetime>7200</lifetime>
+        <restock>1800</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+        <category name="clothes" />
+        <usage name="Military" />
+        <value name="Tier3" />
+        <value name="Tier4" />
+    </type>
+    <type name="CDAJ_Ballistic_Mask_Sammy">
+        <nominal>0</nominal>
+        <lifetime>7200</lifetime>
+        <restock>1800</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+        <category name="clothes" />
+        <usage name="Military" />
+        <value name="Tier3" />
+        <value name="Tier4" />
+    </type>
+    <type name="CDAJ_Ballistic_Mask_YellowERDL">
+        <nominal>0</nominal>
+        <lifetime>7200</lifetime>
+        <restock>1800</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+        <category name="clothes" />
+        <usage name="Military" />
+        <value name="Tier3" />
+        <value name="Tier4" />
+    </type>
+    <type name="CDAJ_Bucket">
+        <nominal>0</nominal>
+        <lifetime>21600</lifetime>
+        <restock>1800</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+        <category name="clothes" />
+        <usage name="Military" />
+    </type>
+    <type name="CDAJ_Clown_Hat">
+        <nominal>0</nominal>
+        <lifetime>7200</lifetime>
+        <restock>1800</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+        <category name="clothes" />
+    </type>
+    <type name="CDAJ_Deadmouse_Black">
+        <nominal>0</nominal>
+        <lifetime>21600</lifetime>
+        <restock>1800</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+        <category name="clothes" />
+        <usage name="Military" />
+    </type>
+    <type name="CDAJ_Deadmouse_ERDL">
+        <nominal>0</nominal>
+        <lifetime>21600</lifetime>
+        <restock>7200</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+        <category name="clothes" />
+        <usage name="Military" />
+    </type>
+    <type name="CDAJ_Deadmouse_RED">
+        <nominal>0</nominal>
+        <lifetime>21600</lifetime>
+        <restock>7200</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+        <category name="clothes" />
+        <usage name="Military" />
+    </type>
+    <type name="CDAJ_DemonMask_Bone">
+        <nominal>0</nominal>
+        <lifetime>21600</lifetime>
+        <restock>7200</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="1" />
+        <category name="clothes" />
+        <usage name="Military" />
+    </type>
+    <type name="CDAJ_Eyebot_Helmet">
+        <nominal>0</nominal>
+        <lifetime>21600</lifetime>
+        <restock>7200</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+        <category name="clothes" />
+        <usage name="Military" />
+    </type>
+    <type name="CDAJ_GreyFox_Helm_Chrome">
+        <nominal>0</nominal>
+        <lifetime>21600</lifetime>
+        <restock>7200</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+        <category name="clothes" />
+        <usage name="Military" />
+    </type>
+    <type name="CDAJ_GuyFawks_Mask">
+        <nominal>0</nominal>
+        <lifetime>21600</lifetime>
+        <restock>7200</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+        <category name="clothes" />
+        <usage name="Military" />
+    </type>
+    <type name="CDAJ_Master_Chef">
+        <nominal>0</nominal>
+        <lifetime>7200</lifetime>
+        <restock>7200</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+        <category name="clothes" />
+        <usage name="Military" />
+        <value name="Tier3" />
+        <value name="Tier4" />
+    </type>
+    <type name="CDAJ_Master_Chef_MarkV">
+        <nominal>0</nominal>
+        <lifetime>7200</lifetime>
+        <restock>7200</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+        <category name="clothes" />
+        <usage name="Military" />
+    </type>
+    <type name="CDAJ_Master_Chef_VI">
+        <nominal>0</nominal>
+        <lifetime>7200</lifetime>
+        <restock>7200</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+        <category name="clothes" />
+        <usage name="Military" />
+    </type>
+    <type name="CDAJ_Mechanix_Gloves_Black">
+		<nominal>3</nominal>
+		<restock>0</restock>
+		<lifetime>14400</lifetime>
+		<min>1</min>
+		<quantmin>-1</quantmin>
+		<quantmax>-1</quantmax>
+		<cost>100</cost>
+		<flags count_in_hoarder="0" count_in_player="0" count_in_map="1" count_in_cargo="0" crafted="0" deloot="0"/>
+		<category name="clothes"/>
+		<usage name="Military"/>
+		<value name=""/>
+    </type>
+    <type name="CDAJ_Mechanix_Gloves_BlackTan">
+		<nominal>3</nominal>
+		<restock>0</restock>
+		<lifetime>14400</lifetime>
+		<min>1</min>
+		<quantmin>-1</quantmin>
+		<quantmax>-1</quantmax>
+		<cost>100</cost>
+		<flags count_in_hoarder="0" count_in_player="0" count_in_map="1" count_in_cargo="0" crafted="0" deloot="0"/>
+		<category name="clothes"/>
+		<usage name="Military"/>
+		<value name=""/>
+    </type>
+    <type name="CDAJ_Mechanix_Gloves_BlackWhite">
+		<nominal>3</nominal>
+		<restock>0</restock>
+		<lifetime>14400</lifetime>
+		<min>1</min>
+		<quantmin>-1</quantmin>
+		<quantmax>-1</quantmax>
+		<cost>100</cost>
+		<flags count_in_hoarder="0" count_in_player="0" count_in_map="1" count_in_cargo="0" crafted="0" deloot="0"/>
+		<category name="clothes"/>
+		<usage name="Military"/>
+		<value name=""/>
+    </type>
+    <type name="CDAJ_Mechanix_Gloves_ERDL">
+		<nominal>3</nominal>
+		<restock>0</restock>
+		<lifetime>14400</lifetime>
+		<min>1</min>
+		<quantmin>-1</quantmin>
+		<quantmax>-1</quantmax>
+		<cost>100</cost>
+		<flags count_in_hoarder="0" count_in_player="0" count_in_map="1" count_in_cargo="0" crafted="0" deloot="0"/>
+		<category name="clothes"/>
+		<usage name="Military"/>
+		<value name=""/>
+    </type>
+    <type name="CDAJ_Mechanix_Gloves_MC">
+        <nominal>0</nominal>
+        <lifetime>7200</lifetime>
+        <restock>7200</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+        <category name="clothes" />
+        <usage name="Military" />
+    </type>
+    <type name="CDAJ_Mechanix_Gloves_Red">
+		<nominal>3</nominal>
+		<restock>0</restock>
+		<lifetime>14400</lifetime>
+		<min>1</min>
+		<quantmin>-1</quantmin>
+		<quantmax>-1</quantmax>
+		<cost>100</cost>
+		<flags count_in_hoarder="0" count_in_player="0" count_in_map="1" count_in_cargo="0" crafted="0" deloot="0"/>
+		<category name="clothes"/>
+		<usage name="Military"/>
+		<value name=""/>
+    </type>
+    <type name="CDAJ_Mechanix_Gloves_Tan">
+        <nominal>0</nominal>
+        <lifetime>7200</lifetime>
+        <restock>7200</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+        <category name="clothes" />
+        <usage name="Military" />
+    </type>
+    <type name="CDAJ_MechMask">
+        <nominal>0</nominal>
+        <lifetime>21600</lifetime>
+        <restock>7200</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+        <category name="clothes" />
+        <usage name="Military" />
+    </type>
+    <type name="CDAJ_OCV2_Safariland_Holster_Black">
+        <nominal>2</nominal>
+        <lifetime>10800</lifetime>
+        <restock>3200</restock>
+        <min>1</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+        <category name="clothes" />
+        <usage name="Military" />
+        <value name="Tier4" />
+    </type>
+    <type name="CDAJ_OCV2_Safariland_Holster_MC">
+        <nominal>0</nominal>
+        <lifetime>10800</lifetime>
+        <restock>3200</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+        <category name="clothes" />
+        <usage name="Military" />
+        <value name="Tier4" />
+    </type>
+    <type name="CDAJ_OCV2_WarBelt_Black">
+        <nominal>2</nominal>
+        <lifetime>10800</lifetime>
+        <restock>3200</restock>
+        <min>1</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+        <category name="clothes" />
+        <usage name="Military" />
+        <value name="Tier4" />
+    </type>
+    <type name="CDAJ_OCV2_WarBelt_MC">
+        <nominal>2</nominal>
+        <lifetime>10800</lifetime>
+        <restock>3200</restock>
+        <min>1</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+        <category name="clothes" />
+        <usage name="Military" />
+        <value name="Tier4" />
+    </type>
+    <type name="CDAJ_OCV2_WB_DropPouch_Black">
+        <nominal>2</nominal>
+        <lifetime>10800</lifetime>
+        <restock>3200</restock>
+        <min>1</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+        <category name="clothes" />
+        <usage name="Military" />
+    </type>
+    <type name="CDAJ_OCV2_WB_DropPouch_MC">
+        <nominal>2</nominal>
+        <lifetime>10800</lifetime>
+        <restock>3200</restock>
+        <min>1</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+        <category name="clothes" />
+        <usage name="Military" />
+    </type>
+    <type name="CDAJ_OCV2_WB_IFAK_Black">
+        <nominal>2</nominal>
+        <lifetime>10800</lifetime>
+        <restock>3200</restock>
+        <min>1</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+        <category name="clothes" />
+        <usage name="Military" />
+        <value name="Tier4" />
+    </type>
+    <type name="CDAJ_OCV2_WB_IFAK_MC">
+        <nominal>2</nominal>
+        <lifetime>10800</lifetime>
+        <restock>3200</restock>
+        <min>1</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+        <category name="clothes" />
+        <usage name="Military" />
+        <value name="Tier4" />
+    </type>
+    <type name="CDAJ_Opscore_Arid">
+        <nominal>0</nominal>
+        <lifetime>7200</lifetime>
+        <restock>7200</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+        <category name="clothes" />
+        <usage name="Military" />
+        <value name="Tier3" />
+        <value name="Tier4" />
+    </type>
+    <type name="CDAJ_Opscore_Black">
+        <nominal>2</nominal>
+        <lifetime>10800</lifetime>
+        <restock>3200</restock>
+        <min>1</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+        <category name="clothes" />
+        <usage name="Military" />
+        <value name="Tier2" />
+        <value name="Tier3" />
+        <value name="Tier4" />
+    </type>
+    <type name="CDAJ_Opscore_Carrier_Black">
+        <nominal>2</nominal>
+        <lifetime>10800</lifetime>
+        <restock>3200</restock>
+        <min>1</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+        <category name="clothes" />
+        <usage name="Military" />
+        <value name="Tier4" />
+    </type>
+    <type name="CDAJ_Opscore_Carrier_Brown">
+        <nominal>2</nominal>
+        <lifetime>10800</lifetime>
+        <restock>3200</restock>
+        <min>1</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+        <category name="clothes" />
+        <usage name="Military" />
+        <value name="Tier1" />
+        <value name="Tier2" />
+    </type>
+    <type name="CDAJ_Opscore_Carrier_Camo">
+        <nominal>2</nominal>
+        <lifetime>10800</lifetime>
+        <restock>3200</restock>
+        <min>1</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+        <category name="clothes" />
+        <usage name="Military" />
+        <value name="Tier3" />
+        <value name="Tier4" />
+    </type>
+    <type name="CDAJ_Opscore_Carrier_ERDL">
+        <nominal>2</nominal>
+        <lifetime>10800</lifetime>
+        <restock>3200</restock>
+        <min>1</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+        <category name="clothes" />
+        <usage name="Military" />
+        <value name="Tier3" />
+        <value name="Tier4" />
+    </type>
+    <type name="CDAJ_Opscore_Carrier_Grey">
+        <nominal>2</nominal>
+        <lifetime>10800</lifetime>
+        <restock>3200</restock>
+        <min>1</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+        <category name="clothes" />
+        <usage name="Military" />
+        <value name="Tier3" />
+        <value name="Tier4" />
+    </type>
+    <type name="CDAJ_Opscore_Carrier_Jay">
+        <nominal>0</nominal>
+        <lifetime>10800</lifetime>
+        <restock>3200</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+        <category name="clothes" />
+        <usage name="Military" />
+    </type>
+    <type name="CDAJ_Opscore_Carrier_Moon">
+        <nominal>2</nominal>
+        <lifetime>10800</lifetime>
+        <restock>3200</restock>
+        <min>1</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+        <category name="clothes" />
+        <usage name="Military" />
+        <value name="Tier4" />
+    </type>
+    <type name="CDAJ_Opscore_Carrier_Multicam">
+        <nominal>0</nominal>
+        <lifetime>7200</lifetime>
+        <restock>7200</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+        <category name="clothes" />
+        <usage name="Military" />
+    </type>
+    <type name="CDAJ_Opscore_Counterweight_Arid">
+        <nominal>0</nominal>
+        <lifetime>7200</lifetime>
+        <restock>7200</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+        <category name="clothes" />
+        <usage name="Military" />
+        <value name="Tier3" />
+        <value name="Tier4" />
+    </type>
+    <type name="CDAJ_Opscore_Counterweight_Black">
+        <nominal>2</nominal>
+        <lifetime>10800</lifetime>
+        <restock>3200</restock>
+        <min>1</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+        <category name="clothes" />
+        <usage name="Military" />
+        <value name="Tier3" />
+        <value name="Tier4" />
+    </type>
+    <type name="CDAJ_Opscore_Counterweight_Camo">
+        <nominal>2</nominal>
+        <lifetime>7200</lifetime>
+        <restock>7200</restock>
+        <min>1</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+        <category name="clothes" />
+        <usage name="Military" />
+        <value name="Tier3" />
+        <value name="Tier4" />
+    </type>
+    <type name="CDAJ_Opscore_Counterweight_ERDL">
+        <nominal>2</nominal>
+        <lifetime>10800</lifetime>
+        <restock>3200</restock>
+        <min>1</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+        <category name="clothes" />
+        <usage name="Military" />
+        <value name="Tier3" />
+        <value name="Tier4" />
+    </type>
+    <type name="CDAJ_Opscore_Counterweight_Grey">
+        <nominal>2</nominal>
+        <lifetime>10800</lifetime>
+        <restock>3200</restock>
+        <min>1</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+        <category name="clothes" />
+        <usage name="Military" />
+        <value name="Tier3" />
+        <value name="Tier4" />
+    </type>
+    <type name="CDAJ_Opscore_Counterweight_Jay">
+        <nominal>0</nominal>
+        <lifetime>10800</lifetime>
+        <restock>3200</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+        <category name="clothes" />
+        <usage name="Military" />
+        <value name="Tier3" />
+        <value name="Tier4" />
+    </type>
+    <type name="CDAJ_Opscore_Counterweight_Moon">
+        <nominal>2</nominal>
+        <lifetime>10800</lifetime>
+        <restock>3200</restock>
+        <min>1</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+        <category name="clothes" />
+        <usage name="Military" />
+        <value name="Tier3" />
+        <value name="Tier4" />
+    </type>
+    <type name="CDAJ_Opscore_Counterweight_Multicam">
+        <nominal>0</nominal>
+        <lifetime>7200</lifetime>
+        <restock>7200</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+        <category name="clothes" />
+        <usage name="Military" />
+        <value name="Tier3" />
+        <value name="Tier4" />
+    </type>
+    <type name="CDAJ_Opscore_Counterweight_Multicam_Brown">
+        <nominal>0</nominal>
+        <lifetime>10800</lifetime>
+        <restock>3200</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+        <category name="clothes" />
+        <usage name="Military" />
+        <value name="Tier3" />
+        <value name="Tier4" />
+    </type>
+    <type name="CDAJ_Opscore_Counterweight_Winterized">
+        <nominal>0</nominal>
+        <lifetime>7200</lifetime>
+        <restock>7200</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+        <category name="clothes" />
+        <usage name="Military" />
+        <value name="Tier3" />
+        <value name="Tier4" />
+    </type>
+    <type name="CDAJ_Opscore_Cover_Arid">
+        <nominal>0</nominal>
+        <lifetime>7200</lifetime>
+        <restock>7200</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+        <category name="clothes" />
+        <usage name="Military" />
+        <value name="Tier3" />
+        <value name="Tier4" />
+    </type>
+    <type name="CDAJ_Opscore_Cover_Black">
+        <nominal>2</nominal>
+        <lifetime>10800</lifetime>
+        <restock>3200</restock>
+        <min>1</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+        <category name="clothes" />
+        <usage name="Military" />
+        <value name="Tier3" />
+        <value name="Tier4" />
+    </type>
+    <type name="CDAJ_Opscore_Cover_Camo">
+        <nominal>2</nominal>
+        <lifetime>10800</lifetime>
+        <restock>3200</restock>
+        <min>1</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+        <category name="clothes" />
+        <usage name="Military" />
+        <value name="Tier3" />
+        <value name="Tier4" />
+    </type>
+    <type name="CDAJ_Opscore_Cover_ERDL">
+        <nominal>2</nominal>
+        <lifetime>10800</lifetime>
+        <restock>3200</restock>
+        <min>1</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+        <category name="clothes" />
+        <usage name="Military" />
+        <value name="Tier3" />
+        <value name="Tier4" />
+    </type>
+    <type name="CDAJ_Opscore_Cover_Grey">
+        <nominal>2</nominal>
+        <lifetime>10800</lifetime>
+        <restock>3200</restock>
+        <min>1</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+        <category name="clothes" />
+        <usage name="Military" />
+        <value name="Tier3" />
+        <value name="Tier4" />
+    </type>
+    <type name="CDAJ_Opscore_Cover_Jay">
+        <nominal>0</nominal>
+        <lifetime>10800</lifetime>
+        <restock>3200</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+        <category name="clothes" />
+        <usage name="Military" />
+        <value name="Tier3" />
+        <value name="Tier4" />
+    </type>
+    <type name="CDAJ_Opscore_Cover_Moon">
+        <nominal>2</nominal>
+        <lifetime>10800</lifetime>
+        <restock>3200</restock>
+        <min>1</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+        <category name="clothes" />
+        <usage name="Military" />
+        <value name="Tier3" />
+        <value name="Tier4" />
+    </type>
+    <type name="CDAJ_Opscore_Cover_Multicam">
+        <nominal>0</nominal>
+        <lifetime>7200</lifetime>
+        <restock>7200</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+        <category name="clothes" />
+        <usage name="Military" />
+        <value name="Tier3" />
+        <value name="Tier4" />
+    </type>
+    <type name="CDAJ_Opscore_Cover_Multicam_Brown">
+        <nominal>0</nominal>
+        <lifetime>10800</lifetime>
+        <restock>3200</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+        <category name="clothes" />
+        <usage name="Military" />
+        <value name="Tier3" />
+        <value name="Tier4" />
+    </type>
+    <type name="CDAJ_Opscore_Cover_Winterized">
+        <nominal>0</nominal>
+        <lifetime>7200</lifetime>
+        <restock>7200</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+        <category name="clothes" />
+        <usage name="Military" />
+        <value name="Tier3" />
+        <value name="Tier4" />
+    </type>
+    <type name="CDAJ_Opscore_Green">
+        <nominal>2</nominal>
+        <lifetime>10800</lifetime>
+        <restock>3200</restock>
+        <min>1</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+        <category name="clothes" />
+        <usage name="Military" />
+        <value name="Tier3" />
+        <value name="Tier4" />
+    </type>
+    <type name="CDAJ_Opscore_Grey">
+        <nominal>2</nominal>
+        <lifetime>10800</lifetime>
+        <restock>3200</restock>
+        <min>1</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+        <category name="clothes" />
+        <usage name="Military" />
+        <value name="Tier3" />
+        <value name="Tier4" />
+    </type>
+    <type name="CDAJ_Opscore_Headphones_Arid">
+        <nominal>0</nominal>
+        <lifetime>7200</lifetime>
+        <restock>7200</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+        <category name="clothes" />
+        <usage name="Military" />
+        <value name="Tier3" />
+        <value name="Tier4" />
+    </type>
+    <type name="CDAJ_Opscore_Headphones_Black">
+        <nominal>2</nominal>
+        <lifetime>10800</lifetime>
+        <restock>3200</restock>
+        <min>1</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+        <category name="clothes" />
+        <usage name="Military" />
+        <value name="Tier3" />
+        <value name="Tier4" />
+    </type>
+    <type name="CDAJ_Opscore_Headphones_Brown">
+        <nominal>0</nominal>
+        <lifetime>10800</lifetime>
+        <restock>3200</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+        <category name="clothes" />
+        <usage name="Military" />
+        <value name="Tier3" />
+        <value name="Tier4" />
+    </type>
+    <type name="CDAJ_Opscore_Headphones_Green">
+        <nominal>2</nominal>
+        <lifetime>10800</lifetime>
+        <restock>3200</restock>
+        <min>1</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+        <category name="clothes" />
+        <usage name="Military" />
+        <value name="Tier3" />
+        <value name="Tier4" />
+    </type>
+    <type name="CDAJ_Opscore_Headphones_Grey">
+        <nominal>2</nominal>
+        <lifetime>10800</lifetime>
+        <restock>3200</restock>
+        <min>1</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+        <category name="clothes" />
+        <usage name="Military" />
+        <value name="Tier3" />
+        <value name="Tier4" />
+    </type>
+    <type name="CDAJ_Opscore_Headphones_OD">
+        <nominal>2</nominal>
+        <lifetime>10800</lifetime>
+        <restock>3200</restock>
+        <min>1</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+        <category name="clothes" />
+        <usage name="Military" />
+        <value name="Tier3" />
+        <value name="Tier4" />
+    </type>
+    <type name="CDAJ_Opscore_Moon">
+        <nominal>2</nominal>
+        <lifetime>10800</lifetime>
+        <restock>3200</restock>
+        <min>1</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+        <category name="clothes" />
+        <usage name="Military" />
+        <value name="Tier3" />
+        <value name="Tier4" />
+    </type>
+    <type name="CDAJ_Opscore_Multicam_Brown">
+        <nominal>0</nominal>
+        <lifetime>10800</lifetime>
+        <restock>3200</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+        <category name="clothes" />
+        <usage name="Military" />
+        <value name="Tier2" />
+        <value name="Tier3" />
+        <value name="Tier4" />
+    </type>
+    <type name="CDAJ_Opscore_OD">
+        <nominal>2</nominal>
+        <lifetime>10800</lifetime>
+        <restock>3200</restock>
+        <min>1</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+        <category name="clothes" />
+        <usage name="Military" />
+        <value name="Tier2" />
+        <value name="Tier3" />
+        <value name="Tier4" />
+    </type>
+    <type name="CDAJ_Opscore_Pants_Black">
+		<nominal>2</nominal>
+		<restock>600</restock>
+		<lifetime>14400</lifetime>
+		<min>1</min>
+		<quantmin>-1</quantmin>
+		<quantmax>-1</quantmax>
+		<cost>100</cost>
+		<flags count_in_hoarder="0" count_in_player="0" count_in_map="1" count_in_cargo="0" crafted="0" deloot="0"/>
+		<category name="clothes"/>
+		<usage name="Military"/>
+		<value name=""/>
+    </type>
+    <type name="CDAJ_Opscore_Pants_FK">
+		<nominal>0</nominal>
+		<restock>600</restock>
+		<lifetime>14400</lifetime>
+		<min>0</min>
+		<quantmin>-1</quantmin>
+		<quantmax>-1</quantmax>
+		<cost>100</cost>
+		<flags count_in_hoarder="0" count_in_player="0" count_in_map="1" count_in_cargo="0" crafted="0" deloot="0"/>
+		<category name="clothes"/>
+		<usage name="Military"/>
+		<value name=""/>
+    </type>
+    <type name="CDAJ_Opscore_Pants_ERDL">
+		<nominal>2</nominal>
+		<restock>600</restock>
+		<lifetime>14400</lifetime>
+		<min>1</min>
+		<quantmin>-1</quantmin>
+		<quantmax>-1</quantmax>
+		<cost>100</cost>
+		<flags count_in_hoarder="0" count_in_player="0" count_in_map="1" count_in_cargo="0" crafted="0" deloot="0"/>
+		<category name="clothes"/>
+		<usage name="Military"/>
+		<value name=""/>
+    </type>
+    <type name="CDAJ_Opscore_Pants_RG">
+		<nominal>2</nominal>
+		<restock>600</restock>
+		<lifetime>14400</lifetime>
+		<min>1</min>
+		<quantmin>-1</quantmin>
+		<quantmax>-1</quantmax>
+		<cost>100</cost>
+		<flags count_in_hoarder="0" count_in_player="0" count_in_map="1" count_in_cargo="0" crafted="0" deloot="0"/>
+		<category name="clothes"/>
+		<usage name="Military"/>
+		<value name=""/>
+    </type>
+    <type name="CDAJ_Opscore_Pants_JayBugi">
+		<nominal>0</nominal>
+		<restock>600</restock>
+		<lifetime>14400</lifetime>
+		<min>0</min>
+		<quantmin>-1</quantmin>
+		<quantmax>-1</quantmax>
+		<cost>100</cost>
+		<flags count_in_hoarder="0" count_in_player="0" count_in_map="1" count_in_cargo="0" crafted="0" deloot="0"/>
+		<category name="clothes"/>
+		<usage name="Military"/>
+		<value name=""/>
+    </type>
+    <type name="CDAJ_Opscore_Pants_MC">
+        <nominal>0</nominal>
+        <lifetime>7200</lifetime>
+        <restock>7200</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+        <category name="clothes" />
+        <usage name="Military" />
+        <value name="Tier3" />
+        <value name="Tier4" />
+    </type>
+    <type name="CDAJ_Opscore_Shirt_Black">
+		<nominal>2</nominal>
+		<restock>600</restock>
+		<lifetime>28800</lifetime>
+		<min>1</min>
+		<quantmin>-1</quantmin>
+		<quantmax>-1</quantmax>
+		<cost>100</cost>
+		<flags count_in_hoarder="0" count_in_player="0" count_in_map="1" count_in_cargo="0" crafted="0" deloot="0"/>
+		<category name="clothes"/>
+		<usage name="Military"/>
+		<value name="Tier3"/>
+		<value name="Tier4"/>
+    </type>
+    <type name="CDAJ_Opscore_Shirt_FK">
+		<nominal>0</nominal>
+		<restock>600</restock>
+		<lifetime>28800</lifetime>
+		<min>0</min>
+		<quantmin>-1</quantmin>
+		<quantmax>-1</quantmax>
+		<cost>100</cost>
+		<flags count_in_hoarder="0" count_in_player="0" count_in_map="1" count_in_cargo="0" crafted="0" deloot="0"/>
+		<category name="clothes"/>
+		<usage name="Military"/>
+		<value name="Tier3"/>
+		<value name="Tier4"/>
+    </type>
+    <type name="CDAJ_Opscore_Shirt_ERDL">
+		<nominal>2</nominal>
+		<restock>600</restock>
+		<lifetime>28800</lifetime>
+		<min>1</min>
+		<quantmin>-1</quantmin>
+		<quantmax>-1</quantmax>
+		<cost>100</cost>
+		<flags count_in_hoarder="0" count_in_player="0" count_in_map="1" count_in_cargo="0" crafted="0" deloot="0"/>
+		<category name="clothes"/>
+		<usage name="Military"/>
+		<value name="Tier3"/>
+		<value name="Tier4"/>
+    </type>
+    <type name="CDAJ_Opscore_Shirt_RG">
+		<nominal>2</nominal>
+		<restock>600</restock>
+		<lifetime>28800</lifetime>
+		<min>1</min>
+		<quantmin>-1</quantmin>
+		<quantmax>-1</quantmax>
+		<cost>100</cost>
+		<flags count_in_hoarder="0" count_in_player="0" count_in_map="1" count_in_cargo="0" crafted="0" deloot="0"/>
+		<category name="clothes"/>
+		<usage name="Military"/>
+		<value name="Tier3"/>
+		<value name="Tier4"/>
+    </type>
+    <type name="CDAJ_Opscore_Shirt_JayBugi">
+		<nominal>0</nominal>
+		<restock>600</restock>
+		<lifetime>28800</lifetime>
+		<min>0</min>
+		<quantmin>-1</quantmin>
+		<quantmax>-1</quantmax>
+		<cost>100</cost>
+		<flags count_in_hoarder="0" count_in_player="0" count_in_map="1" count_in_cargo="0" crafted="0" deloot="0"/>
+		<category name="clothes"/>
+		<usage name="Military"/>
+		<value name="Tier3"/>
+		<value name="Tier4"/>
+    </type>
+    <type name="CDAJ_Opscore_Shirt_MC">
+        <nominal>0</nominal>
+        <lifetime>7200</lifetime>
+        <restock>7200</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+        <category name="clothes" />
+        <usage name="Military" />
+        <value name="Tier3" />
+        <value name="Tier4" />
+    </type>
+    <type name="CDAJ_Opscore_Straps_Arid">
+        <nominal>0</nominal>
+        <lifetime>7200</lifetime>
+        <restock>7200</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+        <category name="clothes" />
+        <usage name="Military" />
+        <value name="Tier3" />
+        <value name="Tier4" />
+    </type>
+    <type name="CDAJ_Opscore_Straps_Black">
+		<nominal>2</nominal>
+		<restock>600</restock>
+		<lifetime>28800</lifetime>
+		<min>1</min>
+		<quantmin>-1</quantmin>
+		<quantmax>-1</quantmax>
+		<cost>100</cost>
+		<flags count_in_hoarder="0" count_in_player="0" count_in_map="1" count_in_cargo="0" crafted="0" deloot="0"/>
+		<category name="clothes"/>
+		<usage name="Military"/>
+		<value name="Tier3"/>
+		<value name="Tier4"/>
+    </type>
+    <type name="CDAJ_Opscore_Straps_Brown">
+		<nominal>2</nominal>
+		<restock>600</restock>
+		<lifetime>28800</lifetime>
+		<min>1</min>
+		<quantmin>-1</quantmin>
+		<quantmax>-1</quantmax>
+		<cost>100</cost>
+		<flags count_in_hoarder="0" count_in_player="0" count_in_map="1" count_in_cargo="0" crafted="0" deloot="0"/>
+		<category name="clothes"/>
+		<usage name="Military"/>
+		<value name="Tier3"/>
+		<value name="Tier4"/>
+    </type>
+    <type name="CDAJ_Opscore_Straps_Green">
+		<nominal>2</nominal>
+		<restock>600</restock>
+		<lifetime>28800</lifetime>
+		<min>1</min>
+		<quantmin>-1</quantmin>
+		<quantmax>-1</quantmax>
+		<cost>100</cost>
+		<flags count_in_hoarder="0" count_in_player="0" count_in_map="1" count_in_cargo="0" crafted="0" deloot="0"/>
+		<category name="clothes"/>
+		<usage name="Military"/>
+		<value name="Tier3"/>
+		<value name="Tier4"/>
+    </type>
+    <type name="CDAJ_Opscore_Straps_OD">
+		<nominal>2</nominal>
+		<restock>600</restock>
+		<lifetime>28800</lifetime>
+		<min>1</min>
+		<quantmin>-1</quantmin>
+		<quantmax>-1</quantmax>
+		<cost>100</cost>
+		<flags count_in_hoarder="0" count_in_player="0" count_in_map="1" count_in_cargo="0" crafted="0" deloot="0"/>
+		<category name="clothes"/>
+		<usage name="Military"/>
+		<value name="Tier3"/>
+		<value name="Tier4"/>
+    </type>
+    <type name="CDAJ_OpscoreV2_BatteryPack_Black">
+        <nominal>2</nominal>
+        <lifetime>7200</lifetime>
+        <restock>0</restock>
+        <min>1</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+        <category name="clothes" />        
+        <usage name="Military"/>
+    </type>
+    <type name="CDAJ_OpscoreV2_BatteryPack_MC">
+        <nominal>0</nominal>
+        <lifetime>21600</lifetime>
+        <restock>7200</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+        <category name="clothes" />
+        <usage name="Military" />
+    </type>
+    <type name="CDAJ_OpscoreV2_Headphones_Black">
+        <nominal>2</nominal>
+        <lifetime>7200</lifetime>
+        <restock>0</restock>
+        <min>1</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+        <category name="clothes" />        
+        <usage name="Military"/>
+    </type>
+    <type name="CDAJ_OpscoreV2_Headphones_MC">
+        <nominal>0</nominal>
+        <lifetime>21600</lifetime>
+        <restock>7200</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+        <category name="clothes" />
+        <usage name="Military" />
+    </type>
+    <type name="CDAJ_OpscoreV2_Helmet_Black">
+        <nominal>2</nominal>
+        <lifetime>7200</lifetime>
+        <restock>0</restock>
+        <min>1</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+        <category name="clothes" />        
+        <usage name="Military"/>
+    </type>
+    <type name="CDAJ_OpscoreV2_Helmet_MC">
+        <nominal>0</nominal>
+        <lifetime>10800</lifetime>
+        <restock>3200</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+        <category name="clothes" />
+        <usage name="Military" />
+        <value name="Tier4" />
+    </type>
+    <type name="CDAJ_OpscoreV2_HelmetCover_Black">
+        <nominal>2</nominal>
+        <lifetime>7200</lifetime>
+        <restock>0</restock>
+        <min>1</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+        <category name="clothes" />        
+        <usage name="Military"/>
+    </type>
+    <type name="CDAJ_OpscoreV2_HelmetCover_MC">
+        <nominal>0</nominal>
+        <lifetime>21600</lifetime>
+        <restock>7200</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+        <category name="clothes" />
+        <usage name="Military" />
+    </type>
+    <type name="CDAJ_OpscoreV2_IRLIGHT">
+        <nominal>2</nominal>
+        <lifetime>7200</lifetime>
+        <restock>0</restock>
+        <min>1</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+        <category name="clothes" />        
+        <usage name="Military"/>
+    </type>
+    <type name="CDAJ_OpscoreV2_Pants_Black">
+        <nominal>2</nominal>
+        <lifetime>7200</lifetime>
+        <restock>0</restock>
+        <min>1</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+        <category name="clothes" />        
+        <usage name="Military"/>
+    </type>
+    <type name="CDAJ_OpscoreV2_Pants_MC">
+        <nominal>0</nominal>
+        <lifetime>21600</lifetime>
+        <restock>7200</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+        <category name="clothes" />
+        <usage name="Military" />
+    </type>
+    <type name="CDAJ_OpscoreV2_Shirt_Rolled_Black">
+		<nominal>2</nominal>
+		<restock>600</restock>
+		<lifetime>28800</lifetime>
+		<min>1</min>
+		<quantmin>-1</quantmin>
+		<quantmax>-1</quantmax>
+		<cost>100</cost>
+		<flags count_in_hoarder="0" count_in_player="0" count_in_map="1" count_in_cargo="0" crafted="0" deloot="0"/>
+		<category name="clothes"/>
+		<usage name="Military"/>
+		<value name="Tier3"/>
+		<value name="Tier4"/>
+    </type>
+    <type name="CDAJ_OpscoreV2_Shirt_Rolled_DeezDog">
+		<nominal>2</nominal>
+		<restock>600</restock>
+		<lifetime>28800</lifetime>
+		<min>1</min>
+		<quantmin>-1</quantmin>
+		<quantmax>-1</quantmax>
+		<cost>100</cost>
+		<flags count_in_hoarder="0" count_in_player="0" count_in_map="1" count_in_cargo="0" crafted="0" deloot="0"/>
+		<category name="clothes"/>
+		<usage name="Military"/>
+		<value name="Tier3"/>
+		<value name="Tier4"/>
+    </type>
+    <type name="CDAJ_OpscoreV2_Shirt_Rolled_MC">
+        <nominal>0</nominal>
+        <lifetime>21600</lifetime>
+        <restock>7200</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+        <category name="clothes" />
+        <usage name="Military" />
+    </type>
+    <type name="CDAJ_PlagueMask">
+        <nominal>0</nominal>
+        <lifetime>21600</lifetime>
+        <restock>7200</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+        <category name="clothes" />
+        <usage name="Military" />
+    </type>
+    <type name="CDAJ_Shadow_Mask">
+        <nominal>0</nominal>
+        <lifetime>21600</lifetime>
+        <restock>7200</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+        <category name="clothes" />
+        <usage name="Military" />
+    </type>
+    <type name="CDAJ_Tunic_Green">
+		<nominal>0</nominal>
+		<restock>0</restock>
+		<lifetime>14400</lifetime>
+		<min>0</min>
+		<quantmin>-1</quantmin>
+		<quantmax>-1</quantmax>
+		<cost>100</cost>
+		<flags count_in_hoarder="0" count_in_player="0" count_in_map="1" count_in_cargo="0" crafted="0" deloot="0"/>
+		<category name="clothes"/>
+		<usage name="Town"/>
+		<usage name="Village"/>
+		<value name="Tier2"/>
+		<value name="Tier3"/>
+		<value name="Tier4"/>
+    </type>
+    <type name="CDAJ_Tunic_Black">
+		<nominal>0</nominal>
+		<restock>0</restock>
+		<lifetime>14400</lifetime>
+		<min>0</min>
+		<quantmin>-1</quantmin>
+		<quantmax>-1</quantmax>
+		<cost>100</cost>
+		<flags count_in_hoarder="0" count_in_player="0" count_in_map="1" count_in_cargo="0" crafted="0" deloot="0"/>
+		<category name="clothes"/>
+		<usage name="Town"/>
+		<usage name="Village"/>
+		<value name="Tier2"/>
+		<value name="Tier3"/>
+		<value name="Tier4"/>
+    </type>
+    <type name="CDAJ_Tunic_Brown">
+		<nominal>0</nominal>
+		<restock>0</restock>
+		<lifetime>14400</lifetime>
+		<min>0</min>
+		<quantmin>-1</quantmin>
+		<quantmax>-1</quantmax>
+		<cost>100</cost>
+		<flags count_in_hoarder="0" count_in_player="0" count_in_map="1" count_in_cargo="0" crafted="0" deloot="0"/>
+		<category name="clothes"/>
+		<usage name="Town"/>
+		<usage name="Village"/>
+		<value name="Tier2"/>
+		<value name="Tier3"/>
+		<value name="Tier4"/>
+    </type>
+    <type name="CDAJ_Silkies_Army">
+        <nominal>0</nominal>
+        <lifetime>21600</lifetime>
+        <restock>7200</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+        <category name="clothes" />
+        <usage name="Military" />
+    </type>
+    <type name="CDAJ_Silkies_Red">
+        <nominal>0</nominal>
+        <lifetime>21600</lifetime>
+        <restock>7200</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+        <category name="clothes" />
+        <usage name="Military" />
+    </type>
+    <type name="CDAJ_Silkies_USMC">
+        <nominal>0</nominal>
+        <lifetime>21600</lifetime>
+        <restock>7200</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+        <category name="clothes" />
+        <usage name="Military" />
+    </type>
+    <type name="CDAJ_Sordins_Camo">
+        <nominal>0</nominal>
+        <lifetime>7200</lifetime>
+        <restock>7200</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+        <category name="clothes" />
+        <usage name="Military" />
+        <value name="Tier3" />
+        <value name="Tier4" />
+    </type>
+    <type name="CDAJ_SyfyHelm">
+        <nominal>0</nominal>
+        <lifetime>7200</lifetime>
+        <restock>7200</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+        <category name="clothes" />
+        <usage name="ContaminatedArea" />
+        <usage name="Military" />
+    </type>
+    <type name="CDAJ_TV110_Black">
+        <nominal>0</nominal>
+        <lifetime>10800</lifetime>
+        <restock>3200</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+        <category name="clothes" />
+        <usage name="Military" />
+        <value name="Tier4" />
+    </type>
+    <type name="CDAJ_TV110_MC">
+        <nominal>0</nominal>
+        <lifetime>10800</lifetime>
+        <restock>3200</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+        <category name="clothes" />
+        <usage name="Military" />
+        <value name="Tier4" />
+    </type>
+    <type name="CDAJ_Vans_Hightop_Black">
+		<nominal>12</nominal>
+		<restock>0</restock>
+		<lifetime>14400</lifetime>
+		<min>8</min>
+		<quantmin>-1</quantmin>
+		<quantmax>-1</quantmax>
+		<cost>100</cost>
+		<flags count_in_hoarder="0" count_in_player="0" count_in_map="1" count_in_cargo="0" crafted="0" deloot="0"/>
+		<category name="clothes"/>
+		<usage name="Town"/>
+		<usage name="School"/>
+		<value name=""/>
+    </type>
+    <type name="CDAJ_Vans_Hightop_ERDL">
+		<nominal>12</nominal>
+		<restock>0</restock>
+		<lifetime>14400</lifetime>
+		<min>8</min>
+		<quantmin>-1</quantmin>
+		<quantmax>-1</quantmax>
+		<cost>100</cost>
+		<flags count_in_hoarder="0" count_in_player="0" count_in_map="1" count_in_cargo="0" crafted="0" deloot="0"/>
+		<category name="clothes"/>
+		<usage name="Town"/>
+		<usage name="School"/>
+		<value name=""/>
+    </type>
+    <type name="CDAJ_Vans_Hightop_ERDL_Purple">
+		<nominal>12</nominal>
+		<restock>0</restock>
+		<lifetime>14400</lifetime>
+		<min>8</min>
+		<quantmin>-1</quantmin>
+		<quantmax>-1</quantmax>
+		<cost>100</cost>
+		<flags count_in_hoarder="0" count_in_player="0" count_in_map="1" count_in_cargo="0" crafted="0" deloot="0"/>
+		<category name="clothes"/>
+		<usage name="Town"/>
+		<usage name="School"/>
+		<value name=""/>
+    </type>
+    <type name="CDAJ_Vans_Hightop_Middlefingers">
+		<nominal>12</nominal>
+		<restock>0</restock>
+		<lifetime>14400</lifetime>
+		<min>8</min>
+		<quantmin>-1</quantmin>
+		<quantmax>-1</quantmax>
+		<cost>100</cost>
+		<flags count_in_hoarder="0" count_in_player="0" count_in_map="1" count_in_cargo="0" crafted="0" deloot="0"/>
+		<category name="clothes"/>
+		<usage name="Town"/>
+		<usage name="School"/>
+		<value name=""/>
+    </type>
+    <type name="CDAJ_Vans_Hightop_Rainbow">
+		<nominal>12</nominal>
+		<restock>0</restock>
+		<lifetime>14400</lifetime>
+		<min>8</min>
+		<quantmin>-1</quantmin>
+		<quantmax>-1</quantmax>
+		<cost>100</cost>
+		<flags count_in_hoarder="0" count_in_player="0" count_in_map="1" count_in_cargo="0" crafted="0" deloot="0"/>
+		<category name="clothes"/>
+		<usage name="Town"/>
+		<usage name="School"/>
+		<value name=""/>
+    </type>
+    <type name="CDAJ_Vans_Hightop_Red">
+		<nominal>12</nominal>
+		<restock>0</restock>
+		<lifetime>14400</lifetime>
+		<min>8</min>
+		<quantmin>-1</quantmin>
+		<quantmax>-1</quantmax>
+		<cost>100</cost>
+		<flags count_in_hoarder="0" count_in_player="0" count_in_map="1" count_in_cargo="0" crafted="0" deloot="0"/>
+		<category name="clothes"/>
+		<usage name="Town"/>
+		<usage name="School"/>
+		<value name=""/>
+    </type>
+    <type name="CDAJ_Vans_Hightop_Supreme">
+		<nominal>12</nominal>
+		<restock>0</restock>
+		<lifetime>14400</lifetime>
+		<min>8</min>
+		<quantmin>-1</quantmin>
+		<quantmax>-1</quantmax>
+		<cost>100</cost>
+		<flags count_in_hoarder="0" count_in_player="0" count_in_map="1" count_in_cargo="0" crafted="0" deloot="0"/>
+		<category name="clothes"/>
+		<usage name="Town"/>
+		<usage name="School"/>
+		<value name=""/>
+    </type>
+    <type name="CDAJ_Vans_Hightop_Teal">
+		<nominal>12</nominal>
+		<restock>0</restock>
+		<lifetime>14400</lifetime>
+		<min>8</min>
+		<quantmin>-1</quantmin>
+		<quantmax>-1</quantmax>
+		<cost>100</cost>
+		<flags count_in_hoarder="0" count_in_player="0" count_in_map="1" count_in_cargo="0" crafted="0" deloot="0"/>
+		<category name="clothes"/>
+		<usage name="Town"/>
+		<usage name="School"/>
+		<value name=""/>
+    </type>
+    <type name="CDAJ_Vans_Hightop_Weed">
+        <nominal>0</nominal>
+        <lifetime>7200</lifetime>
+        <restock>7200</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+        <category name="clothes" />
+    </type>
+    <type name="CDAJ_WoodMask">
+        <nominal>0</nominal>
+        <lifetime>21600</lifetime>
+        <restock>7200</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+        <category name="clothes" />
+        <usage name="Military" />
+    </type>
+    <type name="CDAJ_DKS">
+        <nominal>1</nominal>
+        <lifetime>7200</lifetime>
+        <restock>300</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="weapons"/>
+        <usage name="Military"/>
+        <value name="Tier4"/>
+    </type>
+    <type name="CDAJ_Mag_DKS_10rnd">
+        <nominal>3</nominal>
+        <lifetime>7200</lifetime>
+        <restock>300</restock>
+        <min>2</min>
+        <quantmin>10</quantmin>
+        <quantmax>100</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="weapons"/>
+        <usage name="Military"/>
+        <value name="Tier3"/>
+        <value name="Tier4"/>
+    </type>
+    <type name="CDAJ_Optic_DKS">
+        <nominal>2</nominal>
+        <lifetime>7200</lifetime>
+        <restock>300</restock>
+        <min>1</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="weapons"/>
+        <usage name="Military"/>
+        <value name="Tier3" />
+        <value name="Tier4" />
+    </type>
+    <type name="CDAJ_MSR">
+        <nominal>2</nominal>
+        <lifetime>7200</lifetime>
+        <restock>300</restock>
+        <min>1</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="weapons"/>
+        <usage name="Military"/>
+        <value name="Tier3" />
+        <value name="Tier4" />
+    </type>
+    <type name="CDAJ_MSR_Tan">
+        <nominal>0</nominal>
+        <lifetime>7200</lifetime>
+        <restock>300</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="weapons"/>
+        <usage name="Military"/>
+        <value name="Tier3" />
+        <value name="Tier4" />
+    </type>
+    <type name="CDAJ_Mag_MSR_5rnd">
+        <nominal>4</nominal>
+        <lifetime>7200</lifetime>
+        <restock>300</restock>
+        <min>2</min>
+        <quantmin>10</quantmin>
+        <quantmax>80</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="weapons"/>
+        <usage name="Military"/>
+        <value name="Tier3" />
+        <value name="Tier4" />
+    </type>
+    <type name="CDAJ_Thermal_Balaclava_Black">
+		<nominal>2</nominal>
+		<restock>0</restock>
+		<lifetime>28800</lifetime>
+		<min>1</min>
+		<quantmin>-1</quantmin>
+		<quantmax>-1</quantmax>
+		<cost>100</cost>
+		<flags count_in_hoarder="0" count_in_player="0" count_in_map="1" count_in_cargo="0" crafted="0" deloot="0"/>
+		<category name="clothes"/>
+		<usage name="Military"/>
+		<value name="Tier3"/>
+		<value name="Tier4"/>
+    </type>
+    <type name="CDAJ_Thermal_Balaclava_Grey">
+		<nominal>2</nominal>
+		<restock>0</restock>
+		<lifetime>28800</lifetime>
+		<min>1</min>
+		<quantmin>-1</quantmin>
+		<quantmax>-1</quantmax>
+		<cost>100</cost>
+		<flags count_in_hoarder="0" count_in_player="0" count_in_map="1" count_in_cargo="0" crafted="0" deloot="0"/>
+		<category name="clothes"/>
+		<usage name="Military"/>
+		<value name="Tier3"/>
+		<value name="Tier4"/>
+    </type>
+    <type name="CDAJ_Thermal_Balaclava_MC">
+		<nominal>0</nominal>
+		<restock>0</restock>
+		<lifetime>28800</lifetime>
+		<min>0</min>
+		<quantmin>-1</quantmin>
+		<quantmax>-1</quantmax>
+		<cost>100</cost>
+		<flags count_in_hoarder="0" count_in_player="0" count_in_map="1" count_in_cargo="0" crafted="0" deloot="0"/>
+		<category name="clothes"/>
+		<usage name="Military"/>
+		<value name="Tier3"/>
+		<value name="Tier4"/>
+    </type>
+    <type name="CDAJ_Thermal_Balaclava_ERDL">
+		<nominal>2</nominal>
+		<restock>0</restock>
+		<lifetime>28800</lifetime>
+		<min>1</min>
+		<quantmin>-1</quantmin>
+		<quantmax>-1</quantmax>
+		<cost>100</cost>
+		<flags count_in_hoarder="0" count_in_player="0" count_in_map="1" count_in_cargo="0" crafted="0" deloot="0"/>
+		<category name="clothes"/>
+		<usage name="Military"/>
+		<value name="Tier3"/>
+		<value name="Tier4"/>
+    </type>
+    <type name="CDAJ_Thermal_Balaclava_TS">
+		<nominal>0</nominal>
+		<restock>0</restock>
+		<lifetime>28800</lifetime>
+		<min>0</min>
+		<quantmin>-1</quantmin>
+		<quantmax>-1</quantmax>
+		<cost>100</cost>
+		<flags count_in_hoarder="0" count_in_player="0" count_in_map="1" count_in_cargo="0" crafted="0" deloot="0"/>
+		<category name="clothes"/>
+		<usage name="Military"/>
+		<value name="Tier3"/>
+		<value name="Tier4"/>
+    </type>
+    <type name="CDAJ_PVS31_Wide_BLK">
+        <nominal>2</nominal>
+        <lifetime>3200</lifetime>
+        <restock>0</restock>
+        <min>1</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="1" />
+        <category name="clothes" />        
+        <usage name="Military"/>
+    </type>
+    <type name="CDAJ_PVS31_Wide_FDE">
+        <nominal>0</nominal>
+        <lifetime>3200</lifetime>
+        <restock>0</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="1" />
+        <category name="clothes" />        
+        <usage name="Military"/>
+    </type>
+</types>
