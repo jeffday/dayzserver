@@ -4,7 +4,7 @@
         <category name="tools"/>
         <category name="containers"/>
         <category name="clothes"/>
-        <category name="vehiclesparts"/>
+        <category name="lootdispatch"/>
         <category name="food"/>
         <category name="weapons"/>
         <category name="books"/>
@@ -29,10 +29,8 @@
         <usage name="Office"/>
         <usage name="School"/>
         <usage name="Prison"/>
-        <usage name="Lunapark"/>
-		<usage name="SeasonalEvent"/>
-		<usage name="Contaminated"/>
-		<usage name="Special"/>
+		<usage name="ContaminatedArea"/>
+		<usage name="Historical"/>
     </usageflags>
     <valueflags>
         <value name="Tier1"/>

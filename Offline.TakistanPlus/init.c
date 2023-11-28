@@ -37,7 +37,7 @@ void main()
         month = 7;
         day = 1;
 		
-		GetGame().GetWorld().SetDate( year, month, day, 5, 0 );
+		GetGame().GetWorld().SetDate( year, month, day, hour, minute );
 	}
 }
 
@@ -60,7 +60,7 @@ class CustomMission: MissionServer
 		if ( m_EventManager )
 		{
 			// min time between events, max time between events, max number of events at the same time
-			m_EventManager.Run( 1800, 5400, 1 );
+			m_EventManager.Run( 900, 2700, 1 );
 			// registering events and their probability
 			m_EventManager.RegisterEvent( Sandstorm, 1.0 );
 		}
@@ -81,13 +81,38 @@ class CustomMission: MissionServer
 	{
 		EntityAI itemClothing;
 		EntityAI itemEnt;
+		ItemBase itemBs;
+		float rand;
 
-		itemEnt = player.GetInventory().CreateInInventory("SodaCan_Pipsi");
-		itemEnt = player.GetInventory().CreateInInventory("SodaCan_Pipsi");
-		itemEnt = player.GetInventory().CreateInInventory("BandageDressing");
-		itemEnt = player.GetInventory().CreateInInventory("TunaCan");
-		itemEnt = player.GetInventory().CreateInInventory("TunaCan");	
+		itemClothing = player.FindAttachmentBySlotName( "Body" );
+		{
+			itemEnt = player.GetInventory().CreateInInventory("Compass");
 
+            itemEnt = player.GetInventory().CreateInInventory("SodaCan_Pipsi");
+
+            itemEnt = player.GetInventory().CreateInInventory("BandageDressing");
+
+            itemEnt = player.GetInventory().CreateInInventory("TunaCan");
+			
+			itemEnt = player.GetInventory().CreateInInventory("Chemlight_White");			
+			
+		};
+		if ( itemClothing )
+		{
+			SetRandomHealth( itemClothing );
+			
+			itemEnt = itemClothing.GetInventory().CreateInInventory( "TunaCan" );
+						if ( Class.CastTo( itemBs, itemEnt ) )
+				itemBs.SetQuantity( 4 );
+
+			SetRandomHealth( itemEnt );
+
+			string chemlightArray[] = { "Chemlight_White", "Chemlight_Yellow", "Chemlight_Green", "Chemlight_Red" };
+			int rndIndex = Math.RandomInt( 0, 4 );
+			itemEnt = itemClothing.GetInventory().CreateInInventory( chemlightArray[rndIndex] );
+			SetRandomHealth( itemEnt );
+		}
+		
 		itemClothing = player.FindAttachmentBySlotName( "Legs" );
 		if ( itemClothing )
 			SetRandomHealth( itemClothing );
