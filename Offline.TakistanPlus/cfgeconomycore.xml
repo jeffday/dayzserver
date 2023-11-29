@@ -68,4 +68,9 @@ Do not forget to add attribute act="car", if root class represents moveable vehi
 		<file name="bo_types.xml" type="types" />
 		<file name="bo_cfgspawnabletypes.xml" type="spawnabletypes" />
 	</ce>
+	<!-- Takistan Clothing -->
+	<ce folder="tc">
+		<file name="tc_types.xml" type="types" />
+		<file name="tc_cfgspawnabletypes.xml" type="spawnabletypes" />
+	</ce>
 </economycore>
