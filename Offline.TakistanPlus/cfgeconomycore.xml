@@ -59,4 +59,8 @@ Do not forget to add attribute act="car", if root class represents moveable vehi
 		<file name="twm_types.xml" type="types" />
 		<file name="twm_spawnabletypes.xml" type="spawnabletypes" />
 	</ce>
+	<!-- Ammunition Expansion -->
+	<ce folder="ae">
+		<file name="AE_Ammo.xml" type="types" />
+	</ce>
 </economycore>
