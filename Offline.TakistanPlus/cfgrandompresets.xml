@@ -1,5 +1,54 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
 <randompresets>
+		<attachments chance="0.60" name="close_range_optics">
+				<item name="BO_Holosun_HS510C_Optic" chance="0.125" />
+				<item name="BO_Holosun_HS507C" chance="0.125"/>
+				<item name="BO_VortexAMG_UH1_Optic" chance="0.125" />
+				<item name="BO_RMR_Black" chance="0.125" />
+				<item name="BO_RMR_FDE" chance="0.125" />
+				<item name="BO_DeltaPoint" chance="0.125" />
+				<item name="BO_Eotech552" chance="0.125" />
+				<item name="BO_LeupoldCarbineOptics" chance="0.125" />
+		</attachments>
+		<attachments chance="0.60" name="ar_optics">
+				<item name="BO_ACOGOptic_Crosshair_Red" chance="0.125" />
+				<item name="BO_ACOGOptic_Chevron_Green" chance="0.125" />
+				<item name="BO_ACOGOptic_ACSS_Red" chance="0.125" />
+				<item name="BO_HAMROptic" chance="0.125" />
+				<item name="BO_SpecterDROptic" chance="0.125" />
+				<item name="BO_LeupoldHoloDEVO" chance="0.125" />
+				<item name="BO_Bravo4" chance="0.125" />
+				<item name="BO_Spitfire" chance="0.125" />
+		</attachments>
+		<attachments chance="0.60" name="ar_300optics">
+				<item name="BO_ACOGOptic_300blk_Blue" chance="0.5" />
+				<item name="BO_ACOGOptic_300blk_Red" chance="0.5" />
+		</attachments>
+		<attachments chance="0.60" name="dmr_optics">
+				<item name="BO_SpecterDROptic" chance="0.125" />
+				<item name="BO_Sight_4_6" chance="0.125" />
+				<item name="BO_Tango6" chance="0.25" />
+				<item name="BO_NFATACR_1_8" chance="0.25" />
+				<item name="BO_Vudu" chance="0.25" />
+		</attachments>
+		<attachments chance="0.60" name="long_range_scopes">
+				<item name="HuntingOptic" chance="0.50" />
+				<item name="BO_HMOptic" chance="0.125" />
+				<item name="BO_LeupoldMk4" chance="0.125" />
+				<item name="BO_ShmidtBender25" chance="0.125" />
+				<item name="BO_Sight_4_6" chance="0.125" />
+		</attachments>
+		<attachments chance="0.60" name="hunting_scopes">
+				<item name="HuntingOptic" chance="0.75" />
+				<item name="BO_HMOptic" chance="0.25" />
+		</attachments>
+		<attachments chance="0.15" name="pistol_optics">
+				<item name="FNP45_MRDSOptic" chance="1.00" />
+		</attachments>
+		<attachments chance="0.05" name="pistol_suppressors">
+				<item name="BO_OspreySuppressor" chance="0.125" />
+				<item name="BO_MK23_Suppressor" chance="0.875" />
+		</attachments>
 		<cargo chance="0.15" name="foodHermit">
 				<item name="TunaCan" chance="0.11" />
 				<item name="SardinesCan" chance="0.11" />
@@ -349,7 +398,9 @@
 			<item name="SportGlasses_Orange" chance="0.10" />
 		</attachments>
 		<attachments chance="0.1" name="bagsCity">
-			<item name="SlingBag" chance="0.30" />
+			<item name="Slingbag_Gray" chance="0.10" />
+			<item name="Slingbag_Brown" chance="0.10" />
+			<item name="Slingbag_Black" chance="0.10" />
 			<item name="CanvasBag_Olive" chance="0.30" />
 			<item name="TaloonBag_Orange" chance="0.10" />
 			<item name="TaloonBag_Blue" chance="0.10" />
@@ -408,44 +459,70 @@
 
 		<!--ARMY ATTACHMENTS-->
 		<attachments chance="0.60" name="hatsArmy">
-			<item name="OKZKCap_Beige" chance="0.10" />
-			<item name="OKZKCap_Green" chance="0.10" />
-			<item name="TankerHelmet" chance="0.10" />
-			<item name="PilotkaCap" chance="0.10" />
-			<item name="MilitaryBeret_Red" chance="0.10" />
-			<item name="MilitaryBeret_UN" chance="0.10" />
-			<item name="MilitaryBeret_NZ" chance="0.10" />
-			<item name="MilitaryBeret_ChDKZ" chance="0.10" />
-			<item name="MilitaryBeret_CDF" chance="0.10" />
-			<item name="ZSh3PilotHelmet" chance="0.10" />
+			<item name="FOG_Helmet_Exfil_Tan" chance="0.09" />
+			<item name="FOG_Helmet_Exfil_MC" chance="0.09" />
+			<item name="FOG_Helmet_FAST_Bump_Tan" chance="0.09" />
+			<item name="FOG_Helmet_FAST_Bump_MC" chance="0.09" />
+			<item name="FOG_Helmet_FASTMT_Tan" chance="0.08" />
+			<item name="FOG_Helmet_FASTMT_MC" chance="0.08" />
+			<item name="FOG_Helmet_FASTMT_AOR1" chance="0.08" />
+			<item name="FOG_Helmet_FAST_SF_Tan" chance="0.08" />
+			<item name="FOG_Helmet_FAST_SF_MC" chance="0.08" />
+			<item name="CDAJ_OpscoreV2_Helmet_Tan" chance="0.08" />
+			<item name="CDAJ_OpscoreV2_Helmet_AOR1" chance="0.08" />
+			<item name="CDAJ_Opscore_Arid" chance="0.08" />
 		</attachments>
 		<attachments chance="0.00" name="glassesArmy"> <!--was chance="0.10"; removed coz of attachment slot is missing -->
 			<item name="TacticalGoggles" chance="0.10" />
 			<item name="AviatorGlasses" chance="0.25" />
 		</attachments>
 		<attachments chance="0.20" name="vestsArmy">
-			<item name="UKAssVest_Black" chance="0.20" />
-			<item name="UKAssVest_Camo" chance="0.20" />
-			<item name="UKAssVest_Khaki" chance="0.2" />
-			<item name="UKAssVest_Olive" chance="0.2" />
-			<item name="SmershVest" chance="0.05" />
+			<item name="FOG_Vest_D3CRX_CB" chance="0.6" />
+			<item name="FOG_Vest_SSMK4_CB" chance="0.2" />
+			<item name="FOG_Vest_SSMK4_MC" chance="0.2" />
+		</attachments>
+		<attachments chance="0.20" name="mediumVestsArmy">
+			<item name="FOG_Vest_FCPC_MC" chance="0.125" />
+			<item name="FOG_Vest_FCPC_CB" chance="0.125" />
+			<item name="FOG_Vest_TacTec_CB" chance="0.125" />
+			<item name="FOG_Vest_TV110T_Tan" chance="0.125" />
+			<item name="FOG_Vest_TV110T_CB" chance="0.125" />
+			<item name="FOG_Vest_TV110T_MC" chance="0.125" />
+			<item name="FOG_Vest_JPC_CB" chance="0.125" />
+			<item name="FOG_Vest_JPC_AOR1" chance="0.125" />
 		</attachments>
 		<attachments chance="0.08" name="bagsArmy">
 			<item name="DuffelBagSmall_Camo" chance="0.15" />
 			<item name="DuffelBagSmall_Green" chance="0.15" />
 			<item name="DuffelBagSmall_Medical" chance="0.10" />
-			<item name="ArmyPouch_Black" chance="0.10" />
-			<item name="ArmyPouch_Camo" chance="0.10" />
-			<item name="AssaultBag_Green" chance="0.10" />
-			<item name="AssaultBag_Ttsko" chance="0.10" />
-			<item name="AssaultBag_Black" chance="0.10" />
-			<item name="TortillaBag" chance="0.10" />
+			<item name="ArmyPouch_Black" chance="0.15" />
+			<item name="ArmyPouch_Camo" chance="0.15" />
+			<item name="FOG_Bag_Trizip_CB" chance="0.05" />
+			<item name="FOG_Bag_Trizip_RGCB" chance="0.05" />
+			<item name="FOG_Bag_Trizip_DCU" chance="0.05" />
+			<item name="FOG_Bag_Trizip_MC" chance="0.05" />
+			<item name="FOG_Bag_SSO_Tan" chance="0.05" />
+			<item name="FOG_Bag_SSO_MC" chance="0.05" />
+		</attachments>
+		<attachments chance="0.08" name="biggerBagsArmy">
+			<item name="FOG_Bag_MRASAP_MC" chance="0.125" />
+			<item name="FOG_Bag_MRASAP_CB" chance="0.125" />
+			<item name="FOG_Bag_6ShBagT_CB" chance="0.125" />
+			<item name="FOG_Bergen_Rucksack_Multicam" chance="0.25" />
+			<item name="FOG_Bag_DrawBridge_CB" chance="0.125" />
+			<item name="FOG_Bag_BlackJack_MC" chance="0.125" />
+			<item name="FOG_Bag_BlackJack_CB" chance="0.125" />
 		</attachments>
 		<attachments chance="1.00" name="HeavyArmorArmy">
-			<item name="PlateCarrierVest" chance="1.00" />
+			<item name="FOG_Vest_Gen4_Black" chance="0.2" />
+			<item name="FOG_Vest_Gen4_Green" chance="0.2" />
+			<item name="FOG_Vest_Gen4_EMR" chance="0.2" />
+			<item name="FOG_Vest_Gen4_NWU" chance="0.2" />
+			<item name="FOG_Vest_Gen4_MARPAT" chance="0.2" />
 		</attachments>
 		<attachments chance="1.00" name="HeavyHelmetArmy">
-			<item name="Ssh68Helmet" chance="1.00" />
+			<item name="CDAJ_OpscoreV2_Helmet_Tan" chance="0.50" />
+			<item name="CDAJ_OpscoreV2_Helmet_AOR1" chance="0.50" />
 		</attachments>
 		<attachments chance="1.00" name="OfficerHatArmy">
 			<item name="OfficerHat" chance="1.00" />
