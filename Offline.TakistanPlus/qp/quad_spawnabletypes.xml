@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+
+<spawnabletypes>
+	<type name="Quad_Kar98">
+		<attachments chance="0.30">
+			<item name="HuntingOptic" chance="1.00" />
+		</attachments>
+	</type>
+    <type name="Quad_LeeEnfield">
+		<attachments chance="0.30">
+			<item name="HuntingOptic" chance="1.00" />
+		</attachments>
+	</type>
+    <type name="Quad_M14">
+		<attachments chance="0.60">
+			<item name="Quad_M14_mag" chance="1.00" />
+		</attachments>
+		<attachments preset="dmr_optics" />
+	</type>
+</spawnabletypes>
