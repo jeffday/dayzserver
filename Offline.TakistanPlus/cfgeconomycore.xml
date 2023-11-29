@@ -54,4 +54,9 @@ Do not forget to add attribute act="car", if root class represents moveable vehi
 	<ce folder="windstride">
 		<file name="windstride_types.xml" type="types" />
 	</ce>
+	<!-- Tech's Weapon Mod -->
+	<ce folder="twm">
+		<file name="twm_types.xml" type="types" />
+		<file name="twm_spawnabletypes.xml" type="spawnabletypes" />
+	</ce>
 </economycore>
