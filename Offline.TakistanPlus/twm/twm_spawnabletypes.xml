@@ -1,0 +1,705 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+
+<spawnabletypes>
+<!-- Socom Rifles -->
+	<type name="TWM_AKSocom">
+		<attachments preset="ar_optics" />
+		<attachments chance="0.30">
+			<item name="TWM_Mag_Socom458_10rnd" chance="1.00" />
+		</attachments>
+		<attachments chance="0.15">
+			<item name="TWM_Mag_Socom458_15rnd" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="TWM_Socom_Stock" chance="1.00" />
+		</attachments>
+	</type>
+<!-- Vepr -->
+	<type name="TWM_Vepr">
+		<attachments preset="close_range_optics" />
+		<attachments chance="0.30">
+			<item name="TWM_Mag_Vepr_15rnd" chance="1.00" />
+		</attachments>
+		<attachments chance="0.15">
+			<item name="TWM_Mag_Vepr_25rnd" chance="1.00" />
+		</attachments>
+	</type>
+<!-- Tikka -->
+	<type name="TWM_Tikka">
+		<attachments preset="long_range_scopes" />
+		<attachments chance="0.15">
+			<item name="TWM_Mag_Tikka_5rnd" chance="1.00" />
+		</attachments>
+	</type>
+<!-- Firefly -->
+	<type name="TWM_Firefly">
+		<attachments chance="0.15">
+			<item name="TWM_Mag_Firefly_15rnd" chance="1.00" />
+		</attachments>
+	</type>
+<!-- Firefly Green -->
+	<type name="TWM_Firefly_green">
+		<attachments chance="0.15">
+			<item name="TWM_Mag_Firefly_15rnd" chance="1.00" />
+		</attachments>
+	</type>
+<!-- Banshee 22 SMG's -->
+	<type name="TWM_Banshee_22">
+		<attachments preset="close_range_optics" />
+		<attachments preset="pistol_suppressors" />
+		<attachments chance="1.00">
+			<item name="M4_OEBttstck" chance="1.00" />
+		</attachments> 
+		<attachments chance="0.30">
+			<item name="TWM_Mag_Banshee_22" chance="1.00" />
+		</attachments> 
+	</type>
+	<type name="TWM_Banshee_22_OD">
+		<attachments preset="close_range_optics" />
+		<attachments preset="pistol_suppressors" />
+		<attachments chance="1.00">
+			<item name="M4_OEBttstck_Green" chance="1.00" />
+		</attachments> 
+		<attachments chance="0.30">
+			<item name="TWM_Mag_Banshee_22" chance="1.00" />
+		</attachments> 
+	</type>
+	<type name="TWM_Banshee_22_Tan">
+		<attachments preset="close_range_optics" />
+		<attachments preset="pistol_suppressors" />
+		<attachments chance="1.00">
+			<item name="M4_OEBttstck" chance="1.00" />
+		</attachments> 
+		<attachments chance="0.30">
+			<item name="TWM_Mag_Banshee_22" chance="1.00" />
+		</attachments> 
+	</type>
+<!-- Banshee 9 SMG's -->
+	<type name="TWM_Banshee_9">
+		<attachments preset="close_range_optics" />
+		<attachments preset="pistol_suppressors" />
+		<attachments chance="1.00">
+			<item name="M4_OEBttstck" chance="1.00" />
+		</attachments> 
+		<attachments chance="0.15">
+			<item name="TWM_Mag_Banshee_9" chance="1.00" />
+		</attachments> 
+		<attachments chance="0.25">
+			<item name="Mag_Glock_15Rnd" chance="1.00" />
+		</attachments> 
+	</type>
+	<type name="TWM_Banshee_9_OD">
+		<attachments preset="close_range_optics" />
+		<attachments preset="pistol_suppressors" />
+		<attachments chance="1.00">
+			<item name="M4_OEBttstck_Green" chance="1.00" />
+		</attachments> 
+		<attachments chance="0.15">
+			<item name="TWM_Mag_Banshee_9" chance="1.00" />
+		</attachments> 
+		<attachments chance="0.25">
+			<item name="Mag_Glock_15Rnd" chance="1.00" />
+		</attachments> 
+	</type>
+	<type name="TWM_Banshee_9_Tan">
+		<attachments preset="close_range_optics" />
+		<attachments preset="pistol_suppressors" />
+		<attachments chance="1.00">
+			<item name="M4_OEBttstck" chance="1.00" />
+		</attachments> 
+		<attachments chance="0.15">
+			<item name="TWM_Mag_Banshee_9" chance="1.00" />
+		</attachments> 
+		<attachments chance="0.25">
+			<item name="Mag_Glock_15Rnd" chance="1.00" />
+		</attachments> 
+	</type>
+<!-- Banshee 57 SMG's -->
+	<type name="TWM_Banshee_57_Black">
+		<attachments preset="close_range_optics" />
+		<attachments preset="pistol_suppressors" />
+		<attachments chance="1.00">
+			<item name="M4_OEBttstck" chance="1.00" />
+		</attachments> 
+		<attachments chance="0.15">
+			<item name="TWM_Mag_Banshee_57" chance="1.00" />
+		</attachments> 
+	</type>
+	<type name="TWM_Banshee_57_OD">
+		<attachments preset="close_range_optics" />
+		<attachments preset="pistol_suppressors" />
+		<attachments chance="1.00">
+			<item name="M4_OEBttstck_Green" chance="1.00" />
+		</attachments> 
+		<attachments chance="0.15">
+			<item name="TWM_Mag_Banshee_57" chance="1.00" />
+		</attachments> 
+	</type>
+	<type name="TWM_Banshee_57_Tan">
+		<attachments preset="close_range_optics" />
+		<attachments preset="pistol_suppressors" />
+		<attachments chance="1.00">
+			<item name="M4_OEBttstck" chance="1.00" />
+		</attachments> 
+		<attachments chance="0.15">
+			<item name="TWM_Mag_Banshee_57" chance="1.00" />
+		</attachments> 
+	</type>
+<!-- IA2 Light Rifles -->
+	<type name="TWM_IA2">
+		<attachments preset="ar_optics" />
+		<attachments chance="0.15">
+			<item name="Mag_CMAG_30Rnd" chance="1.00" />
+		</attachments> 
+	</type>
+	<type name="TWM_IA2_OD">
+		<attachments preset="ar_optics" />
+		<attachments chance="0.15">
+			<item name="Mag_CMAG_30Rnd" chance="1.00" />
+		</attachments> 
+	</type>
+	<type name="TWM_IA2_Gray">
+		<attachments preset="ar_optics" />
+		<attachments chance="0.15">
+			<item name="Mag_CMAG_30Rnd" chance="1.00" />
+		</attachments> 
+	</type>
+
+<!-- IA2 Heavy Rifles -->
+	<type name="TWM_IA2H">	
+		<attachments preset="dmr_optics" />
+		<attachments chance="0.15">
+			<item name="TWM_IA2_Suppressor" chance="1.00" />
+		</attachments> 
+		<attachments chance="0.15">
+			<item name="Mag_FAL_20Rnd" chance="1.00" />
+		</attachments>
+	</type>
+	<type name="TWM_IA2H_Tan">
+		<attachments preset="dmr_optics" />
+		<attachments chance="0.15">
+			<item name="TWM_IA2_Suppressor" chance="1.00" />
+		</attachments> 
+		<attachments chance="0.15">
+			<item name="Mag_FAL_20Rnd" chance="1.00" />
+		</attachments>
+	</type>
+	<type name="TWM_IA2H_OD">
+		<attachments preset="dmr_optics" />
+		<attachments chance="0.15">
+			<item name="TWM_IA2_Suppressor" chance="1.00" />
+		</attachments> 
+		<attachments chance="0.15">
+			<item name="Mag_FAL_20Rnd" chance="1.00" />
+		</attachments>
+	</type>
+	<type name="TWM_IA2H_Gray">
+		<attachments preset="dmr_optics" />
+		<attachments chance="0.15">
+			<item name="TWM_IA2_Suppressor" chance="1.00" />
+		</attachments> 
+		<attachments chance="0.15">
+			<item name="Mag_FAL_20Rnd" chance="1.00" />
+		</attachments>
+	</type>
+<!-- Ash12 -->
+	<type name="TWM_Ash12">
+		<attachments preset="close_range_optics" />
+		<attachments chance="0.15">
+			<item name="TWM_Mag_Ash12" chance="1.00" />
+		</attachments> 
+	</type>
+<!-- AWM -->
+	<type name="TWM_AWM">
+		<attachments preset="long_range_scopes" />
+		<attachments chance="0.15">
+			<item name="TWM_Mag_AWM" chance="1.00" />
+		</attachments> 
+	</type>
+<!-- M200 -->
+	<type name="TWM_M200">
+		<attachments preset="long_range_scopes" />
+		<attachments chance="0.15">
+			<item name="TWM_Mag_M200" chance="1.00" />
+		</attachments> 
+	</type>
+<!-- SR47 -->
+	<type name="TWM_SR47">
+		<attachments preset="ar_optics" />
+		<attachments chance="0.15">
+			<item name="Mag_AKM_Palm30Rnd" chance="1.00" />
+		</attachments> 
+	</type>
+<!-- Vector -->
+	<type name="TWM_Vector">
+		<attachments preset="close_range_optics" />
+		<attachments preset="pistol_suppressors" />
+		<attachments chance="0.15">
+			<item name="TWM_Mag_Vector_30Rnd" chance="1.00" />
+		</attachments> 	
+	</type>	
+<!-- Update 1.3.5 M1911 -->
+	<type name="TWM_M1911">
+		<attachments chance="0.25">
+			<item name="TWM_Mag_M1911" chance="1.00" />
+		</attachments>
+	</type>
+<!-- G36K -->
+	<type name="TWM_G36K">
+		<attachments preset="ar_optics" />
+		<attachments chance="0.15">
+			<item name="TWM_Mag_G36K" chance="1.00" />
+		</attachments> 
+		<attachments chance="0.15">
+			<item name="Mag_CMAG_30Rnd" chance="1.00" />
+		</attachments> 	
+	</type>
+<!-- Update 1.4  -->
+<!-- AK105 -->	
+	<type name="TWM_AK105_Tan">
+		<attachments preset="ar_optics" />
+		<attachments chance="0.15">
+			<item name="TWM_Mag_AK105" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="TWM_Tactical_Stock_Tan" chance="1.00" />
+		</attachments>
+	</type>
+	<type name="TWM_AK105_black">
+		<attachments preset="ar_optics" />
+		<attachments chance="0.15">
+			<item name="TWM_Mag_AK105" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="TWM_Tactical_Stock_Black" chance="1.00" />
+		</attachments>
+	</type>
+	<type name="TWM_AK105_Camo">
+		<attachments preset="ar_optics" />
+		<attachments chance="0.15">
+			<item name="TWM_Mag_AK105" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="TWM_Tactical_Stock_Camo" chance="1.00" />
+		</attachments>	
+	</type>
+	<type name="TWM_AK105_OD">
+		<attachments preset="ar_optics" />
+		<attachments chance="0.15">
+			<item name="TWM_Mag_AK105" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="TWM_Tactical_Stock_OD" chance="1.00" />
+		</attachments>	
+	</type>
+<!-- M1A -->
+	<type name="TWM_M1A">
+		<attachments preset="dmr_optics" />
+		<attachments chance="0.15">
+			<item name="Mag_FAL_20Rnd" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="TWM_Tactical_Stock_Black" chance="1.00" />
+		</attachments>
+	</type>
+	<type name="TWM_M1A_Tan">
+		<attachments preset="dmr_optics" />
+		<attachments chance="0.15">
+			<item name="Mag_FAL_20Rnd" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="TWM_Tactical_Stock_Tan" chance="1.00" />
+		</attachments>		
+	</type>
+	<type name="TWM_M1A_OD">
+		<attachments preset="dmr_optics" />
+		<attachments chance="0.15">
+			<item name="Mag_FAL_20Rnd" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="TWM_Tactical_Stock_OD" chance="1.00" />
+		</attachments>	
+	</type>
+	<type name="TWM_M1A_Camo">
+		<attachments preset="dmr_optics" />
+		<attachments chance="0.15">
+			<item name="Mag_FAL_20Rnd" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="TWM_Tactical_Stock_Camo" chance="1.00" />
+		</attachments>		
+	</type>
+<!-- Mk18 -->
+	<type name="TWM_Mk18">
+		<attachments preset="ar_optics" />
+		<attachments chance="0.15">
+			<item name="Mag_CMAG_30Rnd" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="TWM_Tactical_Stock_Black" chance="1.00" />
+		</attachments>
+	</type>
+	<type name="TWM_Mk18_OD">
+		<attachments preset="ar_optics" />
+		<attachments chance="0.15">
+			<item name="Mag_CMAG_30Rnd" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="TWM_Tactical_Stock_OD" chance="1.00" />
+		</attachments>	
+	</type>
+	<type name="TWM_Mk18_Tan">
+		<attachments preset="ar_optics" />
+		<attachments chance="0.15">
+			<item name="Mag_CMAG_30Rnd" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="TWM_Tactical_Stock_Tan" chance="1.00" />
+		</attachments>
+	</type>
+	<type name="TWM_Mk18_Camo">
+		<attachments preset="ar_optics" />
+		<attachments chance="0.15">
+			<item name="Mag_CMAG_30Rnd" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="TWM_Tactical_Stock_Camo" chance="1.00" />
+		</attachments>	
+	</type>
+<!-- Sig 458 -->
+	<type name="TWM_Sig458">
+		<attachments preset="ar_optics" />
+		<attachments chance="0.30">
+			<item name="TWM_Mag_Socom458_10rnd" chance="1.00" />
+		</attachments>
+		<attachments chance="0.15">
+			<item name="TWM_Mag_Socom458_15rnd" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="TWM_Socom_Stock" chance="1.00" />
+		</attachments>
+	</type>
+	<type name="TWM_Sig458_OD">
+		<attachments preset="ar_optics" />
+		<attachments chance="0.30">
+			<item name="TWM_Mag_Socom458_10rnd" chance="1.00" />
+		</attachments>
+		<attachments chance="0.15">
+			<item name="TWM_Mag_Socom458_15rnd" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="TWM_Socom_Stock" chance="1.00" />
+		</attachments>
+	</type>
+	<type name="TWM_Sig458_Tan">
+		<attachments preset="ar_optics" />
+		<attachments chance="0.30">
+			<item name="TWM_Mag_Socom458_10rnd" chance="1.00" />
+		</attachments>
+		<attachments chance="0.15">
+			<item name="TWM_Mag_Socom458_15rnd" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="TWM_Socom_Stock" chance="1.00" />
+		</attachments>
+	</type>
+	<type name="TWM_Sig458_Camo">
+		<attachments preset="ar_optics" />
+		<attachments chance="0.30">
+			<item name="TWM_Mag_Socom458_10rnd" chance="1.00" />
+		</attachments>
+		<attachments chance="0.15">
+			<item name="TWM_Mag_Socom458_15rnd" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="TWM_Socom_Stock" chance="1.00" />
+		</attachments>
+	</type>
+	<type name="TWM_Sig458_Snow">
+		<attachments preset="ar_optics" />
+		<attachments chance="0.30">
+			<item name="TWM_Mag_Socom458_10rnd" chance="1.00" />
+		</attachments>
+		<attachments chance="0.15">
+			<item name="TWM_Mag_Socom458_15rnd" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="TWM_Socom_Stock" chance="1.00" />
+		</attachments>
+	</type>
+<!-- Glock 18 -->
+	<type name="TWM_Glock18">
+		<attachments preset="pistol_optics" />
+		<attachments preset="pistol_suppressors" />
+		<attachments chance="0.25">
+			<item name="TWM_Mag_Glock18" chance="1.00" />
+		</attachments>	
+	</type>
+	<type name="TWM_Glock18_Black">
+		<attachments preset="pistol_optics" />
+		<attachments preset="pistol_suppressors" />
+		<attachments chance="0.25">
+			<item name="TWM_Mag_Glock18" chance="1.00" />
+		</attachments>		
+	</type>
+	<type name="TWM_Glock18_Tan">
+		<attachments preset="pistol_optics" />
+		<attachments preset="pistol_suppressors" />
+		<attachments chance="0.25">
+			<item name="TWM_Mag_Glock18" chance="1.00" />
+		</attachments>		
+	</type>
+	<type name="TWM_Glock18_OD">
+		<attachments preset="pistol_optics" />
+		<attachments preset="pistol_suppressors" />
+		<attachments chance="0.25">
+			<item name="TWM_Mag_Glock18" chance="1.00" />
+		</attachments>		
+	</type>
+	<type name="TWM_Glock18_Gold">
+		<attachments preset="pistol_optics" />
+		<attachments preset="pistol_suppressors" />
+		<attachments chance="0.25">
+			<item name="TWM_Mag_Glock18" chance="1.00" />
+		</attachments>		
+	</type>
+<!-- Beretta 92 -->
+	<type name="TWM_Beretta92">
+		<attachments preset="pistol_suppressors" />
+		<attachments chance="0.25">
+			<item name="TWM_Mag_Beretta" chance="1.00" />
+		</attachments>
+	</type>
+	<type name="TWM_Beretta92_Tan">
+		<attachments preset="pistol_suppressors" />
+		<attachments chance="0.25">
+			<item name="TWM_Mag_Beretta" chance="1.00" />
+		</attachments>
+	</type>
+<!-- Hudson H9 -->
+	<type name="TWM_H9">
+		<attachments preset="pistol_suppressors" />
+		<attachments chance="0.25">
+			<item name="TWM_Mag_H9" chance="1.00" />
+		</attachments>
+	</type>
+<!-- Mp 443 Grach -->
+	<type name="TWM_MP443">
+		<attachments chance="0.10">
+			<item name="TWM_Mag_MP443" chance="1.00" />
+		</attachments>
+	</type>
+<!-- Taurus 44 Magnum -->
+	<type name="TWM_Taurus44">
+		<attachments chance="0.25">
+			<item name="TWM_Ammo_44" chance="1.00" />
+		</attachments>	
+	</type>
+<!-- update 1.4.5 The Melee Update -->
+	<type name="TWM_M2010">
+		<attachments preset="long_range_scopes" />
+		<attachments chance="0.30">
+			<item name="TWM_Mag_M2010_5rnd" chance="1.00" />
+		</attachments>
+	</type>
+	<type name="TWM_M2010_Tan">
+		<attachments preset="long_range_scopes" />
+		<attachments chance="0.30">
+			<item name="TWM_Mag_M2010_5rnd" chance="1.00" />
+		</attachments>
+	</type>
+	<type name="TWM_BAR">
+		<attachments chance="0.25">
+			<item name="TWM_Mag_BAR" chance="1.00" />
+		</attachments>
+	</type>
+	<type name="TWM_M1A1_Thompson">
+		<attachments chance="0.25">
+			<item name="TWM_Mag_M1A1" chance="1.00" />
+		</attachments>
+	</type>
+	<type name="TWM_TrenchGun">
+		<attachments chance="0.2">
+			<item name="TWM_Trench_Bayonet" chance="1.00" />
+		</attachments>
+	</type>
+	<type name="TWM_M870">
+		<attachments chance="0.15">
+			<item name="UniversalLight" chance="1.00" />
+		</attachments>
+	</type>
+<!-- Hotfix 1.4.6 -->
+	<type name="TWM_P320">
+		<attachments preset="pistol_suppressors" />
+		<attachments chance="0.25">
+			<item name="TWM_Mag_P320" chance="1.00" />
+		</attachments>
+	</type>
+	<type name="TWM_P320_blk">
+		<attachments preset="pistol_suppressors" />
+		<attachments chance="0.25">
+			<item name="TWM_Mag_P320" chance="1.00" />
+		</attachments>
+	</type>
+	<type name="TWM_GI_1911">
+		<attachments chance="0.25">
+			<item name="TWM_Mag_GI1911" chance="1.00" />
+		</attachments>
+	</type>
+<!-- UPDATE 1.5 The Stop adding stuff and Push it already Update. -->
+	<type name="TWM_MK17">
+		<attachments preset="dmr_optics" />
+		<attachments chance="0.15">
+			<item name="TWM_Socom_Suppressor" chance="1.00" />
+		</attachments> 
+		<attachments chance="0.15">
+			<item name="TWM_Mag_Scar_20rnd" chance="1.00" />
+		</attachments> 
+	</type>
+	<type name="TWM_MK20">
+		<attachments preset="dmr_optics" />
+		<attachments chance="0.15">
+			<item name="TWM_Socom_Suppressor" chance="1.00" />
+		</attachments> 
+		<attachments chance="0.15">
+			<item name="TWM_Mag_Scar_20rnd" chance="1.00" />
+		</attachments> 
+	</type>
+	<type name="TWM_Howa20">
+		<attachments preset="ar_optics" />
+		<attachments chance="0.15">
+			<item name="Mag_CMAG_30Rnd" chance="1.00" />
+		</attachments>
+	</type>
+	<type name="TWM_HK416_Tan">
+		<attachments preset="ar_optics" />
+		<attachments chance="0.15">
+			<item name="Mag_CMAG_30Rnd" chance="1.00" />
+		</attachments> 
+		<attachments chance="1.00">
+			<item name="TWM_HK_Stock" chance="1.00" />
+		</attachments>
+	</type>
+	<type name="TWM_HK416_Black">
+		<attachments preset="ar_optics" />
+		<attachments chance="0.15">
+			<item name="Mag_CMAG_30Rnd" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="TWM_HK_Stock_Black" chance="1.00" />
+		</attachments>
+	</type>
+	<type name="TWM_HK416_OD">
+		<attachments preset="ar_optics" />
+		<attachments chance="0.15">
+			<item name="Mag_CMAG_30Rnd" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="TWM_HK_Stock_OD" chance="1.00" />
+		</attachments>
+	</type>
+	<type name="TWM_HK417_Tan">
+		<attachments preset="dmr_optics" />
+		<attachments chance="0.30">
+			<item name="TWM_Mag_HK417_10Rnd" chance="1.00" />
+		</attachments>
+		<attachments chance="0.15">
+			<item name="TWM_Mag_HK417_20Rnd" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="TWM_HK_Stock" chance="1.00" />
+		</attachments>
+	</type>
+	<type name="TWM_HK417_Black">
+		<attachments preset="dmr_optics" />
+		<attachments chance="0.30">
+			<item name="TWM_Mag_HK417_10Rnd" chance="1.00" />
+		</attachments>
+		<attachments chance="0.15">
+			<item name="TWM_Mag_HK417_20Rnd" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="TWM_HK_Stock_Black" chance="1.00" />
+		</attachments>
+	</type>
+	<type name="TWM_HK417_OD">
+		<attachments preset="dmr_optics" />
+		<attachments chance="0.30">
+			<item name="TWM_Mag_HK417_10Rnd" chance="1.00" />
+		</attachments>
+		<attachments chance="0.15">
+			<item name="TWM_Mag_HK417_20Rnd" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="TWM_HK_Stock_OD" chance="1.00" />
+		</attachments>
+	</type>
+	<type name="TWM_MG42">
+		<attachments chance="0.25">
+			<item name="TWM_Mag_MG42" chance="1.00" />
+		</attachments>
+	</type>
+<!-- FRF2 -->
+	<type name="TWM_FRF2">
+		<attachments preset="long_range_scopes" />
+		<attachments chance="0.25">
+			<item name="TWM_Mag_FRF2" chance="1.00" />
+		</attachments>
+	</type>
+<!-- SV98 -->
+	<type name="TWM_SV98">
+		<attachments preset="long_range_scopes" />
+		<attachments chance="0.25">
+			<item name="TWM_Mag_SV98" chance="1.00" />
+		</attachments>
+	</type>
+<!-- HecateII -->
+	<type name="TWM_HecateII">
+		<attachments preset="long_range_scopes" />
+		<attachments chance="0.05">
+			<item name="TWM_Mag_HecateII" chance="1.00" />
+		</attachments>
+	</type>
+<!-- M82A1 -->
+	<type name="TWM_M82A1">
+		<attachments preset="long_range_scopes" />
+		<attachments chance="0.05">
+			<item name="TWM_Mag_M82A1" chance="1.00" />
+		</attachments>
+	</type>
+	<!-- M82A1 -->
+	<type name="TWM_M82A1_Tan">
+		<attachments preset="long_range_scopes" />
+		<attachments chance="0.05">
+			<item name="TWM_Mag_M82A1_Tan" chance="1.00" />
+		</attachments>
+	</type>
+<!-- TWM_OSV96 -->
+	<type name="TWM_OSV96">
+		<attachments preset="long_range_scopes" />
+		<attachments chance="0.05">
+			<item name="TWM_Mag_OSV96" chance="1.00" />
+		</attachments>
+	</type>
+<!-- TWM_FN_Minimi -->
+	<type name="TWM_FN_Minimi">
+		<attachments chance="0.10">
+			<item name="TWM_Mag_Minimi" chance="1.00" />
+		</attachments>
+	</type>
+	<!-- TWM_DeLisle -->
+	<type name="TWM_DeLisle">
+		<attachments chance="0.10">
+			<item name="Mag_1911_7Rnd" chance="1.00" />
+		</attachments>
+	</type>
+<!--  -->
+<!--  -->
+<!--  -->
+<!--  -->
+<!--  -->
+<!--  -->
+<!--  -->
+<!--  -->
+<!--  -->
+</spawnabletypes>
