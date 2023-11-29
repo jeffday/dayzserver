@@ -3016,7 +3016,6 @@
 		<cost>100</cost>
 		<flags count_in_cargo="1" count_in_hoarder="1" count_in_map="1" count_in_player="1" crafted="0" deloot="0" />
 		<category name="weapons" />
-		<usage name="Underground"/>
         <usage name="ContaminatedArea"/>
     </type>
     <type name="BO_Mag_MRAD_10rnd">
@@ -3276,7 +3275,6 @@
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="weapons"/>
-        <usage name="Underground"/>
         <usage name="ContaminatedArea"/>
     </type>
     <type name="BO_HS12">
@@ -3877,7 +3875,6 @@
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="weapons"/>
-        <usage name="Underground"/>
         <usage name="ContaminatedArea"/>
     </type>
     <type name="BO_Mag_SuperSniper_5rnd">
@@ -3903,7 +3900,6 @@
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="weapons"/>
-        <usage name="Underground"/>
         <usage name="ContaminatedArea"/>
     </type>
     <type name="BO_Delta5_Camo1">
@@ -3916,7 +3912,6 @@
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="weapons"/>
-        <usage name="Underground"/>
         <usage name="ContaminatedArea"/>
     </type>
     <type name="BO_Delta5_Camo2">
@@ -3929,7 +3924,6 @@
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="weapons"/>
-        <usage name="Underground"/>
         <usage name="ContaminatedArea"/>
     </type>
     <type name="BO_Delta5_Camo3">
@@ -3942,7 +3936,6 @@
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="weapons"/>
-        <usage name="Underground"/>
         <usage name="ContaminatedArea"/>
     </type>
     <type name="BO_Delta5_Camo4">
@@ -3955,7 +3948,6 @@
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="weapons"/>
-        <usage name="Underground"/>
         <usage name="ContaminatedArea"/>
     </type>
     <type name="BO_Delta5_Camo5">
@@ -3968,7 +3960,6 @@
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="weapons"/>
-        <usage name="Underground"/>
         <usage name="ContaminatedArea"/>
     </type>
     <type name="BO_Delta5_Camo6">
@@ -3981,7 +3972,6 @@
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="weapons"/>
-        <usage name="Underground"/>
         <usage name="ContaminatedArea"/>
     </type>
     <type name="BO_Delta5_Camo7">
@@ -3994,7 +3984,6 @@
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="weapons"/>
-        <usage name="Underground"/>
         <usage name="ContaminatedArea"/>
     </type>
     <type name="BO_Delta5_Camo8">
@@ -4007,7 +3996,6 @@
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="weapons"/>
-        <usage name="Underground"/>
         <usage name="ContaminatedArea"/>
     </type>
     <type name="BO_Delta5_Camo9">
@@ -4020,7 +4008,6 @@
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="weapons"/>
-        <usage name="Underground"/>
         <usage name="ContaminatedArea"/>
     </type>
     <type name="BO_Delta5_Camo10">
@@ -4033,7 +4020,6 @@
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="weapons"/>
-        <usage name="Underground"/>
         <usage name="ContaminatedArea"/>
     </type>
     <type name="BO_Mag_Delta5_10rnd">
@@ -4326,8 +4312,8 @@
 		<cost>100</cost>
 		<flags count_in_hoarder="0" count_in_player="0" count_in_map="1" count_in_cargo="0" crafted="0" deloot="0"/>
 		<category name="weapons"/>
-		<usage name="Underground"/>
 		<value name="Tier2"/>
+        <value name="Tier3"/>
     </type>
     <type name="BO_M249">
         <nominal>0</nominal>
