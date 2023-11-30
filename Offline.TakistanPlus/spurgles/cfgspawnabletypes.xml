@@ -1,0 +1,242 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+
+<spawnabletypes>
+	<type name="Spur_LW_Bag_Black">
+		<cargo preset="foodVillage" />
+		<cargo preset="mixVillage" />
+	</type>
+	<type name="Spur_LW_Bag_Blue">
+		<cargo preset="foodVillage" />
+		<cargo preset="mixVillage" />
+	</type>
+	<type name="Spur_LW_Bag_Brown">
+		<cargo preset="foodVillage" />
+		<cargo preset="mixVillage" />
+	</type>
+	<type name="Spur_LW_Bag_Green">
+		<cargo preset="foodVillage" />
+		<cargo preset="mixVillage" />
+	</type>
+	<type name="Spur_LW_Bag_Grey">
+		<cargo preset="foodVillage" />
+		<cargo preset="mixVillage" />
+	</type>
+	<type name="Spur_LW_Bag_Orange">
+		<cargo preset="foodVillage" />
+		<cargo preset="mixVillage" />
+	</type>
+	<type name="Spur_LW_Bag_Purple">
+		<cargo preset="foodVillage" />
+		<cargo preset="mixVillage" />
+	</type>
+	<type name="Spur_LW_Bag_Red">
+		<cargo preset="foodVillage" />
+		<cargo preset="mixVillage" />
+	</type>
+	<type name="Spur_MilBag_Black">
+		<attachments chance="1.00">
+			<item name="PersonalRadio" 		chance="0.35" />
+			<item name="Chemlight_Blue" 	chance="0.05" />
+			<item name="Chemlight_Green" 	chance="0.05" />
+			<item name="Chemlight_Red" 		chance="0.05" />
+			<item name="Chemlight_White" 	chance="0.05" />
+			<item name="Chemlight_yellow" 	chance="0.05" />
+			<item name="Canteen_Spur_Black" 	chance="0.15" />
+			<item name="PlateCarrierHolster_Spur_Black" 	chance="0.10" />
+		</attachments>
+		<cargo preset="foodArmy" />
+		<cargo preset="mixArmy" />
+	</type>
+	<type name="Spur_MilBag_Green">
+		<attachments chance="1.00">
+			<item name="PersonalRadio" 		chance="0.35" />
+			<item name="Chemlight_Blue" 	chance="0.05" />
+			<item name="Chemlight_Green" 	chance="0.05" />
+			<item name="Chemlight_Red" 		chance="0.05" />
+			<item name="Chemlight_White" 	chance="0.05" />
+			<item name="Chemlight_yellow" 	chance="0.05" />
+			<item name="Canteen_Spur_Green" 	chance="0.15" />
+			<item name="PlateCarrierHolster_Spur_Green" 	chance="0.10" />
+		</attachments>
+		<cargo preset="foodArmy" />
+		<cargo preset="mixArmy" />
+	</type>
+	<type name="Spur_MilBag_Tan">
+		<attachments chance="1.00">
+			<item name="PersonalRadio" 		chance="0.35" />
+			<item name="Chemlight_Blue" 	chance="0.05" />
+			<item name="Chemlight_Green" 	chance="0.05" />
+			<item name="Chemlight_Red" 		chance="0.05" />
+			<item name="Chemlight_White" 	chance="0.05" />
+			<item name="Chemlight_yellow" 	chance="0.05" />
+			<item name="Canteen_Spur_Tan" 	chance="0.15" />
+			<item name="PlateCarrierHolster_Spur_Tan" 	chance="0.10" />
+		</attachments>
+		<cargo preset="foodArmy" />
+		<cargo preset="mixArmy" />
+	</type>
+	<type name="Spur_MilBag_WoodlandCamo">
+		<attachments chance="1.00">
+			<item name="PersonalRadio" 		chance="0.35" />
+			<item name="Chemlight_Blue" 	chance="0.05" />
+			<item name="Chemlight_Green" 	chance="0.05" />
+			<item name="Chemlight_Red" 		chance="0.05" />
+			<item name="Chemlight_White" 	chance="0.05" />
+			<item name="Chemlight_yellow" 	chance="0.05" />
+			<item name="Canteen_Spur_WoodlandCamo" 	chance="0.15" />
+			<item name="PlateCarrierHolster_Spur_WoodlandCamo" 	chance="0.10" />
+		</attachments>
+		<cargo preset="foodArmy" />
+		<cargo preset="mixArmy" />
+	</type>
+	<type name="Spur_MilBag_MultiCamo">
+		<attachments chance="1.00">
+			<item name="PersonalRadio" 		chance="0.35" />
+			<item name="Chemlight_Blue" 	chance="0.05" />
+			<item name="Chemlight_Green" 	chance="0.05" />
+			<item name="Chemlight_Red" 		chance="0.05" />
+			<item name="Chemlight_White" 	chance="0.05" />
+			<item name="Chemlight_yellow" 	chance="0.05" />
+			<item name="Canteen_Spur_MultiCamo" 	chance="0.15" />
+			<item name="PlateCarrierHolster_Spur_MultiCamo" 	chance="0.10" />
+		</attachments>
+		<cargo preset="foodArmy" />
+		<cargo preset="mixArmy" />
+	</type>
+	<type name="Spur_MilBag_WinterCamo">
+		<attachments chance="1.00">
+			<item name="PersonalRadio" 		chance="0.35" />
+			<item name="Chemlight_Blue" 	chance="0.05" />
+			<item name="Chemlight_Green" 	chance="0.05" />
+			<item name="Chemlight_Red" 		chance="0.05" />
+			<item name="Chemlight_White" 	chance="0.05" />
+			<item name="Chemlight_yellow" 	chance="0.05" />
+			<item name="Canteen_Spur_WinterCamo" 	chance="0.15" />
+			<item name="PlateCarrierHolster_Spur_WinterCamo" 	chance="0.10" />
+		</attachments>
+		<cargo preset="foodArmy" />
+		<cargo preset="mixArmy" />
+	</type>
+	<type name="Spur_Treker_Yellow">
+		<cargo preset="foodVillage" />
+		<cargo preset="mixVillage" />
+	</type>
+	<type name="Spur_Treker_Green">
+		<cargo preset="foodVillage" />
+		<cargo preset="mixVillage" />
+	</type>
+	<type name="Spur_Treker_Red">
+		<cargo preset="foodVillage" />
+		<cargo preset="mixVillage" />
+	</type>
+	<type name="Spur_Treker_Black">
+		<cargo preset="foodVillage" />
+		<cargo preset="mixVillage" />
+	</type>
+	<type name="Spur_Treker_Blue">
+		<cargo preset="foodVillage" />
+		<cargo preset="mixVillage" />
+	</type>
+	<type name="Spur_CamelBag_Black">
+		<attachments chance="1.00">
+			<item name="PersonalRadio" 		chance="0.35" />
+			<item name="Chemlight_Blue" 	chance="0.05" />
+			<item name="Chemlight_Green" 	chance="0.05" />
+			<item name="Chemlight_Red" 		chance="0.05" />
+			<item name="Chemlight_White" 	chance="0.05" />
+			<item name="Chemlight_yellow" 	chance="0.05" />
+			<item name="Spur_KnifeSheath_Black" 	chance="0.15" />
+			<item name="PlateCarrierHolster_Spur_Black" 	chance="0.20" />
+		</attachments>
+		<cargo preset="foodArmy" />
+		<cargo preset="mixArmy" />
+	</type>
+	<type name="Spur_CamelBag_Green">
+		<attachments chance="1.00">
+			<item name="PersonalRadio" 		chance="0.35" />
+			<item name="Chemlight_Blue" 	chance="0.05" />
+			<item name="Chemlight_Green" 	chance="0.05" />
+			<item name="Chemlight_Red" 		chance="0.05" />
+			<item name="Chemlight_White" 	chance="0.05" />
+			<item name="Chemlight_yellow" 	chance="0.05" />
+			<item name="Spur_KnifeSheath_Green" 	chance="0.15" />
+			<item name="PlateCarrierHolster_Spur_Green" 	chance="0.20" />
+		</attachments>
+		<cargo preset="foodArmy" />
+		<cargo preset="mixArmy" />
+	</type>
+	<type name="Spur_CamelBag_Tan">
+		<attachments chance="1.00">
+			<item name="PersonalRadio" 		chance="0.35" />
+			<item name="Chemlight_Blue" 	chance="0.05" />
+			<item name="Chemlight_Green" 	chance="0.05" />
+			<item name="Chemlight_Red" 		chance="0.05" />
+			<item name="Chemlight_White" 	chance="0.05" />
+			<item name="Chemlight_yellow" 	chance="0.05" />
+			<item name="Spur_KnifeSheath_Tan" 	chance="0.15" />
+			<item name="PlateCarrierHolster_Spur_Tan" 	chance="0.20" />
+		</attachments>
+		<cargo preset="foodArmy" />
+		<cargo preset="mixArmy" />
+	</type>
+	<type name="Spur_CamelBag_WoodlandCamo">
+		<attachments chance="1.00">
+			<item name="PersonalRadio" 		chance="0.35" />
+			<item name="Chemlight_Blue" 	chance="0.05" />
+			<item name="Chemlight_Green" 	chance="0.05" />
+			<item name="Chemlight_Red" 		chance="0.05" />
+			<item name="Chemlight_White" 	chance="0.05" />
+			<item name="Chemlight_yellow" 	chance="0.05" />
+			<item name="Spur_KnifeSheath_Green" 	chance="0.15" />
+			<item name="PlateCarrierHolster_Spur_WoodlandCamo" 	chance="0.20" />
+		</attachments>
+		<cargo preset="foodArmy" />
+		<cargo preset="mixArmy" />
+	</type>
+	<type name="Spur_CamelBag_MultiCamo">
+		<attachments chance="1.00">
+			<item name="PersonalRadio" 		chance="0.35" />
+			<item name="Chemlight_Blue" 	chance="0.05" />
+			<item name="Chemlight_Green" 	chance="0.05" />
+			<item name="Chemlight_Red" 		chance="0.05" />
+			<item name="Chemlight_White" 	chance="0.05" />
+			<item name="Chemlight_yellow" 	chance="0.05" />
+			<item name="Spur_KnifeSheath_Green" 	chance="0.15" />
+			<item name="PlateCarrierHolster_Spur_MultiCamo" 	chance="0.20" />
+		</attachments>
+		<cargo preset="foodArmy" />
+		<cargo preset="mixArmy" />
+	</type>
+	<type name="Spur_CamelBag_WinterCamo">
+		<attachments chance="1.00">
+			<item name="PersonalRadio" 		chance="0.35" />
+			<item name="Chemlight_Blue" 	chance="0.05" />
+			<item name="Chemlight_Green" 	chance="0.05" />
+			<item name="Chemlight_Red" 		chance="0.05" />
+			<item name="Chemlight_White" 	chance="0.05" />
+			<item name="Chemlight_yellow" 	chance="0.05" />
+			<item name="Spur_KnifeSheath_Green" 	chance="0.15" />
+			<item name="PlateCarrierHolster_Spur_WinterCamo" 	chance="0.20" />
+		</attachments>
+		<cargo preset="foodArmy" />
+		<cargo preset="mixArmy" />
+	</type>
+	<type name="SmershBag_Spur_Green">
+		<cargo preset="mixArmy" />
+	</type>
+	<type name="SmershBag_Spur_Black">
+		<cargo preset="mixArmy" />
+	</type>
+	<type name="SmershBag_Spur_Tan">
+		<cargo preset="mixArmy" />
+	</type>
+	<type name="SmershBag_Spur_WoodlandCamo">
+		<cargo preset="mixArmy" />
+	</type>
+	<type name="SmershBag_Spur_MultiCamo">
+		<cargo preset="mixArmy" />
+	</type>
+	<type name="SmershBag_Spur_WinterCamo">
+		<cargo preset="mixArmy" />
+	</type>
+</spawnabletypes>

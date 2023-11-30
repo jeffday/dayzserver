@@ -1862,6 +1862,8 @@
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="clothes"/>
         <usage name="Military"/>
+        <value name="Tier3"/>
+        <value name="Tier4"/>
     </type>
     <type name="FOG_MRB_Belt_MC">
         <nominal>5</nominal>
@@ -1874,6 +1876,8 @@
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="clothes"/>
         <usage name="Military"/>
+        <value name="Tier3"/>
+        <value name="Tier4"/>
     </type>
     <type name="FOG_MRB_Belt_MCB">
         <nominal>0</nominal>
@@ -1886,6 +1890,8 @@
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="clothes"/>
         <usage name="Military"/>
+        <value name="Tier3"/>
+        <value name="Tier4"/>
     </type>
     <type name="FOG_MRB_Belt_RG">
         <nominal>0</nominal>
@@ -1898,6 +1904,8 @@
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="clothes"/>
         <usage name="Military"/>
+        <value name="Tier3"/>
+        <value name="Tier4"/>
     </type>
     <type name="FOG_MRB_Belt_AOR1">
         <nominal>5</nominal>
@@ -1910,6 +1918,8 @@
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="clothes"/>
         <usage name="Military"/>
+        <value name="Tier3"/>
+        <value name="Tier4"/>
     </type>
     <type name="FOG_MRB_Belt_AOR2">
         <nominal>0</nominal>
@@ -1922,6 +1932,8 @@
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="clothes"/>
         <usage name="Military"/>
+        <value name="Tier3"/>
+        <value name="Tier4"/>
     </type>
     <type name="FOG_MRB_Belt_ATACSAU">
         <nominal>0</nominal>
@@ -1934,6 +1946,8 @@
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="clothes"/>
         <usage name="Military"/>
+        <value name="Tier3"/>
+        <value name="Tier4"/>
     </type>
     <type name="FOG_MRB_Belt_Black">
         <nominal>0</nominal>
@@ -1946,6 +1960,8 @@
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="clothes"/>
         <usage name="Military"/>
+        <value name="Tier3"/>
+        <value name="Tier4"/>
     </type>
     <type name="FOG_MRB_Belt_6CD">
         <nominal>5</nominal>
@@ -1958,6 +1974,8 @@
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="clothes"/>
         <usage name="Military"/>
+        <value name="Tier3"/>
+        <value name="Tier4"/>
     </type>
     <type name="FOG_MRB_Belt_MCT">
         <nominal>0</nominal>
@@ -1970,6 +1988,8 @@
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="clothes"/>
         <usage name="Military"/>
+        <value name="Tier3"/>
+        <value name="Tier4"/>
     </type>
     <type name="FOG_SAS_Holster_Tan">
         <nominal>10</nominal>
@@ -5213,7 +5233,7 @@
 		<value name="Tier4"/>
     </type>
     <type name="FOG_Bag_SSO_Tan">
-        <nominal>2</nominal>
+        <nominal>3</nominal>
         <lifetime>14400</lifetime>
         <restock>3200</restock>
         <min>1</min>
@@ -5237,7 +5257,7 @@
         <usage name="Military"/>
     </type>
     <type name="FOG_Bag_SSO_MC">
-        <nominal>2</nominal>
+        <nominal>3</nominal>
         <lifetime>14400</lifetime>
         <restock>3200</restock>
         <min>1</min>
@@ -5249,7 +5269,7 @@
         <usage name="Military"/>
     </type>
     <type name="FOG_Bag_SSO_CB">
-        <nominal>2</nominal>
+        <nominal>3</nominal>
         <lifetime>14400</lifetime>
         <restock>3200</restock>
         <min>1</min>
@@ -5321,10 +5341,10 @@
         <usage name="Military"/>
     </type>
     <type name="FOG_Bag_Trizip_CB">
-        <nominal>2</nominal>
+        <nominal>6</nominal>
         <lifetime>14400</lifetime>
         <restock>3200</restock>
-        <min>1</min>
+        <min>2</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -5333,10 +5353,10 @@
         <usage name="Military"/>
     </type>
     <type name="FOG_Bag_Trizip_RGCB">
-        <nominal>2</nominal>
+        <nominal>6</nominal>
         <lifetime>14400</lifetime>
         <restock>3200</restock>
-        <min>1</min>
+        <min>2</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -5369,10 +5389,10 @@
         <usage name="Military"/>
     </type>
     <type name="FOG_Bag_Trizip_DCU">
-        <nominal>2</nominal>
+        <nominal>6</nominal>
         <lifetime>14400</lifetime>
         <restock>3200</restock>
-        <min>1</min>
+        <min>2</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -5393,10 +5413,10 @@
         <usage name="Military"/>
     </type>
     <type name="FOG_Bag_Trizip_MC">
-        <nominal>2</nominal>
+        <nominal>6</nominal>
         <lifetime>14400</lifetime>
         <restock>7200</restock>
-        <min>1</min>
+        <min>2</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
