@@ -37,7 +37,8 @@ void main()
         month = 7;
         day = 1;
 		
-		GetGame().GetWorld().SetDate( year, month, day, hour, minute );
+		// hardcode to 5 AM start so it's not balls hot when you first spawn
+		GetGame().GetWorld().SetDate( year, month, day, 5, minute );
 	}
 }
 
@@ -60,7 +61,7 @@ class CustomMission: MissionServer
 		if ( m_EventManager )
 		{
 			// min time between events, max time between events, max number of events at the same time
-			m_EventManager.Run( 900, 2700, 1 );
+			m_EventManager.Run( 3600, 7200, 1 );
 			// registering events and their probability
 			m_EventManager.RegisterEvent( Sandstorm, 1.0 );
 		}
