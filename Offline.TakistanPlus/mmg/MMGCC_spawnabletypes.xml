@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+
+<spawnabletypes>
+	<type name="mm_uni_sling_green">
+		<cargo preset="foodVillage" />
+		<cargo preset="toolsIndustrial" />
+		<cargo preset="mixHunter" />
+	</type>
+	<type name="mm_uni_sling_black">
+		<cargo preset="foodVillage" />
+		<cargo preset="toolsIndustrial" />
+		<cargo preset="mixHunter" />
+	</type>
+	<type name="mm_uni_sling_tan">
+		<cargo preset="foodVillage" />
+		<cargo preset="toolsIndustrial" />
+		<cargo preset="mixHunter" />
+	</type>
+	<type name="mm_uni_sling_tropic">
+		<cargo preset="foodVillage" />
+		<cargo preset="toolsIndustrial" />
+		<cargo preset="mixHunter" />
+	</type>
+	<type name="mm_commando_bag_green">
+		<cargo preset="foodArmy" />
+		<cargo preset="mixArmy" />
+	</type>
+	<type name="mm_commando_bag_khaki">
+		<cargo preset="foodArmy" />
+		<cargo preset="mixArmy" />
+	</type>
+	<type name="mm_commando_bag_black">
+		<cargo preset="foodArmy" />
+		<cargo preset="mixArmy" />
+	</type>
+	<type name="mm_commando_bag_ucp">
+		<cargo preset="foodArmy" />
+		<cargo preset="mixArmy" />
+	</type>
+    <type name="mm_commando_bag_nwu">
+		<cargo preset="foodArmy" />
+		<cargo preset="mixArmy" />
+	</type>
+    <type name="mm_commando_bag_tropic">
+		<cargo preset="foodArmy" />
+		<cargo preset="mixArmy" />
+	</type>
+    <type name="mm_commando_bag_desert">
+		<cargo preset="foodArmy" />
+		<cargo preset="mixArmy" />
+	</type>
+    <type name="mm_weapon_bag_custom_green">
+		<cargo preset="foodArmy" />
+		<cargo preset="mixArmy" />
+	</type>
+    <type name="mm_weapon_bag_custom_black">
+		<cargo preset="foodArmy" />
+		<cargo preset="mixArmy" />
+	</type>
+    <type name="mm_survival_pants_black">
+        <cargo preset="foodVillage" />
+		<cargo preset="toolsIndustrial" />
+	</type>
+    <type name="mm_survival_pants_blue">
+		<cargo preset="foodVillage" />
+		<cargo preset="toolsIndustrial" />
+	</type>
+    <type name="mm_padded_jeans_black">
+		<cargo preset="foodVillage" />
+		<cargo preset="toolsIndustrial" />
+	</type>
+    <type name="mm_padded_jeans_blue">
+		<cargo preset="foodVillage" />
+		<cargo preset="toolsIndustrial" />
+	</type>
+    <type name="mm_longsleeve_green">
+		<cargo preset="mixVillage" />
+	</type>
+    <type name="mm_longsleeve_black">
+		<cargo preset="mixVillage" />
+	</type>
+    <type name="mm_longsleeve_blue">
+		<cargo preset="mixVillage" />
+	</type>
+    <type name="mm_longsleeve_red">
+		<cargo preset="mixVillage" />
+	</type>
+    <type name="mm_longsleeve_white">
+		<cargo preset="mixVillage" />
+	</type>
+    <type name="mm_longsleeve_blue_yellow">
+		<cargo preset="mixVillage" />
+	</type>
+    <type name="mm_longsleeve_red_white">
+		<cargo preset="mixVillage" />
+	</type>
+    <type name="mm_longsleeve_white_blue">
+		<cargo preset="mixVillage" />
+	</type>
+    <type name="mm_hoodie_green">
+		<cargo preset="mixVillage" />
+	</type>
+    <type name="mm_hoodie_yellow">
+		<cargo preset="mixVillage" />
+	</type>
+    <type name="mm_hoodie_blue">
+		<cargo preset="mixVillage" />
+	</type>
+    <type name="mm_hoodie_black">
+		<cargo preset="mixVillage" />
+	</type>
+    <type name="mm_hoodie_hooded_green">
+		<cargo preset="mixVillage" />
+	</type>
+    <type name="mm_hoodie_hooded_yellow">
+		<cargo preset="mixVillage" />
+	</type>
+    <type name="mm_hoodie_hooded_blue">
+		<cargo preset="mixVillage" />
+	</type>
+    <type name="mm_hoodie_hooded_black">
+		<cargo preset="mixVillage" />
+	</type>
+    <type name="mm_winter_jacket_green">
+		<cargo preset="mixVillage" />
+	</type>
+    <type name="mm_winter_jacket_black">
+		<cargo preset="mixVillage" />
+	</type>
+    <type name="mm_winter_jacket_yellow">
+		<cargo preset="mixVillage" />
+	</type>
+    <type name="mm_winter_jacket_red">
+		<cargo preset="mixVillage" />
+	</type>
+    <type name="mm_winter_jacket_blue">
+		<cargo preset="mixVillage" />
+	</type>
+</spawnabletypes>
