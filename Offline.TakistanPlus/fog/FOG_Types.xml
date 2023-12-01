@@ -6,6 +6,497 @@
 <!-- \\                                                       \\ -->
 <!-- \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ -->
 <types>
+<!-- Types 1.6 -->
+<type name="FOG_Crye_G3_Shirt_RG_BlackTrim">
+    <nominal>0</nominal>
+    <lifetime>3200</lifetime>
+    <restock>0</restock>
+    <min>0</min>
+    <quantmin>-1</quantmin>
+    <quantmax>-1</quantmax>
+    <cost>100</cost>
+    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+    <category name="clothes" />
+    <usage name="Military"/>
+</type>
+<type name="FOG_Crye_G3_Shirt_MC_FRACU">
+    <nominal>2</nominal>
+    <restock>600</restock>
+    <lifetime>28800</lifetime>
+    <min>1</min>
+    <quantmin>-1</quantmin>
+    <quantmax>-1</quantmax>
+    <cost>100</cost>
+    <flags count_in_hoarder="0" count_in_player="0" count_in_map="1" count_in_cargo="0" crafted="0" deloot="0"/>
+    <category name="clothes"/>
+    <usage name="Military"/>
+    <value name="Tier3"/>
+    <value name="Tier4"/>
+</type>
+<type name="FOG_Crye_G3_Shirt_MC_BlackTrim">
+    <nominal>2</nominal>
+    <restock>600</restock>
+    <lifetime>28800</lifetime>
+    <min>1</min>
+    <quantmin>-1</quantmin>
+    <quantmax>-1</quantmax>
+    <cost>100</cost>
+    <flags count_in_hoarder="0" count_in_player="0" count_in_map="1" count_in_cargo="0" crafted="0" deloot="0"/>
+    <category name="clothes"/>
+    <usage name="Military"/>
+    <value name="Tier3"/>
+    <value name="Tier4"/>
+</type>
+<type name="FOG_Crye_G3_Shirt_MC_Patagonia">
+    <nominal>2</nominal>
+    <restock>600</restock>
+    <lifetime>28800</lifetime>
+    <min>1</min>
+    <quantmin>-1</quantmin>
+    <quantmax>-1</quantmax>
+    <cost>100</cost>
+    <flags count_in_hoarder="0" count_in_player="0" count_in_map="1" count_in_cargo="0" crafted="0" deloot="0"/>
+    <category name="clothes"/>
+    <usage name="Military"/>
+    <value name="Tier3"/>
+    <value name="Tier4"/>
+</type>
+<type name="FOG_Crye_G2_Shirt_MC">
+    <nominal>2</nominal>
+    <restock>600</restock>
+    <lifetime>28800</lifetime>
+    <min>1</min>
+    <quantmin>-1</quantmin>
+    <quantmax>-1</quantmax>
+    <cost>100</cost>
+    <flags count_in_hoarder="0" count_in_player="0" count_in_map="1" count_in_cargo="0" crafted="0" deloot="0"/>
+    <category name="clothes"/>
+    <usage name="Military"/>
+    <value name="Tier3"/>
+    <value name="Tier4"/>
+</type>
+<type name="FOG_Crye_G3_Shirt_Blue">
+    <nominal>0</nominal>
+    <lifetime>3200</lifetime>
+    <restock>0</restock>
+    <min>0</min>
+    <quantmin>-1</quantmin>
+    <quantmax>-1</quantmax>
+    <cost>100</cost>
+    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+    <category name="clothes" />
+    <usage name="Military"/>
+</type>
+<type name="FOG_Crye_G3_Shirt_AMCU">
+    <nominal>0</nominal>
+    <lifetime>3200</lifetime>
+    <restock>0</restock>
+    <min>0</min>
+    <quantmin>-1</quantmin>
+    <quantmax>-1</quantmax>
+    <cost>100</cost>
+    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+    <category name="clothes" />
+    <usage name="Military"/>
+</type>
+<type name="FOG_Crye_G3_Shirt_ALPF">
+    <nominal>0</nominal>
+    <lifetime>3200</lifetime>
+    <restock>0</restock>
+    <min>0</min>
+    <quantmin>-1</quantmin>
+    <quantmax>-1</quantmax>
+    <cost>100</cost>
+    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+    <category name="clothes" />
+    <usage name="Military"/>
+</type>
+<type name="FOG_Crye_G3_Shirt_DNC">
+    <nominal>0</nominal>
+    <lifetime>3200</lifetime>
+    <restock>0</restock>
+    <min>0</min>
+    <quantmin>-1</quantmin>
+    <quantmax>-1</quantmax>
+    <cost>100</cost>
+    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+    <category name="clothes" />
+    <usage name="Military"/>
+</type>
+<type name="FOG_Crye_G3_Shirt_DPM">
+    <nominal>0</nominal>
+    <lifetime>3200</lifetime>
+    <restock>0</restock>
+    <min>0</min>
+    <quantmin>-1</quantmin>
+    <quantmax>-1</quantmax>
+    <cost>100</cost>
+    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+    <category name="clothes" />
+    <usage name="Military"/>
+</type>
+<type name="FOG_Crye_G3_Shirt_ERDL_Red">
+    <nominal>0</nominal>
+    <lifetime>3200</lifetime>
+    <restock>0</restock>
+    <min>0</min>
+    <quantmin>-1</quantmin>
+    <quantmax>-1</quantmax>
+    <cost>100</cost>
+    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+    <category name="clothes" />
+    <usage name="Military"/>
+</type>
+<type name="FOG_Crye_G3_Shirt_KHK">
+    <nominal>2</nominal>
+    <restock>600</restock>
+    <lifetime>28800</lifetime>
+    <min>1</min>
+    <quantmin>-1</quantmin>
+    <quantmax>-1</quantmax>
+    <cost>100</cost>
+    <flags count_in_hoarder="0" count_in_player="0" count_in_map="1" count_in_cargo="0" crafted="0" deloot="0"/>
+    <category name="clothes"/>
+    <usage name="Military"/>
+    <value name="Tier3"/>
+    <value name="Tier4"/>
+</type>
+<type name="FOG_Crye_G3_Shirt_Pantera">
+    <nominal>0</nominal>
+    <lifetime>3200</lifetime>
+    <restock>0</restock>
+    <min>0</min>
+    <quantmin>-1</quantmin>
+    <quantmax>-1</quantmax>
+    <cost>100</cost>
+    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+    <category name="clothes" />
+    <usage name="Military"/>
+</type>
+<type name="FOG_Crye_G3_Shirt_BTGR">
+    <nominal>0</nominal>
+    <lifetime>3200</lifetime>
+    <restock>0</restock>
+    <min>0</min>
+    <quantmin>-1</quantmin>
+    <quantmax>-1</quantmax>
+    <cost>100</cost>
+    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+    <category name="clothes" />
+    <usage name="Military"/>
+</type>
+<type name="FOG_Crye_G3_Shirt_KBTGR">
+    <nominal>0</nominal>
+    <lifetime>3200</lifetime>
+    <restock>0</restock>
+    <min>0</min>
+    <quantmin>-1</quantmin>
+    <quantmax>-1</quantmax>
+    <cost>100</cost>
+    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+    <category name="clothes" />
+    <usage name="Military"/>
+</type>
+<type name="FOG_Crye_G3_Shirt_RTGR">
+    <nominal>0</nominal>
+    <lifetime>3200</lifetime>
+    <restock>0</restock>
+    <min>0</min>
+    <quantmin>-1</quantmin>
+    <quantmax>-1</quantmax>
+    <cost>100</cost>
+    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+    <category name="clothes" />
+    <usage name="Military"/>
+</type>
+<type name="FOG_Crye_G3_Shirt_UCP">
+    <nominal>0</nominal>
+    <lifetime>3200</lifetime>
+    <restock>0</restock>
+    <min>0</min>
+    <quantmin>-1</quantmin>
+    <quantmax>-1</quantmax>
+    <cost>100</cost>
+    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+    <category name="clothes" />
+    <usage name="Military"/>
+</type>
+<type name="FOG_Pants_Crye_G3_ALPF">
+    <nominal>0</nominal>
+    <lifetime>3200</lifetime>
+    <restock>0</restock>
+    <min>0</min>
+    <quantmin>-1</quantmin>
+    <quantmax>-1</quantmax>
+    <cost>100</cost>
+    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+    <category name="clothes" />
+    <usage name="Military"/>
+</type>
+<type name="FOG_Pants_Crye_G3_AMCU">
+    <nominal>0</nominal>
+    <lifetime>3200</lifetime>
+    <restock>0</restock>
+    <min>0</min>
+    <quantmin>-1</quantmin>
+    <quantmax>-1</quantmax>
+    <cost>100</cost>
+    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+    <category name="clothes" />
+    <usage name="Military"/>
+</type>
+<type name="FOG_Pants_Crye_G3_Blue">
+    <nominal>0</nominal>
+    <lifetime>3200</lifetime>
+    <restock>0</restock>
+    <min>0</min>
+    <quantmin>-1</quantmin>
+    <quantmax>-1</quantmax>
+    <cost>100</cost>
+    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+    <category name="clothes" />
+    <usage name="Military"/>
+</type>
+<type name="FOG_Pants_Crye_G3_DNC">
+    <nominal>0</nominal>
+    <lifetime>3200</lifetime>
+    <restock>0</restock>
+    <min>0</min>
+    <quantmin>-1</quantmin>
+    <quantmax>-1</quantmax>
+    <cost>100</cost>
+    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+    <category name="clothes" />
+    <usage name="Military"/>
+</type>
+<type name="FOG_Pants_Crye_G3_DPM">
+    <nominal>0</nominal>
+    <lifetime>3200</lifetime>
+    <restock>0</restock>
+    <min>0</min>
+    <quantmin>-1</quantmin>
+    <quantmax>-1</quantmax>
+    <cost>100</cost>
+    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+    <category name="clothes" />
+    <usage name="Military"/>
+</type>
+<type name="FOG_Pants_Crye_G3_ERDL_RED">
+    <nominal>0</nominal>
+    <lifetime>3200</lifetime>
+    <restock>0</restock>
+    <min>0</min>
+    <quantmin>-1</quantmin>
+    <quantmax>-1</quantmax>
+    <cost>100</cost>
+    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+    <category name="clothes" />
+    <usage name="Military"/>
+</type>
+<type name="FOG_Pants_Crye_G3_KHK">
+    <nominal>5</nominal>
+    <lifetime>14400</lifetime>
+    <restock>600</restock>
+    <min>2</min>
+    <quantmin>-1</quantmin>
+    <quantmax>-1</quantmax>
+    <cost>100</cost>
+    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+    <category name="clothes"/>
+    <usage name="Military"/>
+</type>
+<type name="FOG_Pants_Crye_G3_MC_BlackTrim">
+    <nominal>5</nominal>
+    <lifetime>14400</lifetime>
+    <restock>600</restock>
+    <min>2</min>
+    <quantmin>-1</quantmin>
+    <quantmax>-1</quantmax>
+    <cost>100</cost>
+    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+    <category name="clothes"/>
+    <usage name="Military"/>
+</type>
+<type name="FOG_Pants_Crye_G3_MC_FRACU">
+    <nominal>5</nominal>
+    <lifetime>14400</lifetime>
+    <restock>600</restock>
+    <min>2</min>
+    <quantmin>-1</quantmin>
+    <quantmax>-1</quantmax>
+    <cost>100</cost>
+    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+    <category name="clothes"/>
+    <usage name="Military"/>
+</type>
+<type name="FOG_Pants_Crye_G3_Pantera">
+    <nominal>0</nominal>
+    <lifetime>3200</lifetime>
+    <restock>0</restock>
+    <min>0</min>
+    <quantmin>-1</quantmin>
+    <quantmax>-1</quantmax>
+    <cost>100</cost>
+    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+    <category name="clothes" />
+    <usage name="Military"/>
+</type>
+<type name="FOG_Pants_Crye_G3_RG_BlackTrim">
+    <nominal>0</nominal>
+    <lifetime>3200</lifetime>
+    <restock>0</restock>
+    <min>0</min>
+    <quantmin>-1</quantmin>
+    <quantmax>-1</quantmax>
+    <cost>100</cost>
+    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+    <category name="clothes" />
+    <usage name="Military"/>
+</type>
+<type name="FOG_Pants_Crye_G3_BTGR">
+    <nominal>0</nominal>
+    <lifetime>3200</lifetime>
+    <restock>0</restock>
+    <min>0</min>
+    <quantmin>-1</quantmin>
+    <quantmax>-1</quantmax>
+    <cost>100</cost>
+    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+    <category name="clothes" />
+    <usage name="Military"/>
+</type>
+<type name="FOG_Pants_Crye_G3_RTGR">
+    <nominal>0</nominal>
+    <lifetime>3200</lifetime>
+    <restock>0</restock>
+    <min>0</min>
+    <quantmin>-1</quantmin>
+    <quantmax>-1</quantmax>
+    <cost>100</cost>
+    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+    <category name="clothes" />
+    <usage name="Military"/>
+</type>
+<type name="FOG_Pants_Crye_G3_KBTGR">
+    <nominal>0</nominal>
+    <lifetime>3200</lifetime>
+    <restock>0</restock>
+    <min>0</min>
+    <quantmin>-1</quantmin>
+    <quantmax>-1</quantmax>
+    <cost>100</cost>
+    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+    <category name="clothes" />
+    <usage name="Military"/>
+</type>
+<type name="FOG_Pants_Crye_G3_UCP">
+    <nominal>0</nominal>
+    <lifetime>3200</lifetime>
+    <restock>0</restock>
+    <min>0</min>
+    <quantmin>-1</quantmin>
+    <quantmax>-1</quantmax>
+    <cost>100</cost>
+    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+    <category name="clothes" />
+    <usage name="Military"/>
+</type>
+<type name="FOG_Big_Patch_FOG_BB">
+    <nominal>0</nominal>
+    <lifetime>3200</lifetime>
+    <restock>0</restock>
+    <min>0</min>
+    <quantmin>-1</quantmin>
+    <quantmax>-1</quantmax>
+    <cost>100</cost>
+    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+    <category name="clothes" />
+    <usage name="Military"/>
+</type>
+<type name="FOG_Big_Patch_FOG_BB_EMB">
+    <nominal>0</nominal>
+    <lifetime>3200</lifetime>
+    <restock>0</restock>
+    <min>0</min>
+    <quantmin>-1</quantmin>
+    <quantmax>-1</quantmax>
+    <cost>100</cost>
+    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+    <category name="clothes" />
+    <usage name="Military"/>
+</type>
+<type name="FOG_Big_Patch_JTAC">
+    <nominal>0</nominal>
+    <lifetime>3200</lifetime>
+    <restock>0</restock>
+    <min>0</min>
+    <quantmin>-1</quantmin>
+    <quantmax>-1</quantmax>
+    <cost>100</cost>
+    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+    <category name="clothes" />
+    <usage name="Military"/>
+</type>
+<type name="FOG_Big_Patch_FBI">
+    <nominal>0</nominal>
+    <lifetime>3200</lifetime>
+    <restock>0</restock>
+    <min>0</min>
+    <quantmin>-1</quantmin>
+    <quantmax>-1</quantmax>
+    <cost>100</cost>
+    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+    <category name="clothes" />
+    <usage name="Military"/>
+</type>
+<type name="FOG_Big_Patch_Medic">
+    <nominal>0</nominal>
+    <lifetime>3200</lifetime>
+    <restock>0</restock>
+    <min>0</min>
+    <quantmin>-1</quantmin>
+    <quantmax>-1</quantmax>
+    <cost>100</cost>
+    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+    <category name="clothes" />
+    <usage name="Military"/>
+</type>
+<type name="FOG_Big_Patch_Shaka">
+    <nominal>0</nominal>
+    <lifetime>3200</lifetime>
+    <restock>0</restock>
+    <min>0</min>
+    <quantmin>-1</quantmin>
+    <quantmax>-1</quantmax>
+    <cost>100</cost>
+    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+    <category name="clothes" />
+    <usage name="Military"/>
+</type>
+<type name="FOG_Big_Patch_SOG">
+    <nominal>0</nominal>
+    <lifetime>3200</lifetime>
+    <restock>0</restock>
+    <min>0</min>
+    <quantmin>-1</quantmin>
+    <quantmax>-1</quantmax>
+    <cost>100</cost>
+    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+    <category name="clothes" />
+    <usage name="Military"/>
+</type>
+<type name="FOG_Big_Patch_TACP">
+    <nominal>0</nominal>
+    <lifetime>3200</lifetime>
+    <restock>0</restock>
+    <min>0</min>
+    <quantmin>-1</quantmin>
+    <quantmax>-1</quantmax>
+    <cost>100</cost>
+    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+    <category name="clothes" />
+    <usage name="Military"/>
+</type>
 <!-- Types 1.5.1 -->
 <type name="FOG_Vest_D3CRX_CB">
     <nominal>10</nominal>
