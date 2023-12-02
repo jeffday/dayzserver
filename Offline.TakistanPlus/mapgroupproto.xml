@@ -19250,4 +19250,64 @@
 						<proxy type="Sedan_02_Hood_RedRust" pos="-1.608 0.395 -0.174" rpy="0.0 180.0 90.0" />
 				</dispatch>
 		</group>
+		<group name="StaticObj_Misc_SupplyBox1_DE" lootmax="8">
+			<usage name="Military" />
+			<usage name="Village" />
+			<usage name="Town" />
+			<container name="lootFloor">
+					<category name="food" />
+					<tag name="floor" />
+					<tag name="ground" />
+					<point pos="-0.466845 -0.577179 -1.298379" range="0.280357" height="0.700892" flags="32" />
+					<point pos="0.084186 -0.644623 1.159460" range="0.739037" height="0.162445" flags="32" />
+					<point pos="-1.035482 -0.653107 0.301545" range="0.406250" height="1.015625" flags="32" />
+					<point pos="0.310169 -0.593872 -1.174397" range="0.444704" height="1.111755" flags="32" />
+					<point pos="-1.153436 -0.605530 -0.597895" range="0.502139" height="2.000000" flags="32" />
+					<point pos="0.906094 -0.628113 0.677857" range="0.213721" height="0.534301" flags="32" />
+					<point pos="0.864444 -0.620605 -0.197463" range="0.258789" height="0.646973" flags="32" />
+					<point pos="-0.229351 0.550568 -0.329906" range="0.443750" height="1.109375" />
+					<point pos="0.403208 0.561493 -0.224684" range="0.197594" height="0.686218" />
+					<point pos="-0.139909 0.552948 0.399432" range="0.291055" height="0.851563" />
+					<point pos="0.345056 0.561157 0.339634" range="0.369713" height="0.937500" />
+			</container>
+		</group>
+		<group name="StaticObj_Misc_SupplyBox2_DE" lootmax="8">
+			<usage name="Military" />
+			<container name="lootFloor">
+					<category name="weapons" />
+					<tag name="floor" />
+					<tag name="ground" />
+					<point pos="0.002854 0.438721 0.542980" range="0.134375" height="0.335938" />
+					<point pos="0.010212 0.431763 -0.010903" range="0.409375" height="1.023438" />
+					<point pos="-0.190548 0.425385 -0.506625" range="0.125495" height="0.335938" />
+					<point pos="0.087892 -0.884277 1.071619" range="0.304182" height="0.760455" flags="32" />
+					<point pos="-0.655645 -0.890137 0.651234" range="0.158478" height="0.396195" flags="32" />
+					<point pos="-0.747071 -0.899292 -0.072718" range="0.251009" height="0.627523" flags="32" />
+					<point pos="-0.699315 -0.908264 -0.791738" range="0.259988" height="0.100006" flags="32" />
+					<point pos="0.011688 -0.910675 -1.026367" range="0.280357" height="0.100006" flags="32" />
+					<point pos="0.713865 -0.907501 -0.818310" range="0.243164" height="0.607910" flags="32" />
+					<point pos="0.735190 -0.892029 0.413747" range="0.222352" height="0.555878" flags="32" />
+					<point pos="0.878849 -0.900024 -0.231583" range="0.366364" height="0.920135" flags="32" />
+			</container>
+		</group>
+		<group name="StaticObj_Misc_SupplyBox3_DE" lootmax="8">
+			<usage name="Medic" />
+			<container name="lootFloor">
+					<category name="clothes" />
+					<category name="tools" />
+					<tag name="floor" />
+					<tag name="ground" />
+					<point pos="0.002854 0.438721 0.542980" range="0.134375" height="0.335938" />
+					<point pos="0.010212 0.431763 -0.010903" range="0.409375" height="1.023438" />
+					<point pos="-0.190548 0.425385 -0.506625" range="0.125495" height="0.335938" />
+					<point pos="0.087892 -0.884277 1.071619" range="0.304182" height="0.760455" flags="32" />
+					<point pos="-0.655645 -0.890137 0.651234" range="0.158478" height="0.396195" flags="32" />
+					<point pos="-0.747071 -0.899292 -0.072718" range="0.251009" height="0.627523" flags="32" />
+					<point pos="-0.699315 -0.908264 -0.791738" range="0.259988" height="0.100006" flags="32" />
+					<point pos="0.011688 -0.910675 -1.026367" range="0.280357" height="0.100006" flags="32" />
+					<point pos="0.713865 -0.907501 -0.818310" range="0.243164" height="0.607910" flags="32" />
+					<point pos="0.735190 -0.892029 0.413747" range="0.222352" height="0.555878" flags="32" />
+					<point pos="0.878849 -0.900024 -0.231583" range="0.366364" height="0.920135" flags="32" />
+			</container>
+		</group>
 </prototype>
