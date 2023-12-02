@@ -11,7 +11,6 @@
 		<flags count_in_hoarder="0" count_in_player="0" count_in_map="1" count_in_cargo="0" crafted="0" deloot="0"/>
 		<category name="containers"/>
 		<usage name="Village"/>
-		<value name="Tier2"/>
 		<value name="Tier3"/>
 		<value name="Tier4"/>
     </type>
@@ -27,24 +26,22 @@
         <category name="containers"/>
         <usage name="Town"/>
         <usage name="Village"/>
-        <value name="Tier2"/>
         <value name="Tier3"/>
         <value name="Tier4"/>
     </type>
     <type name="Spur_LW_Bag_Brown">
-		<nominal>0</nominal>
-		<restock>0</restock>
-		<lifetime>28800</lifetime>
-		<min>0</min>
-		<quantmin>-1</quantmin>
-		<quantmax>-1</quantmax>
-		<cost>100</cost>
-		<flags count_in_hoarder="0" count_in_player="0" count_in_map="1" count_in_cargo="0" crafted="0" deloot="0"/>
-		<category name="containers"/>
-		<usage name="Village"/>
-		<value name="Tier2"/>
-		<value name="Tier3"/>
-		<value name="Tier4"/>
+        <nominal>5</nominal>
+        <lifetime>28800</lifetime>
+        <restock>0</restock>
+        <min>3</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="containers"/>
+        <usage name="Village"/>
+        <value name="Tier3"/>
+        <value name="Tier4"/>
     </type>
     <type name="Spur_LW_Bag_Green">
 		<nominal>0</nominal>
@@ -57,24 +54,22 @@
 		<flags count_in_hoarder="0" count_in_player="0" count_in_map="1" count_in_cargo="0" crafted="0" deloot="0"/>
 		<category name="containers"/>
 		<usage name="Village"/>
-		<value name="Tier2"/>
 		<value name="Tier3"/>
 		<value name="Tier4"/>
     </type>
     <type name="Spur_LW_Bag_Grey">
-		<nominal>0</nominal>
-		<restock>0</restock>
-		<lifetime>28800</lifetime>
-		<min>0</min>
-		<quantmin>-1</quantmin>
-		<quantmax>-1</quantmax>
-		<cost>100</cost>
-		<flags count_in_hoarder="0" count_in_player="0" count_in_map="1" count_in_cargo="0" crafted="0" deloot="0"/>
-		<category name="containers"/>
-		<usage name="Village"/>
-		<value name="Tier2"/>
-		<value name="Tier3"/>
-		<value name="Tier4"/>
+        <nominal>5</nominal>
+        <lifetime>28800</lifetime>
+        <restock>0</restock>
+        <min>3</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="containers"/>
+        <usage name="Village"/>
+        <value name="Tier3"/>
+        <value name="Tier4"/>
     </type>
     <type name="Spur_LW_Bag_Orange">
         <nominal>0</nominal>
@@ -88,7 +83,6 @@
         <category name="containers"/>
         <usage name="Town"/>
         <usage name="Village"/>
-        <value name="Tier2"/>
         <value name="Tier3"/>
         <value name="Tier4"/>
     </type>
@@ -104,7 +98,6 @@
         <category name="containers"/>
         <usage name="Town"/>
         <usage name="Village"/>
-        <value name="Tier2"/>
         <value name="Tier3"/>
         <value name="Tier4"/>
     </type>
@@ -120,7 +113,6 @@
         <category name="containers"/>
         <usage name="Town"/>
         <usage name="Village"/>
-        <value name="Tier2"/>
         <value name="Tier3"/>
         <value name="Tier4"/>
     </type>
