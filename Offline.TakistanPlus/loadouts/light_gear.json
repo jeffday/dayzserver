@@ -21,7 +21,9 @@
                 "simpleChildrenUseDefaultAttributes":true,
                 "simpleChildrenTypes":[
                     "AmmoBox_9x19_25rnd",
-                    "AmmoBox_9x19_25rnd"
+                    "AmmoBox_9x19_25rnd",
+                    "BO_Mag_Beretta_15rnd",
+                    "BO_Mag_Beretta_15rnd"
                 ]
              },
              {
@@ -37,7 +39,9 @@
                 "simpleChildrenUseDefaultAttributes":true,
                 "simpleChildrenTypes":[
                     "AmmoBox_9x19_25rnd",
-                    "AmmoBox_9x19_25rnd"
+                    "AmmoBox_9x19_25rnd",
+                    "BO_Mag_Beretta_15rnd",
+                    "BO_Mag_Beretta_15rnd"
                 ]
              },
              {
@@ -53,7 +57,9 @@
                 "simpleChildrenUseDefaultAttributes":true,
                 "simpleChildrenTypes":[
                     "AmmoBox_9x19_25rnd",
-                    "AmmoBox_9x19_25rnd"
+                    "AmmoBox_9x19_25rnd",
+                    "BO_Mag_Beretta_15rnd",
+                    "BO_Mag_Beretta_15rnd"
                 ]
              }
           ]
@@ -208,6 +214,22 @@
              },
              {
                 "itemType":"CDAJ_Mechanix_Gloves_MC",
+                "spawnWeight":1,
+                "attributes":{
+                   "healthMin":1.0,
+                   "healthMax":1.0,
+                   "quantityMin":1.0,
+                   "quantityMax":1.0
+                },
+                "quickBarSlot":-1
+             }
+          ]
+       },
+       {
+          "slotName":"Mask",
+          "discreteItemSets":[
+             {
+                "itemType":"mm_neck_gaiter_khaki",
                 "spawnWeight":1,
                 "attributes":{
                    "healthMin":1.0,
@@ -425,7 +447,7 @@
                         "quickBarSlot": -1,
                         "complexChildrenTypes": [
                             {
-                                "itemType": "TWM_P320",
+                                "itemType": "BO_Beretta_Desert",
                                 "attributes": {
                                     "healthMin": 1.0,
                                     "healthMax": 1.0,
@@ -435,7 +457,7 @@
                                 "quickBarSlot": 2,
                                 "simpleChildrenUseDefaultAttributes":false,
                                 "simpleChildrenTypes":[
-                                   "TWM_Mag_P320"
+                                   "BO_Mag_Beretta_15rnd"
                                 ]
                             }                                             
                         ]
@@ -528,21 +550,21 @@
                       },
                       "quickBarSlot": -1,
                       "complexChildrenTypes": [
-                          {
-                              "itemType": "TWM_Glock18_Tan",
-                              "attributes": {
-                                  "healthMin": 1.0,
-                                  "healthMax": 1.0,
-                                  "quantityMin": 1.0,
-                                  "quantityMax": 1.0
-                              },
-                              "quickBarSlot": 2,
-                              "simpleChildrenUseDefaultAttributes":false,
-                              "simpleChildrenTypes":[
-                                 "TWM_Mag_Glock18"
-                              ]
-                          }                                             
-                      ]
+                        {
+                            "itemType": "BO_Beretta_Desert",
+                            "attributes": {
+                                "healthMin": 1.0,
+                                "healthMax": 1.0,
+                                "quantityMin": 1.0,
+                                "quantityMax": 1.0
+                            },
+                            "quickBarSlot": 2,
+                            "simpleChildrenUseDefaultAttributes":false,
+                            "simpleChildrenTypes":[
+                               "BO_Mag_Beretta_15rnd"
+                            ]
+                        }                                             
+                    ]
                   },
                   {
                    "itemType": "FOG_Pouch_LBT_MC",
