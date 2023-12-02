@@ -734,7 +734,7 @@
         <group name="Land_House_L_3_EP1" >
 			<usage name="Town" />
 			<usage name="Village" />				
-			<container name="lootweapons" lootmax="3">
+			<container name="lootweapons" lootmax="5">
 						<category name="clothes" />
 						<category name="food" />
 						<category name="tools" />
@@ -749,7 +749,7 @@
         <group name="Land_House_L_4_EP1" >
 			<usage name="Town" />
 			<usage name="Village" />				
-			<container name="lootweapons" lootmax="3">
+			<container name="lootweapons" lootmax="4">
 						<category name="clothes" />
 						<category name="food" />
 						<category name="tools" />
@@ -760,10 +760,10 @@
 						<point pos="2.325296 -1.273727 -0.378128" range="0.5" height="1.5" /> 
 			</container>			
 		</group>	
-        <group name="Land_House_L_6_EP1" >
+        <group name="Land_House_L_6_EP1" lootmax="9">
 			<usage name="Town" />
 			<usage name="Village" />				
-			<container name="lootweapons" lootmax="3">
+			<container name="lootweapons" lootmax="5">
 						<category name="clothes" />
 						<category name="weapons" />
 						<tag name="floor" />
@@ -773,7 +773,7 @@
 						<point pos="-0.152073 -1.510440 -2.685043" range="0.5" height="1.5" /> 
 						<point pos="1.779436 1.279560 -5.829195" range="0.5" height="1.5" /> 
 			</container>
-			<container name="lootShelves" lootmax="2">
+			<container name="lootShelves" lootmax="4">
 						<category name="tools" />
 						<category name="food" />
 						<category name="explosives" />
@@ -786,10 +786,10 @@
 						<point pos="-0.312330 -0.655995 -6.208570" range="0.5" height="1.5" /> 
 			</container>
 		</group>	
-        <group name="Land_House_L_7_EP1" >
+        <group name="Land_House_L_7_EP1" lootmax="9">
 			<usage name="Town" />
 			<usage name="Village" />				
-			<container name="lootFloor" lootmax="3">
+			<container name="lootFloor" lootmax="4">
 						<category name="clothes" />
 						<category name="food" />
 						<tag name="floor" />
@@ -798,7 +798,7 @@
 						<point pos="0.398804 -0.168899 -1.642602" range="0.5" height="1.5" /> 
 						<point pos="0.098336 -0.166945 -5.078428" range="0.5" height="1.5" /> 
 			</container>
-			<container name="lootweapons" lootmax="2">
+			<container name="lootweapons" lootmax="5">
 						<category name="tools" />
 						<category name="food" />
 						<category name="weapons" />			
@@ -809,10 +809,10 @@
 						<point pos="1.138213 0.100684 -3.409399" range="0.5" height="1.5" /> 
 			</container>
 		</group>
-        <group name="Land_House_L_8_EP1" >
+        <group name="Land_House_L_8_EP1" lootmax="7">
 			<usage name="Town" />
 			<usage name="Village" />				
-			<container name="lootweapons" lootmax="3">
+			<container name="lootweapons" lootmax="4">
 						<category name="clothes" />
 						<category name="weapons" />
 						<point pos="2.032557 -1.086561 2.808373" range="0.5" height="1.5" /> 
@@ -820,7 +820,7 @@
 						<point pos="3.341133 1.734780 -5.542116" range="0.5" height="1.5" /> 
 						<point pos="4.513103 1.667114 1.671332" range="0.5" height="1.5" /> 
 			</container>
-            <container name="lootShelves" lootmax="2">
+            <container name="lootShelves" lootmax="3">
 						<category name="tools" />
 						<category name="food" />
 						<category name="explosives" />
@@ -847,7 +847,7 @@
         <group name="Land_House_K_1_EP1" >
 			<usage name="Town" />
 			<usage name="Village" />				
-			<container name="lootweapons" lootmax="3">
+			<container name="lootweapons" lootmax="6">
 						<category name="clothes" />
 						<category name="food" />
 						<category name="tools" />
@@ -861,10 +861,10 @@
 						<point pos="3.887897 1.564820 0.931285" range="0.5" height="1.5" /> 
 			</container>
 		</group>	
-		<group name="Land_House_K_3_EP1">
+		<group name="Land_House_K_3_EP1" lootmax="9">
 			<usage name="Town" />
 			<usage name="Village" />
-			<container name="lootweapons" lootmax="3">
+			<container name="lootweapons" lootmax="5">
 			            <category name="clothes" />
 						<category name="food" />
 						<category name="weapons" />
@@ -877,7 +877,7 @@
 						<point pos="-3.424393 3.110483 0.231106" range="0.5" height="1.5" /> 
 						<point pos="0.376330 2.076779 4.273373" range="0.5" height="1.5" />  
 			</container>
-			<container name="lootShelves" lootmax="2">
+			<container name="lootShelves" lootmax="4">
 						<category name="tools" />
 						<category name="explosives" />
 						<tag name="Shelves" />							
@@ -908,10 +908,10 @@
 						<point pos="2.447359 2.339254 -5.185213" range="0.5" height="1.5" /> 
 			</container>
 		</group>
-        <group name="Land_House_K_6_EP1" >
+        <group name="Land_House_K_6_EP1" lootmax="11">
 					<usage name="Town" />
 					<usage name="Village" />
-			<container name="lootweapons" lootmax="3">
+			<container name="lootweapons" lootmax="8">
 			            <category name="clothes" />
 						<category name="weapons" />
 						<point pos="3.704194 -1.930981 2.542963" range="0.5" height="1.5" /> 
@@ -931,7 +931,7 @@
 						<point pos="0.066056 7.031115 -2.019093" range="0.5" height="1.5" /> 
 						<point pos="-2.947009 6.995909 -0.131070" range="0.5" height="1.5" /> 
 			</container>
-			<container name="lootShelves" lootmax="2">
+			<container name="lootShelves" lootmax="3">
 						<category name="tools" />
 						<category name="food" />
 						<category name="explosives" />
@@ -943,10 +943,10 @@
 						<point pos="-0.440210 4.575235 1.651509" range="0.5" height="1.5" /> 
 			</container>
 		</group>
-        <group name="Land_House_K_7_EP1" >
+        <group name="Land_House_K_7_EP1" lootmax="9">
 	                    <usage name="Town" />
 						<usage name="Village" />
-			<container name="lootweapons" lootmax="4">
+			<container name="lootweapons" lootmax="6">
 			            <category name="clothes" />
 						<category name="food" />
 						<category name="weapons" />
@@ -960,7 +960,7 @@
 						<point pos="-0.593246 6.444057 2.132116" range="0.5" height="1.5" /> 
 						<point pos="-1.323395 6.444057 5.328260" range="0.5" height="1.5" /> 
 			</container>
-			<container name="lootShelves" lootmax="2">
+			<container name="lootShelves" lootmax="3">
 						<category name="tools" />
 						<category name="food" />
 						<category name="explosives" />
@@ -970,10 +970,10 @@
 						<point pos="0.199301 -0.180489 -1.627973" range="0.5" height="1.5" /> 
 			</container>
 		</group>
-		<group name="Land_House_K_8_EP1" >
+		<group name="Land_House_K_8_EP1" lootmax="12">
 						<usage name="Town" />
 						<usage name="Village" />
-			<container name="lootweapons" lootmax="4">
+			<container name="lootweapons" lootmax="8">
 			            <category name="clothes" />
 						<category name="food" />
 						<category name="weapons" />
@@ -993,7 +993,7 @@
 						<point pos="0.077470 6.272086 1.520025" range="0.5" height="1.5" /> 
 						<point pos="1.853930 6.140384 1.706778" range="0.5" height="1.5" /> 
 			</container>
-			<container name="lootShelves" lootmax="2">
+			<container name="lootShelves" lootmax="4">
 						<category name="tools" />
 						<category name="food" />
 						<category name="explosives" />
@@ -1004,10 +1004,10 @@
 						<point pos="3.318974 3.835720 -1.312664" range="0.5" height="1.5" /> 
 			</container>
 		</group>
-        <group name="Land_House_C_1_EP1" >
+        <group name="Land_House_C_1_EP1" lootmax="11">
 						<usage name="Town" />
 						<usage name="Village" />
-			<container name="lootweapons" lootmax="3">
+			<container name="lootweapons" lootmax="9">
 			            <category name="clothes" />
 						<category name="tools" />
 						<category name="food" />
@@ -1031,10 +1031,10 @@
 						<point pos="0.947987 0.562612 4.475265" range="0.5" height="1.5" />  
 			</container>
 		</group>
-        <group name="Land_House_C_1_v2_EP1" >
+        <group name="Land_House_C_1_v2_EP1" lootmax="11">
 						<usage name="Town" />
 						<usage name="Village" />
-			<container name="lootweapons" lootmax="3">
+			<container name="lootweapons" lootmax="6">
 			            <category name="clothes" />
 						<category name="food" />
 						<category name="tools" />
@@ -1049,7 +1049,7 @@
 						<point pos="1.452932 3.200398 -5.313040" range="0.5" height="1.5" /> 
 						<point pos="-2.468999 3.243668 -5.977468" range="0.5" height="1.5" /> 
 			</container>
-			<container name="lootShelves" lootmax="2">
+			<container name="lootShelves" lootmax="5">
 						<category name="tools" />
 						<category name="food" />
 						<category name="explosives" />
@@ -1061,10 +1061,10 @@
 						<point pos="-0.955761 -0.587663 -7.520892" range="0.5" height="1.5" />   
 			</container>
 		</group>
-        <group name="Land_House_C_2_EP1" >
+        <group name="Land_House_C_2_EP1" lootmax="10">
 						<usage name="Town" />
 						<usage name="Village" />
-			<container name="lootweapons" lootmax="3">
+			<container name="lootweapons" lootmax="6">
 			            <category name="clothes" />
 						<category name="containers" />
 						<category name="weapons" />
@@ -1079,7 +1079,7 @@
 						<point pos="-4.165953 0.832790 -3.879252" range="0.5" height="1.5" />
 						<point pos="-3.776956 0.810495 0.225872" range="0.5" height="1.5" /> 
 			</container>
-			<container name="lootShelves" lootmax="2">
+			<container name="lootShelves" lootmax="4">
 						<category name="tools" />
 						<category name="food" />
 						<category name="explosives" />
@@ -1091,11 +1091,11 @@
 						<point pos="3.541464 1.383254 2.359991" range="0.5" height="1.5" />   
 			</container>
 		</group>
-        <group name="Land_House_C_3_EP1" >
+        <group name="Land_House_C_3_EP1" lootmax="14">
 						<usage name="Industrial" />
 						<usage name="Town" />
 						<usage name="Village" />
-			<container name="lootweapons" lootmax="3">
+			<container name="lootweapons" lootmax="10">
 			            <category name="clothes" />
 						<category name="containers" />
 						<category name="weapons" />
@@ -1116,7 +1116,7 @@
 						<point pos="2.501082 4.147443 -6.901118" range="0.5" height="1.5" /> 
 						<point pos="-1.734057 4.125151 -5.776266" range="0.5" height="1.5" /> 
 			</container>
-			<container name="lootShelves" lootmax="2">
+			<container name="lootShelves" lootmax="4">
 						<category name="tools" />
 						<category name="food" />
 						<category name="explosives" />
@@ -1127,10 +1127,10 @@
 						<point pos="3.850760 1.646453 7.970229" range="0.5" height="1.5" />   
 			</container>
 		</group>
-		<group name="Land_House_C_4_EP1" >
+		<group name="Land_House_C_4_EP1" lootmax="14">
 						<usage name="Town" />
 						<usage name="Village" />
-			<container name="lootweapons" lootmax="3">
+			<container name="lootweapons" lootmax="9">
 			            <category name="clothes" />
 						<category name="weapons" />
 						<point pos="2.703537 -3.454988 5.739043" range="0.5" height="1.5" /> 
@@ -1147,7 +1147,7 @@
 						<point pos="-3.863486 2.805263 2.518400" range="0.5" height="1.5" /> 
 						<point pos="-1.615862 -0.351437 5.357708" range="0.5" height="1.5" /> 
 			</container>
-			<container name="lootShelves" lootmax="2">
+			<container name="lootShelves" lootmax="5">
 						<category name="tools" />
 						<category name="food" />
 						<category name="explosives" />
@@ -1163,10 +1163,10 @@
 						<point pos="-2.530992 1.066183 -5.944744" range="0.5" height="1.5" /> 
 			</container>
 		</group>
-		<group name="Land_House_C_5_EP1" >
+		<group name="Land_House_C_5_EP1" lootmax="8">
 						<usage name="Town" />
 						<usage name="Village" />
-			<container name="lootweapons" lootmax="2">
+			<container name="lootweapons" lootmax="8">
 			            <category name="clothes" />
 						<category name="food" />
 						<category name="weapons" />
@@ -1185,10 +1185,10 @@
 						<point pos="2.551738 1.841357 -3.137572" range="0.5" height="1.5" /> 
 			</container>			
 		</group>
-		<group name="Land_House_C_5_V1_EP1">
+		<group name="Land_House_C_5_V1_EP1" lootmax="7">
 						<usage name="Town" />
 						<usage name="Village" />
-			<container name="lootweapons" lootmax="3">
+			<container name="lootweapons" lootmax="7">
 			            <category name="clothes" />
 						<category name="food" />
 						<category name="weapons" />
@@ -1206,10 +1206,10 @@
 						<point pos="0.840844 1.172066 3.135644" range="0.5" height="1.5" />  
 			</container>			
 		</group>
-		<group name="Land_House_C_5_V2_EP1" >
+		<group name="Land_House_C_5_V2_EP1" lootmax="9">
 						<usage name="Town" />
 						<usage name="Village" />
-			<container name="lootweapons" lootmax="3">
+			<container name="lootweapons" lootmax="9">
 			            <category name="clothes" />
 						<category name="food" />
 						<category name="weapons" />
@@ -1228,10 +1228,10 @@
 						<point pos="2.250505 -1.368363 -2.041902" range="0.5" height="1.5" />   
 			</container>			
 		</group>
-		<group name="Land_House_C_5_V3_EP1" >
+		<group name="Land_House_C_5_V3_EP1" lootmax="9">
 						<usage name="Town" />
 						<usage name="Village" />
-			<container name="lootweapons" lootmax="3">
+			<container name="lootweapons" lootmax="9">
 			            <category name="clothes" />
 						<category name="food" />
 						<category name="weapons" />
@@ -1249,10 +1249,10 @@
 						<point pos="-4.562622 1.305885 2.505502" range="0.5" height="1.5" /> 
 			</container>		
 		</group>
-		<group name="Land_House_C_9_EP1" >
+		<group name="Land_House_C_9_EP1" lootmax="16">
 						<usage name="Town" />
 						<usage name="Village" />
-			<container name="lootweapons" lootmax="6">
+			<container name="lootweapons" lootmax="9">
 			            <category name="clothes" />
 						<category name="food" />
 						<category name="weapons" />
@@ -1270,7 +1270,7 @@
 						<point pos="-1.188341 2.587706 2.745007" range="0.5" height="1.5" /> 
 						<point pos="-3.106609 5.185215 -3.667843" range="0.5" height="1.5" />  
 			</container>
-			<container name="lootShelves" lootmax="3">
+			<container name="lootShelves" lootmax="7">
 						<category name="tools" />
 						<category name="food" />
 						<category name="explosives" />
@@ -1288,10 +1288,10 @@
 						<point pos="5.518878 0.373307 4.998672" range="0.5" height="1.5" /> 
 			</container>
 		</group>
-		<group name="Land_House_C_10_EP1" >
+		<group name="Land_House_C_10_EP1" lootmax="20">
 						<usage name="Town" />
 						<usage name="Village" />
-			<container name="lootweapons" lootmax="6">
+			<container name="lootweapons" lootmax="16">
 			            <category name="clothes" />
 						<category name="food" />
 						<category name="weapons" />				
@@ -1320,7 +1320,7 @@
 						<point pos="8.614937 5.198909 -0.586279" range="0.5" height="1.5" /> 
 						<point pos="7.117395 5.199009 -2.612652" range="0.5" height="1.5" /> 	
 			</container>
-			<container name="lootShelves" lootmax="3">
+			<container name="lootShelves" lootmax="4">
 						<category name="tools" />
 						<category name="food" />
 						<category name="explosives" />
@@ -1335,7 +1335,7 @@
 		<group name="Land_House_C_11_EP1" >
 						<usage name="Town" />
 						<usage name="Village" />
-			<container name="lootweapons" lootmax="4">
+			<container name="lootweapons" lootmax="6">
 			            <category name="clothes" />
 						<category name="food" />
 						<category name="tools" />
@@ -1351,11 +1351,11 @@
 						<point pos="2.275273 0.971533 -3.437712" range="0.5" height="1.5" /> 
 			</container>
 		</group>
-		<group name="Land_House_C_12_EP1" >
+		<group name="Land_House_C_12_EP1" lootmax="14">
 						<usage name="Town" />
 						<usage name="Village" />
 				        <usage name="Farm" />
-			<container name="lootweapons" lootmax="4">
+			<container name="lootweapons" lootmax="10">
 						<category name="food" />
 						<category name="tools" />
 						<category name="weapons" />
@@ -1375,7 +1375,7 @@
 						<point pos="-7.118752 3.452868 3.611356" range="0.5" height="1.5" /> 
 						<point pos="-4.222635 4.571540 3.811103" range="0.5" height="1.5" />
 			</container>
-			<container name="lootShelves" lootmax="3">
+			<container name="lootShelves" lootmax="4">
 						<category name="tools" />
 						<category name="food" />
 						<category name="explosives" />
