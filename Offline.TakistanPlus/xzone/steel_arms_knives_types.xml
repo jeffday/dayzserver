@@ -192,10 +192,10 @@
         <usage name="Village"/>
     </type>
 	<type name="ZAKAT_KnifeBowie_ZavGar">
-        <nominal>10</nominal>
+        <nominal>0</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
-        <min>8</min>
+        <min>0</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -205,10 +205,10 @@
         <usage name="Hunting"/>
     </type>
 	<type name="ZAKAT_KnifeKnifefisherman_Francyz">
-        <nominal>10</nominal>
+        <nominal>0</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
-        <min>8</min>
+        <min>0</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -219,10 +219,10 @@
         <usage name="Village"/>
     </type>
 	<type name="ZAKAT_KnifeM5_Moriak">
-        <nominal>5</nominal>
+        <nominal>0</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
-        <min>4</min>
+        <min>0</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -232,10 +232,10 @@
         <usage name="Military"/>
     </type>
 	<type name="ZAKAT_KnifeM5_Starii">
-        <nominal>5</nominal>
+        <nominal>0</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
-        <min>4</min>
+        <min>0</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -245,10 +245,10 @@
         <usage name="Military"/>
     </type>
 	<type name="ZAKAT_KnifeM5_Ybliudok">
-        <nominal>5</nominal>
+        <nominal>0</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
-        <min>4</min>
+        <min>0</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -449,8 +449,8 @@
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="tools"/>
         <usage name="Farm"/>
-        <value name="Tier1"/>
-        <value name="Tier2"/>
+        <usage name="Village"/>
+        <usage name="Town"/>
     </type>
     <type name="ZAKAT_Table_Leg_Nailed">
         <nominal>0</nominal>
@@ -491,8 +491,7 @@
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="tools"/>
         <usage name="Farm"/>
-        <value name="Tier1"/>
-        <value name="Tier2"/>
+        <usage name="Village"/>
     </type>
     <type name="ZAKAT_PlagueMask_Grey">
         <nominal>0</nominal>
@@ -534,17 +533,16 @@
         <usage name="Police"/>
     </type>
     <type name="ZAKAT_Katana_Colorbase">
-        <nominal>0</nominal>
+        <nominal>3</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
-        <min>0</min>
+        <min>2</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="tools"/>
-        <usage name="Industrial"/>
-        <usage name="Farm"/>
+        <usage name="Town"/>
         <usage name="Village"/>
     </type>
 	<type name="ZAKAT_KnifeKabar2_Vostok">
@@ -560,10 +558,10 @@
         <usage name="Military"/>
     </type>
 	<type name="ZAKAT_KnifeM5_Ohota">
-        <nominal>5</nominal>
+        <nominal>0</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
-        <min>4</min>
+        <min>0</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
