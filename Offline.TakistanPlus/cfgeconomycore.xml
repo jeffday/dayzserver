@@ -83,4 +83,8 @@ Do not forget to add attribute act="car", if root class represents moveable vehi
 		<file name="MMGCC_types.xml" type="types" />
 		<file name="MMGCC_spawnabletypes.xml" type="spawnabletypes" />
 	</ce>
+	<!-- MeleePack -->
+	<ce folder="mp">
+		<file name="meleepack_types.xml" type="types" />
+	</ce>
 </economycore>
