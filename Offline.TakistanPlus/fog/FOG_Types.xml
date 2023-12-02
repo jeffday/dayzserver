@@ -34,10 +34,10 @@
     <value name="Tier4"/>
 </type>
 <type name="FOG_Crye_G3_Shirt_MC_BlackTrim">
-    <nominal>2</nominal>
+    <nominal>0</nominal>
     <restock>600</restock>
     <lifetime>28800</lifetime>
-    <min>1</min>
+    <min>0</min>
     <quantmin>-1</quantmin>
     <quantmax>-1</quantmax>
     <cost>100</cost>
@@ -306,10 +306,10 @@
     <usage name="Military"/>
 </type>
 <type name="FOG_Pants_Crye_G3_MC_BlackTrim">
-    <nominal>5</nominal>
+    <nominal>0</nominal>
     <lifetime>14400</lifetime>
     <restock>600</restock>
-    <min>2</min>
+    <min>0</min>
     <quantmin>-1</quantmin>
     <quantmax>-1</quantmax>
     <cost>100</cost>
@@ -3436,10 +3436,10 @@
 <!-- Types Release -->
 
     <type name="FOG_SOCOM_Slammer_Black">
-        <nominal>2</nominal>
+        <nominal>0</nominal>
         <lifetime>3200</lifetime>
         <restock>0</restock>
-        <min>1</min>
+        <min>0</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
