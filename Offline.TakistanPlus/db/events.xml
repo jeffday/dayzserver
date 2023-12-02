@@ -629,9 +629,9 @@
         </children>
     </event>
     <event name="ItemPlanks">
-        <nominal>50</nominal>
-        <min>40</min>
-        <max>50</max>
+        <nominal>30</nominal>
+        <min>20</min>
+        <max>30</max>
         <lifetime>7200</lifetime>
         <restock>0</restock>
         <saferadius>250</saferadius>
@@ -642,7 +642,7 @@
         <limit>mixed</limit>
         <active>1</active>
         <children>
-            <child lootmax="0" lootmin="0" max="50" min="30" type="PileOfWoodenPlanks"/>
+            <child lootmax="0" lootmin="0" max="30" min="20" type="PileOfWoodenPlanks"/>
         </children>
     </event>
     <event name="Loot">
