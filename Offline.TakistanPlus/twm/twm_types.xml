@@ -822,8 +822,6 @@
 		<flags count_in_hoarder="0" count_in_player="0" count_in_map="1" count_in_cargo="0" crafted="0" deloot="0"/>
 		<category name="weapons"/>
 		<usage name="Military"/>
-		<value name="Tier1"/>
-		<value name="Tier2"/>
 	</type>
 	<type name="TWM_Mag_M1911">
 		<nominal>10</nominal>
@@ -836,8 +834,6 @@
 		<flags count_in_hoarder="0" count_in_player="0" count_in_map="1" count_in_cargo="0" crafted="0" deloot="0"/>
 		<category name="weapons"/>
 		<usage name="Military"/>
-		<value name="Tier1"/>
-		<value name="Tier2"/>
     </type>
 	<type name="TWM_G36K"> 
 		<nominal>2</nominal>
@@ -1664,8 +1660,6 @@
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="weapons"/>
         <usage name="Military"/>
-        <value name="Tier1"/>
-        <value name="Tier2"/>
 	</type>
 	<type name="TWM_Mag_GI1911">
         <nominal>10</nominal>
@@ -1678,8 +1672,6 @@
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="weapons"/>
         <usage name="Military"/>
-        <value name="Tier1"/>
-        <value name="Tier2"/>
     </type>
 	<type name="TWM_P320">		
         <nominal>10</nominal>
@@ -1692,9 +1684,6 @@
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="weapons"/>
         <usage name="Military"/>
-        <value name="Tier2"/>
-        <value name="Tier3"/>
-        <value name="Tier4"/>
 	</type>
     <type name="TWM_P320_blk">		
         <nominal>10</nominal>
@@ -1707,9 +1696,6 @@
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="weapons"/>
         <usage name="Military"/>
-        <value name="Tier2"/>
-        <value name="Tier3"/>
-        <value name="Tier4"/>
 	</type>
 	<type name="TWM_Mag_P320">
         <nominal>10</nominal>
@@ -1722,9 +1708,6 @@
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="weapons"/>
         <usage name="Military"/>
-        <value name="Tier2"/>
-        <value name="Tier3"/>
-        <value name="Tier4"/>
     </type>
 <!-- UPDATE 1.5 The Stop adding stuff and Push it already Update. -->
 <!-- Attachments  --> 
@@ -2852,9 +2835,6 @@
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="weapons"/>
         <usage name="Military"/>
-        <value name="Tier2"/>
-        <value name="Tier3"/>
-        <value name="Tier4"/>
 	</type>
 	<type name="TWM_FN57_OD">
         <nominal>0</nominal>
@@ -2882,9 +2862,6 @@
 		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
 		<category name="weapons" />
         <usage name="Military"/>
-		<usage name="Police"/>
-        <value name="Tier4"/>
-		<value name="Tier3"/>
 	</type>
 	<type name="TWM_Mag_FN57">
         <nominal>10</nominal>
@@ -2897,9 +2874,6 @@
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="weapons"/>
         <usage name="Military"/>
-        <value name="Tier2"/>
-        <value name="Tier3"/>
-        <value name="Tier4"/>
 	</type>
 <!-- dayz 1.20 update -->
     <type name="TWM_AKSRusty">
@@ -2912,7 +2886,8 @@
 		<cost>100</cost>
 		<flags count_in_hoarder="0" count_in_player="0" count_in_map="1" count_in_cargo="0" crafted="0" deloot="0"/>
 		<category name="weapons"/>
-		<usage name="Military"/>
+		<usage name="Town"/>
+        <usage name="Hunting"/>
         <value name="Tier1"/>
         <value name="Tier2"/>
     </type>
@@ -2926,7 +2901,8 @@
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="weapons"/>
-        <usage name="Military"/>
+        <usage name="Town"/>
+        <usage name="Hunting"/>
         <value name="Tier1"/>
         <value name="Tier2"/>
     </type>
