@@ -19312,7 +19312,7 @@
 			<usage name="Military" />
 			<usage name="Village" />
 			<usage name="Town" />
-			<container name="lootFloor">
+			<container name="lootFloor" lootmax="8">
 					<category name="food" />
 					<tag name="floor" />
 					<tag name="ground" />
@@ -19331,7 +19331,7 @@
 		</group>
 		<group name="StaticObj_Misc_SupplyBox2_DE" lootmax="8">
 			<usage name="Military" />
-			<container name="lootFloor">
+			<container name="lootFloor" lootmax="8">
 					<category name="weapons" />
 					<tag name="floor" />
 					<tag name="ground" />
@@ -19350,7 +19350,7 @@
 		</group>
 		<group name="StaticObj_Misc_SupplyBox3_DE" lootmax="8">
 			<usage name="Medic" />
-			<container name="lootFloor">
+			<container name="lootFloor" lootmax="8">
 					<category name="clothes" />
 					<category name="tools" />
 					<tag name="floor" />
