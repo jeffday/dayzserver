@@ -2838,18 +2838,6 @@
         <category name="clothes" />
         <usage name="Town" />
     </type>
-    <type name="CDAJ_TRexHelmet_Green">
-        <nominal>0</nominal>
-        <lifetime>7200</lifetime>
-        <restock>7200</restock>
-        <min>0</min>
-        <quantmin>-1</quantmin>
-        <quantmax>-1</quantmax>
-        <cost>100</cost>
-        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
-        <category name="clothes" />
-        <usage name="Town" />
-    </type>
     <type name="CDAJ_OCV2_Boots_Tan">
         <nominal>5</nominal>
         <lifetime>14400</lifetime>
@@ -3237,7 +3225,7 @@
         <category name="clothes" />
         <usage name="Military" />
     </type>
-    <type name="CDAJ_Master_Chef">
+    <type name="CDAJ_Master_Chef_Green">
         <nominal>0</nominal>
         <lifetime>7200</lifetime>
         <restock>7200</restock>
@@ -3251,7 +3239,7 @@
         <value name="Tier3" />
         <value name="Tier4" />
     </type>
-    <type name="CDAJ_Master_Chef_MarkV">
+    <type name="CDAJ_Master_Chef_MarkV_Green">
         <nominal>0</nominal>
         <lifetime>7200</lifetime>
         <restock>7200</restock>
@@ -3263,7 +3251,7 @@
         <category name="clothes" />
         <usage name="Military" />
     </type>
-    <type name="CDAJ_Master_Chef_VI">
+    <type name="CDAJ_Master_Chef_VI_Green">
         <nominal>0</nominal>
         <lifetime>7200</lifetime>
         <restock>7200</restock>
@@ -3825,7 +3813,7 @@
         <value name="Tier3" />
         <value name="Tier4" />
     </type>
-    <type name="CDAJ_Opscore_Cover_Jay">
+    <type name="CDAJ_Opscore_Cover_JayBugi">
         <nominal>0</nominal>
         <lifetime>10800</lifetime>
         <restock>3200</restock>
@@ -4565,7 +4553,7 @@
         <value name="Tier3" />
         <value name="Tier4" />
     </type>
-    <type name="CDAJ_SyfyHelm">
+    <type name="CDAJ_SyfyHelm_GoldenTouch">
         <nominal>0</nominal>
         <lifetime>7200</lifetime>
         <restock>7200</restock>
