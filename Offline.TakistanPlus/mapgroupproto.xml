@@ -17653,7 +17653,7 @@
 						<proxy type="Truck_01_Hood_OrangeRust" pos="-1.850000 1.700000 -0.100000" rpy="0.000000 180.000000 0.000000" dechance="0.000000" />
 				</dispatch>
 		</group>
-		<group name="Land_Wreck_truck01_aban2_green">
+		<group name="Land_Wreck_truck01_aban2_green" >
 				<usage name="Industrial" />
 				<usage name="Village" />
 				<container name="loot" lootmax="2">
@@ -17663,19 +17663,21 @@
 						<category name="food" />
 						<category name="weapons" />
 						<category name="explosives" />
-						<point pos="0.722845 1.138458 -0.120233" range="0.670942" height="1.677856" />
-						<point pos="3.887206 -0.242188 0.797326" range="0.718750" height="0.810028" flags="32" />
-						<point pos="1.999454 -0.117981 -1.833937" range="0.765625" height="1.914063" flags="32" />
-						<point pos="1.243393 -0.069611 1.413383" range="0.856250" height="1.393524" flags="32" />
-						<point pos="2.483654 1.179749 0.017181" range="1.095703" height="1.557068" />
+						<point pos="0.722773 1.138458 -0.119969" range="0.670942" height="1.677856" />
+						<point pos="3.887257 -0.242188 0.797338" range="0.718750" height="0.810028" flags="32" />
+						<point pos="2.483517 1.179749 0.017063" range="1.095703" height="1.557068" />
+						<point pos="-0.236710 0.000000 -1.909595" range="1.200000" height="1.888397" flags="32" />
+						<point pos="2.430876 0.000000 -2.070336" range="0.995606" height="2.000000" flags="32" />
+						<point pos="2.440113 0.000000 1.661607" range="0.566407" height="1.416016" flags="32" />
+						<point pos="-1.549180 0.000000 1.682494" range="0.816895" height="0.144592" flags="32" />
 				</container>
-				<dispatch dechance="0.000000">
-						<proxy type="Truck_01_Wheel" pos="-2.180000 0.460000 -0.980000" rpy="0.000000 180.000000 0.000000" dechance="0.000000" />
-						<proxy type="Truck_01_WheelDouble" pos="1.420000 0.430000 0.960000" rpy="0.000000 0.000000 0.000000" dechance="0.000000" />
-						<proxy type="Truck_01_Door_1_1_GreenRust" pos="-1.550000 1.020000 -1.100000" rpy="0.000000 160.000000 0.000000" dechance="0.000000" />
+				<dispatch>
+						<proxy type="Truck_01_Wheel" pos="-2.18 0.46 -0.98" rpy="0.0 180.0 0.0" />
+						<proxy type="Truck_01_WheelDouble" pos="1.42 0.43 0.96" rpy="0.0 0.0 0.0" />
+						<proxy type="Truck_01_Door_1_1_GreenRust" pos="-1.55 1.02 -1.10" rpy="0.0 160.0 0.0" />
 				</dispatch>
 		</group>
-		<group name="Land_Wreck_truck01_aban2_blue">
+		<group name="Land_Wreck_truck01_aban2_blue" >
 				<usage name="Industrial" />
 				<usage name="Village" />
 				<container name="loot" lootmax="2">
@@ -17685,16 +17687,18 @@
 						<category name="food" />
 						<category name="weapons" />
 						<category name="explosives" />
-						<point pos="0.722845 1.138458 -0.120233" range="0.670942" height="1.677856" />
-						<point pos="3.887206 -0.242188 0.797326" range="0.718750" height="0.810028" flags="32" />
-						<point pos="1.999454 -0.117981 -1.833937" range="0.765625" height="1.914063" flags="32" />
-						<point pos="1.243393 -0.069611 1.413383" range="0.856250" height="1.393524" flags="32" />
-						<point pos="2.483654 1.179749 0.017181" range="1.095703" height="1.557068" />
+						<point pos="0.722773 1.138458 -0.119969" range="0.670942" height="1.677856" />
+						<point pos="3.887257 -0.242188 0.797338" range="0.718750" height="0.810028" flags="32" />
+						<point pos="2.483517 1.179749 0.017063" range="1.095703" height="1.557068" />
+						<point pos="-0.236710 0.000000 -1.909595" range="1.200000" height="1.888397" flags="32" />
+						<point pos="2.430876 0.000000 -2.070336" range="0.995606" height="2.000000" flags="32" />
+						<point pos="2.440113 0.000000 1.661607" range="0.566407" height="1.416016" flags="32" />
+						<point pos="-1.549180 0.000000 1.682494" range="0.816895" height="0.144592" flags="32" />
 				</container>
-				<dispatch dechance="0.000000">
-						<proxy type="Truck_01_Wheel" pos="-2.180000 0.460000 -0.980000" rpy="0.000000 180.000000 0.000000" dechance="0.000000" />
-						<proxy type="Truck_01_WheelDouble" pos="1.420000 0.430000 0.960000" rpy="0.000000 0.000000 0.000000" dechance="0.000000" />
-						<proxy type="Truck_01_Door_1_1_BlueRust" pos="-1.550000 1.020000 -1.100000" rpy="0.000000 160.000000 0.000000" dechance="0.000000" />
+				<dispatch>
+						<proxy type="Truck_01_Wheel" pos="-2.18 0.46 -0.98" rpy="0.0 180.0 0.0" />
+						<proxy type="Truck_01_WheelDouble" pos="1.42 0.43 0.96" rpy="0.0 0.0 0.0" />
+						<proxy type="Truck_01_Door_1_1_BlueRust" pos="-1.55 1.02 -1.10" rpy="0.0 160.0 0.0" />
 				</dispatch>
 		</group>
 		<group name="Land_Wreck_truck01_aban2_orange">
@@ -17707,16 +17711,18 @@
 						<category name="food" />
 						<category name="weapons" />
 						<category name="explosives" />
-						<point pos="0.722845 1.138458 -0.120233" range="0.670942" height="1.677856" />
-						<point pos="3.887206 -0.242188 0.797326" range="0.718750" height="0.810028" flags="32" />
-						<point pos="1.999454 -0.117981 -1.833937" range="0.765625" height="1.914063" flags="32" />
-						<point pos="1.243393 -0.069611 1.413383" range="0.856250" height="1.393524" flags="32" />
-						<point pos="2.483654 1.179749 0.017181" range="1.095703" height="1.557068" />
+						<point pos="0.722773 1.138458 -0.119969" range="0.670942" height="1.677856" />
+						<point pos="3.887257 -0.242188 0.797338" range="0.718750" height="0.810028" flags="32" />
+						<point pos="2.483517 1.179749 0.017063" range="1.095703" height="1.557068" />
+						<point pos="-0.236710 0.000000 -1.909595" range="1.200000" height="1.888397" flags="32" />
+						<point pos="2.430876 0.000000 -2.070336" range="0.995606" height="2.000000" flags="32" />
+						<point pos="2.440113 0.000000 1.661607" range="0.566407" height="1.416016" flags="32" />
+						<point pos="-1.549180 0.000000 1.682494" range="0.816895" height="0.144592" flags="32" />
 				</container>
-				<dispatch dechance="0.000000">
-						<proxy type="Truck_01_Wheel" pos="-2.180000 0.460000 -0.980000" rpy="0.000000 180.000000 0.000000" dechance="0.000000" />
-						<proxy type="Truck_01_WheelDouble" pos="1.420000 0.430000 0.960000" rpy="0.000000 0.000000 0.000000" dechance="0.000000" />
-						<proxy type="Truck_01_Door_1_1_OrangeRust" pos="-1.550000 1.020000 -1.100000" rpy="0.000000 160.000000 0.000000" dechance="0.000000" />
+				<dispatch>
+						<proxy type="Truck_01_Wheel" pos="-2.18 0.46 -0.98" rpy="0.0 180.0 0.0" />
+						<proxy type="Truck_01_WheelDouble" pos="1.42 0.43 0.96" rpy="0.0 0.0 0.0" />
+						<proxy type="Truck_01_Door_1_1_OrangeRust" pos="-1.55 1.02 -1.10" rpy="0.0 160.0 0.0" />
 				</dispatch>
 		</group>
 		<group name="Bonfire" lootmax="5">

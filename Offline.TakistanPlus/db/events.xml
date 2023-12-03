@@ -629,7 +629,7 @@
         </children>
     </event>
     <event name="ItemPlanks">
-        <nominal>30</nominal>
+        <nominal>25</nominal>
         <min>20</min>
         <max>30</max>
         <lifetime>7200</lifetime>
@@ -642,7 +642,7 @@
         <limit>mixed</limit>
         <active>1</active>
         <children>
-            <child lootmax="0" lootmin="0" max="30" min="20" type="PileOfWoodenPlanks"/>
+            <child lootmax="0" lootmin="0" max="25" min="20" type="PileOfWoodenPlanks"/>
         </children>
     </event>
     <event name="Loot">
