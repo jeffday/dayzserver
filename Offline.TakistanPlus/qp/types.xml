@@ -31,10 +31,10 @@
     <value name="Tier4" />
   </type>
   <type name="tacticalbelt_quad_tan">
-    <nominal>8</nominal>
+    <nominal>0</nominal>
     <lifetime>28800</lifetime>
     <restock>1800</restock>
-    <min>3</min>
+    <min>0</min>
     <quantmin>-1</quantmin>
     <quantmax>-1</quantmax>
     <cost>100</cost>
@@ -632,10 +632,10 @@
 		<value name=""/>
   </type>
   <type name="TacticalPouch_Tan">
-    <nominal>4</nominal>
+    <nominal>0</nominal>
     <lifetime>2700</lifetime>
     <restock>1800</restock>
-    <min>2</min>
+    <min>0</min>
     <quantmin>-1</quantmin>
     <quantmax>-1</quantmax>
     <cost>100</cost>
