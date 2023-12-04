@@ -691,10 +691,10 @@
         <value name="Tier4"/>
     </type>
     <type name="AmmoBox_357_20Rnd">
-        <nominal>15</nominal>
+        <nominal>0</nominal>
         <lifetime>28800</lifetime>
         <restock>0</restock>
-        <min>10</min>
+        <min>0</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -972,10 +972,10 @@
         <value name="Tier4"/>
     </type>
     <type name="Ammo_357">
-        <nominal>50</nominal>
+        <nominal>0</nominal>
         <lifetime>28800</lifetime>
         <restock>0</restock>
-        <min>25</min>
+        <min>0</min>
         <quantmin>10</quantmin>
         <quantmax>25</quantmax>
         <cost>100</cost>
@@ -6047,10 +6047,10 @@
         <value name="Tier2"/>
     </type>
     <type name="Derringer_Grey">
-        <nominal>5</nominal>
+        <nominal>0</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
-        <min>2</min>
+        <min>0</min>
         <quantmin>0</quantmin>
         <quantmax>100</quantmax>
         <cost>100</cost>
@@ -12548,10 +12548,10 @@
         <value name="Tier4"/>
     </type>
     <type name="Magnum">
-        <nominal>15</nominal>
+        <nominal>0</nominal>
         <lifetime>28800</lifetime>
         <restock>0</restock>
-        <min>10</min>
+        <min>0</min>
         <quantmin>0</quantmin>
         <quantmax>80</quantmax>
         <cost>100</cost>
@@ -15786,10 +15786,10 @@
         <category name="tools"/>
     </type>
     <type name="Repeater">
-        <nominal>10</nominal>
+        <nominal>0</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
-        <min>5</min>
+        <min>0</min>
         <quantmin>0</quantmin>
         <quantmax>80</quantmax>
         <cost>100</cost>
