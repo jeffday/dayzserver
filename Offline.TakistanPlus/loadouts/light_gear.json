@@ -762,28 +762,6 @@
                    "quantityMax":1.0
                 },
                 "quickBarSlot":-1
-             },
-             {
-                "itemType":"CDAJ_OCV2_Boots_CB",
-                "spawnWeight":1,
-                "attributes":{
-                   "healthMin":1.0,
-                   "healthMax":1.0,
-                   "quantityMin":1.0,
-                   "quantityMax":1.0
-                },
-                "quickBarSlot":-1
-             },
-             {
-                "itemType":"CDAJ_OCV2_Boots_Tan",
-                "spawnWeight":1,
-                "attributes":{
-                   "healthMin":1.0,
-                   "healthMax":1.0,
-                   "quantityMin":1.0,
-                   "quantityMax":1.0
-                },
-                "quickBarSlot":-1
              }
           ]
        }
@@ -858,6 +836,20 @@
                             "quantityMax": 1.0
                         },
                         "quickBarSlot": -1
+                    },
+                    {
+                        "itemType": "Rangefinder",
+                        "attributes": {
+                            "healthMin": 0.85,
+                            "healthMax": 1.0,
+                            "quantityMin": 1.0,
+                            "quantityMax": 1.0
+                        },
+                        "quickBarSlot": 5,
+                        "simpleChildrenUseDefaultAttributes":false,
+                        "simpleChildrenTypes":[
+                            "Battery9V"
+                        ]
                     }
                 ]
             }
