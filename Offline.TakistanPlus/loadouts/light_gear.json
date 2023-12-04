@@ -43,24 +43,6 @@
                     "AmmoBox_9x19_25rnd",
                     "AmmoBox_9x19_25rnd"
                 ]
-             },
-             {
-                "itemType":"FOG_Vest_SSMK4_MC",
-                "spawnWeight":1,
-                "attributes":{
-                   "healthMin":1.0,
-                   "healthMax":1.0,
-                   "quantityMin":1.0,
-                   "quantityMax":1.0
-                },
-                "quickBarSlot":-1,
-                "simpleChildrenUseDefaultAttributes":true,
-                "simpleChildrenTypes":[
-                    "BO_Mag_Beretta_15rnd",
-                    "BO_Mag_Beretta_15rnd",
-                    "AmmoBox_9x19_25rnd",
-                    "AmmoBox_9x19_25rnd"
-                ]
              }
           ]
        },
@@ -81,98 +63,6 @@
                 "simpleChildrenTypes":[
                    "FOG_Comtac_IV_CB"
                 ]
-             },
-             {
-                "itemType":"FOG_Helmet_FAST_Bump_MC",
-                "spawnWeight":1,
-                "attributes":{
-                   "healthMin":1.0,
-                   "healthMax":1.0,
-                   "quantityMin":1.0,
-                   "quantityMax":1.0
-                },
-                "quickBarSlot":-1,
-                "simpleChildrenUseDefaultAttributes":false,
-                "simpleChildrenTypes":[
-                   "FOG_Comtac_IV_CB"
-                ]
-             },
-             {
-                "itemType":"FOG_Helmet_FASTMT_Tan",
-                "spawnWeight":1,
-                "attributes":{
-                   "healthMin":1.0,
-                   "healthMax":1.0,
-                   "quantityMin":1.0,
-                   "quantityMax":1.0
-                },
-                "quickBarSlot":-1,
-                "simpleChildrenUseDefaultAttributes":false,
-                "simpleChildrenTypes":[
-                   "FOG_FastMT_RAC_Tan"
-                ]
-             },
-             {
-                "itemType":"FOG_Helmet_FASTMT_MC",
-                "spawnWeight":1,
-                "attributes":{
-                   "healthMin":1.0,
-                   "healthMax":1.0,
-                   "quantityMin":1.0,
-                   "quantityMax":1.0
-                },
-                "quickBarSlot":-1,
-                "simpleChildrenUseDefaultAttributes":false,
-                "simpleChildrenTypes":[
-                   "FOG_FastMT_RAC_Tan",
-                   "FOG_FASTMT_Cover_MC"
-                ]
-             },
-             {
-                "itemType":"FOG_Helmet_FASTMT_AOR1",
-                "spawnWeight":1,
-                "attributes":{
-                   "healthMin":1.0,
-                   "healthMax":1.0,
-                   "quantityMin":1.0,
-                   "quantityMax":1.0
-                },
-                "quickBarSlot":-1,
-                "simpleChildrenUseDefaultAttributes":false,
-                "simpleChildrenTypes":[
-                   "FOG_FastMT_RAC_Tan",
-                   "FOG_FASTMT_Cover_AOR1"
-                ]
-             },
-             {
-                "itemType":"FOG_Helmet_FAST_SF_Tan",
-                "spawnWeight":1,
-                "attributes":{
-                   "healthMin":1.0,
-                   "healthMax":1.0,
-                   "quantityMin":1.0,
-                   "quantityMax":1.0
-                },
-                "quickBarSlot":-1,
-                "simpleChildrenUseDefaultAttributes":false,
-                "simpleChildrenTypes":[
-                   "FOG_FastMT_RAC_Tan"
-                ]
-             },
-             {
-                "itemType":"FOG_Helmet_FAST_SF_MC",
-                "spawnWeight":1,
-                "attributes":{
-                   "healthMin":1.0,
-                   "healthMax":1.0,
-                   "quantityMin":1.0,
-                   "quantityMax":1.0
-                },
-                "quickBarSlot":-1,
-                "simpleChildrenUseDefaultAttributes":false,
-                "simpleChildrenTypes":[
-                   "FOG_FastMT_RAC_Tan"
-                ]
              }
           ]
        },
@@ -191,29 +81,7 @@
                 "quickBarSlot":-1
              },
              {
-                "itemType":"FOG_Tactical_Fingerless_Gloves_MC",
-                "spawnWeight":1,
-                "attributes":{
-                   "healthMin":1.0,
-                   "healthMax":1.0,
-                   "quantityMin":1.0,
-                   "quantityMax":1.0
-                },
-                "quickBarSlot":-1
-             },
-             {
                 "itemType":"CDAJ_Mechanix_Gloves_Tan",
-                "spawnWeight":1,
-                "attributes":{
-                   "healthMin":1.0,
-                   "healthMax":1.0,
-                   "quantityMin":1.0,
-                   "quantityMax":1.0
-                },
-                "quickBarSlot":-1
-             },
-             {
-                "itemType":"CDAJ_Mechanix_Gloves_MC",
                 "spawnWeight":1,
                 "attributes":{
                    "healthMin":1.0,
@@ -283,103 +151,7 @@
           "slotName":"Body",
           "discreteItemSets":[
              {
-                "itemType":"FOG_Crye_G3_Shirt_MC",
-                "spawnWeight":1,
-                "attributes":{
-                   "healthMin":1.0,
-                   "healthMax":1.0,
-                   "quantityMin":1.0,
-                   "quantityMax":1.0
-                },
-                "quickBarSlot":-1,
-                "simpleChildrenUseDefaultAttributes":false,
-                "simpleChildrenTypes":[
-                   "ChernarusMap",
-                   "CanOpener"
-                ]
-             },
-             {
-                "itemType":"FOG_Crye_G3_Shirt_6CD",
-                "spawnWeight":1,
-                "attributes":{
-                   "healthMin":1.0,
-                   "healthMax":1.0,
-                   "quantityMin":1.0,
-                   "quantityMax":1.0
-                },
-                "quickBarSlot":-1,
-                "simpleChildrenUseDefaultAttributes":false,
-                "simpleChildrenTypes":[
-                   "ChernarusMap",
-                   "CanOpener"
-                ]
-             },
-             {
-                "itemType":"FOG_Crye_G3_Shirt_AOR1",
-                "spawnWeight":1,
-                "attributes":{
-                   "healthMin":1.0,
-                   "healthMax":1.0,
-                   "quantityMin":1.0,
-                   "quantityMax":1.0
-                },
-                "quickBarSlot":-1,
-                "simpleChildrenUseDefaultAttributes":false,
-                "simpleChildrenTypes":[
-                   "ChernarusMap",
-                   "CanOpener"
-                ]
-             },
-             {
-                "itemType":"FOG_Crye_G3_Shirt_CB",
-                "spawnWeight":1,
-                "attributes":{
-                   "healthMin":1.0,
-                   "healthMax":1.0,
-                   "quantityMin":1.0,
-                   "quantityMax":1.0
-                },
-                "quickBarSlot":-1,
-                "simpleChildrenUseDefaultAttributes":false,
-                "simpleChildrenTypes":[
-                   "ChernarusMap",
-                   "CanOpener"
-                ]
-             },
-             {
                 "itemType":"FOG_UFJ_Shirt_CB",
-                "spawnWeight":1,
-                "attributes":{
-                   "healthMin":1.0,
-                   "healthMax":1.0,
-                   "quantityMin":1.0,
-                   "quantityMax":1.0
-                },
-                "quickBarSlot":-1,
-                "simpleChildrenUseDefaultAttributes":false,
-                "simpleChildrenTypes":[
-                   "ChernarusMap",
-                   "CanOpener"
-                ]
-             },
-             {
-                "itemType":"FOG_MTF_Shirt_CB",
-                "spawnWeight":1,
-                "attributes":{
-                   "healthMin":1.0,
-                   "healthMax":1.0,
-                   "quantityMin":1.0,
-                   "quantityMax":1.0
-                },
-                "quickBarSlot":-1,
-                "simpleChildrenUseDefaultAttributes":false,
-                "simpleChildrenTypes":[
-                   "ChernarusMap",
-                   "CanOpener"
-                ]
-             },
-             {
-                "itemType":"FOG_MTF_Shirt_MC",
                 "spawnWeight":1,
                 "attributes":{
                    "healthMin":1.0,
@@ -450,239 +222,14 @@
                      ]
                   }                                            
                 ]
-            },
-            {
-               "itemType": "FOG_Belt_RTGFB_MC",
-               "spawnWeight": 1,
-               "attributes": {
-                   "healthMin": 1.0,
-                   "healthMax": 1.0,
-                   "quantityMin": 1.0,
-                   "quantityMax": 1.0
-               },
-               "quickBarSlot": -1,
-               "complexChildrenTypes": [
-                   {
-                       "itemType": "FOG_RTGFB_Holster_MC",
-                       "attributes": {
-                           "healthMin": 1.0,
-                           "healthMax": 1.0,
-                           "quantityMin": 1.0,
-                           "quantityMax": 1.0
-                       },
-                       "quickBarSlot": -1,
-                       "complexChildrenTypes": [
-                           {
-                               "itemType": "BO_Beretta_Desert",
-                               "attributes": {
-                                   "healthMin": 1.0,
-                                   "healthMax": 1.0,
-                                   "quantityMin": 1.0,
-                                   "quantityMax": 1.0
-                               },
-                               "quickBarSlot": 2,
-                               "simpleChildrenUseDefaultAttributes":false,
-                               "simpleChildrenTypes":[
-                                  "BO_Mag_Beretta_15rnd"
-                               ]
-                           }                                             
-                       ]
-                   },
-                   {
-                    "itemType": "FOG_Pouch_LBT_MC",
-                    "attributes": {
-                        "healthMin": 1.0,
-                        "healthMax": 1.0,
-                        "quantityMin": 1.0,
-                        "quantityMax": 1.0
-                    },
-                    "quickBarSlot": -1,
-                    "simpleChildrenUseDefaultAttributes":false,
-                    "simpleChildrenTypes":[
-                    ]
-                 }                                         
-               ]
-           },
-           {
-              "itemType": "FOG_Belt_RTGFB_AOR1",
-              "spawnWeight": 1,
-              "attributes": {
-                  "healthMin": 1.0,
-                  "healthMax": 1.0,
-                  "quantityMin": 1.0,
-                  "quantityMax": 1.0
-              },
-              "quickBarSlot": -1,
-              "complexChildrenTypes": [
-                  {
-                      "itemType": "FOG_RTGFB_Holster_Tan",
-                      "attributes": {
-                          "healthMin": 1.0,
-                          "healthMax": 1.0,
-                          "quantityMin": 1.0,
-                          "quantityMax": 1.0
-                      },
-                      "quickBarSlot": -1,
-                      "complexChildrenTypes": [
-                        {
-                            "itemType": "BO_Beretta_Desert",
-                            "attributes": {
-                                "healthMin": 1.0,
-                                "healthMax": 1.0,
-                                "quantityMin": 1.0,
-                                "quantityMax": 1.0
-                            },
-                            "quickBarSlot": 2,
-                            "simpleChildrenUseDefaultAttributes":false,
-                            "simpleChildrenTypes":[
-                               "BO_Mag_Beretta_15rnd"
-                            ]
-                        }                                             
-                    ]
-                  },
-                  {
-                   "itemType": "FOG_Pouch_LBT_MC",
-                   "attributes": {
-                       "healthMin": 1.0,
-                       "healthMax": 1.0,
-                       "quantityMin": 1.0,
-                       "quantityMax": 1.0
-                   },
-                   "quickBarSlot": -1,
-                   "simpleChildrenUseDefaultAttributes":false,
-                   "simpleChildrenTypes":[
-                   ]
-                }                                        
-              ]
-          }
+            }
         ]
     },
        {
           "slotName":"Legs",
           "discreteItemSets":[
              {
-                "itemType":"FOG_G99_Pants_CB",
-                "spawnWeight":1,
-                "attributes":{
-                   "healthMin":1.0,
-                   "healthMax":1.0,
-                   "quantityMin":1.0,
-                   "quantityMax":1.0
-                },
-                "quickBarSlot":-1
-             },
-             {
-                "itemType":"FOG_UFP_Pants_6CD",
-                "spawnWeight":1,
-                "attributes":{
-                   "healthMin":1.0,
-                   "healthMax":1.0,
-                   "quantityMin":1.0,
-                   "quantityMax":1.0
-                },
-                "quickBarSlot":-1
-             },
-             {
-                "itemType":"FOG_UFP_Pants_DCU",
-                "spawnWeight":1,
-                "attributes":{
-                   "healthMin":1.0,
-                   "healthMax":1.0,
-                   "quantityMin":1.0,
-                   "quantityMax":1.0
-                },
-                "quickBarSlot":-1
-             },
-             {
-                "itemType":"FOG_UFP_Pants_MC",
-                "spawnWeight":1,
-                "attributes":{
-                   "healthMin":1.0,
-                   "healthMax":1.0,
-                   "quantityMin":1.0,
-                   "quantityMax":1.0
-                },
-                "quickBarSlot":-1
-             },
-             {
                 "itemType":"FOG_UFP_Pants_Tan",
-                "spawnWeight":1,
-                "attributes":{
-                   "healthMin":1.0,
-                   "healthMax":1.0,
-                   "quantityMin":1.0,
-                   "quantityMax":1.0
-                },
-                "quickBarSlot":-1
-             },
-             {
-                "itemType":"FOG_BDU_Pants_Tan",
-                "spawnWeight":1,
-                "attributes":{
-                   "healthMin":1.0,
-                   "healthMax":1.0,
-                   "quantityMin":1.0,
-                   "quantityMax":1.0
-                },
-                "quickBarSlot":-1
-             },
-             {
-                "itemType":"FOG_Pants_Crye_G3_MC",
-                "spawnWeight":1,
-                "attributes":{
-                   "healthMin":1.0,
-                   "healthMax":1.0,
-                   "quantityMin":1.0,
-                   "quantityMax":1.0
-                },
-                "quickBarSlot":-1
-             },
-             {
-                "itemType":"FOG_Pants_Crye_G3_AOR1",
-                "spawnWeight":1,
-                "attributes":{
-                   "healthMin":1.0,
-                   "healthMax":1.0,
-                   "quantityMin":1.0,
-                   "quantityMax":1.0
-                },
-                "quickBarSlot":-1
-             },
-             {
-                "itemType":"FOG_Pants_Crye_G3_CB",
-                "spawnWeight":1,
-                "attributes":{
-                   "healthMin":1.0,
-                   "healthMax":1.0,
-                   "quantityMin":1.0,
-                   "quantityMax":1.0
-                },
-                "quickBarSlot":-1
-             },
-             {
-                "itemType":"FOG_MTF_Pants_CB",
-                "spawnWeight":1,
-                "attributes":{
-                   "healthMin":1.0,
-                   "healthMax":1.0,
-                   "quantityMin":1.0,
-                   "quantityMax":1.0
-                },
-                "quickBarSlot":-1
-             },
-             {
-                "itemType":"FOG_MTF_Pants_MC",
-                "spawnWeight":1,
-                "attributes":{
-                   "healthMin":1.0,
-                   "healthMax":1.0,
-                   "quantityMin":1.0,
-                   "quantityMax":1.0
-                },
-                "quickBarSlot":-1
-             },
-             {
-                "itemType":"FOG_MTF_Pants_CB",
                 "spawnWeight":1,
                 "attributes":{
                    "healthMin":1.0,
@@ -697,17 +244,6 @@
        {
           "slotName":"Feet",
           "discreteItemSets":[
-             {
-                "itemType":"FOG_Combat_HikingBoots_Khaki",
-                "spawnWeight":1,
-                "attributes":{
-                   "healthMin":1.0,
-                   "healthMax":1.0,
-                   "quantityMin":1.0,
-                   "quantityMax":1.0
-                },
-                "quickBarSlot":-1
-             },
              {
                 "itemType":"FOG_Combat_HikingBoots_Brown",
                 "spawnWeight":1,
@@ -732,28 +268,6 @@
              },
              {
                 "itemType":"FOG_Zypher_Boots_Tan_NoSocks",
-                "spawnWeight":1,
-                "attributes":{
-                   "healthMin":1.0,
-                   "healthMax":1.0,
-                   "quantityMin":1.0,
-                   "quantityMax":1.0
-                },
-                "quickBarSlot":-1
-             },
-             {
-                "itemType":"FOG_Lerch_Boots_MC",
-                "spawnWeight":1,
-                "attributes":{
-                   "healthMin":1.0,
-                   "healthMax":1.0,
-                   "quantityMin":1.0,
-                   "quantityMax":1.0
-                },
-                "quickBarSlot":-1
-             },
-             {
-                "itemType":"FOG_Lerch_Boots_Khk",
                 "spawnWeight":1,
                 "attributes":{
                    "healthMin":1.0,

@@ -4166,10 +4166,10 @@
         <usage name="Military"/>
     </type>
     <type name="FOG_Enhanced_PCU_Tan">
-        <nominal>2</nominal>
+        <nominal>0</nominal>
         <lifetime>14400</lifetime>
         <restock>3200</restock>
-        <min>1</min>
+        <min>0</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -5720,7 +5720,7 @@
 		<value name="Tier4"/>
     </type>
     <type name="FOG_Bag_SSO_Tan">
-        <nominal>3</nominal>
+        <nominal>2</nominal>
         <lifetime>14400</lifetime>
         <restock>3200</restock>
         <min>1</min>
@@ -5744,7 +5744,7 @@
         <usage name="Military"/>
     </type>
     <type name="FOG_Bag_SSO_MC">
-        <nominal>3</nominal>
+        <nominal>2</nominal>
         <lifetime>14400</lifetime>
         <restock>3200</restock>
         <min>1</min>
@@ -5756,7 +5756,7 @@
         <usage name="Military"/>
     </type>
     <type name="FOG_Bag_SSO_CB">
-        <nominal>3</nominal>
+        <nominal>2</nominal>
         <lifetime>14400</lifetime>
         <restock>3200</restock>
         <min>1</min>
