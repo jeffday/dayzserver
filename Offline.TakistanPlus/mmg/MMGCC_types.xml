@@ -103,10 +103,10 @@
 		<value name="Tier4"/>
     </type>
     <type name="mm_commando_bag_ucp">
-        <nominal>2</nominal>
+        <nominal>0</nominal>
         <lifetime>28800</lifetime>
         <restock>1800</restock>
-        <min>1</min>
+        <min>0</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -621,7 +621,7 @@
         <usage name="Village"/>
     </type>
     <type name="mm_hoodie_green">
-        <nominal>10</nominal>
+        <nominal>8</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
         <min>5</min>
@@ -637,7 +637,7 @@
         <value name="Tier4"/>
     </type>
     <type name="mm_hoodie_yellow">
-        <nominal>10</nominal>
+        <nominal>8</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
         <min>5</min>
@@ -653,7 +653,7 @@
         <value name="Tier4"/>
     </type>
     <type name="mm_hoodie_blue">
-        <nominal>10</nominal>
+        <nominal>8</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
         <min>5</min>
@@ -669,7 +669,7 @@
         <value name="Tier4"/>
     </type>
     <type name="mm_hoodie_black">
-        <nominal>10</nominal>
+        <nominal>8</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
         <min>5</min>

@@ -438,10 +438,10 @@
 		<value name=""/>
     </type>
     <type name="Shemagh_Brown">
-        <nominal>15</nominal>
+        <nominal>0</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
-        <min>11</min>
+        <min>0</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -453,10 +453,10 @@
         <usage name="Village"/>
     </type>
     <type name="Shemagh_Green">
-        <nominal>15</nominal>
+        <nominal>0</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
-        <min>11</min>
+        <min>0</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -467,10 +467,10 @@
         <usage name="Village"/>
     </type>
     <type name="Shemagh_Red">
-        <nominal>15</nominal>
+        <nominal>0</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
-        <min>11</min>
+        <min>0</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -495,10 +495,10 @@
         <usage name="Village"/>
     </type>
     <type name="Shemagh_Black">
-        <nominal>15</nominal>
+        <nominal>0</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
-        <min>11</min>
+        <min>0</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -726,10 +726,10 @@
 		<category name="tools" />
     </type>
     <type name="Kneepads_Jeans_Base">
-		<nominal>9</nominal>
+		<nominal>5</nominal>
 		<restock>0</restock>
 		<lifetime>14400</lifetime>
-		<min>4</min>
+		<min>2</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
@@ -741,10 +741,10 @@
 		<value name="Tier3"/>
     </type>
     <type name="Kneepads_Jeans_Black">
-		<nominal>9</nominal>
+		<nominal>5</nominal>
 		<restock>0</restock>
 		<lifetime>14400</lifetime>
-		<min>4</min>
+		<min>2</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
@@ -804,10 +804,10 @@
 		<value name="Tier4"/>
     </type>
     <type name="Medium_Sleeves_Shirt">
-		<nominal>13</nominal>
+		<nominal>8</nominal>
 		<restock>0</restock>
 		<lifetime>14400</lifetime>
-		<min>9</min>
+		<min>5</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
@@ -815,13 +815,12 @@
 		<category name="clothes"/>
 		<usage name="Town"/>
 		<usage name="Village"/>
-		<value name=""/>
     </type>
     <type name="Medium_Sleeves_Shirt_Red">
-		<nominal>13</nominal>
+		<nominal>8</nominal>
 		<restock>0</restock>
 		<lifetime>14400</lifetime>
-		<min>9</min>
+		<min>5</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
@@ -829,13 +828,12 @@
 		<category name="clothes"/>
 		<usage name="Town"/>
 		<usage name="Village"/>
-		<value name=""/>
     </type>
     <type name="Medium_Sleeves_Shirt_Blue">
-		<nominal>13</nominal>
+		<nominal>8</nominal>
 		<restock>0</restock>
 		<lifetime>14400</lifetime>
-		<min>9</min>
+		<min>5</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
@@ -843,7 +841,6 @@
 		<category name="clothes"/>
 		<usage name="Town"/>
 		<usage name="Village"/>
-		<value name=""/>
     </type>
     <type name="FlipFlops_Colorbase">
         <nominal>0</nominal>
@@ -920,7 +917,6 @@
 		<category name="clothes"/>
 		<usage name="Town"/>
 		<usage name="School"/>
-		<value name=""/>
     </type>
     <type name="SK8_Sneakers_FullBlack">
 		<nominal>12</nominal>
@@ -934,7 +930,6 @@
 		<category name="clothes"/>
 		<usage name="Town"/>
 		<usage name="School"/>
-		<value name=""/>
     </type>
         <type name="SK8_Sneakers_Blue">
 		<nominal>12</nominal>
@@ -948,7 +943,6 @@
 		<category name="clothes"/>
 		<usage name="Town"/>
 		<usage name="School"/>
-		<value name=""/>
     </type>
     <type name="Round_Glasses">
         <nominal>0</nominal>
@@ -977,36 +971,34 @@
         <usage name="Village"/>
     </type>
     <type name="Skinny_Jeans_Black">
-		<nominal>9</nominal>
+		<nominal>0</nominal>
 		<restock>0</restock>
 		<lifetime>14400</lifetime>
-		<min>4</min>
+		<min>0</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
 		<flags count_in_hoarder="0" count_in_player="0" count_in_map="1" count_in_cargo="0" crafted="0" deloot="0"/>
 		<category name="clothes"/>
 		<usage name="Town"/>
-		<value name=""/>
     </type>
     <type name="Skinny_Jeans_Blue">
-		<nominal>9</nominal>
+		<nominal>0</nominal>
 		<restock>0</restock>
 		<lifetime>14400</lifetime>
-		<min>4</min>
+		<min>0</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
 		<flags count_in_hoarder="0" count_in_player="0" count_in_map="1" count_in_cargo="0" crafted="0" deloot="0"/>
 		<category name="clothes"/>
 		<usage name="Town"/>
-		<value name=""/>
     </type>
     <type name="Tactical_Leg_Holster_Black">
-        <nominal>10</nominal>
+        <nominal>5</nominal>
         <lifetime>7200</lifetime>
         <restock>0</restock>
-        <min>10</min>
+        <min>2</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
