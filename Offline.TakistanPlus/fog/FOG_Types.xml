@@ -5402,10 +5402,10 @@
         <usage name="Military"/>
     </type>
     <type name="FOG_Bag_6ShBagT_CB">
-        <nominal>2</nominal>
+        <nominal>0</nominal>
         <lifetime>14400</lifetime>
         <restock>3200</restock>
-        <min>1</min>
+        <min>0</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -6739,7 +6739,6 @@
         <category name="clothes" />
         <usage name="Military"/>
         <usage name="ContaminatedArea"/>
-		<value name="Tier3"/>
 		<value name="Tier4"/>
     </type>
     <type name="FOG_Vest_Gen4_Green">
@@ -6754,7 +6753,6 @@
         <category name="clothes" />
         <usage name="Military"/>
         <usage name="ContaminatedArea"/>
-		<value name="Tier3"/>
 		<value name="Tier4"/>
     </type>
     <type name="FOG_Vest_Gen4_Tan">
@@ -6769,7 +6767,6 @@
         <category name="clothes" />
         <usage name="Military"/>
         <usage name="ContaminatedArea"/>
-		<value name="Tier3"/>
 		<value name="Tier4"/>
     </type>
     <type name="FOG_Vest_Gen4_EMR">
@@ -6784,7 +6781,6 @@
         <category name="clothes" />
         <usage name="Military"/>
         <usage name="ContaminatedArea"/>
-		<value name="Tier3"/>
 		<value name="Tier4"/>
     </type>
     <type name="FOG_Vest_Gen4_UCP">
@@ -6799,7 +6795,6 @@
         <category name="clothes" />
         <usage name="Military"/>
         <usage name="ContaminatedArea"/>
-		<value name="Tier3"/>
 		<value name="Tier4"/>
     </type>
     <type name="FOG_Vest_Gen4_NWU">
@@ -6814,7 +6809,6 @@
         <category name="clothes" />
         <usage name="Military"/>
         <usage name="ContaminatedArea"/>
-		<value name="Tier3"/>
 		<value name="Tier4"/>
     </type>
     <type name="FOG_Vest_Gen4_MARPAT">
@@ -6829,7 +6823,6 @@
         <category name="clothes" />
         <usage name="Military"/>
         <usage name="ContaminatedArea"/>
-		<value name="Tier3"/>
 		<value name="Tier4"/>
     </type>
     <type name="FOG_Vest_MMAC_MC">
