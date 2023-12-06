@@ -749,6 +749,7 @@
 				<tag name="floor" />
 				<category name="clothes" />
 				<category name="food" />
+				<category name="containers" />
 				<point pos="-0.917970 -0.665565 -1.581700" range="0.25" height="0.3" /> 
 				<point pos="-1.702920 -0.580317 0.729854" range="1" height="1" /> 
 				<point pos="0.650805 -0.574103 -0.061092" range="1" height="1" /> 
@@ -771,6 +772,7 @@
 				<category name="clothes" />
 				<category name="food" />
 				<category name="tools" />
+				<category name="containers" />
 				<point pos="-0.891723 -0.183721 5.681220" range="0.25" height="0.5" /> 
 				<point pos="0.475941 -0.271139 4.335667" range="1" height="1" /> 
 				<point pos="2.206387 -0.371273 1.959506" range="1" height="1" /> 
@@ -817,6 +819,7 @@
 				<category name="clothes" />
 				<category name="food" />
 				<category name="tools" />
+				<category name="containers" />
 				<point pos="-0.540791 -1.302244 3.385473" range="1" height="1" /> 
 				<point pos="-1.400488 -1.173689 -0.437852" range="1" height="1" /> 
 				<point pos="2.119418 -1.212412 -0.793781" range="1" height="1" /> 
@@ -854,6 +857,7 @@
 				<category name="clothes" />
 				<category name="food" />
 				<category name="tools" />
+				<category name="containers" />
 				<tag name="floor" />
 				<point pos="2.314316 -1.167937 -2.369861" range="1" height="1" /> 
 				<point pos="-0.819600 -1.455440 -4.754859" range="1" height="1" /> 
@@ -876,6 +880,7 @@
 			<container name="lootFloor" lootmax="4">
 						<category name="clothes" />
 						<category name="food" />
+						<category name="containers" />
 						<tag name="floor" />
 						<point pos="3.384757 -0.649698 5.240373" range="0.5" height="1.5" /> 
 						<point pos="-4.999681 -0.910496 2.953530" range="0.5" height="1.5" /> 
