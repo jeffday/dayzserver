@@ -459,18 +459,13 @@
 
 		<!--ARMY ATTACHMENTS-->
 		<attachments chance="0.60" name="hatsArmy">
-			<item name="FOG_Helmet_Exfil_Tan" chance="0.09" />
-			<item name="FOG_Helmet_Exfil_MC" chance="0.09" />
-			<item name="FOG_Helmet_FAST_Bump_Tan" chance="0.09" />
-			<item name="FOG_Helmet_FAST_Bump_MC" chance="0.09" />
-			<item name="FOG_Helmet_FASTMT_Tan" chance="0.08" />
-			<item name="FOG_Helmet_FASTMT_MC" chance="0.08" />
-			<item name="FOG_Helmet_FASTMT_AOR1" chance="0.08" />
-			<item name="FOG_Helmet_FAST_SF_Tan" chance="0.08" />
-			<item name="FOG_Helmet_FAST_SF_MC" chance="0.08" />
-			<item name="CDAJ_OpscoreV2_Helmet_Tan" chance="0.08" />
-			<item name="CDAJ_OpscoreV2_Helmet_AOR1" chance="0.08" />
-			<item name="CDAJ_Opscore_Arid" chance="0.08" />
+			<item name="FOG_Helmet_FAST_Bump_Tan" chance="0.2" />
+			<item name="FOG_Helmet_FAST_Bump_MC" chance="0.2" />
+			<item name="FOG_Helmet_FASTMT_Tan" chance="0.15" />
+			<item name="FOG_Helmet_FASTMT_MC" chance="0.15" />
+			<item name="FOG_Helmet_FASTMT_AOR1" chance="0.15" />
+			<item name="FOG_Helmet_FAST_SF_Tan" chance="0.125" />
+			<item name="FOG_Helmet_FAST_SF_MC" chance="0.125" />
 		</attachments>
 		<attachments chance="0.00" name="glassesArmy"> <!--was chance="0.10"; removed coz of attachment slot is missing -->
 			<item name="TacticalGoggles" chance="0.10" />
@@ -523,8 +518,8 @@
 			<item name="FOG_Vest_Gen4_MARPAT" chance="0.2" />
 		</attachments>
 		<attachments chance="1.00" name="HeavyHelmetArmy">
-			<item name="CDAJ_OpscoreV2_Helmet_Tan" chance="0.50" />
-			<item name="CDAJ_OpscoreV2_Helmet_AOR1" chance="0.50" />
+			<item name="FOG_Helmet_FAST_SF_Tan" chance="0.50" />
+			<item name="FOG_Helmet_FAST_SF_MC" chance="0.50" />
 		</attachments>
 		<attachments chance="1.00" name="OfficerHatArmy">
 			<item name="OfficerHat" chance="1.00" />
