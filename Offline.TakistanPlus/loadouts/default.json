@@ -9,7 +9,7 @@
             "slotName": "Body",
             "discreteItemSets": [
                 {
-                    "itemType": "Layered_Shirt_Base",
+                    "itemType": "FOG_Hoodie_Jacket_Rolled_Nike_G",
                     "spawnWeight": 1,
                     "attributes": {
                         "healthMin": 0.45,
@@ -20,7 +20,7 @@
                     "quickBarSlot": -1
                 },
                 {
-                    "itemType": "Layered_Shirt_White",
+                    "itemType": "FOG_Hoodie_Jacket_Rolled_Patagonia",
                     "spawnWeight": 1,
                     "attributes": {
                         "healthMin": 0.45,
@@ -31,7 +31,7 @@
                     "quickBarSlot": -1
                 },
                 {
-                    "itemType": "Layered_Shirt_Cheburashka",
+                    "itemType": "FOG_Hoodie_Jacket_Rolled_FOG",
                     "spawnWeight": 1,
                     "attributes": {
                         "healthMin": 0.45,
@@ -42,7 +42,7 @@
                     "quickBarSlot": -1
                 },
                 {
-                    "itemType": "Layered_Shirt_Courage",
+                    "itemType": "FOG_Hoodie_Jacket_Rolled_CDAJ",
                     "spawnWeight": 1,
                     "attributes": {
                         "healthMin": 0.45,
@@ -53,7 +53,7 @@
                     "quickBarSlot": -1
                 },
                 {
-                    "itemType": "Layered_Shirt_Lily",
+                    "itemType": "FOG_Hoodie_Jacket_Rolled_PERDL",
                     "spawnWeight": 1,
                     "attributes": {
                         "healthMin": 0.45,
@@ -64,7 +64,7 @@
                     "quickBarSlot": -1
                 },
                 {
-                    "itemType": "Medium_Sleeves_Shirt",
+                    "itemType": "FOG_Hoodie_Jacket_Rolled_Thrasher",
                     "spawnWeight": 1,
                     "attributes": {
                         "healthMin": 0.45,
@@ -75,7 +75,7 @@
                     "quickBarSlot": -1
                 },
                 {
-                    "itemType": "Medium_Sleeves_Shirt_Red",
+                    "itemType": "FOG_Hoodie_Jacket_Rolled_MC",
                     "spawnWeight": 1,
                     "attributes": {
                         "healthMin": 0.45,
@@ -86,7 +86,7 @@
                     "quickBarSlot": -1
                 },
                 {
-                    "itemType": "Medium_Sleeves_Shirt_Blue",
+                    "itemType": "FOG_Hoodie_Jacket_Rolled_ERDL",
                     "spawnWeight": 1,
                     "attributes": {
                         "healthMin": 0.45,
@@ -250,7 +250,17 @@
                         "quickBarSlot": -1
                     },
                     {
-                        "itemType": "SodaCan_Pipsi",
+                        "itemType": "WaterBottle",
+                        "attributes": {
+                            "healthMin": 1.0,
+                            "healthMax": 1.0,
+                            "quantityMin": 1.0,
+                            "quantityMax": 1.0
+                        },
+                        "quickBarSlot": -1
+                    },
+                    {
+                        "itemType": "PurificationTablets",
                         "attributes": {
                             "healthMin": 1.0,
                             "healthMax": 1.0,
