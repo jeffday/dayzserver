@@ -9,8 +9,8 @@
 	},
     "PlayerData":
 	{
-		"disablePersonalLight": false,
-		"spawnGearPresetFiles": ["./loadouts/light_gear.json"],
+		"disablePersonalLight": true,
+		"spawnGearPresetFiles": ["./loadouts/default.json"],
 		"StaminaData":
 		{
 			"sprintStaminaModifierErc": 1.0,
