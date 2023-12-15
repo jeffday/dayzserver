@@ -400,10 +400,10 @@
         <value name="Tier4"/>
     </type>
     <type name="BO_AN94">
-        <nominal>1</nominal>
+        <nominal>2</nominal>
         <lifetime>7200</lifetime>
         <restock>300</restock>
-        <min>0</min>
+        <min>1</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -462,7 +462,7 @@
         <value name="Tier4"/>
     </type>
     <type name="BO_G36C">
-		<nominal>1</nominal>
+		<nominal>2</nominal>
         <lifetime>7200</lifetime>
         <restock>300</restock>
 		<min>1</min>
@@ -476,7 +476,7 @@
 		<usage name="Military" />
     </type>
     <type name="BO_G36A1">
-		<nominal>2</nominal>
+		<nominal>3</nominal>
         <lifetime>7200</lifetime>
         <restock>300</restock>
 		<min>1</min>
@@ -856,7 +856,7 @@
         <value name="Tier3"/>
     </type>
     <type name="BO_ACR_Tan">
-		<nominal>1</nominal>
+		<nominal>2</nominal>
         <lifetime>7200</lifetime>
         <restock>300</restock>
 		<min>1</min>
@@ -1065,7 +1065,7 @@
 		<usage name="Military" />
     </type>
     <type name="BO_SCARL_Tan">
-		<nominal>1</nominal>
+		<nominal>2</nominal>
         <lifetime>7200</lifetime>
         <restock>300</restock>
 		<min>1</min>
@@ -1659,7 +1659,7 @@
 		<nominal>1</nominal>
         <lifetime>7200</lifetime>
         <restock>300</restock>
-		<min>0</min>
+		<min>1</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
@@ -1674,7 +1674,7 @@
 		<nominal>1</nominal>
         <lifetime>7200</lifetime>
         <restock>300</restock>
-		<min>0</min>
+		<min>1</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
@@ -1687,7 +1687,7 @@
 		<nominal>1</nominal>
         <lifetime>7200</lifetime>
         <restock>300</restock>
-		<min>0</min>
+		<min>1</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
@@ -1701,7 +1701,7 @@
 		<nominal>1</nominal>
         <lifetime>7200</lifetime>
         <restock>300</restock>
-		<min>0</min>
+		<min>1</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
@@ -1711,18 +1711,18 @@
 		<value name="Tier4" />
     </type>
     <type name="BO_Stoner63A">
-        <nominal>0</nominal>
+        <nominal>2</nominal>
         <lifetime>7200</lifetime>
         <restock>300</restock>
-        <min>0</min>
+        <min>1</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="weapons"/>
         <usage name="Military"/>
-        <value name="Tier3" />
-		<value name="Tier4" />
+        <value name="Tier2" />
+		<value name="Tier3" />
     </type>
     <type name="BO_Mag_Stoner63_150rnd">
         <nominal>0</nominal>
@@ -2362,7 +2362,7 @@
 		<nominal>5</nominal>
 		<restock>0</restock>
 		<lifetime>28800</lifetime>
-		<min>2</min>
+		<min>3</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
@@ -2802,10 +2802,10 @@
         <value name="Tier4"/>
     </type>
     <type name="BO_G3A3">
-        <nominal>0</nominal>
+        <nominal>1</nominal>
         <lifetime>7200</lifetime>
         <restock>300</restock>
-        <min>0</min>
+        <min>1</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -2814,10 +2814,10 @@
         <usage name="Military"/>
     </type>
     <type name="BO_Mag_G3A3_20rnd">
-        <nominal>0</nominal>
+        <nominal>3</nominal>
         <lifetime>7200</lifetime>
         <restock>300</restock>
-        <min>0</min>
+        <min>2</min>
         <quantmin>5</quantmin>
         <quantmax>50</quantmax>
         <cost>100</cost>
@@ -2831,7 +2831,7 @@
         <nominal>1</nominal>
         <lifetime>7200</lifetime>
         <restock>300</restock>
-        <min>0</min>
+        <min>1</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -2866,10 +2866,10 @@
 		<usage name="ContaminatedArea"/>
     </type>
     <type name="BO_M16A4">
-        <nominal>2</nominal>
+        <nominal>3</nominal>
         <lifetime>7200</lifetime>
         <restock>300</restock>
-        <min>1</min>
+        <min>2</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -3141,10 +3141,10 @@
         <usage name="Military"/>
     </type>
     <type name="BO_TKB0146">
-		<nominal>2</nominal>
+		<nominal>3</nominal>
 		<restock>0</restock>
 		<lifetime>28800</lifetime>
-		<min>1</min>
+		<min>2</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
@@ -3248,10 +3248,10 @@
 		<value name="Tier2"/>
     </type>
     <type name="BO_M590A1">
-        <nominal>10</nominal>
+        <nominal>1</nominal>
         <lifetime>7200</lifetime>
         <restock>300</restock>
-        <min>8</min>
+        <min>1</min>
         <quantmin>0</quantmin>
         <quantmax>80</quantmax>
         <cost>100</cost>
@@ -3260,10 +3260,10 @@
         <usage name="Police"/>
     </type>
     <type name="BO_R870">
-        <nominal>10</nominal>
+        <nominal>1</nominal>
         <lifetime>7200</lifetime>
         <restock>300</restock>
-        <min>8</min>
+        <min>1</min>
         <quantmin>0</quantmin>
         <quantmax>80</quantmax>
         <cost>100</cost>
@@ -4065,7 +4065,7 @@
         <nominal>1</nominal>
         <lifetime>7200</lifetime>
         <restock>300</restock>
-        <min>0</min>
+        <min>1</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -4208,8 +4208,8 @@
     <type name="BO_L115A3">
         <nominal>2</nominal>
         <lifetime>7200</lifetime>
-        <restock>300</restock>
-        <min>0</min>
+        <restock>3600</restock>
+        <min>1</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -4864,7 +4864,7 @@
         <nominal>1</nominal>
         <lifetime>7200</lifetime>
         <restock>300</restock>
-        <min>0</min>
+        <min>1</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -5107,10 +5107,10 @@
         <usage name="Military"/>
     </type>
     <type name="BO_M16A1">
-        <nominal>2</nominal>
+        <nominal>3</nominal>
         <lifetime>28800</lifetime>
         <restock>0</restock>
-        <min>1</min>
+        <min>2</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -5207,7 +5207,6 @@
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="weapons"/>
         <usage name="Town"/>
-        <usage name="Village"/>
         <usage name="Hunting"/>
         <value name="Tier3"/>
     </type>
@@ -5222,7 +5221,6 @@
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="weapons"/>
         <usage name="Town"/>
-        <usage name="Village"/>
         <usage name="Hunting"/>
         <value name="Tier3"/>
     </type>
@@ -5389,6 +5387,7 @@
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="weapons"/>
         <usage name="Military"/>
+        <usage name="ContaminatedArea"/>
         <value name="Tier4"/>
     </type>
     <type name="BO_PP2000">
