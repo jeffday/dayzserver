@@ -1,5 +1,181 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <spawnabletypes>
+    <type name="FOG_Bag_Trizip_Puke">
+		<cargo preset="foodArmy" />
+		<cargo preset="mixArmy" />
+	</type>
+    <type name="FOG_Bag_Trizip_Black">
+		<cargo preset="foodArmy" />
+		<cargo preset="mixArmy" />
+	</type>
+    <type name="FOG_Bag_Trizip_RG">
+		<cargo preset="foodArmy" />
+		<cargo preset="mixArmy" />
+	</type>
+    <type name="FOG_Bag_Trizip_CB">
+		<cargo preset="foodArmy" />
+		<cargo preset="mixArmy" />
+	</type>
+    <type name="FOG_Bag_Trizip_RGCB">
+		<cargo preset="foodArmy" />
+		<cargo preset="mixArmy" />
+	</type>
+    <type name="FOG_Bag_Trizip_MARPAT">
+		<cargo preset="foodArmy" />
+		<cargo preset="mixArmy" />
+	</type>
+    <type name="FOG_Bag_Trizip_ATACSFG">
+		<cargo preset="foodArmy" />
+		<cargo preset="mixArmy" />
+	</type>
+    <type name="FOG_Bag_Trizip_DCU">
+		<cargo preset="foodArmy" />
+		<cargo preset="mixArmy" />
+	</type>
+    <type name="FOG_Bag_Trizip_ERDL">
+		<cargo preset="foodArmy" />
+		<cargo preset="mixArmy" />
+	</type>
+    <type name="FOG_Bag_Trizip_MC">
+		<cargo preset="foodArmy" />
+		<cargo preset="mixArmy" />
+	</type>
+    <type name="FOG_Bag_MRASAP_Black">
+		<cargo preset="foodArmy" />
+		<cargo preset="mixArmy" />
+	</type>
+    <type name="FOG_Bag_MRASAP_Grey">
+		<cargo preset="foodArmy" />
+		<cargo preset="mixArmy" />
+	</type>
+    <type name="FOG_Bag_MRASAP_RG">
+		<cargo preset="foodArmy" />
+		<cargo preset="mixArmy" />
+	</type>
+    <type name="FOG_Bag_MRASAP_MC">
+		<cargo preset="foodArmy" />
+		<cargo preset="mixArmy" />
+	</type>
+    <type name="FOG_Bag_MRASAP_CB">
+		<cargo preset="foodArmy" />
+		<cargo preset="mixArmy" />
+	</type>
+    <type name="FOG_Bag_SSO_Tan">
+		<cargo preset="foodArmy" />
+		<cargo preset="mixArmy" />
+	</type>
+    <type name="FOG_Bag_SSO_Black">
+		<cargo preset="foodArmy" />
+		<cargo preset="mixArmy" />
+	</type>
+    <type name="FOG_Bag_SSO_MC">
+		<cargo preset="foodArmy" />
+		<cargo preset="mixArmy" />
+	</type>
+    <type name="FOG_Bag_SSO_CB">
+		<cargo preset="foodArmy" />
+		<cargo preset="mixArmy" />
+	</type>
+    <type name="FOG_Bag_SSO_MCB">
+		<cargo preset="foodArmy" />
+		<cargo preset="mixArmy" />
+	</type>
+    <type name="FOG_Bag_SSO_Toxic">
+		<cargo preset="foodArmy" />
+		<cargo preset="mixArmy" />
+	</type>
+    <type name="FOG_Bag_DrawBridge_CB">
+		<cargo preset="foodArmy" />
+		<cargo preset="mixArmy" />
+	</type>
+    <type name="FOG_Bag_DrawBridge_RG">
+		<cargo preset="foodArmy" />
+		<cargo preset="mixArmy" />
+	</type>
+    <type name="FOG_Bag_DrawBridge_Black">
+		<cargo preset="foodArmy" />
+		<cargo preset="mixArmy" />
+	</type>
+    <type name="FOG_Bag_DrawBridge_Grey">
+		<cargo preset="foodArmy" />
+		<cargo preset="mixArmy" />
+	</type>
+    <type name="FOG_Bergen_Rucksack_Black">
+		<cargo preset="foodArmy" />
+		<cargo preset="mixArmy" />
+	</type>
+    <type name="FOG_Bergen_Rucksack_Green">
+		<cargo preset="foodArmy" />
+		<cargo preset="mixArmy" />
+	</type>
+    <type name="FOG_Bergen_Rucksack_Woodland">
+		<cargo preset="foodArmy" />
+		<cargo preset="mixArmy" />
+	</type>
+    <type name="FOG_Bergen_Rucksack_Multicam">
+		<cargo preset="foodArmy" />
+		<cargo preset="mixArmy" />
+	</type>
+    <type name="FOG_Bergen_Rucksack_ERDL">
+		<cargo preset="foodArmy" />
+		<cargo preset="mixArmy" />
+	</type>
+    <type name="FOG_Bag_F4Terminator">
+		<cargo preset="foodArmy" />
+		<cargo preset="mixArmy" />
+	</type>
+    <type name="FOG_Bag_F4Terminator_Black">
+		<cargo preset="foodArmy" />
+		<cargo preset="mixArmy" />
+	</type>
+    <type name="FOG_Bag_F4Terminator_RG">
+		<cargo preset="foodArmy" />
+		<cargo preset="mixArmy" />
+	</type>
+    <type name="FOG_Bag_F4Terminator_CB">
+		<cargo preset="foodArmy" />
+		<cargo preset="mixArmy" />
+	</type>
+    <type name="FOG_Bag_6ShBagT_Green">
+		<cargo preset="foodArmy" />
+		<cargo preset="mixArmy" />
+	</type>
+    <type name="FOG_Bag_6ShBagT_Black">
+		<cargo preset="foodArmy" />
+		<cargo preset="mixArmy" />
+	</type>
+    <type name="FOG_Bag_6ShBagT_RG">
+		<cargo preset="foodArmy" />
+		<cargo preset="mixArmy" />
+	</type>
+    <type name="FOG_Bag_6ShBagT_CB">
+		<cargo preset="foodArmy" />
+		<cargo preset="mixArmy" />
+	</type>
+    <type name="FOG_Bag_BlackJack_MC">
+		<cargo preset="foodArmy" />
+		<cargo preset="mixArmy" />
+	</type>
+    <type name="FOG_Bag_BlackJack_RG">
+		<cargo preset="foodArmy" />
+		<cargo preset="mixArmy" />
+	</type>
+    <type name="FOG_Bag_BlackJack_CB">
+		<cargo preset="foodArmy" />
+		<cargo preset="mixArmy" />
+	</type>
+    <type name="FOG_Bag_BlackJack_MCB">
+		<cargo preset="foodArmy" />
+		<cargo preset="mixArmy" />
+	</type>
+    <type name="FOG_Bag_BlackJack_ERDL">
+		<cargo preset="foodArmy" />
+		<cargo preset="mixArmy" />
+	</type>
+    <type name="FOG_Bag_BlackJack_Black">
+		<cargo preset="foodArmy" />
+		<cargo preset="mixArmy" />
+	</type>
     <type name="FOG_Belt_RTGFB_CB">
         <attachments chance="1.00">
             <item name="FOG_RTGFB_Holster_Tan" chance="0.50" />
