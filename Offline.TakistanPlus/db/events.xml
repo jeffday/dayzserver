@@ -1101,4 +1101,29 @@
             <child lootmax="0" lootmin="0" max="5" min="3" type="Truck_01_Covered_Orange"/>
         </children>
     </event>
+    <event name="VehicleHilux_Spawn">
+        <nominal>6</nominal>
+        <min>3</min>
+        <max>8</max>
+        <lifetime>300</lifetime>
+        <restock>0</restock>
+        <saferadius>1000</saferadius>
+        <distanceradius>500</distanceradius>
+        <cleanupradius>200</cleanupradius>
+        <flags deletable="0" init_random="0" remove_damaged="1" />
+        <position>fixed</position>
+        <limit>mixed</limit>
+        <active>1</active>
+        <children>
+            <child lootmax="0" lootmin="0" max="1" min="0" type="Techs_Hilux_Silver" />
+            <child lootmax="0" lootmin="0" max="1" min="0" type="Techs_Hilux_OD" />
+            <child lootmax="0" lootmin="0" max="1" min="0" type="Techs_Hilux_Faded" />
+            <child lootmax="0" lootmin="0" max="1" min="0" type="Techs_Hilux_OCP" />
+            <child lootmax="0" lootmin="0" max="1" min="0" type="Techs_Hilux_Geo" />
+            <child lootmax="0" lootmin="0" max="1" min="0" type="Techs_Hilux_RU" />
+            <child lootmax="0" lootmin="0" max="1" min="0" type="Techs_Hilux_Tiger" />
+            <child lootmax="0" lootmin="0" max="1" min="0" type="Techs_Hilux_Moss" />
+            <child lootmax="0" lootmin="0" max="1" min="0" type="Techs_Hilux_Pizza" />
+        </children>
+    </event>
 </events>

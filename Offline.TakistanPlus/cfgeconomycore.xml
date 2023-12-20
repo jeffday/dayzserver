@@ -91,4 +91,9 @@ Do not forget to add attribute act="car", if root class represents moveable vehi
 	<ce folder="tdtmp">
 		<file name="types.xml" type="types" />
 	</ce>
+	<!-- Tech's 4x4 Hilux -->
+	<ce folder="hilux">
+		<file name="hilux_types.xml" type="types" />
+		<file name="hilux_spawnabletypes.xml" type="spawnabletypes" />
+	</ce>
 </economycore>
