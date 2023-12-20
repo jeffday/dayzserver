@@ -1602,43 +1602,6 @@
 				<point pos="3.936228 5.167487 5.348872" range="1" height="1" /> 
 			</container>
 		</group>
-
-		<group name="Land_House_C_4_EP1" lootmax="14">
-						<usage name="Town" />
-						<usage name="Village" />
-			<container name="lootweapons" lootmax="9">
-			            <category name="clothes" />
-						<category name="weapons" />
-						<point pos="2.703537 -3.454988 5.739043" range="0.5" height="1.5" /> 
-						<point pos="-1.429371 -3.454988 5.158045" range="0.5" height="1.5" /> 
-						<point pos="-2.977796 -3.454986 0.695503" range="0.5" height="1.5" /> 
-						<point pos="0.427872 -3.454988 -1.810497" range="0.5" height="1.5" /> 
-						<point pos="-1.974392 -0.352986 -3.737199" range="0.5" height="1.5" /> 
-						<point pos="-0.834934 -0.351256 1.078099" range="0.5" height="1.5" /> 
-						<point pos="1.378443 -0.350711 -1.658300" range="0.5" height="1.5" /> 
-						<point pos="2.454090 -0.350032 4.229693" range="0.5" height="1.5" /> 
-						<point pos="1.786117 2.778338 2.923517" range="0.5" height="1.5" /> 
-						<point pos="2.279247 2.790001 -2.402217" range="0.5" height="1.5" /> 
-						<point pos="-2.953341 2.803031 -2.390593" range="0.5" height="1.5" /> 
-						<point pos="-3.863486 2.805263 2.518400" range="0.5" height="1.5" /> 
-						<point pos="-1.615862 -0.351437 5.357708" range="0.5" height="1.5" /> 
-			</container>
-			<container name="lootShelves" lootmax="5">
-						<category name="tools" />
-						<category name="food" />
-						<category name="explosives" />
-						<tag name="shelves" />						
-						<point pos="0.076433 -2.712404 2.829239" range="0.5" height="1.5" /> 
-						<point pos="-1.088421 -1.964405 2.683655" range="0.5" height="1.5" /> 
-						<point pos="-3.955481 -3.015018 3.521574" range="0.5" height="1.5" /> 
-						<point pos="-3.955481 -3.015018 3.521574" range="0.5" height="1.5" /> 
-						<point pos="-2.617600 -2.688329 -4.010805" range="0.5" height="1.5" /> 
-						<point pos="-2.469756 -2.568342 -5.932001" range="0.5" height="1.5" /> 
-						<point pos="2.165902 -2.647901 -5.051630" range="0.5" height="1.5" /> 
-						<point pos="0.494755 0.431767 3.405839" range="0.5" height="1.5" /> 
-						<point pos="-2.530992 1.066183 -5.944744" range="0.5" height="1.5" /> 
-			</container>
-		</group>
 		<group name="Land_House_C_5_EP1" lootmax="8">
 						<usage name="Town" />
 						<usage name="Village" />
