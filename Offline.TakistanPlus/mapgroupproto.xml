@@ -1536,6 +1536,73 @@
 				<point pos="-4.749760 -0.330113 6.119100" range="1" height="1" />  
 			</container>
 		</group>
+		<group name="Land_House_C_4_EP1" lootmax="10">
+			<usage name="Town" />
+			<usage name="Village" />
+			<container name="lootShelves" lootmax="4">
+				<tag name="shelves" />
+				<category name="tools" />
+				<category name="containers" />
+				<category name="clothes" />
+				<category name="food" />
+				<point pos="-2.481349 -3.264178 -5.888331" range="0.25" height="0.25" /> 
+				<point pos="-2.904083 -2.953479 -5.917413" range="0.25" height="0.25" /> 
+				<point pos="-2.542630 -2.537653 -5.887741" range="0.25" height="1" /> 
+				<point pos="-2.679030 -2.947529 -3.548811" range="0.25" height="1" /> 
+				<point pos="-1.461031 -2.940029 -3.539881" range="0.25" height="1" /> 
+				<point pos="-2.570215 -2.630829 -4.047970" range="0.5" height="1" /> 
+				<point pos="-1.311700 -2.633329 -4.041271" range="0.5" height="1" /> 
+				<point pos="-1.759522 -3.197488 -3.909536" range="0.25" height="0.25" /> 
+				<point pos="-4.057765 -2.987518 2.669330" range="0.5" height="1" /> 
+				<point pos="-4.052216 -2.982518 3.838149" range="0.5" height="1" /> 
+				<point pos="-3.933123 -2.675124 5.782474" range="0.5" height="1" /> 
+				<point pos="-3.909572 -2.680124 4.633019" range="0.5" height="1" /> 
+				<point pos="0.182767 -2.714905 2.645633" range="0.5" height="1" /> 
+				<point pos="-1.206441 -2.021904 3.148510" range="0.5" height="1" /> 
+				<point pos="-2.456986 -0.323822 -5.952330" range="0.25" height="0.25" /> 
+				<point pos="-2.862820 0.003968 -5.929111" range="0.25" height="0.25" /> 
+				<point pos="-2.148710 0.362847 -5.949081" range="0.25" height="0.25" /> 
+				<point pos="-2.694491 0.678547 -5.923861" range="0.25" height="0.25" /> 
+				<point pos="-2.595129 1.091868 -5.926084" range="0.25" height="1" /> 
+				<point pos="0.594825 0.419267 3.474793" range="0.5" height="1" /> 
+				<point pos="0.252396 0.471768 2.708693" range="0.5" height="1" /> 
+				<point pos="-0.203741 0.053498 3.256590" range="0.25" height="1" />
+			</container>
+			<container name="lootFloor" lootmax="4">
+				 <category name="tools" />
+				<category name="containers" />
+				<category name="clothes" />
+				<tag name="floor" />
+				<point pos="1.648731 -3.419989 -4.060587" range="1" height="1" /> 
+				<point pos="-2.573723 -3.417488 -0.261418" range="1" height="1" /> 
+				<point pos="0.832798 -3.424988 -0.577848" range="1" height="1" /> 
+				<point pos="1.863154 -3.442487 3.338631" range="1" height="1" /> 
+				<point pos="-2.762007 -3.422487 5.494277" range="1" height="1" /> 
+				<point pos="0.375188 -0.319376 -5.490133" range="1" height="1" /> 
+				<point pos="0.451902 -0.315521 1.432167" range="1" height="1" /> 
+				<point pos="1.972430 -0.322661 -0.499097" range="1" height="1" /> 
+				<point pos="-4.669638 -0.265052 -4.622743" range="0.5" height="1" /> 
+				<point pos="-5.812424 -0.224722 -0.710150" range="1" height="1" /> 
+				<point pos="-5.532551 -0.212222 2.042721" range="0.5" height="1" /> 
+				<point pos="-1.996269 -0.317539 -1.769947" range="1" height="1" /> 
+				<point pos="-0.320697 -0.238475 5.345757" range="1" height="1" /> 
+				<point pos="2.234925 -0.320133 3.946715" range="1" height="1" /> 
+				<point pos="1.866458 2.780838 5.437538" range="1" height="1" /> 
+				<point pos="1.967662 2.838339 2.838095" range="1" height="1" /> 
+			</container>
+			<container name="lootweapons" lootmax="2">
+				<category name="clothes" />
+				<category name="food" />
+				<category name="weapons" />
+				<point pos="-5.146118 2.823622 3.027517" range="1" height="1" /> 
+				<point pos="0.280512 2.824965 3.121998" range="1" height="1" /> 
+				<point pos="3.917676 2.808033 -1.159600" range="1" height="1" /> 
+				<point pos="-5.327242 2.823851 -1.631447" range="1" height="1" /> 
+				<point pos="0.314316 2.809976 -4.110119" range="1" height="1" /> 
+				<point pos="3.936228 5.167487 5.348872" range="1" height="1" /> 
+			</container>
+		</group>
+
 		<group name="Land_House_C_4_EP1" lootmax="14">
 						<usage name="Town" />
 						<usage name="Village" />
