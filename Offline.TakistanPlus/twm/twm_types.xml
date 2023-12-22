@@ -837,10 +837,10 @@
 		<usage name="Military"/>
     </type>
 	<type name="TWM_G36K"> 
-		<nominal>2</nominal>
+		<nominal>0</nominal>
 		<lifetime>3600</lifetime>
 		<restock>1600</restock>
-		<min>1</min>
+		<min>0</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost> 
@@ -851,10 +851,10 @@
 		<value name="Tier4"/>
 	</type>
 	<type name="TWM_Mag_G36K">
-        <nominal>5</nominal>
+        <nominal>0</nominal>
         <lifetime>7200</lifetime>
         <restock>1800</restock>
-        <min>2</min>
+        <min>0</min>
         <quantmin>10</quantmin>
         <quantmax>70</quantmax>
         <cost>100</cost>
