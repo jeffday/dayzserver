@@ -506,14 +506,17 @@
 						<point pos="-0.176669 0.502939 0.483439" range="0.5" height="1.5" /> 
 			</container>
 		</group>
-		<group name="Land_cave_Vojenskapalanda" lootmax="2">			
+		<group name="Land_cave_Vojenskapalanda" lootmax="4">
 			<usage name="Military" />
-			<container name="lootweapons" lootmax="2">
-						<category name="weapons" />
-						<category name="explosives" />
-						<point pos="-0.400824 0.424838 -0.111092" range="0.5" height="1.5" /> 
-						<point pos="-0.892304 1.216665 0.139167" range="0.5" height="1.5" /> 
-						<point pos="0.348175 1.216665 0.171908" range="0.5" height="1.5" /> 
+			<container name="lootweapons" lootmax="4">
+				<category name="weapons" />
+				<category name="explosives" />
+				<point pos="0.565047 0.452338 -0.078498" range="0.25" height="0.5" /> 
+				<point pos="0.039714 0.452338 0.304172" range="0.25" height="0.5" /> 
+				<point pos="-0.831718 0.454838 0.092806" range="0.75" height="0.5" /> 
+				<point pos="0.275559 1.291667 0.100016" range="0.75" height="1.5" /> 
+				<point pos="-0.865367 1.296667 0.083586" range="0.75" height="1.5" /> 
+				<point pos="-0.778784 -0.002662 0.128531" range="0.75" height="0.25" /> 
 			</container>
 		</group>
 		<group name="Land_vysilac_FM2_ep1" >
