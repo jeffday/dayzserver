@@ -361,10 +361,10 @@
         <usage name="Industrial"/>
     </type>
     <type name="Techs_Hilux_Driver_Door_RU">
-        <nominal>4</nominal>
+        <nominal>0</nominal>
         <lifetime>10800</lifetime>
         <restock>1800</restock>
-        <min>2</min>
+        <min>0</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -577,10 +577,10 @@
         <usage name="Industrial"/>
     </type>
     <type name="Techs_Hilux_CoDriver_Door_RU">
-        <nominal>4</nominal>
+        <nominal>0</nominal>
         <lifetime>10800</lifetime>
         <restock>1800</restock>
-        <min>2</min>
+        <min>0</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -793,10 +793,10 @@
         <usage name="Industrial"/>
     </type>
     <type name="Techs_Hilux_Trunk_RU">
-        <nominal>4</nominal>
+        <nominal>0</nominal>
         <lifetime>10800</lifetime>
         <restock>1800</restock>
-        <min>2</min>
+        <min>0</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -1009,10 +1009,10 @@
         <usage name="Industrial"/>
     </type>
     <type name="Techs_Hilux_Hood_RU">
-        <nominal>4</nominal>
+        <nominal>0</nominal>
         <lifetime>10800</lifetime>
         <restock>1800</restock>
-        <min>2</min>
+        <min>0</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -1058,9 +1058,4 @@
         <category name="lootdispatch"/>
         <usage name="Industrial"/>
     </type>
-    <type name="Techs_Hilux_Wheel_Ruined">
-        <lifetime>1800</lifetime>
-        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="1" deloot="0" />
-    </type>
-
 </types>
