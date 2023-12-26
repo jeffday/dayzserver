@@ -995,10 +995,10 @@
         <usage name="Village"/>
     </type>
     <type name="Ammo_40mm_Chemgas">
-        <nominal>5</nominal>
+        <nominal>0</nominal>
         <lifetime>5400</lifetime>
         <restock>1800</restock>
-        <min>3</min>
+        <min>0</min>
         <quantmin>100</quantmin>
         <quantmax>100</quantmax>
         <cost>100</cost>
@@ -1622,10 +1622,10 @@
         <category name="tools"/>
     </type>
     <type name="AntiChemInjector">
-        <nominal>1</nominal>
+        <nominal>0</nominal>
         <lifetime>7200</lifetime>
         <restock>0</restock>
-        <min>1</min>
+        <min>0</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -2272,10 +2272,10 @@
         <usage name="School"/>
     </type>
     <type name="Aug">
-        <nominal>1</nominal>
+        <nominal>0</nominal>
         <lifetime>7200</lifetime>
         <restock>3600</restock>
-        <min>1</min>
+        <min>0</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -10386,10 +10386,10 @@
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
-        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="1"/>
         <category name="weapons"/>
         <tag name="shelves"/>
-        <usage name="ContaminatedArea"/>
+        <usage name="Military"/>
     </type>
     <type name="KitchenKnife">
         <nominal>20</nominal>
@@ -11549,7 +11549,9 @@
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="weapons"/>
-        <usage name="ContaminatedArea"/>
+        <usage name="Military"/>
+		<usage name="ContaminatedArea"/>
+		<value name="Tier4"/>
     </type>
     <type name="M4A1_Black">
         <nominal>0</nominal>
@@ -17675,10 +17677,10 @@
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
-        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="1"/>
         <category name="weapons"/>
         <tag name="shelves"/>
-        <usage name="ContaminatedArea"/>
+        <usage name="Military"/>
     </type>
     <type name="StartKitIV">
         <nominal>15</nominal>
