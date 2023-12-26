@@ -2629,10 +2629,10 @@
         <usage name="Military"/>
     </type>
     <type name="BandageDressing">
-        <nominal>30</nominal>
+        <nominal>20</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
-        <min>20</min>
+        <min>15</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -6990,10 +6990,10 @@
         <category name="tools"/>
     </type>
     <type name="FirstAidKit">
-        <nominal>15</nominal>
+        <nominal>5</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
-        <min>10</min>
+        <min>2</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -7707,7 +7707,6 @@
         <category name="clothes"/>
         <tag name="shelves"/>
         <usage name="Medic"/>
-        <usage name="Firefighter"/>
     </type>
     <type name="GasMask_Filter_Improvised">
         <nominal>0</nominal>
@@ -10445,10 +10444,10 @@
         <usage name="Town"/>
     </type>
     <type name="LabCoat">
-        <nominal>15</nominal>
+        <nominal>5</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
-        <min>10</min>
+        <min>2</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -13722,10 +13721,10 @@
         <usage name="Coast"/>
     </type>
     <type name="NioshFaceMask">
-        <nominal>20</nominal>
+        <nominal>40</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
-        <min>15</min>
+        <min>30</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -13733,6 +13732,7 @@
         <category name="clothes"/>
         <usage name="Medic"/>
         <usage name="Industrial"/>
+        <usage name="Town"/>
     </type>
     <type name="NorseHelm">
         <nominal>0</nominal>
@@ -13746,10 +13746,10 @@
         <category name="clothes"/>
     </type>
     <type name="NurseDress_Blue">
-        <nominal>8</nominal>
+        <nominal>5</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
-        <min>4</min>
+        <min>2</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -13758,10 +13758,10 @@
         <usage name="Medic"/>
     </type>
     <type name="NurseDress_White">
-        <nominal>8</nominal>
+        <nominal>5</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
-        <min>4</min>
+        <min>2</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -15917,7 +15917,7 @@
         <usage name="Military"/>
     </type>
     <type name="SalineBag">
-        <nominal>20</nominal>
+        <nominal>15</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
         <min>10</min>
@@ -17681,10 +17681,10 @@
         <usage name="ContaminatedArea"/>
     </type>
     <type name="StartKitIV">
-        <nominal>20</nominal>
+        <nominal>15</nominal>
         <lifetime>28800</lifetime>
         <restock>0</restock>
-        <min>15</min>
+        <min>10</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
