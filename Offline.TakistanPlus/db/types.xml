@@ -616,9 +616,6 @@
         <category name="weapons"/>
         <usage name="Police"/>
         <usage name="Hunting"/>
-        <value name="Tier2"/>
-        <value name="Tier3"/>
-        <value name="Tier4"/>
     </type>
     <type name="AmmoBox_12gaRubberSlug_10Rnd">
         <nominal>0</nominal>
@@ -644,9 +641,6 @@
         <category name="weapons"/>
         <usage name="Police"/>
         <usage name="Hunting"/>
-        <value name="Tier2"/>
-        <value name="Tier3"/>
-        <value name="Tier4"/>
     </type>
     <type name="AmmoBox_22_50Rnd">
         <nominal>30</nominal>
@@ -14784,16 +14778,16 @@
         <category name="tools"/>
     </type>
     <type name="Plastic_Explosive">
-        <nominal>5</nominal>
+        <nominal>1</nominal>
         <lifetime>432000</lifetime>
         <restock>0</restock>
-        <min>2</min>
+        <min>0</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="explosives"/>
-        <usage name="Industrial"/>
+        <usage name="Mining"/>
     </type>
     <type name="PlateCarrierHolster">
         <nominal>0</nominal>
@@ -15726,16 +15720,16 @@
         <usage name="Industrial"/>
     </type>
     <type name="RemoteDetonator">
-        <nominal>5</nominal>
+        <nominal>1</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
-        <min>2</min>
+        <min>0</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="tools"/>
-        <usage name="Industrial"/>
+        <usage name="Mining"/>
     </type>
     <type name="RemoteDetonatorReceiver">
         <nominal>0</nominal>
