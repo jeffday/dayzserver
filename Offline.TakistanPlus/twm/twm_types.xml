@@ -2217,18 +2217,16 @@
 </type>
 <!-- Update 1.16 -->
 	<type name="TWM_Lee_SMLE"> 
-        <nominal>0</nominal>
-        <lifetime>7200</lifetime>
-        <restock>300</restock>
-        <min>0</min>
+        <nominal>10</nominal>
+        <lifetime>28800</lifetime>
+        <restock>0</restock>
+        <min>7</min>
         <quantmin>0</quantmin>
         <quantmax>80</quantmax>
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="weapons"/>
-        <usage name="Hunting"/>
-        <value name="Tier3"/>
-        <value name="Tier4"/>
+        <usage name="Military"/>
 	</type>
 	<type name="TWM_HecateII"> 
 		<nominal>0</nominal>
@@ -2309,36 +2307,29 @@
         <value name="Tier4"/>
 	</type>
 	<type name="TWM_Ammo_303">
-        <nominal>0</nominal>
-        <lifetime>7200</lifetime>
-        <restock>1800</restock>
-        <min>0</min>
-        <quantmin>1</quantmin>
-        <quantmax>6</quantmax>
+        <nominal>25</nominal>
+        <lifetime>28800</lifetime>
+        <restock>180</restock>
+        <min>10</min>
+        <quantmin>10</quantmin>
+        <quantmax>30</quantmax>
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-		<category name="weapons" />
-        <usage name="Town"/>
-        <usage name="Village"/>
-        <usage name="Hunting"/>
-        <value name="Tier3"/>
-        <value name="Tier4"/>
+        <category name="weapons"/>
+        <tag name="shelves"/>
+        <usage name="Military"/>
     </type>
 	<type name="TWM_AmmoBox_303">
-        <nominal>0</nominal>
-        <lifetime>7200</lifetime>
-        <restock>1200</restock>
-        <min>0</min>
+        <nominal>9</nominal>
+        <lifetime>28800</lifetime>
+        <restock>0</restock>
+        <min>5</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="weapons"/>
-        <usage name="Town"/>
-        <usage name="Village"/>
-        <usage name="Hunting"/>
-        <value name="Tier3"/>
-        <value name="Tier4"/>
+        <usage name="Military"/>
     </type>
 	<type name="TWM_SV98">
 		<nominal>1</nominal>
