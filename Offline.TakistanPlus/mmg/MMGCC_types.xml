@@ -231,10 +231,10 @@
         <value name="Tier3"/>
     </type>
     <type name="mm_shemagh1_red">
-        <nominal>10</nominal>
+        <nominal>15</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
-        <min>5</min>
+        <min>10</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -246,10 +246,10 @@
         <value name="Tier3"/>
     </type>
     <type name="mm_shemagh1_blackgold">
-        <nominal>10</nominal>
+        <nominal>15</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
-        <min>5</min>
+        <min>10</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -257,8 +257,6 @@
         <category name="clothes"/>
         <usage name="Town"/>
         <usage name="Village"/>
-        <value name="Tier2"/>
-        <value name="Tier3"/>
     </type>
     <type name="mm_shemagh1_black">
         <nominal>10</nominal>
@@ -272,8 +270,6 @@
         <category name="clothes"/>
         <usage name="Town"/>
         <usage name="Village"/>
-        <value name="Tier2"/>
-        <value name="Tier3"/>
     </type>
     <type name="mm_shemagh1_khaki">
         <nominal>10</nominal>
@@ -287,80 +283,58 @@
         <category name="clothes"/>
         <usage name="Town"/>
         <usage name="Village"/>
-        <value name="Tier2"/>
-        <value name="Tier3"/>
     </type>
     <type name="mm_shemagh2_green">
-        <nominal>5</nominal>
+        <nominal>10</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
-        <min>2</min>
+        <min>5</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="clothes"/>
-        <usage name="Military"/>
-        <usage name="Police"/>
         <usage name="Town"/>
         <usage name="Village"/>
-        <value name="Tier2"/>
-        <value name="Tier3"/>
-        <value name="Tier4"/>
     </type>
     <type name="mm_shemagh2_red">
-        <nominal>5</nominal>
+        <nominal>15</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
-        <min>2</min>
+        <min>10</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="clothes"/>
-        <usage name="Military"/>
-        <usage name="Police"/>
         <usage name="Town"/>
         <usage name="Village"/>
-        <value name="Tier2"/>
-        <value name="Tier3"/>
-        <value name="Tier4"/>
     </type>
     <type name="mm_shemagh2_grey">
-        <nominal>5</nominal>
+        <nominal>10</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
-        <min>2</min>
+        <min>5</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="clothes"/>
-        <usage name="Military"/>
-        <usage name="Police"/>
         <usage name="Town"/>
         <usage name="Village"/>
-        <value name="Tier2"/>
-        <value name="Tier3"/>
-        <value name="Tier4"/>
     </type>
     <type name="mm_shemagh2_khaki">
-        <nominal>5</nominal>
+        <nominal>10</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
-        <min>2</min>
+        <min>5</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="clothes"/>
-        <usage name="Military"/>
-        <usage name="Police"/>
         <usage name="Town"/>
         <usage name="Village"/>
-        <value name="Tier2"/>
-        <value name="Tier3"/>
-        <value name="Tier4"/>
     </type>
     <type name="mm_neck_gaiter_green">
         <nominal>5</nominal>
@@ -376,8 +350,6 @@
         <usage name="Industrial"/>
         <usage name="Town"/>
         <usage name="Village"/>
-        <value name="Tier1"/>
-        <value name="Tier2"/>
     </type>
     <type name="mm_neck_gaiter_red">
         <nominal>5</nominal>
@@ -393,8 +365,6 @@
         <usage name="Industrial"/>
         <usage name="Town"/>
         <usage name="Village"/>
-        <value name="Tier1"/>
-        <value name="Tier2"/>
     </type>
     <type name="mm_neck_gaiter_grey">
         <nominal>5</nominal>
@@ -410,8 +380,6 @@
         <usage name="Industrial"/>
         <usage name="Town"/>
         <usage name="Village"/>
-        <value name="Tier1"/>
-        <value name="Tier2"/>
     </type>
     <type name="mm_neck_gaiter_khaki">
         <nominal>5</nominal>
@@ -427,8 +395,6 @@
         <usage name="Industrial"/>
         <usage name="Town"/>
         <usage name="Village"/>
-        <value name="Tier1"/>
-        <value name="Tier2"/>
     </type>
     <type name="mm_fingerless_gloves_green">
         <nominal>0</nominal>
