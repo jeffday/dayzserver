@@ -703,27 +703,26 @@
         <value name="Tier4"/>
     </type>
 	<type name="TWM_Ammobox_338">
-        <nominal>0</nominal>
+        <nominal>7</nominal>
         <lifetime>28800</lifetime>
         <restock>0</restock>
-        <min>0</min>
+        <min>3</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="weapons"/>
-        <tag name="shelves"/>
         <usage name="Military"/>
         <value name="Tier3"/>
         <value name="Tier4"/>
     </type>
     <type name="TWM_Ammo_338Magnum">
-        <nominal>0</nominal>
-        <lifetime>14400</lifetime>
+        <nominal>15</nominal>
+        <lifetime>28800</lifetime>
         <restock>0</restock>
-        <min>0</min>
-        <quantmin>1</quantmin>
-        <quantmax>6</quantmax>
+        <min>10</min>
+        <quantmin>10</quantmin>
+        <quantmax>30</quantmax>
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="weapons"/>
@@ -1502,14 +1501,14 @@
 		<value name="Tier4"/>
 	</type>
 	<type name="TWM_M2010_Tan"> 
-		<nominal>0</nominal>
+		<nominal>1</nominal>
 		<lifetime>3600</lifetime>
 		<restock>1600</restock>
 		<min>0</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost> 
-		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="1" />
 		<category name="weapons" />
         <usage name="Military"/>
         <value name="Tier4"/>
@@ -1562,10 +1561,10 @@
         <value name="Tier4"/>
     </type>
 	<type name="TWM_Mag_M2010_5rnd">
-        <nominal>0</nominal>
+        <nominal>2</nominal>
         <lifetime>7200</lifetime>
         <restock>1800</restock>
-        <min>0</min>
+        <min>1</min>
         <quantmin>10</quantmin>
         <quantmax>50</quantmax>
         <cost>100</cost>
@@ -1573,7 +1572,6 @@
         <category name="weapons"/>
         <tag name="shelves"/>
         <usage name="Military"/>
-        <value name="Tier3"/>
         <value name="Tier4"/>
     </type>
 	<type name="TWM_Hammer_Axe">
@@ -2294,7 +2292,7 @@
         <value name="Tier3"/>
 	</type>
 	<type name="TWM_FRF2"> 
-        <nominal>1</nominal>
+        <nominal>0</nominal>
         <lifetime>28800</lifetime>
         <restock>0</restock>
         <min>0</min>
@@ -2453,8 +2451,8 @@
         <lifetime>7200</lifetime>
         <restock>1200</restock>
         <min>10</min>
-        <quantmin>10</quantmin>
-        <quantmax>30</quantmax>
+        <quantmin>2</quantmin>
+        <quantmax>10</quantmax>
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="weapons"/>
@@ -2492,10 +2490,10 @@
 		<value name="Tier4"/>
 	</type>
 	<type name="TWM_Mag_FRF2">
-        <nominal>5</nominal>
+        <nominal>0</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
-        <min>2</min>
+        <min>0</min>
         <quantmin>10</quantmin>
         <quantmax>80</quantmax>
         <cost>100</cost>
@@ -2566,10 +2564,10 @@
 		<value name="Tier4"/>
 	</type>	
 	<type name="TWM_Banshee_57_Black">
-        <nominal>2</nominal>
+        <nominal>0</nominal>
         <lifetime>7200</lifetime>
         <restock>300</restock>
-        <min>1</min>
+        <min>0</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -2590,10 +2588,10 @@
         <usage name="Military"/>
 	</type>
 	<type name="TWM_Banshee_57_Tan">
-		<nominal>3</nominal>
+		<nominal>0</nominal>
 		<lifetime>8200</lifetime>
 		<restock>1800</restock>
-		<min>1</min>
+		<min>0</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
@@ -2605,10 +2603,10 @@
         <value name="Tier4"/>
 	</type>	
     <type name="TWM_Mag_Banshee_57">
-        <nominal>7</nominal>
+        <nominal>0</nominal>
         <lifetime>7200</lifetime>
         <restock>300</restock>
-        <min>4</min>
+        <min>0</min>
         <quantmin>5</quantmin>
         <quantmax>50</quantmax>
         <cost>100</cost>
@@ -2876,10 +2874,10 @@
 	</type>
 <!-- dayz 1.20 update -->
     <type name="TWM_AKSRusty">
-		<nominal>5</nominal>
+		<nominal>0</nominal>
 		<restock>0</restock>
 		<lifetime>28800</lifetime>
-		<min>2</min>
+		<min>0</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
@@ -2891,10 +2889,10 @@
         <value name="Tier2"/>
     </type>
     <type name="TWM_AKMRusty">
-        <nominal>3</nominal>
+        <nominal>5</nominal>
         <lifetime>28800</lifetime>
         <restock>0</restock>
-        <min>1</min>
+        <min>2</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -2902,8 +2900,8 @@
         <category name="weapons"/>
         <usage name="Town"/>
         <usage name="Hunting"/>
-        <value name="Tier1"/>
         <value name="Tier2"/>
+        <value name="Tier3"/>
     </type>
     <type name="TWM_AN94">
         <nominal>0</nominal>
