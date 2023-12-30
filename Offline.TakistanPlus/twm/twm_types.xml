@@ -2305,12 +2305,12 @@
         <value name="Tier4"/>
 	</type>
 	<type name="TWM_Ammo_303">
-        <nominal>25</nominal>
+        <nominal>35</nominal>
         <lifetime>28800</lifetime>
         <restock>180</restock>
-        <min>10</min>
+        <min>20</min>
         <quantmin>2</quantmin>
-        <quantmax>7</quantmax>
+        <quantmax>5</quantmax>
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="weapons"/>
