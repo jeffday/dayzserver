@@ -1,769 +1,772 @@
 
-<type name="RFDG_MilitaryBelt_Sand">
-	<nominal>5</nominal>
-	<lifetime>28800</lifetime>
-	<restock>1800</restock>
-	<min>2</min>
-	<quantmin>-1</quantmin>
-	<quantmax>-1</quantmax>
-	<cost>100</cost>
-	<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-	<category name="clothes"/>
-	<usage name="Military"/>
-</type>
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<types>
+	<type name="RFDG_MilitaryBelt_Sand">
+		<nominal>5</nominal>
+		<lifetime>28800</lifetime>
+		<restock>1800</restock>
+		<min>2</min>
+		<quantmin>-1</quantmin>
+		<quantmax>-1</quantmax>
+		<cost>100</cost>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+		<category name="clothes"/>
+		<usage name="Military"/>
+	</type>
 
-<type name="RFDG_BDUPants_DesertCamo">
-	<nominal>4</nominal>
-	<restock>600</restock>
-	<lifetime>14400</lifetime>
-	<min>2</min>
-	<quantmin>-1</quantmin>
-	<quantmax>-1</quantmax>
-	<cost>100</cost>
-	<flags count_in_hoarder="0" count_in_player="0" count_in_map="1" count_in_cargo="0" crafted="0" deloot="0"/>
-	<category name="clothes"/>
-	<usage name="Military"/>
-</type>
+	<type name="RFDG_BDUPants_DesertCamo">
+		<nominal>4</nominal>
+		<restock>600</restock>
+		<lifetime>14400</lifetime>
+		<min>2</min>
+		<quantmin>-1</quantmin>
+		<quantmax>-1</quantmax>
+		<cost>100</cost>
+		<flags count_in_hoarder="0" count_in_player="0" count_in_map="1" count_in_cargo="0" crafted="0" deloot="0"/>
+		<category name="clothes"/>
+		<usage name="Military"/>
+	</type>
 
-<type name="RFDG_BDUJacket_DesertCamo">
-	<nominal>4</nominal>
-	<lifetime>14400</lifetime>
-	<restock>600</restock>
-	<min>2</min>
-	<quantmin>-1</quantmin>
-	<quantmax>-1</quantmax>
-	<cost>100</cost>
-	<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-	<category name="clothes"/>
-	<usage name="Military"/>
-</type>
+	<type name="RFDG_BDUJacket_DesertCamo">
+		<nominal>4</nominal>
+		<lifetime>14400</lifetime>
+		<restock>600</restock>
+		<min>2</min>
+		<quantmin>-1</quantmin>
+		<quantmax>-1</quantmax>
+		<cost>100</cost>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+		<category name="clothes"/>
+		<usage name="Military"/>
+	</type>
 
-<type name="RFDG_Platecarrier_DesertCamo">
-	<nominal>0</nominal>
-	<lifetime>14400</lifetime>
-	<restock>0</restock>
-	<min>0</min>
-	<quantmin>-1</quantmin>
-	<quantmax>-1</quantmax>
-	<cost>100</cost>
-	<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-	<category name="clothes"/>
-	<usage name="Military"/>
-	<value name="Tier3"/>
-	<value name="Tier4"/>
-</type>
+	<type name="RFDG_Platecarrier_DesertCamo">
+		<nominal>0</nominal>
+		<lifetime>14400</lifetime>
+		<restock>0</restock>
+		<min>0</min>
+		<quantmin>-1</quantmin>
+		<quantmax>-1</quantmax>
+		<cost>100</cost>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+		<category name="clothes"/>
+		<usage name="Military"/>
+		<value name="Tier3"/>
+		<value name="Tier4"/>
+	</type>
 
-<type name="RFDG_PlatecarrierHolster_DesertCamo">
-	<nominal>2</nominal>
-	<lifetime>14400</lifetime>
-	<restock>0</restock>
-	<min>1</min>
-	<quantmin>-1</quantmin>
-	<quantmax>-1</quantmax>
-	<cost>100</cost>
-	<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-	<category name="clothes"/>
-	<tag name="shelves"/>
-	<usage name="Military"/>
-</type>
+	<type name="RFDG_PlatecarrierHolster_DesertCamo">
+		<nominal>2</nominal>
+		<lifetime>14400</lifetime>
+		<restock>0</restock>
+		<min>1</min>
+		<quantmin>-1</quantmin>
+		<quantmax>-1</quantmax>
+		<cost>100</cost>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+		<category name="clothes"/>
+		<tag name="shelves"/>
+		<usage name="Military"/>
+	</type>
 
-<type name="RFDG_PlatecarrierPouches_DesertCamo">
-	<nominal>0</nominal>
-	<lifetime>14400</lifetime>
-	<restock>0</restock>
-	<min>0</min>
-	<quantmin>-1</quantmin>
-	<quantmax>-1</quantmax>
-	<cost>100</cost>
-	<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-	<category name="clothes"/>
-	<tag name="shelves"/>
-	<usage name="Military"/>
-</type>
+	<type name="RFDG_PlatecarrierPouches_DesertCamo">
+		<nominal>0</nominal>
+		<lifetime>14400</lifetime>
+		<restock>0</restock>
+		<min>0</min>
+		<quantmin>-1</quantmin>
+		<quantmax>-1</quantmax>
+		<cost>100</cost>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+		<category name="clothes"/>
+		<tag name="shelves"/>
+		<usage name="Military"/>
+	</type>
 
-<type name="RFDG_Helmet_Mich2001_DesertCamo">
-	<nominal>0</nominal>
-	<lifetime>28800</lifetime>
-	<restock>0</restock>
-	<min>0</min>
-	<quantmin>-1</quantmin>
-	<quantmax>-1</quantmax>
-	<cost>100</cost>
-	<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-	<category name="clothes"/>
-	<usage name="Military"/>
-	<value name="Tier4"/>
-</type>
+	<type name="RFDG_Helmet_Mich2001_DesertCamo">
+		<nominal>0</nominal>
+		<lifetime>28800</lifetime>
+		<restock>0</restock>
+		<min>0</min>
+		<quantmin>-1</quantmin>
+		<quantmax>-1</quantmax>
+		<cost>100</cost>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+		<category name="clothes"/>
+		<usage name="Military"/>
+		<value name="Tier4"/>
+	</type>
 
-<type name="RFDG_Canteen_DesertCamo">
-	<nominal>0</nominal>
-	<restock>0</restock>
-	<lifetime>14400</lifetime>
-	<min>0</min>
-	<quantmin>10</quantmin>
-	<quantmax>90</quantmax>
-	<cost>100</cost>
-	<flags count_in_hoarder="0" count_in_player="0" count_in_map="1" count_in_cargo="0" crafted="0" deloot="0"/>
-	<category name="food"/>
-	<usage name="Military"/>
-	<usage name="Hunting"/>
-</type>
+	<type name="RFDG_Canteen_DesertCamo">
+		<nominal>0</nominal>
+		<restock>0</restock>
+		<lifetime>14400</lifetime>
+		<min>0</min>
+		<quantmin>10</quantmin>
+		<quantmax>90</quantmax>
+		<cost>100</cost>
+		<flags count_in_hoarder="0" count_in_player="0" count_in_map="1" count_in_cargo="0" crafted="0" deloot="0"/>
+		<category name="food"/>
+		<usage name="Military"/>
+		<usage name="Hunting"/>
+	</type>
 
-<type name="RFDG_AliceBag_DesertCamo">
-	<nominal>0</nominal>
-	<lifetime>28800</lifetime>
-	<restock>1800</restock>
-	<min>0</min>
-	<quantmin>-1</quantmin>
-	<quantmax>-1</quantmax>
-	<cost>100</cost>
-	<flags count_in_cargo="1" count_in_hoarder="1" count_in_map="1" count_in_player="1" crafted="0" deloot="1"/>
-	<category name="containers"/>
-	<usage name="Military"/>
-</type>
+	<type name="RFDG_AliceBag_DesertCamo">
+		<nominal>0</nominal>
+		<lifetime>28800</lifetime>
+		<restock>1800</restock>
+		<min>0</min>
+		<quantmin>-1</quantmin>
+		<quantmax>-1</quantmax>
+		<cost>100</cost>
+		<flags count_in_cargo="1" count_in_hoarder="1" count_in_map="1" count_in_player="1" crafted="0" deloot="1"/>
+		<category name="containers"/>
+		<usage name="Military"/>
+	</type>
 
-<type name="RFDG_Booniehat_DesertCamo">
-	<nominal>0</nominal>
-	<lifetime>14400</lifetime>
-	<restock>0</restock>
-	<min>0</min>
-	<quantmin>-1</quantmin>
-	<quantmax>-1</quantmax>
-	<cost>100</cost>
-	<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-	<category name="clothes"/>
-	<tag name="shelves"/>
-	<usage name="Military"/>
-	<usage name="Hunting"/>
-</type>
+	<type name="RFDG_Booniehat_DesertCamo">
+		<nominal>0</nominal>
+		<lifetime>14400</lifetime>
+		<restock>0</restock>
+		<min>0</min>
+		<quantmin>-1</quantmin>
+		<quantmax>-1</quantmax>
+		<cost>100</cost>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+		<category name="clothes"/>
+		<tag name="shelves"/>
+		<usage name="Military"/>
+		<usage name="Hunting"/>
+	</type>
 
-<type name="RFDG_LWHelmet_DesertCamo">
-	<nominal>4</nominal>
-	<lifetime>14400</lifetime>
-	<restock>1800</restock>
-	<min>2</min>
-	<quantmin>-1</quantmin>
-	<quantmax>-1</quantmax>
-	<cost>100</cost>
-	<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-	<category name="clothes"/>
-	<usage name="Military"/>
-</type>
+	<type name="RFDG_LWHelmet_DesertCamo">
+		<nominal>4</nominal>
+		<lifetime>14400</lifetime>
+		<restock>1800</restock>
+		<min>2</min>
+		<quantmin>-1</quantmin>
+		<quantmax>-1</quantmax>
+		<cost>100</cost>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+		<category name="clothes"/>
+		<usage name="Military"/>
+	</type>
 
-<type name="RFDG_Bandana_DesertCamo">
-	<nominal>0</nominal>
-	<lifetime>14400</lifetime>
-	<restock>0</restock>
-	<min>0</min>
-	<quantmin>-1</quantmin>
-	<quantmax>-1</quantmax>
-	<cost>100</cost>
-	<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-	<category name="clothes"/>
-	<usage name="Town"/>
-	<usage name="Village"/>
-	<value name="Tier2"/>
-	<value name="Tier3"/>
-	<value name="Tier4"/>
-</type>
+	<type name="RFDG_Bandana_DesertCamo">
+		<nominal>0</nominal>
+		<lifetime>14400</lifetime>
+		<restock>0</restock>
+		<min>0</min>
+		<quantmin>-1</quantmin>
+		<quantmax>-1</quantmax>
+		<cost>100</cost>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+		<category name="clothes"/>
+		<usage name="Town"/>
+		<usage name="Village"/>
+		<value name="Tier2"/>
+		<value name="Tier3"/>
+		<value name="Tier4"/>
+	</type>
 
-<type name="RFDG_BDUPants_DesertCamo2">
-	<nominal>4</nominal>
-	<restock>600</restock>
-	<lifetime>14400</lifetime>
-	<min>2</min>
-	<quantmin>-1</quantmin>
-	<quantmax>-1</quantmax>
-	<cost>100</cost>
-	<flags count_in_hoarder="0" count_in_player="0" count_in_map="1" count_in_cargo="0" crafted="0" deloot="0"/>
-	<category name="clothes"/>
-	<usage name="Military"/>
-</type>
+	<type name="RFDG_BDUPants_DesertCamo2">
+		<nominal>4</nominal>
+		<restock>600</restock>
+		<lifetime>14400</lifetime>
+		<min>2</min>
+		<quantmin>-1</quantmin>
+		<quantmax>-1</quantmax>
+		<cost>100</cost>
+		<flags count_in_hoarder="0" count_in_player="0" count_in_map="1" count_in_cargo="0" crafted="0" deloot="0"/>
+		<category name="clothes"/>
+		<usage name="Military"/>
+	</type>
 
-<type name="RFDG_BDUJacket_DesertCamo2">
-	<nominal>4</nominal>
-	<lifetime>14400</lifetime>
-	<restock>600</restock>
-	<min>2</min>
-	<quantmin>-1</quantmin>
-	<quantmax>-1</quantmax>
-	<cost>100</cost>
-	<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-	<category name="clothes"/>
-	<usage name="Military"/>
-</type>
+	<type name="RFDG_BDUJacket_DesertCamo2">
+		<nominal>4</nominal>
+		<lifetime>14400</lifetime>
+		<restock>600</restock>
+		<min>2</min>
+		<quantmin>-1</quantmin>
+		<quantmax>-1</quantmax>
+		<cost>100</cost>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+		<category name="clothes"/>
+		<usage name="Military"/>
+	</type>
 
-<type name="RFDG_Platecarrier_DesertCamo2">
-	<nominal>0</nominal>
-	<lifetime>14400</lifetime>
-	<restock>0</restock>
-	<min>0</min>
-	<quantmin>-1</quantmin>
-	<quantmax>-1</quantmax>
-	<cost>100</cost>
-	<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-	<category name="clothes"/>
-	<usage name="Military"/>
-	<value name="Tier3"/>
-	<value name="Tier4"/>
-</type>
+	<type name="RFDG_Platecarrier_DesertCamo2">
+		<nominal>0</nominal>
+		<lifetime>14400</lifetime>
+		<restock>0</restock>
+		<min>0</min>
+		<quantmin>-1</quantmin>
+		<quantmax>-1</quantmax>
+		<cost>100</cost>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+		<category name="clothes"/>
+		<usage name="Military"/>
+		<value name="Tier3"/>
+		<value name="Tier4"/>
+	</type>
 
-<type name="RFDG_PlatecarrierHolster_DesertCamo2">
-	<nominal>2</nominal>
-	<lifetime>14400</lifetime>
-	<restock>0</restock>
-	<min>1</min>
-	<quantmin>-1</quantmin>
-	<quantmax>-1</quantmax>
-	<cost>100</cost>
-	<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-	<category name="clothes"/>
-	<tag name="shelves"/>
-	<usage name="Military"/>
-</type>
+	<type name="RFDG_PlatecarrierHolster_DesertCamo2">
+		<nominal>2</nominal>
+		<lifetime>14400</lifetime>
+		<restock>0</restock>
+		<min>1</min>
+		<quantmin>-1</quantmin>
+		<quantmax>-1</quantmax>
+		<cost>100</cost>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+		<category name="clothes"/>
+		<tag name="shelves"/>
+		<usage name="Military"/>
+	</type>
 
-<type name="RFDG_PlatecarrierPouches_DesertCamo2">
-	<nominal>0</nominal>
-	<lifetime>14400</lifetime>
-	<restock>0</restock>
-	<min>0</min>
-	<quantmin>-1</quantmin>
-	<quantmax>-1</quantmax>
-	<cost>100</cost>
-	<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-	<category name="clothes"/>
-	<tag name="shelves"/>
-	<usage name="Military"/>
-</type>
+	<type name="RFDG_PlatecarrierPouches_DesertCamo2">
+		<nominal>0</nominal>
+		<lifetime>14400</lifetime>
+		<restock>0</restock>
+		<min>0</min>
+		<quantmin>-1</quantmin>
+		<quantmax>-1</quantmax>
+		<cost>100</cost>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+		<category name="clothes"/>
+		<tag name="shelves"/>
+		<usage name="Military"/>
+	</type>
 
-<type name="RFDG_Helmet_Mich2001_DesertCamo2">
-	<nominal>0</nominal>
-	<lifetime>28800</lifetime>
-	<restock>0</restock>
-	<min>0</min>
-	<quantmin>-1</quantmin>
-	<quantmax>-1</quantmax>
-	<cost>100</cost>
-	<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-	<category name="clothes"/>
-	<usage name="Military"/>
-	<value name="Tier4"/>
-</type>
+	<type name="RFDG_Helmet_Mich2001_DesertCamo2">
+		<nominal>0</nominal>
+		<lifetime>28800</lifetime>
+		<restock>0</restock>
+		<min>0</min>
+		<quantmin>-1</quantmin>
+		<quantmax>-1</quantmax>
+		<cost>100</cost>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+		<category name="clothes"/>
+		<usage name="Military"/>
+		<value name="Tier4"/>
+	</type>
 
-<type name="RFDG_Canteen_DesertCamo2">
-	<nominal>0</nominal>
-	<restock>0</restock>
-	<lifetime>14400</lifetime>
-	<min>0</min>
-	<quantmin>10</quantmin>
-	<quantmax>90</quantmax>
-	<cost>100</cost>
-	<flags count_in_hoarder="0" count_in_player="0" count_in_map="1" count_in_cargo="0" crafted="0" deloot="0"/>
-	<category name="food"/>
-	<usage name="Military"/>
-	<usage name="Hunting"/>
-</type>
+	<type name="RFDG_Canteen_DesertCamo2">
+		<nominal>0</nominal>
+		<restock>0</restock>
+		<lifetime>14400</lifetime>
+		<min>0</min>
+		<quantmin>10</quantmin>
+		<quantmax>90</quantmax>
+		<cost>100</cost>
+		<flags count_in_hoarder="0" count_in_player="0" count_in_map="1" count_in_cargo="0" crafted="0" deloot="0"/>
+		<category name="food"/>
+		<usage name="Military"/>
+		<usage name="Hunting"/>
+	</type>
 
-<type name="RFDG_AliceBag_DesertCamo2">
-	<nominal>0</nominal>
-	<lifetime>28800</lifetime>
-	<restock>1800</restock>
-	<min>0</min>
-	<quantmin>-1</quantmin>
-	<quantmax>-1</quantmax>
-	<cost>100</cost>
-	<flags count_in_cargo="1" count_in_hoarder="1" count_in_map="1" count_in_player="1" crafted="0" deloot="1"/>
-	<category name="containers"/>
-	<usage name="Military"/>
-</type>
+	<type name="RFDG_AliceBag_DesertCamo2">
+		<nominal>0</nominal>
+		<lifetime>28800</lifetime>
+		<restock>1800</restock>
+		<min>0</min>
+		<quantmin>-1</quantmin>
+		<quantmax>-1</quantmax>
+		<cost>100</cost>
+		<flags count_in_cargo="1" count_in_hoarder="1" count_in_map="1" count_in_player="1" crafted="0" deloot="1"/>
+		<category name="containers"/>
+		<usage name="Military"/>
+	</type>
 
-<type name="RFDG_Booniehat_DesertCamo2">
-	<nominal>0</nominal>
-	<lifetime>14400</lifetime>
-	<restock>0</restock>
-	<min>0</min>
-	<quantmin>-1</quantmin>
-	<quantmax>-1</quantmax>
-	<cost>100</cost>
-	<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-	<category name="clothes"/>
-	<tag name="shelves"/>
-	<usage name="Military"/>
-	<usage name="Hunting"/>
-</type>
+	<type name="RFDG_Booniehat_DesertCamo2">
+		<nominal>0</nominal>
+		<lifetime>14400</lifetime>
+		<restock>0</restock>
+		<min>0</min>
+		<quantmin>-1</quantmin>
+		<quantmax>-1</quantmax>
+		<cost>100</cost>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+		<category name="clothes"/>
+		<tag name="shelves"/>
+		<usage name="Military"/>
+		<usage name="Hunting"/>
+	</type>
 
-<type name="RFDG_LWHelmet_DesertCamo2">
-	<nominal>4</nominal>
-	<lifetime>14400</lifetime>
-	<restock>1800</restock>
-	<min>2</min>
-	<quantmin>-1</quantmin>
-	<quantmax>-1</quantmax>
-	<cost>100</cost>
-	<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-	<category name="clothes"/>
-	<usage name="Military"/>
-</type>
+	<type name="RFDG_LWHelmet_DesertCamo2">
+		<nominal>4</nominal>
+		<lifetime>14400</lifetime>
+		<restock>1800</restock>
+		<min>2</min>
+		<quantmin>-1</quantmin>
+		<quantmax>-1</quantmax>
+		<cost>100</cost>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+		<category name="clothes"/>
+		<usage name="Military"/>
+	</type>
 
-<type name="RFDG_Bandana_DesertCamo2">
-	<nominal>0</nominal>
-	<lifetime>14400</lifetime>
-	<restock>0</restock>
-	<min>0</min>
-	<quantmin>-1</quantmin>
-	<quantmax>-1</quantmax>
-	<cost>100</cost>
-	<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-	<category name="clothes"/>
-	<usage name="Town"/>
-	<usage name="Village"/>
-	<value name="Tier2"/>
-	<value name="Tier3"/>
-	<value name="Tier4"/>
-</type>
+	<type name="RFDG_Bandana_DesertCamo2">
+		<nominal>0</nominal>
+		<lifetime>14400</lifetime>
+		<restock>0</restock>
+		<min>0</min>
+		<quantmin>-1</quantmin>
+		<quantmax>-1</quantmax>
+		<cost>100</cost>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+		<category name="clothes"/>
+		<usage name="Town"/>
+		<usage name="Village"/>
+		<value name="Tier2"/>
+		<value name="Tier3"/>
+		<value name="Tier4"/>
+	</type>
 
-<type name="RFDG_BDUPants_Sand">
-	<nominal>4</nominal>
-	<restock>600</restock>
-	<lifetime>14400</lifetime>
-	<min>2</min>
-	<quantmin>-1</quantmin>
-	<quantmax>-1</quantmax>
-	<cost>100</cost>
-	<flags count_in_hoarder="0" count_in_player="0" count_in_map="1" count_in_cargo="0" crafted="0" deloot="0"/>
-	<category name="clothes"/>
-	<usage name="Military"/>
-</type>
+	<type name="RFDG_BDUPants_Sand">
+		<nominal>4</nominal>
+		<restock>600</restock>
+		<lifetime>14400</lifetime>
+		<min>2</min>
+		<quantmin>-1</quantmin>
+		<quantmax>-1</quantmax>
+		<cost>100</cost>
+		<flags count_in_hoarder="0" count_in_player="0" count_in_map="1" count_in_cargo="0" crafted="0" deloot="0"/>
+		<category name="clothes"/>
+		<usage name="Military"/>
+	</type>
 
-<type name="RFDG_BDUJacket_Sand">
-	<nominal>4</nominal>
-	<lifetime>14400</lifetime>
-	<restock>600</restock>
-	<min>2</min>
-	<quantmin>-1</quantmin>
-	<quantmax>-1</quantmax>
-	<cost>100</cost>
-	<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-	<category name="clothes"/>
-	<usage name="Military"/>
-</type>
+	<type name="RFDG_BDUJacket_Sand">
+		<nominal>4</nominal>
+		<lifetime>14400</lifetime>
+		<restock>600</restock>
+		<min>2</min>
+		<quantmin>-1</quantmin>
+		<quantmax>-1</quantmax>
+		<cost>100</cost>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+		<category name="clothes"/>
+		<usage name="Military"/>
+	</type>
 
-<type name="RFDG_Platecarrier_Sand">
-	<nominal>0</nominal>
-	<lifetime>14400</lifetime>
-	<restock>0</restock>
-	<min>0</min>
-	<quantmin>-1</quantmin>
-	<quantmax>-1</quantmax>
-	<cost>100</cost>
-	<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-	<category name="clothes"/>
-	<usage name="Military"/>
-	<value name="Tier3"/>
-	<value name="Tier4"/>
-</type>
+	<type name="RFDG_Platecarrier_Sand">
+		<nominal>0</nominal>
+		<lifetime>14400</lifetime>
+		<restock>0</restock>
+		<min>0</min>
+		<quantmin>-1</quantmin>
+		<quantmax>-1</quantmax>
+		<cost>100</cost>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+		<category name="clothes"/>
+		<usage name="Military"/>
+		<value name="Tier3"/>
+		<value name="Tier4"/>
+	</type>
 
-<type name="RFDG_PlatecarrierHolster_Sand">
-	<nominal>2</nominal>
-	<lifetime>14400</lifetime>
-	<restock>0</restock>
-	<min>1</min>
-	<quantmin>-1</quantmin>
-	<quantmax>-1</quantmax>
-	<cost>100</cost>
-	<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-	<category name="clothes"/>
-	<tag name="shelves"/>
-	<usage name="Military"/>
-</type>
+	<type name="RFDG_PlatecarrierHolster_Sand">
+		<nominal>2</nominal>
+		<lifetime>14400</lifetime>
+		<restock>0</restock>
+		<min>1</min>
+		<quantmin>-1</quantmin>
+		<quantmax>-1</quantmax>
+		<cost>100</cost>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+		<category name="clothes"/>
+		<tag name="shelves"/>
+		<usage name="Military"/>
+	</type>
 
-<type name="RFDG_PlatecarrierPouches_Sand">
-	<nominal>0</nominal>
-	<lifetime>14400</lifetime>
-	<restock>0</restock>
-	<min>0</min>
-	<quantmin>-1</quantmin>
-	<quantmax>-1</quantmax>
-	<cost>100</cost>
-	<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-	<category name="clothes"/>
-	<tag name="shelves"/>
-	<usage name="Military"/>
-</type>
+	<type name="RFDG_PlatecarrierPouches_Sand">
+		<nominal>0</nominal>
+		<lifetime>14400</lifetime>
+		<restock>0</restock>
+		<min>0</min>
+		<quantmin>-1</quantmin>
+		<quantmax>-1</quantmax>
+		<cost>100</cost>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+		<category name="clothes"/>
+		<tag name="shelves"/>
+		<usage name="Military"/>
+	</type>
 
-<type name="RFDG_Helmet_Mich2001_Sand">
-	<nominal>0</nominal>
-	<lifetime>28800</lifetime>
-	<restock>0</restock>
-	<min>0</min>
-	<quantmin>-1</quantmin>
-	<quantmax>-1</quantmax>
-	<cost>100</cost>
-	<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-	<category name="clothes"/>
-	<usage name="Military"/>
-	<value name="Tier4"/>
-</type>
+	<type name="RFDG_Helmet_Mich2001_Sand">
+		<nominal>0</nominal>
+		<lifetime>28800</lifetime>
+		<restock>0</restock>
+		<min>0</min>
+		<quantmin>-1</quantmin>
+		<quantmax>-1</quantmax>
+		<cost>100</cost>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+		<category name="clothes"/>
+		<usage name="Military"/>
+		<value name="Tier4"/>
+	</type>
 
-<type name="RFDG_Canteen_Sand">
-	<nominal>0</nominal>
-	<restock>0</restock>
-	<lifetime>14400</lifetime>
-	<min>0</min>
-	<quantmin>10</quantmin>
-	<quantmax>90</quantmax>
-	<cost>100</cost>
-	<flags count_in_hoarder="0" count_in_player="0" count_in_map="1" count_in_cargo="0" crafted="0" deloot="0"/>
-	<category name="food"/>
-	<usage name="Military"/>
-	<usage name="Hunting"/>
-</type>
+	<type name="RFDG_Canteen_Sand">
+		<nominal>0</nominal>
+		<restock>0</restock>
+		<lifetime>14400</lifetime>
+		<min>0</min>
+		<quantmin>10</quantmin>
+		<quantmax>90</quantmax>
+		<cost>100</cost>
+		<flags count_in_hoarder="0" count_in_player="0" count_in_map="1" count_in_cargo="0" crafted="0" deloot="0"/>
+		<category name="food"/>
+		<usage name="Military"/>
+		<usage name="Hunting"/>
+	</type>
 
-<type name="RFDG_AliceBag_Sand">
-	<nominal>0</nominal>
-	<lifetime>28800</lifetime>
-	<restock>1800</restock>
-	<min>0</min>
-	<quantmin>-1</quantmin>
-	<quantmax>-1</quantmax>
-	<cost>100</cost>
-	<flags count_in_cargo="1" count_in_hoarder="1" count_in_map="1" count_in_player="1" crafted="0" deloot="1"/>
-	<category name="containers"/>
-	<usage name="Military"/>
-</type>
+	<type name="RFDG_AliceBag_Sand">
+		<nominal>0</nominal>
+		<lifetime>28800</lifetime>
+		<restock>1800</restock>
+		<min>0</min>
+		<quantmin>-1</quantmin>
+		<quantmax>-1</quantmax>
+		<cost>100</cost>
+		<flags count_in_cargo="1" count_in_hoarder="1" count_in_map="1" count_in_player="1" crafted="0" deloot="1"/>
+		<category name="containers"/>
+		<usage name="Military"/>
+	</type>
 
-<type name="RFDG_Booniehat_Sand">
-	<nominal>0</nominal>
-	<lifetime>14400</lifetime>
-	<restock>0</restock>
-	<min>0</min>
-	<quantmin>-1</quantmin>
-	<quantmax>-1</quantmax>
-	<cost>100</cost>
-	<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-	<category name="clothes"/>
-	<tag name="shelves"/>
-	<usage name="Military"/>
-	<usage name="Hunting"/>
-</type>
+	<type name="RFDG_Booniehat_Sand">
+		<nominal>0</nominal>
+		<lifetime>14400</lifetime>
+		<restock>0</restock>
+		<min>0</min>
+		<quantmin>-1</quantmin>
+		<quantmax>-1</quantmax>
+		<cost>100</cost>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+		<category name="clothes"/>
+		<tag name="shelves"/>
+		<usage name="Military"/>
+		<usage name="Hunting"/>
+	</type>
 
-<type name="RFDG_LWHelmet_Sand">
-	<nominal>4</nominal>
-	<lifetime>14400</lifetime>
-	<restock>1800</restock>
-	<min>2</min>
-	<quantmin>-1</quantmin>
-	<quantmax>-1</quantmax>
-	<cost>100</cost>
-	<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-	<category name="clothes"/>
-	<usage name="Military"/>
-</type>
+	<type name="RFDG_LWHelmet_Sand">
+		<nominal>4</nominal>
+		<lifetime>14400</lifetime>
+		<restock>1800</restock>
+		<min>2</min>
+		<quantmin>-1</quantmin>
+		<quantmax>-1</quantmax>
+		<cost>100</cost>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+		<category name="clothes"/>
+		<usage name="Military"/>
+	</type>
 
-<type name="RFDG_Bandana_Sand">
-	<nominal>0</nominal>
-	<lifetime>14400</lifetime>
-	<restock>0</restock>
-	<min>0</min>
-	<quantmin>-1</quantmin>
-	<quantmax>-1</quantmax>
-	<cost>100</cost>
-	<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-	<category name="clothes"/>
-	<usage name="Town"/>
-	<usage name="Village"/>
-	<value name="Tier2"/>
-	<value name="Tier3"/>
-	<value name="Tier4"/>
-</type>
+	<type name="RFDG_Bandana_Sand">
+		<nominal>0</nominal>
+		<lifetime>14400</lifetime>
+		<restock>0</restock>
+		<min>0</min>
+		<quantmin>-1</quantmin>
+		<quantmax>-1</quantmax>
+		<cost>100</cost>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+		<category name="clothes"/>
+		<usage name="Town"/>
+		<usage name="Village"/>
+		<value name="Tier2"/>
+		<value name="Tier3"/>
+		<value name="Tier4"/>
+	</type>
 
-<type name="RFDG_LargeTent_DesertCamo">
-	<nominal>0</nominal>
-	<lifetime>3888000</lifetime>
-	<restock>43200</restock>
-	<min>0</min>
-	<quantmin>-1</quantmin>
-	<quantmax>-1</quantmax>
-	<cost>100</cost>
-	<flags count_in_cargo="1" count_in_hoarder="0" count_in_map="1" count_in_player="1" crafted="0" deloot="0"/>
-	<category name="containers"/>
-	<usage name="Military"/>
-</type>
+	<type name="RFDG_LargeTent_DesertCamo">
+		<nominal>0</nominal>
+		<lifetime>3888000</lifetime>
+		<restock>43200</restock>
+		<min>0</min>
+		<quantmin>-1</quantmin>
+		<quantmax>-1</quantmax>
+		<cost>100</cost>
+		<flags count_in_cargo="1" count_in_hoarder="0" count_in_map="1" count_in_player="1" crafted="0" deloot="0"/>
+		<category name="containers"/>
+		<usage name="Military"/>
+	</type>
 
-<type name="RFDG_LargeTent_DesertCamo2">
-	<nominal>0</nominal>
-	<lifetime>3888000</lifetime>
-	<restock>43200</restock>
-	<min>0</min>
-	<quantmin>-1</quantmin>
-	<quantmax>-1</quantmax>
-	<cost>100</cost>
-	<flags count_in_cargo="1" count_in_hoarder="0" count_in_map="1" count_in_player="1" crafted="0" deloot="0"/>
-	<category name="containers"/>
-	<usage name="Military"/>
-</type>
+	<type name="RFDG_LargeTent_DesertCamo2">
+		<nominal>0</nominal>
+		<lifetime>3888000</lifetime>
+		<restock>43200</restock>
+		<min>0</min>
+		<quantmin>-1</quantmin>
+		<quantmax>-1</quantmax>
+		<cost>100</cost>
+		<flags count_in_cargo="1" count_in_hoarder="0" count_in_map="1" count_in_player="1" crafted="0" deloot="0"/>
+		<category name="containers"/>
+		<usage name="Military"/>
+	</type>
 
-<type name="RFDG_LargeTent_Sand">
-	<nominal>0</nominal>
-	<lifetime>3888000</lifetime>
-	<restock>43200</restock>
-	<min>0</min>
-	<quantmin>-1</quantmin>
-	<quantmax>-1</quantmax>
-	<cost>100</cost>
-	<flags count_in_cargo="1" count_in_hoarder="0" count_in_map="1" count_in_player="1" crafted="0" deloot="0"/>
-	<category name="containers"/>
-	<usage name="Military"/>
-</type>
+	<type name="RFDG_LargeTent_Sand">
+		<nominal>0</nominal>
+		<lifetime>3888000</lifetime>
+		<restock>43200</restock>
+		<min>0</min>
+		<quantmin>-1</quantmin>
+		<quantmax>-1</quantmax>
+		<cost>100</cost>
+		<flags count_in_cargo="1" count_in_hoarder="0" count_in_map="1" count_in_player="1" crafted="0" deloot="0"/>
+		<category name="containers"/>
+		<usage name="Military"/>
+	</type>
 
-<type name="RFDG_MediumTent_DesertCamo">
-	<nominal>0</nominal>
-	<lifetime>3888000</lifetime>
-	<restock>43200</restock>
-	<min>0</min>
-	<quantmin>-1</quantmin>
-	<quantmax>-1</quantmax>
-	<cost>100</cost>
-	<flags count_in_cargo="1" count_in_hoarder="0" count_in_map="1" count_in_player="1" crafted="0" deloot="0"/>
-	<category name="containers"/>
-	<usage name="Town"/>
-	<usage name="Village"/>
-</type>
+	<type name="RFDG_MediumTent_DesertCamo">
+		<nominal>0</nominal>
+		<lifetime>3888000</lifetime>
+		<restock>43200</restock>
+		<min>0</min>
+		<quantmin>-1</quantmin>
+		<quantmax>-1</quantmax>
+		<cost>100</cost>
+		<flags count_in_cargo="1" count_in_hoarder="0" count_in_map="1" count_in_player="1" crafted="0" deloot="0"/>
+		<category name="containers"/>
+		<usage name="Town"/>
+		<usage name="Village"/>
+	</type>
 
-<type name="RFDG_MediumTent_DesertCamo2">
-	<nominal>0</nominal>
-	<lifetime>3888000</lifetime>
-	<restock>43200</restock>
-	<min>0</min>
-	<quantmin>-1</quantmin>
-	<quantmax>-1</quantmax>
-	<cost>100</cost>
-	<flags count_in_cargo="1" count_in_hoarder="0" count_in_map="1" count_in_player="1" crafted="0" deloot="0"/>
-	<category name="containers"/>
-	<usage name="Town"/>
-	<usage name="Village"/>
-</type>
+	<type name="RFDG_MediumTent_DesertCamo2">
+		<nominal>0</nominal>
+		<lifetime>3888000</lifetime>
+		<restock>43200</restock>
+		<min>0</min>
+		<quantmin>-1</quantmin>
+		<quantmax>-1</quantmax>
+		<cost>100</cost>
+		<flags count_in_cargo="1" count_in_hoarder="0" count_in_map="1" count_in_player="1" crafted="0" deloot="0"/>
+		<category name="containers"/>
+		<usage name="Town"/>
+		<usage name="Village"/>
+	</type>
 
-<type name="RFDG_MediumTent_Sand">
-	<nominal>0</nominal>
-	<lifetime>3888000</lifetime>
-	<restock>43200</restock>
-	<min>0</min>
-	<quantmin>-1</quantmin>
-	<quantmax>-1</quantmax>
-	<cost>100</cost>
-	<flags count_in_cargo="1" count_in_hoarder="0" count_in_map="1" count_in_player="1" crafted="0" deloot="0"/>
-	<category name="containers"/>
-	<usage name="Town"/>
-	<usage name="Village"/>
-</type>
+	<type name="RFDG_MediumTent_Sand">
+		<nominal>0</nominal>
+		<lifetime>3888000</lifetime>
+		<restock>43200</restock>
+		<min>0</min>
+		<quantmin>-1</quantmin>
+		<quantmax>-1</quantmax>
+		<cost>100</cost>
+		<flags count_in_cargo="1" count_in_hoarder="0" count_in_map="1" count_in_player="1" crafted="0" deloot="0"/>
+		<category name="containers"/>
+		<usage name="Town"/>
+		<usage name="Village"/>
+	</type>
 
-<type name="RFDG_Tactical_Backpack_DesertCamo">
-	<nominal>0</nominal>
-	<lifetime>28800</lifetime>
-	<restock>1800</restock>
-	<min>0</min>
-	<quantmin>-1</quantmin>
-	<quantmax>-1</quantmax>
-	<cost>100</cost>
-	<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="1" crafted="0" deloot="0"/>
-	<category name="containers"/>
-	<usage name="Military"/>
-	<value name="Tier3"/>
-	<value name="Tier4"/>
-</type>
+	<type name="RFDG_Tactical_Backpack_DesertCamo">
+		<nominal>0</nominal>
+		<lifetime>28800</lifetime>
+		<restock>1800</restock>
+		<min>0</min>
+		<quantmin>-1</quantmin>
+		<quantmax>-1</quantmax>
+		<cost>100</cost>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="1" crafted="0" deloot="0"/>
+		<category name="containers"/>
+		<usage name="Military"/>
+		<value name="Tier3"/>
+		<value name="Tier4"/>
+	</type>
 
-<type name="RFDG_Tactical_Backpack_DesertCamo2">
-	<nominal>0</nominal>
-	<lifetime>28800</lifetime>
-	<restock>1800</restock>
-	<min>0</min>
-	<quantmin>-1</quantmin>
-	<quantmax>-1</quantmax>
-	<cost>100</cost>
-	<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="1" crafted="0" deloot="0"/>
-	<category name="containers"/>
-	<usage name="Military"/>
-	<value name="Tier3"/>
-	<value name="Tier4"/>
-</type>
+	<type name="RFDG_Tactical_Backpack_DesertCamo2">
+		<nominal>0</nominal>
+		<lifetime>28800</lifetime>
+		<restock>1800</restock>
+		<min>0</min>
+		<quantmin>-1</quantmin>
+		<quantmax>-1</quantmax>
+		<cost>100</cost>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="1" crafted="0" deloot="0"/>
+		<category name="containers"/>
+		<usage name="Military"/>
+		<value name="Tier3"/>
+		<value name="Tier4"/>
+	</type>
 
-<type name="RFDG_Tactical_Backpack_Sand">
-	<nominal>0</nominal>
-	<lifetime>28800</lifetime>
-	<restock>1800</restock>
-	<min>0</min>
-	<quantmin>-1</quantmin>
-	<quantmax>-1</quantmax>
-	<cost>100</cost>
-	<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="1" crafted="0" deloot="0"/>
-	<category name="containers"/>
-	<usage name="Military"/>
-	<value name="Tier3"/>
-	<value name="Tier4"/>
-</type>
+	<type name="RFDG_Tactical_Backpack_Sand">
+		<nominal>0</nominal>
+		<lifetime>28800</lifetime>
+		<restock>1800</restock>
+		<min>0</min>
+		<quantmin>-1</quantmin>
+		<quantmax>-1</quantmax>
+		<cost>100</cost>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="1" crafted="0" deloot="0"/>
+		<category name="containers"/>
+		<usage name="Military"/>
+		<value name="Tier3"/>
+		<value name="Tier4"/>
+	</type>
 
-<type name="RFDG_Combat_Backpack_DesertCamo">
-	<nominal>0</nominal>
-	<lifetime>28800</lifetime>
-	<restock>1800</restock>
-	<min>0</min>
-	<quantmin>-1</quantmin>
-	<quantmax>-1</quantmax>
-	<cost>100</cost>
-	<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-	<category name="containers"/>
-	<usage name="Military"/>
-</type>
+	<type name="RFDG_Combat_Backpack_DesertCamo">
+		<nominal>0</nominal>
+		<lifetime>28800</lifetime>
+		<restock>1800</restock>
+		<min>0</min>
+		<quantmin>-1</quantmin>
+		<quantmax>-1</quantmax>
+		<cost>100</cost>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+		<category name="containers"/>
+		<usage name="Military"/>
+	</type>
 
-<type name="RFDG_Combat_Backpack_DesertCamo2">
-	<nominal>0</nominal>
-	<lifetime>28800</lifetime>
-	<restock>1800</restock>
-	<min>0</min>
-	<quantmin>-1</quantmin>
-	<quantmax>-1</quantmax>
-	<cost>100</cost>
-	<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-	<category name="containers"/>
-	<usage name="Military"/>
-</type>
+	<type name="RFDG_Combat_Backpack_DesertCamo2">
+		<nominal>0</nominal>
+		<lifetime>28800</lifetime>
+		<restock>1800</restock>
+		<min>0</min>
+		<quantmin>-1</quantmin>
+		<quantmax>-1</quantmax>
+		<cost>100</cost>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+		<category name="containers"/>
+		<usage name="Military"/>
+	</type>
 
-<type name="RFDG_Combat_Backpack_Sand">
-	<nominal>0</nominal>
-	<lifetime>28800</lifetime>
-	<restock>1800</restock>
-	<min>0</min>
-	<quantmin>-1</quantmin>
-	<quantmax>-1</quantmax>
-	<cost>100</cost>
-	<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-	<category name="containers"/>
-	<usage name="Military"/>
-</type>
+	<type name="RFDG_Combat_Backpack_Sand">
+		<nominal>0</nominal>
+		<lifetime>28800</lifetime>
+		<restock>1800</restock>
+		<min>0</min>
+		<quantmin>-1</quantmin>
+		<quantmax>-1</quantmax>
+		<cost>100</cost>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+		<category name="containers"/>
+		<usage name="Military"/>
+	</type>
 
-<type name="RFDG_PartyTent_DesertCamo">
-	<nominal>0</nominal>
-	<lifetime>3888000</lifetime>
-	<restock>43200</restock>
-	<min>0</min>
-	<quantmin>-1</quantmin>
-	<quantmax>-1</quantmax>
-	<cost>100</cost>
-	<flags count_in_cargo="1" count_in_hoarder="1" count_in_map="1" count_in_player="1" crafted="0" deloot="0"/>
-	<category name="containers"/>
-	<usage name="Town"/>
-</type>
+	<type name="RFDG_PartyTent_DesertCamo">
+		<nominal>0</nominal>
+		<lifetime>3888000</lifetime>
+		<restock>43200</restock>
+		<min>0</min>
+		<quantmin>-1</quantmin>
+		<quantmax>-1</quantmax>
+		<cost>100</cost>
+		<flags count_in_cargo="1" count_in_hoarder="1" count_in_map="1" count_in_player="1" crafted="0" deloot="0"/>
+		<category name="containers"/>
+		<usage name="Town"/>
+	</type>
 
-<type name="RFDG_PartyTent_DesertCamo2">
-	<nominal>0</nominal>
-	<lifetime>3888000</lifetime>
-	<restock>43200</restock>
-	<min>0</min>
-	<quantmin>-1</quantmin>
-	<quantmax>-1</quantmax>
-	<cost>100</cost>
-	<flags count_in_cargo="1" count_in_hoarder="1" count_in_map="1" count_in_player="1" crafted="0" deloot="0"/>
-	<category name="containers"/>
-	<usage name="Town"/>
-</type>
+	<type name="RFDG_PartyTent_DesertCamo2">
+		<nominal>0</nominal>
+		<lifetime>3888000</lifetime>
+		<restock>43200</restock>
+		<min>0</min>
+		<quantmin>-1</quantmin>
+		<quantmax>-1</quantmax>
+		<cost>100</cost>
+		<flags count_in_cargo="1" count_in_hoarder="1" count_in_map="1" count_in_player="1" crafted="0" deloot="0"/>
+		<category name="containers"/>
+		<usage name="Town"/>
+	</type>
 
-<type name="RFDG_PartyTent_Sand">
-	<nominal>0</nominal>
-	<lifetime>3888000</lifetime>
-	<restock>43200</restock>
-	<min>0</min>
-	<quantmin>-1</quantmin>
-	<quantmax>-1</quantmax>
-	<cost>100</cost>
-	<flags count_in_cargo="1" count_in_hoarder="1" count_in_map="1" count_in_player="1" crafted="0" deloot="0"/>
-	<category name="containers"/>
-	<usage name="Town"/>
-</type>
+	<type name="RFDG_PartyTent_Sand">
+		<nominal>0</nominal>
+		<lifetime>3888000</lifetime>
+		<restock>43200</restock>
+		<min>0</min>
+		<quantmin>-1</quantmin>
+		<quantmax>-1</quantmax>
+		<cost>100</cost>
+		<flags count_in_cargo="1" count_in_hoarder="1" count_in_map="1" count_in_player="1" crafted="0" deloot="0"/>
+		<category name="containers"/>
+		<usage name="Town"/>
+	</type>
 
-<type name="RFDG_CarTent_DesertCamo">
-	<nominal>0</nominal>
-	<lifetime>3888000</lifetime>
-	<restock>43200</restock>
-	<min>0</min>
-	<quantmin>-1</quantmin>
-	<quantmax>-1</quantmax>
-	<cost>100</cost>
-	<flags count_in_cargo="1" count_in_hoarder="0" count_in_map="1" count_in_player="1" crafted="0" deloot="0"/>
-	<category name="containers"/>
-	<usage name="Industrial"/>
-</type>
+	<type name="RFDG_CarTent_DesertCamo">
+		<nominal>0</nominal>
+		<lifetime>3888000</lifetime>
+		<restock>43200</restock>
+		<min>0</min>
+		<quantmin>-1</quantmin>
+		<quantmax>-1</quantmax>
+		<cost>100</cost>
+		<flags count_in_cargo="1" count_in_hoarder="0" count_in_map="1" count_in_player="1" crafted="0" deloot="0"/>
+		<category name="containers"/>
+		<usage name="Industrial"/>
+	</type>
 
-<type name="RFDG_CarTent_DesertCamo2">
-	<nominal>0</nominal>
-	<lifetime>3888000</lifetime>
-	<restock>43200</restock>
-	<min>0</min>
-	<quantmin>-1</quantmin>
-	<quantmax>-1</quantmax>
-	<cost>100</cost>
-	<flags count_in_cargo="1" count_in_hoarder="0" count_in_map="1" count_in_player="1" crafted="0" deloot="0"/>
-	<category name="containers"/>
-	<usage name="Industrial"/>
-</type>
+	<type name="RFDG_CarTent_DesertCamo2">
+		<nominal>0</nominal>
+		<lifetime>3888000</lifetime>
+		<restock>43200</restock>
+		<min>0</min>
+		<quantmin>-1</quantmin>
+		<quantmax>-1</quantmax>
+		<cost>100</cost>
+		<flags count_in_cargo="1" count_in_hoarder="0" count_in_map="1" count_in_player="1" crafted="0" deloot="0"/>
+		<category name="containers"/>
+		<usage name="Industrial"/>
+	</type>
 
-<type name="RFDG_CarTent_Sand">
-	<nominal>0</nominal>
-	<lifetime>3888000</lifetime>
-	<restock>43200</restock>
-	<min>0</min>
-	<quantmin>-1</quantmin>
-	<quantmax>-1</quantmax>
-	<cost>100</cost>
-	<flags count_in_cargo="1" count_in_hoarder="0" count_in_map="1" count_in_player="1" crafted="0" deloot="0"/>
-	<category name="containers"/>
-	<usage name="Industrial"/>
-</type>
+	<type name="RFDG_CarTent_Sand">
+		<nominal>0</nominal>
+		<lifetime>3888000</lifetime>
+		<restock>43200</restock>
+		<min>0</min>
+		<quantmin>-1</quantmin>
+		<quantmax>-1</quantmax>
+		<cost>100</cost>
+		<flags count_in_cargo="1" count_in_hoarder="0" count_in_map="1" count_in_player="1" crafted="0" deloot="0"/>
+		<category name="containers"/>
+		<usage name="Industrial"/>
+	</type>
 
-<type name="RFDG_Assault_Backpack_DesertCamo">
-	<nominal>0</nominal>
-	<lifetime>28800</lifetime>
-	<restock>0</restock>
-	<min>0</min>
-	<quantmin>-1</quantmin>
-	<quantmax>-1</quantmax>
-	<cost>100</cost>
-	<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-	<category name="containers"/>
-	<usage name="Military"/>
-	<value name="Tier2"/>
-	<value name="Tier3"/>
-	<value name="Tier4"/>
-</type>
+	<type name="RFDG_Assault_Backpack_DesertCamo">
+		<nominal>0</nominal>
+		<lifetime>28800</lifetime>
+		<restock>0</restock>
+		<min>0</min>
+		<quantmin>-1</quantmin>
+		<quantmax>-1</quantmax>
+		<cost>100</cost>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+		<category name="containers"/>
+		<usage name="Military"/>
+		<value name="Tier2"/>
+		<value name="Tier3"/>
+		<value name="Tier4"/>
+	</type>
 
-<type name="RFDG_Assault_Backpack_DesertCamo2">
-	<nominal>0</nominal>
-	<lifetime>28800</lifetime>
-	<restock>0</restock>
-	<min>0</min>
-	<quantmin>-1</quantmin>
-	<quantmax>-1</quantmax>
-	<cost>100</cost>
-	<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-	<category name="containers"/>
-	<usage name="Military"/>
-	<value name="Tier2"/>
-	<value name="Tier3"/>
-	<value name="Tier4"/>
-</type>
+	<type name="RFDG_Assault_Backpack_DesertCamo2">
+		<nominal>0</nominal>
+		<lifetime>28800</lifetime>
+		<restock>0</restock>
+		<min>0</min>
+		<quantmin>-1</quantmin>
+		<quantmax>-1</quantmax>
+		<cost>100</cost>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+		<category name="containers"/>
+		<usage name="Military"/>
+		<value name="Tier2"/>
+		<value name="Tier3"/>
+		<value name="Tier4"/>
+	</type>
 
-<type name="RFDG_Assault_Backpack_Sand">
-	<nominal>0</nominal>
-	<lifetime>28800</lifetime>
-	<restock>0</restock>
-	<min>0</min>
-	<quantmin>-1</quantmin>
-	<quantmax>-1</quantmax>
-	<cost>100</cost>
-	<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-	<category name="containers"/>
-	<usage name="Military"/>
-	<value name="Tier2"/>
-	<value name="Tier3"/>
-	<value name="Tier4"/>
-</type>
+	<type name="RFDG_Assault_Backpack_Sand">
+		<nominal>0</nominal>
+		<lifetime>28800</lifetime>
+		<restock>0</restock>
+		<min>0</min>
+		<quantmin>-1</quantmin>
+		<quantmax>-1</quantmax>
+		<cost>100</cost>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+		<category name="containers"/>
+		<usage name="Military"/>
+		<value name="Tier2"/>
+		<value name="Tier3"/>
+		<value name="Tier4"/>
+	</type>
+</types>
