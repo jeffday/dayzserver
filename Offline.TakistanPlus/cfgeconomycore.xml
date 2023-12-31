@@ -96,4 +96,8 @@ Do not forget to add attribute act="car", if root class represents moveable vehi
 		<file name="hilux_types.xml" type="types" />
 		<file name="hilux_spawnabletypes.xml" type="spawnabletypes" />
 	</ce>
+	<!-- Red Falcon's Desert Gear -->
+	<ce folder="rfdg">
+		<file name="rfdg_types.xml" type="types" />
+	</ce>
 </economycore>
