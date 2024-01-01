@@ -173,6 +173,32 @@
         <child type="StaticObj_Wreck_BMP2_DE" deloot="1" lootmax="3" lootmin="2" x="32.487" z="-22.119" a="159.923"/>
         <child type="StaticObj_Decal_dirt_damage_long3" spawnsecondary="false" x="38.366" z="-25.773" a="124.661"/>
     </group>
+    <!-- <pos x="4966.3876953125" z="3261.05810546875" a="0" y="534.1279296875" group="Ambushed_Kakaru_Pass"/> -->
+    <group name="Ambushed_Kakaru_Pass">
+    	<child type="StaticObj_Wreck_BMP1_DE" deloot="0" lootmax="3" lootmin="1" x="0" z="0" a="62.999961853027344" y="0"/>
+        <child type="StaticObj_Wreck_BMP2_DE" x="-9.552734375" z="3.4296875" a="53.999969482421875" y="-0.490234375"/>
+        <child type="StaticObj_Wreck_BRDM_DE" x="-6.435546875" z="-6.71044921875" a="13.056249618530273" y="0.31243896484375"/>
+        <child type="StaticObj_Wreck_Ural_DE" x="8.21240234375" z="5.88427734375" a="62.99997329711914" y="-0.431396484375"/>
+        <child type="StaticObj_Wreck_T72_Chassis_DE" x="-22.8720703125" z="-11.243408203125" a="63" y="0.481201171875"/>
+        <child type="StaticObj_Wreck_T72_Turret_DE" spawnsecondary="false" x="-15.77392578125" z="-14.1396484375" a="296.1164436340332" y="0.54705810546875"/>
+        <child type="Land_wreck_truck01_aban2_green_DE" x="15.57177734375" z="9.430419921875" a="62.99997329711914" y="-2.2982177734375"/>
+        <child type="StaticObj_Wreck_HMMWV_DE" x="21.48095703125" z="13.05859375" a="62.999961853027344" y="-2.03045654296875"/>
+        <child type="Land_Wreck_V3S_DE" x="28.279296875" z="15.97119140625" a="59.29988479614258" y="-1.96533203125"/>
+        <child type="StaticObj_Wreck_T72_Chassis_DE" x="-33.60791015625" z="-16.724609375" a="61.905967712402344" y="0.33465576171875"/>
+        <child type="StaticObj_Wreck_BMP1_DE" x="-22.453125" z="-6.23583984375" a="90" y="0.7005615234375"/>
+        <child type="StaticObj_ShellCrater2_Large" spawnsecondary="false" x="-14.14111328125" z="-6.6875" a="0" y="-1.27935791015625"/>
+        <child type="StaticObj_ShellCrater2_Small" spawnsecondary="false" x="-18.00048828125" z="5.406005859375" a="0" y="-1.7340087890625"/>
+        <child type="StaticObj_ShellCrater2_Small" spawnsecondary="false" x="-28.03369140625" z="5.855712890625" a="80.2139663696289" y="-1.71197509765625"/>
+        <child type="StaticObj_ShellCrater2_Small" spawnsecondary="false" x="-18.97265625" z="-19.191162109375" a="45.45463943481445" y="-0.843994140625"/>
+        <child type="Land_Wreck_offroad02_aban1_DE" x="34.46337890625" z="19.74658203125" a="62.99997329711914" y="-2.45269775390625"/>
+        <child type="Land_Wreck_offroad02_aban2_DE" x="40.3203125" z="23.057861328125" a="60.01613998413086" y="-3.1932373046875"/>
+        <child type="StaticObj_Wreck_Decal_Small1_DE" spawnsecondary="false" x="5.61328125" z="4.711181640625" a="59.96788787841797" y="-0.607421875"/>
+        <child type="StaticObj_Wreck_Decal_Big_DE" spawnsecondary="false" x="-3.9033203125" z="4.240966796875" a="71.99994659423828" y="0.6033935546875"/>
+        <child type="StaticObj_Wreck_Decal_Small2_DE" spawnsecondary="false" x="0.42041015625" z="1.272705078125" a="53.99998474121094" y="0.31671142578125"/>
+        <child type="StaticObj_Wreck_Decal_Small2_DE" spawnsecondary="false" x="-24.60693359375" z="-13.15869140625" a="62.99997329711914" y="0.8804931640625"/>
+        <child type="StaticObj_Wreck_Decal_Small2" spawnsecondary="false" x="-31.5732421875" z="-17.6611328125" a="53.99998474121094" y="1.11590576171875"/>
+        <child type="StaticObj_Wreck_Decal_Small2_DE" spawnsecondary="false" x="21.18603515625" z="11.79833984375" a="62.99997329711914" y="-1.2666015625"/>
+    </group>
     <!--<pos x="208250.413086" z="8754.153320" a="0" y="138.652191" group="Supply_AlBahludiyah"/>-->
     <group name="Supply_AlBahludiyah">
         <child type="StaticObj_Wreck_Uaz_DE" deloot="1" lootmax="3" lootmin="2" x="0" z="0" a="263.184"/>
