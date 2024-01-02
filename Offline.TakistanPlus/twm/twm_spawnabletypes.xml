@@ -637,6 +637,28 @@
 			<item name="TWM_HK_Stock_OD" chance="1.00" />
 		</attachments>
 	</type>
+	<!-- FiveSeven -->
+	<type name="TWM_FN57">
+		<attachments preset="pistol_optics" />
+		<attachments preset="pistol_suppressors" />
+		<attachments chance="0.25">
+			<item name="TWM_Mag_FN57" chance="1.00" />
+		</attachments>	
+	</type>
+	<type name="TWM_FN57_OD">
+		<attachments preset="pistol_optics" />
+		<attachments preset="pistol_suppressors" />
+		<attachments chance="0.25">
+			<item name="TWM_Mag_FN57" chance="1.00" />
+		</attachments>		
+	</type>
+	<type name="TWM_FN57_Tan">
+		<attachments preset="pistol_optics" />
+		<attachments preset="pistol_suppressors" />
+		<attachments chance="0.25">
+			<item name="TWM_Mag_FN57" chance="1.00" />
+		</attachments>		
+	</type>
 	<type name="TWM_MG42">
 		<attachments chance="0.25">
 			<item name="TWM_Mag_MG42" chance="1.00" />
