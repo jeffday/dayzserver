@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<spawnabletypes>
+	<type name="ASC_LVOAC">
+		<attachments chance="1.00">
+			<item name="ASC_LVOAC_Stock" chance="0.4" />
+			<item name="M4_OEBttstck" chance="0.2" />
+			<item name="M4_CQBBttstck" chance="0.2" />
+			<item name="M4_MPBttstck" chance="0.2" />
+		</attachments>
+		<attachments chance="0.50">
+			<item name="ASC_LVOAC_AngledForeGrip" chance="1.00" />
+		</attachments>
+		<attachments preset="ar_optics" />
+		<attachments chance="0.20">
+			<item name="Mag_ASC_Stanag_10Rnd" chance="0.50" />
+			<item name="Mag_ASC_Stanag_20Rnd" chance="0.30" />
+			<item name="Mag_STANAG_30Rnd" chance="0.20" />
+		</attachments>
+	</type>
+	<type name="ASC_LVOAC_Tan">
+		<attachments chance="1.00">
+			<item name="ASC_LVOAC_Stock_Tan" chance="0.4" />
+			<item name="M4_OEBttstck" chance="0.2" />
+			<item name="M4_CQBBttstck" chance="0.2" />
+			<item name="M4_MPBttstck" chance="0.2" />
+		</attachments>
+		<attachments chance="0.50">
+			<item name="ASC_LVOAC_AngledForeGrip_Tan" chance="1.00" />
+		</attachments>
+		<attachments preset="ar_optics" />
+		<attachments chance="0.20">
+			<item name="Mag_ASC_Stanag_10Rnd_Tan" chance="0.50" />
+			<item name="Mag_ASC_Stanag_20Rnd_Tan" chance="0.30" />
+			<item name="BO_Mag_PMAG_Tan_30rnd" chance="0.20" />
+		</attachments>
+	</type>
+	<type name="ASC_LVOAC_TwoTone">
+		<attachments chance="1.00">
+			<item name="ASC_LVOAC_Stock_Tan" chance="0.4" />
+			<item name="M4_OEBttstck" chance="0.2" />
+			<item name="M4_CQBBttstck" chance="0.2" />
+			<item name="M4_MPBttstck" chance="0.2" />
+		</attachments>
+		<attachments chance="0.50">
+			<item name="ASC_LVOAC_AngledForeGrip_Tan" chance="1.00" />
+		</attachments>
+		<attachments preset="ar_optics" />
+		<attachments chance="0.20">
+			<item name="Mag_ASC_Stanag_10Rnd_Tan" chance="0.50" />
+			<item name="Mag_ASC_Stanag_20Rnd_Tan" chance="0.30" />
+			<item name="BO_Mag_PMAG_Tan_30rnd" chance="0.20" />
+		</attachments>
+	</type>
+</spawnabletypes>

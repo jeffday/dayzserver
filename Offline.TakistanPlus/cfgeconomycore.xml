@@ -100,4 +100,9 @@ Do not forget to add attribute act="car", if root class represents moveable vehi
 	<ce folder="rfdg">
 		<file name="rfdg_types.xml" type="types" />
 	</ce>
+	<!-- asorrycanadian LVOA-C -->
+	<ce folder="lvoac_ce">
+		<file name="lvoac_types.xml" type="types" />
+		<file name="lvoac_cfgspawnabletypes.xml" type="spawnabletypes" />
+	</ce>
 </economycore>
