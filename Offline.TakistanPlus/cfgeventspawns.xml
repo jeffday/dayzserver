@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
 <eventposdef>
 	<event name="StaticMilitaryConvoy">
-		<zone smin="0" smax="0" dmin="1" dmax="1" r="1" />
+		<zone smin="0" smax="0" dmin="2" dmax="2" r="1" />
 		<pos x="3376.159668" z="10127.701172" a="0" y="243.399445" group="Abandoned_Nagara"/> 
 		<pos x="9236.390625" z="9348.920898" a="0" y="138.652191" group="Abandoned_Hachaman"/>  
 		<pos x="2091.319336" z="12346.123047" a="0" y="334.413788" group="Abandoned_Nur"/> 
@@ -19,7 +19,7 @@
 		<pos x="5064.048340" z="10699.046875" a="0" y="150.193573" group="Supply_Jaglangier"/>  
 	</event>
 	<event name="StaticPoliceSituation">
-		<zone smin="0" smax="0" dmin="1" dmax="2" r="20" />
+		<zone smin="0" smax="0" dmin="2" dmax="3" r="20" />
 		<pos x="9235.085938" z="4477.052734" a="0" y="236.756805" group="Block_Zarandaj"/>
 		<!-- <pos x="8762.039063" z="5206.674805" a="0" y="227.732727" group="Block_Farakkah"/> -->
 		<pos x="7072.395020" z="4941.641602" a="0" y="295.026611" group="Block_Nadaya"/>
@@ -330,7 +330,7 @@
 		<pos x="8725.199164" z="5021.500974" a="0.000000" /> 
 	</event>
     <event name="StaticHeliCrash">
-		<zone smin="1" smax="3" dmin="3" dmax="5" r="45" />
+		<zone smin="1" smax="3" dmin="5" dmax="9" r="45" />
 		<pos x="5435.187012" z="10944.338867" a="315.395233" /> 
 		<pos x="5088.671875" z="5621.065918" a="0.000000" /> 
 		<pos x="3669.976318" z="4743.056641" a="116.539619" /> 
