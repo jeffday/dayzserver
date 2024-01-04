@@ -1446,10 +1446,10 @@
         <value name="Tier4"/>
     </type>
     <type name="BO_R700">
-		<nominal>5</nominal>
+		<nominal>0</nominal>
 		<restock>0</restock>
 		<lifetime>28800</lifetime>
-		<min>3</min>
+		<min>0</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
@@ -1460,10 +1460,10 @@
 		<value name="Tier4"/>
     </type>
     <type name="BO_Mag_R700_5rnd">
-		<nominal>5</nominal>
+		<nominal>0</nominal>
 		<restock>0</restock>
 		<lifetime>28800</lifetime>
-		<min>3</min>
+		<min>0</min>
 		<quantmin>0</quantmin>
 		<quantmax>80</quantmax>
 		<cost>100</cost>
@@ -5212,10 +5212,10 @@
         <value name="Tier4"/>
     </type>
     <type name="BO_Mini14">
-        <nominal>5</nominal>
+        <nominal>0</nominal>
         <lifetime>28800</lifetime>
         <restock>0</restock>
-        <min>2</min>
+        <min>0</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -5226,10 +5226,10 @@
         <value name="Tier3"/>
     </type>
     <type name="BO_Mag_Mini14_20rnd">
-        <nominal>5</nominal>
+        <nominal>0</nominal>
         <lifetime>7200</lifetime>
         <restock>300</restock>
-        <min>2</min>
+        <min>0</min>
         <quantmin>5</quantmin>
         <quantmax>50</quantmax>
         <cost>100</cost>
