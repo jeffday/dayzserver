@@ -468,7 +468,7 @@
         <value name="Tier4"/>
     </type>
     <type name="BO_G36C">
-		<nominal>2</nominal>
+		<nominal>1</nominal>
         <lifetime>7200</lifetime>
         <restock>300</restock>
 		<min>1</min>
@@ -477,7 +477,6 @@
 		<cost>100</cost>
 		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
 		<category name="weapons" />
-		<value name="Tier3" />
 		<value name="Tier4" />
 		<usage name="Military" />
     </type>
@@ -862,10 +861,10 @@
         <value name="Tier3"/>
     </type>
     <type name="BO_ACR_Tan">
-		<nominal>2</nominal>
+		<nominal>3</nominal>
         <lifetime>7200</lifetime>
         <restock>300</restock>
-		<min>1</min>
+		<min>2</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
@@ -945,7 +944,7 @@
         <usage name="Military"/>
     </type>
     <type name="BO_FNFAL">
-		<nominal>1</nominal>
+		<nominal>0</nominal>
         <lifetime>7200</lifetime>
         <restock>300</restock>
 		<min>0</min>
@@ -1418,10 +1417,10 @@
         <value name="Tier4"/>
     </type>
     <type name="BO_MK12">
-        <nominal>2</nominal>
+        <nominal>3</nominal>
         <lifetime>7200</lifetime>
         <restock>300</restock>
-        <min>1</min>
+        <min>2</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -1691,7 +1690,7 @@
 		<value name="Tier4" />
     </type>
     <type name="BO_L85">
-		<nominal>1</nominal>
+		<nominal>2</nominal>
         <lifetime>7200</lifetime>
         <restock>300</restock>
 		<min>1</min>
