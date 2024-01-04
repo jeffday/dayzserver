@@ -2215,10 +2215,10 @@
 </type>
 <!-- Update 1.16 -->
 	<type name="TWM_Lee_SMLE"> 
-        <nominal>15</nominal>
+        <nominal>0</nominal>
         <lifetime>28800</lifetime>
         <restock>0</restock>
-        <min>10</min>
+        <min>0</min>
         <quantmin>0</quantmin>
         <quantmax>80</quantmax>
         <cost>100</cost>
@@ -2305,10 +2305,10 @@
         <value name="Tier4"/>
 	</type>
 	<type name="TWM_Ammo_303">
-        <nominal>35</nominal>
+        <nominal>0</nominal>
         <lifetime>28800</lifetime>
         <restock>180</restock>
-        <min>20</min>
+        <min>0</min>
         <quantmin>2</quantmin>
         <quantmax>5</quantmax>
         <cost>100</cost>
@@ -2318,10 +2318,10 @@
         <usage name="Military"/>
     </type>
 	<type name="TWM_AmmoBox_303">
-        <nominal>9</nominal>
+        <nominal>0</nominal>
         <lifetime>28800</lifetime>
         <restock>0</restock>
-        <min>5</min>
+        <min>0</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -2331,8 +2331,8 @@
     </type>
 	<type name="TWM_SV98">
 		<nominal>1</nominal>
-        <lifetime>7200</lifetime>
-        <restock>14400</restock>
+        <lifetime>28800</lifetime>
+        <restock>0</restock>
 		<min>0</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
