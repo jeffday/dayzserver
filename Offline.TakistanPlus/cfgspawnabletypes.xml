@@ -1139,6 +1139,12 @@
 	</type>
 	<!--START OF ZOMBIES  -->
 	<!--NBC-->
+	<type name="SMCS_Mutant">
+		<cargo preset="ContaminatedCargo" />
+		<cargo chance="0.03">
+			<item name="AntiChemInjector" chance="1.0" />
+		</cargo>
+	</type>
 	<type name="ZmbM_NBC_Grey">
 		<cargo preset="ContaminatedCargo" />
 		<cargo chance="0.03">
