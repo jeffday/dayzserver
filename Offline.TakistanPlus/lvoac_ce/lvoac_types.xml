@@ -14,9 +14,17 @@
 		<value name="Tier4"/>
     </type>
     <type name="ASC_LVOAC_Camo">
+        <nominal>0</nominal>
         <lifetime>28800</lifetime>
         <restock>0</restock>
-        <flags count_in_cargo="1" count_in_hoarder="1" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="weapons"/>
+        <usage name="Military"/>
+		<value name="Tier4"/>
     </type>
 	<type name="ASC_LVOAC_DigiTan">
         <nominal>0</nominal>
@@ -58,9 +66,17 @@
 		<value name="Tier4"/>
     </type>
 	<type name="ASC_LVOAC_UCP">
+        <nominal>0</nominal>
         <lifetime>28800</lifetime>
         <restock>0</restock>
-        <flags count_in_cargo="1" count_in_hoarder="1" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="weapons"/>
+        <usage name="Military"/>
+		<value name="Tier4"/>
     </type>
 	<type name="ASC_LVOAC_Suppressor">
         <nominal>1</nominal>
@@ -91,9 +107,18 @@
 		<value name="Tier4"/>
     </type>
 	<type name="ASC_LVOAC_AngledForeGrip_OliveDrab">
+        <nominal>0</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="weapons"/>
+        <usage name="Military"/>
+        <value name="Tier3"/>
+		<value name="Tier4"/>
     </type>
 	<type name="ASC_LVOAC_AngledForeGrip_Tan">
         <nominal>2</nominal>
@@ -124,9 +149,18 @@
 		<value name="Tier4"/>
     </type>
 	<type name="ASC_LVOAC_Stock_Camo">
+        <nominal>0</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="weapons"/>
+        <usage name="Military"/>
+        <value name="Tier3"/>
+		<value name="Tier4"/>
     </type>
 	<type name="ASC_LVOAC_Stock_DigiTan">
         <nominal>0</nominal>
@@ -157,9 +191,18 @@
 		<value name="Tier4"/>
     </type>
 	<type name="ASC_LVOAC_Stock_UCP">
+        <nominal>0</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="weapons"/>
+        <usage name="Military"/>
+        <value name="Tier3"/>
+		<value name="Tier4"/>
     </type>
 	<type name="ASC_LVOAC_MilStdScope">
         <nominal>0</nominal>
@@ -178,14 +221,36 @@
         <value name="Tier4"/>
     </type>
     <type name="ASC_LVOAC_MilStdScope_OliveGreen">
+        <nominal>0</nominal>
         <lifetime>14400</lifetime>
         <restock>1800</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="weapons"/>
+        <tag name="floor"/>
+        <usage name="Military"/>
+        <value name="Tier2"/>
+        <value name="Tier3"/>
+        <value name="Tier4"/>
     </type>
     <type name="ASC_LVOAC_MilStdScope_Tan">
+        <nominal>0</nominal>
         <lifetime>14400</lifetime>
         <restock>1800</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="weapons"/>
+        <tag name="floor"/>
+        <usage name="Military"/>
+        <value name="Tier2"/>
+        <value name="Tier3"/>
+        <value name="Tier4"/>
     </type>
     <type name="ASC_LVOAC_HurricaneOptic">
         <nominal>0</nominal>
@@ -203,24 +268,64 @@
         <value name="Tier3"/>
     </type>
 	<type name="ASC_LVOAC_HurricaneOptic_Camo">
+        <nominal>0</nominal>
         <lifetime>14400</lifetime>
         <restock>1800</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="weapons"/>
+        <usage name="Military"/>
+        <value name="Tier1"/>
+        <value name="Tier2"/>
+        <value name="Tier3"/>
     </type>
 	<type name="ASC_LVOAC_HurricaneOptic_DigiTan">
+        <nominal>0</nominal>
         <lifetime>14400</lifetime>
         <restock>1800</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="weapons"/>
+        <usage name="Military"/>
+        <value name="Tier1"/>
+        <value name="Tier2"/>
+        <value name="Tier3"/>
     </type>
 	<type name="ASC_LVOAC_HurricaneOptic_Tan">
+        <nominal>0</nominal>
         <lifetime>14400</lifetime>
         <restock>1800</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="weapons"/>
+        <usage name="Military"/>
+        <value name="Tier1"/>
+        <value name="Tier2"/>
+        <value name="Tier3"/>
     </type>
 	<type name="ASC_LVOAC_HurricaneOptic_UCP">
+        <nominal>0</nominal>
         <lifetime>14400</lifetime>
         <restock>1800</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="weapons"/>
+        <usage name="Military"/>
+        <value name="Tier1"/>
+        <value name="Tier2"/>
+        <value name="Tier3"/>
     </type>
 	<type name="Mag_ASC_Stanag_10Rnd">
         <nominal>0</nominal>
@@ -237,14 +342,32 @@
         <value name="Tier3"/>
     </type>
 	<type name="Mag_ASC_Stanag_10Rnd_Camo">
+        <nominal>0</nominal>
         <lifetime>28800</lifetime>
         <restock>0</restock>
+        <min>0</min>
+        <quantmin>10</quantmin>
+        <quantmax>100</quantmax>
+        <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="weapons"/>
+        <usage name="Military"/>
+        <value name="Tier2"/>
+        <value name="Tier3"/>
     </type>
 	<type name="Mag_ASC_Stanag_10Rnd_DigiTan">
+        <nominal>0</nominal>
         <lifetime>28800</lifetime>
         <restock>0</restock>
+        <min>0</min>
+        <quantmin>10</quantmin>
+        <quantmax>100</quantmax>
+        <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="weapons"/>
+        <usage name="Military"/>
+        <value name="Tier2"/>
+        <value name="Tier3"/>
     </type>
 	<type name="Mag_ASC_Stanag_10Rnd_Tan">
         <nominal>5</nominal>
@@ -261,9 +384,18 @@
         <value name="Tier3"/>
     </type>
 	<type name="Mag_ASC_Stanag_10Rnd_UCP">
+        <nominal>0</nominal>
         <lifetime>28800</lifetime>
         <restock>0</restock>
+        <min>0</min>
+        <quantmin>5</quantmin>
+        <quantmax>50</quantmax>
+        <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="weapons"/>
+        <usage name="Military"/>
+        <value name="Tier2"/>
+        <value name="Tier3"/>
     </type>
 	<type name="Mag_ASC_Stanag_20Rnd">
         <nominal>0</nominal>
@@ -280,14 +412,32 @@
         <value name="Tier3"/>
     </type>
 	<type name="Mag_ASC_Stanag_20Rnd_Camo">
+        <nominal>0</nominal>
         <lifetime>28800</lifetime>
         <restock>0</restock>
+        <min>0</min>
+        <quantmin>5</quantmin>
+        <quantmax>50</quantmax>
+        <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="weapons"/>
+        <usage name="Military"/>
+        <value name="Tier2"/>
+        <value name="Tier3"/>
     </type>
 	<type name="Mag_ASC_Stanag_20Rnd_DigiTan">
+        <nominal>0</nominal>
         <lifetime>28800</lifetime>
         <restock>0</restock>
+        <min>0</min>
+        <quantmin>5</quantmin>
+        <quantmax>50</quantmax>
+        <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="weapons"/>
+        <usage name="Military"/>
+        <value name="Tier2"/>
+        <value name="Tier3"/>
     </type>
 	<type name="Mag_ASC_Stanag_20Rnd_Tan">
         <nominal>3</nominal>
@@ -304,9 +454,18 @@
         <value name="Tier3"/>
     </type>
 	<type name="Mag_ASC_Stanag_20Rnd_UCP">
+        <nominal>0</nominal>
         <lifetime>28800</lifetime>
         <restock>0</restock>
+        <min>0</min>
+        <quantmin>5</quantmin>
+        <quantmax>50</quantmax>
+        <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="weapons"/>
+        <usage name="Military"/>
+        <value name="Tier2"/>
+        <value name="Tier3"/>
     </type>
 	<type name="Mag_ASC_Stanag_100Rnd">
         <nominal>0</nominal>
@@ -321,24 +480,52 @@
         <usage name="Military"/>
     </type>
 	<type name="Mag_ASC_Stanag_100Rnd_Camo">
+        <nominal>0</nominal>
         <lifetime>28800</lifetime>
         <restock>0</restock>
-        <flags count_in_cargo="1" count_in_hoarder="1" count_in_map="1" count_in_player="0" crafted="0" deloot="1"/>
+        <min>0</min>
+        <quantmin>10</quantmin>
+        <quantmax>100</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="1"/>
+        <category name="weapons"/>
+        <usage name="Military"/>
     </type>
 	<type name="Mag_ASC_Stanag_100Rnd_DigiTan">
+        <nominal>0</nominal>
         <lifetime>28800</lifetime>
         <restock>0</restock>
-        <flags count_in_cargo="1" count_in_hoarder="1" count_in_map="1" count_in_player="0" crafted="0" deloot="1"/>
+        <min>0</min>
+        <quantmin>10</quantmin>
+        <quantmax>100</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="1"/>
+        <category name="weapons"/>
+        <usage name="Military"/>
     </type>
 	<type name="Mag_ASC_Stanag_100Rnd_Tan">
+        <nominal>0</nominal>
         <lifetime>28800</lifetime>
         <restock>0</restock>
-        <flags count_in_cargo="1" count_in_hoarder="1" count_in_map="1" count_in_player="0" crafted="0" deloot="1"/>
+        <min>0</min>
+        <quantmin>10</quantmin>
+        <quantmax>100</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="1"/>
+        <category name="weapons"/>
+        <usage name="Military"/>
     </type>
 	<type name="Mag_ASC_Stanag_100Rnd_UCP">
+        <nominal>0</nominal>
         <lifetime>28800</lifetime>
         <restock>0</restock>
-        <flags count_in_cargo="1" count_in_hoarder="1" count_in_map="1" count_in_player="0" crafted="0" deloot="1"/>
+        <min>0</min>
+        <quantmin>10</quantmin>
+        <quantmax>100</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="1"/>
+        <category name="weapons"/>
+        <usage name="Military"/>
     </type>
 	<type name="Mag_ASC_PMag_60Rnd">
         <nominal>0</nominal>
@@ -353,23 +540,51 @@
         <usage name="Military"/>
     </type>
 	<type name="Mag_ASC_PMag_60Rnd_Camo">
+        <nominal>0</nominal>
         <lifetime>28800</lifetime>
         <restock>0</restock>
-        <flags count_in_cargo="1" count_in_hoarder="1" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <min>0</min>
+        <quantmin>10</quantmin>
+        <quantmax>100</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="1"/>
+        <category name="weapons"/>
+        <usage name="Military"/>
     </type>
 	<type name="Mag_ASC_PMag_60Rnd_DigiTan">
+        <nominal>0</nominal>
         <lifetime>28800</lifetime>
         <restock>0</restock>
-        <flags count_in_cargo="1" count_in_hoarder="1" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <min>0</min>
+        <quantmin>10</quantmin>
+        <quantmax>100</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="1"/>
+        <category name="weapons"/>
+        <usage name="Military"/>
     </type>
 	<type name="Mag_ASC_PMag_60Rnd_Tan">
+        <nominal>0</nominal>
         <lifetime>28800</lifetime>
         <restock>0</restock>
-        <flags count_in_cargo="1" count_in_hoarder="1" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <min>0</min>
+        <quantmin>10</quantmin>
+        <quantmax>100</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="1"/>
+        <category name="weapons"/>
+        <usage name="Military"/>
     </type>
 	<type name="Mag_ASC_PMag_60Rnd_UCP">
+        <nominal>0</nominal>
         <lifetime>28800</lifetime>
         <restock>0</restock>
-        <flags count_in_cargo="1" count_in_hoarder="1" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <min>0</min>
+        <quantmin>10</quantmin>
+        <quantmax>100</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="1"/>
+        <category name="weapons"/>
+        <usage name="Military"/>
     </type>
 </types>
