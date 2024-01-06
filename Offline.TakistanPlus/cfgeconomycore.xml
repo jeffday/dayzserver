@@ -100,4 +100,8 @@ Do not forget to add attribute act="car", if root class represents moveable vehi
 		<file name="lvoac_types.xml" type="types" />
 		<file name="lvoac_cfgspawnabletypes.xml" type="spawnabletypes" />
 	</ce>
+	<!-- Odyssey Equipment Gas Masks -->
+	<ce folder="ogm">
+		<file name="ogm_types.xml" type="types" />
+	</ce>
 </economycore>
