@@ -1996,31 +1996,30 @@
         <value name="Tier4"/>
 	</type>
 	<type name="TWM_MK17">
-		<nominal>0</nominal>
+		<nominal>1</nominal>
         <lifetime>7200</lifetime>
-        <restock>14400</restock>
-		<min>0</min>
+        <restock>300</restock>
+		<min>1</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
-		<cost>100</cost> 
-		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+		<cost>100</cost>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="1" />
 		<category name="weapons" />
-        <usage name="Military"/>
-        <value name="Tier4"/>
-		<value name="Tier3"/>
+		<usage name="Military" />
+		<value name="Tier4" />
 	</type>
 	<type name="TWM_MK20">
-		<nominal>0</nominal>
+		<nominal>1</nominal>
         <lifetime>7200</lifetime>
-        <restock>14400</restock>
-		<min>0</min>
+        <restock>300</restock>
+		<min>1</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
-		<cost>100</cost> 
-		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+		<cost>100</cost>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="1" />
 		<category name="weapons" />
-        <usage name="Military"/>
-        <value name="Tier4"/>
+		<usage name="Military" />
+		<value name="Tier4" />
 	</type>
 	<type name="TWM_Howa20">
 		<nominal>2</nominal>
@@ -2153,20 +2152,17 @@
 		<value name="Tier4"/>
 	</type>
 	<type name="TWM_Mag_Scar_20rnd">
-        <nominal>0</nominal>
+        <nominal>3</nominal>
         <lifetime>7200</lifetime>
-        <restock>7200</restock>
-        <min>0</min>
-        <quantmin>10</quantmin>
-        <quantmax>20</quantmax>
+        <restock>300</restock>
+        <min>1</min>
+        <quantmin>5</quantmin>
+        <quantmax>50</quantmax>
         <cost>100</cost>
-        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="1"/>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="weapons"/>
-        <tag name="shelves"/>
         <usage name="Military"/>
-		<value name="Tier2"/>
-		<value name="Tier3"/>
-		<value name="Tier4"/>
+        <value name="Tier4"/>
 	</type>
 	<type name="TWM_Mag_308Drum">
         <nominal>0</nominal>
@@ -2904,17 +2900,16 @@
         <value name="Tier3"/>
     </type>
     <type name="TWM_AN94">
-        <nominal>0</nominal>
-        <lifetime>28800</lifetime>
-        <restock>0</restock>
-        <min>0</min>
+        <nominal>1</nominal>
+        <lifetime>7200</lifetime>
+        <restock>300</restock>
+        <min>1</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="weapons"/>
         <usage name="Military"/>
-        <value name="Tier3"/>
         <value name="Tier4"/>
     </type>
     <type name="TWM_L85">
