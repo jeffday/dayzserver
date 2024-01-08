@@ -416,23 +416,13 @@
 		</attachments>
 		<!--INDUSTRIAL ATTACHMENTS-->
 		<attachments chance="0.30" name="hatsIndustrial">
-			<item name="ConstructionHelmet_Blue" chance="0.058" />
-			<item name="ConstructionHelmet_Lime" chance="0.058" />
-			<item name="ConstructionHelmet_Orange" chance="0.058" />
-			<item name="ConstructionHelmet_Red" chance="0.058" />
-			<item name="ConstructionHelmet_White" chance="0.058" />
-			<item name="ConstructionHelmet_Yellow" chance="0.058" />
-			<item name="WeldingMask" chance="0.058" />
-			<item name="RadarCap_Black" chance="0.058" />
-			<item name="RadarCap_Blue" chance="0.058" />
-			<item name="RadarCap_Brown" chance="0.058" />
-			<item name="RadarCap_Green" chance="0.058" />
-			<item name="RadarCap_Red" chance="0.058" />
-			<item name="ZmijovkaCap_Black" chance="0.058" />
-			<item name="ZmijovkaCap_Blue" chance="0.058" />
-			<item name="ZmijovkaCap_Brown" chance="0.058" />
-			<item name="ZmijovkaCap_Green" chance="0.058" />
-			<item name="ZmijovkaCap_Red" chance="0.058" />
+			<item name="ConstructionHelmet_Blue" chance="0.125" />
+			<item name="ConstructionHelmet_Lime" chance="0.125" />
+			<item name="ConstructionHelmet_Orange" chance="0.125" />
+			<item name="ConstructionHelmet_Red" chance="0.125" />
+			<item name="ConstructionHelmet_White" chance="0.125" />
+			<item name="ConstructionHelmet_Yellow" chance="0.125" />
+			<item name="WeldingMask" chance="0.125" />
 		</attachments>
 		<attachments chance="0.15" name="handsIndustrial">
 				<item name="Pipe" chance="0.15" />
@@ -472,19 +462,37 @@
 			<item name="AviatorGlasses" chance="0.25" />
 		</attachments>
 		<attachments chance="0.20" name="vestsArmy">
-			<item name="FOG_Vest_D3CRX_CB" chance="0.6" />
-			<item name="FOG_Vest_SSMK4_CB" chance="0.2" />
-			<item name="FOG_Vest_SSMK4_MC" chance="0.2" />
+			<item name="FOG_Vest_D3CRX_CB" chance="0.35" />
+			<item name="FOG_Vest_D3CRX_RG" chance="0.15" />
+			<item name="FOG_Vest_SSMK4_CB" chance="0.15" />
+			<item name="FOG_Vest_SSMK4_RG" chance="0.05" />
+			<item name="FOG_Vest_SSMK4_MC" chance="0.15" />
+			<item name="FOG_Vest_SSMK4_MCA" chance="0.15" />
 		</attachments>
 		<attachments chance="0.20" name="mediumVestsArmy">
-			<item name="FOG_Vest_FCPC_MC" chance="0.125" />
-			<item name="FOG_Vest_FCPC_CB" chance="0.125" />
-			<item name="FOG_Vest_TacTec_CB" chance="0.125" />
-			<item name="FOG_Vest_TV110T_Tan" chance="0.125" />
-			<item name="FOG_Vest_TV110T_CB" chance="0.125" />
-			<item name="FOG_Vest_TV110T_MC" chance="0.125" />
-			<item name="FOG_Vest_JPC_CB" chance="0.125" />
-			<item name="FOG_Vest_JPC_AOR1" chance="0.125" />
+			<item name="FOG_Vest_FCPC_MC" chance="0.05" />
+			<item name="FOG_Vest_FCPC_RG" chance="0.05" />
+			<item name="FOG_Vest_FCPC_CB" chance="0.05" />
+			<item name="FOG_Vest_TacTec_CB" chance="0.05" />
+			<item name="FOG_Vest_TacTec_RG" chance="0.05" />
+			<item name="FOG_Vest_TV110T_Tan" chance="0.04" />
+			<item name="FOG_Vest_TV110T_CB" chance="0.04" />
+			<item name="FOG_Vest_TV110T_RG" chance="0.04" />
+			<item name="FOG_Vest_TV110T_MC" chance="0.04" />
+			<item name="FOG_Vest_JPC_CB" chance="0.04" />
+			<item name="FOG_Vest_JPC_MC" chance="0.04" />
+			<item name="FOG_Vest_JPC_RG" chance="0.04" />
+			<item name="FOG_Vest_JPC_AOR1" chance="0.04" />
+			<item name="FOG_Vest_LV119_CB" chance="0.04" />
+			<item name="FOG_Vest_LV119_MC" chance="0.04" />
+			<item name="FOG_Vest_LV119_RG" chance="0.04" />
+			<item name="FOG_Vest_AVS_MC" chance="0.04" />
+			<item name="FOG_Vest_AVS_CB" chance="0.04" />
+			<item name="FOG_Vest_AVS_RG" chance="0.04" />
+			<item name="FOG_Vest_AVS_AOR1" chance="0.04" />
+			<item name="FOG_Vest_MMAC_CB" chance="0.05" />
+			<item name="FOG_Vest_MMAC_MC" chance="0.05" />
+			<item name="FOG_Vest_MMAC_RG" chance="0.05" />
 		</attachments>
 		<attachments chance="0.08" name="bagsArmy">
 			<item name="DuffelBagSmall_Camo" chance="0.15" />
