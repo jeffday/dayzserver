@@ -121,7 +121,7 @@
                     "itemType": "SK8_Sneakers_Black",
                     "spawnWeight": 1,
                     "attributes": {
-                    "healthMin": 0.45,
+                        "healthMin": 0.45,
                         "healthMax": 0.65,
                         "quantityMin": 1.0,
                         "quantityMax": 1.0
@@ -143,7 +143,7 @@
                     "itemType": "SK8_Sneakers_Blue",
                     "spawnWeight": 1,
                     "attributes": {
-                    "healthMin": 0.45,
+                        "healthMin": 0.45,
                         "healthMax": 0.65,
                         "quantityMin": 1.0,
                         "quantityMax": 1.0
@@ -175,47 +175,7 @@
                         "quickBarSlot": 4
                     },
                     {
-                        "itemType": "Chemlight_White",
-                        "attributes": {
-                            "healthMin": 1.0,
-                            "healthMax": 1.0,
-                            "quantityMin": 1.0,
-                            "quantityMax": 1.0
-                        },
-                        "quickBarSlot": -1
-                    },
-                    {
                         "itemType": "Compass",
-                        "attributes": {
-                            "healthMin": 0.65,
-                            "healthMax": 0.85,
-                            "quantityMin": 1.0,
-                            "quantityMax": 1.0
-                        },
-                        "quickBarSlot": -1
-                    },
-                    {
-                        "itemType": "WaterBottle",
-                        "attributes": {
-                            "healthMin": 1.0,
-                            "healthMax": 1.0,
-                            "quantityMin": 1.0,
-                            "quantityMax": 1.0
-                        },
-                        "quickBarSlot": -1
-                    },
-                    {
-                        "itemType": "PurificationTablets",
-                        "attributes": {
-                            "healthMin": 1.0,
-                            "healthMax": 1.0,
-                            "quantityMin": 0.1,
-                            "quantityMax": 0.1
-                        },
-                        "quickBarSlot": -1
-                    },
-                    {
-                        "itemType": "TunaCan",
                         "attributes": {
                             "healthMin": 0.65,
                             "healthMax": 0.85,
