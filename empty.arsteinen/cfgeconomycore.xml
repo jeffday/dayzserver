@@ -35,4 +35,8 @@ Do not forget to add attribute act="car", if root class represents moveable vehi
 		<default name="save_types_startup" value="true"/>
 	</defaults>
 
+	<!-- MeleePack -->
+	<ce folder="mp">
+		<file name="meleepack_types.xml" type="types" />
+	</ce>
 </economycore>
