@@ -1,0 +1,82 @@
+{
+    "Areas": [
+        { 	"AreaName": "Oil_Rig", 
+			"Type": "ContaminatedArea_Static", 
+			"TriggerType": "ContaminatedTrigger",
+			"Data": { 
+				"Pos": [ 8300.6, 16.4, 1499.42 ],
+				"Radius": 200,
+				"PosHeight": 100,
+				"NegHeight": 10,
+				"InnerRingCount": 2,
+				"InnerPartDist": 50,
+				"OuterRingToggle": 1, 
+				"OuterPartDist": 40, 
+				"OuterOffset": 0, 
+				"VerticalLayers": 0,
+				"VerticalOffset": 0,
+				"ParticleName": "graphics/particles/contaminated_area_gas_bigass"
+				},
+			"PlayerData": {
+				"AroundPartName": "graphics/particles/contaminated_area_gas_around",
+				"TinyPartName": "graphics/particles/contaminated_area_gas_around_tiny",
+				"PPERequesterType": "PPERequester_ContaminatedAreaTint"
+			}
+		},
+		{ 	"AreaName": "Ship_Odin", 
+			"Type": "ContaminatedArea_Static", 
+			"TriggerType": "ContaminatedTrigger",
+			"Data": { 
+				"Pos": [ 4752.13, 6.5362, 1818.76 ],
+				"Radius": 200,
+				"PosHeight": 18,
+				"NegHeight": 10,
+				"InnerRingCount": 2,
+				"InnerPartDist": 50,
+				"OuterRingToggle": 1, 
+				"OuterPartDist": 40, 
+				"OuterOffset": 0, 
+				"VerticalLayers": 0,
+				"VerticalOffset": 0,
+				"ParticleName": "graphics/particles/contaminated_area_gas_bigass"
+				},
+			"PlayerData": {
+				"AroundPartName": "graphics/particles/contaminated_area_gas_around",
+				"TinyPartName": "graphics/particles/contaminated_area_gas_around_tiny",
+				"PPERequesterType": "PPERequester_ContaminatedAreaTint"
+			}
+		}
+    ],
+
+	"SafePositions":[
+		[7361.1, 7696.68],
+		[6249.21, 7339.08],
+		[6640.82, 5437.3],
+		[4755.93, 1830.7],
+		[441.31, 4009.76],
+		[568.755, 3822.17],
+		[1928.2, 858.072],
+		[2047.44, 932.042],
+		[2162.26, 1135.63],
+		[1945.8, 1344.5],
+		[1960.95, 1461.16],
+		[6920.68, 1343.29],
+		[6133.26, 2517.31],
+		[5550.52, 2151.79],
+		[4350.49, 2550.88],
+		[4413.35, 3967.94],
+		[3651.21, 5610.47],
+		[2256.08, 6048.66],
+		[1662.88, 6154.55],
+		[226.646, 8363.23],
+		[562.11, 8323.02],
+		[2348.26, 7728.67],
+		[425.287, 5462.04],
+		[2359.53, 4848.98],
+		[2341.2, 4460.17],
+		[1902.11, 3963.54],
+		[2402.03, 4932.02]
+		
+		
+	]
+}
