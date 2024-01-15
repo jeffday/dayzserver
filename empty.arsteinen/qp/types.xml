@@ -1,0 +1,728 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<types>
+  <type name="tacticalbelt_quad_black">
+    <nominal>0</nominal>
+    <lifetime>28800</lifetime>
+    <restock>1800</restock>
+    <min>0</min>
+    <quantmin>-1</quantmin>
+    <quantmax>-1</quantmax>
+    <cost>100</cost>
+    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+    <category name="weapons" />
+    <usage name="Military" />
+    <value name="Tier2" />
+    <value name="Tier3" />
+    <value name="Tier4" />
+  </type>
+  <type name="tacticalbelt_quad_green">
+    <nominal>0</nominal>
+    <lifetime>28800</lifetime>
+    <restock>1800</restock>
+    <min>0</min>
+    <quantmin>-1</quantmin>
+    <quantmax>-1</quantmax>
+    <cost>100</cost>
+    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+    <category name="weapons" />
+    <usage name="Military" />
+    <value name="Tier2" />
+    <value name="Tier3" />
+    <value name="Tier4" />
+  </type>
+  <type name="tacticalbelt_quad_tan">
+    <nominal>0</nominal>
+    <lifetime>28800</lifetime>
+    <restock>1800</restock>
+    <min>0</min>
+    <quantmin>-1</quantmin>
+    <quantmax>-1</quantmax>
+    <cost>100</cost>
+    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+    <category name="weapons" />
+    <usage name="Military" />
+    <value name="Tier2" />
+    <value name="Tier3" />
+  </type>
+  <type name="riflesling_quad_black">
+    <nominal>10</nominal>
+    <lifetime>7200</lifetime>
+    <restock>7200</restock>
+    <min>4</min>
+    <quantmin>-1</quantmin>
+    <quantmax>-1</quantmax>
+    <cost>100</cost>
+    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+    <category name="weapons" />
+    <usage name="Military" />
+  </type>
+  <type name="riflesling_quad_green">
+    <nominal>10</nominal>
+    <lifetime>7200</lifetime>
+    <restock>7200</restock>
+    <min>4</min>
+    <quantmin>-1</quantmin>
+    <quantmax>-1</quantmax>
+    <cost>100</cost>
+    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+    <category name="weapons" />
+    <usage name="Military" />
+  </type>
+  <type name="riflesling_quad_tan">
+    <nominal>0</nominal>
+    <lifetime>7200</lifetime>
+    <restock>7200</restock>
+    <min>0</min>
+    <quantmin>-1</quantmin>
+    <quantmax>-1</quantmax>
+    <cost>100</cost>
+    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+    <category name="weapons" />
+    <usage name="Military" />
+  </type>
+  <type name="riflesling_quad_winter">
+    <nominal>10</nominal>
+    <lifetime>7200</lifetime>
+    <restock>7200</restock>
+    <min>4</min>
+    <quantmin>-1</quantmin>
+    <quantmax>-1</quantmax>
+    <cost>100</cost>
+    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+    <category name="weapons" />
+    <usage name="Military" />
+  </type>
+  <type name="rifleslingfront_quad_black">
+    <nominal>0</nominal>
+    <lifetime>7200</lifetime>
+    <restock>7200</restock>
+    <min>0</min>
+    <quantmin>-1</quantmin>
+    <quantmax>-1</quantmax>
+    <cost>100</cost>
+    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+    <category name="weapons" />
+    <usage name="Military" />
+  </type>
+  <type name="rifleslingfront_quad_green">
+    <nominal>0</nominal>
+    <lifetime>7200</lifetime>
+    <restock>7200</restock>
+    <min>0</min>
+    <quantmin>-1</quantmin>
+    <quantmax>-1</quantmax>
+    <cost>100</cost>
+    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+    <category name="weapons" />
+    <usage name="Military" />
+  </type>
+  <type name="rifleslingfront_quad_tan">
+    <nominal>0</nominal>
+    <lifetime>2700</lifetime>
+    <restock>1800</restock>
+    <min>0</min>
+    <quantmin>-1</quantmin>
+    <quantmax>-1</quantmax>
+    <cost>100</cost>
+    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+    <category name="weapons" />
+    <usage name="Military" />
+  </type>
+  <type name="rifleslingfront_quad_winter">
+    <nominal>0</nominal>
+    <lifetime>2700</lifetime>
+    <restock>1800</restock>
+    <min>0</min>
+    <quantmin>-1</quantmin>
+    <quantmax>-1</quantmax>
+    <cost>100</cost>
+    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+    <category name="weapons" />
+    <usage name="Military" />
+  </type>
+  <type name="rifleslingback_quad_black">
+    <nominal>0</nominal>
+    <lifetime>7200</lifetime>
+    <restock>7200</restock>
+    <min>0</min>
+    <quantmin>-1</quantmin>
+    <quantmax>-1</quantmax>
+    <cost>100</cost>
+    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+    <category name="weapons" />
+    <usage name="Military" />
+  </type>
+  <type name="rifleslingback_quad_green">
+    <nominal>0</nominal>
+    <lifetime>7200</lifetime>
+    <restock>7200</restock>
+    <min>0</min>
+    <quantmin>-1</quantmin>
+    <quantmax>-1</quantmax>
+    <cost>100</cost>
+    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+    <category name="weapons" />
+    <usage name="Military" />
+  </type>
+  <type name="rifleslingback_quad_tan">
+    <nominal>0</nominal>
+    <lifetime>2700</lifetime>
+    <restock>1800</restock>
+    <min>0</min>
+    <quantmin>-1</quantmin>
+    <quantmax>-1</quantmax>
+    <cost>100</cost>
+    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+    <category name="weapons" />
+    <usage name="Military" />
+  </type>
+  <type name="rifleslingback_quad_winter">
+    <nominal>0</nominal>
+    <lifetime>2700</lifetime>
+    <restock>1800</restock>
+    <min>0</min>
+    <quantmin>-1</quantmin>
+    <quantmax>-1</quantmax>
+    <cost>100</cost>
+    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+    <category name="weapons" />
+    <usage name="Military" />
+  </type>
+  <type name="chestholster_quad_black">
+    <nominal>0</nominal>
+    <lifetime>7200</lifetime>
+    <restock>7200</restock>
+    <min>0</min>
+    <quantmin>-1</quantmin>
+    <quantmax>-1</quantmax>
+    <cost>100</cost>
+    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+    <category name="weapons" />
+    <usage name="Military" />
+  </type>
+  <type name="chestholster_quad_green">
+    <nominal>0</nominal>
+    <lifetime>7200</lifetime>
+    <restock>7200</restock>
+    <min>0</min>
+    <quantmin>-1</quantmin>
+    <quantmax>-1</quantmax>
+    <cost>100</cost>
+    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+    <category name="weapons" />
+    <usage name="Military" />
+  </type>
+  <type name="chestholster_quad_tan">
+    <nominal>0</nominal>
+    <lifetime>2700</lifetime>
+    <restock>1800</restock>
+    <min>0</min>
+    <quantmin>-1</quantmin>
+    <quantmax>-1</quantmax>
+    <cost>100</cost>
+    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+    <category name="weapons" />
+    <usage name="Military" />
+  </type>
+  <type name="chestholster_quad_winter">
+    <nominal>0</nominal>
+    <lifetime>2700</lifetime>
+    <restock>1800</restock>
+    <min>0</min>
+    <quantmin>-1</quantmin>
+    <quantmax>-1</quantmax>
+    <cost>100</cost>
+    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+    <category name="weapons" />
+    <usage name="Military" />
+  </type>
+  <type name="Quad_SCARL">
+    <nominal>0</nominal>
+    <lifetime>2700</lifetime>
+    <restock>1800</restock>
+    <min>0</min>
+    <quantmin>-1</quantmin>
+    <quantmax>-1</quantmax>
+    <cost>100</cost>
+    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+    <category name="weapons" />
+    <usage name="Military" />
+  </type>
+  <type name="Quad_Kar98">
+		<nominal>0</nominal>
+		<restock>0</restock>
+		<lifetime>28800</lifetime>
+		<min>0</min>
+		<quantmin>0</quantmin>
+		<quantmax>80</quantmax>
+		<cost>100</cost>
+		<flags count_in_hoarder="0" count_in_player="0" count_in_map="1" count_in_cargo="0" crafted="0" deloot="0"/>
+		<category name="weapons"/>
+		<usage name="Hunting"/>
+		<value name="Tier3"/>
+		<value name="Tier4"/>
+  </type>
+  <type name="Quad_LeeEnfield">
+    <nominal>0</nominal>
+    <lifetime>7200</lifetime>
+    <restock>300</restock>
+    <min>0</min>
+    <quantmin>0</quantmin>
+    <quantmax>80</quantmax>
+    <cost>100</cost>
+    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+    <category name="weapons"/>
+    <usage name="Hunting"/>
+    <value name="Tier3"/>
+    <value name="Tier4"/>
+  </type>
+  <type name="Quad_M14">
+    <nominal>0</nominal>
+    <lifetime>7200</lifetime>
+    <restock>300</restock>
+    <min>0</min>
+    <quantmin>-1</quantmin>
+    <quantmax>-1</quantmax>
+    <cost>100</cost>
+    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+    <category name="weapons"/>
+    <usage name="Military"/>
+    <value name="Tier4" />
+  </type>
+  <type name="Quad_M14_mag">
+    <nominal>0</nominal>
+    <lifetime>7200</lifetime>
+    <restock>300</restock>
+    <min>0</min>
+    <quantmin>5</quantmin>
+    <quantmax>50</quantmax>
+    <cost>100</cost>
+    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+    <category name="weapons"/>
+    <usage name="Military"/>
+    <value name="Tier4" />
+  </type>
+  <type name="Quad_MP7_Black">
+    <nominal>0</nominal>
+    <lifetime>2700</lifetime>
+    <restock>1800</restock>
+    <min>0</min>
+    <quantmin>-1</quantmin>
+    <quantmax>-1</quantmax>
+    <cost>100</cost>
+    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+    <category name="weapons" />
+    <usage name="Military" />
+  </type>
+  <type name="Quad_MP7_mag">
+    <nominal>0</nominal>
+    <lifetime>2700</lifetime>
+    <restock>1800</restock>
+    <min>0</min>
+    <quantmin>-1</quantmin>
+    <quantmax>-1</quantmax>
+    <cost>100</cost>
+    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+    <category name="weapons" />
+    <usage name="Military" />
+  </type>
+  <type name="Quad_PKM">
+    <nominal>0</nominal>
+    <lifetime>2700</lifetime>
+    <restock>1800</restock>
+    <min>0</min>
+    <quantmin>-1</quantmin>
+    <quantmax>-1</quantmax>
+    <cost>100</cost>
+    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+    <category name="weapons" />
+    <usage name="Military" />
+  </type>
+  <type name="Quad_PKM_Magazine">
+    <nominal>0</nominal>
+    <lifetime>2700</lifetime>
+    <restock>1800</restock>
+    <min>0</min>
+    <quantmin>-1</quantmin>
+    <quantmax>-1</quantmax>
+    <cost>100</cost>
+    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+    <category name="weapons" />
+    <usage name="Military" />
+  </type>
+  <type name="Quad_SLR">
+    <nominal>0</nominal>
+    <lifetime>2700</lifetime>
+    <restock>1800</restock>
+    <min>0</min>
+    <quantmin>-1</quantmin>
+    <quantmax>-1</quantmax>
+    <cost>100</cost>
+    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+    <category name="weapons" />
+    <usage name="Military" />
+  </type>
+  <type name="quad_Altyn_Helmet">
+    <nominal>0</nominal>
+    <lifetime>2700</lifetime>
+    <restock>1800</restock>
+    <min>0</min>
+    <quantmin>-1</quantmin>
+    <quantmax>-1</quantmax>
+    <cost>100</cost>
+    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+    <category name="weapons" />
+    <usage name="Military" />
+  </type>
+  <type name="quad_gen2_Suit">
+    <nominal>0</nominal>
+    <lifetime>2700</lifetime>
+    <restock>1800</restock>
+    <min>0</min>
+    <quantmin>-1</quantmin>
+    <quantmax>-1</quantmax>
+    <cost>100</cost>
+    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+    <category name="weapons" />
+    <usage name="Military" />
+  </type>
+  <type name="quad_Gen2_Black">
+    <nominal>0</nominal>
+    <lifetime>2700</lifetime>
+    <restock>1800</restock>
+    <min>0</min>
+    <quantmin>-1</quantmin>
+    <quantmax>-1</quantmax>
+    <cost>100</cost>
+    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+    <category name="weapons" />
+    <usage name="Military" />
+  </type>
+  <type name="quad_Gen2_Green">
+    <nominal>0</nominal>
+    <lifetime>2700</lifetime>
+    <restock>1800</restock>
+    <min>0</min>
+    <quantmin>-1</quantmin>
+    <quantmax>-1</quantmax>
+    <cost>100</cost>
+    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+    <category name="weapons" />
+    <usage name="Military" />
+  </type>
+  <type name="JuggernautLVL5_Suit">
+    <nominal>0</nominal>
+    <lifetime>2700</lifetime>
+    <restock>1800</restock>
+    <min>0</min>
+    <quantmin>-1</quantmin>
+    <quantmax>-1</quantmax>
+    <cost>100</cost>
+    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="1" />
+    <category name="weapons" />
+    <usage name="Military" />
+    <value name="Tier4" />
+  </type>
+  <type name="JuggernautLVL5_Tan">
+    <nominal>0</nominal>
+    <lifetime>2700</lifetime>
+    <restock>1800</restock>
+    <min>0</min>
+    <quantmin>-1</quantmin>
+    <quantmax>-1</quantmax>
+    <cost>100</cost>
+    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="1" />
+    <category name="weapons" />
+    <usage name="Military" />
+    <value name="Tier4" />
+  </type>
+  <type name="JuggernautLVL5_Black">
+    <nominal>0</nominal>
+    <lifetime>2700</lifetime>
+    <restock>1800</restock>
+    <min>0</min>
+    <quantmin>-1</quantmin>
+    <quantmax>-1</quantmax>
+    <cost>100</cost>
+    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="1" />
+    <category name="weapons" />
+    <usage name="Military" />
+    <value name="Tier4" />
+  </type>
+  <type name="JuggernautLVL5_Winter">
+    <nominal>0</nominal>
+    <lifetime>2700</lifetime>
+    <restock>1800</restock>
+    <min>0</min>
+    <quantmin>-1</quantmin>
+    <quantmax>-1</quantmax>
+    <cost>100</cost>
+    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="1" />
+    <category name="weapons" />
+    <usage name="Military" />
+    <value name="Tier4" />
+  </type>
+  <type name="JuggernautLVL1_Suit">
+    <nominal>0</nominal>
+    <lifetime>2700</lifetime>
+    <restock>1800</restock>
+    <min>0</min>
+    <quantmin>-1</quantmin>
+    <quantmax>-1</quantmax>
+    <cost>100</cost>
+    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="1" />
+    <category name="weapons" />
+    <usage name="Military" />
+    <value name="Tier4" />
+  </type>
+  <type name="JuggernautLVL1_Suit_Tan">
+    <nominal>0</nominal>
+    <lifetime>2700</lifetime>
+    <restock>1800</restock>
+    <min>0</min>
+    <quantmin>-1</quantmin>
+    <quantmax>-1</quantmax>
+    <cost>100</cost>
+    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="1" />
+    <category name="weapons" />
+    <usage name="Military" />
+    <value name="Tier4" />
+  </type>
+  <type name="JuggernautLVL1_Suit_Black">
+    <nominal>0</nominal>
+    <lifetime>2700</lifetime>
+    <restock>1800</restock>
+    <min>0</min>
+    <quantmin>-1</quantmin>
+    <quantmax>-1</quantmax>
+    <cost>100</cost>
+    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="1" />
+    <category name="weapons" />
+    <usage name="Military" />
+    <value name="Tier4" />
+  </type>
+  <type name="JuggernautLVL1_Suit_Winter">
+    <nominal>0</nominal>
+    <lifetime>2700</lifetime>
+    <restock>1800</restock>
+    <min>0</min>
+    <quantmin>-1</quantmin>
+    <quantmax>-1</quantmax>
+    <cost>100</cost>
+    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="1" />
+    <category name="weapons" />
+    <usage name="Military" />
+    <value name="Tier4" />
+  </type>
+  <type name="Juggernaut_Buttpack_Winter">
+    <nominal>0</nominal>
+    <lifetime>2700</lifetime>
+    <restock>1800</restock>
+    <min>0</min>
+    <quantmin>-1</quantmin>
+    <quantmax>-1</quantmax>
+    <cost>100</cost>
+    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="1" />
+    <category name="weapons" />
+    <usage name="Military" />
+    <value name="Tier3" />
+  </type>
+  <type name="Juggernaut_Pouches_Tan">
+    <nominal>0</nominal>
+    <lifetime>2700</lifetime>
+    <restock>1800</restock>
+    <min>0</min>
+    <quantmin>-1</quantmin>
+    <quantmax>-1</quantmax>
+    <cost>100</cost>
+    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="1" />
+    <category name="weapons" />
+    <usage name="Military" />
+    <value name="Tier3" />
+  </type>
+  <type name="Juggernaut_Pouches_Black">
+    <nominal>0</nominal>
+    <lifetime>2700</lifetime>
+    <restock>1800</restock>
+    <min>0</min>
+    <quantmin>-1</quantmin>
+    <quantmax>-1</quantmax>
+    <cost>100</cost>
+    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="1" />
+    <category name="weapons" />
+    <usage name="Military" />
+    <value name="Tier3" />
+  </type>
+  <type name="Juggernaut_Suit_Buttpack">
+    <nominal>0</nominal>
+    <lifetime>2700</lifetime>
+    <restock>1800</restock>
+    <min>0</min>
+    <quantmin>-1</quantmin>
+    <quantmax>-1</quantmax>
+    <cost>100</cost>
+    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="1" />
+    <category name="weapons" />
+    <usage name="Military" />
+    <value name="Tier3" />
+  </type>
+  <type name="Juggernaut_Buttpack_Tan">
+    <nominal>0</nominal>
+    <lifetime>2700</lifetime>
+    <restock>1800</restock>
+    <min>0</min>
+    <quantmin>-1</quantmin>
+    <quantmax>-1</quantmax>
+    <cost>100</cost>
+    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="1" />
+    <category name="weapons" />
+    <usage name="Military" />
+    <value name="Tier3" />
+  </type>
+  <type name="Juggernaut_Buttpack_Black">
+    <nominal>0</nominal>
+    <lifetime>2700</lifetime>
+    <restock>1800</restock>
+    <min>0</min>
+    <quantmin>-1</quantmin>
+    <quantmax>-1</quantmax>
+    <cost>100</cost>
+    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="1" />
+    <category name="weapons" />
+    <usage name="Military" />
+    <value name="Tier3" />
+  </type>
+  <type name="TacticalPouch_Green">
+		<nominal>0</nominal>
+		<restock>0</restock>
+		<lifetime>14400</lifetime>
+		<min>0</min>
+		<quantmin>-1</quantmin>
+		<quantmax>-1</quantmax>
+		<cost>100</cost>
+		<flags count_in_hoarder="0" count_in_player="0" count_in_map="1" count_in_cargo="0" crafted="0" deloot="0"/>
+		<category name="clothes"/>
+		<usage name="Military"/>
+		<value name=""/>
+  </type>
+   <type name="TacticalPouch_Black">
+		<nominal>0</nominal>
+		<restock>0</restock>
+		<lifetime>14400</lifetime>
+		<min>0</min>
+		<quantmin>-1</quantmin>
+		<quantmax>-1</quantmax>
+		<cost>100</cost>
+		<flags count_in_hoarder="0" count_in_player="0" count_in_map="1" count_in_cargo="0" crafted="0" deloot="0"/>
+		<category name="clothes"/>
+		<usage name="Military"/>
+		<value name=""/>
+  </type>
+   <type name="TacticalPouch_Flora">
+		<nominal>0</nominal>
+		<restock>0</restock>
+		<lifetime>14400</lifetime>
+		<min>0</min>
+		<quantmin>-1</quantmin>
+		<quantmax>-1</quantmax>
+		<cost>100</cost>
+		<flags count_in_hoarder="0" count_in_player="0" count_in_map="1" count_in_cargo="0" crafted="0" deloot="0"/>
+		<category name="clothes"/>
+		<usage name="Military"/>
+		<value name=""/>
+  </type>
+  <type name="TacticalPouch_Tan">
+    <nominal>0</nominal>
+    <lifetime>2700</lifetime>
+    <restock>1800</restock>
+    <min>0</min>
+    <quantmin>-1</quantmin>
+    <quantmax>-1</quantmax>
+    <cost>100</cost>
+    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="1" />
+    <category name="weapons" />
+    <usage name="Military" />
+    <value name="Tier3" />
+  </type>
+   <type name="quad_Ronin_Gold">
+    <nominal>0</nominal>
+    <lifetime>2700</lifetime>
+    <restock>1800</restock>
+    <min>0</min>
+    <quantmin>-1</quantmin>
+    <quantmax>-1</quantmax>
+    <cost>100</cost>
+    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="1" />
+    <category name="weapons" />
+    <usage name="Military" />
+    <value name="Tier3" />
+  </type>
+  <type name="quad_Ronin_Helmet">
+    <nominal>0</nominal>
+    <lifetime>2700</lifetime>
+    <restock>1800</restock>
+    <min>0</min>
+    <quantmin>-1</quantmin>
+    <quantmax>-1</quantmax>
+    <cost>100</cost>
+    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="1" />
+    <category name="weapons" />
+    <usage name="Military" />
+    <value name="Tier3" />
+  </type>
+  <type name="6b13Vest_FloraBrown">
+		<nominal>0</nominal>
+		<restock>3600</restock>
+		<lifetime>14400</lifetime>
+		<min>0</min>
+		<quantmin>-1</quantmin>
+		<quantmax>-1</quantmax>
+		<cost>100</cost>
+		<flags count_in_hoarder="0" count_in_player="0" count_in_map="1" count_in_cargo="0" crafted="0" deloot="0"/>
+		<category name="clothes"/>
+		<usage name="Military"/>
+		<value name="Tier3"/>
+		<value name="Tier4"/>
+  </type>
+  <type name="6b13Vest_PixelGreen">
+		<nominal>0</nominal>
+		<restock>3600</restock>
+		<lifetime>14400</lifetime>
+		<min>0</min>
+		<quantmin>-1</quantmin>
+		<quantmax>-1</quantmax>
+		<cost>100</cost>
+		<flags count_in_hoarder="0" count_in_player="0" count_in_map="1" count_in_cargo="0" crafted="0" deloot="0"/>
+		<category name="clothes"/>
+		<usage name="Military"/>
+		<value name="Tier3"/>
+		<value name="Tier4"/>
+  </type>
+  <type name="6b13Vest_PixelBlack">
+		<nominal>0</nominal>
+		<restock>3600</restock>
+		<lifetime>14400</lifetime>
+		<min>0</min>
+		<quantmin>-1</quantmin>
+		<quantmax>-1</quantmax>
+		<cost>100</cost>
+		<flags count_in_hoarder="0" count_in_player="0" count_in_map="1" count_in_cargo="0" crafted="0" deloot="0"/>
+		<category name="clothes"/>
+		<usage name="Military"/>
+		<value name="Tier3"/>
+		<value name="Tier4"/>
+  </type>
+  <type name="Quad_ArmourPlate">
+    <nominal>0</nominal>
+    <lifetime>2700</lifetime>
+    <restock>1800</restock>
+    <min>0</min>
+    <quantmin>-1</quantmin>
+    <quantmax>-1</quantmax>
+    <cost>100</cost>
+    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="1" />
+    <category name="weapons" />
+    <usage name="Military" />
+    <value name="Tier3" />
+  </type>
+</types>
