@@ -52,4 +52,9 @@ Do not forget to add attribute act="car", if root class represents moveable vehi
 		<file name="ogm_types.xml" type="types" />
 		<file name="ogm_spawnabletypes.xml" type="spawnabletypes" />
 	</ce>
+	<!-- MMG Civilian CLothing -->
+	<ce folder="mmg">
+		<file name="MMGCC_types.xml" type="types" />
+		<file name="MMGCC_spawnabletypes.xml" type="spawnabletypes" />
+	</ce>
 </economycore>
