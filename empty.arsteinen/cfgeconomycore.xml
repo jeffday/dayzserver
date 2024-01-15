@@ -47,4 +47,9 @@ Do not forget to add attribute act="car", if root class represents moveable vehi
 	<ce folder="windstride">
 		<file name="windstride_types.xml" type="types" />
 	</ce>
+	<!-- Odyssey Equipment Gas Masks -->
+	<ce folder="ogm">
+		<file name="ogm_types.xml" type="types" />
+		<file name="ogm_spawnabletypes.xml" type="spawnabletypes" />
+	</ce>
 </economycore>

@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<spawnabletypes>
+    <type name="STO_Gasmask_AVC">
+		<damage min="0.0" max="0.35" />
+		<cargo chance="0.2">
+			<item name="STO_Gasmask_Filter_AVC" />
+		</cargo>
+	</type>
+	<type name="STO_GasMask_CM7">
+		<damage min="0.0" max="0.35" />
+		<cargo chance="0.2">
+			<item name="GasMask_Filter" />
+		</cargo>
+	</type>
+    <type name="STO_GasMask_CM7">
+		<damage min="0.0" max="0.35" />
+		<cargo chance="0.2">
+			<item name="GasMask_Filter" />
+		</cargo>
+	</type>
+    <type name="STO_GasMask_CS_1">
+		<damage min="0.25" max="0.65" />
+		<cargo chance="0.2">
+			<item name="GasMask_Filter" />
+		</cargo>
+	</type>
+    <type name="STO_GasMask_CS_2">
+		<damage min="0.25" max="0.65" />
+		<cargo chance="0.2">
+			<item name="GasMask_Filter" />
+		</cargo>
+	</type>
+    <type name="STO_GasMask_GP7">
+		<damage min="0.0" max="0.35" />
+		<cargo chance="0.2">
+			<item name="GasMask_Filter" />
+		</cargo>
+	</type>
+    <type name="STO_GasMask_GP21">
+		<damage min="0.0" max="0.35" />
+		<cargo chance="0.2">
+			<item name="STO_Gasmask_Filter_GP21" />
+		</cargo>
+	</type>
+    <type name="STO_GasMask_M40">
+		<damage min="0.0" max="0.35" />
+		<cargo chance="0.2">
+			<item name="GasMask_Filter" />
+		</cargo>
+	</type>
+    <type name="STO_GasMask_MK10">
+		<damage min="0.0" max="0.35" />
+		<cargo chance="0.2">
+			<item name="GasMask_Filter" />
+		</cargo>
+	</type>
+    <type name="STO_GasMask_PMG">
+		<damage min="0.35" max="0.65" />
+		<cargo chance="0.2">
+			<item name="GasMask_Filter" />
+		</cargo>
+	</type>
+    <type name="STO_GasMask_PMG">
+		<damage min="0.35" max="0.65" />
+		<cargo chance="0.2">
+			<item name="GasMask_Filter" />
+		</cargo>
+	</type>
+    <type name="STO_GasMask_MK10">
+		<damage min="0.0" max="0.35" />
+		<cargo chance="0.2">
+			<item name="GasMask_Filter" />
+		</cargo>
+	</type>
+</spawnabletypes>
