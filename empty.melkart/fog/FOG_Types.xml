@@ -1185,7 +1185,7 @@
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="clothes"/>
         <usage name="Military"/>
-		<value name="Tier5"/>
+		<value name="Tier4"/>
     </type>
     <type name="FOG_Vest_LV119_RG">
         <nominal>5</nominal>
@@ -1198,7 +1198,7 @@
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="clothes"/>
         <usage name="Military"/>
-		<value name="Tier5"/>
+		<value name="Tier4"/>
     </type>
     <type name="FOG_Vest_LV119_Black">
         <nominal>5</nominal>
@@ -1211,7 +1211,7 @@
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="clothes"/>
         <usage name="Military"/>
-		<value name="Tier5"/>
+		<value name="Tier4"/>
     </type>
     <type name="FOG_Vest_LV119_MC">
         <nominal>5</nominal>
@@ -1224,7 +1224,7 @@
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="clothes"/>
         <usage name="Military"/>
-		<value name="Tier5"/>
+		<value name="Tier4"/>
     </type>
     <type name="FOG_Vest_LVMBAV_CB">
         <nominal>0</nominal>
@@ -1318,7 +1318,7 @@
         <usage name="Military"/>
         <usage name="ContaminatedArea"/>
 		<usage name="Underground"/>
-		<value name="Tier5"/>
+		<value name="Tier4"/>
     </type>
     <type name="FOG_Vest_Thor_Green">
         <nominal>1</nominal>
@@ -1372,7 +1372,7 @@
         <usage name="Military"/>
         <usage name="ContaminatedArea"/>
 		<usage name="Underground"/>
-		<value name="Tier5"/>
+		<value name="Tier4"/>
     </type>
     <type name="FOG_Vest_Thor_M81">
         <nominal>1</nominal>
@@ -2915,7 +2915,7 @@
         <usage name="Military"/>
         <usage name="ContaminatedArea"/>
 		<usage name="Underground"/>
-		<value name="Tier5"/>
+		<value name="Tier4"/>
     </type>
     <type name="FOG_Vest_Osprey_CB">
         <nominal>0</nominal>
@@ -2943,7 +2943,7 @@
         <usage name="Military"/>
         <usage name="ContaminatedArea"/>
 		<usage name="Underground"/>
-		<value name="Tier5"/>
+		<value name="Tier4"/>
     </type>
     <type name="FOG_Vest_FCPC_MC">
         <nominal>2</nominal>
@@ -3318,10 +3318,9 @@
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
-        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="1" crafted="0" deloot="0"/>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="1" crafted="0" deloot="1"/>
         <category name="weapons"/>
-		<usage name="Underground"/>
-		<value name="Tier5"/>
+        <usage name="Military"/>
     </type>
     <type name="FOG_PVS31_FDE">
         <nominal>2</nominal>
@@ -3331,10 +3330,9 @@
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
-        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="1" crafted="0" deloot="0"/>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="1" crafted="0" deloot="1"/>
         <category name="weapons"/>
-		<usage name="Underground"/>
-		<value name="Tier5"/>
+		<usage name="Military"/>
     </type>
     <type name="FOG_PVS31_FDE_Wrapped">
         <nominal>2</nominal>
@@ -3344,10 +3342,9 @@
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
-        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="1" crafted="0" deloot="0"/>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="1" crafted="0" deloot="1"/>
         <category name="weapons"/>
-		<usage name="Underground"/>
-		<value name="Tier5"/>
+		<usage name="Military"/>
     </type>
 <!-- Types 1.2.1 -->
     <type name="FOG_BDU_Pants_Black">
@@ -5611,7 +5608,7 @@
         <usage name="Military"/>
         <usage name="ContaminatedArea"/>
 		<usage name="Underground"/>
-		<value name="Tier5"/>
+		<value name="Tier4"/>
     </type>
     <type name="FOG_Bag_BlackJack_RG">
         <nominal>2</nominal>
@@ -5626,7 +5623,7 @@
         <usage name="Military"/>
         <usage name="ContaminatedArea"/>
 		<usage name="Underground"/>
-		<value name="Tier5"/>
+		<value name="Tier4"/>
     </type>
     <type name="FOG_Bag_BlackJack_CB">
         <nominal>0</nominal>
@@ -5641,7 +5638,7 @@
         <usage name="Military"/>
         <usage name="ContaminatedArea"/>
 		<usage name="Underground"/>
-		<value name="Tier5"/>
+		<value name="Tier4"/>
     </type>
     <type name="FOG_Bag_BlackJack_MCB">
         <nominal>2</nominal>
@@ -5656,7 +5653,7 @@
         <usage name="Military"/>
         <usage name="ContaminatedArea"/>
 		<usage name="Underground"/>
-		<value name="Tier5"/>
+		<value name="Tier4"/>
     </type>
     <type name="FOG_Bag_BlackJack_ERDL">
         <nominal>2</nominal>
@@ -5671,7 +5668,7 @@
         <usage name="Military"/>
         <usage name="ContaminatedArea"/>
 		<usage name="Underground"/>
-		<value name="Tier5"/>
+		<value name="Tier4"/>
     </type>
     <type name="FOG_Bag_BlackJack_Black">
         <nominal>2</nominal>
@@ -5686,7 +5683,7 @@
         <usage name="Military"/>
         <usage name="ContaminatedArea"/>
 		<usage name="Underground"/>
-		<value name="Tier5"/>
+		<value name="Tier4"/>
     </type>
     <type name="FOG_Bag_SSO_Tan">
         <nominal>0</nominal>
@@ -6167,7 +6164,6 @@
         <category name="clothes"/>
         <usage name="Military"/>
         <value name="Tier4"/>
-        <value name="Tier5"/>
     </type>
     <type name="FOG_Helmet_FASTMT_MC">
         <nominal>4</nominal>
@@ -6181,7 +6177,6 @@
         <category name="clothes"/>
         <usage name="Military"/>
         <value name="Tier4"/>
-        <value name="Tier5"/>
     </type>
     <type name="FOG_Helmet_FASTMT_Black">
         <nominal>4</nominal>
@@ -6195,7 +6190,6 @@
         <category name="clothes"/>
         <usage name="Military"/>
         <value name="Tier4"/>
-        <value name="Tier5"/>
     </type>
     <type name="FOG_Helmet_FAST_SF_Tan">
         <nominal>0</nominal>
@@ -6209,7 +6203,6 @@
         <category name="clothes"/>
         <usage name="Military"/>
         <value name="Tier4"/>
-        <value name="Tier5"/>
     </type>
     <type name="FOG_Helmet_FAST_SF_RG">
         <nominal>4</nominal>
@@ -6223,7 +6216,6 @@
         <category name="clothes"/>
         <usage name="Military"/>
         <value name="Tier4"/>
-        <value name="Tier5"/>
     </type>
     <type name="FOG_Helmet_FAST_SF_Black">
         <nominal>4</nominal>
@@ -6237,7 +6229,6 @@
         <category name="clothes"/>
         <usage name="Military"/>
         <value name="Tier4"/>
-        <value name="Tier5"/>
     </type>
     <type name="FOG_Helmet_FAST_SF_MC">
         <nominal>4</nominal>
@@ -6251,7 +6242,6 @@
         <category name="clothes"/>
         <usage name="Military"/>
         <value name="Tier4"/>
-        <value name="Tier5"/>
     </type>
     <type name="FOG_Helmet_FAST_SF_MCB">
         <nominal>4</nominal>
@@ -6265,7 +6255,6 @@
         <category name="clothes"/>
         <usage name="Military"/>
         <value name="Tier4"/>
-        <value name="Tier5"/>
     </type>
     <type name="FOG_Helmet_FAST_SF_ERDL">
         <nominal>4</nominal>
@@ -6279,7 +6268,6 @@
         <category name="clothes"/>
         <usage name="Military"/>
         <value name="Tier4"/>
-        <value name="Tier5"/>
     </type>
     <type name="FOG_Helmet_Exfil_MC">
         <nominal>0</nominal>
@@ -6399,10 +6387,9 @@
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
-        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="1" crafted="0" deloot="0"/>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="1" crafted="0" deloot="1"/>
         <category name="weapons"/>
-		<usage name="Underground"/>
-		<value name="Tier5"/>
+		<usage name="Military"/>
     </type>
     <type name="FOG_GPNVG_Tarzier_Black">
         <nominal>1</nominal>
@@ -6412,10 +6399,9 @@
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
-        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="1" crafted="0" deloot="0"/>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="1" crafted="0" deloot="1"/>
         <category name="weapons"/>
-		<usage name="Underground"/>
-		<value name="Tier5"/>
+		<usage name="Military"/>
     </type>
     <type name="FOG_GPNVG_Elite">
         <nominal>1</nominal>
@@ -6425,10 +6411,9 @@
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
-        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="1" crafted="0" deloot="0"/>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="1" crafted="0" deloot="1"/>
         <category name="weapons"/>
-		<usage name="Underground"/>
-		<value name="Tier5"/>
+		<usage name="Military"/>
     </type>
     <type name="FOG_PVS31">
         <nominal>1</nominal>
@@ -6438,10 +6423,9 @@
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
-        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="1" crafted="0" deloot="0"/>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="1" crafted="0" deloot="1"/>
         <category name="weapons"/>
-		<usage name="Underground"/>
-		<value name="Tier5"/>
+		<usage name="Military"/>
     </type>
     <type name="FOG_Combat_HikingBoots_Brown">
         <nominal>5</nominal>
@@ -6506,7 +6490,7 @@
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="clothes"/>
         <usage name="Military"/>
-		<value name="Tier5"/>
+		<value name="Tier4"/>
     </type>
     <type name="FOG_Vest_AVS_CB">
         <nominal>0</nominal>
@@ -6519,7 +6503,7 @@
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="clothes"/>
         <usage name="Military"/>
-		<value name="Tier5"/>
+		<value name="Tier4"/>
     </type>
     <type name="FOG_Vest_AVS_Black">
         <nominal>2</nominal>
@@ -6532,7 +6516,7 @@
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="clothes"/>
         <usage name="Military"/>
-		<value name="Tier5"/>
+		<value name="Tier4"/>
     </type>
     <type name="FOG_Vest_AVS_RG">
         <nominal>2</nominal>
@@ -6545,7 +6529,7 @@
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="clothes"/>
         <usage name="Military"/>
-		<value name="Tier5"/>
+		<value name="Tier4"/>
     </type>
     <type name="FOG_Vest_AVS_AOR1">
         <nominal>0</nominal>
@@ -6558,7 +6542,7 @@
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="clothes"/>
         <usage name="Military"/>
-		<value name="Tier5"/>
+		<value name="Tier4"/>
     </type>
     <type name="FOG_Vest_AVS_AOR2">
         <nominal>0</nominal>
@@ -6571,7 +6555,7 @@
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="clothes"/>
         <usage name="Military"/>
-		<value name="Tier5"/>
+		<value name="Tier4"/>
     </type>
     <type name="FOG_Vest_AVS_ALP">
         <nominal>0</nominal>
@@ -6584,7 +6568,7 @@
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="clothes"/>
         <usage name="Military"/>
-		<value name="Tier5"/>
+		<value name="Tier4"/>
     </type>
     <type name="FOG_Vest_JPC_CB">
         <nominal>0</nominal>
@@ -6597,7 +6581,7 @@
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="clothes"/>
         <usage name="Military"/>
-		<value name="Tier5"/>
+		<value name="Tier4"/>
     </type>
     <type name="FOG_Vest_JPC_MC">
         <nominal>1</nominal>
@@ -6610,7 +6594,7 @@
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="clothes"/>
         <usage name="Military"/>
-		<value name="Tier5"/>
+		<value name="Tier4"/>
     </type>
     <type name="FOG_Vest_JPC_Black">
         <nominal>1</nominal>
@@ -6623,7 +6607,7 @@
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="clothes"/>
         <usage name="Military"/>
-		<value name="Tier5"/>
+		<value name="Tier4"/>
     </type>
     <type name="FOG_Vest_JPC_RG">
         <nominal>1</nominal>
@@ -6636,7 +6620,7 @@
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="clothes"/>
         <usage name="Military"/>
-		<value name="Tier5"/>
+		<value name="Tier4"/>
     </type>
     <type name="FOG_Vest_JPC_AOR1">
         <nominal>0</nominal>
@@ -6649,7 +6633,7 @@
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="clothes"/>
         <usage name="Military"/>
-		<value name="Tier5"/>
+		<value name="Tier4"/>
     </type>
     <type name="FOG_Vest_JPC_AOR2">
         <nominal>0</nominal>
@@ -6662,7 +6646,7 @@
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="clothes"/>
         <usage name="Military"/>
-		<value name="Tier5"/>
+		<value name="Tier4"/>
     </type>
     <type name="FOG_Vest_JPC_ALP">
         <nominal>0</nominal>
@@ -6675,7 +6659,7 @@
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="clothes"/>
         <usage name="Military"/>
-		<value name="Tier5"/>
+		<value name="Tier4"/>
     </type>
     <type name="FOG_Vest_TacTec_CB">
         <nominal>0</nominal>
@@ -6688,7 +6672,7 @@
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="clothes"/>
         <usage name="Military"/>
-		<value name="Tier5"/>
+		<value name="Tier4"/>
     </type>
     <type name="FOG_Vest_TacTec_RG">
         <nominal>1</nominal>
@@ -6701,7 +6685,7 @@
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="clothes"/>
         <usage name="Military"/>
-		<value name="Tier5"/>
+		<value name="Tier4"/>
     </type>
     <type name="FOG_Vest_TacTec_Black">
         <nominal>1</nominal>
@@ -6714,7 +6698,7 @@
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="clothes"/>
         <usage name="Military"/>
-		<value name="Tier5"/>
+		<value name="Tier4"/>
     </type>
     <type name="FOG_Vest_TacTec_Grey">
         <nominal>1</nominal>
@@ -6727,7 +6711,7 @@
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="clothes"/>
         <usage name="Military"/>
-		<value name="Tier5"/>
+		<value name="Tier4"/>
     </type>
     <type name="FOG_Vest_Gen4_Black">
         <nominal>1</nominal>
@@ -6742,7 +6726,7 @@
         <usage name="Military"/>
         <usage name="ContaminatedArea"/>
 		<usage name="Underground"/>
-		<value name="Tier5"/>
+		<value name="Tier4"/>
     </type>
     <type name="FOG_Vest_Gen4_Green">
         <nominal>1</nominal>
@@ -6757,7 +6741,7 @@
         <usage name="Military"/>
         <usage name="ContaminatedArea"/>
 		<usage name="Underground"/>
-		<value name="Tier5"/>
+		<value name="Tier4"/>
     </type>
     <type name="FOG_Vest_Gen4_Tan">
         <nominal>0</nominal>
@@ -6772,7 +6756,7 @@
         <usage name="Military"/>
         <usage name="ContaminatedArea"/>
 		<usage name="Underground"/>
-		<value name="Tier5"/>
+		<value name="Tier4"/>
     </type>
     <type name="FOG_Vest_Gen4_EMR">
         <nominal>1</nominal>
@@ -6787,7 +6771,7 @@
         <usage name="Military"/>
         <usage name="ContaminatedArea"/>
 		<usage name="Underground"/>
-		<value name="Tier5"/>
+		<value name="Tier4"/>
     </type>
     <type name="FOG_Vest_Gen4_UCP">
         <nominal>0</nominal>
@@ -6802,7 +6786,7 @@
         <usage name="Military"/>
         <usage name="ContaminatedArea"/>
 		<usage name="Underground"/>
-		<value name="Tier5"/>
+		<value name="Tier4"/>
     </type>
     <type name="FOG_Vest_Gen4_NWU">
         <nominal>1</nominal>
@@ -6817,7 +6801,7 @@
         <usage name="Military"/>
         <usage name="ContaminatedArea"/>
 		<usage name="Underground"/>
-		<value name="Tier5"/>
+		<value name="Tier4"/>
     </type>
     <type name="FOG_Vest_Gen4_MARPAT">
         <nominal>1</nominal>
@@ -6832,7 +6816,7 @@
         <usage name="Military"/>
         <usage name="ContaminatedArea"/>
 		<usage name="Underground"/>
-		<value name="Tier5"/>
+		<value name="Tier4"/>
     </type>
     <type name="FOG_Vest_MMAC_MC">
         <nominal>1</nominal>
@@ -6845,7 +6829,7 @@
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="clothes"/>
         <usage name="Military"/>
-		<value name="Tier5"/>
+		<value name="Tier4"/>
     </type>
     <type name="FOG_Vest_MMAC_CB">
         <nominal>0</nominal>
@@ -6858,7 +6842,7 @@
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="clothes"/>
         <usage name="Military"/>
-		<value name="Tier5"/>
+		<value name="Tier4"/>
     </type>
     <type name="FOG_Vest_MMAC_Black">
         <nominal>1</nominal>
@@ -6871,7 +6855,7 @@
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="clothes"/>
         <usage name="Military"/>
-		<value name="Tier5"/>
+		<value name="Tier4"/>
     </type>
     <type name="FOG_Vest_MMAC_RG">
         <nominal>1</nominal>
@@ -6884,7 +6868,7 @@
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="clothes"/>
         <usage name="Military"/>
-		<value name="Tier5"/>
+		<value name="Tier4"/>
     </type>
     <type name="FOG_Vest_MMAC_AOR2">
         <nominal>0</nominal>
@@ -6897,7 +6881,7 @@
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="clothes"/>
         <usage name="Military"/>
-		<value name="Tier5"/>
+		<value name="Tier4"/>
     </type>
     <type name="FOG_Vest_TV110T_Tan">
         <nominal>0</nominal>
@@ -8021,7 +8005,6 @@
         <category name="clothes" />        
         <usage name="Military"/>
         <value name="Tier4"/>
-        <value name="Tier5"/>
     </type>
     <type name="FOG_JPC_Panel_RG_Flag_US">
         <nominal>1</nominal>
@@ -8035,7 +8018,6 @@
         <category name="clothes" />        
         <usage name="Military"/>
         <value name="Tier4"/>
-        <value name="Tier5"/>
     </type>
     <type name="FOG_JPC_Panel_Black_Flag_US">
         <nominal>1</nominal>
@@ -8049,7 +8031,6 @@
         <category name="clothes" />        
         <usage name="Military"/>
         <value name="Tier4"/>
-        <value name="Tier5"/>
     </type>
     <type name="FOG_JPC_Panel_MC_Flag_US">
         <nominal>1</nominal>
@@ -8063,7 +8044,6 @@
         <category name="clothes" />        
         <usage name="Military"/>
         <value name="Tier4"/>
-        <value name="Tier5"/>
     </type>
     <type name="FOG_JPC_Panel_AOR1_Flag_US">
         <nominal>0</nominal>
@@ -8077,7 +8057,6 @@
         <category name="clothes" />        
         <usage name="Military"/>
         <value name="Tier4"/>
-        <value name="Tier5"/>
     </type>
     <type name="FOG_JPC_Panel_AOR2_Flag_US">
         <nominal>0</nominal>
@@ -8091,7 +8070,6 @@
         <category name="clothes" />        
         <usage name="Military"/>
         <value name="Tier4"/>
-        <value name="Tier5"/>
     </type>
     <type name="FOG_Vest_PhoneCase1_Tan">
         <nominal>0</nominal>
