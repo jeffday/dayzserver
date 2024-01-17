@@ -57,4 +57,9 @@ Do not forget to add attribute act="car", if root class represents moveable vehi
 		<file name="MMGCC_types.xml" type="types" />
 		<file name="MMGCC_spawnabletypes.xml" type="spawnabletypes" />
 	</ce>
+	<!-- Quadlock's Pack -->
+	<ce folder="qp">
+		<file name="types.xml" type="types" />
+		<file name="quad_spawnabletypes.xml" type="spawnabletypes" />
+	</ce>
 </economycore>
