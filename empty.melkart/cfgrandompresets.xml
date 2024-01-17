@@ -1,5 +1,54 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
 <randompresets>
+		<attachments chance="0.60" name="close_range_optics">
+				<item name="BO_Holosun_HS510C_Optic" chance="0.125" />
+				<item name="BO_Holosun_HS507C" chance="0.125"/>
+				<item name="BO_VortexAMG_UH1_Optic" chance="0.125" />
+				<item name="BO_RMR_Black" chance="0.125" />
+				<item name="BO_RMR_FDE" chance="0.125" />
+				<item name="BO_DeltaPoint" chance="0.125" />
+				<item name="BO_Eotech552" chance="0.125" />
+				<item name="BO_LeupoldCarbineOptics" chance="0.125" />
+		</attachments>
+		<attachments chance="0.60" name="ar_optics">
+				<item name="BO_ACOGOptic_Crosshair_Red" chance="0.125" />
+				<item name="BO_ACOGOptic_Chevron_Green" chance="0.125" />
+				<item name="BO_ACOGOptic_ACSS_Red" chance="0.125" />
+				<item name="BO_HAMROptic" chance="0.125" />
+				<item name="BO_SpecterDROptic" chance="0.125" />
+				<item name="BO_LeupoldHoloDEVO" chance="0.125" />
+				<item name="BO_Bravo4" chance="0.125" />
+				<item name="BO_Spitfire" chance="0.125" />
+		</attachments>
+		<attachments chance="0.60" name="ar_300optics">
+				<item name="BO_ACOGOptic_300blk_Blue" chance="0.5" />
+				<item name="BO_ACOGOptic_300blk_Red" chance="0.5" />
+		</attachments>
+		<attachments chance="0.60" name="dmr_optics">
+				<item name="BO_SpecterDROptic" chance="0.125" />
+				<item name="BO_Sight_4_6" chance="0.125" />
+				<item name="BO_Tango6" chance="0.25" />
+				<item name="BO_NFATACR_1_8" chance="0.25" />
+				<item name="BO_Vudu" chance="0.25" />
+		</attachments>
+		<attachments chance="0.60" name="long_range_scopes">
+				<item name="HuntingOptic" chance="0.50" />
+				<item name="BO_HMOptic" chance="0.125" />
+				<item name="BO_LeupoldMk4" chance="0.125" />
+				<item name="BO_ShmidtBender25" chance="0.125" />
+				<item name="BO_Sight_4_6" chance="0.125" />
+		</attachments>
+		<attachments chance="0.60" name="hunting_scopes">
+				<item name="HuntingOptic" chance="0.75" />
+				<item name="BO_HMOptic" chance="0.25" />
+		</attachments>
+		<attachments chance="0.15" name="pistol_optics">
+				<item name="FNP45_MRDSOptic" chance="1.00" />
+		</attachments>
+		<attachments chance="0.05" name="pistol_suppressors">
+				<item name="BO_OspreySuppressor" chance="0.125" />
+				<item name="BO_MK23_Suppressor" chance="0.875" />
+		</attachments>
 		<cargo chance="0.15" name="foodHermit">
 				<item name="TunaCan" chance="0.11" />
 				<item name="SardinesCan" chance="0.11" />
