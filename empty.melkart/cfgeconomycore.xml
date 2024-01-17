@@ -81,4 +81,9 @@ Do not forget to add attribute act="car", if root class represents moveable vehi
 		<file name="bo_types.xml" type="types" />
 		<file name="bo_cfgspawnabletypes.xml" type="spawnabletypes" />
 	</ce>
+	<!-- Tech's Weapon Mod -->
+	<ce folder="twm">
+		<file name="twm_types.xml" type="types" />
+		<file name="twm_spawnabletypes.xml" type="spawnabletypes" />
+	</ce>
 </economycore>
