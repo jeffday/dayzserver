@@ -616,10 +616,10 @@
         <usage name="Village"/>
     </type>
     <type name="AmmoBox_380_35rnd">
-        <nominal>4</nominal>
+        <nominal>0</nominal>
         <lifetime>7200</lifetime>
         <restock>0</restock>
-        <min>2</min>
+        <min>0</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -882,10 +882,10 @@
         <usage name="Town"/>
     </type>
     <type name="Ammo_380">
-        <nominal>15</nominal>
+        <nominal>0</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
-        <min>10</min>
+        <min>0</min>
         <quantmin>10</quantmin>
         <quantmax>20</quantmax>
         <cost>100</cost>
