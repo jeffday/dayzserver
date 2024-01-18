@@ -2777,10 +2777,10 @@
 		<usage name="Military"/>
 	</type>
 	<type name="TWM_Mag_HK417_10Rnd">
-        <nominal>10</nominal>
+        <nominal>5</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
-        <min>7</min>
+        <min>3</min>
         <quantmin>30</quantmin>
         <quantmax>90</quantmax>
         <cost>100</cost>
@@ -2791,10 +2791,10 @@
         <value name="Tier4"/>
 	</type>
 	<type name="TWM_Mag_HK417_20Rnd">
-        <nominal>6</nominal>
+        <nominal>3</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
-        <min>4</min>
+        <min>2</min>
         <quantmin>30</quantmin>
         <quantmax>90</quantmax>
         <cost>100</cost>
