@@ -651,7 +651,6 @@
         <category name="weapons"/>
         <tag name="shelves"/>
         <usage name="Military"/>
-        <value name="Tier3"/>
     </type>
     <type name="AmmoBox_545x39_20Rnd">
         <nominal>4</nominal>
@@ -665,7 +664,6 @@
         <category name="weapons"/>
         <tag name="shelves"/>
         <usage name="Military"/>
-        <value name="Tier3"/>
     </type>
     <type name="AmmoBox_556x45Tracer_20Rnd">
         <nominal>4</nominal>
@@ -677,7 +675,7 @@
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="weapons"/>
-        <usage name="Underground"/>
+        <usage name="Military"/>
     </type>
     <type name="AmmoBox_556x45_20Rnd">
         <nominal>4</nominal>
@@ -690,8 +688,6 @@
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="weapons"/>
         <usage name="Military"/>
-        <value name="Tier2"/>
-        <value name="Tier3"/>
     </type>
     <type name="AmmoBox_762x39Tracer_20Rnd">
         <nominal>4</nominal>
@@ -704,7 +700,6 @@
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="weapons"/>
         <usage name="Military"/>
-        <value name="Tier3"/>
     </type>
     <type name="AmmoBox_762x39_20Rnd">
         <nominal>6</nominal>
@@ -717,7 +712,6 @@
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="weapons"/>
         <usage name="Military"/>
-        <value name="Tier3"/>
     </type>
     <type name="AmmoBox_762x54Tracer_20Rnd">
         <nominal>4</nominal>
@@ -730,7 +724,6 @@
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="weapons"/>
         <usage name="Military"/>
-        <value name="Tier3"/>
     </type>
     <type name="AmmoBox_762x54_20Rnd">
         <nominal>5</nominal>
@@ -865,7 +858,6 @@
         <category name="weapons"/>
         <tag name="shelves"/>
         <usage name="Military"/>
-        <value name="Tier3"/>
     </type>
     <type name="Ammo_357">
         <nominal>10</nominal>
@@ -1020,8 +1012,6 @@
         <category name="weapons"/>
         <tag name="shelves"/>
         <usage name="Military"/>
-        <value name="Tier2"/>
-        <value name="Tier3"/>
     </type>
     <type name="Ammo_556x45Tracer">
         <nominal>4</nominal>
@@ -1035,8 +1025,6 @@
         <category name="weapons"/>
         <tag name="shelves"/>
         <usage name="Military"/>
-        <value name="Tier2"/>
-        <value name="Tier3"/>
     </type>
     <type name="Ammo_762x39">
         <nominal>35</nominal>
@@ -1065,8 +1053,6 @@
         <category name="weapons"/>
         <tag name="shelves"/>
         <usage name="Military"/>
-        <value name="Tier2"/>
-        <value name="Tier3"/>
     </type>
     <type name="Ammo_762x54">
         <nominal>10</nominal>
@@ -1098,7 +1084,6 @@
         <category name="weapons"/>
         <tag name="shelves"/>
         <usage name="Military"/>
-        <value name="Tier3"/>
     </type>
     <type name="Ammo_9x19">
         <nominal>35</nominal>
@@ -12645,10 +12630,10 @@
         <value name="Tier3"/>
     </type>
     <type name="OrientalMachete">
-        <nominal>2</nominal>
+        <nominal>0</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
-        <min>1</min>
+        <min>0</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -17613,10 +17598,10 @@
         <usage name="Coast"/>
     </type>
     <type name="WeaponCleaningKit">
-        <nominal>10</nominal>
+        <nominal>20</nominal>
         <lifetime>28800</lifetime>
         <restock>0</restock>
-        <min>7</min>
+        <min>14</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
