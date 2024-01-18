@@ -538,10 +538,10 @@
 </type>
 <!-- Types 1.5.0 -->
     <type name="FOG_G99_Pants_Black">
-        <nominal>0</nominal>
+        <nominal>3</nominal>
         <lifetime>14400</lifetime>
         <restock>600</restock>
-        <min>0</min>
+        <min>1</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -550,30 +550,6 @@
         <usage name="Military"/>
     </type>
     <type name="FOG_G99_Pants_CB">
-        <nominal>4</nominal>
-        <lifetime>14400</lifetime>
-        <restock>600</restock>
-        <min>2</min>
-        <quantmin>-1</quantmin>
-        <quantmax>-1</quantmax>
-        <cost>100</cost>
-        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-        <category name="clothes"/>
-        <usage name="Military"/>
-    </type>
-    <type name="FOG_G99_Pants_RG">
-        <nominal>4</nominal>
-        <lifetime>14400</lifetime>
-        <restock>600</restock>
-        <min>2</min>
-        <quantmin>-1</quantmin>
-        <quantmax>-1</quantmax>
-        <cost>100</cost>
-        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-        <category name="clothes"/>
-        <usage name="Military"/>
-    </type>
-    <type name="FOG_G99_Pants_M81">
         <nominal>0</nominal>
         <lifetime>14400</lifetime>
         <restock>600</restock>
@@ -585,11 +561,35 @@
         <category name="clothes"/>
         <usage name="Military"/>
     </type>
+    <type name="FOG_G99_Pants_RG">
+        <nominal>3</nominal>
+        <lifetime>14400</lifetime>
+        <restock>600</restock>
+        <min>1</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="clothes"/>
+        <usage name="Military"/>
+    </type>
+    <type name="FOG_G99_Pants_M81">
+        <nominal>3</nominal>
+        <lifetime>14400</lifetime>
+        <restock>600</restock>
+        <min>1</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="clothes"/>
+        <usage name="Military"/>
+    </type>
     <type name="FOG_G2_Hoodie_MC">
-		<nominal>0</nominal>
+		<nominal>2</nominal>
+        <lifetime>28800</lifetime>
 		<restock>600</restock>
-		<lifetime>28800</lifetime>
-		<min>0</min>
+		<min>1</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
@@ -598,10 +598,10 @@
 		<usage name="Military"/>
     </type>
     <type name="FOG_G3_Hoodie_MC">
-		<nominal>0</nominal>
+		<nominal>2</nominal>
+        <lifetime>28800</lifetime>
 		<restock>600</restock>
-		<lifetime>28800</lifetime>
-		<min>0</min>
+		<min>1</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
@@ -610,10 +610,10 @@
 		<usage name="Military"/>
     </type>
     <type name="FOG_G3_Hoodie_MC_Pata">
-		<nominal>0</nominal>
+		<nominal>2</nominal>
+        <lifetime>28800</lifetime>
 		<restock>600</restock>
-		<lifetime>28800</lifetime>
-		<min>0</min>
+		<min>1</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
@@ -622,10 +622,10 @@
 		<usage name="Military"/>
     </type>
     <type name="FOG_G3_Hoodie_Black">
-		<nominal>0</nominal>
+		<nominal>2</nominal>
+        <lifetime>28800</lifetime>
 		<restock>600</restock>
-		<lifetime>28800</lifetime>
-		<min>0</min>
+		<min>1</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
@@ -634,10 +634,10 @@
 		<usage name="Military"/>
     </type>
     <type name="FOG_G3_Hoodie_Blue">
-		<nominal>0</nominal>
+		<nominal>2</nominal>
+        <lifetime>28800</lifetime>
 		<restock>600</restock>
-		<lifetime>28800</lifetime>
-		<min>0</min>
+		<min>1</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
@@ -646,10 +646,10 @@
 		<usage name="Military"/>
     </type>
     <type name="FOG_G3_Hoodie_DPM">
-		<nominal>0</nominal>
+		<nominal>2</nominal>
+        <lifetime>28800</lifetime>
 		<restock>600</restock>
-		<lifetime>28800</lifetime>
-		<min>0</min>
+		<min>1</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
@@ -659,8 +659,8 @@
     </type>
     <type name="FOG_G3_Hoodie_AOR1">
 		<nominal>0</nominal>
+        <lifetime>28800</lifetime>
 		<restock>600</restock>
-		<lifetime>28800</lifetime>
 		<min>0</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
@@ -671,8 +671,8 @@
     </type>
     <type name="FOG_G3_Hoodie_AOR2">
 		<nominal>0</nominal>
+        <lifetime>28800</lifetime>
 		<restock>600</restock>
-		<lifetime>28800</lifetime>
 		<min>0</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
@@ -682,10 +682,10 @@
 		<usage name="Military"/>
     </type>
     <type name="FOG_G3_Hoodie_M81">
-		<nominal>0</nominal>
+		<nominal>2</nominal>
+        <lifetime>28800</lifetime>
 		<restock>600</restock>
-		<lifetime>28800</lifetime>
-		<min>0</min>
+		<min>1</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
@@ -694,10 +694,10 @@
 		<usage name="Military"/>
     </type>
     <type name="FOG_GunGloves_Tan">
-		<nominal>3</nominal>
+		<nominal>0</nominal>
+        <lifetime>14400</lifetime>
 		<restock>0</restock>
-		<lifetime>14400</lifetime>
-		<min>1</min>
+		<min>0</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
@@ -708,8 +708,8 @@
     </type>
     <type name="FOG_GunGloves_Grey">
 		<nominal>3</nominal>
+        <lifetime>14400</lifetime>
 		<restock>0</restock>
-		<lifetime>14400</lifetime>
 		<min>1</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
@@ -721,8 +721,8 @@
     </type>
     <type name="FOG_GunGloves_Black">
 		<nominal>3</nominal>
+        <lifetime>14400</lifetime>
 		<restock>0</restock>
-		<lifetime>14400</lifetime>
 		<min>1</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
@@ -733,10 +733,10 @@
 		<usage name="Police"/>
     </type>
     <type name="FOG_GunGloves_CB">
-		<nominal>3</nominal>
+		<nominal>0</nominal>
+        <lifetime>14400</lifetime>
 		<restock>0</restock>
-		<lifetime>14400</lifetime>
-		<min>1</min>
+		<min>0</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
@@ -747,8 +747,8 @@
     </type>
     <type name="FOG_GunGloves_RG">
 		<nominal>3</nominal>
+        <lifetime>14400</lifetime>
 		<restock>0</restock>
-		<lifetime>14400</lifetime>
 		<min>1</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
@@ -760,8 +760,8 @@
     </type>
     <type name="FOG_GunGloves_MC">
 		<nominal>3</nominal>
+        <lifetime>14400</lifetime>
 		<restock>0</restock>
-		<lifetime>14400</lifetime>
 		<min>1</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
@@ -772,10 +772,10 @@
 		<usage name="Police"/>
     </type>
     <type name="FOG_GunGloves_MCB">
-		<nominal>0</nominal>
+		<nominal>3</nominal>
+        <lifetime>14400</lifetime>
 		<restock>0</restock>
-		<lifetime>14400</lifetime>
-		<min>0</min>
+		<min>1</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
@@ -785,10 +785,10 @@
 		<usage name="Police"/>
     </type>
     <type name="FOG_GunGloves_M81">
-		<nominal>0</nominal>
+		<nominal>3</nominal>
+        <lifetime>14400</lifetime>
 		<restock>0</restock>
-		<lifetime>14400</lifetime>
-		<min>0</min>
+		<min>1</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
@@ -799,8 +799,8 @@
     </type>
     <type name="FOG_GunGloves_AOR2">
 		<nominal>0</nominal>
+        <lifetime>14400</lifetime>
 		<restock>0</restock>
-		<lifetime>14400</lifetime>
 		<min>0</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
@@ -811,9 +811,9 @@
 		<usage name="Police"/>
     </type>
     <type name="FOG_Helmet_FASTMT_RG">
-        <nominal>2</nominal>
-        <lifetime>14400</lifetime>
-        <restock>1800</restock>
+        <nominal>3</nominal>
+        <lifetime>28800</lifetime>
+        <restock>0</restock>
         <min>1</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
@@ -821,11 +821,12 @@
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="clothes"/>
         <usage name="Military"/>
+        <value name="Tier4"/>
     </type>
     <type name="FOG_Helmet_FASTMT_AOR1">
         <nominal>0</nominal>
-        <lifetime>14400</lifetime>
-        <restock>1800</restock>
+        <lifetime>28800</lifetime>
+        <restock>0</restock>
         <min>0</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
@@ -833,11 +834,12 @@
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="clothes"/>
         <usage name="Military"/>
+        <value name="Tier4"/>
     </type>
     <type name="FOG_Helmet_FASTMT_AOR2">
         <nominal>0</nominal>
-        <lifetime>14400</lifetime>
-        <restock>1800</restock>
+        <lifetime>28800</lifetime>
+        <restock>0</restock>
         <min>0</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
@@ -845,6 +847,7 @@
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="clothes"/>
         <usage name="Military"/>
+        <value name="Tier4"/>
     </type>
     <type name="FOG_Boonie_MC">
         <nominal>3</nominal>
@@ -1006,10 +1009,10 @@
         <usage name="Military"/>
     </type>
     <type name="FOG_Zypher_Boots_Tan_Socks">
-        <nominal>5</nominal>
+        <nominal>0</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
-        <min>2</min>
+        <min>0</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -1019,10 +1022,10 @@
         <usage name="Military"/>
     </type>
     <type name="FOG_Zypher_Boots_Black_Socks">
-        <nominal>5</nominal>
+        <nominal>0</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
-        <min>2</min>
+        <min>0</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -1032,10 +1035,10 @@
         <usage name="Military"/>
     </type>
     <type name="FOG_Zypher_Boots_RG_Socks">
-        <nominal>5</nominal>
+        <nominal>0</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
-        <min>2</min>
+        <min>0</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -1123,10 +1126,10 @@
         <usage name="Military"/>
     </type>
     <type name="FOG_Lerch_Boots_MCB">
-        <nominal>0</nominal>
+        <nominal>5</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
-        <min>0</min>
+        <min>2</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -1149,10 +1152,10 @@
         <usage name="Military"/>
     </type>
     <type name="FOG_Lerch_Boots_RG">
-        <nominal>0</nominal>
+        <nominal>5</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
-        <min>0</min>
+        <min>2</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -1185,45 +1188,49 @@
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="clothes"/>
         <usage name="Military"/>
+        <value name="Tier3"/>
 		<value name="Tier4"/>
     </type>
     <type name="FOG_Vest_LV119_RG">
-        <nominal>5</nominal>
+        <nominal>3</nominal>
         <lifetime>14400</lifetime>
         <restock>1800</restock>
-        <min>2</min>
+        <min>1</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="clothes"/>
         <usage name="Military"/>
+        <value name="Tier3"/>
 		<value name="Tier4"/>
     </type>
     <type name="FOG_Vest_LV119_Black">
-        <nominal>5</nominal>
+        <nominal>3</nominal>
         <lifetime>14400</lifetime>
         <restock>1800</restock>
-        <min>2</min>
+        <min>1</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="clothes"/>
         <usage name="Military"/>
+		<value name="Tier3"/>
 		<value name="Tier4"/>
     </type>
     <type name="FOG_Vest_LV119_MC">
-        <nominal>5</nominal>
+        <nominal>3</nominal>
         <lifetime>14400</lifetime>
         <restock>1800</restock>
-        <min>2</min>
+        <min>1</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="clothes"/>
         <usage name="Military"/>
+		<value name="Tier3"/>
 		<value name="Tier4"/>
     </type>
     <type name="FOG_Vest_LVMBAV_CB">
@@ -1249,8 +1256,6 @@
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="clothes"/>
         <usage name="Military"/>
-        <value name="Tier3"/>
-        <value name="Tier4"/>
     </type>
     <type name="FOG_Vest_LVMBAV_Black">
         <nominal>3</nominal>
@@ -1263,8 +1268,6 @@
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="clothes"/>
         <usage name="Military"/>
-        <value name="Tier3"/>
-        <value name="Tier4"/>
     </type>
     <type name="FOG_Vest_LVMBAV_Tan">
         <nominal>0</nominal>
@@ -1289,8 +1292,6 @@
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="clothes"/>
         <usage name="Military"/>
-        <value name="Tier3"/>
-        <value name="Tier4"/>
     </type>
     <type name="FOG_Vest_Thor_Tan">
         <nominal>0</nominal>
@@ -1303,6 +1304,8 @@
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
         <category name="clothes" />
         <usage name="Military"/>
+        <usage name="ContaminatedArea"/>
+		<usage name="Underground"/>
 		<value name="Tier4"/>
     </type>
     <type name="FOG_Vest_Thor_Black">
@@ -1331,6 +1334,8 @@
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
         <category name="clothes" />
         <usage name="Military"/>
+        <usage name="ContaminatedArea"/>
+		<usage name="Underground"/>
 		<value name="Tier4"/>
     </type>
     <type name="FOG_Vest_Thor_EMR">
@@ -1344,6 +1349,8 @@
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
         <category name="clothes" />
         <usage name="Military"/>
+        <usage name="ContaminatedArea"/>
+		<usage name="Underground"/>
 		<value name="Tier4"/>
     </type>
     <type name="FOG_Vest_Thor_MC">
@@ -1357,6 +1364,8 @@
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
         <category name="clothes" />
         <usage name="Military"/>
+        <usage name="ContaminatedArea"/>
+		<usage name="Underground"/>
 		<value name="Tier4"/>
     </type>
     <type name="FOG_Vest_Thor_MCB">
@@ -1385,6 +1394,8 @@
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
         <category name="clothes" />
         <usage name="Military"/>
+        <usage name="ContaminatedArea"/>
+		<usage name="Underground"/>
 		<value name="Tier4"/>
     </type>
     <type name="FOG_Vest_SSMK4_CB">
@@ -1682,6 +1693,7 @@
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="clothes"/>
         <usage name="Military"/>
+        <value name="Tier3"/>
         <value name="Tier4"/>
     </type>
     <type name="FOG_M32_Helmet_Black">
@@ -1695,6 +1707,7 @@
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="clothes"/>
         <usage name="Military"/>
+        <value name="Tier3"/>
         <value name="Tier4"/>
     </type>
     <type name="FOG_AMP_Tan">
@@ -2051,10 +2064,10 @@
         <usage name="Military"/>
     </type>
     <type name="FOG_UFP_Pants_Black">
-        <nominal>5</nominal>
+        <nominal>3</nominal>
         <lifetime>28800</lifetime>
         <restock>600</restock>
-        <min>2</min>
+        <min>1</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -2075,10 +2088,10 @@
         <usage name="Military"/>
     </type>
     <type name="FOG_UFP_Pants_Grey">
-        <nominal>5</nominal>
+        <nominal>3</nominal>
         <lifetime>28800</lifetime>
         <restock>600</restock>
-        <min>2</min>
+        <min>1</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -2087,10 +2100,10 @@
         <usage name="Military"/>
     </type>
     <type name="FOG_UFP_Pants_M81">
-        <nominal>5</nominal>
+        <nominal>3</nominal>
         <lifetime>28800</lifetime>
         <restock>600</restock>
-        <min>2</min>
+        <min>1</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -2099,10 +2112,10 @@
         <usage name="Military"/>
     </type>
     <type name="FOG_UFP_Pants_MC">
-        <nominal>5</nominal>
+        <nominal>3</nominal>
         <lifetime>28800</lifetime>
         <restock>600</restock>
-        <min>2</min>
+        <min>1</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -2111,10 +2124,10 @@
         <usage name="Military"/>
     </type>
     <type name="FOG_UFP_Pants_RG">
-        <nominal>5</nominal>
+        <nominal>3</nominal>
         <lifetime>28800</lifetime>
         <restock>600</restock>
-        <min>2</min>
+        <min>1</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -2135,10 +2148,10 @@
         <usage name="Military"/>
     </type>
     <type name="FOG_UFP_Pants_Urban">
-        <nominal>5</nominal>
+        <nominal>3</nominal>
         <lifetime>28800</lifetime>
         <restock>600</restock>
-        <min>2</min>
+        <min>1</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -3651,10 +3664,10 @@
         <usage name="Military"/>
     </type>
     <type name="FOG_Gorka_Pants_Khaki">
-        <nominal>10</nominal>
+        <nominal>3</nominal>
         <lifetime>14400</lifetime>
         <restock>600</restock>
-        <min>2</min>
+        <min>1</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -3663,10 +3676,10 @@
         <usage name="Military"/>
     </type>
     <type name="FOG_Gorka_Pants_Black">
-        <nominal>10</nominal>
+        <nominal>3</nominal>
         <lifetime>14400</lifetime>
         <restock>600</restock>
-        <min>2</min>
+        <min>1</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -3675,10 +3688,10 @@
         <usage name="Military"/>
     </type>
     <type name="FOG_MTF_Pants_Grey">
-        <nominal>10</nominal>
+        <nominal>3</nominal>
         <lifetime>14400</lifetime>
         <restock>600</restock>
-        <min>2</min>
+        <min>1</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -3687,10 +3700,10 @@
         <usage name="Military"/>
     </type>
     <type name="FOG_MTF_Pants_RG">
-        <nominal>10</nominal>
+        <nominal>3</nominal>
         <lifetime>14400</lifetime>
         <restock>600</restock>
-        <min>2</min>
+        <min>1</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -3711,10 +3724,10 @@
         <usage name="Military"/>
     </type>
     <type name="FOG_MTF_Pants_ERDL">
-        <nominal>10</nominal>
+        <nominal>3</nominal>
         <lifetime>14400</lifetime>
         <restock>600</restock>
-        <min>2</min>
+        <min>1</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -3723,10 +3736,10 @@
         <usage name="Military"/>
     </type>
     <type name="FOG_MTF_Pants_MC">
-        <nominal>10</nominal>
+        <nominal>3</nominal>
         <lifetime>14400</lifetime>
         <restock>600</restock>
-        <min>2</min>
+        <min>1</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -3735,10 +3748,10 @@
         <usage name="Military"/>
     </type>
     <type name="FOG_MTF_Pants_MCB">
-        <nominal>10</nominal>
+        <nominal>3</nominal>
         <lifetime>14400</lifetime>
         <restock>600</restock>
-        <min>2</min>
+        <min>1</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -5002,10 +5015,10 @@
         <usage name="Village"/>
     </type>
     <type name="FOG_UFJ_Shirt_RG">
-        <nominal>10</nominal>
+        <nominal>3</nominal>
         <lifetime>14400</lifetime>
         <restock>600</restock>
-        <min>2</min>
+        <min>1</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -5026,10 +5039,10 @@
         <usage name="Military"/>
     </type>
     <type name="FOG_UFJ_Shirt_Black">
-        <nominal>10</nominal>
+        <nominal>3</nominal>
         <lifetime>14400</lifetime>
         <restock>600</restock>
-        <min>2</min>
+        <min>1</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -5038,10 +5051,10 @@
         <usage name="Military"/>
     </type>
     <type name="FOG_UFJ_Shirt_Grey">
-        <nominal>10</nominal>
+        <nominal>3</nominal>
         <lifetime>14400</lifetime>
         <restock>600</restock>
-        <min>2</min>
+        <min>1</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -5050,10 +5063,10 @@
         <usage name="Military"/>
     </type>
     <type name="FOG_UFJ_Shirt_ERDL">
-        <nominal>10</nominal>
+        <nominal>3</nominal>
         <lifetime>14400</lifetime>
         <restock>600</restock>
-        <min>2</min>
+        <min>1</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -5062,10 +5075,10 @@
         <usage name="Military"/>
     </type>
     <type name="FOG_UFJ_Shirt_ERDL_RG">
-        <nominal>10</nominal>
+        <nominal>3</nominal>
         <lifetime>14400</lifetime>
         <restock>600</restock>
-        <min>2</min>
+        <min>1</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -5074,10 +5087,10 @@
         <usage name="Military"/>
     </type>
     <type name="FOG_Gorka_Jacket_Khaki">
-        <nominal>10</nominal>
+        <nominal>3</nominal>
         <lifetime>14400</lifetime>
         <restock>600</restock>
-        <min>2</min>
+        <min>1</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -5086,10 +5099,10 @@
         <usage name="Military"/>
     </type>
     <type name="FOG_Gorka_Jacket_Black">
-        <nominal>10</nominal>
+        <nominal>3</nominal>
         <lifetime>14400</lifetime>
         <restock>600</restock>
-        <min>2</min>
+        <min>1</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -5098,10 +5111,10 @@
         <usage name="Military"/>
     </type>
     <type name="FOG_Gorka_Jacket_Green">
-        <nominal>10</nominal>
+        <nominal>3</nominal>
         <lifetime>14400</lifetime>
         <restock>600</restock>
-        <min>2</min>
+        <min>1</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -5110,10 +5123,10 @@
         <usage name="Military"/>
     </type>
     <type name="FOG_Gorka_Jacket_Partizan">
-        <nominal>10</nominal>
+        <nominal>3</nominal>
         <lifetime>14400</lifetime>
         <restock>600</restock>
-        <min>2</min>
+        <min>1</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -5122,10 +5135,10 @@
         <usage name="Military"/>
     </type>
     <type name="FOG_Gorka_Jacket_Autumn">
-        <nominal>10</nominal>
+        <nominal>3</nominal>
         <lifetime>14400</lifetime>
         <restock>600</restock>
-        <min>2</min>
+        <min>1</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -5134,10 +5147,10 @@
         <usage name="Military"/>
     </type>
     <type name="FOG_Gorka_Jacket_Summer">
-        <nominal>10</nominal>
+        <nominal>3</nominal>
         <lifetime>14400</lifetime>
         <restock>600</restock>
-        <min>2</min>
+        <min>1</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -5146,10 +5159,10 @@
         <usage name="Military"/>
     </type>
     <type name="FOG_MTF_Shirt_Grey">
-        <nominal>10</nominal>
+        <nominal>3</nominal>
         <lifetime>14400</lifetime>
         <restock>600</restock>
-        <min>2</min>
+        <min>1</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -5158,10 +5171,10 @@
         <usage name="Military"/>
     </type>
     <type name="FOG_MTF_Shirt_RG">
-        <nominal>10</nominal>
+        <nominal>3</nominal>
         <lifetime>14400</lifetime>
         <restock>600</restock>
-        <min>2</min>
+        <min>1</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -5182,10 +5195,10 @@
         <usage name="Military"/>
     </type>
     <type name="FOG_MTF_Shirt_ERDL">
-        <nominal>10</nominal>
+        <nominal>3</nominal>
         <lifetime>14400</lifetime>
         <restock>600</restock>
-        <min>2</min>
+        <min>1</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -5194,10 +5207,10 @@
         <usage name="Military"/>
     </type>
     <type name="FOG_MTF_Shirt_MC">
-        <nominal>10</nominal>
+        <nominal>3</nominal>
         <lifetime>14400</lifetime>
         <restock>600</restock>
-        <min>2</min>
+        <min>1</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -5206,10 +5219,10 @@
         <usage name="Military"/>
     </type>
     <type name="FOG_MTF_Shirt_MCB">
-        <nominal>10</nominal>
+        <nominal>3</nominal>
         <lifetime>14400</lifetime>
         <restock>600</restock>
-        <min>2</min>
+        <min>1</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -6166,10 +6179,10 @@
         <value name="Tier4"/>
     </type>
     <type name="FOG_Helmet_FASTMT_MC">
-        <nominal>4</nominal>
+        <nominal>3</nominal>
         <lifetime>28800</lifetime>
         <restock>0</restock>
-        <min>2</min>
+        <min>1</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -6179,10 +6192,10 @@
         <value name="Tier4"/>
     </type>
     <type name="FOG_Helmet_FASTMT_Black">
-        <nominal>4</nominal>
+        <nominal>3</nominal>
         <lifetime>28800</lifetime>
         <restock>0</restock>
-        <min>2</min>
+        <min>1</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
