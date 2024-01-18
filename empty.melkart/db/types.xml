@@ -6972,7 +6972,6 @@
         <category name="clothes"/>
         <tag name="shelves"/>
         <usage name="Medic"/>
-        <usage name="Village"/>
         <usage name="Military"/>
     </type>
     <type name="GasMask_Filter_Improvised">
@@ -12822,7 +12821,6 @@
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="clothes"/>
         <usage name="Medic"/>
-        <usage name="Town"/>
     </type>
     <type name="ParamedicJacket_Crimson">
         <nominal>2</nominal>
@@ -12835,7 +12833,6 @@
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="clothes"/>
         <usage name="Medic"/>
-        <usage name="Town"/>
     </type>
     <type name="ParamedicJacket_Green">
         <nominal>2</nominal>
@@ -12848,7 +12845,6 @@
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="clothes"/>
         <usage name="Medic"/>
-        <usage name="Town"/>
     </type>
     <type name="ParamedicPants_Blue">
         <nominal>2</nominal>
@@ -12861,7 +12857,6 @@
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="clothes"/>
         <usage name="Medic"/>
-        <usage name="Town"/>
     </type>
     <type name="ParamedicPants_Crimson">
         <nominal>2</nominal>
@@ -12874,7 +12869,6 @@
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="clothes"/>
         <usage name="Medic"/>
-        <usage name="Town"/>
     </type>
     <type name="ParamedicPants_Green">
         <nominal>2</nominal>
@@ -12887,7 +12881,6 @@
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="clothes"/>
         <usage name="Medic"/>
-        <usage name="Town"/>
     </type>
     <type name="PartyTent">
         <nominal>0</nominal>
@@ -16236,7 +16229,6 @@
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="clothes"/>
         <usage name="Medic"/>
-        <usage name="Town"/>
     </type>
     <type name="Sweater_Blue">
         <nominal>5</nominal>
@@ -16276,8 +16268,7 @@
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="clothes"/>
-        <usage name="Military"/>
-        <usage name="Hunting"/>
+        <usage name="Village"/>
         <value name="Tier2"/>
         <value name="Tier3"/>
     </type>
