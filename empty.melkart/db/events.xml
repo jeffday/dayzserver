@@ -1100,9 +1100,9 @@
         <limit>child</limit>
         <active>1</active>
         <children>
-            <child lootmax="4" lootmin="2" max="4" min="2" type="StaticObj_Misc_SupplyBox1_DE"/>
-            <child lootmax="4" lootmin="2" max="4" min="2" type="StaticObj_Misc_SupplyBox2_DE"/>
-            <child lootmax="4" lootmin="2" max="4" min="2" type="StaticObj_Misc_SupplyBox3_DE"/>
+            <child lootmax="8" lootmin="4" max="4" min="2" type="StaticObj_Misc_SupplyBox1_DE"/>
+            <child lootmax="8" lootmin="4" max="4" min="2" type="StaticObj_Misc_SupplyBox2_DE"/>
+            <child lootmax="8" lootmin="4" max="4" min="2" type="StaticObj_Misc_SupplyBox3_DE"/>
         </children>
     </event>
 </events>
