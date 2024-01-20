@@ -5216,6 +5216,7 @@
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="weapons"/>
+        <usage name="Farm"/>
         <usage name="Hunting"/>
     </type>
     <type name="Crossbow_Black">
@@ -5228,7 +5229,8 @@
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="weapons"/>
-        <usage name="Town"/>
+                <usage name="Farm"/>
+        <usage name="Hunting"/>
     </type>
     <type name="Crossbow_Summer">
         <nominal>5</nominal>
@@ -5240,7 +5242,8 @@
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="weapons"/>
-        <usage name="Farm"/>
+                <usage name="Farm"/>
+        <usage name="Hunting"/>
     </type>
     <type name="Crossbow_Wood">
         <nominal>3</nominal>
