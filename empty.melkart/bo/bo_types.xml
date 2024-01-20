@@ -497,7 +497,7 @@
 		<usage name="Military" />
     </type>
     <type name="BO_Mag_PMAG_30rnd">
-        <nominal>4</nominal>
+        <nominal>5</nominal>
         <lifetime>28800</lifetime>
         <restock>0</restock>
         <min>2</min>
@@ -636,10 +636,10 @@
         <usage name="Military"/>
     </type>
     <type name="BO_Mag_M14_10rnd">
-        <nominal>10</nominal>
+        <nominal>8</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
-        <min>7</min>
+        <min>5</min>
         <quantmin>30</quantmin>
         <quantmax>90</quantmax>
         <cost>100</cost>
@@ -650,10 +650,10 @@
         <value name="Tier4"/>
     </type>
     <type name="BO_Mag_M14_20rnd">
-        <nominal>6</nominal>
+        <nominal>5</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
-        <min>4</min>
+        <min>2</min>
         <quantmin>30</quantmin>
         <quantmax>90</quantmax>
         <cost>100</cost>
@@ -2393,10 +2393,10 @@
         <value name="Tier3"/>
     </type>
     <type name="BO_AK74_30rnd">
-        <nominal>5</nominal>
+        <nominal>10</nominal>
         <lifetime>28800</lifetime>
         <restock>0</restock>
-        <min>2</min>
+        <min>4</min>
         <quantmin>5</quantmin>
         <quantmax>50</quantmax>
         <cost>100</cost>
@@ -2433,7 +2433,7 @@
 		<value name="Tier4"/>
     </type>
     <type name="BO_PMAG_AKM_30rnd">
-        <nominal>4</nominal>
+        <nominal>5</nominal>
         <lifetime>28800</lifetime>
         <restock>0</restock>
         <min>2</min>
