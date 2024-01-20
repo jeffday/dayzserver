@@ -5294,10 +5294,10 @@
         <value name="Tier4"/>
     </type>
     <type name="Ammo_BO_300WinMag">
-        <nominal>50</nominal>
+        <nominal>20</nominal>
         <lifetime>28800</lifetime>
         <restock>0</restock>
-        <min>40</min>
+        <min>10</min>
         <quantmin>25</quantmin>
         <quantmax>60</quantmax>
         <cost>100</cost>
@@ -5310,10 +5310,10 @@
         <value name="Tier4"/>
     </type>
     <type name="BO_Ammobox_300WinMag_20rnd">
-        <nominal>14</nominal>
+        <nominal>8</nominal>
         <lifetime>28800</lifetime>
         <restock>0</restock>
-        <min>10</min>
+        <min>5</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
