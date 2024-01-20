@@ -2135,8 +2135,6 @@
         <tag name="shelves"/>
         <usage name="Town"/>
         <usage name="Village"/>
-        <value name="Tier1"/>
-        <value name="Tier2"/>
     </type>
     <type name="BakedBeansCan_Opened">
         <nominal>0</nominal>
@@ -3534,7 +3532,6 @@
         <usage name="Town"/>
         <usage name="Village"/>
         <usage name="School"/>
-        <value name="Tier1"/>
     </type>
     <type name="BrisketSpread_Opened">
         <nominal>0</nominal>
@@ -3996,8 +3993,6 @@
         <usage name="Town"/>
         <usage name="Village"/>
         <usage name="Lunapark"/>
-        <value name="Tier1"/>
-        <value name="Tier2"/>
     </type>
     <type name="CatFoodCan_Opened">
         <nominal>0</nominal>
@@ -4264,7 +4259,6 @@
         <usage name="Village"/>
         <usage name="School"/>
         <usage name="Lunapark"/>
-        <value name="Tier1"/>
     </type>
     <type name="ChristmasTree_Green">
         <nominal>0</nominal>
@@ -5193,7 +5187,6 @@
         <usage name="Village"/>
         <usage name="School"/>
         <usage name="Lunapark"/>
-        <value name="Tier1"/>
     </type>
     <type name="CrookedNose">
         <nominal>0</nominal>
@@ -5714,8 +5707,6 @@
         <usage name="Town"/>
         <usage name="Village"/>
         <usage name="Lunapark"/>
-        <value name="Tier1"/>
-        <value name="Tier2"/>
     </type>
     <type name="DogFoodCan_Opened">
         <nominal>0</nominal>
@@ -7512,8 +7503,6 @@
         <tag name="shelves"/>
         <usage name="Farm"/>
         <usage name="Village"/>
-        <value name="Tier1"/>
-        <value name="Tier2"/>
     </type>
     <type name="Grenade_ChemGas">
         <nominal>8</nominal>
@@ -8830,8 +8819,6 @@
         <usage name="Village"/>
         <usage name="School"/>
         <usage name="Lunapark"/>
-        <value name="Tier1"/>
-        <value name="Tier2"/>
     </type>
     <type name="Hoodie_Black">
         <nominal>6</nominal>
@@ -10193,7 +10180,6 @@
         <usage name="Village"/>
         <usage name="Hunting"/>
         <usage name="School"/>
-        <value name="Tier1"/>
     </type>
     <type name="Lunchmeat_Opened">
         <nominal>0</nominal>
@@ -11379,7 +11365,6 @@
         <usage name="Town"/>
         <usage name="Village"/>
         <usage name="School"/>
-        <value name="Tier1"/>
     </type>
     <type name="Matchbox">
         <nominal>8</nominal>
@@ -12766,7 +12751,6 @@
         <usage name="Village"/>
         <usage name="Office"/>
         <usage name="School"/>
-        <value name="Tier1"/>
     </type>
     <type name="Pajka_Opened">
         <nominal>0</nominal>
@@ -12929,7 +12913,6 @@
         <usage name="Village"/>
         <usage name="Office"/>
         <usage name="School"/>
-        <value name="Tier1"/>
     </type>
     <type name="Pate_Opened">
         <nominal>0</nominal>
@@ -12956,8 +12939,6 @@
         <usage name="Town"/>
         <usage name="Village"/>
         <usage name="School"/>
-        <value name="Tier1"/>
-        <value name="Tier2"/>
     </type>
     <type name="PeachesCan_Opened">
         <nominal>0</nominal>
@@ -13549,7 +13530,6 @@
         <usage name="Village"/>
         <usage name="Office"/>
         <usage name="School"/>
-        <value name="Tier1"/>
     </type>
     <type name="PorkCan_Opened">
         <nominal>0</nominal>
@@ -13609,6 +13589,8 @@
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="1" deloot="0"/>
         <category name="food"/>
+        <usage name="Farm"/>
+        <usage name="Village"/>
     </type>
     <type name="PotatoSeed">
         <nominal>15</nominal>
@@ -13624,8 +13606,6 @@
         <usage name="Farm"/>
         <usage name="Town"/>
         <usage name="Village"/>
-        <value name="Tier1"/>
-        <value name="Tier2"/>
     </type>
     <type name="PowderedMilk">
         <nominal>10</nominal>
@@ -13641,7 +13621,6 @@
         <usage name="Town"/>
         <usage name="Village"/>
         <usage name="School"/>
-        <value name="Tier1"/>
     </type>
     <type name="PowerGenerator">
         <nominal>0</nominal>
@@ -14231,7 +14210,6 @@
         <tag name="shelves"/>
         <usage name="Coast"/>
         <usage name="Town"/>
-        <value name="Tier1"/>
     </type>
     <type name="RidersJacket_Black">
         <nominal>8</nominal>
@@ -14418,7 +14396,6 @@
         <usage name="Town"/>
         <usage name="Village"/>
         <usage name="School"/>
-        <value name="Tier1"/>
     </type>
     <type name="SambucusBerry">
         <nominal>0</nominal>
@@ -14483,7 +14460,6 @@
         <tag name="shelves"/>
         <usage name="Town"/>
         <usage name="Village"/>
-        <value name="Tier1"/>
     </type>
     <type name="SardinesCan_Opened">
         <nominal>0</nominal>
@@ -15869,8 +15845,6 @@
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="food"/>
-        <value name="Tier1"/>
-        <value name="Tier2"/>
     </type>
     <type name="SodaCan_Fronta">
         <nominal>10</nominal>
@@ -15882,8 +15856,6 @@
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="food"/>
-        <value name="Tier1"/>
-        <value name="Tier2"/>
     </type>
     <type name="SodaCan_Kvass">
         <nominal>10</nominal>
@@ -15895,8 +15867,6 @@
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="food"/>
-        <value name="Tier1"/>
-        <value name="Tier2"/>
     </type>
     <type name="SodaCan_Pipsi">
         <nominal>10</nominal>
@@ -15908,8 +15878,6 @@
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="food"/>
-        <value name="Tier1"/>
-        <value name="Tier2"/>
     </type>
     <type name="SodaCan_Spite">
         <nominal>10</nominal>
@@ -15921,8 +15889,6 @@
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="food"/>
-        <value name="Tier1"/>
-        <value name="Tier2"/>
     </type>
     <type name="SpaghettiCan">
         <nominal>10</nominal>
@@ -15938,8 +15904,6 @@
         <usage name="Town"/>
         <usage name="Village"/>
         <usage name="Office"/>
-        <value name="Tier1"/>
-        <value name="Tier2"/>
     </type>
     <type name="SpaghettiCan_Opened">
         <nominal>0</nominal>
@@ -16738,8 +16702,6 @@
         <tag name="shelves"/>
         <usage name="Farm"/>
         <usage name="Village"/>
-        <value name="Tier1"/>
-        <value name="Tier2"/>
     </type>
     <type name="TomatoSeeds">
         <nominal>0</nominal>
@@ -17284,7 +17246,6 @@
         <usage name="Town"/>
         <usage name="Village"/>
         <usage name="Office"/>
-        <value name="Tier1"/>
     </type>
     <type name="TunaCan_Opened">
         <nominal>0</nominal>
@@ -18386,8 +18347,6 @@
         <usage name="Hunting"/>
         <usage name="Office"/>
         <usage name="School"/>
-        <value name="Tier1"/>
-        <value name="Tier2"/>
     </type>
     <type name="ZagorkyChocolate">
         <nominal>10</nominal>
@@ -20117,8 +20076,6 @@
         <usage name="Farm"/>
         <usage name="Town"/>
         <usage name="Village"/>
-        <value name="Tier1"/>
-        <value name="Tier2"/>
     </type>
     <type name="ZucchiniSeeds">
         <nominal>0</nominal>
