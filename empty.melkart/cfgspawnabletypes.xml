@@ -940,57 +940,49 @@
 	</type>
 	<type name="MiniDress_Pink">
 		<cargo chance="0.10">
-			<item name="Ammo_9x19" chance="0.20" />
-			<item name="Ammo_380" chance="0.20" />
+			<item name="Ammo_9x19" chance="1.00" />
 		</cargo>
 		<cargo chance="0.01"> <item name="Derringer_Pink" /> </cargo>
 	</type>
 	<type name="MiniDress_PinkChecker">
 		<cargo chance="0.10">
-			<item name="Ammo_9x19" chance="0.20" />
-			<item name="Ammo_380" chance="0.20" />
+			<item name="Ammo_9x19" chance="1.00" />
 		</cargo>
 		<cargo chance="0.01"> <item name="Derringer_Pink" /> </cargo>
 	</type>
 	<type name="MiniDress_RedChecker">
 		<cargo chance="0.10">
-			<item name="Ammo_9x19" chance="0.20" />
-			<item name="Ammo_380" chance="0.20" />
+			<item name="Ammo_9x19" chance="1.00" />
 		</cargo>
 		<cargo chance="0.01"> <item name="Derringer_Pink" /> </cargo>
 	</type>
 	<type name="MiniDress_WhiteChecker">
 		<cargo chance="0.10">
-			<item name="Ammo_9x19" chance="0.20" />
-			<item name="Ammo_380" chance="0.20" />
+			<item name="Ammo_9x19" chance="1.00" />
 		</cargo>
 		<cargo chance="0.01"> <item name="Derringer_Pink" /> </cargo>
 	</type>
 	<type name="MiniDress_GreenChecker">
 		<cargo chance="0.10">
-			<item name="Ammo_9x19" chance="0.20" />
-			<item name="Ammo_380" chance="0.20" />
+			<item name="Ammo_9x19" chance="1.00" />
 		</cargo>
 		<cargo chance="0.01"> <item name="Derringer_Pink" /> </cargo>
 	</type>
 	<type name="MiniDress_BrownChecker">
 		<cargo chance="0.10">
-			<item name="Ammo_9x19" chance="0.20" />
-			<item name="Ammo_380" chance="0.20" />
+			<item name="Ammo_9x19" chance="1.00" />
 		</cargo>
 		<cargo chance="0.01"> <item name="Derringer_Pink" /> </cargo>
 	</type>
 	<type name="MiniDress_BlueChecker">
 		<cargo chance="0.10">
-			<item name="Ammo_9x19" chance="0.20" />
-			<item name="Ammo_380" chance="0.20" />
+			<item name="Ammo_9x19" chance="1.00" />
 		</cargo>
 		<cargo chance="0.01"> <item name="Derringer_Pink" /> </cargo>
 	</type>
 	<type name="MiniDress_BlueWithDots">
 		<cargo chance="0.10">
-			<item name="Ammo_9x19" chance="0.20" />
-			<item name="Ammo_380" chance="0.20" />
+			<item name="Ammo_9x19" chance="1.00" />
 		</cargo>
 		<cargo chance="0.01"> <item name="Derringer_Pink" /> </cargo>
 	</type>
@@ -1851,7 +1843,7 @@
 		<cargo preset="toolsPolice" />
 		<cargo preset="ammoPolice" />
 		<cargo chance="0.10">
-			<item name="Mag_SSG82_5rnd" chance="1.0" />	
+			<item name="Mag_MP5_15Rnd" chance="1.0" />	
 		</cargo>
 		<attachments preset="hatsPolice" />
 	</type>
@@ -1859,7 +1851,7 @@
 		<cargo preset="toolsPolice" />
 		<cargo preset="ammoPolice" />
 		<cargo chance="0.10">
-			<item name="Mag_SSG82_5rnd" chance="1.0" />		
+			<item name="Mag_MP5_15Rnd" chance="1.0" />		
 		</cargo>
 		<attachments preset="hatsPolice" />
 	</type>
@@ -1867,8 +1859,8 @@
 		<cargo preset="toolsPolice" />
 		<cargo preset="ammoPolice" />
 		<cargo chance="0.30">
-			<item name="Mag_SSG82_5rnd" chance="0.50" />
-			<item name="Mag_Scout_5Rnd" chance="0.50" />			
+			<item name="Mag_MP5_15Rnd" chance="0.50" />
+			<item name="Mag_Scout_5Rnd" chance="0.50" />
 		</cargo>
 		<attachments preset="hatsPolice" />
 	</type>
@@ -1876,7 +1868,7 @@
 		<cargo preset="toolsPolice" />
 		<cargo preset="ammoPolice" />
 		<cargo chance="0.30">
-			<item name="Mag_SSG82_5rnd" chance="0.50" />
+			<item name="Mag_MP5_15Rnd" chance="0.50" />
 			<item name="Mag_Scout_5Rnd" chance="0.50" />
 		</cargo>
 		<attachments preset="hatsPolice" />
