@@ -2244,10 +2244,10 @@
         <value name="Tier4"/>
     </type>
     <type name="BalaclavaMask_Blackskull">
-        <nominal>3</nominal>
+        <nominal>0</nominal>
         <lifetime>28800</lifetime>
         <restock>0</restock>
-        <min>1</min>
+        <min>0</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -7505,10 +7505,10 @@
         <usage name="Village"/>
     </type>
     <type name="Grenade_ChemGas">
-        <nominal>8</nominal>
+        <nominal>0</nominal>
         <lifetime>900</lifetime>
         <restock>0</restock>
-        <min>5</min>
+        <min>0</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
