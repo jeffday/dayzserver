@@ -654,8 +654,8 @@
         <lifetime>14400</lifetime>
         <restock>0</restock>
         <min>2</min>
-        <quantmin>30</quantmin>
-        <quantmax>90</quantmax>
+        <quantmin>5</quantmin>
+        <quantmax>50</quantmax>
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="weapons"/>
@@ -1421,10 +1421,10 @@
         <value name="Tier4"/>
     </type>
     <type name="BO_MK12">
-        <nominal>5</nominal>
+        <nominal>4</nominal>
         <lifetime>28800</lifetime>
         <restock>0</restock>
-        <min>4</min>
+        <min>2</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -1433,7 +1433,6 @@
         <usage name="Military"/>
         <value name="Tier2"/>
         <value name="Tier3"/>
-        <value name="Tier4"/>
     </type>
     <type name="BO_Mag_MK12_20rnd">
         <nominal>10</nominal>
@@ -3123,10 +3122,10 @@
         <value name="Tier3"/>
     </type>
     <type name="BO_Mag_MK23_12rnd">
-        <nominal>15</nominal>
+        <nominal>10</nominal>
         <lifetime>28800</lifetime>
         <restock>0</restock>
-        <min>10</min>
+        <min>8</min>
         <quantmin>10</quantmin>
         <quantmax>100</quantmax>
         <cost>100</cost>
@@ -3477,10 +3476,10 @@
         <usage name="Military"/>
     </type>
     <type name="BO_ShmidtBender20">
-        <nominal>5</nominal>
+        <nominal>0</nominal>
         <lifetime>7200</lifetime>
         <restock>300</restock>
-        <min>2</min>
+        <min>0</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -3490,10 +3489,10 @@
         <value name="Tier4"/>
     </type>
     <type name="BO_ShmidtBender25">
-        <nominal>0</nominal>
+        <nominal>5</nominal>
         <lifetime>7200</lifetime>
         <restock>300</restock>
-        <min>0</min>
+        <min>2</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -5527,10 +5526,10 @@
         <usage name="Military"/>
     </type>
     <type name="BO_Tigr_Handguard_Original">
-        <nominal>2</nominal>
+        <nominal>0</nominal>
         <lifetime>7200</lifetime>
         <restock>300</restock>
-        <min>1</min>
+        <min>0</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
