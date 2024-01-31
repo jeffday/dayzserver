@@ -127,4 +127,89 @@
     <type name="Skinny_Jeans_Blue">
 		<cargo preset="mixVillage" />
 	</type>
+    <type name="Wool_GreatCoat_Navy">
+		<cargo preset="mixVillage" />
+	</type>
+    <type name="Wool_GreatCoat_Olive">
+		<cargo preset="mixVillage" />
+	</type>
+    <type name="Wool_GreatCoat_Grey">
+		<cargo preset="mixVillage" />
+	</type>
+
+    <!-- @shd_Windstride_retextures -->
+    <type name="Canvas_Backpack_DarkGrey">
+        <cargo preset="foodVillage" />
+        <cargo preset="mixVillage" />
+        <attachments chance="0.5">
+            <item name="Golden_Winged_Pin" chance="0.25" />
+            <item name="Button_Pin_Radioactive" chance="0.25" />
+            <item name="Button_Pin_Daisy" chance="0.25" />
+            <item name="Sheriff_Badge" chance="0.25" />
+        </attachments>
+    </type>
+
+    <type name="Canvas_Backpack_EMR">
+        <cargo preset="foodVillage" />
+        <cargo preset="mixVillage" />
+        <attachments chance="0.5">
+            <item name="Golden_Winged_Pin" chance="0.25" />
+            <item name="Button_Pin_Radioactive" chance="0.25" />
+            <item name="Button_Pin_Daisy" chance="0.25" />
+            <item name="Sheriff_Badge" chance="0.25" />
+        </attachments>
+    </type>
+
+    <type name="Canvas_Backpack_Green">
+        <cargo preset="foodVillage" />
+        <cargo preset="mixVillage" />
+        <attachments chance="0.5">
+            <item name="Golden_Winged_Pin" chance="0.25" />
+            <item name="Button_Pin_Radioactive" chance="0.25" />
+            <item name="Button_Pin_Daisy" chance="0.25" />
+            <item name="Sheriff_Badge" chance="0.25" />
+        </attachments>
+    </type>
+
+    <type name="Canvas_Backpack_Grey">
+        <cargo preset="foodVillage" />
+        <cargo preset="mixVillage" />
+        <attachments chance="0.5">
+            <item name="Golden_Winged_Pin" chance="0.25" />
+            <item name="Button_Pin_Radioactive" chance="0.25" />
+            <item name="Button_Pin_Daisy" chance="0.25" />
+            <item name="Sheriff_Badge" chance="0.25" />
+        </attachments>
+    </type>
+
+    <type name="Canvas_Backpack_OD">
+        <cargo preset="foodVillage" />
+        <cargo preset="mixVillage" />
+        <attachments chance="0.5">
+            <item name="Golden_Winged_Pin" chance="0.25" />
+            <item name="Button_Pin_Radioactive" chance="0.25" />
+            <item name="Button_Pin_Daisy" chance="0.25" />
+            <item name="Sheriff_Badge" chance="0.25" />
+        </attachments>
+    </type>
+
+    <type name="Winter_Parka_Black">
+		<cargo preset="mixVillage" />
+	</type>
+    <type name="Winter_Parka_Blue">
+		<cargo preset="mixVillage" />
+	</type>
+    <type name="Winter_Parka_OD">
+		<cargo preset="mixVillage" />
+	</type>
+    <type name="Winter_Parka_Olive">
+		<cargo preset="mixVillage" />
+	</type>
+    <type name="Winter_Parka_Red">
+		<cargo preset="mixVillage" />
+	</type>
+
+    <type name="Green_Leggings">
+		<cargo preset="mixVillage" />
+	</type>
 </spawnabletypes>
