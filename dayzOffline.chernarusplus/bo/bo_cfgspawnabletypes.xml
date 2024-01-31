@@ -141,6 +141,18 @@
 			<item name="BO_Mag_FNFAL_30rnd" chance="0.10" />
 		</attachments>
 	</type>
+	<type name="BO_M110_Black">
+		<attachments preset="dmr_optics" />
+		<attachments chance="0.60">
+			<item name="BO_Mag_M110_20rnd" chance="1.00" />
+		</attachments>
+	</type>
+	<type name="BO_M110_Senpai">
+		<attachments preset="dmr_optics" />
+		<attachments chance="0.60">
+			<item name="BO_Mag_M110_20rnd" chance="1.00" />
+		</attachments>
+	</type>
 	<type name="BO_M110_Tan">
 		<attachments preset="dmr_optics" />
 		<attachments chance="0.60">

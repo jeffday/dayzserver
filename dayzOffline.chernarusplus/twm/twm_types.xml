@@ -16,7 +16,7 @@
   * CRAFTED – items created by players such as armbands or stone knives. -->
 <types>
 	<type name="TWM_AKSocom">
-		<nominal>1</nominal>
+		<nominal>0</nominal>
 		<lifetime>8200</lifetime>
 		<restock>1800</restock>
 		<min>0</min>
@@ -28,7 +28,7 @@
         <usage name="Military"/>
 	</type>
 	<type name="TWM_Ash12">
-		<nominal>1</nominal>
+		<nominal>0</nominal>
 		<lifetime>8200</lifetime>
 		<restock>1800</restock>
 		<min>0</min>
@@ -269,7 +269,7 @@
         <value name="Tier4"/>
 	</type>
 	<type name="TWM_Vepr">
-		<nominal>1</nominal>
+		<nominal>0</nominal>
 		<lifetime>8200</lifetime>
 		<restock>1800</restock>
 		<min>0</min>
@@ -309,10 +309,10 @@
 <!-- Magazines -->
 <!-- Taser Rifle Magazines Disabled by Default, enable if you want Taser Mags / Rifles to spawn on the map -->
     <type name="TWM_Mag_Socom458_10rnd">
-        <nominal>5</nominal>
+        <nominal>0</nominal>
         <lifetime>7200</lifetime>
         <restock>1800</restock>
-        <min>2</min>
+        <min>0</min>
         <quantmin>20</quantmin>
         <quantmax>80</quantmax>
         <cost>100</cost>
@@ -323,10 +323,10 @@
         <value name="Tier4"/>
     </type>
     <type name="TWM_Mag_Socom458_15rnd">
-        <nominal>2</nominal>
+        <nominal>0</nominal>
         <lifetime>7200</lifetime>
         <restock>1800</restock>
-        <min>1</min>
+        <min>0</min>
         <quantmin>20</quantmin>
         <quantmax>80</quantmax>
         <cost>100</cost>
@@ -337,7 +337,7 @@
         <value name="Tier4"/>
     </type>
     <type name="TWM_Mag_Vepr_15rnd">
-        <nominal>1</nominal>
+        <nominal>0</nominal>
         <lifetime>7200</lifetime>
         <restock>1800</restock>
         <min>0</min>
@@ -421,10 +421,10 @@
         <value name="Tier4"/>
     </type> -->
     <type name="TWM_Mag_Ash12">
-        <nominal>2</nominal>
+        <nominal>0</nominal>
         <lifetime>7200</lifetime>
         <restock>1800</restock>
-        <min>1</min>
+        <min>0</min>
         <quantmin>10</quantmin>
         <quantmax>70</quantmax>
         <cost>100</cost>
@@ -491,10 +491,10 @@
     </type>
 <!-- Socom 458-->
 	<type name="TWM_Ammobox_458">
-        <nominal>7</nominal>
+        <nominal>0</nominal>
         <lifetime>28800</lifetime>
         <restock>0</restock>
-        <min>3</min>
+        <min>0</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -505,10 +505,10 @@
         <value name="Tier4"/>
     </type>
     <type name="TWM_Ammo_458">
-        <nominal>14</nominal>
+        <nominal>0</nominal>
         <lifetime>7200</lifetime>
         <restock>1200</restock>
-        <min>8</min>
+        <min>0</min>
         <quantmin>1</quantmin>
         <quantmax>6</quantmax>
         <cost>100</cost>
@@ -587,10 +587,10 @@
     </type> -->
 <!-- 12x55 -->
 	<type name="TWM_Ammobox_12x55">
-        <nominal>7</nominal>
+        <nominal>0</nominal>
         <lifetime>28800</lifetime>
         <restock>0</restock>
-        <min>3</min>
+        <min>0</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -602,10 +602,10 @@
         <value name="Tier4"/>
     </type>
     <type name="TWM_Ammo_12x55">
-        <nominal>14</nominal>
+        <nominal>0</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
-        <min>8</min>
+        <min>0</min>
         <quantmin>1</quantmin>
         <quantmax>6</quantmax>
         <cost>100</cost>
@@ -759,8 +759,7 @@
 		<cost>100</cost> 
 		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
 		<category name="weapons" />
-        <usage name="Military"/>
-		<value name="Tier4"/>
+        <usage name="ContaminatedArea"/>
 	</type>
 	<type name="TWM_Vector">
 		<nominal>0</nominal>
@@ -842,10 +841,10 @@
         <value name="Tier3"/>
     </type>
 	<type name="TWM_G36K"> 
-		<nominal>2</nominal>
+		<nominal>0</nominal>
 		<lifetime>3600</lifetime>
 		<restock>1600</restock>
-		<min>1</min>
+		<min>0</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost> 
@@ -856,10 +855,10 @@
 		<value name="Tier4"/>
 	</type>
 	<type name="TWM_Mag_G36K">
-        <nominal>5</nominal>
+        <nominal>0</nominal>
         <lifetime>7200</lifetime>
         <restock>1800</restock>
-        <min>2</min>
+        <min>0</min>
         <quantmin>10</quantmin>
         <quantmax>70</quantmax>
         <cost>100</cost>
@@ -979,10 +978,10 @@
         <value name="Tier4"/>
     </type>
 	<type name="TWM_Mag_Ak105">
-        <nominal>5</nominal>
+        <nominal>0</nominal>
         <lifetime>7200</lifetime>
         <restock>1800</restock>
-        <min>2</min>
+        <min>0</min>
         <quantmin>5</quantmin>
         <quantmax>50</quantmax>
         <cost>100</cost>
@@ -1009,7 +1008,7 @@
 		<value name="Tier2"/>
     </type>
     <type name="TWM_M1A">
-        <nominal>1</nominal>
+        <nominal>0</nominal>
         <lifetime>3600</lifetime>
         <restock>0</restock>
         <min>0</min>
@@ -1035,7 +1034,7 @@
         <value name="Tier4"/>
     </type>
     <type name="TWM_M1A_OD">
-        <nominal>1</nominal>
+        <nominal>0</nominal>
         <lifetime>3600</lifetime>
         <restock>0</restock>
         <min>0</min>
@@ -1115,7 +1114,7 @@
         <value name="Tier4"/>
     </type>
     <type name="TWM_Sig458">
-        <nominal>1</nominal>
+        <nominal>0</nominal>
         <lifetime>3600</lifetime>
         <restock>0</restock>
         <min>0</min>
@@ -1141,7 +1140,7 @@
         <value name="Tier4"/>
     </type>
     <type name="TWM_Sig458_OD">
-        <nominal>1</nominal>
+        <nominal>0</nominal>
         <lifetime>3600</lifetime>
         <restock>0</restock>
         <min>0</min>
@@ -1873,10 +1872,10 @@
         <usage name="Military"/>
 	</type>
 	<type name="TWM_Socom_Stock">
-        <nominal>2</nominal>
+        <nominal>0</nominal>
         <lifetime>7200</lifetime>
         <restock>14400</restock>
-        <min>1</min>
+        <min>0</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -1978,10 +1977,10 @@
         <usage name="Hunting"/>
 	</type>
     <type name="TWM_Katana">
-        <nominal>10</nominal>
+        <nominal>0</nominal>
         <lifetime>7200</lifetime>
         <restock>0</restock>
-        <min>5</min>
+        <min>0</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -2085,7 +2084,6 @@
 		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
 		<category name="weapons" />
         <usage name="Military"/>
-        <value name="Tier3"/>
 		<value name="Tier4"/>
 	</type>
 	<type name="TWM_HK416_OD">
@@ -2099,7 +2097,6 @@
 		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
 		<category name="weapons" />
         <usage name="Military"/>
-        <value name="Tier3"/>
 		<value name="Tier4"/>
 	</type>
 	<type name="TWM_Kar98k">
@@ -2239,10 +2236,10 @@
 </type>
 <!-- Update 1.16 -->
 	<type name="TWM_Lee_SMLE"> 
-        <nominal>10</nominal>
+        <nominal>0</nominal>
         <lifetime>7200</lifetime>
         <restock>300</restock>
-        <min>7</min>
+        <min>0</min>
         <quantmin>0</quantmin>
         <quantmax>80</quantmax>
         <cost>100</cost>
@@ -2318,10 +2315,10 @@
         <value name="Tier3"/>
 	</type>
 	<type name="TWM_FRF2"> 
-        <nominal>1</nominal>
+        <nominal>0</nominal>
         <lifetime>28800</lifetime>
         <restock>0</restock>
-        <min>10</min>
+        <min>0</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -2331,10 +2328,10 @@
         <value name="Tier4"/>
 	</type>
 	<type name="TWM_Ammo_303">
-        <nominal>15</nominal>
+        <nominal>0</nominal>
         <lifetime>7200</lifetime>
         <restock>1800</restock>
-        <min>8</min>
+        <min>0</min>
         <quantmin>1</quantmin>
         <quantmax>6</quantmax>
         <cost>100</cost>
@@ -2347,10 +2344,10 @@
         <value name="Tier4"/>
     </type>
 	<type name="TWM_AmmoBox_303">
-        <nominal>17</nominal>
+        <nominal>0</nominal>
         <lifetime>7200</lifetime>
         <restock>1200</restock>
-        <min>8</min>
+        <min>0</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -2523,10 +2520,10 @@
 		<value name="Tier4"/>
 	</type>
 	<type name="TWM_Mag_FRF2">
-        <nominal>5</nominal>
+        <nominal>0</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
-        <min>2</min>
+        <min>0</min>
         <quantmin>10</quantmin>
         <quantmax>80</quantmax>
         <cost>100</cost>
@@ -2597,10 +2594,10 @@
 		<value name="Tier4"/>
 	</type>	
 	<type name="TWM_Banshee_57_Black">
-        <nominal>3</nominal>
+        <nominal>0</nominal>
         <lifetime>7200</lifetime>
         <restock>300</restock>
-        <min>1</min>
+        <min>0</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -2609,10 +2606,10 @@
         <usage name="Military"/>
 	</type>
 	<type name="TWM_Banshee_57_OD">
-        <nominal>2</nominal>
+        <nominal>0</nominal>
         <lifetime>7200</lifetime>
         <restock>300</restock>
-        <min>1</min>
+        <min>0</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -2636,10 +2633,10 @@
         <value name="Tier4"/>
 	</type>	
     <type name="TWM_Mag_Banshee_57">
-        <nominal>7</nominal>
+        <nominal>0</nominal>
         <lifetime>7200</lifetime>
         <restock>300</restock>
-        <min>4</min>
+        <min>0</min>
         <quantmin>5</quantmin>
         <quantmax>50</quantmax>
         <cost>100</cost>
@@ -2859,10 +2856,10 @@
 		<value name="Tier4"/>
 	</type>
 	<type name="TWM_FN57">
-        <nominal>5</nominal>
+        <nominal>0</nominal>
         <lifetime>7200</lifetime>
         <restock>300</restock>
-        <min>4</min>
+        <min>0</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -2874,10 +2871,10 @@
         <value name="Tier4"/>
 	</type>
 	<type name="TWM_FN57_OD">
-        <nominal>5</nominal>
+        <nominal>0</nominal>
         <lifetime>7200</lifetime>
         <restock>300</restock>
-        <min>4</min>
+        <min>0</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -2904,10 +2901,10 @@
 		<value name="Tier3"/>
 	</type>
 	<type name="TWM_Mag_FN57">
-        <nominal>10</nominal>
+        <nominal>0</nominal>
         <lifetime>7200</lifetime>
         <restock>300</restock>
-        <min>8</min>
+        <min>0</min>
         <quantmin>5</quantmin>
         <quantmax>50</quantmax>
         <cost>100</cost>
@@ -2971,7 +2968,7 @@
         <value name="Tier4"/>
     </type>
     <type name="TWM_M14">
-        <nominal>1</nominal>
+        <nominal>0</nominal>
         <lifetime>28800</lifetime>
         <restock>0</restock>
         <min>0</min>

@@ -38,10 +38,10 @@
         <value name="Tier3"/>				
     </type>
 	<type name="AE_AmmoBox_57x28_30rnd">
-        <nominal>10</nominal>
+        <nominal>0</nominal>
         <lifetime>7200</lifetime>
         <restock>1200</restock>
-        <min>8</min>
+        <min>0</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -53,10 +53,10 @@
         <value name="Tier4"/>	
     </type>
 	<type name="AE_AmmoBox_762x25_30rnd">
-        <nominal>20</nominal>
+        <nominal>0</nominal>
         <lifetime>7200</lifetime>
         <restock>1200</restock>
-        <min>15</min>
+        <min>0</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -85,10 +85,10 @@
         <value name="Tier4"/>		
     </type>
 	<type name="AE_AmmoBox_127x99_10rnd">
-        <nominal>4</nominal>
+        <nominal>0</nominal>
         <lifetime>7200</lifetime>
         <restock>1200</restock>
-        <min>2</min>
+        <min>0</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -98,10 +98,10 @@
         <value name="Tier4"/>				
     </type>
 	<type name="AE_AmmoBox_50AE_20rnd">
-        <nominal>15</nominal>
+        <nominal>0</nominal>
         <lifetime>7200</lifetime>
         <restock>1200</restock>
-        <min>8</min>
+        <min>0</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -139,10 +139,10 @@
         <value name="Tier4"/>			
     </type>
 	<type name="AE_AmmoBox_408_20rnd">
-        <nominal>3</nominal>
+        <nominal>0</nominal>
         <lifetime>7200</lifetime>
         <restock>1200</restock>
-        <min>2</min>
+        <min>0</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -189,10 +189,10 @@
         <value name="Tier3"/>				
     </type>
 	<type name="Ammo_AE57x28">
-        <nominal>15</nominal>
+        <nominal>0</nominal>
         <lifetime>7200</lifetime>
         <restock>1200</restock>
-        <min>10</min>
+        <min>0</min>
         <quantmin>10</quantmin>
         <quantmax>30</quantmax>
         <cost>100</cost>
@@ -202,10 +202,10 @@
         <usage name="Military"/>			
     </type>
 	<type name="Ammo_AE762x25">
-        <nominal>50</nominal>
+        <nominal>0</nominal>
         <lifetime>7200</lifetime>
         <restock>1200</restock>
-        <min>42</min>
+        <min>0</min>
         <quantmin>10</quantmin>
         <quantmax>30</quantmax>
         <cost>100</cost>
@@ -219,10 +219,10 @@
         <value name="Tier4"/>				
     </type>
 	<type name="Ammo_AE408">
-        <nominal>5</nominal>
+        <nominal>0</nominal>
         <lifetime>7200</lifetime>
         <restock>1200</restock>
-        <min>2</min>
+        <min>0</min>
         <quantmin>10</quantmin>
         <quantmax>30</quantmax>
         <cost>100</cost>
@@ -247,10 +247,10 @@
         <usage name="Hunting"/>			
     </type>
 	<type name="Ammo_AE127x99">
-        <nominal>10</nominal>
+        <nominal>0</nominal>
         <lifetime>7200</lifetime>
         <restock>1200</restock>
-        <min>5</min>
+        <min>0</min>
         <quantmin>10</quantmin>
         <quantmax>30</quantmax>
         <cost>100</cost>
@@ -260,10 +260,10 @@
 		<value name="Tier4"/>					
     </type>
 	<type name="Ammo_AE50AE">
-        <nominal>45</nominal>
+        <nominal>0</nominal>
         <lifetime>7200</lifetime>
         <restock>1200</restock>
-        <min>32</min>
+        <min>0</min>
         <quantmin>10</quantmin>
         <quantmax>30</quantmax>
         <cost>100</cost>
