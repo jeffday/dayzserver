@@ -1,10 +1,10 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <types>
   <type name="tacticalbelt_quad_black">
-    <nominal>8</nominal>
+    <nominal>0</nominal>
     <lifetime>28800</lifetime>
     <restock>1800</restock>
-    <min>3</min>
+    <min>0</min>
     <quantmin>-1</quantmin>
     <quantmax>-1</quantmax>
     <cost>100</cost>
@@ -15,10 +15,10 @@
     <value name="Tier3" />
   </type>
   <type name="tacticalbelt_quad_green">
-    <nominal>8</nominal>
+    <nominal>0</nominal>
     <lifetime>28800</lifetime>
     <restock>1800</restock>
-    <min>3</min>
+    <min>0</min>
     <quantmin>-1</quantmin>
     <quantmax>-1</quantmax>
     <cost>100</cost>
@@ -43,10 +43,10 @@
     <value name="Tier3" />
   </type>
   <type name="riflesling_quad_black">
-    <nominal>5</nominal>
+    <nominal>20</nominal>
     <lifetime>7200</lifetime>
-    <restock>7200</restock>
-    <min>2</min>
+    <restock>300</restock>
+    <min>10</min>
     <quantmin>-1</quantmin>
     <quantmax>-1</quantmax>
     <cost>100</cost>
@@ -55,10 +55,10 @@
     <usage name="Military" />
   </type>
   <type name="riflesling_quad_green">
-    <nominal>5</nominal>
+    <nominal>20</nominal>
     <lifetime>7200</lifetime>
-    <restock>7200</restock>
-    <min>2</min>
+    <restock>300</restock>
+    <min>10</min>
     <quantmin>-1</quantmin>
     <quantmax>-1</quantmax>
     <cost>100</cost>
@@ -91,10 +91,10 @@
     <usage name="Military" />
   </type>
   <type name="rifleslingfront_quad_black">
-    <nominal>5</nominal>
+    <nominal>0</nominal>
     <lifetime>7200</lifetime>
     <restock>7200</restock>
-    <min>2</min>
+    <min>0</min>
     <quantmin>-1</quantmin>
     <quantmax>-1</quantmax>
     <cost>100</cost>
@@ -103,10 +103,10 @@
     <usage name="Military" />
   </type>
   <type name="rifleslingfront_quad_green">
-    <nominal>5</nominal>
+    <nominal>0</nominal>
     <lifetime>7200</lifetime>
     <restock>7200</restock>
-    <min>2</min>
+    <min>0</min>
     <quantmin>-1</quantmin>
     <quantmax>-1</quantmax>
     <cost>100</cost>
@@ -139,10 +139,10 @@
     <usage name="Military" />
   </type>
   <type name="rifleslingback_quad_black">
-    <nominal>5</nominal>
+    <nominal>0</nominal>
     <lifetime>7200</lifetime>
     <restock>7200</restock>
-    <min>2</min>
+    <min>0</min>
     <quantmin>-1</quantmin>
     <quantmax>-1</quantmax>
     <cost>100</cost>
@@ -151,10 +151,10 @@
     <usage name="Military" />
   </type>
   <type name="rifleslingback_quad_green">
-    <nominal>5</nominal>
+    <nominal>0</nominal>
     <lifetime>7200</lifetime>
     <restock>7200</restock>
-    <min>2</min>
+    <min>0</min>
     <quantmin>-1</quantmin>
     <quantmax>-1</quantmax>
     <cost>100</cost>
@@ -187,10 +187,10 @@
     <usage name="Military" />
   </type>
   <type name="chestholster_quad_black">
-    <nominal>5</nominal>
+    <nominal>0</nominal>
     <lifetime>7200</lifetime>
     <restock>7200</restock>
-    <min>2</min>
+    <min>0</min>
     <quantmin>-1</quantmin>
     <quantmax>-1</quantmax>
     <cost>100</cost>
@@ -199,10 +199,10 @@
     <usage name="Military" />
   </type>
   <type name="chestholster_quad_green">
-    <nominal>5</nominal>
+    <nominal>0</nominal>
     <lifetime>7200</lifetime>
     <restock>7200</restock>
-    <min>2</min>
+    <min>0</min>
     <quantmin>-1</quantmin>
     <quantmax>-1</quantmax>
     <cost>100</cost>
@@ -247,10 +247,10 @@
     <usage name="Military" />
   </type>
   <type name="Quad_Kar98">
-    <nominal>10</nominal>
+    <nominal>0</nominal>
     <lifetime>28800</lifetime>
     <restock>0</restock>
-    <min>7</min>
+    <min>0</min>
     <quantmin>10</quantmin>
     <quantmax>80</quantmax>
     <cost>100</cost>
@@ -264,10 +264,10 @@
     <value name="Tier4"/>
   </type>
   <type name="Quad_LeeEnfield">
-    <nominal>10</nominal>
+    <nominal>0</nominal>
     <lifetime>7200</lifetime>
     <restock>300</restock>
-    <min>7</min>
+    <min>0</min>
     <quantmin>0</quantmin>
     <quantmax>80</quantmax>
     <cost>100</cost>
