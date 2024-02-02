@@ -35,28 +35,6 @@ Do not forget to add attribute act="car", if root class represents moveable vehi
 		<default name="save_types_startup" value="true"/>
 	</defaults>
   
-    <!-- Mightys Military Gear -->
-	<ce folder="mmg">
-		<file name="mmg_types_ADMINGEAR.xml" type="types" />
-        <file name="mmg_types_alpine.xml" type="types" />
-		<file name="mmg_types_atacs.xml" type="types" />
-        <file name="mmg_types_black.xml" type="types" />
-        <file name="mmg_types_carbines.xml" type="types" />
-        <file name="mmg_types_dark_woodland.xml" type="types" />
-        <file name="mmg_types_erdl.xml" type="types" />
-        <file name="mmg_types_green.xml" type="types" />
-		<file name="mmg_types_masks.xml" type="types" />
-        <file name="mmg_types_multicam.xml" type="types" />
-        <file name="mmg_types_multicam_tropic.xml" type="types" />
-        <file name="mmg_types_multicamblack.xml" type="types" />
-        <file name="mmg_types_NBC_NVG.xml" type="types" />
-        <file name="mmg_types_police.xml" type="types" />
-        <file name="mmg_types_tan.xml" type="types" />
-        <file name="mmg_types_ucp.xml" type="types" />
-		<file name="mmg_patches.xml" type="types" />
-		<file name="mmg_cfgspawnabletypes.xml" type="spawnabletypes" />
-	</ce>
-  
     <!-- Spurgle's BagZ -->
 	<ce folder="spurgles">
 		<file name="types.xml" type="types" />
@@ -130,4 +108,9 @@ Do not forget to add attribute act="car", if root class represents moveable vehi
 		<file name="ogm_spawnabletypes.xml" type="spawnabletypes" />
 	</ce>
 
+	<!-- AJ45 Forward Operator Gear -->
+	<ce folder="fog">
+		<file name="FOG_Types.xml" type="types" />
+		<file name="FOG_spawnabletypes.xml" type="spawnabletypes" />
+	</ce>
 </economycore>
