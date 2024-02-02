@@ -2225,10 +2225,10 @@
         <value name="Tier2"/>
     </type>
     <type name="BO_MP5SDA2_FDE">
-        <nominal>3</nominal>
+        <nominal>0</nominal>
         <lifetime>7200</lifetime>
         <restock>300</restock>
-        <min>2</min>
+        <min>0</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -2239,24 +2239,22 @@
         <value name="Tier2"/>
     </type>
     <type name="BO_MP5MPA2">
-        <nominal>5</nominal>
+        <nominal>20</nominal>
         <lifetime>7200</lifetime>
-        <restock>300</restock>
-        <min>3</min>
+        <restock>0</restock>
+        <min>10</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="weapons"/>
-        <usage name="Military"/>
-        <value name="Tier1"/>
-        <value name="Tier2"/>
+        <usage name="Police"/>
     </type>
     <type name="BO_MP5MPA2_FDE">
-        <nominal>5</nominal>
+        <nominal>0</nominal>
         <lifetime>7200</lifetime>
         <restock>300</restock>
-        <min>3</min>
+        <min>0</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -2281,10 +2279,10 @@
         <value name="Tier2"/>
     </type>
     <type name="BO_MP5RailA2_FDE">
-        <nominal>5</nominal>
+        <nominal>0</nominal>
         <lifetime>7200</lifetime>
         <restock>300</restock>
-        <min>3</min>
+        <min>0</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
