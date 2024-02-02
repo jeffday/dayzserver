@@ -162,19 +162,7 @@
 				<item name="AmmoBox_762x39_20Rnd" chance="0.05" />
 				<item name="Ammo_762x54" chance="0.2" />
 				<item name="AmmoBox_762x54_20Rnd" chance="0.05" />
-				<item name="Ammo_AE57x28" chance="0.2" />
-				<item name="AE_AmmoBox_57x28_30rnd" chance="0.05" />
 				<item name="Ammo_AE338" chance="0.2" />
-				<item name="AE_AmmoBox_338_20rnd" chance="0.05" />
-		</cargo>
-		<cargo chance="0.25" name="ammoChad">
-				<item name="AmmoBox_545x39_20Rnd" chance="0.2" />
-				<item name="AmmoBox_556x45_20Rnd" chance="0.2" />
-				<item name="AmmoBox_762x39_20Rnd" chance="0.2" />
-				<item name="AmmoBox_762x54_20Rnd" chance="0.1" />
-				<item name="AmmoBox_308Win_20Rnd" chance="0.1" />
-				<item name="AmmoBox_9x39AP_20Rnd" chance="0.1" />
-				<item name="BO_Ammobox_300WinMag_20rnd" chance="0.05" />
 				<item name="AE_AmmoBox_338_20rnd" chance="0.05" />
 		</cargo>
 		<cargo chance="0.1" name="mixVillage">
@@ -487,90 +475,135 @@
 		</attachments>
 
 		<!--ARMY ATTACHMENTS-->
-		<attachments chance="0.80" name="hatsArmy">
-			<item name="TankerHelmet" chance="0.1" />
-			<item name="ZSh3PilotHelmet" chance="0.1" />
-			<item name="MMG_tactical_helmet_black" chance="0.2" />
-			<item name="MMG_tactical_helmet_erdl" chance="0.2" />
-			<item name="MMG_tactical_helmet_green" chance="0.2" />
-			<item name="MMG_tactical_helmet_multicamblack" chance="0.2" />
+		<attachments chance="0.60" name="hatsArmy">
+			<item name="FOG_Helmet_FAST_Bump_RG" chance="0.1" />
+			<item name="FOG_Helmet_FAST_Bump_Black" chance="0.1" />
+			<item name="FOG_Helmet_FAST_Bump_Grey" chance="0.1" />
+			<item name="FOG_Helmet_FAST_Bump_MC" chance="0.1" />
+			<item name="FOG_Helmet_FAST_Bump_MCB" chance="0.1" />
+			<item name="FOG_Helmet_FAST_Bump_ERDL" chance="0.1" />
+			<item name="FOG_Helmet_FASTMT_MC" chance="0.05" />
+			<item name="FOG_Helmet_FASTMT_Black" chance="0.05" />
+			<item name="FOG_Helmet_FASTMT_RG" chance="0.05" />
+			<item name="FOG_Helmet_FAST_SF_RG" chance="0.05" />
+			<item name="FOG_Helmet_FAST_SF_Black" chance="0.05" />
+			<item name="FOG_Helmet_FAST_SF_MC" chance="0.05" />
+			<item name="FOG_Helmet_FAST_SF_MCB" chance="0.05" />
+			<item name="FOG_Helmet_FAST_SF_ERDL" chance="0.05" />
 		</attachments>
 		<attachments chance="0.00" name="glassesArmy"> <!--was chance="0.10"; removed coz of attachment slot is missing -->
 			<item name="TacticalGoggles" chance="0.10" />
 			<item name="AviatorGlasses" chance="0.25" />
 		</attachments>
-		<attachments chance="1.00" name="vestsArmy">
-			<item name="MMG_chestrig_black" chance="0.08" />
-			<item name="MMG_chestrig_erdl" chance="0.08" />
-			<item name="MMG_chestrig_green" chance="0.08" />
-			<item name="MMG_chestrig_multicamblack" chance="0.08" />
-			<item name="MMG_JPC_Vest_black" chance="0.08" />
-			<item name="MMG_JPC_Vest_erdl" chance="0.08" />
-			<item name="MMG_JPC_Vest_green" chance="0.08" />
-			<item name="MMG_JPC_Vest_multicamblack" chance="0.08" />
-			<item name="MMG_tt_Vest_black" chance="0.05" />
-			<item name="MMG_tt_Vest_erdl" chance="0.05" />
-			<item name="MMG_tt_Vest_green" chance="0.05" />
-			<item name="MMG_tt_Vest_multicamblack" chance="0.05" />
+		<attachments chance="0.20" name="vestsArmy">
+			<item name="FOG_Vest_D3CRX_RG" chance="0.125" />
+			<item name="FOG_Vest_D3CRX_Black" chance="0.125" />
+			<item name="FOG_Vest_D3CRX_Grey" chance="0.125" />
+			<item name="FOG_Vest_SSMK4_RG" chance="0.125" />
+			<item name="FOG_Vest_SSMK4_Black" chance="0.125" />
+			<item name="FOG_Vest_SSMK4_Grey" chance="0.125" />
+			<item name="FOG_Vest_SSMK4_MC" chance="0.125" />
+			<item name="FOG_Vest_SSMK4_M81" chance="0.125" />
+		</attachments>
+		<attachments chance="0.20" name="mediumVestsArmy">
+			<item name="FOG_Vest_LV119_RG" chance="0.05" />
+			<item name="FOG_Vest_LV119_Black" chance="0.05" />
+			<item name="FOG_Vest_LV119_MC" chance="0.05" />
+			<item name="FOG_Vest_AVS_MC" chance="0.05" />
+			<item name="FOG_Vest_AVS_Black" chance="0.05" />
+			<item name="FOG_Vest_AVS_RG" chance="0.05" />
+			<item name="FOG_Vest_FCPC_MC" chance="0.05" />
+			<item name="FOG_Vest_FCPC_RG" chance="0.05" />
+			<item name="FOG_Vest_FCPC_Black" chance="0.05" />
+			<item name="FOG_Vest_FCPC_MCB" chance="0.05" />
+			<item name="FOG_Vest_FCPC_M81" chance="0.05" />
+			<item name="FOG_Vest_FCPC_Grey" chance="0.05" />
+			<item name="FOG_Vest_TacTec_RG" chance="0.05" />
+			<item name="FOG_Vest_TacTec_Black" chance="0.05" />
+			<item name="FOG_Vest_TacTec_Grey" chance="0.05" />
+			<item name="FOG_Vest_TV110T_Black" chance="0.05" />
+			<item name="FOG_Vest_TV110T_RG" chance="0.04" />
+			<item name="FOG_Vest_TV110T_MC" chance="0.04" />
+			<item name="FOG_Vest_JPC_MC" chance="0.025" />
+			<item name="FOG_Vest_JPC_Black" chance="0.025" />
+			<item name="FOG_Vest_JPC_RG" chance="0.025" />
+			<item name="FOG_Vest_MMAC_MC" chance="0.025" />
+			<item name="FOG_Vest_MMAC_Black" chance="0.025" />
+			<item name="FOG_Vest_MMAC_RG" chance="0.025" />
 		</attachments>
 		<attachments chance="0.15" name="bagsArmy">
-			<item name="MMG_assault_pack_black" chance="0.08" />
-			<item name="MMG_assault_pack_erdl" chance="0.08" />
-			<item name="MMG_assault_pack_green" chance="0.08" />
-			<item name="MMG_assault_pack_multicamblack" chance="0.08" />
-			<item name="MMG_carrier_backpack_black" chance="0.06" />
-			<item name="MMG_carrier_backpack_erdl" chance="0.06" />
-			<item name="MMG_carrier_backpack_green" chance="0.06" />
-			<item name="MMG_carrier_backpack_multicamblack" chance="0.06" />
-			<item name="MMG_camelback_black" chance="0.04" />
-			<item name="MMG_camelback_erdl" chance="0.04" />
-			<item name="MMG_camelback_green" chance="0.04" />
-			<item name="MMG_camelback_multicamblack" chance="0.04" />
-			<item name="MMG_supplybag_black" chance="0.03" />
-			<item name="MMG_supplybag_erdl" chance="0.03" />
-			<item name="MMG_supplybag_green" chance="0.03" />
-			<item name="MMG_supplybag_multicamblack" chance="0.03" />
-			<item name="Spur_MilBag_Black" chance="0.04" />
-			<item name="Spur_MilBag_Green" chance="0.04" />
-			<item name="Spur_MilBag_WoodlandCamo" chance="0.04" />
-			<item name="Spur_CamelBag_Black" chance="0.01" />
-			<item name="Spur_CamelBag_Green" chance="0.01" />
-			<item name="Spur_CamelBag_WoodlandCamo" chance="0.01" />
+			<item name="DuffelBagSmall_Camo" chance="0.15" />
+			<item name="DuffelBagSmall_Green" chance="0.15" />
+			<item name="DuffelBagSmall_Medical" chance="0.10" />
+			<item name="ArmyPouch_Black" chance="0.15" />
+			<item name="ArmyPouch_Camo" chance="0.15" />
+			<item name="FOG_Bag_Trizip_Black" chance="0.05" />
+			<item name="FOG_Bag_Trizip_RG" chance="0.05" />
+			<item name="FOG_Bag_Trizip_RGCB" chance="0.05" />
+			<item name="FOG_Bag_Trizip_MARPAT" chance="0.05" />
+			<item name="FOG_Bag_Trizip_ERDL" chance="0.05" />
+			<item name="FOG_Bag_Trizip_MC" chance="0.05" />
+			<item name="FOG_Bag_MRASAP_Black" chance="0.05" />
+			<item name="FOG_Bag_MRASAP_Grey" chance="0.05" />
+			<item name="FOG_Bag_MRASAP_RG" chance="0.05" />
+			<item name="FOG_Bag_MRASAP_MC" chance="0.05" />
+		</attachments>
+		<attachments chance="0.08" name="biggerBagsArmy">
+			<item name="Spur_MilBag_Black" chance="0.025" />
+			<item name="Spur_MilBag_Green" chance="0.025" />
+			<item name="Spur_MilBag_WoodlandCamo" chance="0.025" />
+			<item name="Spur_CamelBag_Black" chance="0.025" />
+			<item name="Spur_CamelBag_Green" chance="0.025" />
+			<item name="Spur_CamelBag_WoodlandCamo" chance="0.025" />
+			<item name="FOG_Bag_SSO_Black" chance="0.1" />
+			<item name="FOG_Bag_SSO_MC" chance="0.1" />
+			<item name="FOG_Bag_SSO_MCB" chance="0.1" />
+			<item name="FOG_Bergen_Rucksack_Black" chance="0.05" />
+			<item name="FOG_Bergen_Rucksack_Green" chance="0.05" />
+			<item name="FOG_Bergen_Rucksack_Woodland" chance="0.05" />
+			<item name="FOG_Bergen_Rucksack_Multicam" chance="0.05" />
+			<item name="FOG_Bergen_Rucksack_ERDL" chance="0.05" />
+			<item name="FOG_Bag_DrawBridge_RG" chance="0.05" />
+			<item name="FOG_Bag_DrawBridge_Black" chance="0.05" />
+			<item name="FOG_Bag_DrawBridge_Grey" chance="0.05" />
+			<item name="FOG_Bag_BlackJack_MC" chance="0.025" />
+			<item name="FOG_Bag_BlackJack_RG" chance="0.025" />
+			<item name="FOG_Bag_BlackJack_MCB" chance="0.025" />
+			<item name="FOG_Bag_BlackJack_ERDL" chance="0.025" />
+			<item name="FOG_Bag_BlackJack_Black" chance="0.025" />
 		</attachments>
 		<attachments chance="1.00" name="HeavyArmorArmy">
-			<item name="MMG_tt_Vest_black" chance="0.1" />
-			<item name="MMG_tt_Vest_erdl" chance="0.1" />
-			<item name="MMG_tt_Vest_green" chance="0.1" />
-			<item name="MMG_tt_Vest_multicamblack" chance="0.1" />
-			<item name="MMG_MK_III_Armor_black" chance="0.08" />
-			<item name="MMG_MK_III_Armor_erdl" chance="0.08" />
-			<item name="MMG_MK_III_Armor_green" chance="0.08" />
-			<item name="MMG_MK_III_Armor_multicamblack" chance="0.08" />
-			<item name="MMG_MK_V_Armor_black" chance="0.07" />
-			<item name="MMG_MK_V_Armor_erdl" chance="0.07" />
-			<item name="MMG_MK_V_Armor_green" chance="0.07" />
-			<item name="MMG_MK_V_Armor_multicamblack" chance="0.07" />
+			<item name="FOG_Vest_Gen4_Black" chance="0.06" />
+			<item name="FOG_Vest_Gen4_Green" chance="0.06" />
+			<item name="FOG_Vest_Gen4_EMR" chance="0.06" />
+			<item name="FOG_Vest_Gen4_NWU" chance="0.06" />
+			<item name="FOG_Vest_Gen4_MARPAT" chance="0.06" />
+			<item name="FOG_Vest_Thor_Black" chance="0.07" />
+			<item name="FOG_Vest_Thor_Green" chance="0.07" />
+			<item name="FOG_Vest_Thor_EMR" chance="0.07" />
+			<item name="FOG_Vest_Thor_MC" chance="0.07" />
+			<item name="FOG_Vest_Thor_MCB" chance="0.07" />
+			<item name="FOG_Vest_Thor_M81" chance="0.07" />
+			<item name="FOG_Vest_Osprey_MC" chance="0.07" />
+			<item name="FOG_Vest_Osprey_RG" chance="0.07" />
+			<item name="FOG_Vest_Osprey_Grey" chance="0.07" />
+			<item name="FOG_Vest_Osprey_Black" chance="0.07" />
 		</attachments>
 		<attachments chance="1.00" name="HeavyHelmetArmy">
-			<item name="MMG_striker_helmet_black" chance="0.2" />
-			<item name="MMG_striker_helmet_erdl" chance="0.2" />
-			<item name="MMG_striker_helmet_green" chance="0.2" />
-			<item name="MMG_striker_helmet_multicamblack" chance="0.2" />
-			<item name="mmg_armored_helmet_black" chance="0.10" />
-			<item name="mmg_armored_helmet_green" chance="0.10" />
+			<item name="FOG_Helmet_FASTMT_MC" chance="0.33" />
+			<item name="FOG_Helmet_FASTMT_Black" chance="0.34" />
+			<item name="FOG_Helmet_FASTMT_RG" chance="0.33" />
 		</attachments>
 		<attachments chance="1.00" name="OfficerHatArmy">
 			<item name="OfficerHat" chance="1.00" />
 		</attachments>
 
 		<!--POLICE ATTACHMENTS-->
-		<attachments chance="0.80" name="hatsPolice">
-			<item name="PoliceCap" chance="0.5" />
-			<item name="MMG_tactical_helmet_police" chance="0.5" />
+		<attachments chance="0.20" name="hatsPolice">
+			<item name="PoliceCap" chance="1.00" />
 		</attachments>
 		<attachments chance="1.00" name="vestsPolice">
-			<item name="PoliceVest" chance="0.25" />
-			<item name="MMG_tt_Vest_police" chance="0.75" />
+			<item name="PoliceVest" chance="1.00" />
 		</attachments>
 		
 		<!--PRISONER ATTACHMENTS-->
