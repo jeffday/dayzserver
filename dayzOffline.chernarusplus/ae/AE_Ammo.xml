@@ -125,10 +125,10 @@
         <value name="Tier4"/>				
     </type>
 	<type name="AE_AmmoBox_338_20rnd">
-        <nominal>7</nominal>
+        <nominal>0</nominal>
         <lifetime>7200</lifetime>
         <restock>1200</restock>
-        <min>3</min>
+        <min>0</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -286,10 +286,10 @@
         <usage name="Military"/>		
     </type>
 	<type name="Ammo_AE338">
-        <nominal>14</nominal>
+        <nominal>0</nominal>
         <lifetime>7200</lifetime>
         <restock>1200</restock>
-        <min>8</min>
+        <min>0</min>
         <quantmin>10</quantmin>
         <quantmax>30</quantmax>
         <cost>100</cost>
