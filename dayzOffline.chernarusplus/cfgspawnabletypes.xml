@@ -2525,6 +2525,17 @@
 		</attachments>
 		<attachments preset="dmr_optics" />
 	</type>
+	<type name="Vikhr">
+        <attachments chance="0.25">
+            <item name="KashtanOptic" chance="0.50" />
+            <item name="PSO1Optic" chance="0.50" />
+        </attachments>
+        <attachments chance="0.35">
+            <item name="Mag_VSS_10Rnd" chance="0.50" />
+            <item name="Mag_VAL_20Rnd" chance="0.35" />
+            <item name="Mag_Vikhr_30Rnd" chance="0.15" />
+        </attachments>
+    </type>
 	<type name="M4_Suppressor">
 		<damage min="0.0" max="0.32" />
 	</type>
