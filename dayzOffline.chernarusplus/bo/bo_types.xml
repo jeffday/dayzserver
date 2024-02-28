@@ -187,7 +187,7 @@
         <value name="Tier4" />
     </type>
     <type name="BO_OspreySuppressor_FDE">
-        <nominal>1</nominal>
+        <nominal>0</nominal>
         <lifetime>7200</lifetime>
         <restock>300</restock>
         <min>0</min>
@@ -2413,7 +2413,7 @@
         <restock>3600</restock>
         <min>4</min>
         <quantmin>10</quantmin>
-        <quantmax>100</quantmax>
+        <quantmax>80</quantmax>
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="weapons"/>
@@ -2463,7 +2463,7 @@
         <value name="Tier4"/>
     </type>
     <type name="BO_AKM_FDE">
-        <nominal>1</nominal>
+        <nominal>0</nominal>
         <lifetime>7200</lifetime>
         <restock>300</restock>
         <min>0</min>
@@ -2476,10 +2476,10 @@
         <value name="Tier4"/>
     </type>
     <type name="BO_PMAG_AKM_30rnd">
-        <nominal>3</nominal>
+        <nominal>5</nominal>
         <lifetime>7200</lifetime>
         <restock>300</restock>
-        <min>1</min>
+        <min>2</min>
         <quantmin>5</quantmin>
         <quantmax>50</quantmax>
         <cost>100</cost>
@@ -2490,10 +2490,10 @@
         <value name="Tier4"/>
     </type>
     <type name="BO_PMAG_AKM_30rnd_FDE">
-        <nominal>2</nominal>
+        <nominal>0</nominal>
         <lifetime>7200</lifetime>
         <restock>300</restock>
-        <min>1</min>
+        <min>0</min>
         <quantmin>5</quantmin>
         <quantmax>50</quantmax>
         <cost>100</cost>
@@ -5261,8 +5261,8 @@
         <lifetime>7200</lifetime>
         <restock>300</restock>
         <min>2</min>
-        <quantmin>10</quantmin>
-        <quantmax>100</quantmax>
+        <quantmin>5</quantmin>
+        <quantmax>50</quantmax>
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="weapons"/>
