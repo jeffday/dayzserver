@@ -1562,7 +1562,7 @@
         <value name="Tier4"/>
     </type>
     <type name="BO_WA2000">
-		<nominal>1</nominal>
+		<nominal>0</nominal>
         <lifetime>7200</lifetime>
         <restock>300</restock>
 		<min>0</min>
@@ -1574,10 +1574,10 @@
 		<usage name="Military" />
     </type>
     <type name="BO_Mag_WA2000_6rnd">
-		<nominal>3</nominal>
+		<nominal>0</nominal>
         <lifetime>7200</lifetime>
         <restock>300</restock>
-		<min>1</min>
+		<min>0</min>
 		<quantmin>10</quantmin>
 		<quantmax>80</quantmax>
 		<cost>100</cost>
