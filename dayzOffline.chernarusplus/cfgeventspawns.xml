@@ -1340,7 +1340,7 @@
     	<pos x="3262.817" z="12430.286" a="0" y="219.495" group="Train_Mil_Petrovka"/>
 	</event>
 	<event name="StaticMilitaryConvoy">
-		<zone smin="0" smax="0" dmin="1" dmax="2" r="20" />
+		<zone smin="0" smax="0" dmin="2" dmax="3" r="20" />
     	<pos x="8434.497" z="14003.119" a="0" y="205.349" group="Abandoned_Arsenovo"/>
 		<pos x="5272.803" z="2085.858" a="0" y="5.600" group="Abandoned_Balota"/>
 		<pos x="5664.508" z="3254.114" a="0" y="120.222" group="Abandoned_Cherno"/>
@@ -1366,7 +1366,7 @@
 		<pos x="332.324" z="3059.927" a="0" y="99.673" group="Supply_Volchiypik"/>
 	</event>
 	<event name="StaticPoliceSituation">
-		<zone smin="0" smax="0" dmin="1" dmax="2" r="20" />
+		<zone smin="0" smax="0" dmin="2" dmax="3" r="20" />
 		<pos x="11909.426" z="6432.040" a="0" y="49.747" group="Block_Dolina"/>
 		<pos x="10400.112" z="2237.542" a="0" y="5.930" group="Block_Elektro"/>
 		<pos x="8757.742" z="11875.513" a="0" y="206.034" group="Block_Gvozdno"/>
