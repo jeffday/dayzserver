@@ -113,4 +113,16 @@ Do not forget to add attribute act="car", if root class represents moveable vehi
 		<file name="FOG_Types.xml" type="types" />
 		<file name="FOG_spawnabletypes.xml" type="spawnabletypes" />
 	</ce>
+
+	<!-- Welliton Retextures -->
+	<ce folder="welliton">
+		<file name="W_Black_Color_Clothes.xml" type="types" />
+		<file name="W_Blue_Color_Clothes.xml" type="types" />
+		<file name="W_Green_Color_Clothes.xml" type="types" />
+		<file name="W_Green_Light_Color_Clothes.xml" type="types" />
+		<file name="W_okzcap.xml" type="types" />
+		<file name="W_petushok.xml" type="types" />
+		<file name="W_Tan_Color_Clothes.xml" type="types" />
+		<file name="W_wintercoif.xml" type="types" />
+	</ce>
 </economycore>
