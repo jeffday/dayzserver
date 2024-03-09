@@ -18233,10 +18233,10 @@
         <usage name="Historical"/>
     </type>
     <type name="TLRLight">
-        <nominal>40</nominal>
+        <nominal>20</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
-        <min>30</min>
+        <min>15</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -18247,7 +18247,6 @@
         <usage name="Police"/>
         <value name="Tier2"/>
         <value name="Tier3"/>
-        <value name="Tier4"/>
     </type>
     <type name="TShirt_Beige">
         <nominal>3</nominal>
@@ -19411,10 +19410,10 @@
         <category name="containers"/>
     </type>
     <type name="UniversalLight">
-        <nominal>30</nominal>
+        <nominal>15</nominal>
         <lifetime>28800</lifetime>
         <restock>0</restock>
-        <min>20</min>
+        <min>10</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>

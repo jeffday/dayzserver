@@ -88,6 +88,7 @@ Do not forget to add attribute act="car", if root class represents moveable vehi
 	<!-- Tech's Weapon Mod -->
 	<ce folder="twm">
 		<file name="twm_types.xml" type="types" />
+		<file name="twm_attachments.xml" type="types" />
 		<file name="twm_spawnabletypes.xml" type="spawnabletypes" />
 	</ce>
 
