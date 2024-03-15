@@ -126,4 +126,10 @@ Do not forget to add attribute act="car", if root class represents moveable vehi
 		<file name="W_Tan_Color_Clothes.xml" type="types" />
 		<file name="W_wintercoif.xml" type="types" />
 	</ce>
+
+	<!-- RogueZXC AK-12 -->
+	<ce folder="rzxc">
+		<file name="types.xml" type="types" />
+		<file name="cfgspawnabletypes.xml" type="spawnabletypes" />
+	</ce>
 </economycore>
