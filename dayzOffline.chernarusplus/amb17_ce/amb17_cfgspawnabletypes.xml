@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<spawnabletypes>
+	<type name="ASC_AMB17">
+        <attachments preset="ar_optics" />
+		<attachments chance="1.00">
+            <item name="ASC_AMB17_Bttstck" chance="1.00" />
+        </attachments>
+		<attachments chance="0.50">
+            <item name="Mag_VSS_10Rnd" chance="0.10" />
+			<item name="Mag_VAL_20Rnd" chance="0.20" />
+			<item name="Mag_ASC_AMB17_25Rnd" chance="0.35" />
+			<item name="Mag_ASC_AMB17_25Rnd_Black" chance="0.35" />
+        </attachments>
+	</type>
+</spawnabletypes>
