@@ -2844,10 +2844,9 @@
         <quantmin>30</quantmin>
         <quantmax>80</quantmax>
         <cost>100</cost>
-        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="1" crafted="0" deloot="1"/>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="1" crafted="0" deloot="0"/>
         <category name="weapons"/>
-        <usage name="Military"/>
-        <value name="Tier4"/>
+        <usage name="ContaminatedArea"/>
     </type>
         <type name="BO_Mag_ARX160_30rnd">
         <nominal>3</nominal>
@@ -4301,9 +4300,9 @@
         <quantmin>30</quantmin>
         <quantmax>80</quantmax>
         <cost>100</cost>
-        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="1"/>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="weapons"/>
-        <usage name="Military"/>
+        <usage name="ContaminatedArea"/>
     </type>
     <type name="BO_L115A3">
         <nominal>0</nominal>
@@ -4319,18 +4318,16 @@
         <value name="Tier4"/>
     </type>
     <type name="BO_L115A3_Green">
-        <nominal>2</nominal>
+        <nominal>1</nominal>
         <lifetime>7200</lifetime>
         <restock>300</restock>
-        <min>0</min>
+        <min>1</min>
         <quantmin>30</quantmin>
         <quantmax>80</quantmax>
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="weapons"/>
-        <usage name="Military"/>
-        <value name="Tier3"/>
-        <value name="Tier4"/>
+        <usage name="ContaminatedArea"/>
     </type>
     <type name="BO_Mag_L115A3_5rnd">
         <nominal>5</nominal>
@@ -4899,14 +4896,13 @@
         <nominal>1</nominal>
         <lifetime>7200</lifetime>
         <restock>300</restock>
-        <min>0</min>
+        <min>1</min>
         <quantmin>30</quantmin>
         <quantmax>80</quantmax>
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="weapons"/>
-        <usage name="Military"/>
-        <value name="Tier4"/>
+        <usage name="ContaminatedArea"/>
     </type>
     <type name="BO_CS5_Suppressor">
         <nominal>1</nominal>
@@ -4918,8 +4914,7 @@
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="weapons"/>
-        <usage name="Military"/>
-        <value name="Tier4"/>
+        <usage name="ContaminatedArea"/>
     </type>
     <type name="BO_Mag_CS5_10rnd">
         <nominal>3</nominal>

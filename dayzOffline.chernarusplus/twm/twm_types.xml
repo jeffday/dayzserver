@@ -1741,14 +1741,13 @@
         <nominal>1</nominal>
         <lifetime>7200</lifetime>
         <restock>300</restock>
-        <min>0</min>
+        <min>1</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="weapons"/>
-        <usage name="Military"/>
-        <value name="Tier4" />
+        <usage name="ContaminatedArea"/>
 	</type>
 	<type name="TWM_MCPistol_Suppressor">
         <nominal>5</nominal>
@@ -2362,15 +2361,14 @@
 	<type name="TWM_SV98">
 		<nominal>1</nominal>
         <lifetime>7200</lifetime>
-        <restock>14400</restock>
-		<min>0</min>
+        <restock>300</restock>
+		<min>1</min>
         <quantmin>30</quantmin>
         <quantmax>80</quantmax>
 		<cost>100</cost> 
 		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
 		<category name="weapons" />
-        <usage name="Military"/>
-        <value name="Tier4"/>
+        <usage name="ContaminatedArea"/>
 	</type>
 	<type name="TWM_SV98_Mag_10rnd">
         <nominal>3</nominal>
@@ -2778,10 +2776,9 @@
         <quantmin>30</quantmin>
         <quantmax>80</quantmax>
 		<cost>80</cost> 
-		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="1" />
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
 		<category name="weapons" />
-        <usage name="Military"/>
-        <value name="Tier4"/>
+        <usage name="ContaminatedArea"/>
 	</type>
 	<type name="TWM_HK417_OD">
 		<nominal>1</nominal>
@@ -2791,10 +2788,9 @@
         <quantmin>30</quantmin>
         <quantmax>80</quantmax>
 		<cost>80</cost> 
-		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="1" />
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
 		<category name="weapons" />
-        <usage name="Military"/>
-        <value name="Tier4"/>
+        <usage name="ContaminatedArea"/>
 	</type>
 	<type name="TWM_HK417_Tan">
 		<nominal>0</nominal>
