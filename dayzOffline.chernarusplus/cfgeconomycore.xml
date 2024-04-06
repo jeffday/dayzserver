@@ -149,4 +149,23 @@ Do not forget to add attribute act="car", if root class represents moveable vehi
 		<file name="msp_types.xml" type="types" />
 	</ce>
 
+	<!-- MSF-C -->
+	<ce folder="msfc">
+		<file name="MSFC_Types_BaseColorClothes.xml" type="types" />
+		<file name="MSFC_TypesATACSAU.xml" type="types" />
+		<file name="MSFC_TypesATACSFG.xml" type="types" />
+		<file name="MSFC_TypesFlagPole.xml" type="types" />
+		<file name="MSFC_TypesMulticam.xml" type="types" />
+		<file name="MSFC_TypesMulticamBlack.xml" type="types" />
+		<file name="MSFC_TypesMulticamSnow.xml" type="types" />
+		<file name="MSFC_TypesMulticamTropic.xml" type="types" />
+		<file name="MSFC_TypesNVG.xml" type="types" />
+		<file name="MSFC_TypesSURPAT.xml" type="types" />
+		<file name="MSFC_TypesVelcroPatch.xml" type="types" />
+		<file name="MSFC_TypesWeaponMagazines.xml" type="types" />
+		<file name="MSFC_TypesWeapons.xml" type="types" />
+		<file name="MSFC_TypesWeaponSupports.xml" type="types" />
+		<file name="SpawnableTypes.xml.xml" type="spawnabletypes" />
+	</ce>
+
 </economycore>

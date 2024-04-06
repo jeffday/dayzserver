@@ -1,0 +1,1738 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<spawnabletypes>
+<!--AK-12-->	
+	<type name="MSFC_AK12MR">
+		<attachments chance="1.00">
+			<item name="MSFC_ButtstockAK12MR" chance="0.30" />	
+			<item name="MSFC_ButtstockAK12MR_Black" chance="0.30" />	
+			<item name="MSFC_ButtstockAK12MR_Green" chance="0.30" />	
+			<item name="MSFC_ButtstockAK12MR_Desert" chance="0.30" />
+			<item name="MSFC_ButtstockAK12MR_White" chance="0.30" />			
+			<item name="MSFC_AK_Zenitco_Buttstock" chance="0.30" />	
+			<item name="MSFC_AK_Zenitco_Buttstock_Black" chance="0.30" />
+			<item name="MSFC_AK_Zenitco_Buttstock_Green" chance="0.30" />	
+			<item name="MSFC_AK_Zenitco_Buttstock_Desert" chance="0.30" />
+			<item name="MSFC_AK_Zenitco_Buttstock_White" chance="0.30" />			
+			<item name="AK_PlasticBttstck" chance="0.30" />
+			<item name="AK_FoldingBttstck" chance="0.30" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="MSFC_Handguard_AK12MR" chance="0.30" />
+			<item name="MSFC_Handguard_AK12MR_Black" chance="0.30" />
+			<item name="MSFC_Handguard_AK12MR_Green" chance="0.30" />
+			<item name="MSFC_Handguard_AK12MR_Desert" chance="0.30" />
+			<item name="MSFC_Handguard_AK12MR_White" chance="0.30" />			
+		</attachments>
+		<attachments chance="1.00">
+			<item name="MSFC_AK12MR_30RND" chance="0.30" />
+			<item name="MSFC_AK12MR_30RND_Black" chance="0.30" />
+			<item name="MSFC_AK12MR_30RND_Green" chance="0.30" />
+			<item name="MSFC_AK12MR_30RND_Desert" chance="0.30" />
+			<item name="MSFC_AK12MR_30RND_White" chance="0.30" />			
+			<item name="MSFC_AK12MR_60RND" chance="0.30" />
+			<item name="MSFC_AK12MR_60RND_Black" chance="0.30" />
+			<item name="MSFC_AK12MR_60RND_Green" chance="0.30" />
+			<item name="MSFC_AK12MR_60RND_Desert" chance="0.30" />	
+			<item name="MSFC_AK12MR_60RND_White" chance="0.30" />				
+		</attachments>
+	</type>
+	<type name="MSFC_AK12MR_Black">
+		<attachments chance="1.00">
+			<item name="MSFC_ButtstockAK12MR" chance="0.30" />	
+			<item name="MSFC_ButtstockAK12MR_Black" chance="0.30" />	
+			<item name="MSFC_ButtstockAK12MR_Green" chance="0.30" />	
+			<item name="MSFC_ButtstockAK12MR_Desert" chance="0.30" />
+			<item name="MSFC_ButtstockAK12MR_White" chance="0.30" />			
+			<item name="MSFC_AK_Zenitco_Buttstock" chance="0.30" />	
+			<item name="MSFC_AK_Zenitco_Buttstock_Black" chance="0.30" />
+			<item name="MSFC_AK_Zenitco_Buttstock_Green" chance="0.30" />	
+			<item name="MSFC_AK_Zenitco_Buttstock_Desert" chance="0.30" />
+			<item name="MSFC_AK_Zenitco_Buttstock_White" chance="0.30" />			
+			<item name="AK_PlasticBttstck" chance="0.30" />
+			<item name="AK_FoldingBttstck" chance="0.30" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="MSFC_Handguard_AK12MR" chance="0.30" />
+			<item name="MSFC_Handguard_AK12MR_Black" chance="0.30" />
+			<item name="MSFC_Handguard_AK12MR_Green" chance="0.30" />
+			<item name="MSFC_Handguard_AK12MR_Desert" chance="0.30" />
+			<item name="MSFC_Handguard_AK12MR_White" chance="0.30" />			
+		</attachments>
+		<attachments chance="1.00">
+			<item name="MSFC_AK12MR_30RND" chance="0.30" />
+			<item name="MSFC_AK12MR_30RND_Black" chance="0.30" />
+			<item name="MSFC_AK12MR_30RND_Green" chance="0.30" />
+			<item name="MSFC_AK12MR_30RND_Desert" chance="0.30" />
+			<item name="MSFC_AK12MR_30RND_White" chance="0.30" />			
+			<item name="MSFC_AK12MR_60RND" chance="0.30" />
+			<item name="MSFC_AK12MR_60RND_Black" chance="0.30" />
+			<item name="MSFC_AK12MR_60RND_Green" chance="0.30" />
+			<item name="MSFC_AK12MR_60RND_Desert" chance="0.30" />	
+			<item name="MSFC_AK12MR_60RND_White" chance="0.30" />				
+		</attachments>
+	</type>	
+	<type name="MSFC_AK12MR_Green">
+		<attachments chance="1.00">
+			<item name="MSFC_ButtstockAK12MR" chance="0.30" />	
+			<item name="MSFC_ButtstockAK12MR_Black" chance="0.30" />	
+			<item name="MSFC_ButtstockAK12MR_Green" chance="0.30" />	
+			<item name="MSFC_ButtstockAK12MR_Desert" chance="0.30" />
+			<item name="MSFC_ButtstockAK12MR_White" chance="0.30" />			
+			<item name="MSFC_AK_Zenitco_Buttstock" chance="0.30" />	
+			<item name="MSFC_AK_Zenitco_Buttstock_Black" chance="0.30" />
+			<item name="MSFC_AK_Zenitco_Buttstock_Green" chance="0.30" />	
+			<item name="MSFC_AK_Zenitco_Buttstock_Desert" chance="0.30" />
+			<item name="MSFC_AK_Zenitco_Buttstock_White" chance="0.30" />			
+			<item name="AK_PlasticBttstck" chance="0.30" />
+			<item name="AK_FoldingBttstck" chance="0.30" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="MSFC_Handguard_AK12MR" chance="0.30" />
+			<item name="MSFC_Handguard_AK12MR_Black" chance="0.30" />
+			<item name="MSFC_Handguard_AK12MR_Green" chance="0.30" />
+			<item name="MSFC_Handguard_AK12MR_Desert" chance="0.30" />
+			<item name="MSFC_Handguard_AK12MR_White" chance="0.30" />			
+		</attachments>
+		<attachments chance="1.00">
+			<item name="MSFC_AK12MR_30RND" chance="0.30" />
+			<item name="MSFC_AK12MR_30RND_Black" chance="0.30" />
+			<item name="MSFC_AK12MR_30RND_Green" chance="0.30" />
+			<item name="MSFC_AK12MR_30RND_Desert" chance="0.30" />
+			<item name="MSFC_AK12MR_30RND_White" chance="0.30" />			
+			<item name="MSFC_AK12MR_60RND" chance="0.30" />
+			<item name="MSFC_AK12MR_60RND_Black" chance="0.30" />
+			<item name="MSFC_AK12MR_60RND_Green" chance="0.30" />
+			<item name="MSFC_AK12MR_60RND_Desert" chance="0.30" />	
+			<item name="MSFC_AK12MR_60RND_White" chance="0.30" />				
+		</attachments>
+	</type>		
+	<type name="MSFC_AK12MR_Desert">
+		<attachments chance="1.00">
+			<item name="MSFC_ButtstockAK12MR" chance="0.30" />	
+			<item name="MSFC_ButtstockAK12MR_Black" chance="0.30" />	
+			<item name="MSFC_ButtstockAK12MR_Green" chance="0.30" />	
+			<item name="MSFC_ButtstockAK12MR_Desert" chance="0.30" />
+			<item name="MSFC_ButtstockAK12MR_White" chance="0.30" />			
+			<item name="MSFC_AK_Zenitco_Buttstock" chance="0.30" />	
+			<item name="MSFC_AK_Zenitco_Buttstock_Black" chance="0.30" />
+			<item name="MSFC_AK_Zenitco_Buttstock_Green" chance="0.30" />	
+			<item name="MSFC_AK_Zenitco_Buttstock_Desert" chance="0.30" />
+			<item name="MSFC_AK_Zenitco_Buttstock_White" chance="0.30" />			
+			<item name="AK_PlasticBttstck" chance="0.30" />
+			<item name="AK_FoldingBttstck" chance="0.30" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="MSFC_Handguard_AK12MR" chance="0.30" />
+			<item name="MSFC_Handguard_AK12MR_Black" chance="0.30" />
+			<item name="MSFC_Handguard_AK12MR_Green" chance="0.30" />
+			<item name="MSFC_Handguard_AK12MR_Desert" chance="0.30" />
+			<item name="MSFC_Handguard_AK12MR_White" chance="0.30" />			
+		</attachments>
+		<attachments chance="1.00">
+			<item name="MSFC_AK12MR_30RND" chance="0.30" />
+			<item name="MSFC_AK12MR_30RND_Black" chance="0.30" />
+			<item name="MSFC_AK12MR_30RND_Green" chance="0.30" />
+			<item name="MSFC_AK12MR_30RND_Desert" chance="0.30" />
+			<item name="MSFC_AK12MR_30RND_White" chance="0.30" />			
+			<item name="MSFC_AK12MR_60RND" chance="0.30" />
+			<item name="MSFC_AK12MR_60RND_Black" chance="0.30" />
+			<item name="MSFC_AK12MR_60RND_Green" chance="0.30" />
+			<item name="MSFC_AK12MR_60RND_Desert" chance="0.30" />	
+			<item name="MSFC_AK12MR_60RND_White" chance="0.30" />				
+		</attachments>
+	</type>	
+	<type name="MSFC_AK12MR_White">
+		<attachments chance="1.00">
+			<item name="MSFC_ButtstockAK12MR" chance="0.30" />	
+			<item name="MSFC_ButtstockAK12MR_Black" chance="0.30" />	
+			<item name="MSFC_ButtstockAK12MR_Green" chance="0.30" />	
+			<item name="MSFC_ButtstockAK12MR_Desert" chance="0.30" />
+			<item name="MSFC_ButtstockAK12MR_White" chance="0.30" />			
+			<item name="MSFC_AK_Zenitco_Buttstock" chance="0.30" />	
+			<item name="MSFC_AK_Zenitco_Buttstock_Black" chance="0.30" />
+			<item name="MSFC_AK_Zenitco_Buttstock_Green" chance="0.30" />	
+			<item name="MSFC_AK_Zenitco_Buttstock_Desert" chance="0.30" />
+			<item name="MSFC_AK_Zenitco_Buttstock_White" chance="0.30" />			
+			<item name="AK_PlasticBttstck" chance="0.30" />
+			<item name="AK_FoldingBttstck" chance="0.30" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="MSFC_Handguard_AK12MR" chance="0.30" />
+			<item name="MSFC_Handguard_AK12MR_Black" chance="0.30" />
+			<item name="MSFC_Handguard_AK12MR_Green" chance="0.30" />
+			<item name="MSFC_Handguard_AK12MR_Desert" chance="0.30" />
+			<item name="MSFC_Handguard_AK12MR_White" chance="0.30" />			
+		</attachments>
+		<attachments chance="1.00">
+			<item name="MSFC_AK12MR_30RND" chance="0.30" />
+			<item name="MSFC_AK12MR_30RND_Black" chance="0.30" />
+			<item name="MSFC_AK12MR_30RND_Green" chance="0.30" />
+			<item name="MSFC_AK12MR_30RND_Desert" chance="0.30" />
+			<item name="MSFC_AK12MR_30RND_White" chance="0.30" />			
+			<item name="MSFC_AK12MR_60RND" chance="0.30" />
+			<item name="MSFC_AK12MR_60RND_Black" chance="0.30" />
+			<item name="MSFC_AK12MR_60RND_Green" chance="0.30" />
+			<item name="MSFC_AK12MR_60RND_Desert" chance="0.30" />	
+			<item name="MSFC_AK12MR_60RND_White" chance="0.30" />				
+		</attachments>
+	</type>		
+<!--AK-15-->	
+	<type name="MSFC_AK15MR">
+		<attachments chance="1.00">
+			<item name="MSFC_ButtstockAK12MR" chance="0.30" />	
+			<item name="MSFC_ButtstockAK12MR_Black" chance="0.30" />	
+			<item name="MSFC_ButtstockAK12MR_Green" chance="0.30" />	
+			<item name="MSFC_ButtstockAK12MR_Desert" chance="0.30" />
+			<item name="MSFC_ButtstockAK12MR_White" chance="0.30" />			
+			<item name="MSFC_AK_Zenitco_Buttstock" chance="0.30" />	
+			<item name="MSFC_AK_Zenitco_Buttstock_Black" chance="0.30" />
+			<item name="MSFC_AK_Zenitco_Buttstock_Green" chance="0.30" />	
+			<item name="MSFC_AK_Zenitco_Buttstock_Desert" chance="0.30" />
+			<item name="MSFC_AK_Zenitco_Buttstock_White" chance="0.30" />			
+			<item name="AK_PlasticBttstck" chance="0.30" />
+			<item name="AK_FoldingBttstck" chance="0.30" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="MSFC_Handguard_AK12MR" chance="0.30" />
+			<item name="MSFC_Handguard_AK12MR_Black" chance="0.30" />
+			<item name="MSFC_Handguard_AK12MR_Green" chance="0.30" />
+			<item name="MSFC_Handguard_AK12MR_Desert" chance="0.30" />
+			<item name="MSFC_Handguard_AK12MR_White" chance="0.30" />			
+		</attachments>
+		<attachments chance="1.00">
+			<item name="MSFC_AK15MR_30RND" chance="0.30" />
+			<item name="MSFC_AK15MR_30RND_Black" chance="0.30" />
+			<item name="MSFC_AK15MR_30RND_Green" chance="0.30" />
+			<item name="MSFC_AK15MR_30RND_Desert" chance="0.30" />
+			<item name="MSFC_AK15MR_30RND_White" chance="0.30" />			
+			<item name="MSFC_AKM_30RND" chance="0.30" />
+			<item name="MSFC_AKM_30RND_Black" chance="0.30" />
+			<item name="MSFC_AKM_30RND_Green" chance="0.30" />
+			<item name="MSFC_AKM_30RND_Desert" chance="0.30" />
+			<item name="MSFC_AKM_30RND_White" chance="0.30" />
+			<item name="MSFC_RPK_45RND" chance="0.30" />
+			<item name="MSFC_RPK_Plastic_45RND" chance="0.30" />			
+		</attachments>
+	</type>
+	<type name="MSFC_AK15MR_Black">
+		<attachments chance="1.00">
+			<item name="MSFC_ButtstockAK12MR" chance="0.30" />	
+			<item name="MSFC_ButtstockAK12MR_Black" chance="0.30" />	
+			<item name="MSFC_ButtstockAK12MR_Green" chance="0.30" />	
+			<item name="MSFC_ButtstockAK12MR_Desert" chance="0.30" />
+			<item name="MSFC_ButtstockAK12MR_White" chance="0.30" />			
+			<item name="MSFC_AK_Zenitco_Buttstock" chance="0.30" />	
+			<item name="MSFC_AK_Zenitco_Buttstock_Black" chance="0.30" />
+			<item name="MSFC_AK_Zenitco_Buttstock_Green" chance="0.30" />	
+			<item name="MSFC_AK_Zenitco_Buttstock_Desert" chance="0.30" />
+			<item name="MSFC_AK_Zenitco_Buttstock_White" chance="0.30" />			
+			<item name="AK_PlasticBttstck" chance="0.30" />
+			<item name="AK_FoldingBttstck" chance="0.30" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="MSFC_Handguard_AK12MR" chance="0.30" />
+			<item name="MSFC_Handguard_AK12MR_Black" chance="0.30" />
+			<item name="MSFC_Handguard_AK12MR_Green" chance="0.30" />
+			<item name="MSFC_Handguard_AK12MR_Desert" chance="0.30" />
+			<item name="MSFC_Handguard_AK12MR_White" chance="0.30" />			
+		</attachments>
+		<attachments chance="1.00">
+			<item name="MSFC_AK15MR_30RND" chance="0.30" />
+			<item name="MSFC_AK15MR_30RND_Black" chance="0.30" />
+			<item name="MSFC_AK15MR_30RND_Green" chance="0.30" />
+			<item name="MSFC_AK15MR_30RND_Desert" chance="0.30" />
+			<item name="MSFC_AK15MR_30RND_White" chance="0.30" />			
+			<item name="MSFC_AKM_30RND" chance="0.30" />
+			<item name="MSFC_AKM_30RND_Black" chance="0.30" />
+			<item name="MSFC_AKM_30RND_Green" chance="0.30" />
+			<item name="MSFC_AKM_30RND_Desert" chance="0.30" />
+			<item name="MSFC_AKM_30RND_White" chance="0.30" />
+			<item name="MSFC_RPK_45RND" chance="0.30" />
+			<item name="MSFC_RPK_Plastic_45RND" chance="0.30" />			
+		</attachments>
+	</type>	
+	<type name="MSFC_AK15MR_Green">
+		<attachments chance="1.00">
+			<item name="MSFC_ButtstockAK12MR" chance="0.30" />	
+			<item name="MSFC_ButtstockAK12MR_Black" chance="0.30" />	
+			<item name="MSFC_ButtstockAK12MR_Green" chance="0.30" />	
+			<item name="MSFC_ButtstockAK12MR_Desert" chance="0.30" />
+			<item name="MSFC_ButtstockAK12MR_White" chance="0.30" />			
+			<item name="MSFC_AK_Zenitco_Buttstock" chance="0.30" />	
+			<item name="MSFC_AK_Zenitco_Buttstock_Black" chance="0.30" />
+			<item name="MSFC_AK_Zenitco_Buttstock_Green" chance="0.30" />	
+			<item name="MSFC_AK_Zenitco_Buttstock_Desert" chance="0.30" />
+			<item name="MSFC_AK_Zenitco_Buttstock_White" chance="0.30" />			
+			<item name="AK_PlasticBttstck" chance="0.30" />
+			<item name="AK_FoldingBttstck" chance="0.30" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="MSFC_Handguard_AK12MR" chance="0.30" />
+			<item name="MSFC_Handguard_AK12MR_Black" chance="0.30" />
+			<item name="MSFC_Handguard_AK12MR_Green" chance="0.30" />
+			<item name="MSFC_Handguard_AK12MR_Desert" chance="0.30" />
+			<item name="MSFC_Handguard_AK12MR_White" chance="0.30" />			
+		</attachments>
+		<attachments chance="1.00">
+			<item name="MSFC_AK15MR_30RND" chance="0.30" />
+			<item name="MSFC_AK15MR_30RND_Black" chance="0.30" />
+			<item name="MSFC_AK15MR_30RND_Green" chance="0.30" />
+			<item name="MSFC_AK15MR_30RND_Desert" chance="0.30" />
+			<item name="MSFC_AK15MR_30RND_White" chance="0.30" />			
+			<item name="MSFC_AKM_30RND" chance="0.30" />
+			<item name="MSFC_AKM_30RND_Black" chance="0.30" />
+			<item name="MSFC_AKM_30RND_Green" chance="0.30" />
+			<item name="MSFC_AKM_30RND_Desert" chance="0.30" />
+			<item name="MSFC_AKM_30RND_White" chance="0.30" />
+			<item name="MSFC_RPK_45RND" chance="0.30" />
+			<item name="MSFC_RPK_Plastic_45RND" chance="0.30" />			
+		</attachments>
+	</type>	
+	<type name="MSFC_AK15MR_Desert">
+		<attachments chance="1.00">
+			<item name="MSFC_ButtstockAK12MR" chance="0.30" />	
+			<item name="MSFC_ButtstockAK12MR_Black" chance="0.30" />	
+			<item name="MSFC_ButtstockAK12MR_Green" chance="0.30" />	
+			<item name="MSFC_ButtstockAK12MR_Desert" chance="0.30" />
+			<item name="MSFC_ButtstockAK12MR_White" chance="0.30" />			
+			<item name="MSFC_AK_Zenitco_Buttstock" chance="0.30" />	
+			<item name="MSFC_AK_Zenitco_Buttstock_Black" chance="0.30" />
+			<item name="MSFC_AK_Zenitco_Buttstock_Green" chance="0.30" />	
+			<item name="MSFC_AK_Zenitco_Buttstock_Desert" chance="0.30" />
+			<item name="MSFC_AK_Zenitco_Buttstock_White" chance="0.30" />			
+			<item name="AK_PlasticBttstck" chance="0.30" />
+			<item name="AK_FoldingBttstck" chance="0.30" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="MSFC_Handguard_AK12MR" chance="0.30" />
+			<item name="MSFC_Handguard_AK12MR_Black" chance="0.30" />
+			<item name="MSFC_Handguard_AK12MR_Green" chance="0.30" />
+			<item name="MSFC_Handguard_AK12MR_Desert" chance="0.30" />
+			<item name="MSFC_Handguard_AK12MR_White" chance="0.30" />			
+		</attachments>
+		<attachments chance="1.00">
+			<item name="MSFC_AK15MR_30RND" chance="0.30" />
+			<item name="MSFC_AK15MR_30RND_Black" chance="0.30" />
+			<item name="MSFC_AK15MR_30RND_Green" chance="0.30" />
+			<item name="MSFC_AK15MR_30RND_Desert" chance="0.30" />
+			<item name="MSFC_AK15MR_30RND_White" chance="0.30" />			
+			<item name="MSFC_AKM_30RND" chance="0.30" />
+			<item name="MSFC_AKM_30RND_Black" chance="0.30" />
+			<item name="MSFC_AKM_30RND_Green" chance="0.30" />
+			<item name="MSFC_AKM_30RND_Desert" chance="0.30" />
+			<item name="MSFC_AKM_30RND_White" chance="0.30" />
+			<item name="MSFC_RPK_45RND" chance="0.30" />
+			<item name="MSFC_RPK_Plastic_45RND" chance="0.30" />			
+		</attachments>
+	</type>			
+	<type name="MSFC_AK15MR_White">
+		<attachments chance="1.00">
+			<item name="MSFC_ButtstockAK12MR" chance="0.30" />	
+			<item name="MSFC_ButtstockAK12MR_Black" chance="0.30" />	
+			<item name="MSFC_ButtstockAK12MR_Green" chance="0.30" />	
+			<item name="MSFC_ButtstockAK12MR_Desert" chance="0.30" />
+			<item name="MSFC_ButtstockAK12MR_White" chance="0.30" />			
+			<item name="MSFC_AK_Zenitco_Buttstock" chance="0.30" />	
+			<item name="MSFC_AK_Zenitco_Buttstock_Black" chance="0.30" />
+			<item name="MSFC_AK_Zenitco_Buttstock_Green" chance="0.30" />	
+			<item name="MSFC_AK_Zenitco_Buttstock_Desert" chance="0.30" />
+			<item name="MSFC_AK_Zenitco_Buttstock_White" chance="0.30" />			
+			<item name="AK_PlasticBttstck" chance="0.30" />
+			<item name="AK_FoldingBttstck" chance="0.30" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="MSFC_Handguard_AK12MR" chance="0.30" />
+			<item name="MSFC_Handguard_AK12MR_Black" chance="0.30" />
+			<item name="MSFC_Handguard_AK12MR_Green" chance="0.30" />
+			<item name="MSFC_Handguard_AK12MR_Desert" chance="0.30" />
+			<item name="MSFC_Handguard_AK12MR_White" chance="0.30" />			
+		</attachments>
+		<attachments chance="1.00">
+			<item name="MSFC_AK15MR_30RND" chance="0.30" />
+			<item name="MSFC_AK15MR_30RND_Black" chance="0.30" />
+			<item name="MSFC_AK15MR_30RND_Green" chance="0.30" />
+			<item name="MSFC_AK15MR_30RND_Desert" chance="0.30" />
+			<item name="MSFC_AK15MR_30RND_White" chance="0.30" />			
+			<item name="MSFC_AKM_30RND" chance="0.30" />
+			<item name="MSFC_AKM_30RND_Black" chance="0.30" />
+			<item name="MSFC_AKM_30RND_Green" chance="0.30" />
+			<item name="MSFC_AKM_30RND_Desert" chance="0.30" />
+			<item name="MSFC_AKM_30RND_White" chance="0.30" />
+			<item name="MSFC_RPK_45RND" chance="0.30" />
+			<item name="MSFC_RPK_Plastic_45RND" chance="0.30" />			
+		</attachments>		
+	</type>	
+<!--AK-103-->		
+	<type name="MSFC_AK103">
+		<attachments chance="1.00">
+			<item name="MSFC_ButtstockAK12MR" chance="0.30" />	
+			<item name="MSFC_ButtstockAK12MR_Black" chance="0.30" />	
+			<item name="MSFC_ButtstockAK12MR_Green" chance="0.30" />	
+			<item name="MSFC_ButtstockAK12MR_Desert" chance="0.30" />
+			<item name="MSFC_ButtstockAK12MR_White" chance="0.30" />			
+			<item name="MSFC_AK_Zenitco_Buttstock" chance="0.30" />	
+			<item name="MSFC_AK_Zenitco_Buttstock_Black" chance="0.30" />
+			<item name="MSFC_AK_Zenitco_Buttstock_Green" chance="0.30" />	
+			<item name="MSFC_AK_Zenitco_Buttstock_Desert" chance="0.30" />
+			<item name="MSFC_AK_Zenitco_Buttstock_White" chance="0.30" />			
+			<item name="AK_PlasticBttstck" chance="0.30" />
+			<item name="AK_FoldingBttstck" chance="0.30" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="AK_PlasticHndgrd" chance="0.30" />
+			<item name="AK_RailHndgrd" chance="0.30" />
+			<item name="MSFC_AK_Zenitco_Handguard" chance="0.30" />	
+			<item name="MSFC_AK_Zenitco_Handguard_Black" chance="0.30" />	
+			<item name="MSFC_AK_Zenitco_Handguard_Green" chance="0.30" />			
+			<item name="MSFC_AK_Zenitco_Handguard_Desert" chance="0.30" />	
+			<item name="MSFC_AK_Zenitco_Handguard_White" chance="0.30" />			
+		</attachments>
+		<attachments chance="1.00">
+			<item name="MSFC_AK15MR_30RND" chance="0.30" />
+			<item name="MSFC_AK15MR_30RND_Black" chance="0.30" />
+			<item name="MSFC_AK15MR_30RND_Green" chance="0.30" />
+			<item name="MSFC_AK15MR_30RND_Desert" chance="0.30" />
+			<item name="MSFC_AK15MR_30RND_White" chance="0.30" />			
+			<item name="MSFC_AKM_30RND" chance="0.30" />
+			<item name="MSFC_AKM_30RND_Black" chance="0.30" />
+			<item name="MSFC_AKM_30RND_Green" chance="0.30" />
+			<item name="MSFC_AKM_30RND_Desert" chance="0.30" />
+			<item name="MSFC_AKM_30RND_White" chance="0.30" />
+			<item name="MSFC_RPK_45RND" chance="0.30" />
+			<item name="MSFC_RPK_Plastic_45RND" chance="0.30" />			
+		</attachments>	
+	</type>	
+	<type name="MSFC_AK103_Black">
+		<attachments chance="1.00">
+			<item name="MSFC_ButtstockAK12MR" chance="0.30" />	
+			<item name="MSFC_ButtstockAK12MR_Black" chance="0.30" />	
+			<item name="MSFC_ButtstockAK12MR_Green" chance="0.30" />	
+			<item name="MSFC_ButtstockAK12MR_Desert" chance="0.30" />
+			<item name="MSFC_ButtstockAK12MR_White" chance="0.30" />			
+			<item name="MSFC_AK_Zenitco_Buttstock" chance="0.30" />	
+			<item name="MSFC_AK_Zenitco_Buttstock_Black" chance="0.30" />
+			<item name="MSFC_AK_Zenitco_Buttstock_Green" chance="0.30" />	
+			<item name="MSFC_AK_Zenitco_Buttstock_Desert" chance="0.30" />
+			<item name="MSFC_AK_Zenitco_Buttstock_White" chance="0.30" />			
+			<item name="AK_PlasticBttstck" chance="0.30" />
+			<item name="AK_FoldingBttstck" chance="0.30" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="AK_PlasticHndgrd" chance="0.30" />
+			<item name="AK_RailHndgrd" chance="0.30" />
+			<item name="MSFC_AK_Zenitco_Handguard" chance="0.30" />	
+			<item name="MSFC_AK_Zenitco_Handguard_Black" chance="0.30" />	
+			<item name="MSFC_AK_Zenitco_Handguard_Green" chance="0.30" />			
+			<item name="MSFC_AK_Zenitco_Handguard_Desert" chance="0.30" />	
+			<item name="MSFC_AK_Zenitco_Handguard_White" chance="0.30" />			
+		</attachments>
+		<attachments chance="1.00">
+			<item name="MSFC_AK15MR_30RND" chance="0.30" />
+			<item name="MSFC_AK15MR_30RND_Black" chance="0.30" />
+			<item name="MSFC_AK15MR_30RND_Green" chance="0.30" />
+			<item name="MSFC_AK15MR_30RND_Desert" chance="0.30" />
+			<item name="MSFC_AK15MR_30RND_White" chance="0.30" />			
+			<item name="MSFC_AKM_30RND" chance="0.30" />
+			<item name="MSFC_AKM_30RND_Black" chance="0.30" />
+			<item name="MSFC_AKM_30RND_Green" chance="0.30" />
+			<item name="MSFC_AKM_30RND_Desert" chance="0.30" />
+			<item name="MSFC_AKM_30RND_White" chance="0.30" />
+			<item name="MSFC_RPK_45RND" chance="0.30" />
+			<item name="MSFC_RPK_Plastic_45RND" chance="0.30" />			
+		</attachments>	
+	</type>	
+	<type name="MSFC_AK103_Green">
+		<attachments chance="1.00">
+			<item name="MSFC_ButtstockAK12MR" chance="0.30" />	
+			<item name="MSFC_ButtstockAK12MR_Black" chance="0.30" />	
+			<item name="MSFC_ButtstockAK12MR_Green" chance="0.30" />	
+			<item name="MSFC_ButtstockAK12MR_Desert" chance="0.30" />
+			<item name="MSFC_ButtstockAK12MR_White" chance="0.30" />			
+			<item name="MSFC_AK_Zenitco_Buttstock" chance="0.30" />	
+			<item name="MSFC_AK_Zenitco_Buttstock_Black" chance="0.30" />
+			<item name="MSFC_AK_Zenitco_Buttstock_Green" chance="0.30" />	
+			<item name="MSFC_AK_Zenitco_Buttstock_Desert" chance="0.30" />
+			<item name="MSFC_AK_Zenitco_Buttstock_White" chance="0.30" />			
+			<item name="AK_PlasticBttstck" chance="0.30" />
+			<item name="AK_FoldingBttstck" chance="0.30" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="AK_PlasticHndgrd" chance="0.30" />
+			<item name="AK_RailHndgrd" chance="0.30" />
+			<item name="MSFC_AK_Zenitco_Handguard" chance="0.30" />	
+			<item name="MSFC_AK_Zenitco_Handguard_Black" chance="0.30" />	
+			<item name="MSFC_AK_Zenitco_Handguard_Green" chance="0.30" />			
+			<item name="MSFC_AK_Zenitco_Handguard_Desert" chance="0.30" />	
+			<item name="MSFC_AK_Zenitco_Handguard_White" chance="0.30" />			
+		</attachments>
+		<attachments chance="1.00">
+			<item name="MSFC_AK15MR_30RND" chance="0.30" />
+			<item name="MSFC_AK15MR_30RND_Black" chance="0.30" />
+			<item name="MSFC_AK15MR_30RND_Green" chance="0.30" />
+			<item name="MSFC_AK15MR_30RND_Desert" chance="0.30" />
+			<item name="MSFC_AK15MR_30RND_White" chance="0.30" />			
+			<item name="MSFC_AKM_30RND" chance="0.30" />
+			<item name="MSFC_AKM_30RND_Black" chance="0.30" />
+			<item name="MSFC_AKM_30RND_Green" chance="0.30" />
+			<item name="MSFC_AKM_30RND_Desert" chance="0.30" />
+			<item name="MSFC_AKM_30RND_White" chance="0.30" />
+			<item name="MSFC_RPK_45RND" chance="0.30" />
+			<item name="MSFC_RPK_Plastic_45RND" chance="0.30" />			
+		</attachments>	
+	</type>	
+	<type name="MSFC_AK103_Desert">
+		<attachments chance="1.00">
+			<item name="MSFC_ButtstockAK12MR" chance="0.30" />	
+			<item name="MSFC_ButtstockAK12MR_Black" chance="0.30" />	
+			<item name="MSFC_ButtstockAK12MR_Green" chance="0.30" />	
+			<item name="MSFC_ButtstockAK12MR_Desert" chance="0.30" />
+			<item name="MSFC_ButtstockAK12MR_White" chance="0.30" />			
+			<item name="MSFC_AK_Zenitco_Buttstock" chance="0.30" />	
+			<item name="MSFC_AK_Zenitco_Buttstock_Black" chance="0.30" />
+			<item name="MSFC_AK_Zenitco_Buttstock_Green" chance="0.30" />	
+			<item name="MSFC_AK_Zenitco_Buttstock_Desert" chance="0.30" />
+			<item name="MSFC_AK_Zenitco_Buttstock_White" chance="0.30" />			
+			<item name="AK_PlasticBttstck" chance="0.30" />
+			<item name="AK_FoldingBttstck" chance="0.30" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="AK_PlasticHndgrd" chance="0.30" />
+			<item name="AK_RailHndgrd" chance="0.30" />
+			<item name="MSFC_AK_Zenitco_Handguard" chance="0.30" />	
+			<item name="MSFC_AK_Zenitco_Handguard_Black" chance="0.30" />	
+			<item name="MSFC_AK_Zenitco_Handguard_Green" chance="0.30" />			
+			<item name="MSFC_AK_Zenitco_Handguard_Desert" chance="0.30" />	
+			<item name="MSFC_AK_Zenitco_Handguard_White" chance="0.30" />			
+		</attachments>
+		<attachments chance="1.00">
+			<item name="MSFC_AK15MR_30RND" chance="0.30" />
+			<item name="MSFC_AK15MR_30RND_Black" chance="0.30" />
+			<item name="MSFC_AK15MR_30RND_Green" chance="0.30" />
+			<item name="MSFC_AK15MR_30RND_Desert" chance="0.30" />
+			<item name="MSFC_AK15MR_30RND_White" chance="0.30" />			
+			<item name="MSFC_AKM_30RND" chance="0.30" />
+			<item name="MSFC_AKM_30RND_Black" chance="0.30" />
+			<item name="MSFC_AKM_30RND_Green" chance="0.30" />
+			<item name="MSFC_AKM_30RND_Desert" chance="0.30" />
+			<item name="MSFC_AKM_30RND_White" chance="0.30" />
+			<item name="MSFC_RPK_45RND" chance="0.30" />
+			<item name="MSFC_RPK_Plastic_45RND" chance="0.30" />			
+		</attachments>	
+	</type>
+	<type name="MSFC_AK103_White">
+		<attachments chance="1.00">
+			<item name="MSFC_ButtstockAK12MR" chance="0.30" />	
+			<item name="MSFC_ButtstockAK12MR_Black" chance="0.30" />	
+			<item name="MSFC_ButtstockAK12MR_Green" chance="0.30" />	
+			<item name="MSFC_ButtstockAK12MR_Desert" chance="0.30" />
+			<item name="MSFC_ButtstockAK12MR_White" chance="0.30" />			
+			<item name="MSFC_AK_Zenitco_Buttstock" chance="0.30" />	
+			<item name="MSFC_AK_Zenitco_Buttstock_Black" chance="0.30" />
+			<item name="MSFC_AK_Zenitco_Buttstock_Green" chance="0.30" />	
+			<item name="MSFC_AK_Zenitco_Buttstock_Desert" chance="0.30" />
+			<item name="MSFC_AK_Zenitco_Buttstock_White" chance="0.30" />			
+			<item name="AK_PlasticBttstck" chance="0.30" />
+			<item name="AK_FoldingBttstck" chance="0.30" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="AK_PlasticHndgrd" chance="0.30" />
+			<item name="AK_RailHndgrd" chance="0.30" />
+			<item name="MSFC_AK_Zenitco_Handguard" chance="0.30" />	
+			<item name="MSFC_AK_Zenitco_Handguard_Black" chance="0.30" />	
+			<item name="MSFC_AK_Zenitco_Handguard_Green" chance="0.30" />			
+			<item name="MSFC_AK_Zenitco_Handguard_Desert" chance="0.30" />	
+			<item name="MSFC_AK_Zenitco_Handguard_White" chance="0.30" />			
+		</attachments>
+		<attachments chance="1.00">
+			<item name="MSFC_AK15MR_30RND" chance="0.30" />
+			<item name="MSFC_AK15MR_30RND_Black" chance="0.30" />
+			<item name="MSFC_AK15MR_30RND_Green" chance="0.30" />
+			<item name="MSFC_AK15MR_30RND_Desert" chance="0.30" />
+			<item name="MSFC_AK15MR_30RND_White" chance="0.30" />			
+			<item name="MSFC_AKM_30RND" chance="0.30" />
+			<item name="MSFC_AKM_30RND_Black" chance="0.30" />
+			<item name="MSFC_AKM_30RND_Green" chance="0.30" />
+			<item name="MSFC_AKM_30RND_Desert" chance="0.30" />
+			<item name="MSFC_AKM_30RND_White" chance="0.30" />
+			<item name="MSFC_RPK_45RND" chance="0.30" />
+			<item name="MSFC_RPK_Plastic_45RND" chance="0.30" />			
+		</attachments>	
+	</type>		
+<!--Barrett M82-->		
+	<type name="MSFC_BarrettM82">
+		<attachments chance="1.00">
+			<item name="MSFC_BarrettM82_Mag10RND" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="HuntingOptic" chance="1.00" />
+		</attachments>
+	</type>	
+	<type name="MSFC_BarrettM82_Black">
+		<attachments chance="1.00">
+			<item name="MSFC_BarrettM82_Mag10RND" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="HuntingOptic" chance="1.00" />
+		</attachments>
+	</type>		
+	<type name="MSFC_BarrettM82_Green">
+		<attachments chance="1.00">
+			<item name="MSFC_BarrettM82_Mag10RND" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="HuntingOptic" chance="1.00" />
+		</attachments>
+	</type>	
+	<type name="MSFC_BarrettM82_Desert">
+		<attachments chance="1.00">
+			<item name="MSFC_BarrettM82_Mag10RND" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="HuntingOptic" chance="1.00" />
+		</attachments>
+	</type>	
+	<type name="MSFC_BarrettM82_White">
+		<attachments chance="1.00">
+			<item name="MSFC_BarrettM82_Mag10RND" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="HuntingOptic" chance="1.00" />
+		</attachments>
+	</type>		
+<!--CZ 805-->
+	<type name="MSFC_CZ805">
+		<attachments chance="1.00">
+			<item name="MSFC_STANAG556_Mag_30Rnd" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="MSFC_ButtstockCZ805" chance="0.30" />
+			<item name="MSFC_ButtstockCZ805_Black" chance="0.30" />	
+			<item name="MSFC_ButtstockCZ805_Green" chance="0.30" />
+			<item name="MSFC_ButtstockCZ805_Desert" chance="0.30" />	
+			<item name="MSFC_ButtstockCZ805_White" chance="0.30" />				
+		</attachments>		
+	</type>
+	<type name="MSFC_CZ805_Black">
+		<attachments chance="1.00">
+			<item name="MSFC_STANAG556_Mag_30Rnd" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="MSFC_ButtstockCZ805" chance="0.30" />
+			<item name="MSFC_ButtstockCZ805_Black" chance="0.30" />	
+			<item name="MSFC_ButtstockCZ805_Green" chance="0.30" />
+			<item name="MSFC_ButtstockCZ805_Desert" chance="0.30" />	
+			<item name="MSFC_ButtstockCZ805_White" chance="0.30" />				
+		</attachments>		
+	</type>	
+	<type name="MSFC_CZ805_Green">
+		<attachments chance="1.00">
+			<item name="MSFC_STANAG556_Mag_30Rnd" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="MSFC_ButtstockCZ805" chance="0.30" />
+			<item name="MSFC_ButtstockCZ805_Black" chance="0.30" />	
+			<item name="MSFC_ButtstockCZ805_Green" chance="0.30" />
+			<item name="MSFC_ButtstockCZ805_Desert" chance="0.30" />	
+			<item name="MSFC_ButtstockCZ805_White" chance="0.30" />				
+		</attachments>		
+	</type>	
+	<type name="MSFC_CZ805_Desert">
+		<attachments chance="1.00">
+			<item name="MSFC_STANAG556_Mag_30Rnd" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="MSFC_ButtstockCZ805" chance="0.30" />
+			<item name="MSFC_ButtstockCZ805_Black" chance="0.30" />	
+			<item name="MSFC_ButtstockCZ805_Green" chance="0.30" />
+			<item name="MSFC_ButtstockCZ805_Desert" chance="0.30" />	
+			<item name="MSFC_ButtstockCZ805_White" chance="0.30" />				
+		</attachments>		
+	</type>	
+	<type name="MSFC_CZ805_White">
+		<attachments chance="1.00">
+			<item name="MSFC_STANAG556_Mag_30Rnd" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="MSFC_ButtstockCZ805" chance="0.30" />
+			<item name="MSFC_ButtstockCZ805_Black" chance="0.30" />	
+			<item name="MSFC_ButtstockCZ805_Green" chance="0.30" />
+			<item name="MSFC_ButtstockCZ805_Desert" chance="0.30" />	
+			<item name="MSFC_ButtstockCZ805_White" chance="0.30" />				
+		</attachments>		
+	</type>		
+<!--HK416-->
+	<type name="MSFC_HK416">
+		<attachments chance="1.00">
+			<item name="MSFC_STANAG556_Mag_30Rnd" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="MSFC_ButtstockHK416" chance="0.30" />
+			<item name="MSFC_ButtstockHK416_Black" chance="0.30" />	
+			<item name="MSFC_ButtstockHK416_Green" chance="0.30" />	
+			<item name="MSFC_ButtstockHK416_Desert" chance="0.30" />	
+			<item name="MSFC_ButtstockHK416_White" chance="0.30" />				
+		</attachments>	
+		<attachments chance="1.00">
+			<item name="MSFC_Handguard_HK416" chance="0.30" />
+			<item name="MSFC_Handguard_HK416_Black" chance="0.30" />
+			<item name="MSFC_Handguard_HK416_Green" chance="0.30" />
+			<item name="MSFC_Handguard_HK416_Desert" chance="0.30" />
+			<item name="MSFC_Handguard_HK416_White" chance="0.30" />			
+		</attachments>	
+		<attachments chance="1.00">
+			<item name="M4_CarryHandleOptic" chance="1.00" />
+		</attachments>			
+	</type>	
+	<type name="MSFC_HK416_Black">
+		<attachments chance="1.00">
+			<item name="MSFC_STANAG556_Mag_30Rnd" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="MSFC_ButtstockHK416" chance="0.30" />
+			<item name="MSFC_ButtstockHK416_Black" chance="0.30" />	
+			<item name="MSFC_ButtstockHK416_Green" chance="0.30" />	
+			<item name="MSFC_ButtstockHK416_Desert" chance="0.30" />	
+			<item name="MSFC_ButtstockHK416_White" chance="0.30" />				
+		</attachments>	
+		<attachments chance="1.00">
+			<item name="MSFC_Handguard_HK416" chance="0.30" />
+			<item name="MSFC_Handguard_HK416_Black" chance="0.30" />
+			<item name="MSFC_Handguard_HK416_Green" chance="0.30" />
+			<item name="MSFC_Handguard_HK416_Desert" chance="0.30" />
+			<item name="MSFC_Handguard_HK416_White" chance="0.30" />			
+		</attachments>	
+		<attachments chance="1.00">
+			<item name="M4_CarryHandleOptic" chance="1.00" />
+		</attachments>			
+	</type>	
+	<type name="MSFC_HK416_Green">
+		<attachments chance="1.00">
+			<item name="MSFC_STANAG556_Mag_30Rnd" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="MSFC_ButtstockHK416" chance="0.30" />
+			<item name="MSFC_ButtstockHK416_Black" chance="0.30" />	
+			<item name="MSFC_ButtstockHK416_Green" chance="0.30" />	
+			<item name="MSFC_ButtstockHK416_Desert" chance="0.30" />	
+			<item name="MSFC_ButtstockHK416_White" chance="0.30" />				
+		</attachments>	
+		<attachments chance="1.00">
+			<item name="MSFC_Handguard_HK416" chance="0.30" />
+			<item name="MSFC_Handguard_HK416_Black" chance="0.30" />
+			<item name="MSFC_Handguard_HK416_Green" chance="0.30" />
+			<item name="MSFC_Handguard_HK416_Desert" chance="0.30" />
+			<item name="MSFC_Handguard_HK416_White" chance="0.30" />			
+		</attachments>	
+		<attachments chance="1.00">
+			<item name="M4_CarryHandleOptic" chance="1.00" />
+		</attachments>			
+	</type>	
+	<type name="MSFC_HK416_Desert">
+		<attachments chance="1.00">
+			<item name="MSFC_STANAG556_Mag_30Rnd" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="MSFC_ButtstockHK416" chance="0.30" />
+			<item name="MSFC_ButtstockHK416_Black" chance="0.30" />	
+			<item name="MSFC_ButtstockHK416_Green" chance="0.30" />	
+			<item name="MSFC_ButtstockHK416_Desert" chance="0.30" />	
+			<item name="MSFC_ButtstockHK416_White" chance="0.30" />				
+		</attachments>	
+		<attachments chance="1.00">
+			<item name="MSFC_Handguard_HK416" chance="0.30" />
+			<item name="MSFC_Handguard_HK416_Black" chance="0.30" />
+			<item name="MSFC_Handguard_HK416_Green" chance="0.30" />
+			<item name="MSFC_Handguard_HK416_Desert" chance="0.30" />
+			<item name="MSFC_Handguard_HK416_White" chance="0.30" />			
+		</attachments>	
+		<attachments chance="1.00">
+			<item name="M4_CarryHandleOptic" chance="1.00" />
+		</attachments>			
+	</type>	
+	<type name="MSFC_HK416_White">
+		<attachments chance="1.00">
+			<item name="MSFC_STANAG556_Mag_30Rnd" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="MSFC_ButtstockHK416" chance="0.30" />
+			<item name="MSFC_ButtstockHK416_Black" chance="0.30" />	
+			<item name="MSFC_ButtstockHK416_Green" chance="0.30" />	
+			<item name="MSFC_ButtstockHK416_Desert" chance="0.30" />	
+			<item name="MSFC_ButtstockHK416_White" chance="0.30" />				
+		</attachments>	
+		<attachments chance="1.00">
+			<item name="MSFC_Handguard_HK416" chance="0.30" />
+			<item name="MSFC_Handguard_HK416_Black" chance="0.30" />
+			<item name="MSFC_Handguard_HK416_Green" chance="0.30" />
+			<item name="MSFC_Handguard_HK416_Desert" chance="0.30" />
+			<item name="MSFC_Handguard_HK416_White" chance="0.30" />			
+		</attachments>	
+		<attachments chance="1.00">
+			<item name="M4_CarryHandleOptic" chance="1.00" />
+		</attachments>			
+	</type>		
+<!--L96A1-->		
+	<type name="MSFC_L96A1">
+		<attachments chance="1.00">
+			<item name="MSFC_L96A1_MAG" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="HuntingOptic" chance="1.00" />
+		</attachments>
+	</type>	
+	<type name="MSFC_L96A1_Black">
+		<attachments chance="1.00">
+			<item name="MSFC_L96A1_MAG" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="HuntingOptic" chance="1.00" />
+		</attachments>
+	</type>	
+	<type name="MSFC_L96A1_Green">
+		<attachments chance="1.00">
+			<item name="MSFC_L96A1_MAG" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="HuntingOptic" chance="1.00" />
+		</attachments>
+	</type>	
+	<type name="MSFC_L96A1_Desert">
+		<attachments chance="1.00">
+			<item name="MSFC_L96A1_MAG" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="HuntingOptic" chance="1.00" />
+		</attachments>
+	</type>	
+	<type name="MSFC_L96A1_White">
+		<attachments chance="1.00">
+			<item name="MSFC_L96A1_MAG" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="HuntingOptic" chance="1.00" />
+		</attachments>
+	</type>		
+<!--MSBS-->
+	<type name="MSFC_MSBS">
+		<attachments chance="1.00">
+			<item name="MSFC_STANAG556_Mag_30Rnd" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="MSFC_ButtstockCZ805" chance="0.30" />
+			<item name="MSFC_ButtstockCZ805_Black" chance="0.30" />	
+			<item name="MSFC_ButtstockCZ805_Green" chance="0.30" />
+			<item name="MSFC_ButtstockCZ805_Desert" chance="0.30" />	
+			<item name="MSFC_ButtstockCZ805_White" chance="0.30" />	
+		</attachments>		
+	</type>	
+	<type name="MSFC_MSBS_Black">
+		<attachments chance="1.00">
+			<item name="MSFC_STANAG556_Mag_30Rnd" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="MSFC_ButtstockCZ805" chance="0.30" />
+			<item name="MSFC_ButtstockCZ805_Black" chance="0.30" />	
+			<item name="MSFC_ButtstockCZ805_Green" chance="0.30" />
+			<item name="MSFC_ButtstockCZ805_Desert" chance="0.30" />	
+			<item name="MSFC_ButtstockCZ805_White" chance="0.30" />	
+		</attachments>		
+	</type>	
+	<type name="MSFC_MSBS_Green">
+		<attachments chance="1.00">
+			<item name="MSFC_STANAG556_Mag_30Rnd" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="MSFC_ButtstockCZ805" chance="0.30" />
+			<item name="MSFC_ButtstockCZ805_Black" chance="0.30" />	
+			<item name="MSFC_ButtstockCZ805_Green" chance="0.30" />
+			<item name="MSFC_ButtstockCZ805_Desert" chance="0.30" />	
+			<item name="MSFC_ButtstockCZ805_White" chance="0.30" />	
+		</attachments>		
+	</type>	
+	<type name="MSFC_MSBS_Desert">
+		<attachments chance="1.00">
+			<item name="MSFC_STANAG556_Mag_30Rnd" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="MSFC_ButtstockCZ805" chance="0.30" />
+			<item name="MSFC_ButtstockCZ805_Black" chance="0.30" />	
+			<item name="MSFC_ButtstockCZ805_Green" chance="0.30" />
+			<item name="MSFC_ButtstockCZ805_Desert" chance="0.30" />	
+			<item name="MSFC_ButtstockCZ805_White" chance="0.30" />	
+		</attachments>		
+	</type>	
+	<type name="MSFC_MSBS_hite">
+		<attachments chance="1.00">
+			<item name="MSFC_STANAG556_Mag_30Rnd" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="MSFC_ButtstockCZ805" chance="0.30" />
+			<item name="MSFC_ButtstockCZ805_Black" chance="0.30" />	
+			<item name="MSFC_ButtstockCZ805_Green" chance="0.30" />
+			<item name="MSFC_ButtstockCZ805_Desert" chance="0.30" />	
+			<item name="MSFC_ButtstockCZ805_White" chance="0.30" />	
+		</attachments>		
+	</type>		
+<!--ORSIS T-5000-->		
+	<type name="MSFC_ORSIS_T5000">
+		<attachments chance="1.00">
+			<item name="MSFC_ORSIS_T5000_MAG" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="HuntingOptic" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="MSFC_Buttstock_ORSIS_T5000" chance="0.30" />
+			<item name="MSFC_Buttstock_ORSIS_T5000_Black" chance="0.30" />		
+			<item name="MSFC_Buttstock_ORSIS_T5000_Green" chance="0.30" />	
+			<item name="MSFC_Buttstock_ORSIS_T5000_Desert" chance="0.30" />	
+			<item name="MSFC_Buttstock_ORSIS_T5000_White" chance="0.30" />				
+		</attachments>		
+	</type>	
+	<type name="MSFC_ORSIS_T5000_Black">
+		<attachments chance="1.00">
+			<item name="MSFC_ORSIS_T5000_MAG" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="HuntingOptic" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="MSFC_Buttstock_ORSIS_T5000" chance="0.30" />
+			<item name="MSFC_Buttstock_ORSIS_T5000_Black" chance="0.30" />		
+			<item name="MSFC_Buttstock_ORSIS_T5000_Green" chance="0.30" />	
+			<item name="MSFC_Buttstock_ORSIS_T5000_Desert" chance="0.30" />	
+			<item name="MSFC_Buttstock_ORSIS_T5000_White" chance="0.30" />			
+		</attachments>	
+	</type>	
+	<type name="MSFC_ORSIS_T5000_Green">
+		<attachments chance="1.00">
+			<item name="MSFC_ORSIS_T5000_MAG" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="HuntingOptic" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="MSFC_Buttstock_ORSIS_T5000" chance="0.30" />
+			<item name="MSFC_Buttstock_ORSIS_T5000_Black" chance="0.30" />		
+			<item name="MSFC_Buttstock_ORSIS_T5000_Green" chance="0.30" />	
+			<item name="MSFC_Buttstock_ORSIS_T5000_Desert" chance="0.30" />	
+			<item name="MSFC_Buttstock_ORSIS_T5000_White" chance="0.30" />			
+		</attachments>	
+	</type>	
+	<type name="MSFC_ORSIS_T5000_Desert">
+		<attachments chance="1.00">
+			<item name="MSFC_ORSIS_T5000_MAG" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="HuntingOptic" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="MSFC_Buttstock_ORSIS_T5000" chance="0.30" />
+			<item name="MSFC_Buttstock_ORSIS_T5000_Black" chance="0.30" />		
+			<item name="MSFC_Buttstock_ORSIS_T5000_Green" chance="0.30" />	
+			<item name="MSFC_Buttstock_ORSIS_T5000_Desert" chance="0.30" />
+			<item name="MSFC_Buttstock_ORSIS_T5000_White" chance="0.30" />			
+		</attachments>	
+	</type>	
+	<type name="MSFC_ORSIS_T5000_White">
+		<attachments chance="1.00">
+			<item name="MSFC_ORSIS_T5000_MAG" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="HuntingOptic" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="MSFC_Buttstock_ORSIS_T5000" chance="0.30" />
+			<item name="MSFC_Buttstock_ORSIS_T5000_Black" chance="0.30" />		
+			<item name="MSFC_Buttstock_ORSIS_T5000_Green" chance="0.30" />	
+			<item name="MSFC_Buttstock_ORSIS_T5000_Desert" chance="0.30" />
+			<item name="MSFC_Buttstock_ORSIS_T5000_White" chance="0.30" />			
+		</attachments>	
+	</type>		
+<!--OSV-96-->		
+	<type name="MSFC_OSV96">
+		<attachments chance="1.00">
+			<item name="MSFC_OSV96_5rnd_Mag" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="HuntingOptic" chance="1.00" />
+		</attachments>
+	</type>	
+	<type name="MSFC_OSV96_Black">
+		<attachments chance="1.00">
+			<item name="MSFC_OSV96_5rnd_Mag" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="HuntingOptic" chance="1.00" />
+		</attachments>
+	</type>	
+	<type name="MSFC_OSV96_Green">
+		<attachments chance="1.00">
+			<item name="MSFC_OSV96_5rnd_Mag" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="HuntingOptic" chance="1.00" />
+		</attachments>
+	</type>		
+	<type name="MSFC_OSV96_Desert">
+		<attachments chance="1.00">
+			<item name="MSFC_OSV96_5rnd_Mag" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="HuntingOptic" chance="1.00" />
+		</attachments>
+	</type>	
+	<type name="MSFC_OSV96_White">
+		<attachments chance="1.00">
+			<item name="MSFC_OSV96_5rnd_Mag" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="HuntingOptic" chance="1.00" />
+		</attachments>
+	</type>		
+<!--PP-19 Vityaz-->		
+	<type name="MSFC_PP19_Vityaz">
+		<attachments chance="1.00">
+			<item name="MSFC_ButtstockAK12MR" chance="0.30" />	
+			<item name="MSFC_ButtstockAK12MR_Black" chance="0.30" />	
+			<item name="MSFC_ButtstockAK12MR_Green" chance="0.30" />	
+			<item name="MSFC_ButtstockAK12MR_Desert" chance="0.30" />
+			<item name="MSFC_ButtstockAK12MR_White" chance="0.30" />			
+			<item name="MSFC_AK_Zenitco_Buttstock" chance="0.30" />	
+			<item name="MSFC_AK_Zenitco_Buttstock_Black" chance="0.30" />
+			<item name="MSFC_AK_Zenitco_Buttstock_Green" chance="0.30" />	
+			<item name="MSFC_AK_Zenitco_Buttstock_Desert" chance="0.30" />
+			<item name="MSFC_AK_Zenitco_Buttstock_White" chance="0.30" />			
+			<item name="AK_PlasticBttstck" chance="0.30" />
+			<item name="AK_FoldingBttstck" chance="0.30" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="AK_PlasticHndgrd" chance="0.30" />
+			<item name="AK_RailHndgrd" chance="0.30" />
+			<item name="MSFC_AK_Zenitco_Handguard" chance="0.30" />	
+			<item name="MSFC_AK_Zenitco_Handguard_Black" chance="0.30" />	
+			<item name="MSFC_AK_Zenitco_Handguard_Green" chance="0.30" />			
+			<item name="MSFC_AK_Zenitco_Handguard_Desert" chance="0.30" />	
+			<item name="MSFC_AK_Zenitco_Handguard_White" chance="0.30" />			
+		</attachments>
+		<attachments chance="1.00">
+			<item name="MSFC_PP19_Vityaz_Mag_30Rnd" chance="1.00" />
+		</attachments>
+	</type>	
+	<type name="MSFC_PP19_Vityaz_Black">
+		<attachments chance="1.00">
+			<item name="MSFC_ButtstockAK12MR" chance="0.30" />	
+			<item name="MSFC_ButtstockAK12MR_Black" chance="0.30" />	
+			<item name="MSFC_ButtstockAK12MR_Green" chance="0.30" />	
+			<item name="MSFC_ButtstockAK12MR_Desert" chance="0.30" />
+			<item name="MSFC_ButtstockAK12MR_White" chance="0.30" />			
+			<item name="MSFC_AK_Zenitco_Buttstock" chance="0.30" />	
+			<item name="MSFC_AK_Zenitco_Buttstock_Black" chance="0.30" />
+			<item name="MSFC_AK_Zenitco_Buttstock_Green" chance="0.30" />	
+			<item name="MSFC_AK_Zenitco_Buttstock_Desert" chance="0.30" />
+			<item name="MSFC_AK_Zenitco_Buttstock_White" chance="0.30" />			
+			<item name="AK_PlasticBttstck" chance="0.30" />
+			<item name="AK_FoldingBttstck" chance="0.30" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="AK_PlasticHndgrd" chance="0.30" />
+			<item name="AK_RailHndgrd" chance="0.30" />
+			<item name="MSFC_AK_Zenitco_Handguard" chance="0.30" />	
+			<item name="MSFC_AK_Zenitco_Handguard_Black" chance="0.30" />	
+			<item name="MSFC_AK_Zenitco_Handguard_Green" chance="0.30" />			
+			<item name="MSFC_AK_Zenitco_Handguard_Desert" chance="0.30" />	
+			<item name="MSFC_AK_Zenitco_Handguard_White" chance="0.30" />			
+		</attachments>
+		<attachments chance="1.00">
+			<item name="MSFC_PP19_Vityaz_Mag_30Rnd" chance="1.00" />
+		</attachments>
+	</type>	
+	<type name="MSFC_PP19_Vityaz_Green">
+		<attachments chance="1.00">
+			<item name="MSFC_ButtstockAK12MR" chance="0.30" />	
+			<item name="MSFC_ButtstockAK12MR_Black" chance="0.30" />	
+			<item name="MSFC_ButtstockAK12MR_Green" chance="0.30" />	
+			<item name="MSFC_ButtstockAK12MR_Desert" chance="0.30" />
+			<item name="MSFC_ButtstockAK12MR_White" chance="0.30" />			
+			<item name="MSFC_AK_Zenitco_Buttstock" chance="0.30" />	
+			<item name="MSFC_AK_Zenitco_Buttstock_Black" chance="0.30" />
+			<item name="MSFC_AK_Zenitco_Buttstock_Green" chance="0.30" />	
+			<item name="MSFC_AK_Zenitco_Buttstock_Desert" chance="0.30" />
+			<item name="MSFC_AK_Zenitco_Buttstock_White" chance="0.30" />			
+			<item name="AK_PlasticBttstck" chance="0.30" />
+			<item name="AK_FoldingBttstck" chance="0.30" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="AK_PlasticHndgrd" chance="0.30" />
+			<item name="AK_RailHndgrd" chance="0.30" />
+			<item name="MSFC_AK_Zenitco_Handguard" chance="0.30" />	
+			<item name="MSFC_AK_Zenitco_Handguard_Black" chance="0.30" />	
+			<item name="MSFC_AK_Zenitco_Handguard_Green" chance="0.30" />			
+			<item name="MSFC_AK_Zenitco_Handguard_Desert" chance="0.30" />	
+			<item name="MSFC_AK_Zenitco_Handguard_White" chance="0.30" />			
+		</attachments>
+		<attachments chance="1.00">
+			<item name="MSFC_PP19_Vityaz_Mag_30Rnd" chance="1.00" />
+		</attachments>
+	</type>	
+	<type name="MSFC_PP19_Vityaz_Desert">
+		<attachments chance="1.00">
+			<item name="MSFC_ButtstockAK12MR" chance="0.30" />	
+			<item name="MSFC_ButtstockAK12MR_Black" chance="0.30" />	
+			<item name="MSFC_ButtstockAK12MR_Green" chance="0.30" />	
+			<item name="MSFC_ButtstockAK12MR_Desert" chance="0.30" />
+			<item name="MSFC_ButtstockAK12MR_White" chance="0.30" />			
+			<item name="MSFC_AK_Zenitco_Buttstock" chance="0.30" />	
+			<item name="MSFC_AK_Zenitco_Buttstock_Black" chance="0.30" />
+			<item name="MSFC_AK_Zenitco_Buttstock_Green" chance="0.30" />	
+			<item name="MSFC_AK_Zenitco_Buttstock_Desert" chance="0.30" />
+			<item name="MSFC_AK_Zenitco_Buttstock_White" chance="0.30" />			
+			<item name="AK_PlasticBttstck" chance="0.30" />
+			<item name="AK_FoldingBttstck" chance="0.30" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="AK_PlasticHndgrd" chance="0.30" />
+			<item name="AK_RailHndgrd" chance="0.30" />
+			<item name="MSFC_AK_Zenitco_Handguard" chance="0.30" />	
+			<item name="MSFC_AK_Zenitco_Handguard_Black" chance="0.30" />	
+			<item name="MSFC_AK_Zenitco_Handguard_Green" chance="0.30" />			
+			<item name="MSFC_AK_Zenitco_Handguard_Desert" chance="0.30" />	
+			<item name="MSFC_AK_Zenitco_Handguard_White" chance="0.30" />			
+		</attachments>
+		<attachments chance="1.00">
+			<item name="MSFC_PP19_Vityaz_Mag_30Rnd" chance="1.00" />
+		</attachments>
+	</type>	
+	<type name="MSFC_PP19_Vityaz_White">
+		<attachments chance="1.00">
+			<item name="MSFC_ButtstockAK12MR" chance="0.30" />	
+			<item name="MSFC_ButtstockAK12MR_Black" chance="0.30" />	
+			<item name="MSFC_ButtstockAK12MR_Green" chance="0.30" />	
+			<item name="MSFC_ButtstockAK12MR_Desert" chance="0.30" />
+			<item name="MSFC_ButtstockAK12MR_White" chance="0.30" />			
+			<item name="MSFC_AK_Zenitco_Buttstock" chance="0.30" />	
+			<item name="MSFC_AK_Zenitco_Buttstock_Black" chance="0.30" />
+			<item name="MSFC_AK_Zenitco_Buttstock_Green" chance="0.30" />	
+			<item name="MSFC_AK_Zenitco_Buttstock_Desert" chance="0.30" />
+			<item name="MSFC_AK_Zenitco_Buttstock_White" chance="0.30" />			
+			<item name="AK_PlasticBttstck" chance="0.30" />
+			<item name="AK_FoldingBttstck" chance="0.30" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="AK_PlasticHndgrd" chance="0.30" />
+			<item name="AK_RailHndgrd" chance="0.30" />
+			<item name="MSFC_AK_Zenitco_Handguard" chance="0.30" />	
+			<item name="MSFC_AK_Zenitco_Handguard_Black" chance="0.30" />	
+			<item name="MSFC_AK_Zenitco_Handguard_Green" chance="0.30" />			
+			<item name="MSFC_AK_Zenitco_Handguard_Desert" chance="0.30" />	
+			<item name="MSFC_AK_Zenitco_Handguard_White" chance="0.30" />			
+		</attachments>
+		<attachments chance="1.00">
+			<item name="MSFC_PP19_Vityaz_Mag_30Rnd" chance="1.00" />
+		</attachments>
+	</type>		
+<!--RPK-->		
+	<type name="MSFC_RPK">
+		<attachments chance="1.00">
+			<item name="MSFC_ButtstockRPK" chance="0.30" />
+			<item name="MSFC_ButtstockRPK74" chance="0.30" />			
+		</attachments>
+		<attachments chance="1.00">
+			<item name="MSFC_Handguard_RPK" chance="0.30" />
+			<item name="MSFC_Handguard_RPK74" chance="0.30" />	
+		</attachments>
+		<attachments chance="1.00">
+			<item name="MSFC_AK15MR_30RND" chance="0.30" />
+			<item name="MSFC_AK15MR_30RND_Black" chance="0.30" />	
+			<item name="MSFC_AK15MR_30RND_Green" chance="0.30" />	
+			<item name="MSFC_AK15MR_30RND_Desert" chance="0.30" />				
+		</attachments>		
+	</type>	
+<!--RPK-74-->		
+	<type name="MSFC_RPK74">
+		<attachments chance="1.00">
+			<item name="MSFC_ButtstockRPK" chance="0.30" />
+			<item name="MSFC_ButtstockRPK74" chance="0.30" />			
+		</attachments>
+		<attachments chance="1.00">
+			<item name="MSFC_Handguard_RPK" chance="0.30" />
+			<item name="MSFC_Handguard_RPK74" chance="0.30" />	
+		</attachments>
+		<attachments chance="1.00">
+			<item name="MSFC_RPK16MR_45RND" chance="0.30" />
+			<item name="MSFC_RPK16MR_45RND_Black" chance="0.30" />	
+			<item name="MSFC_RPK16MR_45RND_Green" chance="0.30" />	
+			<item name="MSFC_RPK16MR_45RND_Desert" chance="0.30" />				
+		</attachments>		
+	</type>		
+<!--RPK-16-->	
+	<type name="MSFC_RPK16MR">
+		<attachments chance="1.00">
+			<item name="MSFC_ButtstockAK12MR" chance="0.30" />	
+			<item name="MSFC_ButtstockAK12MR_Black" chance="0.30" />	
+			<item name="MSFC_ButtstockAK12MR_Green" chance="0.30" />	
+			<item name="MSFC_ButtstockAK12MR_Desert" chance="0.30" />
+			<item name="MSFC_ButtstockAK12MR_White" chance="0.30" />			
+			<item name="MSFC_AK_Zenitco_Buttstock" chance="0.30" />	
+			<item name="MSFC_AK_Zenitco_Buttstock_Black" chance="0.30" />
+			<item name="MSFC_AK_Zenitco_Buttstock_Green" chance="0.30" />	
+			<item name="MSFC_AK_Zenitco_Buttstock_Desert" chance="0.30" />
+			<item name="MSFC_AK_Zenitco_Buttstock_White" chance="0.30" />			
+			<item name="AK_PlasticBttstck" chance="0.30" />
+			<item name="AK_FoldingBttstck" chance="0.30" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="MSFC_Handguard_RPK16MR" chance="0.30" />
+			<item name="MSFC_Handguard_RPK16MR_Black" chance="0.30" />
+			<item name="MSFC_Handguard_RPK16MR_Green" chance="0.30" />
+			<item name="MSFC_Handguard_RPK16MR_Desert" chance="0.30" />	
+			<item name="MSFC_Handguard_RPK16MR_White" chance="0.30" />				
+		</attachments>
+		<attachments chance="1.00">
+			<item name="MSFC_RPK16MR_45RND" chance="0.30" />
+			<item name="MSFC_RPK16MR_45RND_Black" chance="0.30" />	
+			<item name="MSFC_RPK16MR_45RND_Green" chance="0.30" />	
+			<item name="MSFC_RPK16MR_45RND_Desert" chance="0.30" />		
+			<item name="MSFC_RPK16MR_DRUM" chance="0.30" />
+			<item name="MSFC_RPK16MR_DRUM_Black" chance="0.30" />
+			<item name="MSFC_RPK16MR_DRUM_Green" chance="0.30" />
+			<item name="MSFC_RPK16MR_DRUM_Desert" chance="0.30" />	
+			<item name="MSFC_RPK74_45RND" chance="0.30" />	
+			<item name="MSFC_RPK74_Plastic_45RND" chance="0.30" />				
+		</attachments>
+	</type>	
+	<type name="MSFC_RPK16MR_Black">
+		<attachments chance="1.00">
+			<item name="MSFC_ButtstockAK12MR" chance="0.30" />	
+			<item name="MSFC_ButtstockAK12MR_Black" chance="0.30" />	
+			<item name="MSFC_ButtstockAK12MR_Green" chance="0.30" />	
+			<item name="MSFC_ButtstockAK12MR_Desert" chance="0.30" />
+			<item name="MSFC_ButtstockAK12MR_White" chance="0.30" />			
+			<item name="MSFC_AK_Zenitco_Buttstock" chance="0.30" />	
+			<item name="MSFC_AK_Zenitco_Buttstock_Black" chance="0.30" />
+			<item name="MSFC_AK_Zenitco_Buttstock_Green" chance="0.30" />	
+			<item name="MSFC_AK_Zenitco_Buttstock_Desert" chance="0.30" />
+			<item name="MSFC_AK_Zenitco_Buttstock_White" chance="0.30" />			
+			<item name="AK_PlasticBttstck" chance="0.30" />
+			<item name="AK_FoldingBttstck" chance="0.30" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="MSFC_Handguard_RPK16MR" chance="0.30" />
+			<item name="MSFC_Handguard_RPK16MR_Black" chance="0.30" />
+			<item name="MSFC_Handguard_RPK16MR_Green" chance="0.30" />
+			<item name="MSFC_Handguard_RPK16MR_Desert" chance="0.30" />	
+			<item name="MSFC_Handguard_RPK16MR_White" chance="0.30" />				
+		</attachments>
+		<attachments chance="1.00">
+			<item name="MSFC_RPK16MR_45RND" chance="0.30" />
+			<item name="MSFC_RPK16MR_45RND_Black" chance="0.30" />	
+			<item name="MSFC_RPK16MR_45RND_Green" chance="0.30" />	
+			<item name="MSFC_RPK16MR_45RND_Desert" chance="0.30" />		
+			<item name="MSFC_RPK16MR_DRUM" chance="0.30" />
+			<item name="MSFC_RPK16MR_DRUM_Black" chance="0.30" />
+			<item name="MSFC_RPK16MR_DRUM_Green" chance="0.30" />
+			<item name="MSFC_RPK16MR_DRUM_Desert" chance="0.30" />	
+			<item name="MSFC_RPK74_45RND" chance="0.30" />	
+			<item name="MSFC_RPK74_Plastic_45RND" chance="0.30" />				
+		</attachments>
+	</type>
+	<type name="MSFC_RPK16MR_Green">
+		<attachments chance="1.00">
+			<item name="MSFC_ButtstockAK12MR" chance="0.30" />	
+			<item name="MSFC_ButtstockAK12MR_Black" chance="0.30" />	
+			<item name="MSFC_ButtstockAK12MR_Green" chance="0.30" />	
+			<item name="MSFC_ButtstockAK12MR_Desert" chance="0.30" />
+			<item name="MSFC_ButtstockAK12MR_White" chance="0.30" />			
+			<item name="MSFC_AK_Zenitco_Buttstock" chance="0.30" />	
+			<item name="MSFC_AK_Zenitco_Buttstock_Black" chance="0.30" />
+			<item name="MSFC_AK_Zenitco_Buttstock_Green" chance="0.30" />	
+			<item name="MSFC_AK_Zenitco_Buttstock_Desert" chance="0.30" />
+			<item name="MSFC_AK_Zenitco_Buttstock_White" chance="0.30" />			
+			<item name="AK_PlasticBttstck" chance="0.30" />
+			<item name="AK_FoldingBttstck" chance="0.30" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="MSFC_Handguard_RPK16MR" chance="0.30" />
+			<item name="MSFC_Handguard_RPK16MR_Black" chance="0.30" />
+			<item name="MSFC_Handguard_RPK16MR_Green" chance="0.30" />
+			<item name="MSFC_Handguard_RPK16MR_Desert" chance="0.30" />	
+			<item name="MSFC_Handguard_RPK16MR_White" chance="0.30" />				
+		</attachments>
+		<attachments chance="1.00">
+			<item name="MSFC_RPK16MR_45RND" chance="0.30" />
+			<item name="MSFC_RPK16MR_45RND_Black" chance="0.30" />	
+			<item name="MSFC_RPK16MR_45RND_Green" chance="0.30" />	
+			<item name="MSFC_RPK16MR_45RND_Desert" chance="0.30" />		
+			<item name="MSFC_RPK16MR_DRUM" chance="0.30" />
+			<item name="MSFC_RPK16MR_DRUM_Black" chance="0.30" />
+			<item name="MSFC_RPK16MR_DRUM_Green" chance="0.30" />
+			<item name="MSFC_RPK16MR_DRUM_Desert" chance="0.30" />	
+			<item name="MSFC_RPK74_45RND" chance="0.30" />	
+			<item name="MSFC_RPK74_Plastic_45RND" chance="0.30" />				
+		</attachments>
+	</type>	
+	<type name="MSFC_RPK16MR_Desert">
+		<attachments chance="1.00">
+			<item name="MSFC_ButtstockAK12MR" chance="0.30" />	
+			<item name="MSFC_ButtstockAK12MR_Black" chance="0.30" />	
+			<item name="MSFC_ButtstockAK12MR_Green" chance="0.30" />	
+			<item name="MSFC_ButtstockAK12MR_Desert" chance="0.30" />
+			<item name="MSFC_ButtstockAK12MR_White" chance="0.30" />			
+			<item name="MSFC_AK_Zenitco_Buttstock" chance="0.30" />	
+			<item name="MSFC_AK_Zenitco_Buttstock_Black" chance="0.30" />
+			<item name="MSFC_AK_Zenitco_Buttstock_Green" chance="0.30" />	
+			<item name="MSFC_AK_Zenitco_Buttstock_Desert" chance="0.30" />
+			<item name="MSFC_AK_Zenitco_Buttstock_White" chance="0.30" />			
+			<item name="AK_PlasticBttstck" chance="0.30" />
+			<item name="AK_FoldingBttstck" chance="0.30" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="MSFC_Handguard_RPK16MR" chance="0.30" />
+			<item name="MSFC_Handguard_RPK16MR_Black" chance="0.30" />
+			<item name="MSFC_Handguard_RPK16MR_Green" chance="0.30" />
+			<item name="MSFC_Handguard_RPK16MR_Desert" chance="0.30" />	
+			<item name="MSFC_Handguard_RPK16MR_White" chance="0.30" />				
+		</attachments>
+		<attachments chance="1.00">
+			<item name="MSFC_RPK16MR_45RND" chance="0.30" />
+			<item name="MSFC_RPK16MR_45RND_Black" chance="0.30" />	
+			<item name="MSFC_RPK16MR_45RND_Green" chance="0.30" />	
+			<item name="MSFC_RPK16MR_45RND_Desert" chance="0.30" />		
+			<item name="MSFC_RPK16MR_DRUM" chance="0.30" />
+			<item name="MSFC_RPK16MR_DRUM_Black" chance="0.30" />
+			<item name="MSFC_RPK16MR_DRUM_Green" chance="0.30" />
+			<item name="MSFC_RPK16MR_DRUM_Desert" chance="0.30" />	
+			<item name="MSFC_RPK74_45RND" chance="0.30" />	
+			<item name="MSFC_RPK74_Plastic_45RND" chance="0.30" />				
+		</attachments>
+	</type>	
+	<type name="MSFC_RPK16MR_White">
+		<attachments chance="1.00">
+			<item name="MSFC_ButtstockAK12MR" chance="0.30" />	
+			<item name="MSFC_ButtstockAK12MR_Black" chance="0.30" />	
+			<item name="MSFC_ButtstockAK12MR_Green" chance="0.30" />	
+			<item name="MSFC_ButtstockAK12MR_Desert" chance="0.30" />
+			<item name="MSFC_ButtstockAK12MR_White" chance="0.30" />			
+			<item name="MSFC_AK_Zenitco_Buttstock" chance="0.30" />	
+			<item name="MSFC_AK_Zenitco_Buttstock_Black" chance="0.30" />
+			<item name="MSFC_AK_Zenitco_Buttstock_Green" chance="0.30" />	
+			<item name="MSFC_AK_Zenitco_Buttstock_Desert" chance="0.30" />
+			<item name="MSFC_AK_Zenitco_Buttstock_White" chance="0.30" />			
+			<item name="AK_PlasticBttstck" chance="0.30" />
+			<item name="AK_FoldingBttstck" chance="0.30" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="MSFC_Handguard_RPK16MR" chance="0.30" />
+			<item name="MSFC_Handguard_RPK16MR_Black" chance="0.30" />
+			<item name="MSFC_Handguard_RPK16MR_Green" chance="0.30" />
+			<item name="MSFC_Handguard_RPK16MR_Desert" chance="0.30" />	
+			<item name="MSFC_Handguard_RPK16MR_White" chance="0.30" />				
+		</attachments>
+		<attachments chance="1.00">
+			<item name="MSFC_RPK16MR_45RND" chance="0.30" />
+			<item name="MSFC_RPK16MR_45RND_Black" chance="0.30" />	
+			<item name="MSFC_RPK16MR_45RND_Green" chance="0.30" />	
+			<item name="MSFC_RPK16MR_45RND_Desert" chance="0.30" />		
+			<item name="MSFC_RPK16MR_DRUM" chance="0.30" />
+			<item name="MSFC_RPK16MR_DRUM_Black" chance="0.30" />
+			<item name="MSFC_RPK16MR_DRUM_Green" chance="0.30" />
+			<item name="MSFC_RPK16MR_DRUM_Desert" chance="0.30" />	
+			<item name="MSFC_RPK74_45RND" chance="0.30" />	
+			<item name="MSFC_RPK74_Plastic_45RND" chance="0.30" />				
+		</attachments>
+	</type>		
+<!--AR-15-->
+	<type name="MSFC_Tactical_AR15">
+		<attachments chance="1.00">
+			<item name="MSFC_STANAG556_Mag_30Rnd" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="MSFC_ButtstockHK416" chance="0.30" />
+			<item name="MSFC_ButtstockHK416_Black" chance="0.30" />	
+			<item name="MSFC_ButtstockHK416_Green" chance="0.30" />	
+			<item name="MSFC_ButtstockHK416_Desert" chance="0.30" />	
+			<item name="MSFC_ButtstockHK416_White" chance="0.30" />				
+		</attachments>	
+		<attachments chance="1.00">
+			<item name="MSFC_Handguard_Tactical_AR15" chance="0.30" />	
+			<item name="MSFC_Handguard_Tactical_AR15_Black" chance="0.30" />
+			<item name="MSFC_Handguard_Tactical_AR15_Green" chance="0.30" />	
+			<item name="MSFC_Handguard_Tactical_AR15_Desert" chance="0.30" />
+			<item name="MSFC_Handguard_Tactical_AR15_White" chance="0.30" />			
+		</attachments>	
+		<attachments chance="1.00">
+			<item name="M4_CarryHandleOptic" chance="1.00" />
+		</attachments>			
+	</type>
+<!--AR-15 7.62x39-->
+	<type name="MSFC_AR15_762x39">
+		<attachments chance="1.00">
+			<item name="MSFC_AR15_762x39_30RND" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="M4_MPBttstck" chance="1.00" />
+		</attachments>	
+		<attachments chance="1.00">
+			<item name="M4_RISHndgrd" chance="1.00" />
+		</attachments>	
+		<attachments chance="1.00">
+			<item name="M4_CarryHandleOptic" chance="1.00" />
+		</attachments>			
+	</type>	
+<!--AN-94-->
+	<type name="MSFC_AN94">
+		<attachments chance="1.00">
+			<item name="MSFC_ButtstockAK12MR" chance="0.30" />	
+			<item name="MSFC_ButtstockAK12MR_Black" chance="0.30" />	
+			<item name="MSFC_ButtstockAK12MR_Green" chance="0.30" />	
+			<item name="MSFC_ButtstockAK12MR_Desert" chance="0.30" />
+			<item name="MSFC_ButtstockAK12MR_White" chance="0.30" />			
+			<item name="MSFC_AK_Zenitco_Buttstock" chance="0.30" />	
+			<item name="MSFC_AK_Zenitco_Buttstock_Black" chance="0.30" />
+			<item name="MSFC_AK_Zenitco_Buttstock_Green" chance="0.30" />	
+			<item name="MSFC_AK_Zenitco_Buttstock_Desert" chance="0.30" />
+			<item name="MSFC_AK_Zenitco_Buttstock_White" chance="0.30" />			
+			<item name="AK_PlasticBttstck" chance="0.30" />
+			<item name="AK_FoldingBttstck" chance="0.30" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="MSFC_AK12MR_30RND" chance="0.30" />
+			<item name="MSFC_AK12MR_30RND_Black" chance="0.30" />
+			<item name="MSFC_AK12MR_30RND_Green" chance="0.30" />
+			<item name="MSFC_AK12MR_30RND_Desert" chance="0.30" />
+			<item name="MSFC_AK12MR_30RND_White" chance="0.30" />			
+			<item name="MSFC_AK12MR_60RND" chance="0.30" />
+			<item name="MSFC_AK12MR_60RND_Black" chance="0.30" />
+			<item name="MSFC_AK12MR_60RND_Green" chance="0.30" />
+			<item name="MSFC_AK12MR_60RND_Desert" chance="0.30" />	
+			<item name="MSFC_AK12MR_60RND_White" chance="0.30" />				
+		</attachments>
+	</type>	
+	<type name="MSFC_AN94_Black">
+		<attachments chance="1.00">
+			<item name="MSFC_ButtstockAK12MR" chance="0.30" />	
+			<item name="MSFC_ButtstockAK12MR_Black" chance="0.30" />	
+			<item name="MSFC_ButtstockAK12MR_Green" chance="0.30" />	
+			<item name="MSFC_ButtstockAK12MR_Desert" chance="0.30" />
+			<item name="MSFC_ButtstockAK12MR_White" chance="0.30" />			
+			<item name="MSFC_AK_Zenitco_Buttstock" chance="0.30" />	
+			<item name="MSFC_AK_Zenitco_Buttstock_Black" chance="0.30" />
+			<item name="MSFC_AK_Zenitco_Buttstock_Green" chance="0.30" />	
+			<item name="MSFC_AK_Zenitco_Buttstock_Desert" chance="0.30" />
+			<item name="MSFC_AK_Zenitco_Buttstock_White" chance="0.30" />			
+			<item name="AK_PlasticBttstck" chance="0.30" />
+			<item name="AK_FoldingBttstck" chance="0.30" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="MSFC_AK12MR_30RND" chance="0.30" />
+			<item name="MSFC_AK12MR_30RND_Black" chance="0.30" />
+			<item name="MSFC_AK12MR_30RND_Green" chance="0.30" />
+			<item name="MSFC_AK12MR_30RND_Desert" chance="0.30" />
+			<item name="MSFC_AK12MR_30RND_White" chance="0.30" />			
+			<item name="MSFC_AK12MR_60RND" chance="0.30" />
+			<item name="MSFC_AK12MR_60RND_Black" chance="0.30" />
+			<item name="MSFC_AK12MR_60RND_Green" chance="0.30" />
+			<item name="MSFC_AK12MR_60RND_Desert" chance="0.30" />	
+			<item name="MSFC_AK12MR_60RND_White" chance="0.30" />				
+		</attachments>
+	</type>	
+	<type name="MSFC_AN94_Green">
+		<attachments chance="1.00">
+			<item name="MSFC_ButtstockAK12MR" chance="0.30" />	
+			<item name="MSFC_ButtstockAK12MR_Black" chance="0.30" />	
+			<item name="MSFC_ButtstockAK12MR_Green" chance="0.30" />	
+			<item name="MSFC_ButtstockAK12MR_Desert" chance="0.30" />
+			<item name="MSFC_ButtstockAK12MR_White" chance="0.30" />			
+			<item name="MSFC_AK_Zenitco_Buttstock" chance="0.30" />	
+			<item name="MSFC_AK_Zenitco_Buttstock_Black" chance="0.30" />
+			<item name="MSFC_AK_Zenitco_Buttstock_Green" chance="0.30" />	
+			<item name="MSFC_AK_Zenitco_Buttstock_Desert" chance="0.30" />
+			<item name="MSFC_AK_Zenitco_Buttstock_White" chance="0.30" />			
+			<item name="AK_PlasticBttstck" chance="0.30" />
+			<item name="AK_FoldingBttstck" chance="0.30" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="MSFC_AK12MR_30RND" chance="0.30" />
+			<item name="MSFC_AK12MR_30RND_Black" chance="0.30" />
+			<item name="MSFC_AK12MR_30RND_Green" chance="0.30" />
+			<item name="MSFC_AK12MR_30RND_Desert" chance="0.30" />
+			<item name="MSFC_AK12MR_30RND_White" chance="0.30" />			
+			<item name="MSFC_AK12MR_60RND" chance="0.30" />
+			<item name="MSFC_AK12MR_60RND_Black" chance="0.30" />
+			<item name="MSFC_AK12MR_60RND_Green" chance="0.30" />
+			<item name="MSFC_AK12MR_60RND_Desert" chance="0.30" />	
+			<item name="MSFC_AK12MR_60RND_White" chance="0.30" />				
+		</attachments>
+	</type>	
+	<type name="MSFC_AN94_Desert">
+		<attachments chance="1.00">
+			<item name="MSFC_ButtstockAK12MR" chance="0.30" />	
+			<item name="MSFC_ButtstockAK12MR_Black" chance="0.30" />	
+			<item name="MSFC_ButtstockAK12MR_Green" chance="0.30" />	
+			<item name="MSFC_ButtstockAK12MR_Desert" chance="0.30" />
+			<item name="MSFC_ButtstockAK12MR_White" chance="0.30" />			
+			<item name="MSFC_AK_Zenitco_Buttstock" chance="0.30" />	
+			<item name="MSFC_AK_Zenitco_Buttstock_Black" chance="0.30" />
+			<item name="MSFC_AK_Zenitco_Buttstock_Green" chance="0.30" />	
+			<item name="MSFC_AK_Zenitco_Buttstock_Desert" chance="0.30" />
+			<item name="MSFC_AK_Zenitco_Buttstock_White" chance="0.30" />			
+			<item name="AK_PlasticBttstck" chance="0.30" />
+			<item name="AK_FoldingBttstck" chance="0.30" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="MSFC_AK12MR_30RND" chance="0.30" />
+			<item name="MSFC_AK12MR_30RND_Black" chance="0.30" />
+			<item name="MSFC_AK12MR_30RND_Green" chance="0.30" />
+			<item name="MSFC_AK12MR_30RND_Desert" chance="0.30" />
+			<item name="MSFC_AK12MR_30RND_White" chance="0.30" />			
+			<item name="MSFC_AK12MR_60RND" chance="0.30" />
+			<item name="MSFC_AK12MR_60RND_Black" chance="0.30" />
+			<item name="MSFC_AK12MR_60RND_Green" chance="0.30" />
+			<item name="MSFC_AK12MR_60RND_Desert" chance="0.30" />	
+			<item name="MSFC_AK12MR_60RND_White" chance="0.30" />				
+		</attachments>
+	</type>	
+	<type name="MSFC_AN94_White">
+		<attachments chance="1.00">
+			<item name="MSFC_ButtstockAK12MR" chance="0.30" />	
+			<item name="MSFC_ButtstockAK12MR_Black" chance="0.30" />	
+			<item name="MSFC_ButtstockAK12MR_Green" chance="0.30" />	
+			<item name="MSFC_ButtstockAK12MR_Desert" chance="0.30" />
+			<item name="MSFC_ButtstockAK12MR_White" chance="0.30" />			
+			<item name="MSFC_AK_Zenitco_Buttstock" chance="0.30" />	
+			<item name="MSFC_AK_Zenitco_Buttstock_Black" chance="0.30" />
+			<item name="MSFC_AK_Zenitco_Buttstock_Green" chance="0.30" />	
+			<item name="MSFC_AK_Zenitco_Buttstock_Desert" chance="0.30" />
+			<item name="MSFC_AK_Zenitco_Buttstock_White" chance="0.30" />			
+			<item name="AK_PlasticBttstck" chance="0.30" />
+			<item name="AK_FoldingBttstck" chance="0.30" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="MSFC_AK12MR_30RND" chance="0.30" />
+			<item name="MSFC_AK12MR_30RND_Black" chance="0.30" />
+			<item name="MSFC_AK12MR_30RND_Green" chance="0.30" />
+			<item name="MSFC_AK12MR_30RND_Desert" chance="0.30" />
+			<item name="MSFC_AK12MR_30RND_White" chance="0.30" />			
+			<item name="MSFC_AK12MR_60RND" chance="0.30" />
+			<item name="MSFC_AK12MR_60RND_Black" chance="0.30" />
+			<item name="MSFC_AK12MR_60RND_Green" chance="0.30" />
+			<item name="MSFC_AK12MR_60RND_Desert" chance="0.30" />	
+			<item name="MSFC_AK12MR_60RND_White" chance="0.30" />				
+		</attachments>
+	</type>
+<!--AK-105-->		
+	<type name="MSFC_AK105">
+		<attachments chance="1.00">
+			<item name="MSFC_ButtstockAK12MR" chance="0.30" />	
+			<item name="MSFC_ButtstockAK12MR_Black" chance="0.30" />	
+			<item name="MSFC_ButtstockAK12MR_Green" chance="0.30" />	
+			<item name="MSFC_ButtstockAK12MR_Desert" chance="0.30" />
+			<item name="MSFC_ButtstockAK12MR_White" chance="0.30" />			
+			<item name="MSFC_AK_Zenitco_Buttstock" chance="0.30" />	
+			<item name="MSFC_AK_Zenitco_Buttstock_Black" chance="0.30" />
+			<item name="MSFC_AK_Zenitco_Buttstock_Green" chance="0.30" />	
+			<item name="MSFC_AK_Zenitco_Buttstock_Desert" chance="0.30" />
+			<item name="MSFC_AK_Zenitco_Buttstock_White" chance="0.30" />			
+			<item name="AK_PlasticBttstck" chance="0.30" />
+			<item name="AK_FoldingBttstck" chance="0.30" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="AK_PlasticHndgrd" chance="0.30" />
+			<item name="AK_RailHndgrd" chance="0.30" />
+			<item name="MSFC_AK_Zenitco_Handguard" chance="0.30" />	
+			<item name="MSFC_AK_Zenitco_Handguard_Black" chance="0.30" />	
+			<item name="MSFC_AK_Zenitco_Handguard_Green" chance="0.30" />			
+			<item name="MSFC_AK_Zenitco_Handguard_Desert" chance="0.30" />	
+			<item name="MSFC_AK_Zenitco_Handguard_White" chance="0.30" />			
+		</attachments>
+		<attachments chance="1.00">
+			<item name="MSFC_AK12MR_30RND" chance="0.30" />
+			<item name="MSFC_AK12MR_30RND_Black" chance="0.30" />
+			<item name="MSFC_AK12MR_30RND_Green" chance="0.30" />
+			<item name="MSFC_AK12MR_30RND_Desert" chance="0.30" />
+			<item name="MSFC_AK12MR_30RND_White" chance="0.30" />			
+			<item name="MSFC_AK12MR_60RND" chance="0.30" />
+			<item name="MSFC_AK12MR_60RND_Black" chance="0.30" />
+			<item name="MSFC_AK12MR_60RND_Green" chance="0.30" />
+			<item name="MSFC_AK12MR_60RND_Desert" chance="0.30" />	
+			<item name="MSFC_AK12MR_60RND_White" chance="0.30" />			
+		</attachments>	
+	</type>	
+	<type name="MSFC_AK105_Black">
+		<attachments chance="1.00">
+			<item name="MSFC_ButtstockAK12MR" chance="0.30" />	
+			<item name="MSFC_ButtstockAK12MR_Black" chance="0.30" />	
+			<item name="MSFC_ButtstockAK12MR_Green" chance="0.30" />	
+			<item name="MSFC_ButtstockAK12MR_Desert" chance="0.30" />
+			<item name="MSFC_ButtstockAK12MR_White" chance="0.30" />			
+			<item name="MSFC_AK_Zenitco_Buttstock" chance="0.30" />	
+			<item name="MSFC_AK_Zenitco_Buttstock_Black" chance="0.30" />
+			<item name="MSFC_AK_Zenitco_Buttstock_Green" chance="0.30" />	
+			<item name="MSFC_AK_Zenitco_Buttstock_Desert" chance="0.30" />
+			<item name="MSFC_AK_Zenitco_Buttstock_White" chance="0.30" />			
+			<item name="AK_PlasticBttstck" chance="0.30" />
+			<item name="AK_FoldingBttstck" chance="0.30" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="AK_PlasticHndgrd" chance="0.30" />
+			<item name="AK_RailHndgrd" chance="0.30" />
+			<item name="MSFC_AK_Zenitco_Handguard" chance="0.30" />	
+			<item name="MSFC_AK_Zenitco_Handguard_Black" chance="0.30" />	
+			<item name="MSFC_AK_Zenitco_Handguard_Green" chance="0.30" />			
+			<item name="MSFC_AK_Zenitco_Handguard_Desert" chance="0.30" />	
+			<item name="MSFC_AK_Zenitco_Handguard_White" chance="0.30" />			
+		</attachments>
+		<attachments chance="1.00">
+			<item name="MSFC_AK12MR_30RND" chance="0.30" />
+			<item name="MSFC_AK12MR_30RND_Black" chance="0.30" />
+			<item name="MSFC_AK12MR_30RND_Green" chance="0.30" />
+			<item name="MSFC_AK12MR_30RND_Desert" chance="0.30" />
+			<item name="MSFC_AK12MR_30RND_White" chance="0.30" />			
+			<item name="MSFC_AK12MR_60RND" chance="0.30" />
+			<item name="MSFC_AK12MR_60RND_Black" chance="0.30" />
+			<item name="MSFC_AK12MR_60RND_Green" chance="0.30" />
+			<item name="MSFC_AK12MR_60RND_Desert" chance="0.30" />	
+			<item name="MSFC_AK12MR_60RND_White" chance="0.30" />			
+		</attachments>	
+	</type>	
+	<type name="MSFC_AK105_Green">
+		<attachments chance="1.00">
+			<item name="MSFC_ButtstockAK12MR" chance="0.30" />	
+			<item name="MSFC_ButtstockAK12MR_Black" chance="0.30" />	
+			<item name="MSFC_ButtstockAK12MR_Green" chance="0.30" />	
+			<item name="MSFC_ButtstockAK12MR_Desert" chance="0.30" />
+			<item name="MSFC_ButtstockAK12MR_White" chance="0.30" />			
+			<item name="MSFC_AK_Zenitco_Buttstock" chance="0.30" />	
+			<item name="MSFC_AK_Zenitco_Buttstock_Black" chance="0.30" />
+			<item name="MSFC_AK_Zenitco_Buttstock_Green" chance="0.30" />	
+			<item name="MSFC_AK_Zenitco_Buttstock_Desert" chance="0.30" />
+			<item name="MSFC_AK_Zenitco_Buttstock_White" chance="0.30" />			
+			<item name="AK_PlasticBttstck" chance="0.30" />
+			<item name="AK_FoldingBttstck" chance="0.30" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="AK_PlasticHndgrd" chance="0.30" />
+			<item name="AK_RailHndgrd" chance="0.30" />
+			<item name="MSFC_AK_Zenitco_Handguard" chance="0.30" />	
+			<item name="MSFC_AK_Zenitco_Handguard_Black" chance="0.30" />	
+			<item name="MSFC_AK_Zenitco_Handguard_Green" chance="0.30" />			
+			<item name="MSFC_AK_Zenitco_Handguard_Desert" chance="0.30" />	
+			<item name="MSFC_AK_Zenitco_Handguard_White" chance="0.30" />			
+		</attachments>
+		<attachments chance="1.00">
+			<item name="MSFC_AK12MR_30RND" chance="0.30" />
+			<item name="MSFC_AK12MR_30RND_Black" chance="0.30" />
+			<item name="MSFC_AK12MR_30RND_Green" chance="0.30" />
+			<item name="MSFC_AK12MR_30RND_Desert" chance="0.30" />
+			<item name="MSFC_AK12MR_30RND_White" chance="0.30" />			
+			<item name="MSFC_AK12MR_60RND" chance="0.30" />
+			<item name="MSFC_AK12MR_60RND_Black" chance="0.30" />
+			<item name="MSFC_AK12MR_60RND_Green" chance="0.30" />
+			<item name="MSFC_AK12MR_60RND_Desert" chance="0.30" />	
+			<item name="MSFC_AK12MR_60RND_White" chance="0.30" />				
+		</attachments>	
+	</type>	
+	<type name="MSFC_AK105_Desert">
+		<attachments chance="1.00">
+			<item name="MSFC_ButtstockAK12MR" chance="0.30" />	
+			<item name="MSFC_ButtstockAK12MR_Black" chance="0.30" />	
+			<item name="MSFC_ButtstockAK12MR_Green" chance="0.30" />	
+			<item name="MSFC_ButtstockAK12MR_Desert" chance="0.30" />
+			<item name="MSFC_ButtstockAK12MR_White" chance="0.30" />			
+			<item name="MSFC_AK_Zenitco_Buttstock" chance="0.30" />	
+			<item name="MSFC_AK_Zenitco_Buttstock_Black" chance="0.30" />
+			<item name="MSFC_AK_Zenitco_Buttstock_Green" chance="0.30" />	
+			<item name="MSFC_AK_Zenitco_Buttstock_Desert" chance="0.30" />
+			<item name="MSFC_AK_Zenitco_Buttstock_White" chance="0.30" />			
+			<item name="AK_PlasticBttstck" chance="0.30" />
+			<item name="AK_FoldingBttstck" chance="0.30" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="AK_PlasticHndgrd" chance="0.30" />
+			<item name="AK_RailHndgrd" chance="0.30" />
+			<item name="MSFC_AK_Zenitco_Handguard" chance="0.30" />	
+			<item name="MSFC_AK_Zenitco_Handguard_Black" chance="0.30" />	
+			<item name="MSFC_AK_Zenitco_Handguard_Green" chance="0.30" />			
+			<item name="MSFC_AK_Zenitco_Handguard_Desert" chance="0.30" />	
+			<item name="MSFC_AK_Zenitco_Handguard_White" chance="0.30" />			
+		</attachments>
+		<attachments chance="1.00">
+			<item name="MSFC_AK12MR_30RND" chance="0.30" />
+			<item name="MSFC_AK12MR_30RND_Black" chance="0.30" />
+			<item name="MSFC_AK12MR_30RND_Green" chance="0.30" />
+			<item name="MSFC_AK12MR_30RND_Desert" chance="0.30" />
+			<item name="MSFC_AK12MR_30RND_White" chance="0.30" />			
+			<item name="MSFC_AK12MR_60RND" chance="0.30" />
+			<item name="MSFC_AK12MR_60RND_Black" chance="0.30" />
+			<item name="MSFC_AK12MR_60RND_Green" chance="0.30" />
+			<item name="MSFC_AK12MR_60RND_Desert" chance="0.30" />	
+			<item name="MSFC_AK12MR_60RND_White" chance="0.30" />			
+		</attachments>	
+	</type>
+	<type name="MSFC_AK105_White">
+		<attachments chance="1.00">
+			<item name="MSFC_ButtstockAK12MR" chance="0.30" />	
+			<item name="MSFC_ButtstockAK12MR_Black" chance="0.30" />	
+			<item name="MSFC_ButtstockAK12MR_Green" chance="0.30" />	
+			<item name="MSFC_ButtstockAK12MR_Desert" chance="0.30" />
+			<item name="MSFC_ButtstockAK12MR_White" chance="0.30" />			
+			<item name="MSFC_AK_Zenitco_Buttstock" chance="0.30" />	
+			<item name="MSFC_AK_Zenitco_Buttstock_Black" chance="0.30" />
+			<item name="MSFC_AK_Zenitco_Buttstock_Green" chance="0.30" />	
+			<item name="MSFC_AK_Zenitco_Buttstock_Desert" chance="0.30" />
+			<item name="MSFC_AK_Zenitco_Buttstock_White" chance="0.30" />			
+			<item name="AK_PlasticBttstck" chance="0.30" />
+			<item name="AK_FoldingBttstck" chance="0.30" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="AK_PlasticHndgrd" chance="0.30" />
+			<item name="AK_RailHndgrd" chance="0.30" />
+			<item name="MSFC_AK_Zenitco_Handguard" chance="0.30" />	
+			<item name="MSFC_AK_Zenitco_Handguard_Black" chance="0.30" />	
+			<item name="MSFC_AK_Zenitco_Handguard_Green" chance="0.30" />			
+			<item name="MSFC_AK_Zenitco_Handguard_Desert" chance="0.30" />	
+			<item name="MSFC_AK_Zenitco_Handguard_White" chance="0.30" />			
+		</attachments>
+		<attachments chance="1.00">
+			<item name="MSFC_AK12MR_30RND" chance="0.30" />
+			<item name="MSFC_AK12MR_30RND_Black" chance="0.30" />
+			<item name="MSFC_AK12MR_30RND_Green" chance="0.30" />
+			<item name="MSFC_AK12MR_30RND_Desert" chance="0.30" />
+			<item name="MSFC_AK12MR_30RND_White" chance="0.30" />			
+			<item name="MSFC_AK12MR_60RND" chance="0.30" />
+			<item name="MSFC_AK12MR_60RND_Black" chance="0.30" />
+			<item name="MSFC_AK12MR_60RND_Green" chance="0.30" />
+			<item name="MSFC_AK12MR_60RND_Desert" chance="0.30" />	
+			<item name="MSFC_AK12MR_60RND_White" chance="0.30" />				
+		</attachments>	
+	</type>		
+<!--AK-12 Punk-->		
+	<type name="MSFC_AK12_Punk">
+		<attachments chance="1.00">
+			<item name="MSFC_ButtstockAK12MR" chance="0.30" />	
+			<item name="MSFC_ButtstockAK12MR_Black" chance="0.30" />	
+			<item name="MSFC_ButtstockAK12MR_Green" chance="0.30" />	
+			<item name="MSFC_ButtstockAK12MR_Desert" chance="0.30" />
+			<item name="MSFC_ButtstockAK12MR_White" chance="0.30" />			
+			<item name="MSFC_AK_Zenitco_Buttstock" chance="0.30" />	
+			<item name="MSFC_AK_Zenitco_Buttstock_Black" chance="0.30" />
+			<item name="MSFC_AK_Zenitco_Buttstock_Green" chance="0.30" />	
+			<item name="MSFC_AK_Zenitco_Buttstock_Desert" chance="0.30" />
+			<item name="MSFC_AK_Zenitco_Buttstock_White" chance="0.30" />			
+			<item name="AK_PlasticBttstck" chance="0.30" />
+			<item name="MSFC_ButtstockAK12Punk" chance="0.30" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="MSFC_AK12MR_30RND" chance="0.30" />
+			<item name="MSFC_AK12MR_30RND_Black" chance="0.30" />
+			<item name="MSFC_AK12MR_30RND_Green" chance="0.30" />
+			<item name="MSFC_AK12MR_30RND_Desert" chance="0.30" />
+			<item name="MSFC_AK12MR_30RND_White" chance="0.30" />			
+			<item name="MSFC_AK12MR_60RND" chance="0.30" />
+			<item name="MSFC_AK12MR_60RND_Black" chance="0.30" />
+			<item name="MSFC_AK12MR_60RND_Green" chance="0.30" />
+			<item name="MSFC_AK12MR_60RND_Desert" chance="0.30" />	
+			<item name="MSFC_AK12MR_60RND_White" chance="0.30" />				
+		</attachments>	
+	</type>
+</spawnabletypes>
