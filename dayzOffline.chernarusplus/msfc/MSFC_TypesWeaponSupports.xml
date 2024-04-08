@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <types>
   <type name="MSFC_ButtstockAK12MR">
-    <nominal>0</nominal>
+    <nominal>5</nominal>
     <lifetime>7200</lifetime>
     <restock>1800</restock>
-    <min>0</min>
+    <min>2</min>
     <quantmin>-1</quantmin>
     <quantmax>-1</quantmax>
     <cost>100</cost>
@@ -15,10 +15,10 @@
     <value name="Tier4" />
   </type>
   <type name="MSFC_AK_Zenitco_Buttstock">
-    <nominal>0</nominal>
+    <nominal>5</nominal>
     <lifetime>7200</lifetime>
     <restock>1800</restock>
-    <min>0</min>
+    <min>2</min>
     <quantmin>-1</quantmin>
     <quantmax>-1</quantmax>
     <cost>100</cost>
@@ -29,10 +29,10 @@
     <value name="Tier4" />
   </type>
   <type name="MSFC_Handguard_AK12MR">
-    <nominal>0</nominal>
+    <nominal>5</nominal>
     <lifetime>7200</lifetime>
     <restock>1800</restock>
-    <min>0</min>
+    <min>2</min>
     <quantmin>-1</quantmin>
     <quantmax>-1</quantmax>
     <cost>100</cost>
@@ -141,10 +141,10 @@
     <value name="Tier4" />
   </type>
   <type name="MSFC_Handguard_Tactical_AR15">
-    <nominal>0</nominal>
+    <nominal>5</nominal>
     <lifetime>7200</lifetime>
     <restock>1800</restock>
-    <min>0</min>
+    <min>2</min>
     <quantmin>-1</quantmin>
     <quantmax>-1</quantmax>
     <cost>100</cost>
@@ -155,10 +155,10 @@
     <value name="Tier4" />
   </type>
   <type name="MSFC_AK_Zenitco_Handguard">
-    <nominal>0</nominal>
+    <nominal>5</nominal>
     <lifetime>7200</lifetime>
     <restock>1800</restock>
-    <min>0</min>
+    <min>2</min>
     <quantmin>-1</quantmin>
     <quantmax>-1</quantmax>
     <cost>100</cost>
@@ -185,10 +185,10 @@
   </type>
 -->  
   <type name="MSFC_ButtstockCZ805">
-    <nominal>0</nominal>
+    <nominal>3</nominal>
     <lifetime>7200</lifetime>
     <restock>1800</restock>
-    <min>0</min>
+    <min>2</min>
     <quantmin>-1</quantmin>
     <quantmax>-1</quantmax>
     <cost>100</cost>
@@ -199,10 +199,10 @@
     <value name="Tier4" />
   </type>
   <type name="MSFC_ButtstockAK_ALFA">
-    <nominal>0</nominal>
+    <nominal>3</nominal>
     <lifetime>7200</lifetime>
     <restock>1800</restock>
-    <min>0</min>
+    <min>2</min>
     <quantmin>-1</quantmin>
     <quantmax>-1</quantmax>
     <cost>100</cost>

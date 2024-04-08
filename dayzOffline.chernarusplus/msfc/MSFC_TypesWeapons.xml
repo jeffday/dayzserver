@@ -1,24 +1,23 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <types>
   <type name="MSFC_AK_ALFA">
-    <nominal>0</nominal>
+    <nominal>1</nominal>
     <lifetime>7200</lifetime>
     <restock>1800</restock>
-    <min>0</min>
+    <min>1</min>
     <quantmin>-1</quantmin>
     <quantmax>-1</quantmax>
     <cost>100</cost>
-    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="1" />
     <category name="weapons" />
     <usage name="Military" />
-    <value name="Tier3" />
     <value name="Tier4" />
   </type>
   <type name="MSFC_AK12MR">
-    <nominal>0</nominal>
+    <nominal>2</nominal>
     <lifetime>7200</lifetime>
     <restock>1800</restock>
-    <min>0</min>
+    <min>1</min>
     <quantmin>-1</quantmin>
     <quantmax>-1</quantmax>
     <cost>100</cost>
@@ -29,31 +28,29 @@
     <value name="Tier4" />
   </type>
   <type name="MSFC_AK15MR">
-    <nominal>0</nominal>
+    <nominal>1</nominal>
     <lifetime>7200</lifetime>
     <restock>1800</restock>
-    <min>0</min>
+    <min>1</min>
     <quantmin>-1</quantmin>
     <quantmax>-1</quantmax>
     <cost>100</cost>
-    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="1" />
     <category name="weapons" />
     <usage name="Military" />
-    <value name="Tier3" />
     <value name="Tier4" />
   </type>
   <type name="MSFC_AK103">
-    <nominal>0</nominal>
+    <nominal>1</nominal>
     <lifetime>7200</lifetime>
     <restock>1800</restock>
-    <min>0</min>
+    <min>1</min>
     <quantmin>-1</quantmin>
     <quantmax>-1</quantmax>
     <cost>100</cost>
-    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="1" />
     <category name="weapons" />
     <usage name="Military" />
-    <value name="Tier3" />
     <value name="Tier4" />
   </type>
   <type name="MSFC_BarrettM82">
@@ -141,10 +138,10 @@
     <value name="Tier4" />
   </type>
   <type name="MSFC_MSBS">
-    <nominal>0</nominal>
+    <nominal>1</nominal>
     <lifetime>7200</lifetime>
     <restock>1800</restock>
-    <min>0</min>
+    <min>1</min>
     <quantmin>-1</quantmin>
     <quantmax>-1</quantmax>
     <cost>100</cost>
@@ -239,30 +236,34 @@
     <value name="Tier4" />
   </type>
   <type name="MSFC_Tactical_AR15">
-    <nominal>0</nominal>
+    <nominal>5</nominal>
     <lifetime>7200</lifetime>
     <restock>1800</restock>
-    <min>0</min>
+    <min>2</min>
     <quantmin>-1</quantmin>
     <quantmax>-1</quantmax>
     <cost>100</cost>
     <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
     <category name="weapons" />
-    <usage name="Military" />
+    <usage name="Town" />
+    <usage name="Hunting" />
+    <value name="Tier2" />
     <value name="Tier3" />
     <value name="Tier4" />
   </type>
   <type name="MSFC_VPO136">
-    <nominal>0</nominal>
+    <nominal>5</nominal>
     <lifetime>7200</lifetime>
     <restock>1800</restock>
-    <min>0</min>
+    <min>2</min>
     <quantmin>-1</quantmin>
     <quantmax>-1</quantmax>
     <cost>100</cost>
     <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
     <category name="weapons" />
-    <usage name="Military" />
+    <usage name="Town" />
+    <usage name="Hunting" />
+    <value name="Tier2" />
     <value name="Tier3" />
     <value name="Tier4" />
   </type>
@@ -349,11 +350,11 @@
     <tag name="shelves"/>
     <usage name="Military"/>
   </type>
-  <type name="MSFC_DownrangeTomahawk_Desert">
-    <nominal>0</nominal>
+  <type name="MSFC_DownrangeTomahawk_Black">
+    <nominal>10</nominal>
     <lifetime>7200</lifetime>
     <restock>1800</restock>
-    <min>0</min>
+    <min>5</min>
     <quantmin>-1</quantmin>
     <quantmax>-1</quantmax>
     <cost>100</cost>
@@ -378,10 +379,10 @@
     <value name="Tier4" />
   </type>
   <type name="MSFC_AK105">
-    <nominal>0</nominal>
+    <nominal>2</nominal>
     <lifetime>7200</lifetime>
     <restock>1800</restock>
-    <min>0</min>
+    <min>1</min>
     <quantmin>-1</quantmin>
     <quantmax>-1</quantmax>
     <cost>100</cost>
