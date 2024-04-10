@@ -144,7 +144,6 @@
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="weapons"/>
         <usage name="Military"/>
-        <usage name="Police"/>
         <value name="Tier3"/>
         <value name="Tier4"/>
     </type>
@@ -159,7 +158,6 @@
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="weapons"/>
         <usage name="Military"/>
-        <usage name="Police"/>
         <value name="Tier3"/>
         <value name="Tier4"/>
     </type>
@@ -174,7 +172,6 @@
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="weapons"/>
         <usage name="Military"/>
-        <usage name="Police"/>
         <value name="Tier3"/>
         <value name="Tier4"/>
     </type>
@@ -189,7 +186,6 @@
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="weapons"/>
         <usage name="Military"/>
-        <usage name="Police"/>
         <value name="Tier3"/>
         <value name="Tier4"/>
     </type>
@@ -592,7 +588,7 @@
 
 
     <type name="HBd_PBS4_1_Suppressor">
-        <nominal>2</nominal>
+        <nominal>1</nominal>
         <lifetime>9800</lifetime>
         <restock>1800</restock>
         <min>1</min>
@@ -602,11 +598,10 @@
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="weapons"/>
         <usage name="Military"/>               
-        <value name="Tier3"/>
         <value name="Tier4"/>
     </type>
     <type name="HBd_Hexagon_Suppressor_AK">
-        <nominal>2</nominal>
+        <nominal>1</nominal>
         <lifetime>9800</lifetime>
         <restock>1800</restock>
         <min>1</min>
@@ -616,25 +611,23 @@
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="weapons"/>
         <usage name="Military"/>               
-        <value name="Tier3"/>
         <value name="Tier4"/>
     </type>
     <type name="HBd_SilencerCo_Salvo_12ga_Suppressor">
-        <nominal>2</nominal>
+        <nominal>1</nominal>
         <lifetime>9800</lifetime>
         <restock>1800</restock>
         <min>1</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
-        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="1"/>
         <category name="weapons"/>
         <usage name="Military"/>               
-        <value name="Tier3"/>
         <value name="Tier4"/>
     </type> 
    <type name="HBd_PBS_1_Suppressor">
-        <nominal>2</nominal>
+        <nominal>1</nominal>
         <lifetime>9800</lifetime>
         <restock>1800</restock>
         <min>1</min>
@@ -644,11 +637,10 @@
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="weapons"/>
         <usage name="Military"/>               
-        <value name="Tier3"/>
         <value name="Tier4"/>
     </type>
     <type name="HBd_Hexagon_waflemaker_Suppressor_AK">
-        <nominal>2</nominal>
+        <nominal>1</nominal>
         <lifetime>9800</lifetime>
         <restock>1800</restock>
         <min>1</min>
@@ -658,11 +650,10 @@
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="weapons"/>
         <usage name="Military"/>               
-        <value name="Tier3"/>
         <value name="Tier4"/>
     </type>
     <type name="HBd_ROTOR43_Suppressor_AK">
-        <nominal>2</nominal>
+        <nominal>1</nominal>
         <lifetime>9800</lifetime>
         <restock>1800</restock>
         <min>1</min>
@@ -672,7 +663,6 @@
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="weapons"/>
         <usage name="Military"/>               
-        <value name="Tier3"/>
         <value name="Tier4"/>
     </type>
     <type name="HBd_Zenitko_DTK_1L">
@@ -1593,10 +1583,10 @@
     </type>
 
     <type name="HBd_Mag_50rnd_9mm">
-        <nominal>5</nominal>
+        <nominal>0</nominal>
         <lifetime>28800</lifetime>
         <restock>0</restock>
-        <min>1</min>
+        <min>0</min>
         <quantmin>5</quantmin>
         <quantmax>50</quantmax>
         <cost>100</cost>
@@ -1608,25 +1598,24 @@
         <value name="Tier4"/>
     </type>
     <type name="HBd_AK74_60Rnd_Mag">
-        <nominal>10</nominal>
+        <nominal>2</nominal>
         <lifetime>28800</lifetime>
         <restock>0</restock>
-        <min>5</min>
+        <min>1</min>
         <quantmin>5</quantmin>
         <quantmax>50</quantmax>
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="weapons"/>
         <usage name="Military"/>
-        <value name="Tier2"/>
         <value name="Tier3"/>
         <value name="Tier4"/>
     </type>
     <type name="HBd_AK74_PufGun_60Rnd_Mag">
-        <nominal>10</nominal>
+        <nominal>2</nominal>
         <lifetime>28800</lifetime>
         <restock>0</restock>
-        <min>5</min>
+        <min>1</min>
         <quantmin>5</quantmin>
         <quantmax>50</quantmax>
         <cost>100</cost>
@@ -1637,10 +1626,10 @@
         <value name="Tier4"/>
     </type>
     <type name="HBd_AK74_PufGun_60Rnd_Oliva_Mag">
-        <nominal>25</nominal>
+        <nominal>2</nominal>
         <lifetime>28800</lifetime>
         <restock>0</restock>
-        <min>20</min>
+        <min>1</min>
         <quantmin>5</quantmin>
         <quantmax>50</quantmax>
         <cost>100</cost>
@@ -1801,10 +1790,10 @@
         <value name="Tier4"/>
     </type>
     <type name="HBd_Drum_545_96Rnd_Mag">
-        <nominal>5</nominal>
+        <nominal>0</nominal>
         <lifetime>28800</lifetime>
         <restock>0</restock>
-        <min>2</min>
+        <min>0</min>
         <quantmin>5</quantmin>
         <quantmax>50</quantmax>
         <cost>100</cost>
@@ -2503,9 +2492,7 @@
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="weapons"/>
-        <usage name="Military"/>
-        <usage name="Police"/>  
-        <value name="Tier2"/>              
+        <usage name="Military"/>          
         <value name="Tier3"/>
         <value name="Tier4"/>
     </type>
@@ -2519,9 +2506,7 @@
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="weapons"/>
-        <usage name="Military"/>
-        <usage name="Police"/>  
-        <value name="Tier2"/>              
+        <usage name="Military"/>         
         <value name="Tier3"/>
         <value name="Tier4"/>
     </type>
@@ -2535,9 +2520,7 @@
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="weapons"/>
-        <usage name="Military"/>
-        <usage name="Police"/>  
-        <value name="Tier2"/>              
+        <usage name="Military"/>           
         <value name="Tier3"/>
         <value name="Tier4"/>
     </type>
@@ -2674,10 +2657,10 @@
         <usage name="Police"/>
     </type>
     <type name="HBd_RPK74">
-        <nominal>4</nominal>
+        <nominal>2</nominal>
         <lifetime>28800</lifetime>
         <restock>0</restock>
-        <min>2</min>
+        <min>1</min>
         <quantmin>30</quantmin>
         <quantmax>80</quantmax>
         <cost>100</cost>
@@ -2688,10 +2671,10 @@
         <value name="Tier4"/>
     </type>
     <type name="HBd_RPK74P">
-        <nominal>4</nominal>
+        <nominal>2</nominal>
         <lifetime>28800</lifetime>
         <restock>0</restock>
-        <min>2</min>
+        <min>1</min>
         <quantmin>30</quantmin>
         <quantmax>80</quantmax>
         <cost>100</cost>
