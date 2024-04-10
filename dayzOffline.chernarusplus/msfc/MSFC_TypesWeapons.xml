@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <types>
   <type name="MSFC_AK_ALFA">
-    <nominal>1</nominal>
+    <nominal>0</nominal>
     <lifetime>7200</lifetime>
     <restock>1800</restock>
-    <min>1</min>
+    <min>0</min>
     <quantmin>-1</quantmin>
     <quantmax>-1</quantmax>
     <cost>100</cost>
@@ -14,10 +14,10 @@
     <value name="Tier4" />
   </type>
   <type name="MSFC_AK12MR">
-    <nominal>2</nominal>
+    <nominal>0</nominal>
     <lifetime>7200</lifetime>
     <restock>1800</restock>
-    <min>1</min>
+    <min>0</min>
     <quantmin>-1</quantmin>
     <quantmax>-1</quantmax>
     <cost>100</cost>
@@ -28,10 +28,10 @@
     <value name="Tier4" />
   </type>
   <type name="MSFC_AK15MR">
-    <nominal>1</nominal>
+    <nominal>0</nominal>
     <lifetime>7200</lifetime>
     <restock>1800</restock>
-    <min>1</min>
+    <min>0</min>
     <quantmin>-1</quantmin>
     <quantmax>-1</quantmax>
     <cost>100</cost>
@@ -41,10 +41,10 @@
     <value name="Tier4" />
   </type>
   <type name="MSFC_AK103">
-    <nominal>1</nominal>
+    <nominal>0</nominal>
     <lifetime>7200</lifetime>
     <restock>1800</restock>
-    <min>1</min>
+    <min>0</min>
     <quantmin>-1</quantmin>
     <quantmax>-1</quantmax>
     <cost>100</cost>
@@ -110,10 +110,10 @@
     <value name="Tier4" />
   </type>
   <type name="MSFC_L96A1">
-    <nominal>2</nominal>
+    <nominal>0</nominal>
     <lifetime>7200</lifetime>
     <restock>1800</restock>
-    <min>1</min>
+    <min>0</min>
     <quantmin>-1</quantmin>
     <quantmax>-1</quantmax>
     <cost>100</cost>
@@ -138,7 +138,7 @@
     <value name="Tier4" />
   </type>
   <type name="MSFC_MSBS">
-    <nominal>1</nominal>
+    <nominal>2</nominal>
     <lifetime>7200</lifetime>
     <restock>1800</restock>
     <min>1</min>
@@ -379,10 +379,10 @@
     <value name="Tier4" />
   </type>
   <type name="MSFC_AK105">
-    <nominal>2</nominal>
+    <nominal>0</nominal>
     <lifetime>7200</lifetime>
     <restock>1800</restock>
-    <min>1</min>
+    <min>0</min>
     <quantmin>-1</quantmin>
     <quantmax>-1</quantmax>
     <cost>100</cost>
