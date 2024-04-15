@@ -15925,12 +15925,12 @@
         <value name="Tier1"/>
     </type>
     <type name="SKS">
-        <nominal>0</nominal>
+        <nominal>20</nominal>
         <lifetime>28800</lifetime>
         <restock>0</restock>
-        <min>0</min>
-        <quantmin>25</quantmin>
-        <quantmax>75</quantmax>
+        <min>14</min>
+        <quantmin>0</quantmin>
+        <quantmax>80</quantmax>
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="weapons"/>
