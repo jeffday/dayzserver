@@ -141,10 +141,10 @@
     <value name="Tier4" />
   </type>
   <type name="MSFC_Handguard_Tactical_AR15">
-    <nominal>5</nominal>
+    <nominal>0</nominal>
     <lifetime>7200</lifetime>
     <restock>1800</restock>
-    <min>2</min>
+    <min>0</min>
     <quantmin>-1</quantmin>
     <quantmax>-1</quantmax>
     <cost>100</cost>
@@ -185,10 +185,10 @@
   </type>
 -->  
   <type name="MSFC_ButtstockCZ805">
-    <nominal>3</nominal>
+    <nominal>0</nominal>
     <lifetime>7200</lifetime>
     <restock>1800</restock>
-    <min>2</min>
+    <min>0</min>
     <quantmin>-1</quantmin>
     <quantmax>-1</quantmax>
     <cost>100</cost>
@@ -265,7 +265,6 @@
     <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
     <category name="weapons" />
     <usage name="Military" />
-    <value name="Tier3" />
     <value name="Tier4" />
   </type>
   <type name="MSFC_PBS4_AK_Suppressor">
@@ -279,7 +278,6 @@
     <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
     <category name="weapons" />
     <usage name="Military" />
-    <value name="Tier3" />
     <value name="Tier4" />
   </type>  
   <type name="MSFC_RO_Pistol_Suppressor">
@@ -293,7 +291,6 @@
     <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
     <category name="weapons" />
     <usage name="Military" />
-    <value name="Tier3" />
     <value name="Tier4" />
   </type>  
    <type name="MSFC_ButtstockAK12Punk">
