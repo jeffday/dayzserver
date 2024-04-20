@@ -1587,7 +1587,7 @@
         <value name="Tier4"/>
     </type>
     <type name="HBd_AK74_60Rnd_Mag">
-        <nominal>2</nominal>
+        <nominal>1</nominal>
         <lifetime>28800</lifetime>
         <restock>0</restock>
         <min>1</min>
@@ -1601,7 +1601,7 @@
         <value name="Tier4"/>
     </type>
     <type name="HBd_AK74_PufGun_60Rnd_Mag">
-        <nominal>2</nominal>
+        <nominal>1</nominal>
         <lifetime>28800</lifetime>
         <restock>0</restock>
         <min>1</min>
@@ -1615,7 +1615,7 @@
         <value name="Tier4"/>
     </type>
     <type name="HBd_AK74_PufGun_60Rnd_Oliva_Mag">
-        <nominal>2</nominal>
+        <nominal>1</nominal>
         <lifetime>28800</lifetime>
         <restock>0</restock>
         <min>1</min>
@@ -2258,7 +2258,7 @@
         <nominal>5</nominal>
         <lifetime>28800</lifetime>
         <restock>0</restock>
-        <min>15</min>
+        <min>2</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -2597,17 +2597,16 @@
         <value name="Tier4"/>
     </type>
     <type name="HBd_AKS74UB">
-        <nominal>9</nominal>
+        <nominal>5</nominal>
         <lifetime>28800</lifetime>
         <restock>0</restock>
-        <min>5</min>
+        <min>2</min>
         <quantmin>30</quantmin>
         <quantmax>80</quantmax>
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="weapons"/>
         <usage name="Military"/>
-        <value name="Tier2"/>
         <value name="Tier3"/>
         <value name="Tier4"/>
     </type>
@@ -2624,7 +2623,7 @@
         <usage name="Police"/>
     </type>
     <type name="HBd_RPK74">
-        <nominal>2</nominal>
+        <nominal>1</nominal>
         <lifetime>28800</lifetime>
         <restock>0</restock>
         <min>1</min>
@@ -2638,7 +2637,7 @@
         <value name="Tier4"/>
     </type>
     <type name="HBd_RPK74P">
-        <nominal>2</nominal>
+        <nominal>1</nominal>
         <lifetime>28800</lifetime>
         <restock>0</restock>
         <min>1</min>
@@ -2652,10 +2651,10 @@
         <value name="Tier4"/>
     </type>
     <type name="HBd_RPK74M">
-        <nominal>4</nominal>
+        <nominal>1</nominal>
         <lifetime>28800</lifetime>
         <restock>0</restock>
-        <min>2</min>
+        <min>1</min>
         <quantmin>30</quantmin>
         <quantmax>80</quantmax>
         <cost>100</cost>
