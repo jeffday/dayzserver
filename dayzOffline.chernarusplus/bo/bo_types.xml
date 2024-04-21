@@ -404,7 +404,7 @@
         <value name="Tier4"/>
     </type>
     <type name="BO_AN94">
-        <nominal>1</nominal>
+        <nominal>0</nominal>
         <lifetime>7200</lifetime>
         <restock>300</restock>
         <min>0</min>
@@ -720,10 +720,10 @@
         <usage name="Military"/>
     </type>
     <type name="BO_SKS">
-        <nominal>20</nominal>
+        <nominal>0</nominal>
         <lifetime>28800</lifetime>
         <restock>0</restock>
-        <min>14</min>
+        <min>0</min>
         <quantmin>0</quantmin>
         <quantmax>80</quantmax>
         <cost>100</cost>
@@ -734,10 +734,10 @@
         <value name="Tier3"/>
     </type>
     <type name="BO_SKS_Tactical">
-        <nominal>5</nominal>
+        <nominal>0</nominal>
         <lifetime>28800</lifetime>
         <restock>0</restock>
-        <min>3</min>
+        <min>0</min>
         <quantmin>30</quantmin>
         <quantmax>80</quantmax>
         <cost>100</cost>
@@ -844,7 +844,6 @@
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="weapons"/>
-        <usage name="Military"/>
         <usage name="Hunting"/>
         <value name="Tier2"/>
         <value name="Tier3"/>
@@ -859,7 +858,6 @@
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="weapons"/>
-        <usage name="Military"/>
         <usage name="Hunting"/>
         <value name="Tier2"/>
         <value name="Tier3"/>
@@ -1630,10 +1628,10 @@
 
     <!-- Added 1.03 -->
     <type name="BO_AKS74U">
-        <nominal>12</nominal>
+        <nominal>0</nominal>
         <lifetime>7200</lifetime>
         <restock>300</restock>
-        <min>8</min>
+        <min>0</min>
         <quantmin>30</quantmin>
         <quantmax>80</quantmax>
         <cost>100</cost>
@@ -2429,10 +2427,10 @@
         <value name="Tier4"/>
     </type>
     <type name="BO_AK74">
-        <nominal>8</nominal>
+        <nominal>0</nominal>
         <lifetime>7200</lifetime>
         <restock>300</restock>
-        <min>6</min>
+        <min>0</min>
         <quantmin>30</quantmin>
         <quantmax>80</quantmax>
         <cost>100</cost>
@@ -2443,10 +2441,10 @@
         <value name="Tier4"/>
     </type>
     <type name="BO_AK74_30rnd">
-        <nominal>15</nominal>
+        <nominal>0</nominal>
         <lifetime>28800</lifetime>
         <restock>0</restock>
-        <min>10</min>
+        <min>0</min>
         <quantmin>5</quantmin>
         <quantmax>50</quantmax>
         <cost>100</cost>
@@ -2458,7 +2456,7 @@
         <value name="Tier4"/>
     </type>
     <type name="BO_AKM">
-        <nominal>1</nominal>
+        <nominal>0</nominal>
         <lifetime>7200</lifetime>
         <restock>300</restock>
         <min>0</min>
@@ -2484,10 +2482,10 @@
         <value name="Tier4"/>
     </type>
     <type name="BO_PMAG_AKM_30rnd">
-        <nominal>5</nominal>
+        <nominal>0</nominal>
         <lifetime>7200</lifetime>
         <restock>300</restock>
-        <min>2</min>
+        <min>0</min>
         <quantmin>5</quantmin>
         <quantmax>50</quantmax>
         <cost>100</cost>
@@ -3210,10 +3208,10 @@
         <usage name="Police"/>
     </type>
     <type name="BO_SVD">
-        <nominal>5</nominal>
+        <nominal>0</nominal>
         <lifetime>7200</lifetime>
         <restock>300</restock>
-        <min>2</min>
+        <min>0</min>
         <quantmin>30</quantmin>
         <quantmax>80</quantmax>
         <cost>100</cost>
@@ -3222,10 +3220,10 @@
         <usage name="Military"/>
     </type>
     <type name="BO_TKB0146">
-        <nominal>3</nominal>
+        <nominal>0</nominal>
         <lifetime>7200</lifetime>
         <restock>300</restock>
-        <min>2</min>
+        <min>0</min>
         <quantmin>30</quantmin>
         <quantmax>80</quantmax>
         <cost>100</cost>
@@ -4105,10 +4103,10 @@
         <value name="Tier4"/>
     </type>
     <type name="BO_PP1901">
-        <nominal>5</nominal>
+        <nominal>0</nominal>
         <lifetime>7200</lifetime>
         <restock>300</restock>
-        <min>3</min>
+        <min>0</min>
         <quantmin>30</quantmin>
         <quantmax>80</quantmax>
         <cost>100</cost>
@@ -4119,10 +4117,10 @@
         <value name="Tier3"/>
     </type>
     <type name="BO_Mag_PP1901_30rnd">
-        <nominal>5</nominal>
+        <nominal>0</nominal>
         <lifetime>7200</lifetime>
         <restock>300</restock>
-        <min>2</min>
+        <min>0</min>
         <quantmin>10</quantmin>
         <quantmax>50</quantmax>
         <cost>100</cost>
@@ -4133,10 +4131,10 @@
         <value name="Tier3"/>
     </type>
     <type name="BO_PP1901_Bttstck">
-        <nominal>4</nominal>
+        <nominal>0</nominal>
         <lifetime>7200</lifetime>
         <restock>300</restock>
-        <min>2</min>
+        <min>0</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -5492,7 +5490,7 @@
         <value name="Tier3" />
     </type>
     <type name="BO_AEK971">
-        <nominal>1</nominal>
+        <nominal>0</nominal>
         <lifetime>7200</lifetime>
         <restock>300</restock>
         <min>0</min>
@@ -5581,10 +5579,10 @@
         <value name="Tier4"/>
     </type>
     <type name="BO_Tigr_Tactical">
-        <nominal>1</nominal>
+        <nominal>0</nominal>
         <lifetime>7200</lifetime>
         <restock>300</restock>
-        <min>1</min>
+        <min>0</min>
         <quantmin>30</quantmin>
         <quantmax>80</quantmax>
         <cost>100</cost>
@@ -5593,10 +5591,10 @@
         <usage name="Military"/>
     </type>
     <type name="BO_Tigr_Handguard_Original">
-        <nominal>2</nominal>
+        <nominal>0</nominal>
         <lifetime>7200</lifetime>
         <restock>300</restock>
-        <min>1</min>
+        <min>0</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -5607,10 +5605,10 @@
         <value name="Tier4"/>
     </type>
     <type name="BO_Tigr_Handguard_Rail">
-        <nominal>2</nominal>
+        <nominal>0</nominal>
         <lifetime>7200</lifetime>
         <restock>300</restock>
-        <min>1</min>
+        <min>0</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
