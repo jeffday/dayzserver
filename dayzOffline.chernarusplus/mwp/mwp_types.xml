@@ -1813,6 +1813,20 @@
         <value name="Tier3"/>        
         <value name="Tier4"/>
     </type>
+    <type name="HBd_Vepr12_Mag">
+        <nominal>10</nominal>
+        <lifetime>28800</lifetime>
+        <restock>3600</restock>
+        <min>5</min>
+        <quantmin>10</quantmin>
+        <quantmax>80</quantmax>
+        <cost>1000</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="weapons"/>
+        <usage name="Military"/>
+        <value name="Tier3"/>        
+        <value name="Tier4"/>
+    </type>
 
     <type name="HBd_Zenitko_RK3_PistolGrip">
         <nominal>7</nominal>
