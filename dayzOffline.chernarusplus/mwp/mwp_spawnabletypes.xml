@@ -1,0 +1,649 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<spawnabletypes>
+    <type name="AK101">
+		<attachments chance="0.60">
+			<item name="Mag_AK101_30Rnd" chance="1.00" />
+		</attachments>
+        <attachments chance="0.40">
+			<item name="HBd_Zenitka_PT1_Stock" chance="0.20" />
+            <item name="HBd_Zenitka_PT1_Stock_Camo" chance="0.20" />
+            <item name="HBd_Zenit_PT3_Stock" chance="0.20" />
+            <item name="HBd_Zenit_PT3_Stock_Camo" chance="0.20" />
+            <item name="HBd_PufGun_butt_AK" chance="0.20" />
+		</attachments>
+        <attachments chance="0.40">
+			<item name="HBd_MTK_Rail_AK" chance="0.25" />
+            <item name="HBd_Aksion_Rail_AK" chance="0.25" />
+            <item name="HBd_Zenitko_B13_Classic" chance="0.25" />
+            <item name="HBd_SAG_Rail_AK" chance="0.25" />
+		</attachments>
+        <attachments chance="0.40">
+			<item name="HBd_TWS_GEN3_AK_hndgr" chance="0.1" />
+            <item name="HBd_TDI_X47_AK_hndgr" chance="0.1" />
+            <item name="HBd_AK_SLR_Rifeworks_ION_Hndgr" chance="0.1" />
+            <item name="HBd_AK_Krebs_Custom_UFM_Hndgr" chance="0.1" />
+            <item name="HBd_Vltor_CMRD_AK_hndgr" chance="0.1" />
+            <item name="HBd_AIM_Sports_AK_hndgr" chance="0.1" />
+            <item name="HBd_Zenitko_Sport_1" chance="0.1" />
+            <item name="HBd_Zenitko_Sport_1_Camo" chance="0.1" />
+            <item name="HBd_SAG21_hndgr_AK" chance="0.1" />
+            <item name="HBd_SAG30_hndgr_AK" chance="0.1" />
+		</attachments>
+        <attachments chance="0.50">
+			<item name="HBd_Zenitko_RK3_PistolGrip" chance="0.5" />
+            <item name="HB_Magpull_AK_PistolGrip" chance="0.5" />
+		</attachments>
+        <attachments chance="0.50">
+			<item name="HBd_Zenitko_RP1" chance="1.0" />
+		</attachments>
+	</type>
+    <type name="HBd_AK102">
+		<attachments chance="0.60">
+			<item name="Mag_AK101_30Rnd" chance="1.00" />
+		</attachments>
+        <attachments chance="0.40">
+			<item name="HBd_Zenitka_PT1_Stock" chance="0.20" />
+            <item name="HBd_Zenitka_PT1_Stock_Camo" chance="0.20" />
+            <item name="HBd_Zenit_PT3_Stock" chance="0.20" />
+            <item name="HBd_Zenit_PT3_Stock_Camo" chance="0.20" />
+            <item name="HBd_PufGun_butt_AK" chance="0.20" />
+		</attachments>
+        <attachments chance="0.40">
+			<item name="HBd_MTK_Rail_AK" chance="0.25" />
+            <item name="HBd_Aksion_Rail_AK" chance="0.25" />
+            <item name="HBd_Zenitko_B13_Classic" chance="0.25" />
+            <item name="HBd_SAG_Rail_AK" chance="0.25" />
+		</attachments>
+        <attachments chance="0.40">
+			<item name="HBd_TWS_GEN3_AK_hndgr" chance="0.1" />
+            <item name="HBd_TDI_X47_AK_hndgr" chance="0.1" />
+            <item name="HBd_AK_SLR_Rifeworks_ION_Hndgr" chance="0.1" />
+            <item name="HBd_AK_Krebs_Custom_UFM_Hndgr" chance="0.1" />
+            <item name="HBd_Vltor_CMRD_AK_hndgr" chance="0.1" />
+            <item name="HBd_AIM_Sports_AK_hndgr" chance="0.1" />
+            <item name="HBd_Zenitko_Sport_1" chance="0.1" />
+            <item name="HBd_Zenitko_Sport_1_Camo" chance="0.1" />
+            <item name="HBd_SAG21_hndgr_AK" chance="0.1" />
+            <item name="HBd_SAG30_hndgr_AK" chance="0.1" />
+		</attachments>
+        <attachments chance="0.50">
+			<item name="HBd_Zenitko_RK3_PistolGrip" chance="0.5" />
+            <item name="HB_Magpull_AK_PistolGrip" chance="0.5" />
+		</attachments>
+        <attachments chance="0.50">
+			<item name="HBd_Zenitko_RP1" chance="1.0" />
+		</attachments>
+	</type>
+
+    <type name="HBd_AK74M">
+		<attachments chance="0.60">
+			<item name="Mag_AK74_30Rnd_Black" chance="0.7" />
+            <item name="HBd_AK74_60Rnd_Mag" chance="0.1" />
+            <item name="HBd_AK74_PufGun_60Rnd_Mag" chance="0.1" />
+            <item name="HBd_AK74_PufGun_60Rnd_Oliva_Mag" chance="0.1" />
+		</attachments>
+        <attachments chance="0.40">
+			<item name="HBd_Zenitka_PT1_Stock" chance="0.20" />
+            <item name="HBd_Zenitka_PT1_Stock_Camo" chance="0.20" />
+            <item name="HBd_Zenit_PT3_Stock" chance="0.20" />
+            <item name="HBd_Zenit_PT3_Stock_Camo" chance="0.20" />
+            <item name="HBd_PufGun_butt_AK" chance="0.20" />
+		</attachments>
+        <attachments chance="0.40">
+			<item name="HBd_MTK_Rail_AK" chance="0.25" />
+            <item name="HBd_Aksion_Rail_AK" chance="0.25" />
+            <item name="HBd_Zenitko_B13_Classic" chance="0.25" />
+            <item name="HBd_SAG_Rail_AK" chance="0.25" />
+		</attachments>
+        <attachments chance="0.40">
+			<item name="HBd_TWS_GEN3_AK_hndgr" chance="0.1" />
+            <item name="HBd_TDI_X47_AK_hndgr" chance="0.1" />
+            <item name="HBd_AK_SLR_Rifeworks_ION_Hndgr" chance="0.1" />
+            <item name="HBd_AK_Krebs_Custom_UFM_Hndgr" chance="0.1" />
+            <item name="HBd_Vltor_CMRD_AK_hndgr" chance="0.1" />
+            <item name="HBd_AIM_Sports_AK_hndgr" chance="0.1" />
+            <item name="HBd_Zenitko_Sport_1" chance="0.1" />
+            <item name="HBd_Zenitko_Sport_1_Camo" chance="0.1" />
+            <item name="HBd_SAG21_hndgr_AK" chance="0.1" />
+            <item name="HBd_SAG30_hndgr_AK" chance="0.1" />
+		</attachments>
+        <attachments chance="0.50">
+			<item name="HBd_Zenitko_RK3_PistolGrip" chance="0.5" />
+            <item name="HB_Magpull_AK_PistolGrip" chance="0.5" />
+		</attachments>
+        <attachments chance="0.50">
+			<item name="HBd_Zenitko_RP1" chance="1.0" />
+		</attachments>
+	</type>
+    <type name="HBd_AK74M_Camo">
+		<attachments chance="0.60">
+			<item name="Mag_AK74_30Rnd_Black" chance="0.7" />
+            <item name="HBd_AK74_60Rnd_Mag" chance="0.1" />
+            <item name="HBd_AK74_PufGun_60Rnd_Mag" chance="0.1" />
+            <item name="HBd_AK74_PufGun_60Rnd_Oliva_Mag" chance="0.1" />
+		</attachments>
+        <attachments chance="0.40">
+			<item name="HBd_Zenitka_PT1_Stock" chance="0.20" />
+            <item name="HBd_Zenitka_PT1_Stock_Camo" chance="0.20" />
+            <item name="HBd_Zenit_PT3_Stock" chance="0.20" />
+            <item name="HBd_Zenit_PT3_Stock_Camo" chance="0.20" />
+            <item name="HBd_PufGun_butt_AK" chance="0.20" />
+		</attachments>
+        <attachments chance="0.40">
+			<item name="HBd_MTK_Rail_AK" chance="0.25" />
+            <item name="HBd_Aksion_Rail_AK" chance="0.25" />
+            <item name="HBd_Zenitko_B13_Classic" chance="0.25" />
+            <item name="HBd_SAG_Rail_AK" chance="0.25" />
+		</attachments>
+        <attachments chance="0.40">
+			<item name="HBd_TWS_GEN3_AK_hndgr" chance="0.1" />
+            <item name="HBd_TDI_X47_AK_hndgr" chance="0.1" />
+            <item name="HBd_AK_SLR_Rifeworks_ION_Hndgr" chance="0.1" />
+            <item name="HBd_AK_Krebs_Custom_UFM_Hndgr" chance="0.1" />
+            <item name="HBd_Vltor_CMRD_AK_hndgr" chance="0.1" />
+            <item name="HBd_AIM_Sports_AK_hndgr" chance="0.1" />
+            <item name="HBd_Zenitko_Sport_1" chance="0.1" />
+            <item name="HBd_Zenitko_Sport_1_Camo" chance="0.1" />
+            <item name="HBd_SAG21_hndgr_AK" chance="0.1" />
+            <item name="HBd_SAG30_hndgr_AK" chance="0.1" />
+		</attachments>
+        <attachments chance="0.50">
+			<item name="HBd_Zenitko_RK3_PistolGrip" chance="0.5" />
+            <item name="HB_Magpull_AK_PistolGrip" chance="0.5" />
+		</attachments>
+        <attachments chance="0.50">
+			<item name="HBd_Zenitko_RP1" chance="1.0" />
+		</attachments>
+	</type>
+    <type name="HBd_AK105">
+		<attachments chance="0.60">
+			<item name="Mag_AK74_30Rnd_Black" chance="0.7" />
+            <item name="HBd_AK74_60Rnd_Mag" chance="0.1" />
+            <item name="HBd_AK74_PufGun_60Rnd_Mag" chance="0.1" />
+            <item name="HBd_AK74_PufGun_60Rnd_Oliva_Mag" chance="0.1" />
+		</attachments>
+        <attachments chance="0.40">
+			<item name="HBd_Zenitka_PT1_Stock" chance="0.20" />
+            <item name="HBd_Zenitka_PT1_Stock_Camo" chance="0.20" />
+            <item name="HBd_Zenit_PT3_Stock" chance="0.20" />
+            <item name="HBd_Zenit_PT3_Stock_Camo" chance="0.20" />
+            <item name="HBd_PufGun_butt_AK" chance="0.20" />
+		</attachments>
+        <attachments chance="0.40">
+			<item name="HBd_MTK_Rail_AK" chance="0.25" />
+            <item name="HBd_Aksion_Rail_AK" chance="0.25" />
+            <item name="HBd_Zenitko_B13_Classic" chance="0.25" />
+            <item name="HBd_SAG_Rail_AK" chance="0.25" />
+		</attachments>
+        <attachments chance="0.40">
+			<item name="HBd_TWS_GEN3_AK_hndgr" chance="0.1" />
+            <item name="HBd_TDI_X47_AK_hndgr" chance="0.1" />
+            <item name="HBd_AK_SLR_Rifeworks_ION_Hndgr" chance="0.1" />
+            <item name="HBd_AK_Krebs_Custom_UFM_Hndgr" chance="0.1" />
+            <item name="HBd_Vltor_CMRD_AK_hndgr" chance="0.1" />
+            <item name="HBd_AIM_Sports_AK_hndgr" chance="0.1" />
+            <item name="HBd_Zenitko_Sport_1" chance="0.1" />
+            <item name="HBd_Zenitko_Sport_1_Camo" chance="0.1" />
+            <item name="HBd_SAG21_hndgr_AK" chance="0.1" />
+            <item name="HBd_SAG30_hndgr_AK" chance="0.1" />
+		</attachments>
+        <attachments chance="0.50">
+			<item name="HBd_Zenitko_RK3_PistolGrip" chance="0.5" />
+            <item name="HB_Magpull_AK_PistolGrip" chance="0.5" />
+		</attachments>
+        <attachments chance="0.50">
+			<item name="HBd_Zenitko_RP1" chance="1.0" />
+		</attachments>
+	</type>
+    <type name="HBd_AK107">
+		<attachments chance="0.60">
+			<item name="Mag_AK74_30Rnd_Black" chance="0.7" />
+            <item name="HBd_AK74_60Rnd_Mag" chance="0.1" />
+            <item name="HBd_AK74_PufGun_60Rnd_Mag" chance="0.1" />
+            <item name="HBd_AK74_PufGun_60Rnd_Oliva_Mag" chance="0.1" />
+		</attachments>
+        <attachments chance="0.40">
+			<item name="HBd_Zenitka_PT1_Stock" chance="0.20" />
+            <item name="HBd_Zenitka_PT1_Stock_Camo" chance="0.20" />
+            <item name="HBd_Zenit_PT3_Stock" chance="0.20" />
+            <item name="HBd_Zenit_PT3_Stock_Camo" chance="0.20" />
+            <item name="HBd_PufGun_butt_AK" chance="0.20" />
+		</attachments>
+        <attachments chance="0.40">
+			<item name="HBd_MTK_Rail_AK" chance="0.25" />
+            <item name="HBd_Aksion_Rail_AK" chance="0.25" />
+            <item name="HBd_Zenitko_B13_Classic" chance="0.25" />
+            <item name="HBd_SAG_Rail_AK" chance="0.25" />
+		</attachments>
+        <attachments chance="0.40">
+			<item name="HBd_TWS_GEN3_AK_hndgr" chance="0.1" />
+            <item name="HBd_TDI_X47_AK_hndgr" chance="0.1" />
+            <item name="HBd_AK_SLR_Rifeworks_ION_Hndgr" chance="0.1" />
+            <item name="HBd_AK_Krebs_Custom_UFM_Hndgr" chance="0.1" />
+            <item name="HBd_Vltor_CMRD_AK_hndgr" chance="0.1" />
+            <item name="HBd_AIM_Sports_AK_hndgr" chance="0.1" />
+            <item name="HBd_Zenitko_Sport_1" chance="0.1" />
+            <item name="HBd_Zenitko_Sport_1_Camo" chance="0.1" />
+            <item name="HBd_SAG21_hndgr_AK" chance="0.1" />
+            <item name="HBd_SAG30_hndgr_AK" chance="0.1" />
+		</attachments>
+        <attachments chance="0.50">
+			<item name="HBd_Zenitko_RK3_PistolGrip" chance="0.5" />
+            <item name="HB_Magpull_AK_PistolGrip" chance="0.5" />
+		</attachments>
+        <attachments chance="0.50">
+			<item name="HBd_Zenitko_RP1" chance="1.0" />
+		</attachments>
+	</type>
+    <type name="HBd_AKS74N">
+		<attachments chance="0.60">
+			<item name="Mag_AK74_30Rnd_Black" chance="1.0" />
+		</attachments>
+        <attachments chance="0.40">
+			<item name="HBd_Zenitka_PT1_Stock" chance="0.20" />
+            <item name="HBd_Zenitka_PT1_Stock_Camo" chance="0.20" />
+            <item name="HBd_Zenit_PT3_Stock" chance="0.20" />
+            <item name="HBd_Zenit_PT3_Stock_Camo" chance="0.20" />
+            <item name="HBd_PufGun_butt_AK" chance="0.20" />
+		</attachments>
+        <attachments chance="0.40">
+			<item name="HBd_AKSU74_Receiver" chance="0.5" />
+            <item name="HBd_Legal_Arsenal_Piligrim_aksu_cover" chance="0.5" />
+		</attachments>
+        <attachments chance="0.40">
+			<item name="HBd_Alpha_ARMS_AKS74U_hndgr" chance="0.25" />
+            <item name="HBd_Zenitko_B11_AKS74U_hndgr" chance="0.25" />
+            <item name="HBd_Zenitko_B11_B19_AKS74U_hndgr" chance="0.25" />
+            <item name="HBd_CAA_XRS47_AKS74U" chance="0.25" />
+		</attachments>
+        <attachments chance="0.50">
+			<item name="HBd_Zenitko_RK3_PistolGrip" chance="0.5" />
+            <item name="HB_Magpull_AK_PistolGrip" chance="0.5" />
+		</attachments>
+        <attachments chance="0.50">
+			<item name="HBd_Zenitko_RP4 " chance="1.0" />
+		</attachments>
+	</type>
+    <type name="HBd_AKS74U">
+		<attachments chance="0.60">
+			<item name="Mag_AK74_30Rnd_Black" chance="1.0" />
+		</attachments>
+        <attachments chance="0.40">
+			<item name="HBd_Zenitka_PT1_Stock" chance="0.20" />
+            <item name="HBd_Zenitka_PT1_Stock_Camo" chance="0.20" />
+            <item name="HBd_Zenit_PT3_Stock" chance="0.20" />
+            <item name="HBd_Zenit_PT3_Stock_Camo" chance="0.20" />
+            <item name="HBd_PufGun_butt_AK" chance="0.20" />
+		</attachments>
+        <attachments chance="0.40">
+			<item name="HBd_AKSU74_Receiver" chance="0.5" />
+            <item name="HBd_Legal_Arsenal_Piligrim_aksu_cover" chance="0.5" />
+		</attachments>
+        <attachments chance="0.40">
+			<item name="HBd_Alpha_ARMS_AKS74U_hndgr" chance="0.25" />
+            <item name="HBd_Zenitko_B11_AKS74U_hndgr" chance="0.25" />
+            <item name="HBd_Zenitko_B11_B19_AKS74U_hndgr" chance="0.25" />
+            <item name="HBd_CAA_XRS47_AKS74U" chance="0.25" />
+		</attachments>
+        <attachments chance="0.50">
+			<item name="HBd_Zenitko_RK3_PistolGrip" chance="0.5" />
+            <item name="HB_Magpull_AK_PistolGrip" chance="0.5" />
+		</attachments>
+        <attachments chance="0.50">
+			<item name="HBd_Zenitko_RP4 " chance="1.0" />
+		</attachments>
+	</type>
+    <type name="HBd_AKS74UB">
+		<attachments chance="0.60">
+			<item name="Mag_AK74_30Rnd_Black" chance="1.0" />
+		</attachments>
+        <attachments chance="0.40">
+			<item name="HBd_Zenitka_PT1_Stock" chance="0.20" />
+            <item name="HBd_Zenitka_PT1_Stock_Camo" chance="0.20" />
+            <item name="HBd_Zenit_PT3_Stock" chance="0.20" />
+            <item name="HBd_Zenit_PT3_Stock_Camo" chance="0.20" />
+            <item name="HBd_PufGun_butt_AK" chance="0.20" />
+		</attachments>
+        <attachments chance="0.40">
+			<item name="HBd_AKSU74_Receiver" chance="0.5" />
+            <item name="HBd_Legal_Arsenal_Piligrim_aksu_cover" chance="0.5" />
+		</attachments>
+        <attachments chance="0.40">
+			<item name="HBd_Alpha_ARMS_AKS74U_hndgr" chance="0.25" />
+            <item name="HBd_Zenitko_B11_AKS74U_hndgr" chance="0.25" />
+            <item name="HBd_Zenitko_B11_B19_AKS74U_hndgr" chance="0.25" />
+            <item name="HBd_CAA_XRS47_AKS74U" chance="0.25" />
+		</attachments>
+        <attachments chance="0.50">
+			<item name="HBd_Zenitko_RK3_PistolGrip" chance="0.5" />
+            <item name="HB_Magpull_AK_PistolGrip" chance="0.5" />
+		</attachments>
+        <attachments chance="0.50">
+			<item name="HBd_Zenitko_RP4 " chance="1.0" />
+		</attachments>
+	</type>
+
+    <type name="HBd_AK47">
+		<attachments chance="0.60">
+			<item name="HBd_AKM_10Rnd_Mag" chance="0.3" />
+            <item name="HBd_AKM_20Rnd_Mag" chance="0.15" />
+            <item name="HBd_AKM_10Rnd_Mag_polymer" chance="0.3" />
+            <item name="HBd_AKM_20Rnd_Mag_Polymer" chance="0.15" />
+            <item name="HBd_FabDefense_Ultimag_762x39_mag" chance="0.05" />
+            <item name="HBd_pMag_762_30Rnd_Mag" chance="0.05" />
+		</attachments>
+        <attachments chance="0.40">
+			<item name="HBd_Zenitka_PT1_Stock" chance="0.20" />
+            <item name="HBd_Zenitka_PT1_Stock_Camo" chance="0.20" />
+            <item name="HBd_Zenit_PT3_Stock" chance="0.20" />
+            <item name="HBd_Zenit_PT3_Stock_Camo" chance="0.20" />
+            <item name="HBd_PufGun_butt_AK" chance="0.20" />
+		</attachments>
+        <attachments chance="0.40">
+			<item name="HBd_MTK_Rail_AK" chance="0.25" />
+            <item name="HBd_Aksion_Rail_AK" chance="0.25" />
+            <item name="HBd_Zenitko_B13_Classic" chance="0.25" />
+            <item name="HBd_SAG_Rail_AK" chance="0.25" />
+		</attachments>
+        <attachments chance="0.40">
+			<item name="HBd_TWS_GEN3_AK_hndgr" chance="0.1" />
+            <item name="HBd_TDI_X47_AK_hndgr" chance="0.1" />
+            <item name="HBd_AK_SLR_Rifeworks_ION_Hndgr" chance="0.1" />
+            <item name="HBd_AK_Krebs_Custom_UFM_Hndgr" chance="0.1" />
+            <item name="HBd_Vltor_CMRD_AK_hndgr" chance="0.1" />
+            <item name="HBd_AIM_Sports_AK_hndgr" chance="0.1" />
+            <item name="HBd_Zenitko_Sport_1" chance="0.1" />
+            <item name="HBd_Zenitko_Sport_1_Camo" chance="0.1" />
+            <item name="HBd_SAG21_hndgr_AK" chance="0.1" />
+            <item name="HBd_SAG30_hndgr_AK" chance="0.1" />
+		</attachments>
+        <attachments chance="0.50">
+			<item name="HBd_Zenitko_RK3_PistolGrip" chance="0.5" />
+            <item name="HB_Magpull_AK_PistolGrip" chance="0.5" />
+		</attachments>
+        <attachments chance="0.50">
+			<item name="HBd_Zenitko_RP1" chance="1.0" />
+		</attachments>
+	</type>
+    <type name="HBd_AK103">
+		<attachments chance="0.60">
+			<item name="HBd_AKM_10Rnd_Mag" chance="0.3" />
+            <item name="HBd_AKM_20Rnd_Mag" chance="0.15" />
+            <item name="HBd_AKM_10Rnd_Mag_polymer" chance="0.3" />
+            <item name="HBd_AKM_20Rnd_Mag_Polymer" chance="0.15" />
+            <item name="HBd_FabDefense_Ultimag_762x39_mag" chance="0.05" />
+            <item name="HBd_pMag_762_30Rnd_Mag" chance="0.05" />
+		</attachments>
+        <attachments chance="0.40">
+			<item name="HBd_Zenitka_PT1_Stock" chance="0.20" />
+            <item name="HBd_Zenitka_PT1_Stock_Camo" chance="0.20" />
+            <item name="HBd_Zenit_PT3_Stock" chance="0.20" />
+            <item name="HBd_Zenit_PT3_Stock_Camo" chance="0.20" />
+            <item name="HBd_PufGun_butt_AK" chance="0.20" />
+		</attachments>
+        <attachments chance="0.40">
+			<item name="HBd_MTK_Rail_AK" chance="0.25" />
+            <item name="HBd_Aksion_Rail_AK" chance="0.25" />
+            <item name="HBd_Zenitko_B13_Classic" chance="0.25" />
+            <item name="HBd_SAG_Rail_AK" chance="0.25" />
+		</attachments>
+        <attachments chance="0.40">
+			<item name="HBd_TWS_GEN3_AK_hndgr" chance="0.1" />
+            <item name="HBd_TDI_X47_AK_hndgr" chance="0.1" />
+            <item name="HBd_AK_SLR_Rifeworks_ION_Hndgr" chance="0.1" />
+            <item name="HBd_AK_Krebs_Custom_UFM_Hndgr" chance="0.1" />
+            <item name="HBd_Vltor_CMRD_AK_hndgr" chance="0.1" />
+            <item name="HBd_AIM_Sports_AK_hndgr" chance="0.1" />
+            <item name="HBd_Zenitko_Sport_1" chance="0.1" />
+            <item name="HBd_Zenitko_Sport_1_Camo" chance="0.1" />
+            <item name="HBd_SAG21_hndgr_AK" chance="0.1" />
+            <item name="HBd_SAG30_hndgr_AK" chance="0.1" />
+		</attachments>
+        <attachments chance="0.50">
+			<item name="HBd_Zenitko_RK3_PistolGrip" chance="0.5" />
+            <item name="HB_Magpull_AK_PistolGrip" chance="0.5" />
+		</attachments>
+        <attachments chance="0.50">
+			<item name="HBd_Zenitko_RP1" chance="1.0" />
+		</attachments>
+	</type>
+    <type name="HBd_AK104">
+		<attachments chance="0.60">
+			<item name="HBd_AKM_10Rnd_Mag" chance="0.3" />
+            <item name="HBd_AKM_20Rnd_Mag" chance="0.15" />
+            <item name="HBd_AKM_10Rnd_Mag_polymer" chance="0.3" />
+            <item name="HBd_AKM_20Rnd_Mag_Polymer" chance="0.15" />
+            <item name="HBd_FabDefense_Ultimag_762x39_mag" chance="0.05" />
+            <item name="HBd_pMag_762_30Rnd_Mag" chance="0.05" />
+		</attachments>
+        <attachments chance="0.40">
+			<item name="HBd_Zenitka_PT1_Stock" chance="0.20" />
+            <item name="HBd_Zenitka_PT1_Stock_Camo" chance="0.20" />
+            <item name="HBd_Zenit_PT3_Stock" chance="0.20" />
+            <item name="HBd_Zenit_PT3_Stock_Camo" chance="0.20" />
+            <item name="HBd_PufGun_butt_AK" chance="0.20" />
+		</attachments>
+        <attachments chance="0.40">
+			<item name="HBd_MTK_Rail_AK" chance="0.25" />
+            <item name="HBd_Aksion_Rail_AK" chance="0.25" />
+            <item name="HBd_Zenitko_B13_Classic" chance="0.25" />
+            <item name="HBd_SAG_Rail_AK" chance="0.25" />
+		</attachments>
+        <attachments chance="0.40">
+			<item name="HBd_TWS_GEN3_AK_hndgr" chance="0.1" />
+            <item name="HBd_TDI_X47_AK_hndgr" chance="0.1" />
+            <item name="HBd_AK_SLR_Rifeworks_ION_Hndgr" chance="0.1" />
+            <item name="HBd_AK_Krebs_Custom_UFM_Hndgr" chance="0.1" />
+            <item name="HBd_Vltor_CMRD_AK_hndgr" chance="0.1" />
+            <item name="HBd_AIM_Sports_AK_hndgr" chance="0.1" />
+            <item name="HBd_Zenitko_Sport_1" chance="0.1" />
+            <item name="HBd_Zenitko_Sport_1_Camo" chance="0.1" />
+            <item name="HBd_SAG21_hndgr_AK" chance="0.1" />
+            <item name="HBd_SAG30_hndgr_AK" chance="0.1" />
+		</attachments>
+        <attachments chance="0.50">
+			<item name="HBd_Zenitko_RK3_PistolGrip" chance="0.5" />
+            <item name="HB_Magpull_AK_PistolGrip" chance="0.5" />
+		</attachments>
+        <attachments chance="0.50">
+			<item name="HBd_Zenitko_RP1" chance="1.0" />
+		</attachments>
+	</type>
+    <type name="HBd_AK108">
+		<attachments chance="0.60">
+			<item name="HBd_AKM_10Rnd_Mag" chance="0.3" />
+            <item name="HBd_AKM_20Rnd_Mag" chance="0.15" />
+            <item name="HBd_AKM_10Rnd_Mag_polymer" chance="0.3" />
+            <item name="HBd_AKM_20Rnd_Mag_Polymer" chance="0.15" />
+            <item name="HBd_FabDefense_Ultimag_762x39_mag" chance="0.05" />
+            <item name="HBd_pMag_762_30Rnd_Mag" chance="0.05" />
+		</attachments>
+        <attachments chance="0.40">
+			<item name="HBd_Zenitka_PT1_Stock" chance="0.20" />
+            <item name="HBd_Zenitka_PT1_Stock_Camo" chance="0.20" />
+            <item name="HBd_Zenit_PT3_Stock" chance="0.20" />
+            <item name="HBd_Zenit_PT3_Stock_Camo" chance="0.20" />
+            <item name="HBd_PufGun_butt_AK" chance="0.20" />
+		</attachments>
+        <attachments chance="0.40">
+			<item name="HBd_MTK_Rail_AK" chance="0.25" />
+            <item name="HBd_Aksion_Rail_AK" chance="0.25" />
+            <item name="HBd_Zenitko_B13_Classic" chance="0.25" />
+            <item name="HBd_SAG_Rail_AK" chance="0.25" />
+		</attachments>
+        <attachments chance="0.40">
+			<item name="HBd_TWS_GEN3_AK_hndgr" chance="0.1" />
+            <item name="HBd_TDI_X47_AK_hndgr" chance="0.1" />
+            <item name="HBd_AK_SLR_Rifeworks_ION_Hndgr" chance="0.1" />
+            <item name="HBd_AK_Krebs_Custom_UFM_Hndgr" chance="0.1" />
+            <item name="HBd_Vltor_CMRD_AK_hndgr" chance="0.1" />
+            <item name="HBd_AIM_Sports_AK_hndgr" chance="0.1" />
+            <item name="HBd_Zenitko_Sport_1" chance="0.1" />
+            <item name="HBd_Zenitko_Sport_1_Camo" chance="0.1" />
+            <item name="HBd_SAG21_hndgr_AK" chance="0.1" />
+            <item name="HBd_SAG30_hndgr_AK" chance="0.1" />
+		</attachments>
+        <attachments chance="0.50">
+			<item name="HBd_Zenitko_RK3_PistolGrip" chance="0.5" />
+            <item name="HB_Magpull_AK_PistolGrip" chance="0.5" />
+		</attachments>
+        <attachments chance="0.50">
+			<item name="HBd_Zenitko_RP1" chance="1.0" />
+		</attachments>
+	</type>
+    <type name="HBd_AK109">
+		<attachments chance="0.60">
+			<item name="HBd_AKM_10Rnd_Mag" chance="0.3" />
+            <item name="HBd_AKM_20Rnd_Mag" chance="0.15" />
+            <item name="HBd_AKM_10Rnd_Mag_polymer" chance="0.3" />
+            <item name="HBd_AKM_20Rnd_Mag_Polymer" chance="0.15" />
+            <item name="HBd_FabDefense_Ultimag_762x39_mag" chance="0.05" />
+            <item name="HBd_pMag_762_30Rnd_Mag" chance="0.05" />
+		</attachments>
+        <attachments chance="0.40">
+			<item name="HBd_Zenitka_PT1_Stock" chance="0.20" />
+            <item name="HBd_Zenitka_PT1_Stock_Camo" chance="0.20" />
+            <item name="HBd_Zenit_PT3_Stock" chance="0.20" />
+            <item name="HBd_Zenit_PT3_Stock_Camo" chance="0.20" />
+            <item name="HBd_PufGun_butt_AK" chance="0.20" />
+		</attachments>
+        <attachments chance="0.40">
+			<item name="HBd_MTK_Rail_AK" chance="0.25" />
+            <item name="HBd_Aksion_Rail_AK" chance="0.25" />
+            <item name="HBd_Zenitko_B13_Classic" chance="0.25" />
+            <item name="HBd_SAG_Rail_AK" chance="0.25" />
+		</attachments>
+        <attachments chance="0.40">
+			<item name="HBd_TWS_GEN3_AK_hndgr" chance="0.1" />
+            <item name="HBd_TDI_X47_AK_hndgr" chance="0.1" />
+            <item name="HBd_AK_SLR_Rifeworks_ION_Hndgr" chance="0.1" />
+            <item name="HBd_AK_Krebs_Custom_UFM_Hndgr" chance="0.1" />
+            <item name="HBd_Vltor_CMRD_AK_hndgr" chance="0.1" />
+            <item name="HBd_AIM_Sports_AK_hndgr" chance="0.1" />
+            <item name="HBd_Zenitko_Sport_1" chance="0.1" />
+            <item name="HBd_Zenitko_Sport_1_Camo" chance="0.1" />
+            <item name="HBd_SAG21_hndgr_AK" chance="0.1" />
+            <item name="HBd_SAG30_hndgr_AK" chance="0.1" />
+		</attachments>
+        <attachments chance="0.50">
+			<item name="HBd_Zenitko_RK3_PistolGrip" chance="0.5" />
+            <item name="HB_Magpull_AK_PistolGrip" chance="0.5" />
+		</attachments>
+        <attachments chance="0.50">
+			<item name="HBd_Zenitko_RP1" chance="1.0" />
+		</attachments>
+	</type>
+    <type name="HBd_Vepr_209">
+		<attachments chance="0.60">
+			<item name="HBd_VPO_209_10Rnd_Mag" chance="0.3" />
+            <item name="HBd_VPO_209_20Rnd_Mag" chance="0.15" />
+            <item name="HBd_VPO_209_10Rnd_Mag_polymer" chance="0.3" />
+            <item name="HBd_VPO_209_20Rnd_Mag_Polymer" chance="0.15" />
+            <item name="HBd_pMag_VPO_209_30Rnd_Mag" chance="0.1" />
+		</attachments>
+        <attachments chance="0.40">
+			<item name="HBd_Zenitka_PT1_Stock" chance="0.20" />
+            <item name="HBd_Zenitka_PT1_Stock_Camo" chance="0.20" />
+            <item name="HBd_Zenit_PT3_Stock" chance="0.20" />
+            <item name="HBd_Zenit_PT3_Stock_Camo" chance="0.20" />
+            <item name="HBd_PufGun_butt_AK" chance="0.20" />
+		</attachments>
+        <attachments chance="0.40">
+			<item name="HBd_MTK_Rail_AK" chance="0.25" />
+            <item name="HBd_Aksion_Rail_AK" chance="0.25" />
+            <item name="HBd_Zenitko_B13_Classic" chance="0.25" />
+            <item name="HBd_SAG_Rail_AK" chance="0.25" />
+		</attachments>
+        <attachments chance="0.40">
+			<item name="HBd_TWS_GEN3_AK_hndgr" chance="0.1" />
+            <item name="HBd_TDI_X47_AK_hndgr" chance="0.1" />
+            <item name="HBd_AK_SLR_Rifeworks_ION_Hndgr" chance="0.1" />
+            <item name="HBd_AK_Krebs_Custom_UFM_Hndgr" chance="0.1" />
+            <item name="HBd_Vltor_CMRD_AK_hndgr" chance="0.1" />
+            <item name="HBd_AIM_Sports_AK_hndgr" chance="0.1" />
+            <item name="HBd_Zenitko_Sport_1" chance="0.1" />
+            <item name="HBd_Zenitko_Sport_1_Camo" chance="0.1" />
+            <item name="HBd_SAG21_hndgr_AK" chance="0.1" />
+            <item name="HBd_SAG30_hndgr_AK" chance="0.1" />
+		</attachments>
+        <attachments chance="0.50">
+			<item name="HBd_Zenitko_RK3_PistolGrip" chance="0.5" />
+            <item name="HB_Magpull_AK_PistolGrip" chance="0.5" />
+		</attachments>
+        <attachments chance="0.50">
+			<item name="HBd_Zenitko_RP1" chance="1.0" />
+		</attachments>
+	</type>
+    <type name="HBd_Vepr_KM">
+		<attachments chance="0.60">
+			<item name="HBd_VPO_209_10Rnd_Mag" chance="0.3" />
+            <item name="HBd_VPO_209_20Rnd_Mag" chance="0.15" />
+            <item name="HBd_VPO_209_10Rnd_Mag_polymer" chance="0.3" />
+            <item name="HBd_VPO_209_20Rnd_Mag_Polymer" chance="0.15" />
+            <item name="HBd_pMag_VPO_209_30Rnd_Mag" chance="0.1" />
+		</attachments>
+        <attachments chance="0.40">
+			<item name="HBd_Zenitka_PT1_Stock" chance="0.20" />
+            <item name="HBd_Zenitka_PT1_Stock_Camo" chance="0.20" />
+            <item name="HBd_Zenit_PT3_Stock" chance="0.20" />
+            <item name="HBd_Zenit_PT3_Stock_Camo" chance="0.20" />
+            <item name="HBd_PufGun_butt_AK" chance="0.20" />
+		</attachments>
+        <attachments chance="0.40">
+			<item name="HBd_MTK_Rail_AK" chance="0.25" />
+            <item name="HBd_Aksion_Rail_AK" chance="0.25" />
+            <item name="HBd_Zenitko_B13_Classic" chance="0.25" />
+            <item name="HBd_SAG_Rail_AK" chance="0.25" />
+		</attachments>
+        <attachments chance="0.40">
+			<item name="HBd_TWS_GEN3_AK_hndgr" chance="0.1" />
+            <item name="HBd_TDI_X47_AK_hndgr" chance="0.1" />
+            <item name="HBd_AK_SLR_Rifeworks_ION_Hndgr" chance="0.1" />
+            <item name="HBd_AK_Krebs_Custom_UFM_Hndgr" chance="0.1" />
+            <item name="HBd_Vltor_CMRD_AK_hndgr" chance="0.1" />
+            <item name="HBd_AIM_Sports_AK_hndgr" chance="0.1" />
+            <item name="HBd_Zenitko_Sport_1" chance="0.1" />
+            <item name="HBd_Zenitko_Sport_1_Camo" chance="0.1" />
+            <item name="HBd_SAG21_hndgr_AK" chance="0.1" />
+            <item name="HBd_SAG30_hndgr_AK" chance="0.1" />
+		</attachments>
+        <attachments chance="0.50">
+			<item name="HBd_Zenitko_RK3_PistolGrip" chance="0.5" />
+            <item name="HB_Magpull_AK_PistolGrip" chance="0.5" />
+		</attachments>
+        <attachments chance="0.50">
+			<item name="HBd_Zenitko_RP1" chance="1.0" />
+		</attachments>
+	</type>
+
+    <type name="HBd_Vepr_205">
+		<attachments chance="0.60">
+			<item name="Mag_Saiga_8Rnd" chance="1.0" />
+		</attachments>
+        <attachments chance="0.40">
+			<item name="HBd_Zenitka_PT1_Stock" chance="0.20" />
+            <item name="HBd_Zenitka_PT1_Stock_Camo" chance="0.20" />
+            <item name="HBd_Zenit_PT3_Stock" chance="0.20" />
+            <item name="HBd_Zenit_PT3_Stock_Camo" chance="0.20" />
+            <item name="HBd_PufGun_butt_AK" chance="0.20" />
+		</attachments>
+        <attachments chance="0.40">
+			<item name="HBd_MTK_Rail_AK" chance="0.25" />
+            <item name="HBd_Aksion_Rail_AK" chance="0.25" />
+            <item name="HBd_Zenitko_B13_Classic" chance="0.25" />
+            <item name="HBd_SAG_Rail_AK" chance="0.25" />
+		</attachments>
+        <attachments chance="0.40">
+			<item name="HBd_TWS_GEN3_AK_hndgr" chance="0.1" />
+            <item name="HBd_TDI_X47_AK_hndgr" chance="0.1" />
+            <item name="HBd_AK_SLR_Rifeworks_ION_Hndgr" chance="0.1" />
+            <item name="HBd_AK_Krebs_Custom_UFM_Hndgr" chance="0.1" />
+            <item name="HBd_Vltor_CMRD_AK_hndgr" chance="0.1" />
+            <item name="HBd_AIM_Sports_AK_hndgr" chance="0.1" />
+            <item name="HBd_Zenitko_Sport_1" chance="0.1" />
+            <item name="HBd_Zenitko_Sport_1_Camo" chance="0.1" />
+            <item name="HBd_SAG21_hndgr_AK" chance="0.1" />
+            <item name="HBd_SAG30_hndgr_AK" chance="0.1" />
+		</attachments>
+	</type>
+</spawnabletypes>
