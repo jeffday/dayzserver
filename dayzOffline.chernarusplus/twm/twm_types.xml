@@ -131,10 +131,10 @@
 	</type>
 <!--  -->
 	<type name="TWM_IA2">
-		<nominal>1</nominal>
+		<nominal>0</nominal>
 		<lifetime>8200</lifetime>
 		<restock>1800</restock>
-		<min>1</min>
+		<min>0</min>
         <quantmin>30</quantmin>
         <quantmax>80</quantmax>
 		<cost>100</cost>
@@ -145,10 +145,10 @@
 		<value name="Tier4" />
 	</type>
 	<type name="TWM_IA2_Gray">
-		<nominal>1</nominal>
+		<nominal>0</nominal>
 		<lifetime>8200</lifetime>
 		<restock>1800</restock>
-		<min>1</min>
+		<min>0</min>
         <quantmin>30</quantmin>
         <quantmax>80</quantmax>
 		<cost>100</cost>
@@ -173,10 +173,10 @@
 		<value name="Tier4" />
 	</type>
 	<type name="TWM_IA2_OD">
-		<nominal>1</nominal>
+		<nominal>0</nominal>
 		<lifetime>8200</lifetime>
 		<restock>1800</restock>
-		<min>1</min>
+		<min>0</min>
         <quantmin>30</quantmin>
         <quantmax>80</quantmax>
 		<cost>100</cost>
@@ -187,7 +187,7 @@
 		<value name="Tier4" />
 	</type>
 	<type name="TWM_IA2H">
-		<nominal>1</nominal>
+		<nominal>0</nominal>
 		<lifetime>8200</lifetime>
 		<restock>1800</restock>
 		<min>0</min>
@@ -200,7 +200,7 @@
 		<value name="Tier4" />
 	</type>
 	<type name="TWM_IA2H_Gray">
-		<nominal>1</nominal>
+		<nominal>0</nominal>
 		<lifetime>8200</lifetime>
 		<restock>1800</restock>
 		<min>0</min>
@@ -226,7 +226,7 @@
 		<value name="Tier4" />
 	</type>
 	<type name="TWM_IA2H_OD">
-		<nominal>1</nominal>
+		<nominal>0</nominal>
 		<lifetime>8200</lifetime>
 		<restock>1800</restock>
 		<min>0</min>
@@ -1346,10 +1346,10 @@
 		<value name="Tier2"/>
     </type>
 	<type name="TWM_H9">
-		<nominal>8</nominal>
+		<nominal>0</nominal>
 		<lifetime>3600</lifetime>
 		<restock>1600</restock>
-		<min>3</min>
+		<min>0</min>
         <quantmin>30</quantmin>
         <quantmax>80</quantmax>
 		<cost>100</cost> 
@@ -1360,10 +1360,10 @@
 		<value name="Tier4"/>
 	</type>
 	<type name="TWM_Mag_H9">
-        <nominal>18</nominal>
+        <nominal>0</nominal>
         <lifetime>7200</lifetime>
         <restock>1800</restock>
-        <min>8</min>
+        <min>0</min>
         <quantmin>10</quantmin>
         <quantmax>70</quantmax>
         <cost>100</cost>
@@ -2045,10 +2045,10 @@
         <value name="Tier4"/>
 	</type>
 	<type name="TWM_Howa20">
-		<nominal>2</nominal>
+		<nominal>0</nominal>
         <lifetime>7200</lifetime>
         <restock>14400</restock>
-		<min>1</min>
+		<min>0</min>
         <quantmin>30</quantmin>
         <quantmax>80</quantmax>
 		<cost>100</cost> 
