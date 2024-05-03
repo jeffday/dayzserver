@@ -356,16 +356,18 @@
         <usage name="Military"/>
     </type>
     <type name="FOG_MTF_Pants_Blue">
-        <nominal>0</nominal>
+        <nominal>3</nominal>
         <lifetime>14400</lifetime>
         <restock>600</restock>
-        <min>0</min>
+        <min>2</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="clothes"/>
-        <usage name="Military"/>
+        <usage name="Police"/>
+        <value name="Tier3"/>
+        <value name="Tier4"/>
     </type>
     <type name="FOG_MTF_Pants_OD">
         <nominal>0</nominal>
@@ -886,16 +888,18 @@
         <usage name="Military"/>
     </type>
     <type name="FOG_MTF_Shirt_Blue">
-        <nominal>0</nominal>
+        <nominal>3</nominal>
         <lifetime>14400</lifetime>
         <restock>600</restock>
-        <min>0</min>
+        <min>2</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="clothes"/>
-        <usage name="Military"/>
+        <usage name="Police"/>
+        <value name="Tier3"/>
+        <value name="Tier4"/>
     </type>
     <type name="FOG_MTF_Shirt_KHK">
         <nominal>0</nominal>
@@ -1304,8 +1308,9 @@
 		<cost>100</cost>
 		<flags count_in_hoarder="0" count_in_player="0" count_in_map="1" count_in_cargo="0" crafted="0" deloot="0"/>
 		<category name="clothes"/>
-		<usage name="Military"/>
-		<usage name="Police"/>
+        <usage name="Police"/>
+        <value name="Tier3"/>
+        <value name="Tier4"/>
     </type>
     <type name="FOG_FerroGloves_White">
         <nominal>0</nominal>
@@ -1392,8 +1397,9 @@
 		<cost>100</cost>
 		<flags count_in_hoarder="0" count_in_player="0" count_in_map="1" count_in_cargo="0" crafted="0" deloot="0"/>
 		<category name="clothes"/>
-		<usage name="Military"/>
-		<usage name="Police"/>
+        <usage name="Police"/>
+        <value name="Tier3"/>
+        <value name="Tier4"/>
     </type>
     <type name="FOG_FerroGloves_Black_RedTrim">
 		<nominal>4</nominal>
@@ -2478,40 +2484,43 @@
         <usage name="Military"/>
     </type>
     <type name="FOG_DEFCONVans_Shoes_Black">
-        <nominal>5</nominal>
-        <lifetime>7200</lifetime>
+        <nominal>12</nominal>
+        <lifetime>21600</lifetime>
         <restock>0</restock>
-        <min>2</min>
+        <min>10</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
-        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
-        <category name="clothes" />        
-        <usage name="Military"/>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="containers"/>
+        <usage name="Town"/>
+        <usage name="Village"/>
     </type>
     <type name="FOG_DEFCONVans_Shoes_Grey">
-        <nominal>5</nominal>
-        <lifetime>7200</lifetime>
+        <nominal>12</nominal>
+        <lifetime>21600</lifetime>
         <restock>0</restock>
-        <min>2</min>
+        <min>10</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
-        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
-        <category name="clothes" />        
-        <usage name="Military"/>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="containers"/>
+        <usage name="Town"/>
+        <usage name="Village"/>
     </type>
     <type name="FOG_DEFCONVans_Shoes_RG">
-        <nominal>5</nominal>
-        <lifetime>7200</lifetime>
+        <nominal>12</nominal>
+        <lifetime>21600</lifetime>
         <restock>0</restock>
-        <min>2</min>
+        <min>10</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
-        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
-        <category name="clothes" />        
-        <usage name="Military"/>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="containers"/>
+        <usage name="Town"/>
+        <usage name="Village"/>
     </type>
     <type name="FOG_DEFCONVans_Shoes_CB">
         <nominal>0</nominal>
@@ -2526,28 +2535,30 @@
         <usage name="Military"/>
     </type>
     <type name="FOG_DEFCONVans_Shoes_KHK">
-        <nominal>5</nominal>
-        <lifetime>7200</lifetime>
+        <nominal>12</nominal>
+        <lifetime>21600</lifetime>
         <restock>0</restock>
-        <min>2</min>
+        <min>10</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
-        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
-        <category name="clothes" />        
-        <usage name="Military"/>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="containers"/>
+        <usage name="Town"/>
+        <usage name="Village"/>
     </type>
     <type name="FOG_DEFCONVans_Shoes_Blue">
-        <nominal>5</nominal>
-        <lifetime>7200</lifetime>
+        <nominal>12</nominal>
+        <lifetime>21600</lifetime>
         <restock>0</restock>
-        <min>2</min>
+        <min>10</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
-        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
-        <category name="clothes" />        
-        <usage name="Military"/>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="containers"/>
+        <usage name="Town"/>
+        <usage name="Village"/>
     </type>
     <type name="FOG_DEFCONVans_Shoes_Red">
         <nominal>0</nominal>
@@ -2562,28 +2573,30 @@
         <usage name="Military"/>
     </type>
     <type name="FOG_DEFCONVans_Shoes_MC">
-        <nominal>5</nominal>
-        <lifetime>7200</lifetime>
+        <nominal>12</nominal>
+        <lifetime>21600</lifetime>
         <restock>0</restock>
-        <min>2</min>
+        <min>10</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
-        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
-        <category name="clothes" />        
-        <usage name="Military"/>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="containers"/>
+        <usage name="Town"/>
+        <usage name="Village"/>
     </type>
     <type name="FOG_DEFCONVans_Shoes_MCB">
-        <nominal>5</nominal>
-        <lifetime>7200</lifetime>
+        <nominal>12</nominal>
+        <lifetime>21600</lifetime>
         <restock>0</restock>
-        <min>2</min>
+        <min>10</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
-        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
-        <category name="clothes" />        
-        <usage name="Military"/>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="containers"/>
+        <usage name="Town"/>
+        <usage name="Village"/>
     </type>
     <type name="FOG_DEFCONVans_Shoes_MCT">
         <nominal>0</nominal>
@@ -2825,7 +2838,7 @@
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="clothes"/>
-        <usage name="Military"/>
+        <usage name="Police"/>
         <value name="Tier3"/>
 		<value name="Tier4"/>
     </type>
@@ -4401,7 +4414,9 @@
     <cost>100</cost>
     <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
     <category name="clothes"/>
-    <usage name="Military"/>
+    <usage name="Police"/>
+    <value name="Tier3"/>
+    <value name="Tier4"/>
 </type>
 <type name="FOG_Crye_G3_Shirt_AMCU">
     <nominal>0</nominal>
@@ -4569,7 +4584,9 @@
     <cost>100</cost>
     <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
     <category name="clothes"/>
-    <usage name="Military"/>
+    <usage name="Police"/>
+    <value name="Tier3"/>
+    <value name="Tier4"/>
 </type>
 <type name="FOG_Pants_Crye_G3_DNC">
     <nominal>0</nominal>
@@ -4967,7 +4984,9 @@
 		<cost>100</cost>
 		<flags count_in_hoarder="0" count_in_player="0" count_in_map="1" count_in_cargo="0" crafted="0" deloot="0"/>
 		<category name="clothes"/>
-		<usage name="Military"/>
+        <usage name="Police"/>
+        <value name="Tier3"/>
+        <value name="Tier4"/>
     </type>
     <type name="FOG_G3_Hoodie_DPM">
 		<nominal>2</nominal>
@@ -11266,10 +11285,10 @@
 		<value name="Tier4"/>
     </type>
     <type name="FOG_Vest_TV110T_Black">
-        <nominal>2</nominal>
+        <nominal>0</nominal>
         <lifetime>7200</lifetime>
         <restock>0</restock>
-        <min>1</min>
+        <min>0</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -11280,10 +11299,10 @@
 		<value name="Tier4"/>
     </type>
     <type name="FOG_Vest_TV110T_RG">
-        <nominal>2</nominal>
+        <nominal>0</nominal>
         <lifetime>7200</lifetime>
         <restock>0</restock>
-        <min>1</min>
+        <min>0</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -11294,10 +11313,10 @@
 		<value name="Tier4"/>
     </type>
     <type name="FOG_Vest_TV110T_AU">
-        <nominal>2</nominal>
+        <nominal>0</nominal>
         <lifetime>7200</lifetime>
         <restock>0</restock>
-        <min>1</min>
+        <min>0</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -11308,10 +11327,10 @@
 		<value name="Tier4"/>
     </type>
     <type name="FOG_Vest_TV110T_FG">
-        <nominal>2</nominal>
+        <nominal>0</nominal>
         <lifetime>7200</lifetime>
         <restock>0</restock>
-        <min>1</min>
+        <min>0</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -11322,10 +11341,10 @@
 		<value name="Tier4"/>
     </type>
     <type name="FOG_Vest_TV110T_MC">
-        <nominal>2</nominal>
+        <nominal>0</nominal>
         <lifetime>7200</lifetime>
         <restock>0</restock>
-        <min>1</min>
+        <min>0</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -11364,10 +11383,10 @@
 		<value name="Tier4"/>
     </type>
     <type name="FOG_TV110T_MagPouches_Black">
-        <nominal>3</nominal>
+        <nominal>0</nominal>
         <lifetime>7200</lifetime>
         <restock>0</restock>
-        <min>1</min>
+        <min>0</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -11378,10 +11397,10 @@
 		<value name="Tier4"/>
     </type>
     <type name="FOG_TV110T_MagPouches_RG">
-        <nominal>3</nominal>
+        <nominal>0</nominal>
         <lifetime>7200</lifetime>
         <restock>0</restock>
-        <min>1</min>
+        <min>0</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -11392,10 +11411,10 @@
 		<value name="Tier4"/>
     </type>
     <type name="FOG_TV110T_MagPouches_AU">
-        <nominal>3</nominal>
+        <nominal>0</nominal>
         <lifetime>7200</lifetime>
         <restock>0</restock>
-        <min>1</min>
+        <min>0</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -11406,10 +11425,10 @@
 		<value name="Tier4"/>
     </type>
     <type name="FOG_TV110T_MagPouches_FG">
-        <nominal>3</nominal>
+        <nominal>0</nominal>
         <lifetime>7200</lifetime>
         <restock>0</restock>
-        <min>1</min>
+        <min>0</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -11420,10 +11439,10 @@
 		<value name="Tier4"/>
     </type>
     <type name="FOG_TV110T_MagPouches_MC">
-        <nominal>3</nominal>
+        <nominal>0</nominal>
         <lifetime>7200</lifetime>
         <restock>0</restock>
-        <min>1</min>
+        <min>0</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -11462,10 +11481,10 @@
 		<value name="Tier4"/>
     </type>
     <type name="FOG_TV110T_AdminPouch_Black">
-        <nominal>3</nominal>
+        <nominal>0</nominal>
         <lifetime>7200</lifetime>
         <restock>0</restock>
-        <min>1</min>
+        <min>0</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -11476,10 +11495,10 @@
 		<value name="Tier4"/>
     </type>
     <type name="FOG_TV110T_AdminPouch_RG">
-        <nominal>3</nominal>
+        <nominal>0</nominal>
         <lifetime>7200</lifetime>
         <restock>0</restock>
-        <min>1</min>
+        <min>0</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -11490,10 +11509,10 @@
 		<value name="Tier4"/>
     </type>
     <type name="FOG_TV110T_AdminPouch_AU">
-        <nominal>3</nominal>
+        <nominal>0</nominal>
         <lifetime>7200</lifetime>
         <restock>0</restock>
-        <min>1</min>
+        <min>0</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -11504,10 +11523,10 @@
 		<value name="Tier4"/>
     </type>
     <type name="FOG_TV110T_AdminPouch_FG">
-        <nominal>3</nominal>
+        <nominal>0</nominal>
         <lifetime>7200</lifetime>
         <restock>0</restock>
-        <min>1</min>
+        <min>0</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -11518,10 +11537,10 @@
 		<value name="Tier4"/>
     </type>
     <type name="FOG_TV110T_AdminPouch_MC">
-        <nominal>3</nominal>
+        <nominal>0</nominal>
         <lifetime>7200</lifetime>
         <restock>0</restock>
-        <min>1</min>
+        <min>0</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -11560,10 +11579,10 @@
 		<value name="Tier4"/>
     </type>
     <type name="FOG_TV110T_FastMag_Black">
-        <nominal>3</nominal>
+        <nominal>0</nominal>
         <lifetime>7200</lifetime>
         <restock>0</restock>
-        <min>1</min>
+        <min>0</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -11574,10 +11593,10 @@
 		<value name="Tier4"/>
     </type>
     <type name="FOG_TV110T_FastMag_RG">
-        <nominal>3</nominal>
+        <nominal>0</nominal>
         <lifetime>7200</lifetime>
         <restock>0</restock>
-        <min>1</min>
+        <min>0</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -11588,10 +11607,10 @@
 		<value name="Tier4"/>
     </type>
     <type name="FOG_TV110T_FastMag_AU">
-        <nominal>3</nominal>
+        <nominal>0</nominal>
         <lifetime>7200</lifetime>
         <restock>0</restock>
-        <min>1</min>
+        <min>0</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -11602,10 +11621,10 @@
 		<value name="Tier4"/>
     </type>
     <type name="FOG_TV110T_FastMag_FG">
-        <nominal>3</nominal>
+        <nominal>0</nominal>
         <lifetime>7200</lifetime>
         <restock>0</restock>
-        <min>1</min>
+        <min>0</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -11616,10 +11635,10 @@
 		<value name="Tier4"/>
     </type>
     <type name="FOG_TV110T_FastMag_MC">
-        <nominal>3</nominal>
+        <nominal>0</nominal>
         <lifetime>7200</lifetime>
         <restock>0</restock>
-        <min>1</min>
+        <min>0</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -11658,10 +11677,10 @@
 		<value name="Tier4"/>
     </type>
     <type name="FOG_TV110T_GrenadePouch_Black">
-        <nominal>3</nominal>
+        <nominal>0</nominal>
         <lifetime>7200</lifetime>
         <restock>0</restock>
-        <min>1</min>
+        <min>0</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -11672,10 +11691,10 @@
 		<value name="Tier4"/>
     </type>
     <type name="FOG_TV110T_GrenadePouch_RG">
-        <nominal>3</nominal>
+        <nominal>0</nominal>
         <lifetime>7200</lifetime>
         <restock>0</restock>
-        <min>1</min>
+        <min>0</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -11686,10 +11705,10 @@
 		<value name="Tier4"/>
     </type>
     <type name="FOG_TV110T_GrenadePouch_AU">
-        <nominal>3</nominal>
+        <nominal>0</nominal>
         <lifetime>7200</lifetime>
         <restock>0</restock>
-        <min>1</min>
+        <min>0</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -11700,10 +11719,10 @@
 		<value name="Tier4"/>
     </type>
     <type name="FOG_TV110T_GrenadePouch_FG">
-        <nominal>3</nominal>
+        <nominal>0</nominal>
         <lifetime>7200</lifetime>
         <restock>0</restock>
-        <min>1</min>
+        <min>0</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -11714,10 +11733,10 @@
 		<value name="Tier4"/>
     </type>
     <type name="FOG_TV110T_GrenadePouch_MC">
-        <nominal>3</nominal>
+        <nominal>0</nominal>
         <lifetime>7200</lifetime>
         <restock>0</restock>
-        <min>1</min>
+        <min>0</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -11756,10 +11775,10 @@
 		<value name="Tier4"/>
     </type>
     <type name="FOG_TV110T_Medkit_Black">
-        <nominal>3</nominal>
+        <nominal>0</nominal>
         <lifetime>7200</lifetime>
         <restock>0</restock>
-        <min>1</min>
+        <min>0</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -11770,10 +11789,10 @@
 		<value name="Tier4"/>
     </type>
     <type name="FOG_TV110T_Medkit_RG">
-        <nominal>3</nominal>
+        <nominal>0</nominal>
         <lifetime>7200</lifetime>
         <restock>0</restock>
-        <min>1</min>
+        <min>0</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -11784,10 +11803,10 @@
 		<value name="Tier4"/>
     </type>
     <type name="FOG_TV110T_Medkit_AU">
-        <nominal>3</nominal>
+        <nominal>0</nominal>
         <lifetime>7200</lifetime>
         <restock>0</restock>
-        <min>1</min>
+        <min>0</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -11798,10 +11817,10 @@
 		<value name="Tier4"/>
     </type>
     <type name="FOG_TV110T_Medkit_FG">
-        <nominal>3</nominal>
+        <nominal>0</nominal>
         <lifetime>7200</lifetime>
         <restock>0</restock>
-        <min>1</min>
+        <min>0</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -11812,10 +11831,10 @@
 		<value name="Tier4"/>
     </type>
     <type name="FOG_TV110T_Medkit_MC">
-        <nominal>3</nominal>
+        <nominal>0</nominal>
         <lifetime>7200</lifetime>
         <restock>0</restock>
-        <min>1</min>
+        <min>0</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -11854,10 +11873,10 @@
 		<value name="Tier4"/>
     </type>
     <type name="FOG_TV110T_UtilityPouch_Black">
-        <nominal>3</nominal>
+        <nominal>0</nominal>
         <lifetime>7200</lifetime>
         <restock>0</restock>
-        <min>1</min>
+        <min>0</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -11868,10 +11887,10 @@
 		<value name="Tier4"/>
     </type>
     <type name="FOG_TV110T_UtilityPouch_RG">
-        <nominal>3</nominal>
+        <nominal>0</nominal>
         <lifetime>7200</lifetime>
         <restock>0</restock>
-        <min>1</min>
+        <min>0</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -11882,10 +11901,10 @@
 		<value name="Tier4"/>
     </type>
     <type name="FOG_TV110T_UtilityPouch_AU">
-        <nominal>3</nominal>
+        <nominal>0</nominal>
         <lifetime>7200</lifetime>
         <restock>0</restock>
-        <min>1</min>
+        <min>0</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -11896,10 +11915,10 @@
 		<value name="Tier4"/>
     </type>
     <type name="FOG_TV110T_UtilityPouch_FG">
-        <nominal>3</nominal>
+        <nominal>0</nominal>
         <lifetime>7200</lifetime>
         <restock>0</restock>
-        <min>1</min>
+        <min>0</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -11910,10 +11929,10 @@
 		<value name="Tier4"/>
     </type>
     <type name="FOG_TV110T_UtilityPouch_MC">
-        <nominal>3</nominal>
+        <nominal>0</nominal>
         <lifetime>7200</lifetime>
         <restock>0</restock>
-        <min>1</min>
+        <min>0</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -11948,10 +11967,10 @@
         <usage name="Military" />
     </type>
     <type name="FOG_Big_Patch_FOG_cc">
-        <nominal>2</nominal>
+        <nominal>0</nominal>
         <lifetime>7200</lifetime>
         <restock>0</restock>
-        <min>1</min>
+        <min>0</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -11960,10 +11979,10 @@
         <usage name="Military"/>
     </type>
     <type name="FOG_Big_Patch_CrimeCo">
-        <nominal>2</nominal>
+        <nominal>0</nominal>
         <lifetime>7200</lifetime>
         <restock>0</restock>
-        <min>1</min>
+        <min>0</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
