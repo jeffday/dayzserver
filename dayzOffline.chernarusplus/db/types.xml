@@ -12283,10 +12283,10 @@
         <usage name="Police"/>
     </type>
     <type name="Mag_IJ70_8Rnd">
-        <nominal>35</nominal>
+        <nominal>70</nominal>
         <lifetime>28800</lifetime>
         <restock>0</restock>
-        <min>25</min>
+        <min>50</min>
         <quantmin>10</quantmin>
         <quantmax>100</quantmax>
         <cost>100</cost>
@@ -12595,10 +12595,10 @@
         <usage name="Town"/>
     </type>
     <type name="MakarovIJ70">
-        <nominal>40</nominal>
+        <nominal>80</nominal>
         <lifetime>28800</lifetime>
         <restock>0</restock>
-        <min>30</min>
+        <min>60</min>
         <quantmin>30</quantmin>
         <quantmax>80</quantmax>
         <cost>100</cost>

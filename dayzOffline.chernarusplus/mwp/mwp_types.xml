@@ -1839,6 +1839,18 @@
         <value name="Tier3"/>        
         <value name="Tier4"/>
     </type>
+    <type name="HBd_Vepr12_Mag">
+        <nominal>20</nominal>
+        <lifetime>7200</lifetime>
+        <restock>0</restock>
+        <min>10</min>
+        <quantmin>5</quantmin>
+        <quantmax>50</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="weapons"/>
+        <usage name="Police"/>
+    </type>
 
     <type name="HBd_Zenitko_RK3_PistolGrip">
         <nominal>5</nominal>
@@ -2637,10 +2649,10 @@
         <value name="Tier4"/>
     </type>
     <type name="HBd_PP19_01">
-        <nominal>10</nominal>
-        <lifetime>28800</lifetime>
+        <nominal>20</nominal>
+        <lifetime>7200</lifetime>
         <restock>0</restock>
-        <min>7</min>
+        <min>10</min>
         <quantmin>30</quantmin>
         <quantmax>80</quantmax>
         <cost>100</cost>
