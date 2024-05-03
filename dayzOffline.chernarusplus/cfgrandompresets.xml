@@ -257,55 +257,38 @@
 				<item name="RGD5Grenade" chance="0.25" />
 		</cargo>
 		<attachments chance="0.15" name="pistol_optics">
-				<item name="FNP45_MRDSOptic" chance="1.00" />
+				<item name="FNP45_MRDSOptic" chance="0.5" />
+				<item name="HBd_Romeo3_Optics" chance="0.25" />
+				<item name="HBd_ZA_Mini_Optics" chance="0.25" />
 		</attachments>
 		<attachments chance="0.60" name="close_range_optics">
-				<item name="BO_Holosun_HS510C_Optic" chance="0.125" />
-				<item name="BO_Holosun_HS507C" chance="0.125"/>
-				<item name="BO_VortexAMG_UH1_Optic" chance="0.125" />
-				<item name="BO_RMR_Black" chance="0.125" />
-				<item name="BO_RMR_FDE" chance="0.125" />
-				<item name="BO_DeltaPoint" chance="0.125" />
-				<item name="BO_Eotech552" chance="0.125" />
-				<item name="BO_LeupoldCarbineOptics" chance="0.125" />
+				<item name="HBd_OKP7" chance="0.25" />
+				<item name="HBd_Zenit_VZOR_4_Optics" chance="0.25"/>
+				<item name="HBd_Valdai_Optics" chance="0.25" />
+				<item name="HBd_EOTech_Optics" chance="0.25" />
 		</attachments>
 		<attachments chance="0.60" name="ar_optics">
-				<item name="BO_ACOGOptic_Crosshair_Red" chance="0.125" />
-				<item name="BO_ACOGOptic_Chevron_Green" chance="0.125" />
-				<item name="BO_ACOGOptic_ACSS_Red" chance="0.125" />
-				<item name="BO_HAMROptic" chance="0.125" />
-				<item name="BO_SpecterDROptic" chance="0.125" />
-				<item name="BO_LeupoldHoloDEVO" chance="0.125" />
-				<item name="BO_Bravo4" chance="0.125" />
-				<item name="BO_Spitfire" chance="0.125" />
+				<item name="HBd_Acog_and_EOTech_Optics" chance="0.25" />
+				<item name="HBd_EOTech_Magnifer_up_Optics" chance="0.25" />
+				<item name="ACOGOptic" chance="0.25" />
+				<item name="HBd_EOTech_PWR_Optics" chance="0.25" />
 		</attachments>
-		<attachments chance="0.60" name="ar_300optics">
-				<item name="BO_ACOGOptic_300blk_Blue" chance="0.5" />
-				<item name="BO_ACOGOptic_300blk_Red" chance="0.5" />
-		</attachments>
-		<attachments chance="0.60" name="dmr_optics">
-				<item name="BO_SpecterDROptic" chance="0.125" />
-				<item name="BO_Sight_4_6" chance="0.125" />
-				<item name="BO_Tango6" chance="0.25" />
-				<item name="BO_NFATACR_1_8" chance="0.25" />
-				<item name="BO_Vudu" chance="0.25" />
+		<attachments chance="0.20" name="dmr_optics">
+				<item name="ACOGOptic_6x" chance="1.0" />
 		</attachments>
 		<attachments chance="0.60" name="long_range_scopes">
-				<item name="HuntingOptic" chance="0.50" />
-				<item name="BO_HMOptic" chance="0.125" />
-				<item name="BO_LeupoldMk4" chance="0.125" />
-				<item name="BO_ShmidtBender25" chance="0.125" />
-				<item name="BO_Sight_4_6" chance="0.125" />
+				<item name="ACOGOptic_6x" chance="1.0" />
 		</attachments>
 		<attachments chance="0.60" name="hunting_scopes">
-				<item name="HuntingOptic" chance="0.75" />
-				<item name="BO_HMOptic" chance="0.25" />
+				<item name="HuntingOptic" chance="1.0" />
 		</attachments>
 		<attachments chance="0.05" name="pistol_suppressors">
-				<item name="BO_OspreySuppressor" chance="0.125" />
-				<item name="BO_MK23_Suppressor" chance="0.625" />
-				<item name="TWM_MultiCal_Suppressor" chance="0.125" />
-				<item name="TWM_MCPistol_Suppressor" chance="0.125" />
+				<item name="HBd_Defender_HPS_45cal_Supp" chance="0.125" />
+				<item name="HBd_Alpha_Dog_Suppressor" chance="0.125" />
+				<item name="HBd_AAC_Illusion_Suppressor" chance="0.125" />
+				<item name="HBd_Sillencerco_Osprey_Suppressor" chance="0.125" />
+				<item name="TWM_MultiCal_Suppressor" chance="0.25" />
+				<item name="TWM_MCPistol_Suppressor" chance="0.25" />
 		</attachments>
 		<!--NBC Cargo-->
 		<cargo chance="0.2" name="ContaminatedCargo">
