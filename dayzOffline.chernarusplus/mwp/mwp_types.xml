@@ -126,7 +126,7 @@
         <value name="Tier4"/>
     </type>
     <type name="HBd_Rigid_Precision">
-        <nominal>5</nominal>
+        <nominal>3</nominal>
         <lifetime>14400</lifetime>
         <restock>1800</restock>
         <min>2</min>
@@ -140,7 +140,7 @@
         <value name="Tier4"/>
     </type>
     <type name="HBd_Vortex_Razor_gen3_Scope">
-        <nominal>5</nominal>
+        <nominal>3</nominal>
         <lifetime>14400</lifetime>
         <restock>1800</restock>
         <min>2</min>
@@ -154,7 +154,7 @@
         <value name="Tier4"/>
     </type>
     <type name="HBd_Leopolod_MK4_Scope">
-        <nominal>5</nominal>
+        <nominal>3</nominal>
         <lifetime>14400</lifetime>
         <restock>1800</restock>
         <min>2</min>
@@ -168,7 +168,7 @@
         <value name="Tier4"/>
     </type>
     <type name="HBd_Night_Force_Scope">
-        <nominal>5</nominal>
+        <nominal>3</nominal>
         <lifetime>14400</lifetime>
         <restock>1800</restock>
         <min>2</min>
@@ -574,17 +574,16 @@
         <value name="Tier4"/>
     </type>
     <type name="HBd_Izhmash_MK1_SVD_cover">
-        <nominal>5</nominal>
+        <nominal>2</nominal>
         <lifetime>28800</lifetime>
         <restock>0</restock>
-        <min>2</min>
+        <min>1</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="weapons"/>
-        <usage name="Military"/>         
-        <value name="Tier2"/>        
+        <usage name="Military"/>            
         <value name="Tier3"/>
         <value name="Tier4"/>
     </type>
@@ -1439,10 +1438,10 @@
         <usage name="Military"/>
     </type>
     <type name="HBd_SAG_Chasis_SVD_hndgr">
-        <nominal>3</nominal>
+        <nominal>2</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
-        <min>2</min>
+        <min>1</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -1450,12 +1449,14 @@
         <category name="weapons"/>
         <tag name="shelves"/>
         <usage name="Military"/>
+        <value name="Tier3"/>
+        <value name="Tier4"/>
     </type>
     <type name="HBd_CAA_XRS_SVD_hndgr">
-        <nominal>3</nominal>
+        <nominal>2</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
-        <min>2</min>
+        <min>1</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -1463,12 +1464,14 @@
         <category name="weapons"/>
         <tag name="shelves"/>
         <usage name="Military"/>
+        <value name="Tier3"/>
+        <value name="Tier4"/>
     </type>
     <type name="HBd_Izhmash_MK1_SVD_hndgr">
-        <nominal>3</nominal>
+        <nominal>2</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
-        <min>2</min>
+        <min>1</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -1476,6 +1479,8 @@
         <category name="weapons"/>
         <tag name="shelves"/>
         <usage name="Military"/>
+        <value name="Tier3"/>
+        <value name="Tier4"/>
     </type>
 
 
@@ -2353,17 +2358,16 @@
         <value name="Tier4"/>
     </type>
     <type name="HBd_SAG_SVD_Rail">
-        <nominal>5</nominal>
+        <nominal>2</nominal>
         <lifetime>28800</lifetime>
         <restock>0</restock>
-        <min>2</min>
+        <min>1</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="weapons"/>
-        <usage name="Military"/>        
-        <value name="Tier2"/>        
+        <usage name="Military"/>              
         <value name="Tier3"/>
         <value name="Tier4"/>
     </type>
@@ -2400,10 +2404,10 @@
 
 
     <type name="HBd_SVD_Bed_Izhmash">
-        <nominal>3</nominal>
+        <nominal>2</nominal>
         <lifetime>28800</lifetime>
         <restock>0</restock>
-        <min>2</min>
+        <min>1</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -2414,10 +2418,10 @@
         <value name="Tier4"/>
     </type>
     <type name="HBd_Adapter_AK_SVD">
-        <nominal>3</nominal>
+        <nominal>2</nominal>
         <lifetime>28800</lifetime>
         <restock>0</restock>
-        <min>2</min>
+        <min>1</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -2531,10 +2535,10 @@
         <value name="Tier4"/>
     </type>
     <type name="HBd_AK47">
-        <nominal>2</nominal>
+        <nominal>4</nominal>
         <lifetime>7200</lifetime>
         <restock>3600</restock>
-        <min>1</min>
+        <min>2</min>
         <quantmin>30</quantmin>
         <quantmax>80</quantmax>
         <cost>100</cost>
@@ -2542,6 +2546,7 @@
         <category name="weapons"/>
         <usage name="Military"/>            
         <value name="Tier3"/>
+        <value name="Tier4"/>
     </type>
     <type name="HBd_Vepr_KM">
         <nominal>4</nominal>

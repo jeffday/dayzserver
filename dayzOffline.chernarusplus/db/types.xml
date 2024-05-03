@@ -12978,7 +12978,7 @@
         <value name="Tier4"/>
     </type>
     <type name="MilitaryBelt">
-        <nominal>15</nominal>
+        <nominal>8</nominal>
         <lifetime>28800</lifetime>
         <restock>1800</restock>
         <min>5</min>
@@ -12988,6 +12988,8 @@
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="clothes"/>
         <usage name="Military"/>
+        <value name="Tier1"/>
+        <value name="Tier2"/>
     </type>
     <type name="MilitaryBeret_CDF">
         <nominal>0</nominal>
@@ -13851,10 +13853,10 @@
         <usage name="Hunting"/>
     </type>
     <type name="OKZKCap_Beige">
-        <nominal>2</nominal>
+        <nominal>0</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
-        <min>1</min>
+        <min>0</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -13863,10 +13865,10 @@
         <usage name="Military"/>
     </type>
     <type name="OKZKCap_Green">
-        <nominal>2</nominal>
+        <nominal>0</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
-        <min>1</min>
+        <min>0</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -13875,10 +13877,10 @@
         <usage name="Military"/>
     </type>
     <type name="OMNOGloves_Brown">
-        <nominal>7</nominal>
+        <nominal>0</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
-        <min>3</min>
+        <min>0</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -13891,10 +13893,10 @@
         <value name="Tier4"/>
     </type>
     <type name="OMNOGloves_Gray">
-        <nominal>7</nominal>
+        <nominal>0</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
-        <min>3</min>
+        <min>0</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
