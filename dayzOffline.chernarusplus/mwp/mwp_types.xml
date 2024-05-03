@@ -2757,7 +2757,7 @@
         <value name="Tier3"/>
         <value name="Tier4"/>
     </type>
-    <type name="HBd_M4_9mm">
+    <type name="HBd_M4_9">
         <nominal>0</nominal>
         <lifetime>28800</lifetime>
         <restock>0</restock>
@@ -3189,19 +3189,7 @@
         <category name="weapons"/>
         <usage name="Military"/> 
     </type>
-        <type name="HBd_AR_hndgr_KAC_M4_RAS">
-        <nominal>5</nominal>
-        <lifetime>28800</lifetime>
-        <restock>0</restock>
-        <min>2</min>
-        <quantmin>-1</quantmin>
-        <quantmax>-1</quantmax>
-        <cost>100</cost>
-        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-        <category name="weapons"/>
-        <usage name="Military"/> 
-    </type>
-        <type name="HBd_AR_Daniel_Defense_MRF_XL_hndgr">
+    <type name="HBd_AR_Daniel_Defense_MRF_XL_hndgr">
         <nominal>5</nominal>
         <lifetime>28800</lifetime>
         <restock>0</restock>
@@ -3837,18 +3825,6 @@
         <usage name="Military"/> 
     </type>
     <type name="HBd_Skeletonized_Receiver_AR15">
-        <nominal>5</nominal>
-        <lifetime>28800</lifetime>
-        <restock>0</restock>
-        <min>2</min>
-        <quantmin>-1</quantmin>
-        <quantmax>-1</quantmax>
-        <cost>100</cost>
-        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-        <category name="weapons"/>
-        <usage name="Military"/> 
-    </type>
-    <type name="HBd_HArms_CQR_Receiver_AR15">
         <nominal>5</nominal>
         <lifetime>28800</lifetime>
         <restock>0</restock>
