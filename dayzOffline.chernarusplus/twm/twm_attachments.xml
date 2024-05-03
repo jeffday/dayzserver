@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
   
 <types>
-    <type name="RIS"> <!-- Night Vision - Rifle Mounting hardwear -->
+    <!-- <type name="RIS"> 
         <nominal>0</nominal>
         <lifetime>28800</lifetime>
         <restock>0</restock>
@@ -15,7 +15,7 @@
         <value name="Tier3"/>
         <value name="Tier4"/>
     </type>
-    <type name="Rhino"> <!-- Night Vision - Helmet Mounting hardwear -->
+    <type name="Rhino"> 
         <nominal>0</nominal>
         <lifetime>28800</lifetime>
         <restock>0</restock>
@@ -29,7 +29,7 @@
         <value name="Tier3"/>
         <value name="Tier4"/>
     </type>
-    <type name="Aurora"> <!-- Night Vision Tube -->
+    <type name="Aurora"> 
         <nominal>0</nominal>
         <lifetime>28800</lifetime>
         <restock>0</restock>
@@ -42,7 +42,7 @@
         <tag name="shelves"/>
         <usage name="ContaminatedArea"/>
     </type>
-    <type name="HMD Aurora"> <!-- NVG with Single tube -->
+    <type name="HMD Aurora"> 
         <nominal>0</nominal>
         <lifetime>28800</lifetime>
         <restock>0</restock>
@@ -52,7 +52,7 @@
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="1" crafted="0" deloot="1"/>
     </type>
-    <type name="HMD Aurora2"> <!-- NVG with Double Tube -->
+    <type name="HMD Aurora2"> 
         <nominal>0</nominal>
         <lifetime>28800</lifetime>
         <restock>0</restock>
@@ -61,7 +61,7 @@
         <quantmax>-1</quantmax>
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="1" crafted="0" deloot="1"/>
-    </type>
+    </type> -->
     <type name="RISAurora"> <!-- Night Vison with Rifle Mount -->
         <nominal>0</nominal>
         <lifetime>28800</lifetime>
