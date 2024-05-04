@@ -147,7 +147,7 @@ Do not forget to add attribute act="car", if root class represents moveable vehi
 	<!-- MWP -->
 	<ce folder="mwp">
 		<file name="mwp_types.xml" type="types" />
-		<file name="mwp_spawnabletypes.xml" type="spawnabletypes" />
+		<!-- <file name="mwp_spawnabletypes.xml" type="spawnabletypes" /> -->
 	</ce>
 
 </economycore>
