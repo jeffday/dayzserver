@@ -3466,14 +3466,14 @@
 						<point pos="4.359863 -0.464294 -3.217285" range="0.203125" height="0.507813" />
 				</container>
 		</group>
-		<group name="Land_Village_store" lootmax="10">
+		<group name="Land_Village_store" lootmax="14">
 				<usage name="Village" />
 				<usage name="Hunting" />
 				<usage name="Farm" />
 				<usage name="School" />
 				<usage name="Office" />
 				<usage name="SeasonalEvent" />
-				<container name="lootFloor" lootmax="5">
+				<container name="lootFloor" lootmax="4">
 						<category name="tools" />
 						<category name="containers" />
 						<category name="clothes" />
@@ -3489,7 +3489,7 @@
 						<point pos="4.827148 -2.245270 -1.232422" range="1.199951" height="1.999995" />
 						<point pos="-0.375000 -2.245277 -1.325684" range="0.908203" height="2.000000" />
 				</container>
-				<container name="lootshelves" lootmax="5">
+				<container name="lootshelves" lootmax="6">
 						<category name="tools" />
 						<category name="containers" />
 						<category name="clothes" />
@@ -3530,7 +3530,7 @@
 						<point pos="-1.593262 -2.245270 0.030518" range="0.373535" height="0.404356" />
 						<point pos="0.935059 -1.232330 -2.014893" range="0.375488" height="0.938718" />
 				</container>
-				<container name="lootweapons" lootmax="2">
+				<container name="lootweapons" lootmax="4">
 						<category name="weapons" />
 						<category name="explosives" />
 						<point pos="3.323242 -1.379013 -1.624512" range="0.100000" height="0.250000" />
@@ -11558,7 +11558,7 @@
 						<point pos="-0.746227 -0.397102 0.430710" range="0.427940" height="0.253947" flags="32" />
 				</container>
 		</group>
-		<group name="Land_Camp_House_red">
+		<group name="Land_Camp_House_red" lootmax="12">
 				<usage name="Hunting" />
 				<container name="lootFloor">
 						<category name="tools" />
@@ -11591,7 +11591,7 @@
 						<point pos="-0.218285 -1.345963 2.670534" range="0.409375" height="1.023438" />
 						<point pos="2.962598 -1.349716 -2.806445" range="0.443750" height="1.103699" />
 				</container>
-				<container name="lootweapons" lootmax="2">
+				<container name="lootweapons" lootmax="4">
 						<category name="weapons" />
 						<category name="explosives" />
 						<point pos="-0.306126 -1.516556 -1.516792" range="0.186523" height="0.295845" />
@@ -11604,7 +11604,7 @@
 						<point pos="3.709741 -1.346848 2.698318" range="0.443750" height="1.109375" />
 				</container>
 		</group>
-		<group name="Land_Camp_House_white">
+		<group name="Land_Camp_House_white" lootmax="12">
 				<usage name="Hunting" />
 				<container name="lootFloor">
 						<category name="tools" />
@@ -11633,7 +11633,7 @@
 						<point pos="4.073430 -0.927948 1.274349" range="0.306250" height="0.765625" />
 						<point pos="-0.136103 -1.341988 -2.727929" range="0.340625" height="0.851532" />
 				</container>
-				<container name="lootweapons" lootmax="2">
+				<container name="lootweapons" lootmax="4">
 						<category name="weapons" />
 						<category name="explosives" />
 						<point pos="4.241647 -1.217003 0.052444" range="0.134375" height="0.335938" />
@@ -11643,7 +11643,7 @@
 						<point pos="3.583814 -1.341988 -2.711381" range="0.409375" height="1.023407" />
 				</container>
 		</group>
-		<group name="Land_Camp_House_brown">
+		<group name="Land_Camp_House_brown" lootmax="12">
 				<usage name="Hunting" />
 				<container name="lootFloor">
 						<category name="tools" />
@@ -11672,7 +11672,7 @@
 						<point pos="0.806217 -1.363045 2.378911" range="0.375000" height="0.937500" />
 						<point pos="-0.173346 -1.363297 2.236698" range="0.443750" height="1.109375" />
 				</container>
-				<container name="lootweapons" lootmax="2">
+				<container name="lootweapons" lootmax="4">
 						<category name="weapons" />
 						<category name="explosives" />
 						<point pos="4.336912 -0.652832 2.784155" range="0.163574" height="0.167168" />
@@ -11681,9 +11681,9 @@
 						<point pos="0.930465 -1.363213 1.634892" range="0.376999" height="0.942162" />
 				</container>
 		</group>
-		<group name="Land_Castle_Bergfrit">
+		<group name="Land_Castle_Bergfrit" lootmax="12">
 				<usage name="Hunting" />
-				<container name="lootFloor">
+				<container name="lootFloor" lootmax="8">
 						<category name="tools" />
 						<category name="containers" />
 						<category name="clothes" />
@@ -11703,7 +11703,7 @@
 						<point pos="-2.247963 8.766266 0.298239" range="1.199951" height="2.000000" />
 						<point pos="-1.770725 16.870667 -1.630931" range="0.424107" height="1.060267" />
 				</container>
-				<container name="lootweapons" lootmax="3">
+				<container name="lootweapons" lootmax="4">
 						<category name="weapons" />
 						<category name="explosives" />
 						<point pos="-4.498966 16.870667 2.985337" range="1.097412" height="2.000000" />
@@ -11712,9 +11712,9 @@
 						<point pos="-0.214438 16.870667 -2.092011" range="1.199951" height="2.000000" />
 				</container>
 		</group>
-		<group name="Land_Castle_Bergfrit2">
+		<group name="Land_Castle_Bergfrit2" lootmax="12">
 				<usage name="Hunting" />
-				<container name="lootFloor">
+				<container name="lootFloor" lootmax="8">
 						<category name="tools" />
 						<category name="containers" />
 						<category name="clothes" />
@@ -11741,7 +11741,7 @@
 						<point pos="1.750854 8.816563 -2.730469" range="0.986450" height="2.000000" />
 						<point pos="-3.904296 6.303986 2.457031" range="0.785889" height="1.964722" />
 				</container>
-				<container name="lootweapons" lootmax="3">
+				<container name="lootweapons" lootmax="4">
 						<category name="weapons" />
 						<category name="explosives" />
 						<point pos="-4.196777 16.889297 -3.067017" range="1.199951" height="2.000000" />
@@ -11776,9 +11776,9 @@
 						<point pos="1.072510 -2.821342 -6.458251" range="0.194770" height="2.000000" />
 				</container>
 		</group>
-		<group name="Land_Castle_Stairs_nolc" lootmax="3">
+		<group name="Land_Castle_Stairs_nolc" lootmax="6">
 				<usage name="Hunting" />
-				<container name="lootFloor" lootmax="3">
+				<container name="lootFloor" lootmax="4">
 						<category name="tools" />
 						<category name="containers" />
 						<category name="clothes" />
