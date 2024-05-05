@@ -1831,10 +1831,10 @@
         <value name="Tier4"/>
     </type>
     <type name="HBd_Vepr12_Mag">
-        <nominal>8</nominal>
+        <nominal>0</nominal>
         <lifetime>28800</lifetime>
         <restock>3600</restock>
-        <min>5</min>
+        <min>0</min>
         <quantmin>10</quantmin>
         <quantmax>80</quantmax>
         <cost>1000</cost>
@@ -1845,10 +1845,10 @@
         <value name="Tier4"/>
     </type>
     <type name="HBd_PP19_mag_20rnd">
-        <nominal>20</nominal>
+        <nominal>0</nominal>
         <lifetime>7200</lifetime>
         <restock>0</restock>
-        <min>10</min>
+        <min>0</min>
         <quantmin>5</quantmin>
         <quantmax>50</quantmax>
         <cost>100</cost>
@@ -2638,10 +2638,10 @@
         <value name="Tier4"/>
     </type>
     <type name="HBd_PP19_01">
-        <nominal>20</nominal>
+        <nominal>0</nominal>
         <lifetime>7200</lifetime>
         <restock>0</restock>
-        <min>10</min>
+        <min>0</min>
         <quantmin>30</quantmin>
         <quantmax>80</quantmax>
         <cost>100</cost>
@@ -2703,10 +2703,10 @@
         <usage name="ContaminatedArea"/>
     </type>
     <type name="HBd_Vepr_205">
-        <nominal>8</nominal>
+        <nominal>0</nominal>
         <lifetime>28800</lifetime>
         <restock>0</restock>
-        <min>5</min>
+        <min>0</min>
         <quantmin>30</quantmin>
         <quantmax>80</quantmax>
         <cost>100</cost>
