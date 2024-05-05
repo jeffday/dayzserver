@@ -498,10 +498,10 @@
         <value name="Tier4"/>
     </type>
     <type name="HBd_Zenitko_B33_Receiver_camo">
-        <nominal>10</nominal>
+        <nominal>0</nominal>
         <lifetime>28800</lifetime>
         <restock>0</restock>
-        <min>2</min>
+        <min>0</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -1058,10 +1058,10 @@
         <usage name="Military"/>
     </type>
     <type name="HBd_Zenitko_Sport_1_Camo">
-        <nominal>5</nominal>
+        <nominal>0</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
-        <min>2</min>
+        <min>0</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -1097,10 +1097,10 @@
         <usage name="Military"/>
     </type>
     <type name="HBd_Zenitko_B30_b31_hndgr_Camo">
-        <nominal>5</nominal>
+        <nominal>0</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
-        <min>2</min>
+        <min>0</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -2010,10 +2010,10 @@
         <usage name="Military"/>
     </type>
     <type name="HBd_Zenitka_PT1_Stock_Camo">
-        <nominal>5</nominal>
+        <nominal>0</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
-        <min>2</min>
+        <min>0</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -2046,10 +2046,10 @@
         <usage name="Military"/>
     </type>
     <type name="HBd_Zenit_PT3_Stock_Camo">
-        <nominal>5</nominal>
+        <nominal>0</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
-        <min>2</min>
+        <min>0</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -2433,10 +2433,10 @@
     </type>
 
     <type name="HBd_AK74M">
-        <nominal>4</nominal>
+        <nominal>8</nominal>
         <lifetime>28800</lifetime>
         <restock>0</restock>
-        <min>2</min>
+        <min>4</min>
         <quantmin>30</quantmin>
         <quantmax>80</quantmax>
         <cost>100</cost>
@@ -2447,10 +2447,10 @@
         <value name="Tier4"/>
     </type>
     <type name="HBd_AK74M_Camo">
-        <nominal>4</nominal>
+        <nominal>0</nominal>
         <lifetime>28800</lifetime>
         <restock>0</restock>
-        <min>2</min>
+        <min>0</min>
         <quantmin>30</quantmin>
         <quantmax>80</quantmax>
         <cost>100</cost>
