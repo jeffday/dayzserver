@@ -1,53 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
 <spawnabletypes>
-    <type name="AK101">
-		<attachments chance="0.60">
-			<item name="Mag_AK101_30Rnd" chance="1.00" />
-		</attachments>
-        <attachments chance="0.40">
-			<item name="HBd_Zenitka_PT1_Stock" chance="0.25" />
-            <item name="HBd_Zenit_PT3_Stock" chance="0.25" />
-            <item name="HBd_PufGun_butt_AK" chance="0.25" />
-            <item name="HBd_MagPul_MOE_Stock_AK" chance="0.25" />
-		</attachments>
-        <attachments chance="0.40">
-			<item name="HBd_MTK_Rail_AK" chance="0.25" />
-            <item name="HBd_Aksion_Rail_AK" chance="0.25" />
-            <item name="HBd_Zenitko_B13_Classic" chance="0.25" />
-            <item name="HBd_SAG_Rail_AK" chance="0.25" />
-		</attachments>
-        <attachments chance="0.40">
-			<item name="HBd_TWS_GEN3_AK_hndgr" chance="0.1" />
-            <item name="HBd_TDI_X47_AK_hndgr" chance="0.1" />
-            <item name="HBd_AK_SLR_Rifeworks_ION_Hndgr" chance="0.1" />
-            <item name="HBd_AK_Krebs_Custom_UFM_Hndgr" chance="0.1" />
-            <item name="HBd_Vltor_CMRD_AK_hndgr" chance="0.1" />
-            <item name="HBd_AIM_Sports_AK_hndgr" chance="0.1" />
-            <item name="HBd_Zenitko_Sport_1" chance="0.1" />
-            <item name="HBd_Zenitko_Sport_1_Camo" chance="0.1" />
-            <item name="HBd_SAG21_hndgr_AK" chance="0.1" />
-            <item name="HBd_SAG30_hndgr_AK" chance="0.1" />
-		</attachments>
-        <attachments chance="0.50">
-			<item name="HBd_Zenitko_RK3_PistolGrip" chance="0.5" />
-            <item name="HB_Magpull_AK_PistolGrip" chance="0.5" />
-		</attachments>
-        <attachments chance="0.50">
-			<item name="HBd_Zenitko_RP1" chance="1.0" />
-		</attachments>
-        <attachments chance="0.10">
-			<item name="HBd_Zenitko_DTK_1L" chance="0.1" />
-            <item name="HBd_Zenitko_DTK_1" chance="0.1" />
-            <item name="HBd_Zenitko_DTK_2" chance="0.1" />
-            <item name="HBd_Zenitko_DTK_4M" chance="0.1" />
-            <item name="HBd_HEXAGON_DTKP_AK" chance="0.1" />
-            <item name="HBd_SRVV_DTK_AK" chance="0.1" />
-            <item name="HBd_TMA74_DTK_AK" chance="0.1" />
-            <item name="HBd_Rotor46_DTK_AK" chance="0.1" />
-            <item name="HBd_Alientec_DTK_AK" chance="0.1" />
-            <item name="HBd_HEXAGON_Long_DTKP_AK" chance="0.1" />
-		</attachments>
-	</type>
     <type name="HBd_AK102">
 		<attachments chance="0.60">
 			<item name="Mag_AK101_30Rnd" chance="1.00" />
