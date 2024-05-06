@@ -14,10 +14,10 @@
         <usage name="Police"/>    
     </type>
     <type name="HBd_EOTech_PWR_Optics">
-        <nominal>5</nominal>
+        <nominal>10</nominal>
         <lifetime>14400</lifetime>
         <restock>1800</restock>
-        <min>2</min>
+        <min>6</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -28,10 +28,10 @@
         <value name="Tier4"/>
     </type>
     <type name="HBd_EOTech_Optics">
-        <nominal>5</nominal>
+        <nominal>10</nominal>
         <lifetime>14400</lifetime>
         <restock>1800</restock>
-        <min>2</min>
+        <min>6</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -42,18 +42,16 @@
         <value name="Tier4"/>
     </type>
     <type name="HBd_Valdai_Optics">
-        <nominal>5</nominal>
+        <nominal>10</nominal>
         <lifetime>14400</lifetime>
         <restock>1800</restock>
-        <min>2</min>
+        <min>6</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="weapons"/>
         <usage name="Military"/>
-        <value name="Tier3"/>
-        <value name="Tier4"/>
     </type>    
     <type name="HBd_Acog_and_EOTech_Optics">
         <nominal>5</nominal>
@@ -70,10 +68,10 @@
         <value name="Tier4"/>
     </type>    
     <type name="HBd_Romeo3_Optics">
-        <nominal>5</nominal>
+        <nominal>10</nominal>
         <lifetime>14400</lifetime>
-        <restock>1800</restock>
-        <min>2</min>
+        <restock>0</restock>
+        <min>5</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -84,10 +82,10 @@
         <value name="Tier4"/>
     </type>
     <type name="HBd_ZA_Mini_Optics">
-        <nominal>5</nominal>
+        <nominal>10</nominal>
         <lifetime>14400</lifetime>
-        <restock>1800</restock>
-        <min>2</min>
+        <restock>0</restock>
+        <min>5</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -112,7 +110,7 @@
         <value name="Tier4"/>
     </type>
     <type name="HBd_Zenit_VZOR_4_Optics">
-        <nominal>5</nominal>
+        <nominal>3</nominal>
         <lifetime>14400</lifetime>
         <restock>1800</restock>
         <min>2</min>
@@ -126,7 +124,7 @@
         <value name="Tier4"/>
     </type>
     <type name="HBd_Rigid_Precision">
-        <nominal>3</nominal>
+        <nominal>5</nominal>
         <lifetime>14400</lifetime>
         <restock>1800</restock>
         <min>2</min>
@@ -430,10 +428,6 @@
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="weapons"/>
         <usage name="Military"/>
-        <value name="Tier1"/>           
-        <value name="Tier2"/>        
-        <value name="Tier3"/>
-        <value name="Tier4"/>
     </type>
     <type name="HBd_Zenitko_RP4">
         <nominal>10</nominal>
@@ -446,26 +440,18 @@
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="weapons"/>
         <usage name="Military"/>
-        <value name="Tier1"/>           
-        <value name="Tier2"/>        
-        <value name="Tier3"/>
-        <value name="Tier4"/>
     </type>
     <type name="HBd_Beveled_mount_AK">
-        <nominal>15</nominal>
+        <nominal>10</nominal>
         <lifetime>28800</lifetime>
         <restock>0</restock>
-        <min>8</min>
+        <min>5</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="weapons"/>
         <usage name="Military"/> 
-        <value name="Tier1"/>                
-        <value name="Tier2"/>        
-        <value name="Tier3"/>
-        <value name="Tier4"/>
     </type>    
     <type name="HBd_FabDefense_cover_AK">
         <nominal>5</nominal>
@@ -478,9 +464,6 @@
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="weapons"/>
         <usage name="Military"/>        
-        <value name="Tier2"/>        
-        <value name="Tier3"/>
-        <value name="Tier4"/>
     </type>
     <type name="HBd_Zenitko_B33_Receiver">
         <nominal>10</nominal>
@@ -493,9 +476,6 @@
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="weapons"/>
         <usage name="Military"/>         
-        <value name="Tier2"/>        
-        <value name="Tier3"/>
-        <value name="Tier4"/>
     </type>
     <type name="HBd_Zenitko_B33_Receiver_camo">
         <nominal>0</nominal>
@@ -523,10 +503,6 @@
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="weapons"/>
         <usage name="Military"/>
-        <value name="Tier1"/>           
-        <value name="Tier2"/>        
-        <value name="Tier3"/>
-        <value name="Tier4"/>
     </type>
     <type name="HBd_AKSU74_Receiver">
         <nominal>10</nominal>
@@ -539,9 +515,6 @@
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="weapons"/>
         <usage name="Military"/>         
-        <value name="Tier2"/>        
-        <value name="Tier3"/>
-        <value name="Tier4"/>
     </type>
     <type name="HBd_Legal_Arsenal_Piligrim_aksu_cover">
         <nominal>10</nominal>
@@ -554,9 +527,6 @@
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="weapons"/>
         <usage name="Military"/>         
-        <value name="Tier2"/>        
-        <value name="Tier3"/>
-        <value name="Tier4"/>
     </type>
     <type name="HBd_Akademia_Bastion_AK_cover">
         <nominal>10</nominal>
@@ -569,9 +539,6 @@
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="weapons"/>
         <usage name="Military"/>         
-        <value name="Tier2"/>        
-        <value name="Tier3"/>
-        <value name="Tier4"/>
     </type>
     <type name="HBd_Izhmash_MK1_SVD_cover">
         <nominal>2</nominal>
@@ -611,10 +578,9 @@
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
-        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="1"/>
         <category name="weapons"/>
         <usage name="Military"/>               
-        <value name="Tier4"/>
     </type>
     <type name="HBd_SilencerCo_Salvo_12ga_Suppressor">
         <nominal>1</nominal>
@@ -627,7 +593,6 @@
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="1"/>
         <category name="weapons"/>
         <usage name="Military"/>               
-        <value name="Tier4"/>
     </type> 
    <type name="HBd_PBS_1_Suppressor">
         <nominal>1</nominal>
@@ -650,10 +615,9 @@
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
-        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="1"/>
         <category name="weapons"/>
         <usage name="Military"/>               
-        <value name="Tier4"/>
     </type>
     <type name="HBd_ROTOR43_Suppressor_AK">
         <nominal>1</nominal>
@@ -663,10 +627,9 @@
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
-        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="1"/>
         <category name="weapons"/>
         <usage name="Military"/>               
-        <value name="Tier4"/>
     </type>
     <type name="HBd_Zenitko_DTK_1L">
         <nominal>3</nominal>
@@ -811,9 +774,6 @@
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="weapons"/>
         <usage name="Military"/>         
-        <value name="Tier2"/>        
-        <value name="Tier3"/>
-        <value name="Tier4"/>
     </type>
     <type name="HBd_UTG_Ultra_slim_black">
         <nominal>5</nominal>
@@ -868,9 +828,6 @@
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="weapons"/>
         <usage name="Military"/>         
-        <value name="Tier2"/>        
-        <value name="Tier3"/>
-        <value name="Tier4"/>
     </type>
     <type name="HBd_Zenitko_RK6_Grip">
         <nominal>10</nominal>
@@ -883,9 +840,6 @@
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="weapons"/>
         <usage name="Military"/>         
-        <value name="Tier2"/>        
-        <value name="Tier3"/>
-        <value name="Tier4"/>
     </type>
 
     <type name="HBd_TWS_GEN3_AK_hndgr">
@@ -1160,6 +1114,8 @@
         <category name="weapons"/>
         <tag name="shelves"/>
         <usage name="Military"/>
+        <value name="Tier3"/>
+        <value name="Tier4"/>
     </type>
     <type name="HBd_Hexagon_long_hndgr_red_AK">
         <nominal>5</nominal>
@@ -1173,6 +1129,8 @@
         <category name="weapons"/>
         <tag name="shelves"/>
         <usage name="Military"/>
+        <value name="Tier3"/>
+        <value name="Tier4"/>
     </type>
     <type name="HBd_Hexagon_short_hndgr_AK">
         <nominal>5</nominal>
@@ -1186,6 +1144,8 @@
         <category name="weapons"/>
         <tag name="shelves"/>
         <usage name="Military"/>
+        <value name="Tier3"/>
+        <value name="Tier4"/>
     </type>
     <type name="HBd_Hexagon_short_red_hndgr_AK">
         <nominal>5</nominal>
@@ -1199,6 +1159,8 @@
         <category name="weapons"/>
         <tag name="shelves"/>
         <usage name="Military"/>
+        <value name="Tier3"/>
+        <value name="Tier4"/>
     </type>
     <type name="HBd_Hexagon_long_lower_hndgr_AK">
         <nominal>5</nominal>
@@ -1212,6 +1174,8 @@
         <category name="weapons"/>
         <tag name="shelves"/>
         <usage name="Military"/>
+        <value name="Tier3"/>
+        <value name="Tier4"/>
     </type>
     <type name="HBd_Hexagon_long_hndgr_lower_red_AK">
         <nominal>5</nominal>
@@ -1225,6 +1189,8 @@
         <category name="weapons"/>
         <tag name="shelves"/>
         <usage name="Military"/>
+        <value name="Tier3"/>
+        <value name="Tier4"/>
     </type>
     <type name="HBd_Hexagon_short_lower_hndgr_AK">
         <nominal>5</nominal>
@@ -1238,6 +1204,8 @@
         <category name="weapons"/>
         <tag name="shelves"/>
         <usage name="Military"/>
+        <value name="Tier3"/>
+        <value name="Tier4"/>
     </type>
     <type name="HBd_Hexagon_short_lower_red_hndgr_AK">
         <nominal>5</nominal>
@@ -1251,6 +1219,8 @@
         <category name="weapons"/>
         <tag name="shelves"/>
         <usage name="Military"/>
+        <value name="Tier3"/>
+        <value name="Tier4"/>
     </type>
     <type name="HBd_AK_Krebs_Custom_UFM_Hndgr">
         <nominal>5</nominal>
@@ -1483,9 +1453,6 @@
         <value name="Tier4"/>
     </type>
 
-
-
-
     <type name="HBd_Laser">
         <nominal>5</nominal>
         <lifetime>28800</lifetime>
@@ -1607,7 +1574,7 @@
         <nominal>1</nominal>
         <lifetime>28800</lifetime>
         <restock>0</restock>
-        <min>1</min>
+        <min>0</min>
         <quantmin>5</quantmin>
         <quantmax>50</quantmax>
         <cost>100</cost>
@@ -1618,7 +1585,7 @@
         <value name="Tier4"/>
     </type>
     <type name="HBd_AK74_PufGun_60Rnd_Mag">
-        <nominal>1</nominal>
+        <nominal>0</nominal>
         <lifetime>28800</lifetime>
         <restock>0</restock>
         <min>1</min>
@@ -1632,10 +1599,10 @@
         <value name="Tier4"/>
     </type>
     <type name="HBd_AK74_PufGun_60Rnd_Oliva_Mag">
-        <nominal>1</nominal>
+        <nominal>0</nominal>
         <lifetime>28800</lifetime>
         <restock>0</restock>
-        <min>1</min>
+        <min>0</min>
         <quantmin>5</quantmin>
         <quantmax>50</quantmax>
         <cost>100</cost>
@@ -1868,9 +1835,6 @@
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="weapons"/>
         <usage name="Military"/>     
-        <value name="Tier2"/>         
-        <value name="Tier3"/>        
-        <value name="Tier4"/>
     </type>
     <type name="HB_Magpull_AK_PistolGrip">
         <nominal>5</nominal>
@@ -1883,9 +1847,6 @@
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="weapons"/>
         <usage name="Military"/>      
-        <value name="Tier2"/>         
-        <value name="Tier3"/>        
-        <value name="Tier4"/>
     </type>
     <type name="HB_MagPull_MOE_Skeleton_AK_Pistol_grip">
         <nominal>5</nominal>
@@ -1926,9 +1887,6 @@
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="weapons"/>
         <usage name="Military"/>     
-        <value name="Tier2"/>         
-        <value name="Tier3"/>        
-        <value name="Tier4"/>
     </type>
     <type name="HBd_FabDefence_AGR47_AK_PistolGrip">
         <nominal>5</nominal>
@@ -1941,9 +1899,6 @@
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="weapons"/>
         <usage name="Military"/>     
-        <value name="Tier2"/>         
-        <value name="Tier3"/>        
-        <value name="Tier4"/>
     </type>
     <type name="HBd_Custom_Arms_ags_AK_PistolGrip">
         <nominal>5</nominal>
@@ -1956,9 +1911,6 @@
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="weapons"/>
         <usage name="Military"/>     
-        <value name="Tier2"/>         
-        <value name="Tier3"/>        
-        <value name="Tier4"/>
     </type>
 
     <type name="HBd_Adapter_Stock_M4_for_AK">
@@ -2068,6 +2020,8 @@
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="weapons"/>
         <usage name="Military"/>
+        <value name="Tier3"/>        
+        <value name="Tier4"/>
     </type>
     <type name="HBd_Hexagon_Kocherga_RED_butt_AK">
         <nominal>5</nominal>
@@ -2080,6 +2034,8 @@
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="weapons"/>
         <usage name="Military"/>
+        <value name="Tier3"/>        
+        <value name="Tier4"/>
     </type>
     <type name="HBd_PufGun_butt_AK">
         <nominal>5</nominal>
@@ -2140,6 +2096,8 @@
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="weapons"/>
         <usage name="Military"/>
+        <value name="Tier3"/>        
+        <value name="Tier4"/>
     </type>
     <type name="HBd_Adapter_SAG_M4_for_AK">
         <nominal>5</nominal>
@@ -2250,8 +2208,6 @@
         <usage name="Military"/>
     </type>
 
-
-
     <type name="HBd_MTK_Rail_AK">
         <nominal>5</nominal>
         <lifetime>28800</lifetime>
@@ -2263,9 +2219,6 @@
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="weapons"/>
         <usage name="Military"/>        
-        <value name="Tier2"/>        
-        <value name="Tier3"/>
-        <value name="Tier4"/>
     </type>
     <type name="HBd_Aksion_Rail_AK">
         <nominal>5</nominal>
@@ -2278,9 +2231,6 @@
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="weapons"/>
         <usage name="Military"/>        
-        <value name="Tier2"/>        
-        <value name="Tier3"/>
-        <value name="Tier4"/>
     </type>    
     <type name="HBd_Zenitko_B13_Classic">
         <nominal>5</nominal>
@@ -2293,15 +2243,12 @@
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="weapons"/>
         <usage name="Military"/>        
-        <value name="Tier2"/>        
-        <value name="Tier3"/>
-        <value name="Tier4"/>
     </type>
     <type name="HBd_GBRS_Mount">
-        <nominal>5</nominal>
+        <nominal>0</nominal>
         <lifetime>28800</lifetime>
         <restock>0</restock>
-        <min>2</min>
+        <min>0</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -2323,9 +2270,6 @@
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="weapons"/>
         <usage name="Military"/>        
-        <value name="Tier2"/>        
-        <value name="Tier3"/>
-        <value name="Tier4"/>
     </type>
     <type name="HBd_Zenitko_B12_Classic">
         <nominal>5</nominal>
@@ -2338,9 +2282,6 @@
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="weapons"/>
         <usage name="Military"/>        
-        <value name="Tier2"/>        
-        <value name="Tier3"/>
-        <value name="Tier4"/>
     </type>
     <type name="HBd_SAG_Rail_AK">
         <nominal>5</nominal>
@@ -2353,9 +2294,6 @@
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="weapons"/>
         <usage name="Military"/>        
-        <value name="Tier2"/>        
-        <value name="Tier3"/>
-        <value name="Tier4"/>
     </type>
     <type name="HBd_SAG_SVD_Rail">
         <nominal>2</nominal>
@@ -2382,9 +2320,6 @@
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="weapons"/>
         <usage name="Military"/>        
-        <value name="Tier2"/>        
-        <value name="Tier3"/>
-        <value name="Tier4"/>
     </type>
     <type name="HBd_Zenitko_B28">
         <nominal>5</nominal>
@@ -2397,11 +2332,7 @@
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="weapons"/>
         <usage name="Military"/>        
-        <value name="Tier2"/>        
-        <value name="Tier3"/>
-        <value name="Tier4"/>
     </type>
-
 
     <type name="HBd_SVD_Bed_Izhmash">
         <nominal>2</nominal>
@@ -2475,7 +2406,6 @@
         <value name="Tier4"/>
     </type>
 
-
     <type name="HBd_AK105">
         <nominal>2</nominal>
         <lifetime>28800</lifetime>
@@ -2505,10 +2435,10 @@
         <value name="Tier4"/>
     </type>
     <type name="HBd_AK102">
-        <nominal>2</nominal>
+        <nominal>4</nominal>
         <lifetime>28800</lifetime>
         <restock>0</restock>
-        <min>1</min>
+        <min>2</min>
         <quantmin>30</quantmin>
         <quantmax>80</quantmax>
         <cost>100</cost>
@@ -2624,7 +2554,7 @@
         <value name="Tier4"/>
     </type>
     <type name="HBd_AKS74UB">
-        <nominal>5</nominal>
+        <nominal>4</nominal>
         <lifetime>28800</lifetime>
         <restock>0</restock>
         <min>2</min>
@@ -2743,6 +2673,7 @@
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="weapons"/>
         <usage name="Military"/>
+        <value name="Tier2"/>
         <value name="Tier3"/>
         <value name="Tier4"/>
     </type>
@@ -2766,14 +2697,13 @@
         <nominal>8</nominal>
         <lifetime>28800</lifetime>
         <restock>0</restock>
-        <min>5</min>
+        <min>4</min>
         <quantmin>30</quantmin>
         <quantmax>100</quantmax>
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="weapons"/>
-        <usage name="Military"/>
-        <usage name="Police"/>               
+        <usage name="Military"/>           
         <value name="Tier3"/>
         <value name="Tier4"/>
     </type>
@@ -2854,10 +2784,6 @@
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="weapons"/>
         <usage name="Military"/>
-        <value name="Tier1"/>
-        <value name="Tier2"/>                               
-        <value name="Tier3"/>
-        <value name="Tier4"/>
     </type>
     <type name="HBd_Barrel_409mm_AR15_9mm">
         <nominal>0</nominal>
@@ -3046,11 +2972,10 @@
         <category name="weapons"/>
         <tag name="shelves"/>
         <usage name="Military"/>
-        <usage name="Police"/>               
-        <value name="Tier1"/>        
+        <usage name="Police"/>
         <value name="Tier2"/>
         <value name="Tier3"/>
-        <value name="Tier4"/>
+        <value name="Tier4"/>        
     </type>
     <type name="HBd_Tactical_flashlight">
         <nominal>10</nominal>
@@ -3065,7 +2990,6 @@
         <tag name="shelves"/>
         <usage name="Military"/>
         <usage name="Police"/>               
-        <value name="Tier1"/>        
         <value name="Tier2"/>
         <value name="Tier3"/>
         <value name="Tier4"/>
@@ -4317,10 +4241,9 @@
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
-        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="1"/>
         <category name="weapons"/>
         <usage name="Military"/>
-        <value name="Tier4"/>
     </type>
     <type name="HBd_Surfire_RC2_Suppressor">
         <nominal>1</nominal>
@@ -4330,10 +4253,9 @@
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
-        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="1"/>
         <category name="weapons"/>
         <usage name="Military"/>
-        <value name="Tier4"/>
     </type>
     <type name="HBd_Surfire_Monster_Suppressor">
         <nominal>1</nominal>
@@ -4345,8 +4267,7 @@
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="weapons"/>
-        <usage name="Military"/>
-        <value name="Tier4"/>
+        <usage name="ContaminatedArea"/>
     </type>
     <type name="HBd_Surfire_Monster_mini_Suppressor">
         <nominal>1</nominal>
@@ -4358,8 +4279,7 @@
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="weapons"/>
-        <usage name="Military"/>
-        <value name="Tier4"/>
+        <usage name="ContaminatedArea"/>
     </type>
     <type name="HBd_Ammo_556x45_55_FMJ">
         <nominal>15</nominal>
