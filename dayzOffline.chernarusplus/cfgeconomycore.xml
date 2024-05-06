@@ -47,25 +47,25 @@ Do not forget to add attribute act="car", if root class represents moveable vehi
 	</ce>
 
 	<!-- CJ187 Immersive NVG -->
-	<ce folder="nvg">
+	<!-- <ce folder="nvg">
 		<file name="immersive_nvg_types.xml" type="types" />
-	</ce>
-
-	<!-- MeleePack -->
-	<ce folder="mp">
-		<file name="meleepack_types.xml" type="types" />
-	</ce>
-
-	<!-- Quadlock's Pack -->
-	<!-- <ce folder="qp">
-		<file name="types.xml" type="types" />
-		<file name="quad_spawnabletypes.xml" type="spawnabletypes" />
 	</ce> -->
 
-	<!-- TheDoctor Tools & Melee Pack -->
-	<ce folder="tdtmp">
+	<!-- MeleePack -->
+	<!-- <ce folder="mp">
+		<file name="meleepack_types.xml" type="types" />
+	</ce> -->
+
+	<!-- Quadlock's Pack -->
+	<ce folder="qp">
 		<file name="types.xml" type="types" />
+		<file name="quad_spawnabletypes.xml" type="spawnabletypes" />
 	</ce>
+
+	<!-- TheDoctor Tools & Melee Pack -->
+	<!-- <ce folder="tdtmp">
+		<file name="types.xml" type="types" />
+	</ce> -->
 
 	<!-- Odyssey Equipment Gas Masks -->
 	<ce folder="ogm">
@@ -80,9 +80,9 @@ Do not forget to add attribute act="car", if root class represents moveable vehi
 	</ce>
 
 	<!-- MWP -->
-	<ce folder="mwp">
+	<!-- <ce folder="mwp">
 		<file name="mwp_types.xml" type="types" />
 		<file name="mwp_spawnabletypes.xml" type="spawnabletypes" />
-	</ce>
+	</ce> -->
 
 </economycore>
