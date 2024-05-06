@@ -2243,12 +2243,7 @@
 		<attachments chance="0.10">
 			<item name="Mag_VAL_20Rnd" chance="1.00" />
 		</attachments>
-		<attachments chance="0.30">
-			<item name="BUISOptic" chance="0.15" />
-			<item name="M4_T3NRDSOptic" chance="0.15" />
-			<item name="ReflexOptic" chance="0.15" />
-			<item name="ACOGOptic" chance="0.15" />
-		</attachments>	
+		<attachments preset="ar_optics" />
 		<attachments chance="0.10">
 			<item name="TLRLight" chance="1.00" />
 		</attachments>
@@ -2369,12 +2364,7 @@
 		<attachments chance="0.25">
 			<item name="Mag_Aug_30Rnd" chance="1.0" />
 		</attachments>
-		<attachments chance="0.30">
-			<item name="BUISOptic" chance="0.15" />
-			<item name="M4_T3NRDSOptic" chance="0.15" />
-			<item name="ReflexOptic" chance="0.15" />
-			<item name="ACOGOptic" chance="0.15" />
-		</attachments>	
+		<attachments preset="ar_optics" />
 		<attachments chance="0.10">
 			<item name="TLRLight" chance="1.00" />
 		</attachments>
@@ -2391,13 +2381,7 @@
 			<item name="Fal_FoldingBttstck" chance="0.50" />
 			<item name="Fal_OeBttstck" chance="1.00" />
 		</attachments>
-		<attachments chance="0.20">
-			<item name="BUISOptic" chance="0.20" />
-			<item name="M68Optic" chance="0.20" />
-			<item name="M4_T3NRDSOptic" chance="0.20" />
-			<item name="ReflexOptic" chance="0.20" />
-			<item name="ACOGOptic" chance="0.20" />
-		</attachments>
+		<attachments preset="dmr_optics" />
 		<attachments chance="0.10">
 			<item name="Mag_FAL_20Rnd" chance="1.00" />
 		</attachments>
