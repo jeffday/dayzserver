@@ -394,10 +394,10 @@
         <usage name="Military"/>
     </type>
     <type name="FOG_UFP_Pants_MCB">
-        <nominal>0</nominal>
-        <lifetime>28800</lifetime>
+        <nominal>5</nominal>
+        <lifetime>14400</lifetime>
         <restock>600</restock>
-        <min>0</min>
+        <min>2</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -418,10 +418,10 @@
         <usage name="Military"/>
     </type>
     <type name="FOG_UFP_Pants_OD">
-        <nominal>0</nominal>
-        <lifetime>28800</lifetime>
+        <nominal>5</nominal>
+        <lifetime>14400</lifetime>
         <restock>600</restock>
-        <min>0</min>
+        <min>2</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -706,10 +706,10 @@
         <usage name="Military"/>
     </type>
     <type name="FOG_Jacket_SoftShell_Grey">
-		<nominal>4</nominal>
+        <nominal>5</nominal>
         <lifetime>14400</lifetime>
-		<restock>600</restock>
-		<min>2</min>
+        <restock>600</restock>
+        <min>2</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
@@ -718,10 +718,10 @@
 		<usage name="Military"/>
     </type>
     <type name="FOG_Jacket_SoftShell_MCB">
-		<nominal>4</nominal>
+        <nominal>5</nominal>
         <lifetime>14400</lifetime>
-		<restock>600</restock>
-		<min>2</min>
+        <restock>600</restock>
+        <min>2</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
@@ -862,7 +862,7 @@
         <usage name="Military"/>
     </type>
     <type name="FOG_UFJ_Shirt_MCB">
-        <nominal>4</nominal>
+        <nominal>5</nominal>
         <lifetime>14400</lifetime>
         <restock>600</restock>
         <min>2</min>
@@ -912,10 +912,10 @@
         <usage name="Military"/>
     </type>
     <type name="FOG_L9Patagonia_Black">
-        <nominal>2</nominal>
+        <nominal>4</nominal>
         <lifetime>14400</lifetime>
         <restock>600</restock>
-        <min>1</min>
+        <min>2</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -936,10 +936,10 @@
         <usage name="Military"/>
     </type>
     <type name="FOG_L9Patagonia_RG">
-        <nominal>2</nominal>
+        <nominal>4</nominal>
         <lifetime>14400</lifetime>
         <restock>600</restock>
-        <min>1</min>
+        <min>2</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -960,10 +960,10 @@
         <usage name="Military"/>
     </type>
     <type name="FOG_L9Patagonia_MCB">
-        <nominal>2</nominal>
+        <nominal>4</nominal>
         <lifetime>14400</lifetime>
         <restock>600</restock>
-        <min>1</min>
+        <min>2</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -1008,10 +1008,10 @@
         <usage name="Military"/>
     </type>
     <type name="FOG_L9Patagonia_M81">
-        <nominal>2</nominal>
+        <nominal>4</nominal>
         <lifetime>14400</lifetime>
         <restock>600</restock>
-        <min>1</min>
+        <min>2</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -6375,8 +6375,8 @@
         <usage name="Military"/>
     </type>
     <type name="FOG_UFP_Pants_Black">
-        <nominal>4</nominal>
-        <lifetime>28800</lifetime>
+        <nominal>5</nominal>
+        <lifetime>14400</lifetime>
         <restock>600</restock>
         <min>2</min>
         <quantmin>-1</quantmin>
@@ -6399,8 +6399,8 @@
         <usage name="Military"/>
     </type>
     <type name="FOG_UFP_Pants_Grey">
-        <nominal>4</nominal>
-        <lifetime>28800</lifetime>
+        <nominal>5</nominal>
+        <lifetime>14400</lifetime>
         <restock>600</restock>
         <min>2</min>
         <quantmin>-1</quantmin>
@@ -6411,8 +6411,8 @@
         <usage name="Military"/>
     </type>
     <type name="FOG_UFP_Pants_M81">
-        <nominal>4</nominal>
-        <lifetime>28800</lifetime>
+        <nominal>5</nominal>
+        <lifetime>14400</lifetime>
         <restock>600</restock>
         <min>2</min>
         <quantmin>-1</quantmin>
@@ -6435,8 +6435,8 @@
         <usage name="Military"/>
     </type>
     <type name="FOG_UFP_Pants_RG">
-        <nominal>4</nominal>
-        <lifetime>28800</lifetime>
+        <nominal>5</nominal>
+        <lifetime>14400</lifetime>
         <restock>600</restock>
         <min>2</min>
         <quantmin>-1</quantmin>
@@ -6459,10 +6459,10 @@
         <usage name="Military"/>
     </type>
     <type name="FOG_UFP_Pants_Urban">
-        <nominal>4</nominal>
+        <nominal>0</nominal>
         <lifetime>28800</lifetime>
         <restock>600</restock>
-        <min>2</min>
+        <min>0</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -6597,7 +6597,7 @@
         <value name="Tier4"/>
     </type>
     <type name="FOG_MRB_Belt_MCB">
-        <nominal>3</nominal>
+        <nominal>5</nominal>
         <lifetime>28800</lifetime>
         <restock>1800</restock>
         <min>2</min>
@@ -6612,7 +6612,7 @@
         <value name="Tier4"/>
     </type>
     <type name="FOG_MRB_Belt_RG">
-        <nominal>3</nominal>
+        <nominal>5</nominal>
         <lifetime>28800</lifetime>
         <restock>1800</restock>
         <min>2</min>
@@ -6672,7 +6672,7 @@
         <value name="Tier4"/>
     </type>
     <type name="FOG_MRB_Belt_Black">
-        <nominal>3</nominal>
+        <nominal>5</nominal>
         <lifetime>28800</lifetime>
         <restock>1800</restock>
         <min>2</min>
@@ -7993,10 +7993,10 @@
         <usage name="Military"/>
     </type>
     <type name="FOG_Gorka_Pants_Khaki">
-        <nominal>0</nominal>
+        <nominal>5</nominal>
         <lifetime>14400</lifetime>
         <restock>600</restock>
-        <min>0</min>
+        <min>2</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -8005,7 +8005,7 @@
         <usage name="Military"/>
     </type>
     <type name="FOG_Gorka_Pants_Black">
-        <nominal>4</nominal>
+        <nominal>5</nominal>
         <lifetime>14400</lifetime>
         <restock>600</restock>
         <min>2</min>
@@ -9054,10 +9054,10 @@
 		<usage name="Military"/>
     </type>
     <type name="FOG_Jacket_SoftShell_Black">
-		<nominal>4</nominal>
+        <nominal>5</nominal>
         <lifetime>14400</lifetime>
-		<restock>600</restock>
-		<min>2</min>
+        <restock>600</restock>
+        <min>2</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
@@ -9066,10 +9066,10 @@
 		<usage name="Military"/>
     </type>
     <type name="FOG_Jacket_SoftShell_ERDL">
-		<nominal>4</nominal>
+        <nominal>5</nominal>
         <lifetime>14400</lifetime>
-		<restock>600</restock>
-		<min>2</min>
+        <restock>600</restock>
+        <min>2</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
@@ -9090,10 +9090,10 @@
 		<usage name="Military"/>
     </type>
     <type name="FOG_Jacket_SoftShell_RG">
-		<nominal>4</nominal>
+        <nominal>5</nominal>
         <lifetime>14400</lifetime>
-		<restock>600</restock>
-		<min>2</min>
+        <restock>600</restock>
+        <min>2</min>
 		<quantmin>-1</quantmin>
 		<quantmax>-1</quantmax>
 		<cost>100</cost>
@@ -9350,7 +9350,7 @@
         <usage name="Village"/>
     </type>
     <type name="FOG_UFJ_Shirt_RG">
-        <nominal>4</nominal>
+        <nominal>5</nominal>
         <lifetime>14400</lifetime>
         <restock>600</restock>
         <min>2</min>
@@ -9374,7 +9374,7 @@
         <usage name="Military"/>
     </type>
     <type name="FOG_UFJ_Shirt_Black">
-        <nominal>4</nominal>
+        <nominal>5</nominal>
         <lifetime>14400</lifetime>
         <restock>600</restock>
         <min>2</min>
@@ -9386,7 +9386,7 @@
         <usage name="Military"/>
     </type>
     <type name="FOG_UFJ_Shirt_Grey">
-        <nominal>4</nominal>
+        <nominal>5</nominal>
         <lifetime>14400</lifetime>
         <restock>600</restock>
         <min>2</min>
@@ -9398,7 +9398,7 @@
         <usage name="Military"/>
     </type>
     <type name="FOG_UFJ_Shirt_ERDL">
-        <nominal>4</nominal>
+        <nominal>5</nominal>
         <lifetime>14400</lifetime>
         <restock>600</restock>
         <min>2</min>
@@ -9410,7 +9410,7 @@
         <usage name="Military"/>
     </type>
     <type name="FOG_UFJ_Shirt_ERDL_RG">
-        <nominal>4</nominal>
+        <nominal>5</nominal>
         <lifetime>14400</lifetime>
         <restock>600</restock>
         <min>2</min>
@@ -9422,10 +9422,10 @@
         <usage name="Military"/>
     </type>
     <type name="FOG_Gorka_Jacket_Khaki">
-        <nominal>0</nominal>
+        <nominal>5</nominal>
         <lifetime>14400</lifetime>
         <restock>600</restock>
-        <min>0</min>
+        <min>2</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -9434,7 +9434,7 @@
         <usage name="Military"/>
     </type>
     <type name="FOG_Gorka_Jacket_Black">
-        <nominal>4</nominal>
+        <nominal>5</nominal>
         <lifetime>14400</lifetime>
         <restock>600</restock>
         <min>2</min>
@@ -9590,7 +9590,7 @@
         <usage name="Military"/>
     </type>
     <type name="FOG_Tactical_Fleece_Grey">
-        <nominal>4</nominal>
+        <nominal>5</nominal>
         <lifetime>14400</lifetime>
         <restock>600</restock>
         <min>2</min>
@@ -9602,7 +9602,7 @@
         <usage name="Military"/>
     </type>
     <type name="FOG_Tactical_Fleece_Black">
-        <nominal>4</nominal>
+        <nominal>5</nominal>
         <lifetime>14400</lifetime>
         <restock>600</restock>
         <min>2</min>
@@ -9614,7 +9614,7 @@
         <usage name="Military"/>
     </type>
     <type name="FOG_Tactical_Fleece_RG">
-        <nominal>4</nominal>
+        <nominal>5</nominal>
         <lifetime>14400</lifetime>
         <restock>600</restock>
         <min>2</min>
