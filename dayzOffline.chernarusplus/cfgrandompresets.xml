@@ -258,37 +258,35 @@
 		</cargo>
 		<attachments chance="0.15" name="pistol_optics">
 				<item name="FNP45_MRDSOptic" chance="0.5" />
-				<item name="HBd_Romeo3_Optics" chance="0.25" />
-				<item name="HBd_ZA_Mini_Optics" chance="0.25" />
+				<item name="AD_RMR" chance="0.5" />
 		</attachments>
 		<attachments chance="0.60" name="close_range_optics">
-				<item name="HBd_OKP7" chance="0.25" />
-				<item name="HBd_Zenit_VZOR_4_Optics" chance="0.25"/>
-				<item name="HBd_Valdai_Optics" chance="0.25" />
-				<item name="HBd_EOTech_Optics" chance="0.25" />
+				<item name="AD_OKP7" chance="0.25" />
+				<item name="AD_MRS" chance="0.25"/>
+				<item name="AD_RMR" chance="0.25" />
+				<item name="AD_XPS34" chance="0.25" />
 		</attachments>
 		<attachments chance="0.60" name="ar_optics">
-				<item name="HBd_Acog_and_EOTech_Optics" chance="0.25" />
-				<item name="HBd_EOTech_Magnifer_up_Optics" chance="0.25" />
-				<item name="ACOGOptic" chance="0.25" />
-				<item name="HBd_EOTech_PWR_Optics" chance="0.25" />
+				<item name="AD_ACOG" chance="0.25" />
+				<item name="AD_SpecterDR" chance="0.25"/>
+				<item name="AD_XPS34_HHS" chance="0.25" />
+				<item name="AD_ACOG_RMR" chance="0.25" />
 		</attachments>
 		<attachments chance="0.20" name="dmr_optics">
-				<item name="ACOGOptic_6x" chance="1.0" />
+				<item name="AD_NFATACR_1_8" chance="1.0" />
 		</attachments>
 		<attachments chance="0.60" name="long_range_scopes">
-				<item name="ACOGOptic_6x" chance="1.0" />
+				<item name="AD_DHF5" chance="0.25" />
+				<item name="AD_NFATACR" chance="0.25"/>
+				<item name="AD_NFATACR_1_8" chance="0.25" />
+				<item name="AD_LeupoldMk4" chance="0.25" />
 		</attachments>
 		<attachments chance="0.60" name="hunting_scopes">
 				<item name="HuntingOptic" chance="1.0" />
 		</attachments>
 		<attachments chance="0.05" name="pistol_suppressors">
-				<item name="HBd_Defender_HPS_45cal_Supp" chance="0.125" />
-				<item name="HBd_Alpha_Dog_Suppressor" chance="0.125" />
-				<item name="HBd_AAC_Illusion_Suppressor" chance="0.125" />
-				<item name="HBd_Sillencerco_Osprey_Suppressor" chance="0.125" />
-				<item name="TWM_MultiCal_Suppressor" chance="0.25" />
-				<item name="TWM_MCPistol_Suppressor" chance="0.25" />
+				<item name="TWM_MultiCal_Suppressor" chance="0.5" />
+				<item name="TWM_MCPistol_Suppressor" chance="0.5" />
 		</attachments>
 		<!--NBC Cargo-->
 		<cargo chance="0.2" name="ContaminatedCargo">
