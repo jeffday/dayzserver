@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<spawnabletypes>
+	<type name="DG_SV98_Green">
+		<attachments chance="0.75">
+			<item name="DG_SV98_762_Mag_10rnd" chance="1.00" />
+		</attachments>
+        <attachments chance="0.25">
+			<item name="DG_Bipod" chance="1.00" />
+		</attachments>
+		<attachments preset="long_range_scopes" />
+	</type>
+    <type name="DG_SV98_Black">
+		<attachments chance="0.75">
+			<item name="DG_SV98_762_Mag_10rnd" chance="1.00" />
+		</attachments>
+		<attachments preset="long_range_scopes" />
+        <attachments chance="0.25">
+			<item name="DG_PBS4" chance="1.00" />
+		</attachments>
+        <attachments chance="0.25">
+			<item name="DG_Bipod" chance="1.00" />
+		</attachments>
+	</type>
+    <type name="DG_SV98_White">
+		<attachments chance="0.75">
+			<item name="DG_SV98_762_Mag_10rnd" chance="1.00" />
+		</attachments>
+		<attachments preset="long_range_scopes" />
+        <attachments chance="0.25">
+			<item name="DG_Bipod" chance="1.00" />
+		</attachments>
+	</type>
+</spawnabletypes>

@@ -96,4 +96,10 @@ Do not forget to add attribute act="car", if root class represents moveable vehi
 		<file name="mwp_spawnabletypes.xml" type="spawnabletypes" />
 	</ce> -->
 
+	<!-- Delta Ghost's SV-98 -->
+	<ce folder="dgsv98">
+		<file name="sv98_types.xml" type="types" />
+		<file name="cfgspawnabletypes.xml" type="spawnabletypes" />
+	</ce>
+
 </economycore>
