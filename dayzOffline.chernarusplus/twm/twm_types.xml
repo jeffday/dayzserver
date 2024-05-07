@@ -131,10 +131,10 @@
 	</type>
 <!--  -->
 	<type name="TWM_IA2">
-		<nominal>0</nominal>
+		<nominal>1</nominal>
 		<lifetime>8200</lifetime>
 		<restock>1800</restock>
-		<min>0</min>
+		<min>1</min>
         <quantmin>30</quantmin>
         <quantmax>80</quantmax>
 		<cost>100</cost>
@@ -145,10 +145,10 @@
 		<value name="Tier4" />
 	</type>
 	<type name="TWM_IA2_Gray">
-		<nominal>0</nominal>
+		<nominal>1</nominal>
 		<lifetime>8200</lifetime>
 		<restock>1800</restock>
-		<min>0</min>
+		<min>1</min>
         <quantmin>30</quantmin>
         <quantmax>80</quantmax>
 		<cost>100</cost>
@@ -173,10 +173,10 @@
 		<value name="Tier4" />
 	</type>
 	<type name="TWM_IA2_OD">
-		<nominal>0</nominal>
+		<nominal>1</nominal>
 		<lifetime>8200</lifetime>
 		<restock>1800</restock>
-		<min>0</min>
+		<min>1</min>
         <quantmin>30</quantmin>
         <quantmax>80</quantmax>
 		<cost>100</cost>
@@ -187,10 +187,10 @@
 		<value name="Tier4" />
 	</type>
 	<type name="TWM_IA2H">
-		<nominal>0</nominal>
+		<nominal>1</nominal>
 		<lifetime>8200</lifetime>
 		<restock>1800</restock>
-		<min>0</min>
+		<min>1</min>
         <quantmin>30</quantmin>
         <quantmax>80</quantmax>
 		<cost>100</cost>
@@ -200,10 +200,10 @@
 		<value name="Tier4" />
 	</type>
 	<type name="TWM_IA2H_Gray">
-		<nominal>0</nominal>
+		<nominal>1</nominal>
 		<lifetime>8200</lifetime>
 		<restock>1800</restock>
-		<min>0</min>
+		<min>1</min>
         <quantmin>30</quantmin>
         <quantmax>80</quantmax>
 		<cost>100</cost>
@@ -226,10 +226,10 @@
 		<value name="Tier4" />
 	</type>
 	<type name="TWM_IA2H_OD">
-		<nominal>0</nominal>
+		<nominal>1</nominal>
 		<lifetime>8200</lifetime>
 		<restock>1800</restock>
-		<min>0</min>
+		<min>1</min>
         <quantmin>30</quantmin>
         <quantmax>80</quantmax>
 		<cost>100</cost>
@@ -1063,7 +1063,7 @@
         <nominal>1</nominal>
         <lifetime>3600</lifetime>
         <restock>0</restock>
-        <min>0</min>
+        <min>1</min>
         <quantmin>30</quantmin>
         <quantmax>80</quantmax>
         <cost>100</cost>
@@ -1076,7 +1076,7 @@
         <nominal>1</nominal>
         <lifetime>3600</lifetime>
         <restock>0</restock>
-        <min>0</min>
+        <min>1</min>
         <quantmin>30</quantmin>
         <quantmax>80</quantmax>
         <cost>100</cost>

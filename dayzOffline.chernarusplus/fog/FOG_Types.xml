@@ -2172,10 +2172,10 @@
         <usage name="Military"/>
     </type>
     <type name="FOG_AVONM53_Black">
-        <nominal>3</nominal>
+        <nominal>0</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
-        <min>2</min>
+        <min>0</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -2198,10 +2198,10 @@
         <usage name="Military"/>
     </type>
     <type name="FOG_AVONM53_Clear">
-        <nominal>3</nominal>
+        <nominal>0</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
-        <min>2</min>
+        <min>0</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -2478,7 +2478,7 @@
         <usage name="Military"/>
     </type>
     <type name="FOG_DEFCONVans_Shoes_Black">
-        <nominal>12</nominal>
+        <nominal>15</nominal>
         <lifetime>21600</lifetime>
         <restock>0</restock>
         <min>10</min>
@@ -2487,11 +2487,12 @@
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="containers"/>
+        <usage name="Military"/>
         <usage name="Town"/>
         <usage name="Village"/>
     </type>
     <type name="FOG_DEFCONVans_Shoes_Grey">
-        <nominal>12</nominal>
+        <nominal>15</nominal>
         <lifetime>21600</lifetime>
         <restock>0</restock>
         <min>10</min>
@@ -2500,11 +2501,12 @@
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="containers"/>
+        <usage name="Military"/>
         <usage name="Town"/>
         <usage name="Village"/>
     </type>
     <type name="FOG_DEFCONVans_Shoes_RG">
-        <nominal>12</nominal>
+        <nominal>15</nominal>
         <lifetime>21600</lifetime>
         <restock>0</restock>
         <min>10</min>
@@ -2513,6 +2515,7 @@
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="containers"/>
+        <usage name="Military"/>
         <usage name="Town"/>
         <usage name="Village"/>
     </type>
@@ -2529,7 +2532,7 @@
         <usage name="Military"/>
     </type>
     <type name="FOG_DEFCONVans_Shoes_KHK">
-        <nominal>12</nominal>
+        <nominal>15</nominal>
         <lifetime>21600</lifetime>
         <restock>0</restock>
         <min>10</min>
@@ -2538,11 +2541,12 @@
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="containers"/>
+        <usage name="Military"/>
         <usage name="Town"/>
         <usage name="Village"/>
     </type>
     <type name="FOG_DEFCONVans_Shoes_Blue">
-        <nominal>12</nominal>
+        <nominal>15</nominal>
         <lifetime>21600</lifetime>
         <restock>0</restock>
         <min>10</min>
@@ -2551,20 +2555,23 @@
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="containers"/>
+        <usage name="Military"/>
         <usage name="Town"/>
         <usage name="Village"/>
     </type>
     <type name="FOG_DEFCONVans_Shoes_Red">
-        <nominal>0</nominal>
-        <lifetime>3200</lifetime>
+        <nominal>15</nominal>
+        <lifetime>21600</lifetime>
         <restock>0</restock>
-        <min>0</min>
+        <min>10</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
-        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
-        <category name="clothes" />        
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="containers"/>
         <usage name="Military"/>
+        <usage name="Town"/>
+        <usage name="Village"/>
     </type>
     <type name="FOG_DEFCONVans_Shoes_MC">
         <nominal>0</nominal>
@@ -2576,11 +2583,12 @@
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="containers"/>
+        <usage name="Military"/>
         <usage name="Town"/>
         <usage name="Village"/>
     </type>
     <type name="FOG_DEFCONVans_Shoes_MCB">
-        <nominal>12</nominal>
+        <nominal>15</nominal>
         <lifetime>21600</lifetime>
         <restock>0</restock>
         <min>10</min>
@@ -2589,32 +2597,37 @@
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="containers"/>
+        <usage name="Military"/>
         <usage name="Town"/>
         <usage name="Village"/>
     </type>
     <type name="FOG_DEFCONVans_Shoes_MCT">
         <nominal>0</nominal>
-        <lifetime>3200</lifetime>
+        <lifetime>21600</lifetime>
         <restock>0</restock>
         <min>0</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
-        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
-        <category name="clothes" />        
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="containers"/>
         <usage name="Military"/>
+        <usage name="Town"/>
+        <usage name="Village"/>
     </type>
     <type name="FOG_DEFCONVans_Shoes_MCAL">
         <nominal>0</nominal>
-        <lifetime>3200</lifetime>
+        <lifetime>21600</lifetime>
         <restock>0</restock>
         <min>0</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
-        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
-        <category name="clothes" />        
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="containers"/>
         <usage name="Military"/>
+        <usage name="Town"/>
+        <usage name="Village"/>
     </type>
     <type name="FOG_Zypher_Boots_CB_Socks">
         <nominal>0</nominal>
