@@ -16,7 +16,7 @@
         <value name="Tier4"/>
     </type>
     <type name="STO_GasMask_CM7">
-        <nominal>3</nominal>
+        <nominal>5</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
         <min>2</min>
@@ -30,10 +30,10 @@
         <value name="Tier4"/>
     </type>
     <type name="STO_GasMask_CS_1">
-        <nominal>3</nominal>
+        <nominal>0</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
-        <min>2</min>
+        <min>0</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -42,10 +42,10 @@
         <usage name="Military"/>
     </type>   
     <type name="STO_GasMask_CS_2">
-        <nominal>5</nominal>
+        <nominal>0</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
-        <min>4</min>
+        <min>0</min>
         <quantmin>20</quantmin>
         <quantmax>100</quantmax>
         <cost>100</cost>
@@ -72,7 +72,7 @@
         <value name="Tier4"/>
     </type>   
     <type name="STO_GasMask_M40">
-        <nominal>3</nominal>
+        <nominal>5</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
         <min>2</min>
@@ -86,10 +86,10 @@
         <value name="Tier4"/>
     </type>   
     <type name="STO_GasMask_MK10">
-        <nominal>3</nominal>
+        <nominal>0</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
-        <min>2</min>
+        <min>0</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -100,10 +100,10 @@
         <value name="Tier2"/>
     </type>   
     <type name="STO_GasMask_PMG">
-        <nominal>3</nominal>
+        <nominal>0</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
-        <min>2</min>
+        <min>0</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
