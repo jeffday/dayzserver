@@ -1748,10 +1748,10 @@
         <usage name="ContaminatedArea"/>
 	</type>
 	<type name="TWM_MCPistol_Suppressor">
-        <nominal>5</nominal>
+        <nominal>0</nominal>
         <lifetime>7200</lifetime>
-        <restock>14400</restock>
-        <min>2</min>
+        <restock>0</restock>
+        <min>0</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -1804,10 +1804,10 @@
         <value name="Tier4" />
 	</type>
 	<type name="TWM_Tactical_Stock_Black">
-        <nominal>4</nominal>
+        <nominal>0</nominal>
         <lifetime>7200</lifetime>
         <restock>14400</restock>
-        <min>2</min>
+        <min>0</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -1817,10 +1817,10 @@
         <usage name="Military"/>
 	</type>
 	<type name="TWM_Tactical_Stock_OD">
-        <nominal>4</nominal>
+        <nominal>0</nominal>
         <lifetime>7200</lifetime>
         <restock>14400</restock>
-        <min>2</min>
+        <min>0</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -1882,10 +1882,10 @@
         <usage name="Military"/>
 	</type>
 	<type name="TWM_Light_Stock">
-        <nominal>4</nominal>
+        <nominal>0</nominal>
         <lifetime>7200</lifetime>
         <restock>14400</restock>
-        <min>2</min>
+        <min>0</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -1895,10 +1895,10 @@
         <usage name="Military"/>
 	</type>
 	<type name="TWM_Light_Stock_OD">
-        <nominal>4</nominal>
+        <nominal>0</nominal>
         <lifetime>7200</lifetime>
         <restock>14400</restock>
-        <min>2</min>
+        <min>0</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -2357,10 +2357,10 @@
         <value name="Tier4"/>
     </type>
 	<type name="TWM_SV98">
-		<nominal>1</nominal>
+		<nominal>0</nominal>
         <lifetime>7200</lifetime>
         <restock>300</restock>
-		<min>1</min>
+		<min>0</min>
         <quantmin>30</quantmin>
         <quantmax>80</quantmax>
 		<cost>100</cost> 
@@ -2369,10 +2369,10 @@
         <usage name="ContaminatedArea"/>
 	</type>
 	<type name="TWM_SV98_Mag_10rnd">
-        <nominal>3</nominal>
+        <nominal>0</nominal>
         <lifetime>7200</lifetime>
         <restock>300</restock>
-        <min>2</min>
+        <min>0</min>
         <quantmin>10</quantmin>
         <quantmax>100</quantmax>
         <cost>100</cost>

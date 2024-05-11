@@ -787,11 +787,13 @@
             <item name="HBd_MAgPull_GEN3_MAG_30rnd" chance="0.25" />
 		</attachments>
         <attachments chance="0.40">
-			<item name="HBd_AR15_Butt_MK1" chance="0.20" />
-            <item name="HBd_AR15_Butt_MK2" chance="0.20" />
-            <item name="HBd_AR15_Butt_MK3" chance="0.20" />
-            <item name="HBd_AR15_Skeletonized_Butt" chance="0.20" />
-            <item name="HBd_AR15_Viper_Butt" chance="0.20" />
+			<item name="HBd_AR15_Butt_MK1" chance="0.25" />
+            <item name="HBd_AR15_Butt_MK2" chance="0.25" />
+            <item name="HBd_AR15_Butt_MK3" chance="0.25" />
+            <item name="HBd_AR15_Viper_Butt" chance="0.25" />
+		</attachments>
+        <attachments chance="0.60">
+			<item name="HBd_Harms_Charging_AR15" chance="1.0" />
 		</attachments>
 	</type>
     <type name="HBd_M16A1">
@@ -802,11 +804,13 @@
             <item name="HBd_MAgPull_GEN3_MAG_30rnd" chance="0.25" />
 		</attachments>
         <attachments chance="0.40">
-			<item name="HBd_AR15_Butt_MK1" chance="0.20" />
-            <item name="HBd_AR15_Butt_MK2" chance="0.20" />
-            <item name="HBd_AR15_Butt_MK3" chance="0.20" />
-            <item name="HBd_AR15_Skeletonized_Butt" chance="0.20" />
-            <item name="HBd_AR15_Viper_Butt" chance="0.20" />
+			<item name="HBd_AR15_Butt_MK1" chance="0.25" />
+            <item name="HBd_AR15_Butt_MK2" chance="0.25" />
+            <item name="HBd_AR15_Butt_MK3" chance="0.25" />
+            <item name="HBd_AR15_Viper_Butt" chance="0.25" />
+		</attachments>
+        <attachments chance="0.60">
+			<item name="HBd_Harms_Charging_AR15" chance="1.0" />
 		</attachments>
 	</type>
     <type name="HBd_AR15">
@@ -817,11 +821,10 @@
             <item name="HBd_MAgPull_GEN3_MAG_30rnd" chance="0.25" />
 		</attachments>
         <attachments chance="0.40">
-			<item name="HBd_AR15_Butt_MK1" chance="0.20" />
-            <item name="HBd_AR15_Butt_MK2" chance="0.20" />
-            <item name="HBd_AR15_Butt_MK3" chance="0.20" />
-            <item name="HBd_AR15_Skeletonized_Butt" chance="0.20" />
-            <item name="HBd_AR15_Viper_Butt" chance="0.20" />
+			<item name="HBd_AR15_Butt_MK1" chance="0.25" />
+            <item name="HBd_AR15_Butt_MK2" chance="0.25" />
+            <item name="HBd_AR15_Butt_MK3" chance="0.25" />
+            <item name="HBd_AR15_Viper_Butt" chance="0.25" />
 		</attachments>
         <attachments chance="0.60">
 			<item name="HBd_Colt_Defense_Cover_AR15" chance="0.5" />
@@ -831,7 +834,10 @@
             <item name="HBd_Colt_Defense_Receiver_AR15" chance="0.5" />
             <item name="HBd_HArms_CQR_Receiver_AR15" chance="0.5" />
 		</attachments>
-        <attachments chance="1.00">
+        <attachments chance="0.60">
+			<item name="HBd_Harms_Charging_AR15" chance="1.0" />
+		</attachments>
+        <attachments chance="0.50">
 			<item name="HBd_Barrel_40CM_AR15" chance="1.0" />
 		</attachments>
 	</type>
@@ -843,11 +849,10 @@
             <item name="HBd_MAgPull_GEN3_MAG_30rnd" chance="0.25" />
 		</attachments>
         <attachments chance="0.40">
-			<item name="HBd_AR15_Butt_MK1" chance="0.20" />
-            <item name="HBd_AR15_Butt_MK2" chance="0.20" />
-            <item name="HBd_AR15_Butt_MK3" chance="0.20" />
-            <item name="HBd_AR15_Skeletonized_Butt" chance="0.20" />
-            <item name="HBd_AR15_Viper_Butt" chance="0.20" />
+			<item name="HBd_AR15_Butt_MK1" chance="0.25" />
+            <item name="HBd_AR15_Butt_MK2" chance="0.25" />
+            <item name="HBd_AR15_Butt_MK3" chance="0.25" />
+            <item name="HBd_AR15_Viper_Butt" chance="0.25" />
 		</attachments>
         <attachments chance="0.60">
 			<item name="HBd_Colt_Defense_Cover_AR15" chance="0.5" />
@@ -857,7 +862,10 @@
             <item name="HBd_Colt_Defense_Receiver_AR15" chance="0.5" />
             <item name="HBd_HArms_CQR_Receiver_AR15" chance="0.5" />
 		</attachments>
-        <attachments chance="1.00">
+        <attachments chance="0.60">
+			<item name="HBd_Harms_Charging_AR15" chance="1.0" />
+		</attachments>
+        <attachments chance="0.50">
 			<item name="HBd_Barrel_40CM_AR15" chance="1.0" />
 		</attachments>
 	</type>
@@ -869,21 +877,27 @@
             <item name="HBd_MAgPull_GEN3_MAG_30rnd" chance="0.25" />
 		</attachments>
         <attachments chance="0.40">
-			<item name="HBd_AR15_Butt_MK1" chance="0.20" />
-            <item name="HBd_AR15_Butt_MK2" chance="0.20" />
-            <item name="HBd_AR15_Butt_MK3" chance="0.20" />
-            <item name="HBd_AR15_Skeletonized_Butt" chance="0.20" />
-            <item name="HBd_AR15_Viper_Butt" chance="0.20" />
+			<item name="HBd_AR15_Butt_MK1" chance="0.25" />
+            <item name="HBd_AR15_Butt_MK2" chance="0.25" />
+            <item name="HBd_AR15_Butt_MK3" chance="0.25" />
+            <item name="HBd_AR15_Viper_Butt" chance="0.25" />
 		</attachments>
         <attachments chance="0.60">
-			<item name="HBd_Colt_Defense_Cover_AR15" chance="0.5" />
-            <item name="HBd_HArms_CQR_Cover_AR15" chance="0.5" />
+			<item name="HBd_Colt_Defense_Cover_AR15" chance="0.25" />
+            <item name="HBd_HArms_CQR_Cover_AR15" chance="0.25" />
+            <item name="HBd_ADAR_2_15_Cover_AR15" chance="0.25" />
+            <item name="HBd_Noveske_GEN3_Cover_AR15" chance="0.25" />
 		</attachments>
         <attachments chance="0.60">
-            <item name="HBd_Colt_Defense_Receiver_AR15" chance="0.5" />
-            <item name="HBd_HArms_CQR_Receiver_AR15" chance="0.5" />
+            <item name="HBd_Colt_Defense_Receiver_AR15" chance="0.25" />
+            <item name="HBd_HArms_CQR_Receiver_AR15" chance="0.25" />
+            <item name="HBd_ADAR_2_15_Receiver_AR15" chance="0.25" />
+            <item name="HBd_Noveske_GEN3_Receiver_AR15" chance="0.25" />
 		</attachments>
-        <attachments chance="1.00">
+        <attachments chance="0.60">
+			<item name="HBd_Harms_Charging_AR15" chance="1.0" />
+		</attachments>
+        <attachments chance="0.50">
 			<item name="HBd_Barrel_40CM_AR15" chance="1.0" />
 		</attachments>
 	</type>

@@ -2050,10 +2050,10 @@
         <usage name="Military"/>
     </type>
     <type name="HBd_MagPull_UBR_Butt">
-        <nominal>0</nominal>
+        <nominal>5</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
-        <min>0</min>
+        <min>2</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -2062,10 +2062,10 @@
         <usage name="Military"/>
     </type>
     <type name="HBd_MagPull_UBR_Butt_black">
-        <nominal>0</nominal>
+        <nominal>5</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
-        <min>0</min>
+        <min>2</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -3895,10 +3895,10 @@
         <value name="Tier4"/>
     </type>
         <type name="HBd_Alpha_Dog_Suppressor">
-        <nominal>5</nominal>
+        <nominal>0</nominal>
         <lifetime>28800</lifetime>
         <restock>0</restock>
-        <min>2</min>
+        <min>0</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
