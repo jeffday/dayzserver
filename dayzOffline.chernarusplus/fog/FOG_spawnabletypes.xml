@@ -663,22 +663,13 @@
     </type>
     <type name="FOG_Helmet_Airframe_CB">
         <attachments chance="0.75">
-            <item name="FOG_Airframe_Cover_CB" chance="0.12" />
-            <item name="FOG_Airframe_Cover_MC" chance="0.12" />
-            <item name="FOG_Airframe_Cover_Black" chance="0.12" />
-            <item name="FOG_Airframe_Cover_MCB" chance="0.12" />
-            <item name="FOG_Airframe_Cover_RG" chance="0.12" />
-            <item name="FOG_Airframe_Cover_ALP" chance="0.12" />
-            <item name="FOG_Airframe_Cover_AOR1" chance="0.12" />
-            <item name="FOG_Airframe_Cover_AOR2" chance="0.12" />
+            <item name="FOG_Airframe_Cover_CB" chance="1.00" />
         </attachments>
         <attachments chance="1.00">
-            <item name="FOG_Comtac_IV_CB" chance="0.20" />
-            <item name="FOG_Comtac_IV_RG" chance="0.20" />
-            <item name="FOG_Comtac_IV_Black" chance="0.20" />
-            <item name="FOG_Comtac3_Headphones_AJ" chance="0.10" />
-            <item name="FOG_Comtac3_Headphones_RG" chance="0.10" />
-            <item name="FOG_Comtac3_Headphones_Black" chance="0.10" />
+            <item name="FOG_Comtac_IV_CB" chance="0.25" />
+            <item name="FOG_Comtac3_Headphones_AJ" chance="0.25" />
+            <item name="FOG_Comtac3_Headphones_CB" chance="0.25" />
+            <item name="FOG_Comtac3_Headphones_CB_Velcro" chance="0.25" />
         </attachments>
     </type>
     <type name="FOG_Helmet_Airframe_RG">
@@ -723,72 +714,89 @@
     </type>
     <type name="FOG_Helmet_FAST_Bump_Tan">
         <attachments chance="1.00">
-            <item name="FOG_Comtac_IV_CB" chance="0.10" />
-            <item name="FOG_Comtac_IV_RG" chance="0.10" />
-            <item name="FOG_Comtac_IV_Black" chance="0.10" />
-            <item name="FOG_Comtac3_Headphones_AJ" chance="0.20" />
-            <item name="FOG_Comtac3_Headphones_RG" chance="0.20" />
-            <item name="FOG_Comtac3_Headphones_Black" chance="0.20" />
+            <item name="FOG_Comtac_IV_CB" chance="0.25" />
+            <item name="FOG_Comtac3_Headphones_AJ" chance="0.25" />
+            <item name="FOG_Comtac3_Headphones_CB" chance="0.25" />
+            <item name="FOG_Comtac3_Headphones_CB_Velcro" chance="0.25" />
         </attachments>
     </type>
     <type name="FOG_Helmet_FAST_Bump_RG">
         <attachments chance="1.00">
-            <item name="FOG_Comtac_IV_CB" chance="0.10" />
-            <item name="FOG_Comtac_IV_RG" chance="0.10" />
-            <item name="FOG_Comtac_IV_Black" chance="0.10" />
-            <item name="FOG_Comtac3_Headphones_AJ" chance="0.20" />
-            <item name="FOG_Comtac3_Headphones_RG" chance="0.20" />
-            <item name="FOG_Comtac3_Headphones_Black" chance="0.20" />
+            <item name="FOG_Comtac_IV_RG" chance="0.20" />
+            <item name="FOG_Comtac3_Headphones_RG" chance="0.16" />
+            <item name="FOG_Comtac3_Headphones_RG_01" chance="0.16" />
+            <item name="FOG_Comtac3_Headphones_RG_XPI" chance="0.16" />
+            <item name="FOG_Comtac3_Headphones_RG_Spray" chance="0.16" />
+            <item name="FOG_Comtac3_Headphones_RG_Velcro" chance="0.16" />
         </attachments>
     </type>
     <type name="FOG_Helmet_FAST_Bump_Black">
         <attachments chance="1.00">
-            <item name="FOG_Comtac_IV_CB" chance="0.10" />
-            <item name="FOG_Comtac_IV_RG" chance="0.10" />
-            <item name="FOG_Comtac_IV_Black" chance="0.10" />
-            <item name="FOG_Comtac3_Headphones_AJ" chance="0.20" />
-            <item name="FOG_Comtac3_Headphones_RG" chance="0.20" />
-            <item name="FOG_Comtac3_Headphones_Black" chance="0.20" />
+            <item name="FOG_Comtac_IV_Black" chance="0.20" />
+            <item name="FOG_Comtac3_Headphones_Black_Velcro" chance="0.40" />
+            <item name="FOG_Comtac3_Headphones_Black" chance="0.40" />
         </attachments>
     </type>
     <type name="FOG_Helmet_FAST_Bump_Grey">
         <attachments chance="1.00">
-            <item name="FOG_Comtac_IV_CB" chance="0.10" />
-            <item name="FOG_Comtac_IV_RG" chance="0.10" />
-            <item name="FOG_Comtac_IV_Black" chance="0.10" />
-            <item name="FOG_Comtac3_Headphones_AJ" chance="0.20" />
-            <item name="FOG_Comtac3_Headphones_RG" chance="0.20" />
-            <item name="FOG_Comtac3_Headphones_Black" chance="0.20" />
+            <item name="FOG_Comtac_IV_Black" chance="0.20" />
+            <item name="FOG_Comtac3_Headphones_Black_Velcro" chance="0.40" />
+            <item name="FOG_Comtac3_Headphones_Black" chance="0.40" />
         </attachments>
     </type>
     <type name="FOG_Helmet_FAST_Bump_MC">
         <attachments chance="1.00">
-            <item name="FOG_Comtac_IV_CB" chance="0.10" />
-            <item name="FOG_Comtac_IV_RG" chance="0.10" />
-            <item name="FOG_Comtac_IV_Black" chance="0.10" />
-            <item name="FOG_Comtac3_Headphones_AJ" chance="0.20" />
-            <item name="FOG_Comtac3_Headphones_RG" chance="0.20" />
-            <item name="FOG_Comtac3_Headphones_Black" chance="0.20" />
+            <item name="FOG_Comtac_IV_RG" chance="0.20" />
+            <item name="FOG_Comtac3_Headphones_RG" chance="0.16" />
+            <item name="FOG_Comtac3_Headphones_RG_01" chance="0.16" />
+            <item name="FOG_Comtac3_Headphones_RG_XPI" chance="0.16" />
+            <item name="FOG_Comtac3_Headphones_RG_Spray" chance="0.16" />
+            <item name="FOG_Comtac3_Headphones_RG_Velcro" chance="0.16" />
         </attachments>
     </type>
     <type name="FOG_Helmet_FAST_Bump_MCB">
         <attachments chance="1.00">
-            <item name="FOG_Comtac_IV_CB" chance="0.10" />
-            <item name="FOG_Comtac_IV_RG" chance="0.10" />
-            <item name="FOG_Comtac_IV_Black" chance="0.10" />
-            <item name="FOG_Comtac3_Headphones_AJ" chance="0.20" />
-            <item name="FOG_Comtac3_Headphones_RG" chance="0.20" />
-            <item name="FOG_Comtac3_Headphones_Black" chance="0.20" />
+            <item name="FOG_Comtac_IV_Black" chance="0.20" />
+            <item name="FOG_Comtac3_Headphones_Black_Velcro" chance="0.40" />
+            <item name="FOG_Comtac3_Headphones_Black" chance="0.40" />
         </attachments>
     </type>
     <type name="FOG_Helmet_FAST_Bump_ERDL">
         <attachments chance="1.00">
-            <item name="FOG_Comtac_IV_CB" chance="0.10" />
-            <item name="FOG_Comtac_IV_RG" chance="0.10" />
-            <item name="FOG_Comtac_IV_Black" chance="0.10" />
-            <item name="FOG_Comtac3_Headphones_AJ" chance="0.20" />
-            <item name="FOG_Comtac3_Headphones_RG" chance="0.20" />
-            <item name="FOG_Comtac3_Headphones_Black" chance="0.20" />
+            <item name="FOG_Comtac_IV_RG" chance="0.20" />
+            <item name="FOG_Comtac3_Headphones_RG" chance="0.16" />
+            <item name="FOG_Comtac3_Headphones_RG_01" chance="0.16" />
+            <item name="FOG_Comtac3_Headphones_RG_XPI" chance="0.16" />
+            <item name="FOG_Comtac3_Headphones_RG_Spray" chance="0.16" />
+            <item name="FOG_Comtac3_Headphones_RG_Velcro" chance="0.16" />
+        </attachments>
+    </type>
+    <type name="FOG_Helmet_FAST_Bump_CB">
+        <attachments chance="1.00">
+            <item name="FOG_Comtac_IV_CB" chance="0.25" />
+            <item name="FOG_Comtac3_Headphones_AJ" chance="0.25" />
+            <item name="FOG_Comtac3_Headphones_CB" chance="0.25" />
+            <item name="FOG_Comtac3_Headphones_CB_Velcro" chance="0.25" />
+        </attachments>
+    </type>
+    <type name="FOG_Helmet_FAST_Bump_OD">
+        <attachments chance="1.00">
+            <item name="FOG_Comtac_IV_RG" chance="0.20" />
+            <item name="FOG_Comtac3_Headphones_RG" chance="0.16" />
+            <item name="FOG_Comtac3_Headphones_RG_01" chance="0.16" />
+            <item name="FOG_Comtac3_Headphones_RG_XPI" chance="0.16" />
+            <item name="FOG_Comtac3_Headphones_RG_Spray" chance="0.16" />
+            <item name="FOG_Comtac3_Headphones_RG_Velcro" chance="0.16" />
+        </attachments>
+    </type>
+    <type name="FOG_Helmet_FAST_Bump_MCT">
+        <attachments chance="1.00">
+            <item name="FOG_Comtac_IV_RG" chance="0.20" />
+            <item name="FOG_Comtac3_Headphones_RG" chance="0.16" />
+            <item name="FOG_Comtac3_Headphones_RG_01" chance="0.16" />
+            <item name="FOG_Comtac3_Headphones_RG_XPI" chance="0.16" />
+            <item name="FOG_Comtac3_Headphones_RG_Spray" chance="0.16" />
+            <item name="FOG_Comtac3_Headphones_RG_Velcro" chance="0.16" />
         </attachments>
     </type>
     <type name="FOG_Helmet_FASTMT_Tan">
@@ -798,114 +806,192 @@
     </type>
     <type name="FOG_Helmet_FASTMT_MC">
         <attachments chance="1.00">
-            <item name="FOG_FastMT_RAC_Tan" chance="1.00" />
+            <item name="FOG_FastMT_RAC_RG" chance="1.00" />
         </attachments>
     </type>
     <type name="FOG_Helmet_FASTMT_Black">
         <attachments chance="1.00">
+            <item name="FOG_FastMT_RAC_Black" chance="1.00" />
+        </attachments>
+    </type>
+    <type name="FOG_Helmet_FASTMT_CB">
+        <attachments chance="1.00">
             <item name="FOG_FastMT_RAC_Tan" chance="1.00" />
+        </attachments>
+    </type>
+    <type name="FOG_Helmet_FASTMT_Grey">
+        <attachments chance="1.00">
+            <item name="FOG_FastMT_RAC_Black" chance="1.00" />
+        </attachments>
+    </type>
+    <type name="FOG_Helmet_FASTMT_MCB">
+        <attachments chance="1.00">
+            <item name="FOG_FastMT_RAC_Black" chance="1.00" />
+        </attachments>
+    </type>
+    <type name="FOG_Helmet_FASTMT_MCT">
+        <attachments chance="1.00">
+            <item name="FOG_FastMT_RAC_RG" chance="1.00" />
+        </attachments>
+    </type>
+    <type name="FOG_Helmet_FASTMT_MCAL">
+        <attachments chance="1.00">
+            <item name="FOG_FastMT_RAC_Black" chance="1.00" />
+        </attachments>
+    </type>
+    <type name="FOG_Helmet_FASTMT_M81">
+        <attachments chance="1.00">
+            <item name="FOG_FastMT_RAC_RG" chance="1.00" />
         </attachments>
     </type>
     <type name="FOG_Helmet_FAST_SF_Tan">
         <attachments chance="1.00">
-            <item name="FOG_Comtac_IV_CB" chance="0.10" />
-            <item name="FOG_Comtac_IV_RG" chance="0.10" />
-            <item name="FOG_Comtac_IV_Black" chance="0.10" />
-            <item name="FOG_Comtac3_Headphones_AJ" chance="0.20" />
-            <item name="FOG_Comtac3_Headphones_RG" chance="0.20" />
-            <item name="FOG_Comtac3_Headphones_Black" chance="0.20" />
+            <item name="FOG_Comtac_IV_CB" chance="0.25" />
+            <item name="FOG_Comtac3_Headphones_AJ" chance="0.25" />
+            <item name="FOG_Comtac3_Headphones_CB" chance="0.25" />
+            <item name="FOG_Comtac3_Headphones_CB_Velcro" chance="0.25" />
         </attachments>
         <attachments chance="1.00">
-            <item name="FOG_SF_BatteryPack_Tan" chance="0.20" />
-            <item name="FOG_SF_BatteryPack_RG" chance="0.20" />
-            <item name="FOG_SF_BatteryPack_MC" chance="0.20" />
-            <item name="FOG_SF_BatteryPack_MCB" chance="0.20" />
-            <item name="FOG_SF_BatteryPack_Black" chance="0.20" />
+            <item name="FOG_SF_BatteryPack_Tan" chance="1.0" />
         </attachments>
     </type>
     <type name="FOG_Helmet_FAST_SF_RG">
         <attachments chance="1.00">
-            <item name="FOG_Comtac_IV_CB" chance="0.10" />
-            <item name="FOG_Comtac_IV_RG" chance="0.10" />
-            <item name="FOG_Comtac_IV_Black" chance="0.10" />
-            <item name="FOG_Comtac3_Headphones_AJ" chance="0.20" />
-            <item name="FOG_Comtac3_Headphones_RG" chance="0.20" />
-            <item name="FOG_Comtac3_Headphones_Black" chance="0.20" />
+            <item name="FOG_Comtac_IV_RG" chance="0.20" />
+            <item name="FOG_Comtac3_Headphones_RG" chance="0.16" />
+            <item name="FOG_Comtac3_Headphones_RG_01" chance="0.16" />
+            <item name="FOG_Comtac3_Headphones_RG_XPI" chance="0.16" />
+            <item name="FOG_Comtac3_Headphones_RG_Spray" chance="0.16" />
+            <item name="FOG_Comtac3_Headphones_RG_Velcro" chance="0.16" />
         </attachments>
         <attachments chance="1.00">
-            <item name="FOG_SF_BatteryPack_Tan" chance="0.20" />
-            <item name="FOG_SF_BatteryPack_RG" chance="0.20" />
-            <item name="FOG_SF_BatteryPack_MC" chance="0.20" />
-            <item name="FOG_SF_BatteryPack_MCB" chance="0.20" />
-            <item name="FOG_SF_BatteryPack_Black" chance="0.20" />
+            <item name="FOG_SF_BatteryPack_RG" chance="1.00" />
         </attachments>
     </type>
     <type name="FOG_Helmet_FAST_SF_Black">
         <attachments chance="1.00">
-            <item name="FOG_Comtac_IV_CB" chance="0.10" />
-            <item name="FOG_Comtac_IV_RG" chance="0.10" />
-            <item name="FOG_Comtac_IV_Black" chance="0.10" />
-            <item name="FOG_Comtac3_Headphones_AJ" chance="0.20" />
-            <item name="FOG_Comtac3_Headphones_RG" chance="0.20" />
-            <item name="FOG_Comtac3_Headphones_Black" chance="0.20" />
+            <item name="FOG_Comtac_IV_Black" chance="0.20" />
+            <item name="FOG_Comtac3_Headphones_Black_Velcro" chance="0.40" />
+            <item name="FOG_Comtac3_Headphones_Black" chance="0.40" />
         </attachments>
         <attachments chance="1.00">
-            <item name="FOG_SF_BatteryPack_Tan" chance="0.20" />
-            <item name="FOG_SF_BatteryPack_RG" chance="0.20" />
-            <item name="FOG_SF_BatteryPack_MC" chance="0.20" />
-            <item name="FOG_SF_BatteryPack_MCB" chance="0.20" />
-            <item name="FOG_SF_BatteryPack_Black" chance="0.20" />
+            <item name="FOG_SF_BatteryPack_Black" chance="1.00" />
         </attachments>
     </type>
     <type name="FOG_Helmet_FAST_SF_MC">
         <attachments chance="1.00">
-            <item name="FOG_Comtac_IV_CB" chance="0.10" />
-            <item name="FOG_Comtac_IV_RG" chance="0.10" />
-            <item name="FOG_Comtac_IV_Black" chance="0.10" />
-            <item name="FOG_Comtac3_Headphones_AJ" chance="0.20" />
-            <item name="FOG_Comtac3_Headphones_RG" chance="0.20" />
-            <item name="FOG_Comtac3_Headphones_Black" chance="0.20" />
+            <item name="FOG_Comtac_IV_RG" chance="0.20" />
+            <item name="FOG_Comtac3_Headphones_RG" chance="0.16" />
+            <item name="FOG_Comtac3_Headphones_RG_01" chance="0.16" />
+            <item name="FOG_Comtac3_Headphones_RG_XPI" chance="0.16" />
+            <item name="FOG_Comtac3_Headphones_RG_Spray" chance="0.16" />
+            <item name="FOG_Comtac3_Headphones_RG_Velcro" chance="0.16" />
         </attachments>
         <attachments chance="1.00">
-            <item name="FOG_SF_BatteryPack_Tan" chance="0.20" />
-            <item name="FOG_SF_BatteryPack_RG" chance="0.20" />
-            <item name="FOG_SF_BatteryPack_MC" chance="0.20" />
-            <item name="FOG_SF_BatteryPack_MCB" chance="0.20" />
-            <item name="FOG_SF_BatteryPack_Black" chance="0.20" />
+            <item name="FOG_SF_BatteryPack_MC" chance="1.00" />
         </attachments>
     </type>
     <type name="FOG_Helmet_FAST_SF_MCB">
         <attachments chance="1.00">
-            <item name="FOG_Comtac_IV_CB" chance="0.10" />
-            <item name="FOG_Comtac_IV_RG" chance="0.10" />
-            <item name="FOG_Comtac_IV_Black" chance="0.10" />
-            <item name="FOG_Comtac3_Headphones_AJ" chance="0.20" />
-            <item name="FOG_Comtac3_Headphones_RG" chance="0.20" />
-            <item name="FOG_Comtac3_Headphones_Black" chance="0.20" />
+            <item name="FOG_Comtac_IV_Black" chance="0.20" />
+            <item name="FOG_Comtac3_Headphones_Black_Velcro" chance="0.40" />
+            <item name="FOG_Comtac3_Headphones_Black" chance="0.40" />
         </attachments>
         <attachments chance="1.00">
-            <item name="FOG_SF_BatteryPack_Tan" chance="0.20" />
-            <item name="FOG_SF_BatteryPack_RG" chance="0.20" />
-            <item name="FOG_SF_BatteryPack_MC" chance="0.20" />
-            <item name="FOG_SF_BatteryPack_MCB" chance="0.20" />
-            <item name="FOG_SF_BatteryPack_Black" chance="0.20" />
+            <item name="FOG_SF_BatteryPack_MCB" chance="1.00" />
         </attachments>
     </type>
     <type name="FOG_Helmet_FAST_SF_ERDL">
         <attachments chance="1.00">
-            <item name="FOG_Comtac_IV_CB" chance="0.10" />
-            <item name="FOG_Comtac_IV_RG" chance="0.10" />
-            <item name="FOG_Comtac_IV_Black" chance="0.10" />
-            <item name="FOG_Comtac3_Headphones_AJ" chance="0.20" />
-            <item name="FOG_Comtac3_Headphones_RG" chance="0.20" />
-            <item name="FOG_Comtac3_Headphones_Black" chance="0.20" />
+            <item name="FOG_Comtac_IV_RG" chance="0.20" />
+            <item name="FOG_Comtac3_Headphones_RG" chance="0.16" />
+            <item name="FOG_Comtac3_Headphones_RG_01" chance="0.16" />
+            <item name="FOG_Comtac3_Headphones_RG_XPI" chance="0.16" />
+            <item name="FOG_Comtac3_Headphones_RG_Spray" chance="0.16" />
+            <item name="FOG_Comtac3_Headphones_RG_Velcro" chance="0.16" />
         </attachments>
         <attachments chance="1.00">
-            <item name="FOG_SF_BatteryPack_Tan" chance="0.20" />
-            <item name="FOG_SF_BatteryPack_RG" chance="0.20" />
-            <item name="FOG_SF_BatteryPack_MC" chance="0.20" />
-            <item name="FOG_SF_BatteryPack_MCB" chance="0.20" />
-            <item name="FOG_SF_BatteryPack_Black" chance="0.20" />
+            <item name="FOG_SF_BatteryPack_RG" chance="1.00" />
+        </attachments>
+    </type>
+    <type name="FOG_Helmet_FAST_SF_Tan_BLK">
+        <attachments chance="1.00">
+            <item name="FOG_Comtac_IV_CB" chance="0.25" />
+            <item name="FOG_Comtac3_Headphones_AJ" chance="0.25" />
+            <item name="FOG_Comtac3_Headphones_CB" chance="0.25" />
+            <item name="FOG_Comtac3_Headphones_CB_Velcro" chance="0.25" />
+        </attachments>
+        <attachments chance="1.00">
+            <item name="FOG_SF_BatteryPack_Tan" chance="1.00" />
+        </attachments>
+    </type>
+    <type name="FOG_Helmet_FAST_SF_RG_BLK">
+        <attachments chance="1.00">
+            <item name="FOG_Comtac_IV_RG" chance="0.20" />
+            <item name="FOG_Comtac3_Headphones_RG" chance="0.16" />
+            <item name="FOG_Comtac3_Headphones_RG_01" chance="0.16" />
+            <item name="FOG_Comtac3_Headphones_RG_XPI" chance="0.16" />
+            <item name="FOG_Comtac3_Headphones_RG_Spray" chance="0.16" />
+            <item name="FOG_Comtac3_Headphones_RG_Velcro" chance="0.16" />
+        </attachments>
+        <attachments chance="1.00">
+            <item name="FOG_SF_BatteryPack_RG" chance="1.00" />
+        </attachments>
+    </type>
+    <type name="FOG_Helmet_FAST_SF_MudTan">
+        <attachments chance="1.00">
+            <item name="FOG_Comtac_IV_CB" chance="0.25" />
+            <item name="FOG_Comtac3_Headphones_AJ" chance="0.25" />
+            <item name="FOG_Comtac3_Headphones_CB" chance="0.25" />
+            <item name="FOG_Comtac3_Headphones_CB_Velcro" chance="0.25" />
+        </attachments>
+        <attachments chance="1.00">
+            <item name="FOG_SF_BatteryPack_Tan" chance="1.00" />
+        </attachments>
+    </type>
+    <type name="FOG_Helmet_FAST_SF_CB">
+        <attachments chance="1.00">
+            <item name="FOG_Comtac_IV_CB" chance="0.25" />
+            <item name="FOG_Comtac3_Headphones_AJ" chance="0.25" />
+            <item name="FOG_Comtac3_Headphones_CB" chance="0.25" />
+            <item name="FOG_Comtac3_Headphones_CB_Velcro" chance="0.25" />
+        </attachments>
+        <attachments chance="1.00">
+            <item name="FOG_SF_BatteryPack_Tan" chance="1.00" />
+        </attachments>
+    </type>
+    <type name="FOG_Helmet_FAST_SF_CB_BLK">
+        <attachments chance="1.00">
+            <item name="FOG_Comtac_IV_CB" chance="0.25" />
+            <item name="FOG_Comtac3_Headphones_AJ" chance="0.25" />
+            <item name="FOG_Comtac3_Headphones_CB" chance="0.25" />
+            <item name="FOG_Comtac3_Headphones_CB_Velcro" chance="0.25" />
+        </attachments>
+        <attachments chance="1.00">
+            <item name="FOG_SF_BatteryPack_Tan" chance="1.00" />
+        </attachments>
+    </type>
+    <type name="FOG_Helmet_FAST_SF_MCB2">
+        <attachments chance="1.00">
+            <item name="FOG_Comtac_IV_Black" chance="0.20" />
+            <item name="FOG_Comtac3_Headphones_Black_Velcro" chance="0.40" />
+            <item name="FOG_Comtac3_Headphones_Black" chance="0.40" />
+        </attachments>
+        <attachments chance="1.00">
+            <item name="FOG_SF_BatteryPack_MCB" chance="1.00" />
+        </attachments>
+    </type>
+    <type name="FOG_Helmet_FAST_SF_ERDL_BLK">
+        <attachments chance="1.00">
+            <item name="FOG_Comtac_IV_RG" chance="0.20" />
+            <item name="FOG_Comtac3_Headphones_RG" chance="0.16" />
+            <item name="FOG_Comtac3_Headphones_RG_01" chance="0.16" />
+            <item name="FOG_Comtac3_Headphones_RG_XPI" chance="0.16" />
+            <item name="FOG_Comtac3_Headphones_RG_Spray" chance="0.16" />
+            <item name="FOG_Comtac3_Headphones_RG_Velcro" chance="0.16" />
+        </attachments>
+        <attachments chance="1.00">
+            <item name="FOG_SF_BatteryPack_RG" chance="1.00" />
         </attachments>
     </type>
     <type name="FOG_Helmet_Exfil_MC">
