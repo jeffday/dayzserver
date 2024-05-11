@@ -558,10 +558,10 @@
 
 
     <type name="HBd_PBS4_1_Suppressor">
-        <nominal>0</nominal>
+        <nominal>1</nominal>
         <lifetime>9800</lifetime>
         <restock>1800</restock>
-        <min>0</min>
+        <min>1</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -571,10 +571,10 @@
         <value name="Tier4"/>
     </type>
     <type name="HBd_Hexagon_Suppressor_AK">
-        <nominal>0</nominal>
+        <nominal>1</nominal>
         <lifetime>9800</lifetime>
         <restock>1800</restock>
-        <min>0</min>
+        <min>1</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -595,10 +595,10 @@
         <usage name="Military"/>               
     </type> 
    <type name="HBd_PBS_1_Suppressor">
-        <nominal>0</nominal>
+        <nominal>1</nominal>
         <lifetime>9800</lifetime>
         <restock>1800</restock>
-        <min>0</min>
+        <min>1</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -608,10 +608,10 @@
         <value name="Tier4"/>
     </type>
     <type name="HBd_Hexagon_waflemaker_Suppressor_AK">
-        <nominal>0</nominal>
+        <nominal>1</nominal>
         <lifetime>9800</lifetime>
         <restock>1800</restock>
-        <min>0</min>
+        <min>1</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -620,10 +620,10 @@
         <usage name="Military"/>               
     </type>
     <type name="HBd_ROTOR43_Suppressor_AK">
-        <nominal>0</nominal>
+        <nominal>1</nominal>
         <lifetime>9800</lifetime>
         <restock>1800</restock>
-        <min>0</min>
+        <min>1</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -764,10 +764,10 @@
     </type>
 
     <type name="HBd_MagPull_AFG">
-        <nominal>0</nominal>
+        <nominal>5</nominal>
         <lifetime>28800</lifetime>
         <restock>0</restock>
-        <min>0</min>
+        <min>2</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -776,10 +776,10 @@
         <usage name="Military"/>         
     </type>
     <type name="HBd_UTG_Ultra_slim_black">
-        <nominal>0</nominal>
+        <nominal>5</nominal>
         <lifetime>28800</lifetime>
         <restock>0</restock>
-        <min>0</min>
+        <min>2</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -790,10 +790,10 @@
         <value name="Tier4"/>
     </type>
     <type name="HBd_UTG_Ultra_slim_blue">
-        <nominal>0</nominal>
+        <nominal>5</nominal>
         <lifetime>28800</lifetime>
         <restock>0</restock>
-        <min>0</min>
+        <min>2</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -804,10 +804,10 @@
         <value name="Tier4"/>
     </type>
     <type name="HBd_UTG_Ultra_slim_Red">
-        <nominal>0</nominal>
+        <nominal>5</nominal>
         <lifetime>28800</lifetime>
         <restock>0</restock>
-        <min>0</min>
+        <min>2</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -818,10 +818,10 @@
         <value name="Tier4"/>
     </type>
     <type name="HBd_CDX_Vertical_Folding_Grip">
-        <nominal>0</nominal>
+        <nominal>5</nominal>
         <lifetime>28800</lifetime>
         <restock>0</restock>
-        <min>0</min>
+        <min>2</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -830,10 +830,10 @@
         <usage name="Military"/>         
     </type>
     <type name="HBd_Zenitko_RK6_Grip">
-        <nominal>0</nominal>
+        <nominal>5</nominal>
         <lifetime>28800</lifetime>
         <restock>0</restock>
-        <min>0</min>
+        <min>2</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -1825,36 +1825,36 @@
     </type>
 
     <type name="HBd_Zenitko_RK3_PistolGrip">
-        <nominal>0</nominal>
+        <nominal>5</nominal>
         <lifetime>28800</lifetime>
         <restock>0</restock>
-        <min>0</min>
-        <quantmin>10</quantmin>
-        <quantmax>100</quantmax>
+        <min>2</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
         <cost>1000</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="weapons"/>
         <usage name="Military"/>     
     </type>
     <type name="HB_Magpull_AK_PistolGrip">
-        <nominal>0</nominal>
+        <nominal>5</nominal>
         <lifetime>28800</lifetime>
         <restock>0</restock>
-        <min>0</min>
-        <quantmin>10</quantmin>
-        <quantmax>100</quantmax>
+        <min>2</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
         <cost>1000</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="weapons"/>
         <usage name="Military"/>      
     </type>
     <type name="HB_MagPull_MOE_Skeleton_AK_Pistol_grip">
-        <nominal>0</nominal>
+        <nominal>5</nominal>
         <lifetime>28800</lifetime>
         <restock>0</restock>
-        <min>0</min>
-        <quantmin>10</quantmin>
-        <quantmax>100</quantmax>
+        <min>2</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
         <cost>1000</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="weapons"/>
@@ -1863,12 +1863,12 @@
         <value name="Tier4"/>
     </type>
     <type name="HB_MagPull_MOE_Skeleton_RED_AK_Pistol_grip">
-        <nominal>0</nominal>
+        <nominal>5</nominal>
         <lifetime>28800</lifetime>
         <restock>0</restock>
-        <min>0</min>
-        <quantmin>10</quantmin>
-        <quantmax>100</quantmax>
+        <min>2</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
         <cost>1000</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="weapons"/>
@@ -1877,36 +1877,36 @@
         <value name="Tier4"/>
     </type>
     <type name="HBd_KGB_MG47_AK_PistolGrip">
-        <nominal>0</nominal>
+        <nominal>5</nominal>
         <lifetime>28800</lifetime>
         <restock>0</restock>
-        <min>0</min>
-        <quantmin>10</quantmin>
-        <quantmax>100</quantmax>
+        <min>2</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
         <cost>1000</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="weapons"/>
         <usage name="Military"/>     
     </type>
     <type name="HBd_FabDefence_AGR47_AK_PistolGrip">
-        <nominal>0</nominal>
+        <nominal>5</nominal>
         <lifetime>28800</lifetime>
         <restock>0</restock>
-        <min>0</min>
-        <quantmin>10</quantmin>
-        <quantmax>100</quantmax>
+        <min>2</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
         <cost>1000</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="weapons"/>
         <usage name="Military"/>     
     </type>
     <type name="HBd_Custom_Arms_ags_AK_PistolGrip">
-        <nominal>0</nominal>
+        <nominal>5</nominal>
         <lifetime>28800</lifetime>
         <restock>0</restock>
-        <min>0</min>
-        <quantmin>10</quantmin>
-        <quantmax>100</quantmax>
+        <min>2</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
         <cost>1000</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="weapons"/>
@@ -3302,10 +3302,10 @@
         <value name="Tier4"/>
     </type>
     <type name="HBd_MagPull_pMag_sr_20_rnd_308win">
-        <nominal>2</nominal>
+        <nominal>0</nominal>
         <lifetime>28800</lifetime>
         <restock>0</restock>
-        <min>1</min>
+        <min>0</min>
         <quantmin>5</quantmin>
         <quantmax>50</quantmax>
         <cost>100</cost>
@@ -3316,10 +3316,10 @@
         <value name="Tier4"/>
     </type>    
         <type name="HBd_KAC_Steel_10_rnd_308win">
-        <nominal>2</nominal>
+        <nominal>0</nominal>
         <lifetime>28800</lifetime>
         <restock>0</restock>
-        <min>1</min>
+        <min>0</min>
         <quantmin>5</quantmin>
         <quantmax>50</quantmax>
         <cost>100</cost>
@@ -3330,10 +3330,10 @@
         <value name="Tier4"/>
     </type>  
         <type name="HBd_KAC_Steel_20_rnd_308win">
-        <nominal>2</nominal>
+        <nominal>0</nominal>
         <lifetime>28800</lifetime>
         <restock>0</restock>
-        <min>1</min>
+        <min>0</min>
         <quantmin>5</quantmin>
         <quantmax>50</quantmax>
         <cost>100</cost>
@@ -3344,10 +3344,10 @@
         <value name="Tier4"/>
     </type>  
         <type name="HBd_Lancer_L7_Mag_20_rnd_308win">
-        <nominal>2</nominal>
+        <nominal>0</nominal>
         <lifetime>28800</lifetime>
         <restock>0</restock>
-        <min>1</min>
+        <min>0</min>
         <quantmin>5</quantmin>
         <quantmax>50</quantmax>
         <cost>100</cost>
@@ -3358,10 +3358,10 @@
         <value name="Tier4"/>
     </type>  
         <type name="HBd_Lancer_L7_Mag_25_rnd_308win">
-        <nominal>2</nominal>
+        <nominal>0</nominal>
         <lifetime>28800</lifetime>
         <restock>0</restock>
-        <min>1</min>
+        <min>0</min>
         <quantmin>5</quantmin>
         <quantmax>50</quantmax>
         <cost>100</cost>
